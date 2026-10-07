@@ -1,0 +1,27 @@
+{
+  "checked_utc": "2026-10-07T10:48:49.493912+00:00",
+  "passed": true,
+  "inputs": [
+    {
+      "input": "Original transfer ZIP",
+      "filename": "blendermcp-transfer-20261007.zip",
+      "sha256": "0f4ae2a9dee77c066c17c00c0c651d94fe651f6a8484a865d50f9f2a8be87843",
+      "matches_preserved_input": true,
+      "bytes": 113371802
+    },
+    {
+      "input": "Original B5 blend",
+      "filename": "GTSD_BJTU_B5_v001.blend",
+      "sha256": "34dae8cd9fe7554225a6d992d450df4fb44c9e28a1688fac8279bff27ced241a",
+      "matches_preserved_input": true,
+      "bytes": 1694114
+    },
+    {
+      "input": "Delivered B7 source blend",
+      "filename": "GTSD_BJTU_B7_detailed.blend",
+      "sha256": "c96811c45220dcdfad0853b73e4743297be7e090d4fb3230a7531eb89b3a4c04",
+      "matches_preserved_input": true,
+      "bytes": 2327901
+    }
+  ]
+}

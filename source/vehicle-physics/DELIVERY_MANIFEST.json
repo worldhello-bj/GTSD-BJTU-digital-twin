@@ -1,0 +1,197 @@
+{
+  "files": {
+    "build_model.py": {
+      "bytes": 8310,
+      "sha256": "9fa316eee3d844c91c4525993f6d4a42cd91065337e2a475426c6ad412b8a5db"
+    },
+    "simulate.py": {
+      "bytes": 8858,
+      "sha256": "3f2d9eb5c2131ecd3613c388d41c7e4e96789b923015730863b664a32b062789"
+    },
+    "live_viewer.py": {
+      "bytes": 1710,
+      "sha256": "e91995f210fab645a3ef2473f1fded88263f9b45188ea1ea3bc605fa6131a5e8"
+    },
+    "render_replay.py": {
+      "bytes": 3368,
+      "sha256": "99177491369f52008b250f00f33907d6bdd9b5feda17b47317108f5ab48cc860"
+    },
+    "verify_and_plot.py": {
+      "bytes": 5945,
+      "sha256": "8549e106dd455475b2182e759fa16d36adec4ad8ceed2afd4e19014ed462591d"
+    },
+    "write_results.py": {
+      "bytes": 5448,
+      "sha256": "ed24527b563d3e24e42bea2932a32cc61169ca00c6d6fe9adb0639653d6b8759"
+    },
+    "README.md": {
+      "bytes": 7653,
+      "sha256": "f4de4218726a85a8be8421e090c29bf7c17e68a59adb7e61d5c797f1d3abc1f3"
+    },
+    "RESULTS_ZH.txt": {
+      "bytes": 2293,
+      "sha256": "313083dae0f304e6059807dd5416bf2824c0e146634cccdedf6d1a32bef11fdd"
+    },
+    "PARAMETER_PROVENANCE.csv": {
+      "bytes": 6376,
+      "sha256": "b506cc48af4aa2ef45817762994e9d777e3936697f720dbb38bf425556f3431d"
+    },
+    "parameters.json": {
+      "bytes": 1264,
+      "sha256": "6d82b647e00675c3efe25baab362e3ae2eb654edb22e9d47337d31dc41d3c058"
+    },
+    "requirements.txt": {
+      "bytes": 99,
+      "sha256": "81ca0c456987b24250f238bc762bfb9826fa63e50479aacf36b28405be35d0a5"
+    },
+    "bogie.xml": {
+      "bytes": 23762,
+      "sha256": "1f4ae39f264c5cc03e2415f6ae787dd3c8be034cd1383c30849e7176a6e48dd3"
+    },
+    "results/torque_off.csv": {
+      "bytes": 183786,
+      "sha256": "68d75922c008170dfd3d7c031b49e9dfc798e5a31a8935905e2abf534b796082"
+    },
+    "results/torque_off.xml": {
+      "bytes": 23762,
+      "sha256": "1f4ae39f264c5cc03e2415f6ae787dd3c8be034cd1383c30849e7176a6e48dd3"
+    },
+    "results/torque_coast.csv": {
+      "bytes": 179481,
+      "sha256": "795ed30daa91d207155f331e9379cb40fe6ed54f928ae191433d5919cc124b92"
+    },
+    "results/torque_coast.xml": {
+      "bytes": 23762,
+      "sha256": "1f4ae39f264c5cc03e2415f6ae787dd3c8be034cd1383c30849e7176a6e48dd3"
+    },
+    "results/torque_brake.csv": {
+      "bytes": 190888,
+      "sha256": "ad88e2c869250fa5912bf91ede0b0ccece4fd4253a656736c9d5f189aba4b466"
+    },
+    "results/torque_brake.xml": {
+      "bytes": 23762,
+      "sha256": "1f4ae39f264c5cc03e2415f6ae787dd3c8be034cd1383c30849e7176a6e48dd3"
+    },
+    "results/loaded_brake.csv": {
+      "bytes": 191437,
+      "sha256": "13c2bb0851c0db4de75ee8be3ce33227a7a65836bb4b0eed47f6162f68197fea"
+    },
+    "results/loaded_brake.xml": {
+      "bytes": 23763,
+      "sha256": "1cbaa7fc5f06441ce7efa1524737cc29dc969717c81ffc11ed1095a135fbb66c"
+    },
+    "results/low_adhesion.csv": {
+      "bytes": 188676,
+      "sha256": "812358cce065e10160d074a34ba77cf149a1a6148b5f85d1efe47ed489e59316"
+    },
+    "results/low_adhesion.xml": {
+      "bytes": 23778,
+      "sha256": "2555c2205aab3fdb94d24d1504b27fef63b1fc38f8f68128b8842a3d1f86ab7b"
+    },
+    "results/brake_mu_zero.csv": {
+      "bytes": 193151,
+      "sha256": "e6a213db687c180e48068e0a78a8c388107d669a2f7f4f2754e7ec71cf322c9b"
+    },
+    "results/brake_mu_zero.xml": {
+      "bytes": 23570,
+      "sha256": "28285e2b1f8ac984a1d0996e9bf38efefb66731feaae5a218119c81688f8ab54"
+    },
+    "results/half_dt.csv": {
+      "bytes": 191066,
+      "sha256": "2bd66db548370dca81674e08741b3b19798d260a4b16d66a13bbb7fbb2656a1b"
+    },
+    "results/half_dt.xml": {
+      "bytes": 23761,
+      "sha256": "6e656a3a46035eba453b1c1c75b174a53113b6d4def76295500ad8afb58aa430"
+    },
+    "results/torque_off_metrics.json": {
+      "bytes": 1030,
+      "sha256": "71c959de418a7d011fbfc186d84754a43ed7f9d65bf90762ca2b4c0225dc27e8"
+    },
+    "results/torque_off_replay.json": {
+      "bytes": 797210,
+      "sha256": "415d6a08458754916aaae43ce3233ce7fb59c01eb9402315adf35cc233bbc374"
+    },
+    "results/torque_coast_metrics.json": {
+      "bytes": 1008,
+      "sha256": "4792be93cf963f4f226ab118342376a3c26ed818dbaf8ebf0dc08b41b4d8067d"
+    },
+    "results/torque_coast_replay.json": {
+      "bytes": 789613,
+      "sha256": "75aae3644fdb9bfc523d6ed88ee12fd9e7a2b4d0f504fcf9b8f40afed446f7cc"
+    },
+    "results/torque_brake_metrics.json": {
+      "bytes": 1080,
+      "sha256": "34953dd4dbbdd3bc16be0fc7145c4663172a14026fe1299825fe5b68473ee2f7"
+    },
+    "results/torque_brake_replay.json": {
+      "bytes": 830399,
+      "sha256": "d609b0b1c06eb9d4f1d42fcbc2cf6d5f11e369cee02e917d876a2bb67f646ce3"
+    },
+    "results/loaded_brake_metrics.json": {
+      "bytes": 1084,
+      "sha256": "361367d6d96e81dc69557c2d1abca14d9af9599bf3b93f2d6c6be0a0fe580b22"
+    },
+    "results/loaded_brake_replay.json": {
+      "bytes": 830693,
+      "sha256": "952f7666481986bd06182500e0469ffa669c295475729a41d4bb349232fea96f"
+    },
+    "results/low_adhesion_metrics.json": {
+      "bytes": 1082,
+      "sha256": "e195cd802583d751f8d5f47230330c2d65ee50038a8f65bbe6748b9cffed63de"
+    },
+    "results/low_adhesion_replay.json": {
+      "bytes": 833979,
+      "sha256": "7d6abe3f7b38fc60e77bcd8f5650baaf021a05f2d6faf302b4227041251c85a7"
+    },
+    "results/brake_mu_zero_metrics.json": {
+      "bytes": 1060,
+      "sha256": "2fa12ac20a39d84a49b976851e2feecb64b4f58c060c37c5eba620081638c510"
+    },
+    "results/brake_mu_zero_replay.json": {
+      "bytes": 830351,
+      "sha256": "d1cb518d1eb7d80490c3963470216875346228ee6c916ca937179a563940738c"
+    },
+    "results/half_dt_metrics.json": {
+      "bytes": 1080,
+      "sha256": "b2e841cce0c93411678614e6d7145efa0a4491cfe0b154266e1dbce04ecca9e1"
+    },
+    "results/half_dt_replay.json": {
+      "bytes": 827999,
+      "sha256": "265e381b4e8b920c91574596a9dfe1846e65a0dc5ba74664dcb6e85f78a44c82"
+    },
+    "results/metrics.json": {
+      "bytes": 7944,
+      "sha256": "5839ca414ecb49799e349fe9e433aed5d5f28cf1e51657e47214d0b1a5cca0cb"
+    },
+    "results/verification.json": {
+      "bytes": 2566,
+      "sha256": "779acbde9d0085d6008f5a7de3c81afaae99eb0ec64312c12bf68bccf822368d"
+    },
+    "results/run_log.jsonl": {
+      "bytes": 6815,
+      "sha256": "9755112c21f6dbe4a71e947aa23242ee9270117fff177d68df045574729202bc"
+    },
+    "results/verification_log.txt": {
+      "bytes": 2567,
+      "sha256": "cc4de5142aa82e49dea3adcdb2b8c5ccf9fd026c8352c9641df9e0da2e0e35ce"
+    },
+    "results/validation_summary.png": {
+      "bytes": 350286,
+      "sha256": "49c9422f57bde4707d5a003a7439a47797e8ed2472d80f49c1919545c09e5b61"
+    },
+    "results/torque_brake_solver_replay.mp4": {
+      "bytes": 2106505,
+      "sha256": "7e92748dd10759f144d71d4c032178a0ca63a07bcb829ecdbdf554f62d1264b0"
+    },
+    "results/torque_brake_poster.png": {
+      "bytes": 91496,
+      "sha256": "c24fb436123669536cae06394a4f130666608ea70b8e3e67c6ba285c3362b288"
+    },
+    "results/torque_brake_braking.png": {
+      "bytes": 98893,
+      "sha256": "749b4f0058018c21cc6df5e364cff3c723ada2c1f58d745e8a8eeaebdc7d3aef"
+    }
+  },
+  "validation": "12 acceptance checks pass with explicit model limitations; no qpos/qvel writes in dynamics; native GUI not interactively tested"
+}

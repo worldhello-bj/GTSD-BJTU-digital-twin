@@ -1,0 +1,524 @@
+{
+  "repository": "worldhello-bj/GTSD-BJTU-digital-twin",
+  "version": "B8",
+  "description": "Frozen original four ZIPs: A/B/D stored in lossless parts; C stored intact. sha is Git blob SHA-1.",
+  "original_artifacts": [
+    {
+      "path": "artifacts/B8/GTSD_BJTU_B8_A_Blender模型与回放.zip",
+      "size": 14423612,
+      "sha256": "72a93511d095425af3ef3e056f81c799380b14689d2a95a586bfcd6333a7ce3d",
+      "sha": "389af8a5717847b2314df2565fd7ca236895d587"
+    },
+    {
+      "path": "artifacts/B8/GTSD_BJTU_B8_B_物理源码与验收.zip",
+      "size": 14371124,
+      "sha256": "6fb2cb82ca3c45ee9e5701a6ca714d3c0e59f6150a8bdd973d211f4bc13093a0",
+      "sha": "772fb5ea06069cb19b58e12d18a9e1d2b4d51efc"
+    },
+    {
+      "path": "artifacts/B8/GTSD_BJTU_B8_C_全部工况数值数据.zip",
+      "size": 11540695,
+      "sha256": "1c5be66ac81dabb2fc4843f330b6d792f39a335263f1f919764e9d92248bbeb2",
+      "sha": "7888d4fb65809a90d43f9e2b2fb8e0a016cb968a"
+    },
+    {
+      "path": "artifacts/B8/GTSD_BJTU_B8_D_其余完整动态轨迹.zip",
+      "size": 14520149,
+      "sha256": "d7596c9f7f3e75fc4207a24042966ccbb9f030dc54a583a15ab89462a447519f",
+      "sha": "84f6c36b371bbfea20f2b25f6b8b69504c81b836"
+    },
+    {
+      "path": "media/B8/b8_overview.png",
+      "size": 1925625,
+      "sha256": "74433622ca6aa6518545bbce39e8c7cdf52de212667d1f1a51ade9d5453591bb",
+      "sha": "7a31a15432f0bb36684dff80d63069e7c2541658"
+    },
+    {
+      "path": "media/B8/service_brake_solver_replay.mp4",
+      "size": 2143907,
+      "sha256": "9b27a152519c815c6772079f87fb221d49bfd96f9f19b16c2a79d3d44fe58c40",
+      "sha": "9be9c50cf58dc9cf8a518b9f7c87ba0a0eb981fd"
+    }
+  ],
+  "split_archives": [
+    {
+      "path": "artifacts/B8/GTSD_BJTU_B8_A_Blender模型与回放.zip",
+      "size": 14423612,
+      "sha256": "72a93511d095425af3ef3e056f81c799380b14689d2a95a586bfcd6333a7ce3d",
+      "sha": "389af8a5717847b2314df2565fd7ca236895d587",
+      "parts": [
+        {
+          "path": "artifacts/B8/GTSD_BJTU_B8_A_Blender模型与回放.zip.part001",
+          "size": 8000000,
+          "sha256": "f75ead2329807f2d2ee175551ba249e6b50ca28af7debac45b91cc14f81ecba4",
+          "sha": "07221b2f5839a8d45de373191f3e3c471aff2f91"
+        },
+        {
+          "path": "artifacts/B8/GTSD_BJTU_B8_A_Blender模型与回放.zip.part002",
+          "size": 6423612,
+          "sha256": "c967160379bec71fcb687486828fa3b1620e95de9e774a6fc15b4e199777646d",
+          "sha": "bf37c706b5a70448e1e8487218d6490826737a5e"
+        }
+      ],
+      "local_reassembly_verified": true
+    },
+    {
+      "path": "artifacts/B8/GTSD_BJTU_B8_B_物理源码与验收.zip",
+      "size": 14371124,
+      "sha256": "6fb2cb82ca3c45ee9e5701a6ca714d3c0e59f6150a8bdd973d211f4bc13093a0",
+      "sha": "772fb5ea06069cb19b58e12d18a9e1d2b4d51efc",
+      "parts": [
+        {
+          "path": "artifacts/B8/GTSD_BJTU_B8_B_物理源码与验收.zip.part001",
+          "size": 8000000,
+          "sha256": "29ed443af509366791e43aaf0a9316d5d8dbd533e764de4737b01ed90a0b6989",
+          "sha": "b3b153c60e90ff12f5ddd50e77ee3592bd6ee6b5"
+        },
+        {
+          "path": "artifacts/B8/GTSD_BJTU_B8_B_物理源码与验收.zip.part002",
+          "size": 6371124,
+          "sha256": "9298e4f68d9466813a532d8abe5b33dd16c4b1d5e0f5e039f6ceefcb738596ab",
+          "sha": "d5ad8d9e13b4055c3bd1f7bb5e86ca6f50621874"
+        }
+      ],
+      "local_reassembly_verified": true
+    },
+    {
+      "path": "artifacts/B8/GTSD_BJTU_B8_D_其余完整动态轨迹.zip",
+      "size": 14520149,
+      "sha256": "d7596c9f7f3e75fc4207a24042966ccbb9f030dc54a583a15ab89462a447519f",
+      "sha": "84f6c36b371bbfea20f2b25f6b8b69504c81b836",
+      "parts": [
+        {
+          "path": "artifacts/B8/GTSD_BJTU_B8_D_其余完整动态轨迹.zip.part001",
+          "size": 8000000,
+          "sha256": "2328c0c5d9b7b04626ac06c0e3d8fefdd438efdc99f863544e4e29bc96e00ac8",
+          "sha": "6142e55d322924f44ac4d7d48d5151fe993d694a"
+        },
+        {
+          "path": "artifacts/B8/GTSD_BJTU_B8_D_其余完整动态轨迹.zip.part002",
+          "size": 6520149,
+          "sha256": "313d0180492c844b125f65e9d86e949a6f98c09a80f2b728e62552b0148b21b3",
+          "sha": "85e4fe955bd3c12fd7a5fe7e3d4a489092364fa2"
+        }
+      ],
+      "local_reassembly_verified": true
+    }
+  ],
+  "stored_files": [
+    {
+      "path": "artifacts/B8/GTSD_BJTU_B8_A_Blender模型与回放.zip.part001",
+      "size": 8000000,
+      "sha256": "f75ead2329807f2d2ee175551ba249e6b50ca28af7debac45b91cc14f81ecba4",
+      "sha": "07221b2f5839a8d45de373191f3e3c471aff2f91"
+    },
+    {
+      "path": "artifacts/B8/GTSD_BJTU_B8_A_Blender模型与回放.zip.part002",
+      "size": 6423612,
+      "sha256": "c967160379bec71fcb687486828fa3b1620e95de9e774a6fc15b4e199777646d",
+      "sha": "bf37c706b5a70448e1e8487218d6490826737a5e"
+    },
+    {
+      "path": "artifacts/B8/GTSD_BJTU_B8_B_物理源码与验收.zip.part001",
+      "size": 8000000,
+      "sha256": "29ed443af509366791e43aaf0a9316d5d8dbd533e764de4737b01ed90a0b6989",
+      "sha": "b3b153c60e90ff12f5ddd50e77ee3592bd6ee6b5"
+    },
+    {
+      "path": "artifacts/B8/GTSD_BJTU_B8_B_物理源码与验收.zip.part002",
+      "size": 6371124,
+      "sha256": "9298e4f68d9466813a532d8abe5b33dd16c4b1d5e0f5e039f6ceefcb738596ab",
+      "sha": "d5ad8d9e13b4055c3bd1f7bb5e86ca6f50621874"
+    },
+    {
+      "path": "artifacts/B8/GTSD_BJTU_B8_C_全部工况数值数据.zip",
+      "size": 11540695,
+      "sha256": "1c5be66ac81dabb2fc4843f330b6d792f39a335263f1f919764e9d92248bbeb2",
+      "sha": "7888d4fb65809a90d43f9e2b2fb8e0a016cb968a"
+    },
+    {
+      "path": "artifacts/B8/GTSD_BJTU_B8_D_其余完整动态轨迹.zip.part001",
+      "size": 8000000,
+      "sha256": "2328c0c5d9b7b04626ac06c0e3d8fefdd438efdc99f863544e4e29bc96e00ac8",
+      "sha": "6142e55d322924f44ac4d7d48d5151fe993d694a"
+    },
+    {
+      "path": "artifacts/B8/GTSD_BJTU_B8_D_其余完整动态轨迹.zip.part002",
+      "size": 6520149,
+      "sha256": "313d0180492c844b125f65e9d86e949a6f98c09a80f2b728e62552b0148b21b3",
+      "sha": "85e4fe955bd3c12fd7a5fe7e3d4a489092364fa2"
+    },
+    {
+      "path": "media/B8/b8_overview.png",
+      "size": 1925625,
+      "sha256": "74433622ca6aa6518545bbce39e8c7cdf52de212667d1f1a51ade9d5453591bb",
+      "sha": "7a31a15432f0bb36684dff80d63069e7c2541658"
+    },
+    {
+      "path": "media/B8/service_brake_solver_replay.mp4",
+      "size": 2143907,
+      "sha256": "9b27a152519c815c6772079f87fb221d49bfd96f9f19b16c2a79d3d44fe58c40",
+      "sha": "9be9c50cf58dc9cf8a518b9f7c87ba0a0eb981fd"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/README_回放适配说明.md",
+      "size": 5685,
+      "sha256": "8288f59f793cc15e4736accd4a7ced55fc061bebb142602be7b5525fbe185230",
+      "sha": "5a69fb9dd8d1770111d7b4fb0793c2659a88fd45"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/START_HERE.txt",
+      "size": 461,
+      "sha256": "6bf95bf76a10f8df75231aad98f027a60bf1398002fc63ae6bdeb0a58d599a06",
+      "sha": "1a4db6f002124a62cab2d4bf9de931585285589a"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/reports/access_binding_contract_tests.json",
+      "size": 611,
+      "sha256": "0cf4fc52aa6f606895568456656ff96fbfe8972a163135c5d6a41cb9f8909699",
+      "sha": "5caa95f4c409abe8550a045d90b1285d54121596"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/reports/access_display_check.json",
+      "size": 2140,
+      "sha256": "d33d345a97c8c111e9d5d9f4e38461e2bcc3da55d089e2b65eec50df33298ea5",
+      "sha": "32cdfe2510b0348687ea933470f2cd065bbc5996"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/reports/access_source_bind_check.json",
+      "size": 9578,
+      "sha256": "1078ba975f26904cf19af19539e08a21dc502944ee5bd9445a82811e57ddb2af",
+      "sha": "faa5c4ffd097786c886db405783c65e9037f8b5c"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/reports/final_display_check.json",
+      "size": 906,
+      "sha256": "962aef69389aac8c425bfdf101b18610245c800595164c2a308bb717a5100c14",
+      "sha": "7da02d5882b7cf4bd7d83693f792185c6b0f6e0f"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/reports/final_mapping.json",
+      "size": 423497,
+      "sha256": "fab522e373ea9e28b39c45c0a984cbe359ae9fa1256a4757c248ce75b581c017",
+      "sha": "de1260ecebddc53dd7701de76328156f421a7868"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/reports/final_readback.json",
+      "size": 1416,
+      "sha256": "06ba37d4bd0e5e2d568495507bc54add3c217cd39eb5b4b091a0b34c9d867acb",
+      "sha": "edba4bb348b649a61609ee0a8f24d13d4f8d9f06"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/reports/source_door_closed_rest.json",
+      "size": 164118,
+      "sha256": "cefcdb9a04dc5f5ea20a6065810ae83ee8e4e1384aa137dc464000056c29071b",
+      "sha": "a27311d0c739988dcbc429c5a1c3e949d70055b8"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/reports/source_mechanism_coverage.json",
+      "size": 14372,
+      "sha256": "21cb1036ff68662da282c68eb4d48a3097cdd70e3e72bf5ab8f5af7902473340",
+      "sha": "55f1055f045eb79c558bf9c1229b5915c782bd45"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/reports/source_preservation_check.json",
+      "size": 838,
+      "sha256": "41453abaf23478baa6a7f5b2a4275f3ef0b40c16fd5120007999cebeb6ef6158",
+      "sha": "aaf91bd1baf5dec85f1315a5f0a7d01205abaedd"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/scripts/append_b8_access_replay.py",
+      "size": 9444,
+      "sha256": "fa85f947de9c6b9c7eed64e32bed38d8a5ed2ce79d3388bcae09792c3120bc8f",
+      "sha": "df0e90fd24a38ae06da3950fb249c28e67a38a85"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/scripts/import_b8_replay.py",
+      "size": 24122,
+      "sha256": "4db08162c313f55e57c89e9c982a7b488ec69689d96bbe5212fd74790a4e6cbf",
+      "sha": "529347cd0f97d7cb0ac42cead2741436a2c0fd27"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/scripts/render_b8_review.py",
+      "size": 2146,
+      "sha256": "f4e2af3aab1a177c57cca6701a835800cd73c9a740baa2eb42fe3ecd424c448f",
+      "sha": "661c957c31853f452abba69985d0a94c1faa85b6"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/scripts/replay_contract.py",
+      "size": 4588,
+      "sha256": "9443d2fbd0d84210d8455eec14ac459b136563d61c628330a51b8d8e69f76d22",
+      "sha": "3abf37132ff22774e0b7c9709604d1b05f3be18f"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/scripts/source_access_bindings.py",
+      "size": 4307,
+      "sha256": "06931994a91bbcf5029306ab4732008c004980528207c990ec460458391c24f3",
+      "sha": "85efea6e4f4b23880d2c574be3e344a67d2840ca"
+    },
+    {
+      "path": "source/GTSD_BJTU_B8/scripts/validate_b8_saved_replays.py",
+      "size": 3101,
+      "sha256": "ce447532e5a12154d40390ea11d024300023eb10c9dacd67932f9cfa52d25c8a",
+      "sha": "28b7f4df415c577235f6af28b8f5f2ff235d25e7"
+    },
+    {
+      "path": "source/vehicle-physics/DELIVERY_MANIFEST.json",
+      "size": 7183,
+      "sha256": "4da12dd1b95a902c4d76e19071a7719cb2806e32e59ebf365b0c8dbc92217c50",
+      "sha": "742ae94fd9aa4cf6f0869f19599379c2f827eb10"
+    },
+    {
+      "path": "source/vehicle-physics/b8/ACCESS_DOORS.md",
+      "size": 12853,
+      "sha256": "628d3f2f3ee0fe7cb96eefd09aa5ddfd1ba219350c461cb94309e0866bdebf46",
+      "sha": "3e026986ffb90a0d2a9d73b574cd3fa1efeb6e95"
+    },
+    {
+      "path": "source/vehicle-physics/b8/B7_PRESERVATION.json",
+      "size": 119,
+      "sha256": "94e0f4979be4a3eb5c8d05113dd9f1d0dafd7ae0b3e77089fb241255b363ee50",
+      "sha": "6a891ccfc139a65578922787a342ec74993a03ae"
+    },
+    {
+      "path": "source/vehicle-physics/b8/BRAKE_CIRCUIT_SCOPE.md",
+      "size": 2335,
+      "sha256": "0406c6466f924ef2b978f11e23c30d2a222ed86fbf458d32fb463adba8fd167d",
+      "sha": "c0b873a21bc348d6531a02c5c6b3d31d56d67f4c"
+    },
+    {
+      "path": "source/vehicle-physics/b8/CONTACT_REPAIR.md",
+      "size": 2700,
+      "sha256": "f7cd9cb0271b1d08c847e7edf0447d0040e9f93792263becc0a8884f48e23375",
+      "sha": "fdcc65495074a3e31976b23073f13658ddc3944c"
+    },
+    {
+      "path": "source/vehicle-physics/b8/COVERAGE.md",
+      "size": 5152,
+      "sha256": "4510e3cd1bbe07861a0631720eb24e51f727c577281eb59bcb0dacd88a004ed5",
+      "sha": "7fc32a79fbad2454b5df992fdb7c923db7018a0e"
+    },
+    {
+      "path": "source/vehicle-physics/b8/FINAL_ACCEPTANCE.md",
+      "size": 4212,
+      "sha256": "378a73990a0d72891b720c176441980d4419b2e7efe6ffe309e781c95b533f7c",
+      "sha": "563ecda453958359963974c4934596a2fc82c89f"
+    },
+    {
+      "path": "source/vehicle-physics/b8/LIVE_CONTROLS.md",
+      "size": 11302,
+      "sha256": "84d256df0237729eb7bfac928c6cebfb2c2fc3165bd209a6236e7830daf175ca",
+      "sha": "e91b1425d584c0cb30b503a86fda5f03abb94be0"
+    },
+    {
+      "path": "source/vehicle-physics/b8/PANTOGRAPH.md",
+      "size": 12701,
+      "sha256": "9aa53b3e88e9694213246f72e18f23593437184ece033102b77c5aac84c8fbb7",
+      "sha": "773e6cbfd4dbd4ab17846bf36bce7bccbbf29641"
+    },
+    {
+      "path": "source/vehicle-physics/b8/PARAMETER_PROVENANCE.csv",
+      "size": 21537,
+      "sha256": "c59e09fd124ef33ffd5fb10a24053a30c15248804c0d87b749637e7867e8ede8",
+      "sha": "a252f5b40bcfa05815c94510f0ed0c9fc9be7b23"
+    },
+    {
+      "path": "source/vehicle-physics/b8/PNEUMATICS.md",
+      "size": 20064,
+      "sha256": "9eb8c4a0da68c138a650bb5cd326f9628d86a3f4c2770315616fbe3075c718b0",
+      "sha": "7ea4ff8d100cb708cb10c5a8a8268530539f096c"
+    },
+    {
+      "path": "source/vehicle-physics/b8/README.md",
+      "size": 5482,
+      "sha256": "0c296ed0e64e6881e65582b6917d2083fa44546fe38bb6ea0d3e42795363782f",
+      "sha": "375cd28b7ecbffb6935bab657652d0b4754755d1"
+    },
+    {
+      "path": "source/vehicle-physics/b8/RESULTS_ZH.txt",
+      "size": 6246,
+      "sha256": "e3e0649234532144ba8153f3c4af5c6e118f2f2c2333aae76424cf7ea07b6c68",
+      "sha": "dfe14b1ef340d86b1ff247f63f3c49c46c9b646e"
+    },
+    {
+      "path": "source/vehicle-physics/b8/SOURCE_CONSISTENCY.md",
+      "size": 4645,
+      "sha256": "964b8b83d5ff62e29654984691d58f16fd7ddfba9abbd7710b78145c1699af78",
+      "sha": "2e773cfd5b159892dbace80897e62ed0cf91943d"
+    },
+    {
+      "path": "source/vehicle-physics/b8/access_doors.py",
+      "size": 27803,
+      "sha256": "4bdc4dec211189ff065f1101c14d4641e707582af7bf6e3214174aba2acd5d32",
+      "sha": "e855b3bf297891a8df177ac09f17035960b4f7da"
+    },
+    {
+      "path": "source/vehicle-physics/b8/compliant_contact.py",
+      "size": 7630,
+      "sha256": "bf3f152f3b2702b1f1a74a197031877065f9b2992d19396e7c272084c0942a09",
+      "sha": "760f80a82ee5d37893f027f34d4b6e07df4c01dc"
+    },
+    {
+      "path": "source/vehicle-physics/b8/diagnose_flange.py",
+      "size": 8154,
+      "sha256": "1836252e6ab39539e751c40c64df3458ce0d2c13cb85e249a3480c3690cdfd8f",
+      "sha": "d718fbdb19149fc60a222e34d25e2ea0a742720b"
+    },
+    {
+      "path": "source/vehicle-physics/b8/full_model.py",
+      "size": 10485,
+      "sha256": "ce45ceb8ebfd5eb8c41810220a717341ca3f6ade5e977d9fb160f76231e67321",
+      "sha": "96297f7a1840fee0022b9e6fa38babfed3eafc76"
+    },
+    {
+      "path": "source/vehicle-physics/b8/live_viewer_full.py",
+      "size": 21385,
+      "sha256": "f76055ba0b1f5b9fe03f79936fa02aa800c064c90ec73ce17056e971055d62fa",
+      "sha": "2d684a1794eea63748c743e277813c816922ad3f"
+    },
+    {
+      "path": "source/vehicle-physics/b8/package_delivery.py",
+      "size": 5906,
+      "sha256": "60f06722cbf1592e80c55e179d2e05b07bb2762f859ad16ebc68c06d9b7a2d6d",
+      "sha": "4aab075b172aad9db88617883c52d900ffda02b9"
+    },
+    {
+      "path": "source/vehicle-physics/b8/pantograph.py",
+      "size": 14277,
+      "sha256": "cbf89c6637cb14dbe62be0389d3fdb67592f2161cfdbf79729d8b87e23745e87",
+      "sha": "828d9f8cbc140cc798daf6c36715b17c3944c869"
+    },
+    {
+      "path": "source/vehicle-physics/b8/pantograph_results/verification.json",
+      "size": 7727,
+      "sha256": "ba890baf7ac507e8b02764e286d4051a151a67de1699134b41aed75eda151ced",
+      "sha": "e6dde4d5c23a601310abdadf79be87f26bd51424"
+    },
+    {
+      "path": "source/vehicle-physics/b8/parameters.json",
+      "size": 3218,
+      "sha256": "7109e6f4be9bd114569ea006b88e379de92e446b7499df2750a020b73faffa83",
+      "sha": "a538726d1bf45b543b96069b28a981c9e5d4eea0"
+    },
+    {
+      "path": "source/vehicle-physics/b8/plot_contact_acceptance.py",
+      "size": 2772,
+      "sha256": "1121945e9ede1ae6249cbcc3742745ad3b512dd4fe529a13126ef44fe02c5627",
+      "sha": "97bd523191c76bb4b0c67c6c7f0b70470161147f"
+    },
+    {
+      "path": "source/vehicle-physics/b8/plot_full.py",
+      "size": 4825,
+      "sha256": "81a69fd62d818074aa6193a5587909fd7026f2d1ec753b09e1c757905c0e1469",
+      "sha": "626eac5432e5e053c12adc8caf8a0ca242e35784"
+    },
+    {
+      "path": "source/vehicle-physics/b8/pneumatics.py",
+      "size": 25685,
+      "sha256": "a96d81f70e347319ad055c0fea4aa06933f762e01910522377c81a16dc6a1915",
+      "sha": "5a0dfe7c7090fb752fdc7e8662b706d3f4b4a70b"
+    },
+    {
+      "path": "source/vehicle-physics/b8/render_full.py",
+      "size": 3524,
+      "sha256": "b5bcf6f12380e0719e6a0dc0e1146ec04ac4dc3c548b764ce3e03e18a8be9c88",
+      "sha": "23bec50cf3bf0bcd4abcf9d709f75bf87b583557"
+    },
+    {
+      "path": "source/vehicle-physics/b8/results/physics_run_identity.json",
+      "size": 103718,
+      "sha256": "1b2af9c58e3e051e2b41f81a2cd340d43fad2b50517ad5a963b3ec33599f54e2",
+      "sha": "932fdbea489abdb5e127e5f6358b65a0faed8267"
+    },
+    {
+      "path": "source/vehicle-physics/b8/results/verification.json",
+      "size": 41565,
+      "sha256": "4282c0f05d810e30fca448f1986040c4f614683e7356621ed54854fe88abe912",
+      "sha": "e89227b086283ca67f4b8ede6bc6578b7f1211f9"
+    },
+    {
+      "path": "source/vehicle-physics/b8/run_compliant_candidate.py",
+      "size": 12120,
+      "sha256": "2bf89fb796e9c8a3e5aa428276abe8f20e2cc6dc5a6e5e6fdf6266b096f27ca7",
+      "sha": "db9248af75691f9c8385db415f59dc22ae7fd852"
+    },
+    {
+      "path": "source/vehicle-physics/b8/run_overload_diagnostic.py",
+      "size": 950,
+      "sha256": "aa12915a94bb0e22d0d01ac2ebaa7ad6e4a252c52d56cf7dba4b9d3cba7e4bee",
+      "sha": "d4e804b990750b6d6428aef649594b5c6c0b3cfa"
+    },
+    {
+      "path": "source/vehicle-physics/b8/run_suite.py",
+      "size": 871,
+      "sha256": "707e8a16b228c85ca4ba905cc322600c73f9bf07df9f6acf7d8621a5cd92deae",
+      "sha": "9bfc56caef868cf8ea35e4c7e7c11a194b3adc6d"
+    },
+    {
+      "path": "source/vehicle-physics/b8/simulate_full.py",
+      "size": 22262,
+      "sha256": "b96df8388a6f9fda55acb4b88d083397fe61ff73890462e6729b4a9d1a8e4766",
+      "sha": "eb3812584c3596f6de20a830a50a9efc642730a2"
+    },
+    {
+      "path": "source/vehicle-physics/b8/test_access_doors.py",
+      "size": 13786,
+      "sha256": "af842b7baa9fd3a1e67d103e907983dbcc3491063458196cd06cdc71041b5fd6",
+      "sha": "cf0bb1cc8afd99fc2b78fc77e466c86ff0bf7573"
+    },
+    {
+      "path": "source/vehicle-physics/b8/test_compliant_contact.py",
+      "size": 5503,
+      "sha256": "9d8b0178a2496a202637cfd8a0d83bc353821e0b00df4812373a5e4e377dd837",
+      "sha": "a748c6543f62ca751eaaddfa1cd83295bc03f0ff"
+    },
+    {
+      "path": "source/vehicle-physics/b8/test_contact_candidates.py",
+      "size": 3147,
+      "sha256": "0a041a1cfe946d42eeaf796aff07a5225df6baca8219c1d585fdf7f4eb0c2643",
+      "sha": "4d710b326257c5056437833fd1f31abbaebead47"
+    },
+    {
+      "path": "source/vehicle-physics/b8/test_live_controls.py",
+      "size": 11680,
+      "sha256": "bd304e8f3b56b811b1f1579a17aed1cf5d1c4075e77f76da9e367c10100822fe",
+      "sha": "5a320996ab25f96310ad6d30cea6da1c3c6c3ba8"
+    },
+    {
+      "path": "source/vehicle-physics/b8/test_pantograph.py",
+      "size": 13552,
+      "sha256": "ec327feb606849cdda601a0c428e0ca32a3839357d2d5f45719770c7f76f4404",
+      "sha": "4a2905a5fa4da8e19e311ffcd45d09e9c558ca20"
+    },
+    {
+      "path": "source/vehicle-physics/b8/test_pneumatics.py",
+      "size": 12970,
+      "sha256": "39ee852e9a299919d6fc563a4fd334f99e54290055e715b5034570f135b8ce4b",
+      "sha": "e33cf43d5cd99d05df069c6853d5a0e472a5ede4"
+    },
+    {
+      "path": "source/vehicle-physics/b8/verify_full.py",
+      "size": 11588,
+      "sha256": "a9e39e307a2b798a75e0b2d9571da7764df0a7753aa841bb014053e6ee3818d8",
+      "sha": "c14bdb0e011a3265818ac0530a4ab6854070dec3"
+    },
+    {
+      "path": "source/vehicle-physics/b8/write_report.py",
+      "size": 11069,
+      "sha256": "9fe74c5a6685101a70b434a4da2281a168353ecef275b52a0f7907a89ac6e901",
+      "sha": "84f2ad9924412d903bd6566bde46cb7d9ea96062"
+    },
+    {
+      "path": "source/vehicle-physics/build_model.py",
+      "size": 8310,
+      "sha256": "9fa316eee3d844c91c4525993f6d4a42cd91065337e2a475426c6ad412b8a5db",
+      "sha": "111bb93b622dbfdae8dd1439f5a7aa307c69bcc9"
+    },
+    {
+      "path": "source/vehicle-physics/requirements.txt",
+      "size": 99,
+      "sha256": "81ca0c456987b24250f238bc762bfb9826fa63e50479aacf36b28405be35d0a5",
+      "sha": "a9117568a6ce9b59cd55b7ffb568026a2360ea39"
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "passed": true,
+  "parts": 84,
+  "maximum_matrix_error": 0.0,
+  "source_unchanged": true,
+  "status": "CLOSED_SOURCE_BIND_ONLY_NO_TRAJECTORY_TEST",
+  "records": [
+    {
+      "source": "CarBody_Window_03",
+      "hinge": "BayDoor_L",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "CarBody_BayDoor_L",
+      "hinge": "BayDoor_L",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_Band_L_1",
+      "hinge": "BayDoor_L",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_Window_L_1_2",
+      "hinge": "BayDoor_L",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_Stripe_L_1_0.985",
+      "hinge": "BayDoor_L",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_Stripe_L_1_0.933",
+      "hinge": "BayDoor_L",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorStiffener_L_1",
+      "hinge": "BayDoor_L",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorLatch_L_1",
+      "hinge": "BayDoor_L",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorHinge_L_1_0",
+      "hinge": "BayDoor_L",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorHinge_L_1_1",
+      "hinge": "BayDoor_L",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "CarBody_BayDoor_R",
+      "hinge": "BayDoor_R",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_Band_R_0",
+      "hinge": "BayDoor_R",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_Window_R_0_1",
+      "hinge": "BayDoor_R",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_Window_R_0_2",
+      "hinge": "BayDoor_R",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_Stripe_R_0_0.985",
+      "hinge": "BayDoor_R",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_Stripe_R_0_0.933",
+      "hinge": "BayDoor_R",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorStiffener_R_0",
+      "hinge": "BayDoor_R",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorLatch_R_0",
+      "hinge": "BayDoor_R",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorHinge_R_0_0",
+      "hinge": "BayDoor_R",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorHinge_R_0_1",
+      "hinge": "BayDoor_R",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "CarBody_WindowBand",
+      "hinge": "BayDoor_L_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "CarBody_Window_01",
+      "hinge": "BayDoor_L_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "CarBody_Window_02",
+      "hinge": "BayDoor_L_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "CarBody_Stripe",
+      "hinge": "BayDoor_L_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "CarBody_BayDoor_L_Secondary",
+      "hinge": "BayDoor_L_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_Stripe_L_0_0.933",
+      "hinge": "BayDoor_L_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorStiffener_L_0",
+      "hinge": "BayDoor_L_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorLatch_L_0",
+      "hinge": "BayDoor_L_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorHinge_L_0_0",
+      "hinge": "BayDoor_L_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorHinge_L_0_1",
+      "hinge": "BayDoor_L_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "CarBody_BayDoor_R_Secondary",
+      "hinge": "BayDoor_R_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_Band_R_1",
+      "hinge": "BayDoor_R_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_Window_R_1_2",
+      "hinge": "BayDoor_R_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_Window_R_1_3",
+      "hinge": "BayDoor_R_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_Stripe_R_1_0.985",
+      "hinge": "BayDoor_R_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_Stripe_R_1_0.933",
+      "hinge": "BayDoor_R_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorStiffener_R_1",
+      "hinge": "BayDoor_R_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorLatch_R_1",
+      "hinge": "BayDoor_R_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorHinge_R_1_0",
+      "hinge": "BayDoor_R_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_DoorHinge_R_1_1",
+      "hinge": "BayDoor_R_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_BayFanSquareFrame",
+      "hinge": "BayDoor_R_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "Aux_BayFan",
+      "hinge": "BayDoor_R_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_BayFanGrille",
+      "hinge": "BayDoor_R_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B1_BayFanBolts",
+      "hinge": "BayDoor_R_Secondary",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_Door",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_HMI",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_HMIbar",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_HMIbar.001",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_HMIbar.002",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_HMIbar.003",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_Handle",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_Vent",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_Vent.001",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_Vent.002",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_Vent.003",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_Vent.004",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_Vent.005",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_Vent.006",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_Vent.007",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_Vent.008",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_Label",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_Button",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_PWR 01_Button.001",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B5_PWR 01_DoorEarthLug",
+      "hinge": "B5_PWR 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_Door",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_HMI",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_HMIbar",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_HMIbar.001",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_HMIbar.002",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_HMIbar.003",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_Handle",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_Vent",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_Vent.001",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_Vent.002",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_Vent.003",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_Vent.004",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_Vent.005",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_Vent.006",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_Vent.007",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_Vent.008",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_Label",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_Button",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B4_DAQ 01_Button.001",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    },
+    {
+      "source": "B5_DAQ 01_DoorEarthLug",
+      "hinge": "B5_DAQ 01_DoorPivot",
+      "matrix_error": 0.0
+    }
+  ]
+}

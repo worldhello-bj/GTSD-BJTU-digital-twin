@@ -1,0 +1,118 @@
+parameter,value,unit,status,source,sensitivity_note
+wheel_radius_m,0.14,m,SOURCE_MODEL_UNVERIFIED_DIMENSION,"Source project geometry, not as-built measurement",Hold source geometry for identity; vary only with verified CAD/measurement
+wheel_tread_centers_m,0.478,m,SOURCE_MODEL_UNVERIFIED_DIMENSION,"Source project geometry, not as-built measurement",Hold source geometry for identity; vary only with verified CAD/measurement
+wheelbase_m,1.1,m,SOURCE_MODEL_UNVERIFIED_DIMENSION,"Source project geometry, not as-built measurement",Hold source geometry for identity; vary only with verified CAD/measurement
+rail_length_m,40.0,m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+rail_top_m,0.04,m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+frame_mass_kg,40,kg,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+payload_mass_kg,60,kg,LEGACY_UNUSED_IN_B8,Inherited B7 key; B8 removes payload/direct pad force,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+axle_carrier_mass_kg,3,kg,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+wheelset_mass_kg,12,kg,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+motor_rotor_mass_kg,4,kg,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+primary_stiffness_Npm,15000,N / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+primary_damping_Nspm,250,N s / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+secondary_stiffness_Npm,25000,N / m,LEGACY_UNUSED_IN_B8,Inherited B7 key; B8 removes payload/direct pad force,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+secondary_damping_Nspm,400,N s / m,LEGACY_UNUSED_IN_B8,Inherited B7 key; B8 removes payload/direct pad force,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+gear_ratio,2,dimensionless or component vector,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+motor_torque_cap_Nm,4,N m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+motor_power_cap_W,250,W,PROCUREMENT_POWER_WITH_MODEL_ENVELOPE,BJTU procurement 24 V / 250 W; torque/power control envelope remains assumed,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+wheel_rail_mu,0.3,dimensionless or component vector,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+pad_disc_mu,0.35,dimensionless or component vector,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+pad_force_N,30,N,LEGACY_UNUSED_IN_B8,Inherited B7 key; B8 removes payload/direct pad force,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+disc_radius_m,0.112,m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+disc_thickness_m,0.015,m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+pad_release_gap_m,0.0015,m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+pad_radial_x_m,0.075,m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+pad_radial_z_m,0.014,m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+timestep_s,0.00005,s,NUMERICAL_VERIFIED_NOT_HARDWARE,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+frame_inertia_kgm2,"[1.5, 7, 8]",kg m^2,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Topology/configuration or vector; see module documentation
+payload_inertia_per_kg_m2,"[0.05, 0.2, 0.21666666666666667]",m^2,LEGACY_UNUSED_IN_B8,Inherited B7 key; B8 removes payload/direct pad force,Topology/configuration or vector; see module documentation
+carrier_inertia_kgm2,"[0.04, 0.04, 0.04]",kg m^2,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Topology/configuration or vector; see module documentation
+wheelset_inertia_kgm2,"[0.65, 0.14, 0.65]",kg m^2,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Topology/configuration or vector; see module documentation
+rotor_inertia_kgm2,"[0.007, 0.007, 0.009]",kg m^2,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Topology/configuration or vector; see module documentation
+pad_mass_kg,0.1,kg,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+pad_inertia_kgm2,"[2.6e-05, 3.7e-05, 1.2e-05]",kg m^2,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Topology/configuration or vector; see module documentation
+pad_return_stiffness_Npm,1000,N / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+pad_guide_damping_Nspm,50,N s / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+axle_bearing_damping_Nmsprad,0.002,N m s / rad,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+rotor_bearing_damping_Nmsprad,0.0002,N m s / rad,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+car_mass_kg,60.0,kg,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+bogie_spacing_m,2.6,m,SOURCE_MODEL_UNVERIFIED_DIMENSION,"Source project geometry, not as-built measurement",Hold source geometry for identity; vary only with verified CAD/measurement
+car_inertia_kgm2,"[10.025, 36.7625, 35.7625]",kg m^2,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Topology/configuration or vector; see module documentation
+secondary_x_stiffness_Npm,20000.0,N / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+secondary_y_stiffness_Npm,40000.0,N / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+secondary_z_stiffness_Npm,2000.0,N / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required; effective backup stiffness with airsprings enabled,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+secondary_x_damping_Nspm,700.0,N s / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+secondary_y_damping_Nspm,700.0,N s / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+secondary_z_damping_Nspm,650.0,N s / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+secondary_roll_stiffness_Nmprad,3000.0,N m / rad,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+secondary_pitch_stiffness_Nmprad,1500.0,N m / rad,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+secondary_yaw_stiffness_Nmprad,1500.0,N m / rad,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+secondary_roll_damping_Nmsprad,120.0,N m s / rad,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+secondary_pitch_damping_Nmsprad,180.0,N m s / rad,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+secondary_yaw_damping_Nmsprad,120.0,N m s / rad,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+primary_x_stiffness_Npm,40000.0,N / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+primary_y_stiffness_Npm,30000.0,N / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+primary_roll_stiffness_Nmprad,1500.0,N m / rad,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+primary_yaw_stiffness_Nmprad,2000.0,N m / rad,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+primary_x_damping_Nspm,300.0,N s / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+primary_y_damping_Nspm,300.0,N s / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+primary_roll_damping_Nmsprad,25.0,N m s / rad,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+primary_yaw_damping_Nmsprad,35.0,N m s / rad,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+flange_radius_m,0.149,m,SOURCE_MODEL_UNVERIFIED_DIMENSION,"Source project geometry, not as-built measurement",Hold source geometry for identity; vary only with verified CAD/measurement
+flange_halfwidth_m,0.004,m,SOURCE_MODEL_UNVERIFIED_DIMENSION,"Source project geometry, not as-built measurement",Hold source geometry for identity; vary only with verified CAD/measurement
+flange_center_m,0.213,m,SOURCE_MODEL_UNVERIFIED_DIMENSION,"Source project geometry, not as-built measurement",Hold source geometry for identity; vary only with verified CAD/measurement
+brake_piston_area_m2,6e-05,m^2,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+brake_dead_volume_m3,2e-06,m^3,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+include_pantograph,false,dimensionless or component vector,MODEL_CONFIGURATION,Synthetic force-driven prototype; identification required,Topology/configuration or vector; see module documentation
+include_air_springs,true,dimensionless or component vector,MODEL_CONFIGURATION,Synthetic force-driven prototype; identification required,Topology/configuration or vector; see module documentation
+airspring_area_m2,0.0015,m^2,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+airspring_dead_volume_m3,0.000125,m^3,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+airspring_initial_pressure_Pa,200000.0,Pa absolute,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+secondary_backup_stiffness_Npm,2000.0,N / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+powered_bogies,"[""A""]",dimensionless or component vector,MODEL_CONFIGURATION,Synthetic force-driven prototype; identification required,Topology/configuration or vector; see module documentation
+car_center_height_m,1.095,m,SOURCE_MODEL_UNVERIFIED_DIMENSION,"Source project geometry, not as-built measurement",Hold source geometry for identity; vary only with verified CAD/measurement
+bogie_frame_height_m,0.37,m,SOURCE_MODEL_UNVERIFIED_DIMENSION,"Source project geometry, not as-built measurement",Hold source geometry for identity; vary only with verified CAD/measurement
+car_length_m,2.5,m,SOURCE_MODEL_UNVERIFIED_DIMENSION,"Source project geometry, not as-built measurement",Hold source geometry for identity; vary only with verified CAD/measurement
+car_width_m,0.95,m,SOURCE_MODEL_UNVERIFIED_DIMENSION,"Source project geometry, not as-built measurement",Hold source geometry for identity; vary only with verified CAD/measurement
+car_height_m,1.05,m,SOURCE_MODEL_UNVERIFIED_DIMENSION,"Source project geometry, not as-built measurement",Hold source geometry for identity; vary only with verified CAD/measurement
+panto_mount_local_z_m,0.609,m,SOURCE_MODEL_UNVERIFIED_DIMENSION,"Source project geometry, not as-built measurement",Hold source geometry for identity; vary only with verified CAD/measurement
+panto_mount_local_x_m,-0.85,m,SOURCE_MODEL_UNVERIFIED_DIMENSION,"Source project geometry, not as-built measurement",Hold source geometry for identity; vary only with verified CAD/measurement
+overhead_height_m,1.93,m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+coupler_stiffness_Npm,30000.0,N / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+coupler_damping_Nspm,400.0,N s / m,CALIBRATION_ASSUMPTION,Synthetic force-driven prototype; identification required,Not an operating limit. Proposed sensitivity: 0.5–2× baseline
+panto.link_length_m,0.16,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.minimum_lift_m,0.055,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.maximum_lift_m,0.22,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.parallel_link_offset_m,0.034,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.pivot_height_above_base_m,0.034,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.folded_angle_rad,0.17273267816447335,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.max_angle_rad,0.758040765426236,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.link_mass_kg,0.025,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.balance_mass_kg,0.007,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.carrier_mass_kg,0.01,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.link_radius_m,0.007,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.head_mass_kg,0.08,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.head_half_length_y_m,0.18,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.head_half_width_x_m,0.01,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.head_thickness_m,0.009,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.head_contact_offset_z_m,0.045,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.head_contact_spacing_x_m,0.062,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.cylinder_base_x_m,-0.085,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.cylinder_base_y_m,-0.105,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.cylinder_base_z_m,0.0,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.cylinder_arm_attachment_m,0.08,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.cylinder_area_m2,0.0002,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.cylinder_force_sign,-1,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.return_stiffness_Npm,80.0,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.root_return_stiffness_Nmprad,0.03,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.hinge_damping_Nmsprad,0.003,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.cylinder_max_force_N,200.0,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.contact_friction,0.12,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+panto.collision_bit,8,SI; see PANTOGRAPH.md,SOURCE_GEOMETRY_OR_CALIBRATION_ASSUMPTION,See per-parameter PANTOGRAPH.md provenance,Do not infer mass/density from visual mesh
+compliant_wheel_rail,True,boolean,ASSUMED_OR_NUMERICAL,Explicit HC wheel/rail law; removes native wheel rail forces only,See CONTACT_REPAIR.md / ACCESS_DOORS.md; no real-device calibration
+contact_stiffness_Npm,2000000,N/m,ASSUMED_OR_NUMERICAL,Assumed equivalent compliance; not Hertz steel material stiffness,See CONTACT_REPAIR.md / ACCESS_DOORS.md; no real-device calibration
+contact_dissipation_spm,40,s/m,ASSUMED_OR_NUMERICAL,Assumed Hunt-Crossley dissipation; not measured,See CONTACT_REPAIR.md / ACCESS_DOORS.md; no real-device calibration
+contact_regularization_mps,0.005,m/s,ASSUMED_OR_NUMERICAL,Continuous low-slip regularization; sensitivity/calibration needed,See CONTACT_REPAIR.md / ACCESS_DOORS.md; no real-device calibration
+contact_distance_tolerance,1e-12,m,ASSUMED_OR_NUMERICAL,Zero-bound penetration query checked against analytic geometry; not a physical parameter,See CONTACT_REPAIR.md / ACCESS_DOORS.md; no real-device calibration
+access_doors,6,count,ASSUMED_OR_NUMERICAL,Six source hinge mechanisms; mass/torque/spring assumptions in ACCESS_DOORS.md,See CONTACT_REPAIR.md / ACCESS_DOORS.md; no real-device calibration

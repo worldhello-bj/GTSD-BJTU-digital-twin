@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "test": "all six doors and two fixed supports register",
+      "pass": true
+    },
+    {
+      "test": "historical no-door replay remains disabled",
+      "pass": true
+    },
+    {
+      "test": "partial extension rejected",
+      "pass": true
+    },
+    {
+      "test": "wrong source identity rejected",
+      "pass": true
+    },
+    {
+      "test": "wrong hinge translation rejected",
+      "pass": true
+    },
+    {
+      "test": "missing cabinet support rejected",
+      "pass": true
+    }
+  ],
+  "passed": true,
+  "status": "display binding contract only; no trajectory baked"
+}

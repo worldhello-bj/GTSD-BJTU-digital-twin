@@ -1,0 +1,372 @@
+{
+  "basis": "Actual B7 actions/drivers/26bones plus inspected source code; read-only",
+  "source_hash": "c96811c45220dcdfad0853b73e4743297be7e090d4fb3230a7531eb89b3a4c04",
+  "source_nonconstant_curves": 17,
+  "source_driver_channels": 585,
+  "items": [
+    {
+      "mechanism": "Four vehicle inspection doors",
+      "status_in_source": "ACTUALLY_ANIMATED",
+      "controls": [
+        "BayDoor_L",
+        "BayDoor_R",
+        "BayDoor_L_Secondary",
+        "BayDoor_R_Secondary"
+      ],
+      "objects": {
+        "BayDoor_L": [
+          "CarBody_Window_03",
+          "CarBody_BayDoor_L",
+          "B1_Band_L_1",
+          "B1_Window_L_1_2",
+          "B1_Stripe_L_1_0.985",
+          "B1_Stripe_L_1_0.933",
+          "B1_DoorStiffener_L_1",
+          "B1_DoorLatch_L_1",
+          "B1_DoorHinge_L_1_0",
+          "B1_DoorHinge_L_1_1"
+        ],
+        "BayDoor_R": [
+          "CarBody_BayDoor_R",
+          "B1_Band_R_0",
+          "B1_Window_R_0_1",
+          "B1_Window_R_0_2",
+          "B1_Stripe_R_0_0.985",
+          "B1_Stripe_R_0_0.933",
+          "B1_DoorStiffener_R_0",
+          "B1_DoorLatch_R_0",
+          "B1_DoorHinge_R_0_0",
+          "B1_DoorHinge_R_0_1"
+        ],
+        "BayDoor_L_Secondary": [
+          "CarBody_WindowBand",
+          "CarBody_Window_01",
+          "CarBody_Window_02",
+          "CarBody_Stripe",
+          "CarBody_BayDoor_L_Secondary",
+          "B1_Stripe_L_0_0.933",
+          "B1_DoorStiffener_L_0",
+          "B1_DoorLatch_L_0",
+          "B1_DoorHinge_L_0_0",
+          "B1_DoorHinge_L_0_1"
+        ],
+        "BayDoor_R_Secondary": [
+          "CarBody_BayDoor_R_Secondary",
+          "B1_Band_R_1",
+          "B1_Window_R_1_2",
+          "B1_Window_R_1_3",
+          "B1_Stripe_R_1_0.985",
+          "B1_Stripe_R_1_0.933",
+          "B1_DoorStiffener_R_1",
+          "B1_DoorLatch_R_1",
+          "B1_DoorHinge_R_1_0",
+          "B1_DoorHinge_R_1_1",
+          "B1_BayFanSquareFrame",
+          "Aux_BayFan",
+          "B1_BayFanGrille",
+          "B1_BayFanBolts"
+        ]
+      },
+      "motion": "Main leaves 0 to -1.31 rad; secondary leaves mirror to +1.31 rad, world Z hinge; frames356/386/416/446",
+      "b8_current": "Force-driven hinge bodies with assigned inertia, torque input, spring/damping/friction, joint end stops and ideal closed latch. Original leaf meshes follow recorded integrated solver poses.",
+      "needed": "Four hinge bodies, inertia, torque/force input, friction/damping, contact stops and latch state; coupled panels and fan fittings must follow",
+      "source": [
+        "src/refine_b1.py:250-277",
+        "src/refine_b1.py:307-347",
+        "src/build_a0.py:1609-1621"
+      ],
+      "b8_prior_checkpoint": "Attached closed to A_carbody, no door hinge/latch/stop solve",
+      "remaining": "Assumed parameters; no independent handle/spindle mechanism or source-mesh door obstacle collision."
+    },
+    {
+      "mechanism": "Two stationary cabinet doors",
+      "status_in_source": "MANUALLY_DRIVEN_ARTICULATION",
+      "controls": [
+        "B5_Inspection_Control[cabinet_open_deg]"
+      ],
+      "objects": [
+        {
+          "pivot": "B5_PWR 01_DoorPivot",
+          "position": [
+            2.2639999389648438,
+            2.7190001010894775,
+            0.05000000074505806
+          ],
+          "children": [
+            "B4_PWR 01_Door",
+            "B4_PWR 01_HMI",
+            "B4_PWR 01_HMIbar",
+            "B4_PWR 01_HMIbar.001",
+            "B4_PWR 01_HMIbar.002",
+            "B4_PWR 01_HMIbar.003",
+            "B4_PWR 01_Handle",
+            "B4_PWR 01_Vent",
+            "B4_PWR 01_Vent.001",
+            "B4_PWR 01_Vent.002",
+            "B4_PWR 01_Vent.003",
+            "B4_PWR 01_Vent.004",
+            "B4_PWR 01_Vent.005",
+            "B4_PWR 01_Vent.006",
+            "B4_PWR 01_Vent.007",
+            "B4_PWR 01_Vent.008",
+            "B4_PWR 01_Label",
+            "B4_PWR 01_Button",
+            "B4_PWR 01_Button.001",
+            "B5_PWR 01_DoorEarthLug"
+          ],
+          "drivers": [
+            {
+              "id_type": "objects",
+              "owner": "B5_PWR 01_DoorPivot",
+              "path": "rotation_euler",
+              "index": 2,
+              "expression": "-a*pi/180",
+              "variables": [
+                {
+                  "variable": "a",
+                  "type": "SINGLE_PROP",
+                  "targets": [
+                    {
+                      "id": "B5_Inspection_Control",
+                      "path": "[\"cabinet_open_deg\"]",
+                      "bone": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pivot": "B5_DAQ 01_DoorPivot",
+          "position": [
+            3.2839999198913574,
+            2.7190001010894775,
+            0.05000000074505806
+          ],
+          "children": [
+            "B4_DAQ 01_Door",
+            "B4_DAQ 01_HMI",
+            "B4_DAQ 01_HMIbar",
+            "B4_DAQ 01_HMIbar.001",
+            "B4_DAQ 01_HMIbar.002",
+            "B4_DAQ 01_HMIbar.003",
+            "B4_DAQ 01_Handle",
+            "B4_DAQ 01_Vent",
+            "B4_DAQ 01_Vent.001",
+            "B4_DAQ 01_Vent.002",
+            "B4_DAQ 01_Vent.003",
+            "B4_DAQ 01_Vent.004",
+            "B4_DAQ 01_Vent.005",
+            "B4_DAQ 01_Vent.006",
+            "B4_DAQ 01_Vent.007",
+            "B4_DAQ 01_Vent.008",
+            "B4_DAQ 01_Label",
+            "B4_DAQ 01_Button",
+            "B4_DAQ 01_Button.001",
+            "B5_DAQ 01_DoorEarthLug"
+          ],
+          "drivers": [
+            {
+              "id_type": "objects",
+              "owner": "B5_DAQ 01_DoorPivot",
+              "path": "rotation_euler",
+              "index": 2,
+              "expression": "-a*pi/180",
+              "variables": [
+                {
+                  "variable": "a",
+                  "type": "SINGLE_PROP",
+                  "targets": [
+                    {
+                      "id": "B5_Inspection_Control",
+                      "path": "[\"cabinet_open_deg\"]",
+                      "bone": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "motion": "0-110 degrees; default100; driver -a*pi/180 around Z",
+      "b8_current": "Force-driven hinge bodies with assigned inertia, torque input, spring/damping/friction, joint end stops and ideal closed latch. Original leaf meshes follow recorded integrated solver poses.",
+      "needed": "Two physical hinges with door mass/inertia, torque interaction, stops and latch; independent maintenance fixture allowed",
+      "source": [
+        "src/detail_internals_b5.py:257-310"
+      ],
+      "b8_prior_checkpoint": "Room/cabinet assembly excluded, no cabinet hinge solve",
+      "remaining": "Assumed parameters; no independent handle/spindle mechanism or source-mesh door obstacle collision."
+    },
+    {
+      "mechanism": "ADD legacy symbolic displacement",
+      "status_in_source": "ANIMATED_HIDDEN_SENSOR_PROXY_NOT_SPOOL",
+      "controls": [
+        "ADD_Valve.location[2]"
+      ],
+      "objects": [
+        "Sensor_ADD_Pressure"
+      ],
+      "motion": "0 to -0.008m from270to282; hold330; reset356; mesh hidden in14_SENSORS",
+      "b8_current": "Gas quick exhaust is modeled but this obsolete sensor proxy is excluded; no actual spool body",
+      "needed": "Do not animate the old pressure sensor as a valve. If spool dynamics are required, new inferred spool/seat/spring/pressure-area geometry and state are needed",
+      "source": [
+        "src/build_a0.py:1223-1235",
+        "src/build_a0.py:1311-1312",
+        "src/build_a0.py:1563-1574",
+        "src/refine_pantograph_b2.py:122-124"
+      ]
+    },
+    {
+      "mechanism": "Moving floor supply loops and service leads",
+      "status_in_source": "CURVE_COORDINATE_DRIVERS",
+      "objects": [
+        "B4_MovingLoop_0",
+        "B4_MovingLoop_1",
+        "B4_MovingLoop_2",
+        "B4_CarServiceLead_0",
+        "B4_CarServiceLead_1",
+        "B4_CarServiceLead_2"
+      ],
+      "motion": "U-turn translates at half train travel; leads also blend body heave;516 point-coordinate drivers",
+      "b8_current": "Excluded from moving vehicle solver/display; no cable mass, bending, tension, floor/guide contact",
+      "needed": "Length-constrained flexible cable or articulated-chain approximation and fixed/moving anchor definition, if lab tether remains part of target setup",
+      "source": [
+        "src/build_room_b4.py:218-249"
+      ]
+    },
+    {
+      "mechanism": "Cabinet protective bonding loops",
+      "status_in_source": "CURVE_COORDINATE_DRIVERS",
+      "objects": [
+        "B5_PWR 01_BondingLoop",
+        "B5_DAQ 01_BondingLoop",
+        "B5_PWR 01_DoorEarthLug",
+        "B5_DAQ 01_DoorEarthLug"
+      ],
+      "motion": "Four-point curve deformed by cabinet door angle;16 point-coordinate drivers; moving lug follows pivot",
+      "source_polyline_length_m_by_angle": {
+        "0": 0.4162357433307508,
+        "30": 0.4287566966966409,
+        "60": 0.44046257231852,
+        "100": 0.45296616397521294,
+        "110": 0.4549594738828262
+      },
+      "b8_current": "Excluded with cabinets; source interpolation is not cable mechanics",
+      "needed": "Endpoint attachment plus bounded length/curvature/tension; source centerline grows about9.3percent by110degrees",
+      "source": [
+        "src/detail_internals_b5.py:289-307"
+      ]
+    },
+    {
+      "mechanism": "Four lift-off inspection covers",
+      "status_in_source": "REMOVABLE_VISIBILITY_ONLY_NO_MOTION",
+      "objects": [
+        "B1_InverterParallelFins",
+        "B5_InverterLid",
+        "B1_ControllerHeatsink",
+        "B5_DriveControllerLid"
+      ],
+      "motion": "Hidden 27_B5_COMPONENT_COVERS; recover visibility to cover parts, no hinges/actions/drivers",
+      "b8_current": "Hidden/not in replay; no removal/replacement dynamics",
+      "needed": "Fastened mode may be rigid. Explicitly model release/free body/contact for interactive removal, without inventing a source hinge",
+      "source": [
+        "src/detail_internals_b5.py:84-85",
+        "src/detail_internals_b5.py:142-147",
+        "src/detail_internals_b5.py:190-195",
+        "output/b5/README.md"
+      ]
+    },
+    {
+      "mechanism": "Door latches, cabinet handles and mechanical stops",
+      "status_in_source": "FIXED_DETAILS_NOT_INDEPENDENT_MOTION",
+      "objects": [
+        "B1_DoorLatch_L_0",
+        "B1_DoorLatch_L_1",
+        "B1_DoorLatch_R_0",
+        "B1_DoorLatch_R_1",
+        "B4_PWR 01_Handle",
+        "B4_DAQ 01_Handle",
+        "B5_VehicleAuxTerminals_EndStop*",
+        "B5_CabinetOutputTerminals_EndStop*"
+      ],
+      "motion": "Door latches/handles move only with their door; EndStop names are DIN terminal-row end clamps, not door/panto travel stops",
+      "b8_current": "No independent lock/release state; joint limits are equivalents, not proof of physical stop geometry",
+      "needed": "A fixed stop needs no extra DOF, but must provide a contact/limit reaction if used. Latches need release/engage behavior to count as mechanisms",
+      "source": [
+        "src/refine_b1.py:335-345",
+        "src/detail_internals_b5.py:99",
+        "src/build_room_b4.py:159-166"
+      ]
+    },
+    {
+      "mechanism": "Compressor pump and cooling fans",
+      "status_in_source": "EXTERNAL_GEOMETRY_ONLY",
+      "objects": [
+        "Aux_AirCompressor_Pump",
+        "Aux_AirCompressor_PumpHead",
+        "B1_CompressorFanFace",
+        "B1_CompressorFanHub",
+        "B1_CompressorFanGrille",
+        "Aux_BayFan",
+        "B1_BayFanSquareFrame",
+        "B1_BayFanGrille"
+      ],
+      "motion": "Compressor/fan parts follow Body31; bay fan follows right secondary door; no crank, piston, blade rotor or own rotary animation",
+      "b8_current": "Compressor is a mass-flow/energy source abstraction, not pump crank or rotor dynamics",
+      "needed": "Topology must be explicitly inferred or measured before crank/piston/reed-valve/fan torque dynamics are claimed",
+      "source": [
+        "src/refine_b1.py:393-417",
+        "src/refine_b1.py:493-504",
+        "b8/pneumatics.py:76-87,263-280"
+      ]
+    },
+    {
+      "mechanism": "Regulator, manual valve, exhaust/dump/check/relief internals",
+      "status_in_source": "FUNCTIONAL_SHELLS_AND_PORTS_ONLY",
+      "objects": [
+        "B5_RegulatorKnob",
+        "B7S_ManualAirHandle",
+        "B7S_ReservoirDrainKnob",
+        "B7S_ReservoirReliefValve",
+        "B7S_SV1_ValveBody",
+        "B7S_SV1_SpoolEnd",
+        "B7S_DUMP_Block",
+        "B7S_DUMP_PilotCap",
+        "B7S_CompressorCheckValve"
+      ],
+      "motion": "No individual object drivers or joints; all vehicle-side parts follow Body31",
+      "b8_current": "Opening commands directly set effective orifice opening; gas flow/pressure is solved, spool/seat mechanics not solved",
+      "needed": "Finite valve-element coordinates, mass/spring/damping, pressure area and seat constraints if fully mechanical valve internals are in scope",
+      "source": [
+        "blender-optimization/b7/power_pneumatic/build_power_pneumatic.py",
+        "vehicle-physics/b8/pneumatics.py:311-318"
+      ]
+    },
+    {
+      "mechanism": "Roof, room door and generic switches/buttons",
+      "status_in_source": "STATIC_OR_VISIBILITY_ONLY",
+      "objects": [
+        "CarBody_RoofArc",
+        "B1_RoofEndCaps",
+        "B4_RoomDoor",
+        "B4_DoorHandle",
+        "Aux_PowerSupply_Knob",
+        "B5_ProtectionToggle*",
+        "B1_InverterRockerSwitch",
+        "B4_PWR 01_Button*",
+        "B4_DAQ 01_Button*"
+      ],
+      "motion": "Roof hidden only for views; room door static foreground object; knobs/toggles/buttons have no own motion",
+      "b8_current": "Vehicle rigid parts aggregated; room excluded; no removal/switch mechanical motion",
+      "needed": "Do not describe them as pre-existing articulated mechanics. Distinguish external control inputs from literal physical handles/buttons",
+      "source": [
+        "scripts/render_internals_b5.py:10-21",
+        "src/build_room_b4.py:135-143",
+        "src/detail_internals_b5.py:328-342"
+      ]
+    }
+  ],
+  "delivery_update": "This source inventory was created before the six-door extension. Door rows are updated below against the final integrated replay; other gaps remain explicit."
+}

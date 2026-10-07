@@ -1,0 +1,1854 @@
+{
+  "out_of_domain_case": {
+    "case": "overload_800N",
+    "status": "OUTSIDE_VALIDATED_DOMAIN",
+    "mechanical_final_residual_J": -126.89347100379973
+  },
+  "status": "PASS_WITH_MODEL_LIMITATIONS",
+  "passed": true,
+  "checks": [
+    {
+      "name": "final_model_doors_open_close",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_doors_open_close",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_doors_open_close",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_doors_open_close",
+      "passed": true,
+      "detail": 2.2235375871588933e-17
+    },
+    {
+      "name": "gas_work_doors_open_close",
+      "passed": true,
+      "detail": 5.10880227011512e-12
+    },
+    {
+      "name": "coupling_work_doors_open_close",
+      "passed": true,
+      "detail": 3.7186853099058226e-06
+    },
+    {
+      "name": "mechanical_work_doors_open_close",
+      "passed": true,
+      "detail": 0.05948226307542895
+    },
+    {
+      "name": "xml_identity_doors_open_close",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_doors_open_close",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.022571646842876172,
+        "normal_dissipation_work_J": -0.036750336894270146
+      }
+    },
+    {
+      "name": "replay_identity_doors_open_close",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_doors_open_close",
+      "passed": true,
+      "detail": 0.0004763493861855525
+    },
+    {
+      "name": "final_model_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 2.5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_doors_half_dt",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_doors_half_dt",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_doors_half_dt",
+      "passed": true,
+      "detail": 2.349401389164962e-17
+    },
+    {
+      "name": "gas_work_doors_half_dt",
+      "passed": true,
+      "detail": 5.72442093726977e-12
+    },
+    {
+      "name": "coupling_work_doors_half_dt",
+      "passed": true,
+      "detail": 1.8545645096013086e-06
+    },
+    {
+      "name": "mechanical_work_doors_half_dt",
+      "passed": true,
+      "detail": 0.019314404431018346
+    },
+    {
+      "name": "xml_identity_doors_half_dt",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.007276367553675767,
+        "normal_dissipation_work_J": -0.012146151477058931
+      }
+    },
+    {
+      "name": "replay_identity_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_doors_half_dt",
+      "passed": true,
+      "detail": 0.0002370393067204909
+    },
+    {
+      "name": "final_model_power_off",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_power_off",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_power_off",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_power_off",
+      "passed": true,
+      "detail": 1.564004647202193e-17
+    },
+    {
+      "name": "gas_work_power_off",
+      "passed": true,
+      "detail": 3.6040614936894144e-12
+    },
+    {
+      "name": "coupling_work_power_off",
+      "passed": true,
+      "detail": 5.559830847038635e-09
+    },
+    {
+      "name": "mechanical_work_power_off",
+      "passed": true,
+      "detail": 0.04040373358842389
+    },
+    {
+      "name": "xml_identity_power_off",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_power_off",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.015465957856702255,
+        "normal_dissipation_work_J": -0.024720583455498636
+      }
+    },
+    {
+      "name": "replay_identity_power_off",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_power_off",
+      "passed": true,
+      "detail": 4.320173508319371e-09
+    },
+    {
+      "name": "final_model_coast",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_coast",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_coast",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_coast",
+      "passed": true,
+      "detail": 1.7841771637300044e-16
+    },
+    {
+      "name": "gas_work_coast",
+      "passed": true,
+      "detail": 3.7044700640365136e-11
+    },
+    {
+      "name": "coupling_work_coast",
+      "passed": true,
+      "detail": 0.00042168923707164296
+    },
+    {
+      "name": "mechanical_work_coast",
+      "passed": true,
+      "detail": 0.05050789887755189
+    },
+    {
+      "name": "xml_identity_coast",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_coast",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.22896167683992252,
+        "normal_dissipation_work_J": -0.034394184435710816
+      }
+    },
+    {
+      "name": "replay_identity_coast",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_coast",
+      "passed": true,
+      "detail": 0.021444380164399025
+    },
+    {
+      "name": "final_model_service_brake",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_service_brake",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_service_brake",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_service_brake",
+      "passed": true,
+      "detail": 6.50262501838692e-16
+    },
+    {
+      "name": "gas_work_service_brake",
+      "passed": true,
+      "detail": 1.3663420395104708e-10
+    },
+    {
+      "name": "coupling_work_service_brake",
+      "passed": true,
+      "detail": 0.00042168923707164296
+    },
+    {
+      "name": "mechanical_work_service_brake",
+      "passed": true,
+      "detail": 0.05563299623995732
+    },
+    {
+      "name": "xml_identity_service_brake",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_service_brake",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.3060782918319196,
+        "normal_dissipation_work_J": -0.03419059058603181
+      }
+    },
+    {
+      "name": "replay_identity_service_brake",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_service_brake",
+      "passed": true,
+      "detail": 0.021444380164399025
+    },
+    {
+      "name": "final_model_loaded_brake",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_loaded_brake",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_loaded_brake",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_loaded_brake",
+      "passed": true,
+      "detail": 5.253639170370767e-16
+    },
+    {
+      "name": "gas_work_loaded_brake",
+      "passed": true,
+      "detail": 1.1305445468678954e-10
+    },
+    {
+      "name": "coupling_work_loaded_brake",
+      "passed": true,
+      "detail": 0.0003181898386088733
+    },
+    {
+      "name": "mechanical_work_loaded_brake",
+      "passed": true,
+      "detail": 0.09611534034484914
+    },
+    {
+      "name": "xml_identity_loaded_brake",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_loaded_brake",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.2759856714456291,
+        "normal_dissipation_work_J": -0.05917043519643472
+      }
+    },
+    {
+      "name": "replay_identity_loaded_brake",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_loaded_brake",
+      "passed": true,
+      "detail": 0.01714651239582413
+    },
+    {
+      "name": "final_model_brake_mu_zero",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_brake_mu_zero",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_brake_mu_zero",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_brake_mu_zero",
+      "passed": true,
+      "detail": 9.771956141829965e-15
+    },
+    {
+      "name": "gas_work_brake_mu_zero",
+      "passed": true,
+      "detail": 2.055702719161445e-09
+    },
+    {
+      "name": "coupling_work_brake_mu_zero",
+      "passed": true,
+      "detail": 0.00042168923707164296
+    },
+    {
+      "name": "mechanical_work_brake_mu_zero",
+      "passed": true,
+      "detail": 0.050878116100804116
+    },
+    {
+      "name": "xml_identity_brake_mu_zero",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_brake_mu_zero",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.22910377602856338,
+        "normal_dissipation_work_J": -0.03461845117632214
+      }
+    },
+    {
+      "name": "replay_identity_brake_mu_zero",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_brake_mu_zero",
+      "passed": true,
+      "detail": 0.021444380164399025
+    },
+    {
+      "name": "final_model_no_supply_pressure",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_no_supply_pressure",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_no_supply_pressure",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_no_supply_pressure",
+      "passed": true,
+      "detail": 2.923149743899503e-17
+    },
+    {
+      "name": "gas_work_no_supply_pressure",
+      "passed": true,
+      "detail": 5.89434057118865e-12
+    },
+    {
+      "name": "coupling_work_no_supply_pressure",
+      "passed": true,
+      "detail": 1.3493279908266542e-05
+    },
+    {
+      "name": "mechanical_work_no_supply_pressure",
+      "passed": true,
+      "detail": 0.0443804061765225
+    },
+    {
+      "name": "xml_identity_no_supply_pressure",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_no_supply_pressure",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.2269242476083362,
+        "normal_dissipation_work_J": -0.03071185328811924
+      }
+    },
+    {
+      "name": "replay_identity_no_supply_pressure",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_no_supply_pressure",
+      "passed": true,
+      "detail": 0.02143610516750488
+    },
+    {
+      "name": "final_model_brake_cylinder_branch_leak",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_brake_cylinder_branch_leak",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_brake_cylinder_branch_leak",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_brake_cylinder_branch_leak",
+      "passed": true,
+      "detail": 1.5698163255417619e-15
+    },
+    {
+      "name": "gas_work_brake_cylinder_branch_leak",
+      "passed": true,
+      "detail": 3.3367086871294305e-10
+    },
+    {
+      "name": "coupling_work_brake_cylinder_branch_leak",
+      "passed": true,
+      "detail": 0.00042168923707164296
+    },
+    {
+      "name": "mechanical_work_brake_cylinder_branch_leak",
+      "passed": true,
+      "detail": 0.05430598059237579
+    },
+    {
+      "name": "xml_identity_brake_cylinder_branch_leak",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_brake_cylinder_branch_leak",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.24325621643442905,
+        "normal_dissipation_work_J": -0.03503021651668156
+      }
+    },
+    {
+      "name": "replay_identity_brake_cylinder_branch_leak",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_brake_cylinder_branch_leak",
+      "passed": true,
+      "detail": 0.021444380164399025
+    },
+    {
+      "name": "final_model_reservoir_loss",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_reservoir_loss",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_reservoir_loss",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_reservoir_loss",
+      "passed": true,
+      "detail": 3.8163916471489756e-16
+    },
+    {
+      "name": "gas_work_reservoir_loss",
+      "passed": true,
+      "detail": 2.8558133635669947e-10
+    },
+    {
+      "name": "coupling_work_reservoir_loss",
+      "passed": true,
+      "detail": 0.00035672605107839317
+    },
+    {
+      "name": "mechanical_work_reservoir_loss",
+      "passed": true,
+      "detail": 0.05766676921594904
+    },
+    {
+      "name": "xml_identity_reservoir_loss",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_reservoir_loss",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.27489671078288264,
+        "normal_dissipation_work_J": -0.03530419968013117
+      }
+    },
+    {
+      "name": "replay_identity_reservoir_loss",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_reservoir_loss",
+      "passed": true,
+      "detail": 0.021433140587924875
+    },
+    {
+      "name": "final_model_air_spring_leak",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_air_spring_leak",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_air_spring_leak",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_air_spring_leak",
+      "passed": true,
+      "detail": 5.526381761065957e-16
+    },
+    {
+      "name": "gas_work_air_spring_leak",
+      "passed": true,
+      "detail": 1.1606005045905476e-10
+    },
+    {
+      "name": "coupling_work_air_spring_leak",
+      "passed": true,
+      "detail": 0.00041751174019230564
+    },
+    {
+      "name": "mechanical_work_air_spring_leak",
+      "passed": true,
+      "detail": 0.058483490747628986
+    },
+    {
+      "name": "xml_identity_air_spring_leak",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_air_spring_leak",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.31239213502022495,
+        "normal_dissipation_work_J": -0.03589441188403608
+      }
+    },
+    {
+      "name": "replay_identity_air_spring_leak",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_air_spring_leak",
+      "passed": true,
+      "detail": 0.021442859514712413
+    },
+    {
+      "name": "final_model_lateral_disturbance",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_lateral_disturbance",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_lateral_disturbance",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_lateral_disturbance",
+      "passed": true,
+      "detail": 3.345428292109131e-16
+    },
+    {
+      "name": "gas_work_lateral_disturbance",
+      "passed": true,
+      "detail": 7.02407021435647e-11
+    },
+    {
+      "name": "coupling_work_lateral_disturbance",
+      "passed": true,
+      "detail": 0.0003455486296706223
+    },
+    {
+      "name": "mechanical_work_lateral_disturbance",
+      "passed": true,
+      "detail": 0.04466600577449553
+    },
+    {
+      "name": "xml_identity_lateral_disturbance",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_lateral_disturbance",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.6774509296092311,
+        "normal_dissipation_work_J": -0.03987270040091924
+      }
+    },
+    {
+      "name": "replay_identity_lateral_disturbance",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_lateral_disturbance",
+      "passed": true,
+      "detail": 0.016427628986846805
+    },
+    {
+      "name": "final_model_flange_disturbance",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_flange_disturbance",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_flange_disturbance",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_flange_disturbance",
+      "passed": true,
+      "detail": 4.807772044981863e-16
+    },
+    {
+      "name": "gas_work_flange_disturbance",
+      "passed": true,
+      "detail": 1.0165407404727489e-10
+    },
+    {
+      "name": "coupling_work_flange_disturbance",
+      "passed": true,
+      "detail": 0.0003210992186475359
+    },
+    {
+      "name": "mechanical_work_flange_disturbance",
+      "passed": true,
+      "detail": 0.06367829058303309
+    },
+    {
+      "name": "xml_identity_flange_disturbance",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_flange_disturbance",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -3.0438132908481905,
+        "normal_dissipation_work_J": -0.3814949815111718
+      }
+    },
+    {
+      "name": "replay_identity_flange_disturbance",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_flange_disturbance",
+      "passed": true,
+      "detail": 0.020504126850172465
+    },
+    {
+      "name": "final_model_flange_half_dt",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 2.5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_flange_half_dt",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_flange_half_dt",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_flange_half_dt",
+      "passed": true,
+      "detail": 6.022504128765235e-16
+    },
+    {
+      "name": "gas_work_flange_half_dt",
+      "passed": true,
+      "detail": 1.2668210924715595e-10
+    },
+    {
+      "name": "coupling_work_flange_half_dt",
+      "passed": true,
+      "detail": 0.00016075787855185375
+    },
+    {
+      "name": "mechanical_work_flange_half_dt",
+      "passed": true,
+      "detail": 0.024578249664640506
+    },
+    {
+      "name": "xml_identity_flange_half_dt",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_flange_half_dt",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -3.0267462942173164,
+        "normal_dissipation_work_J": -0.3570091455835316
+      }
+    },
+    {
+      "name": "replay_identity_flange_half_dt",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_flange_half_dt",
+      "passed": true,
+      "detail": 0.010253036419782265
+    },
+    {
+      "name": "final_model_collector_disturbance",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_collector_disturbance",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_collector_disturbance",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_collector_disturbance",
+      "passed": true,
+      "detail": 3.177131977563664e-16
+    },
+    {
+      "name": "gas_work_collector_disturbance",
+      "passed": true,
+      "detail": 6.709210964572776e-11
+    },
+    {
+      "name": "coupling_work_collector_disturbance",
+      "passed": true,
+      "detail": 0.0013308316931824882
+    },
+    {
+      "name": "mechanical_work_collector_disturbance",
+      "passed": true,
+      "detail": 0.05744684249204668
+    },
+    {
+      "name": "xml_identity_collector_disturbance",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_collector_disturbance",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.31751554944268257,
+        "normal_dissipation_work_J": -0.03427044286608065
+      }
+    },
+    {
+      "name": "replay_identity_collector_disturbance",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_collector_disturbance",
+      "passed": true,
+      "detail": 0.021444380164399025
+    },
+    {
+      "name": "final_model_brake_release",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_brake_release",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_brake_release",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_brake_release",
+      "passed": true,
+      "detail": 6.329152670789239e-16
+    },
+    {
+      "name": "gas_work_brake_release",
+      "passed": true,
+      "detail": 1.3299622514395537e-10
+    },
+    {
+      "name": "coupling_work_brake_release",
+      "passed": true,
+      "detail": 0.00042168923707164296
+    },
+    {
+      "name": "mechanical_work_brake_release",
+      "passed": true,
+      "detail": 0.05612932273495058
+    },
+    {
+      "name": "xml_identity_brake_release",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_brake_release",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.38566546092185,
+        "normal_dissipation_work_J": -0.035073038930046964
+      }
+    },
+    {
+      "name": "replay_identity_brake_release",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_brake_release",
+      "passed": true,
+      "detail": 0.021444380164399025
+    },
+    {
+      "name": "final_model_normal_exhaust",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_normal_exhaust",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_normal_exhaust",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_normal_exhaust",
+      "passed": true,
+      "detail": 6.50262501838692e-16
+    },
+    {
+      "name": "gas_work_normal_exhaust",
+      "passed": true,
+      "detail": 1.3663420395104708e-10
+    },
+    {
+      "name": "coupling_work_normal_exhaust",
+      "passed": true,
+      "detail": 0.00042168923707164296
+    },
+    {
+      "name": "mechanical_work_normal_exhaust",
+      "passed": true,
+      "detail": 0.055202757803997415
+    },
+    {
+      "name": "xml_identity_normal_exhaust",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_normal_exhaust",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.3068365490230081,
+        "normal_dissipation_work_J": -0.03393227494866502
+      }
+    },
+    {
+      "name": "replay_identity_normal_exhaust",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_normal_exhaust",
+      "passed": true,
+      "detail": 0.021444380164399025
+    },
+    {
+      "name": "final_model_half_dt",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 2.5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_half_dt",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_half_dt",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_half_dt",
+      "passed": true,
+      "detail": 6.189949142111487e-16
+    },
+    {
+      "name": "gas_work_half_dt",
+      "passed": true,
+      "detail": 1.297957297197172e-10
+    },
+    {
+      "name": "coupling_work_half_dt",
+      "passed": true,
+      "detail": 0.00021117531760406205
+    },
+    {
+      "name": "mechanical_work_half_dt",
+      "passed": true,
+      "detail": 0.01965556392457901
+    },
+    {
+      "name": "xml_identity_half_dt",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_half_dt",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.2900532801123533,
+        "normal_dissipation_work_J": -0.012365182642757442
+      }
+    },
+    {
+      "name": "replay_identity_half_dt",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_half_dt",
+      "passed": true,
+      "detail": 0.010722886278910217
+    },
+    {
+      "name": "final_model_solver_tight",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_solver_tight",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_solver_tight",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_solver_tight",
+      "passed": true,
+      "detail": 6.537319487906456e-16
+    },
+    {
+      "name": "gas_work_solver_tight",
+      "passed": true,
+      "detail": 1.3708872925732862e-10
+    },
+    {
+      "name": "coupling_work_solver_tight",
+      "passed": true,
+      "detail": 0.0004216892371459169
+    },
+    {
+      "name": "mechanical_work_solver_tight",
+      "passed": true,
+      "detail": 0.05563299623973966
+    },
+    {
+      "name": "xml_identity_solver_tight",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_solver_tight",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -0.3060782918321106,
+        "normal_dissipation_work_J": -0.034190590586019
+      }
+    },
+    {
+      "name": "replay_identity_solver_tight",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_solver_tight",
+      "passed": true,
+      "detail": 0.02144438016397766
+    },
+    {
+      "name": "final_model_low_adhesion",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_low_adhesion",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_low_adhesion",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_low_adhesion",
+      "passed": true,
+      "detail": 4.816840095165036e-16
+    },
+    {
+      "name": "gas_work_low_adhesion",
+      "passed": true,
+      "detail": 1.0193235144839718e-10
+    },
+    {
+      "name": "coupling_work_low_adhesion",
+      "passed": true,
+      "detail": 0.00037457948900443405
+    },
+    {
+      "name": "mechanical_work_low_adhesion",
+      "passed": true,
+      "detail": 0.046572640215941874
+    },
+    {
+      "name": "xml_identity_low_adhesion",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_low_adhesion",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -402.0530276939444,
+        "normal_dissipation_work_J": -0.04515420774448919
+      }
+    },
+    {
+      "name": "replay_identity_low_adhesion",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "final_model_low_adhesion_half_dt",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 2.5e-05,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_low_adhesion_half_dt",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_low_adhesion_half_dt",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_low_adhesion_half_dt",
+      "passed": true,
+      "detail": 7.215423054477084e-16
+    },
+    {
+      "name": "gas_work_low_adhesion_half_dt",
+      "passed": true,
+      "detail": 1.5218870608180168e-10
+    },
+    {
+      "name": "coupling_work_low_adhesion_half_dt",
+      "passed": true,
+      "detail": 0.00018756700468958165
+    },
+    {
+      "name": "mechanical_work_low_adhesion_half_dt",
+      "passed": true,
+      "detail": 0.017452067690001627
+    },
+    {
+      "name": "xml_identity_low_adhesion_half_dt",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_low_adhesion_half_dt",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -402.0687825492349,
+        "normal_dissipation_work_J": -0.016907103453447037
+      }
+    },
+    {
+      "name": "replay_identity_low_adhesion_half_dt",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "momentum_low_adhesion_half_dt",
+      "passed": true,
+      "detail": 0.0029330316675896476
+    },
+    {
+      "name": "final_model_low_adhesion_coarse_dt",
+      "passed": true,
+      "detail": {
+        "dofs": 77,
+        "dt_s": 0.0001,
+        "HC": true
+      }
+    },
+    {
+      "name": "finite_low_adhesion_coarse_dt",
+      "passed": true,
+      "detail": "All sampled physical states finite"
+    },
+    {
+      "name": "solver_low_adhesion_coarse_dt",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mass_low_adhesion_coarse_dt",
+      "passed": true,
+      "detail": 2.0556749303213634e-16
+    },
+    {
+      "name": "gas_work_low_adhesion_coarse_dt",
+      "passed": true,
+      "detail": 4.3472558886037405e-11
+    },
+    {
+      "name": "coupling_work_low_adhesion_coarse_dt",
+      "passed": true,
+      "detail": 0.0007469481796924526
+    },
+    {
+      "name": "mechanical_work_low_adhesion_coarse_dt",
+      "passed": true,
+      "detail": 0.13218717135199398
+    },
+    {
+      "name": "xml_identity_low_adhesion_coarse_dt",
+      "passed": true,
+      "detail": "Model bytes match metrics"
+    },
+    {
+      "name": "contact_passivity_low_adhesion_coarse_dt",
+      "passed": true,
+      "detail": {
+        "friction_work_J": -401.99978806125944,
+        "normal_dissipation_work_J": -0.12841195693605253
+      }
+    },
+    {
+      "name": "replay_identity_low_adhesion_coarse_dt",
+      "passed": true,
+      "detail": {
+        "body_count": 44
+      }
+    },
+    {
+      "name": "no_uncommanded_drive",
+      "passed": true,
+      "detail": -4.517464552655781e-06
+    },
+    {
+      "name": "torque_causes_motion",
+      "passed": true,
+      "detail": 0.525302116611646
+    },
+    {
+      "name": "pressure_friction_stops",
+      "passed": true,
+      "detail": 0.8472408913990881
+    },
+    {
+      "name": "added_mass_slows_acceleration",
+      "passed": true,
+      "detail": 0.46772087520774597
+    },
+    {
+      "name": "zero_pad_mu_prevents_stop",
+      "passed": true,
+      "detail": 0.5253457570429897
+    },
+    {
+      "name": "no_supply_prevents_brake",
+      "passed": true,
+      "detail": 0.5427922490217924
+    },
+    {
+      "name": "no_pressure_no_panto_lift",
+      "passed": true,
+      "detail": {
+        "max_cylinder_retraction_m": -1.1790563489433303e-07,
+        "max_contact_N": 0.0
+      }
+    },
+    {
+      "name": "brake_leak_changes_outcome",
+      "passed": true,
+      "detail": 0.37259590966939843
+    },
+    {
+      "name": "reservoir_loss_is_physical",
+      "passed": true,
+      "detail": 193054.74145623023
+    },
+    {
+      "name": "air_spring_leak_changes_roll",
+      "passed": true,
+      "detail": 0.009781959152898098
+    },
+    {
+      "name": "lateral_yaw_dofs_respond",
+      "passed": true,
+      "detail": [
+        0.1327863218650537,
+        0.02639147804577772
+      ]
+    },
+    {
+      "name": "flange_unilateral_limit_active",
+      "passed": true,
+      "detail": 1442.4802538397398
+    },
+    {
+      "name": "collector_disturbance_separates",
+      "passed": true,
+      "detail": 1.7110286728210602
+    },
+    {
+      "name": "panto_lifts_and_exhausts",
+      "passed": true,
+      "detail": [
+        13.838440758100724,
+        1.7250027294336787
+      ]
+    },
+    {
+      "name": "quick_exhaust_is_faster",
+      "passed": true,
+      "detail": 227521.0613157323
+    },
+    {
+      "name": "brake_exhaust_and_redrive",
+      "passed": true,
+      "detail": [
+        0.21931737990218939,
+        101324.99990840985
+      ]
+    },
+    {
+      "name": "eight_treads_baseline",
+      "passed": true,
+      "detail": 8
+    },
+    {
+      "name": "halfstep_stop_distance",
+      "passed": true,
+      "detail": 1.1844567725738386e-05
+    },
+    {
+      "name": "lowmu_halfstep_stop_distance",
+      "passed": true,
+      "detail": 3.883672103910385e-06
+    },
+    {
+      "name": "lowmu_collector_peak_convergence",
+      "passed": true,
+      "detail": 0.0029477473944478083
+    },
+    {
+      "name": "lowmu_flange_peak_convergence",
+      "passed": true,
+      "detail": {
+        "relative_change": 0.005461823173264935,
+        "dt_0_05ms_N": 15.616206821242669,
+        "dt_0_025ms_N": 15.530913860947907,
+        "limit": 0.2,
+        "meaning": "Original 20% criterion unchanged. Numerical convergence is not physical calibration."
+      }
+    },
+    {
+      "name": "lowmu_coarse_to_main_flange_peak",
+      "passed": true,
+      "detail": {
+        "coarse_N": 15.751628222890181,
+        "main_N": 15.616206821242669,
+        "relative_change": 0.008597295449794817,
+        "limit": 0.2
+      }
+    },
+    {
+      "name": "axle_disturbance_flange_peak",
+      "passed": true,
+      "detail": {
+        "main_N": 1442.4802538397398,
+        "fine_N": 1434.9477555975427,
+        "relative_change": 0.00522190735169259,
+        "limit": 0.2
+      }
+    },
+    {
+      "name": "unloading_not_disabled",
+      "passed": true,
+      "detail": [
+        33,
+        65
+      ]
+    },
+    {
+      "name": "settled_rail_weight",
+      "passed": true,
+      "detail": {
+        "rail_force_z_N": 2608.3811938781396,
+        "train_weight_N": 2608.51824
+      }
+    },
+    {
+      "name": "six_dynamic_doors",
+      "passed": true,
+      "detail": {
+        "bay_L": 1.3114138619625764,
+        "bay_R": 1.3113995119581439,
+        "bay_L_secondary": 1.3113968337361817,
+        "bay_R_secondary": 1.31131951627401,
+        "cabinet_PWR": 1.921605780072654,
+        "cabinet_DAQ": 1.921605780072654
+      }
+    },
+    {
+      "name": "doors_open_to_limits",
+      "passed": true,
+      "detail": {
+        "bay_L": 1.3114138619625764,
+        "bay_R": 1.3113995119581439,
+        "bay_L_secondary": 1.3113968337361817,
+        "bay_R_secondary": 1.31131951627401,
+        "cabinet_PWR": 1.921605780072654,
+        "cabinet_DAQ": 1.921605780072654
+      }
+    },
+    {
+      "name": "doors_passively_reclose_and_latch",
+      "passed": true,
+      "detail": {
+        "bay_L": 3.1091988035290397e-10,
+        "bay_R": 6.815369823383795e-10,
+        "bay_L_secondary": -3.179110691880731e-10,
+        "bay_R_secondary": -5.859678354989407e-10,
+        "cabinet_PWR": 6.921935630280532e-10,
+        "cabinet_DAQ": 6.921935630040763e-10
+      }
+    },
+    {
+      "name": "doors_halfstep_trajectory",
+      "passed": true,
+      "detail": {
+        "max_angle_difference_rad": 0.0009346882598433304,
+        "limit_rad": 0.01
+      }
+    },
+    {
+      "name": "doors_latched_baseline",
+      "passed": true,
+      "detail": {
+        "bay_L": 0.0,
+        "bay_R": 0.0,
+        "bay_L_secondary": 0.0,
+        "bay_R_secondary": 2.196326613273423e-12,
+        "cabinet_PWR": 0.0,
+        "cabinet_DAQ": 0.0
+      }
+    },
+    {
+      "name": "tight_solver_speed",
+      "passed": true,
+      "detail": 1.2681782707302247e-13
+    },
+    {
+      "name": "low_adhesion_slips",
+      "passed": true,
+      "detail": 9.429279762451364
+    },
+    {
+      "name": "no_mechanical_state_overrides",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "case_count": 22,
+  "limitations": [
+    "lateral_disturbance: maximum soft-contact penetration 1.848 mm exceeds nominal-case scale; high-fidelity contact forces not validated.",
+    "flange_disturbance: 33 steps with fewer than 8 active tread contacts; flange or transient unloading may support loads. Not derailment validated.",
+    "flange_half_dt: 65 steps with fewer than 8 active tread contacts; flange or transient unloading may support loads. Not derailment validated.",
+    "collector_disturbance: maximum soft-contact penetration 1.973 mm exceeds nominal-case scale; high-fidelity contact forces not validated.",
+    "low_adhesion: saved before the added momentum observer; no momentum-audit claim for this dataset. Forces/parameters unchanged, fine-step low-mu has the observer.",
+    "low_adhesion: maximum soft-contact penetration 3.621 mm exceeds nominal-case scale; high-fidelity contact forces not validated.",
+    "low_adhesion_half_dt: maximum soft-contact penetration 3.626 mm exceeds nominal-case scale; high-fidelity contact forces not validated.",
+    "low_adhesion_coarse_dt: saved before the added momentum observer; no momentum-audit claim for this dataset. Forces/parameters unchanged, fine-step low-mu has the observer.",
+    "low_adhesion_coarse_dt: maximum soft-contact penetration 3.519 mm exceeds nominal-case scale; high-fidelity contact forces not validated.",
+    "Historical native-71 800 N high-carbody overload FAILED the intended model domain: overturn/derailment and large discrete-work residual. It is retained and is not counted as a passing operational case.",
+    "All equipment masses, inertia, stiffness, friction and air-flow parameters remain uncalibrated.",
+    "Two-car topology preserves source-project assumptions; as-built vehicle count is not confirmed.",
+    "Wheel contact, ideal transmission, pressure struts and rigid overhead are documented reduced models.",
+    "Discrete work closure includes explicit contact storage/dissipation and native soft-contact constraint work; it is not physical-test energy validation."
+  ]
+}

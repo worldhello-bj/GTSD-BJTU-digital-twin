@@ -1,0 +1,36 @@
+{
+  "blend_sha256": "c70ffe7ea1c689060910991fe1049f6182455785ea2bceccdd8389ee290c4791",
+  "passed": true,
+  "cases": {
+    "final": {
+      "frames": 301,
+      "bodies": 44,
+      "door_parts": 84,
+      "maximum_body_matrix_error": 4.76837158203125e-07,
+      "maximum_door_part_matrix_error": 4.76837158203125e-07,
+      "worst_body_time_s": 0.16674999999961138,
+      "xml_sha256": "7808bc4784bcddb7e9440accb27fa79eb539c06633323c6d56f79a6fa9299199",
+      "trajectory_sha256": "d82d2dc6b5bdcf00c6673eb35e321220e905a3f0df4631bb24d7e4961a4eca62"
+    },
+    "access": {
+      "frames": 301,
+      "bodies": 44,
+      "door_parts": 84,
+      "maximum_body_matrix_error": 5.960464477539062e-07,
+      "maximum_door_part_matrix_error": 4.76837158203125e-07,
+      "worst_body_time_s": 1.3673499999968133,
+      "xml_sha256": "7808bc4784bcddb7e9440accb27fa79eb539c06633323c6d56f79a6fa9299199",
+      "trajectory_sha256": "819ad2af5f428526ae4e08e10b9dc4603db61248df7125d3388eb6b45854fee2"
+    }
+  },
+  "source_input_sha256": "c96811c45220dcdfad0853b73e4743297be7e090d4fb3230a7531eb89b3a4c04",
+  "expression_drivers": 0,
+  "shared_mesh_datablocks": 1882,
+  "scene_names": [
+    "B8_ACCESS_CABINET_CLOSEUP",
+    "B8_ACCESS_INSPECTION_REPLAY",
+    "B8_PANTOGRAPH_CLOSEUP",
+    "B8_SOURCE_TOPOLOGY_REPLAY"
+  ],
+  "scope": "Saved-file representation and identity only; physics acceptance belongs to matched solver reports."
+}
