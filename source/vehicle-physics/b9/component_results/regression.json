@@ -1,0 +1,7 @@
+{
+  "schema": "B9 short integration and unchanged B8 regressions v1",
+  "tests_run": 35,
+  "passed": true,
+  "failures": [],
+  "errors": []
+}

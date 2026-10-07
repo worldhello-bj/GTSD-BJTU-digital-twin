@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "archive_sha256": "768b89b4a2c5aba485aaaa2a208abbac63074e6189251b3e61162c6d8ff35190",
+  "unpack_directory": "package-verification/b12/unpacked-ibmdve9m",
+  "checks": [
+    {
+      "script": "verify.py",
+      "arguments": [],
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"status\": \"PASS_WITH_MODEL_LIMITATIONS\",\n  \"checks\": 128,\n  \"failed\": []\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "test_covers.py",
+      "arguments": [],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": "test_fastened_fixtures_react_to_force (__main__.CoverTests.test_fastened_fixtures_react_to_force) ... ok\ntest_freefall_matches_analytic_gravity_and_release_preserves_state (__main__.CoverTests.test_freefall_matches_analytic_gravity_and_release_preserves_state) ... ok\ntest_invalid_input_preserves_state_and_force (__main__.CoverTests.test_invalid_input_preserves_state_and_force) ... ok\ntest_point_force_changes_rotation_without_coordinate_assignment (__main__.CoverTests.test_point_force_changes_rotation_without_coordinate_assignment) ... ok\ntest_source_dimensions_and_uniform_proxy_inertia (__main__.CoverTests.test_source_dimensions_and_uniform_proxy_inertia) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.892s\n\nOK\n"
+    },
+    {
+      "script": "simulate.py",
+      "arguments": [
+        "--case",
+        "drop"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"case\": \"drop\",\n  \"duration_s\": 2.0,\n  \"dt_s\": 5e-05,\n  \"model_xml_sha256\": \"4c0e85215558081590e2b4990dc8632a285ee6fa0d187a75f45b0cc13c660cff\",\n  \"warning_counts\": [\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0\n  ],\n  \"dofs\": 24,\n  \"release_state_discontinuity\": 0.0,\n  \"peak_floor_normal_force_N\": 1978.285147821166,\n  \"maximum_contact_penetration_m\": 0.0009741015556373061,\n  \"maximum_mechanical_residual_J\": 0.0006616231870614467,\n  \"runtime_s\": 17.42063570022583\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "verify.py",
+      "arguments": [],
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"status\": \"PASS_WITH_MODEL_LIMITATIONS\",\n  \"checks\": 128,\n  \"failed\": []\n}\n",
+      "stderr_tail": ""
+    }
+  ],
+  "scope": "packaged source/output identity, component tests, actual full independent drop rerun and final acceptance; no full five-case rerun"
+}

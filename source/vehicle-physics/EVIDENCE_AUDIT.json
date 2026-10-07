@@ -1,0 +1,161 @@
+{
+  "schema": "GTSD local physics evidence audit v1",
+  "review_date": "2026-10-07",
+  "purpose": "Separate source geometry, procurement requirements and inferred dynamics from real hardware calibration.",
+  "sources": [
+    {
+      "id": "BJTU_LOCAL_REQUIREMENTS",
+      "workspace_relative_path": "_cai_gou_xu_qiu.pdf",
+      "bytes": 130017,
+      "sha256": "5ae46d4cf7176403cf0c3057f7aa6f42bf8ab93932158c3d12f89cecebc773fe",
+      "source_url": null,
+      "applicability": "matches_target_26_items_original_url_pending",
+      "prior_review": "all_5_pages_text_read_page_2_visually_checked",
+      "review": "All five extracted pages reviewed; raw PDF parsed again for page count and nominal values.",
+      "usable": [
+        "采购功能与额定规格：24 V/250 W 牵引、减速箱/联轴节、约 3 km/h、36 V 接触网、10 m 既有线路。",
+        "制动、悬挂、转臂定位以及数据采集功能要求；供应商生产工艺图纸要求。"
+      ],
+      "cannot_establish": [
+        "As-built compliance, dimensions, gear ratio, mass/inertia or stiffness/damping curves.",
+        "Actual valve/pump/fan topology, cover fixture geometry or calibration time series."
+      ],
+      "pdf_pages": 5,
+      "text_extracted_pages": 5,
+      "nominal_parameter_pages_1_based": {
+        "24V": [
+          2
+        ],
+        "250W": [
+          2
+        ],
+        "36V": [
+          1,
+          2,
+          4
+        ],
+        "10": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "GTSD_PATENT",
+      "workspace_relative_path": "reference/sources/CN117409631A.pdf",
+      "bytes": 682953,
+      "sha256": "c2a52fd39a6ba632d8011d0659e68573f9b66beb93139157ffa02e260e13d6b4",
+      "source_url": "https://patentimages.storage.googleapis.com/bd/a7/40/d915ad7ca809a2/CN117409631A.pdf",
+      "applicability": "supplier_patent_target_identity_unproven",
+      "prior_review": "text_read_drawings_on_pages_9_11_12_13_visually_checked",
+      "review": "Raw PDF parsed, extracted claims and mechanism descriptions reviewed; inherited visual drawing review identified separately.",
+      "usable": [
+        "供应商公开的可拆顶板和举升/检修构造概念。"
+      ],
+      "cannot_establish": [
+        "Identity of the BJTU target hardware, its measured geometry or material properties.",
+        "Actual target compressor, valve, fan or cabinet-cover internal mechanism."
+      ],
+      "pdf_pages": 13,
+      "text_extracted_pages": 13
+    },
+    {
+      "id": "GTSD_PRESENTATION",
+      "workspace_relative_path": "reference/sources/GTSD_multi_role_training_2025.pdf",
+      "bytes": 6611855,
+      "sha256": "a722a013ac85c93910519c7efa1870a00373047921bbe2cd6e2c12cfa6bba402",
+      "source_url": "https://www.ctjx.net/upfiles/2025/09/2025092215502642388.pdf",
+      "applicability": "supplier_training_presentation",
+      "prior_review": "text_read_not_a_dimensioned_product_manual",
+      "review": "Raw 28-page PDF text extracted; presentation headings and physical-parameter keyword contexts reviewed.",
+      "usable": [
+        "供应商实训/协同演练应用范围。"
+      ],
+      "cannot_establish": [
+        "Dimensioned production manual or calibration data for this target equipment."
+      ],
+      "pdf_pages": 28,
+      "text_extracted_pages": 28
+    },
+    {
+      "id": "SWJTU_TECH",
+      "workspace_relative_path": "reference/sources/SWJTU_technical_requirements.docx",
+      "bytes": 93240,
+      "sha256": "e2992126433644f06617cdbd4bae332e4c1fcb92c55795c8ff1d95333956d718",
+      "source_url": "https://bidding.swjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1463493268&wbfileid=8FD75B0E2A2C39A1FAAAB604DDDF3C22",
+      "applicability": "different_project_same_supplier",
+      "prior_review": "technical_text_extracted_and_read",
+      "review": "Existing extracted technical text and prior project-applicability audit reviewed; DOCX bytes hashed, not reparsed this run.",
+      "usable": [
+        "另一项目的采购要求，仅供类比。"
+      ],
+      "cannot_establish": [
+        "BJTU target scale of 1:3, omitted hardware, dimensions or dynamics."
+      ]
+    }
+  ],
+  "measurement_files": [
+    {
+      "workspace_relative_path": "gateway/测点接入清单.csv",
+      "sha256": "f06d95090f16c53fd439d3b0a1661920815ab744f0fb1fa8ffd3de15281f3d76",
+      "bytes": 9752,
+      "rows": 66,
+      "calibration_status_counts": {
+        "UNVERIFIED": 66
+      }
+    },
+    {
+      "workspace_relative_path": "output/b6/test_artifacts/live_demo.csv",
+      "sha256": "c66da8c14a531bf0723601a0dd81bfefd289fb70248bed689082d88354b5acac",
+      "bytes": 148298,
+      "rows": 1254,
+      "origin_counts": {
+        "DEMO": 1254
+      },
+      "quality_counts": {
+        "MISSING": 1159,
+        "GOOD": 85,
+        "STALE": 10
+      },
+      "usable_for_hardware_calibration": false
+    }
+  ],
+  "prior_photo_audit": {
+    "source": "research/source_manifest.json",
+    "user_confirmed_equipment_reference": true,
+    "absolute_scale_verified": false,
+    "review_this_run": "Prior applicability/dimension audit read; photographs not remeasured."
+  },
+  "source_model": {
+    "workspace_relative_path": "physics-work/local-replay-base/GTSD_BJTU_B8/source/GTSD_BJTU_B7_detailed.blend",
+    "sha256": "c96811c45220dcdfad0853b73e4743297be7e090d4fb3230a7531eb89b3a4c04",
+    "status": "source geometry, not measured hardware dimensions",
+    "caveat": "Two B5 cover evaluated poses remain at world origin; B12 is a separate inferred bench."
+  },
+  "existing_model": {
+    "motor_power_cap_W": 250,
+    "gear_ratio": 2,
+    "nominal_power_already_present": true,
+    "gear_ratio_calibrated": false,
+    "evidence": "source/vehicle-physics/build_model.py"
+  },
+  "public_search": {
+    "date": "2026-10-07",
+    "queries": [
+      "2025BGC-172-2614 生产工艺 图纸",
+      "site:gzc.bjtu.edu.cn 载运装备 图纸",
+      "湖南高铁时代数字化科技有限公司 空压机 参数"
+    ],
+    "primary_notice_url": "https://gzc.bjtu.edu.cn/zb/zbcggs/4e0e011468d34aa294f49a62a38e423b.htm",
+    "result": "Official target procurement notice read; no verified target production drawing or dynamics dataset obtained in this search.",
+    "limit": "A bounded search does not prove that such documents do not exist."
+  },
+  "outstanding_inputs": "NEXT_PHYSICS_INPUTS.md",
+  "conclusions": [
+    "No reviewed local file establishes real cable EI/density/contact, actual auxiliary internals or cover fasteners.",
+    "Numerical acceptance constrains the declared equivalent models and does not validate target hardware.",
+    "B11 full integrated acceptance is still computing; B8/B9/B10/B12 accepted records remain separate."
+  ],
+  "redistribution": "Only hashes, applicability and original summaries saved here; full third-party PDFs/DOCX and source measurement files not copied."
+}

@@ -1,0 +1,122 @@
+{
+  "schema": "B11 final local delivery review v1",
+  "reviewed_at_utc": "2026-10-07T21:59:43.427277+00:00",
+  "reviewer": "Codex agent; saved images and rendered PDF visually inspected",
+  "passed": true,
+  "status": "LOCAL_DELIVERY_PASSED_VISUAL_REVIEWED",
+  "archive_path": "artifacts/B11/GTSD_BJTU_B11_source_cable_dynamics.zip",
+  "archive_sha256": "a1c16c30e38eedfa41b748ba970f7fb06a72e7d1d4a8ab90ce4ba2bdeba8b74d",
+  "archive_bytes": 64222335,
+  "payload_files": 152,
+  "zip_entries": 154,
+  "current_manifest_files_matched": 152,
+  "source_bound_full_cases": 6,
+  "numeric_checks": 454,
+  "component_tests": 10,
+  "regression_tests": 35,
+  "blend_sha256": "ebcc6446da2f7a62b776196c56e1e5f8f3147d381e7eb36766cc5cb21907d7a9",
+  "blender_cases": [
+    {
+      "case": "service_brake",
+      "frames": 301,
+      "bodies": 134,
+      "source_door_parts": 84,
+      "cable_capsules": 90,
+      "maximum_body_matrix_error": 5.960464477539062e-07,
+      "maximum_source_part_matrix_error": 4.76837158203125e-07,
+      "maximum_capsule_binding_error_m": 1.1349425672508343e-06,
+      "maximum_capsule_length_error_m": 3.638256816373975e-07,
+      "maximum_local_capsule_surface_error_m": 2.6853255461270487e-08,
+      "xml_sha256": "5e11dc629019b8efc092a8cc11820aa7b80f324b0ffad42deddc7950d6ef40be"
+    },
+    {
+      "case": "doors_open_close",
+      "frames": 301,
+      "bodies": 134,
+      "source_door_parts": 84,
+      "cable_capsules": 90,
+      "maximum_body_matrix_error": 6.556510925292969e-07,
+      "maximum_source_part_matrix_error": 4.76837158203125e-07,
+      "maximum_capsule_binding_error_m": 1.1093361580899428e-06,
+      "maximum_capsule_length_error_m": 3.138845087180542e-07,
+      "maximum_local_capsule_surface_error_m": 2.6853255461270487e-08,
+      "xml_sha256": "5e11dc629019b8efc092a8cc11820aa7b80f324b0ffad42deddc7950d6ef40be"
+    }
+  ],
+  "auxiliary_frames": 501,
+  "maximum_auxiliary_error": 7.623782209975616e-06,
+  "expression_drivers": 0,
+  "unpacked_archive_sha256": "a1c16c30e38eedfa41b748ba970f7fb06a72e7d1d4a8ab90ce4ba2bdeba8b74d",
+  "unpacked_checks": [
+    {
+      "script": "verify.py",
+      "arguments": [],
+      "exit_code": 0
+    },
+    {
+      "script": "test_cables.py",
+      "arguments": [],
+      "exit_code": 0
+    },
+    {
+      "script": "test_integration.py",
+      "arguments": [],
+      "exit_code": 0
+    },
+    {
+      "script": "live.py",
+      "arguments": [
+        "--headless",
+        "--settle-s",
+        "0",
+        "--duration",
+        ".02"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "unpacked_scope": "actual package output identity, components/regressions and headless startup; no six-case rerun",
+  "visuals": [
+    {
+      "path": "source/vehicle-physics/b11/replay/renders/b11_overview.png",
+      "sha256": "f99fbd0592c932b7bf50466e1e5b79440a514dbcc6aaea127f1824f9497de2a2",
+      "passed": true,
+      "observation": "Vehicle and cabinets are visible; force-driven replay and uncalibrated labels are readable."
+    },
+    {
+      "path": "source/vehicle-physics/b11/replay/renders/b11_supply_cables.png",
+      "sha256": "ad121d7dc5c303fb560c1613153d6c6905b295fa8771d48cededb9b01fc7fbf8",
+      "passed": true,
+      "observation": "All three supply routes, their floor loops and rigid-link surfaces are visible; uncalibrated label is readable."
+    },
+    {
+      "path": "source/vehicle-physics/b11/replay/renders/b11_bonding_cable.png",
+      "sha256": "5b7cad964acb1dcc70d7571f74cc7b791b123be932daa7c951691db908b74974",
+      "passed": true,
+      "observation": "The green bonding route joins the cabinet and door terminals beside the hinge; uncalibrated label is readable."
+    },
+    {
+      "path": "source/vehicle-physics/b11/results/b11_cable_response.png",
+      "sha256": "94185361ea1834f9a1341eb6f311cae634efb57a263fc8935891342dc53241bf",
+      "passed": true,
+      "observation": "All six panels have readable titles, legends, time axes and physical units; no text is clipped."
+    },
+    {
+      "path": "source/vehicle-physics/b11/results/b11_cable_response.pdf",
+      "sha256": "2ff0d73b164f678445c520b642675262cf3761fda5890cc1c9c1658966457e27",
+      "passed": true,
+      "observation": "The actual one-page PDF was rendered with bundled pypdfium2 and inspected; all six panels and units are legible."
+    }
+  ],
+  "hardware_calibrated": false,
+  "limits": [
+    "Source centerlines/anchors, inferred density/EI/damping/friction; no hardware calibration.",
+    "Rigid capsule links and isotropic passive ball joints; no axial elasticity.",
+    "Soft endpoint constraints; no literal connector material law.",
+    "No cable electrical continuity, hose pressure-radius coupling, real breakage criterion or internal hardware reconstruction.",
+    "B10 auxiliaries remain fixed external bench; no vehicle mount reaction.",
+    "Native cable penetration/radius recorded at every integration position, separately for source-pose settling and observation; geometry-domain acceptance applies to the complete settled observation. The intersecting cold source pose is numerical preconditioning, not a validated hardware startup.",
+    "Endpoint attachment errors use 100 Hz CSV samples; replay poses use approximately 30 Hz. Geometry-domain checks do not establish contact-force peak accuracy or measured material compression."
+  ],
+  "remote_publication": "Pending explicit authorization after the earlier automatic approval rejection."
+}

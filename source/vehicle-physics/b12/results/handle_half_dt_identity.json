@@ -1,0 +1,15 @@
+{
+  "solver": "3.3.7",
+  "numpy": "2.2.6",
+  "sources_sha256": {
+    "covers.py": "8d95a0fc0ae9559a3fa40adc4b79c1d0d7cb54250fb4e1556740b88cece90469",
+    "simulate.py": "6320710864c5ef70cdfe0c053fb2aee59ebc46975c80825f2a3c3b74b125b786",
+    "source_covers.json": "25e42f8cc671bf705424b98712890ae85acee94766e9fb4b23271e90bbaa9845"
+  },
+  "outputs_sha256": {
+    "handle_half_dt.xml": "5960401aa3739b4e616ece1bf549ad0a2d21664947f2ff4d8471c32e60b5e8d2",
+    "handle_half_dt.csv": "9e90dbea47220eb7ebaa04666a2b95dbc018ba85f62e094d5b641e677c98d5a9",
+    "handle_half_dt_metrics.json": "cc0598226bc43884b3f1bba2d6958a9aa84252ba15189bd6eb4c32cb5320f81a",
+    "handle_half_dt_replay.json": "81fa092e37c43cfd9b7fd0629674583825a6dd17ef340b59b69929fb2d2c405a"
+  }
+}

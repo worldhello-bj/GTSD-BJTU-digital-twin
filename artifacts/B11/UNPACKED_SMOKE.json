@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "archive_sha256": "a1c16c30e38eedfa41b748ba970f7fb06a72e7d1d4a8ab90ce4ba2bdeba8b74d",
+  "unpack_directory": "package-verification/b11/unpacked-h0e3u6fj",
+  "checks": [
+    {
+      "script": "verify.py",
+      "arguments": [],
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"status\": \"PASS_WITH_MODEL_LIMITATIONS\",\n  \"checks\": 454,\n  \"failed\": []\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "test_cables.py",
+      "arguments": [],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": "test_all_eight_source_centerlines_are_five_connected_routes (__main__.CableTests.test_all_eight_source_centerlines_are_five_connected_routes) ... ok\ntest_compiled_supports_do_not_inherit_unintended_material_defaults (__main__.CableTests.test_compiled_supports_do_not_inherit_unintended_material_defaults) ... ok\ntest_contact_audit_reads_known_penetration_without_advancing_plant (__main__.CableTests.test_contact_audit_reads_known_penetration_without_advancing_plant) ... ok\ntest_end_force_reacts_on_vehicle_without_state_assignment (__main__.CableTests.test_end_force_reacts_on_vehicle_without_state_assignment) ... ok\ntest_existing_vehicle_inertials_and_joint_properties_are_unchanged (__main__.CableTests.test_existing_vehicle_inertials_and_joint_properties_are_unchanged) ... ok\ntest_live_wiring_and_no_constraint_release_teleport (__main__.CableTests.test_live_wiring_and_no_constraint_release_teleport) ... ok\ntest_reference_attachments_overlap_real_body_anchors (__main__.CableTests.test_reference_attachments_overlap_real_body_anchors) ... ok\ntest_release_only_changes_constraint_and_prevents_endpoint_reaction (__main__.CableTests.test_release_only_changes_constraint_and_prevents_endpoint_reaction) ... ok\ntest_rigid_link_lengths_persist_under_applied_force (__main__.CableTests.test_rigid_link_lengths_persist_under_applied_force) ... ok\ntest_simplification_preserves_endpoint_and_source_corners (__main__.CableTests.test_simplification_preserves_endpoint_and_source_corners) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.787s\n\nOK\n"
+    },
+    {
+      "script": "test_integration.py",
+      "arguments": [],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": "anges_force_and_solver_state_then_coast_cuts_torque) ... ok\ntest_external_collector_force_expires_in_simulation_time (b11_regression_test_live_controls.LiveControlTests.test_external_collector_force_expires_in_simulation_time) ... ok\ntest_keyboard_map_and_input_validation (b11_regression_test_live_controls.LiveControlTests.test_keyboard_map_and_input_validation) ... ok\ntest_leaks_change_real_flow_and_close_on_second_toggle (b11_regression_test_live_controls.LiveControlTests.test_leaks_change_real_flow_and_close_on_second_toggle) ... ok\ntest_panto_raise_normal_and_quick_exhaust (b11_regression_test_live_controls.LiveControlTests.test_panto_raise_normal_and_quick_exhaust) ... ok\ntest_presentation_batches_do_not_change_physics (b11_regression_test_live_controls.LiveControlTests.test_presentation_batches_do_not_change_physics) ... ok\ntest_pressure_forces_and_endpoint_volumes_are_the_actual_coupling (b11_regression_test_live_controls.LiveControlTests.test_pressure_forces_and_endpoint_volumes_are_the_actual_coupling) ... ok\ntest_six_doors_use_torque_without_pose_override (b11_regression_test_live_controls.LiveControlTests.test_six_doors_use_torque_without_pose_override) ... ok\ntest_source_topology_and_sign_are_unchanged (b11_regression_test_live_controls.LiveControlTests.test_source_topology_and_sign_are_unchanged) ... ok\ntest_01_orifice_choking_and_limits (b11_regression_test_pneumatics.PneumaticTests.test_01_orifice_choking_and_limits) ... ok\ntest_02_closed_equalization (b11_regression_test_pneumatics.PneumaticTests.test_02_closed_equalization) ... ok\ntest_03_closed_cylinder_work_and_compression (b11_regression_test_pneumatics.PneumaticTests.test_03_closed_cylinder_work_and_compression) ... ok\ntest_04_exhaust_leak_and_atmospheric_intake (b11_regression_test_pneumatics.PneumaticTests.test_04_exhaust_leak_and_atmospheric_intake) ... ok\ntest_05_reservoir_loss_and_independent_valves (b11_regression_test_pneumatics.PneumaticTests.test_05_reservoir_loss_and_independent_valves) ... ok\ntest_06_finite_mass_reservoir_pressure_drops (b11_regression_test_pneumatics.PneumaticTests.test_06_finite_mass_reservoir_pressure_drops) ... ok\ntest_07_compressor_mass_and_work_are_external (b11_regression_test_pneumatics.PneumaticTests.test_07_compressor_mass_and_work_are_external) ... ok\ntest_08_large_step_and_invalid_input (b11_regression_test_pneumatics.PneumaticTests.test_08_large_step_and_invalid_input) ... ok\ntest_09_gas_spring_force_is_volume_dependent (b11_regression_test_pneumatics.PneumaticTests.test_09_gas_spring_force_is_volume_dependent) ... ok\ntest_10_timestep_convergence_with_observed_motion (b11_regression_test_pneumatics.PneumaticTests.test_10_timestep_convergence_with_observed_motion) ... ok\ntest_11_pressure_force_moves_free_mass_without_trajectory (b11_regression_test_pneumatics.PneumaticTests.test_11_pressure_force_moves_free_mass_without_trajectory) ... ok\n\n----------------------------------------------------------------------\nRan 35 tests in 7.072s\n\nOK\n"
+    },
+    {
+      "script": "live.py",
+      "arguments": [
+        "--headless",
+        "--settle-s",
+        "0",
+        "--duration",
+        ".02"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "-0.0,\n  \"motor_A_rotor_omega_radps\": 0.0014678672657617887,\n  \"motor_A_torque_Nm\": -0.0,\n  \"motor_power_cap_W\": 250,\n  \"operator_time_s\": 0.02000000000000006,\n  \"pantograph_absolute_pressure_Pa\": 101324.99971717835,\n  \"pantograph_applied_retraction_force_N\": -6.052993412595242e-08,\n  \"pantograph_retraction_m\": -5.4016471989770665e-08,\n  \"physics_dt_s\": 5e-05,\n  \"pump\": {\n    \"angle_rad\": 0.0,\n    \"compressor_work_to_gas_J\": -0.0,\n    \"copper_heat_J\": 0.0,\n    \"current_A\": 0.0,\n    \"cylinder_pressure_Pa\": 101325.0,\n    \"discharge_failed_closed\": false,\n    \"electrical_balance_residual_J\": 0.0,\n    \"electrical_work_J\": 0.0,\n    \"friction_heat_J\": 0.0,\n    \"gas_geometry_work_J\": 0.0,\n    \"gas_geometry_work_discrepancy_J\": 0.0,\n    \"gas_work_J\": 0.0,\n    \"intake_failed_closed\": false,\n    \"kinetic_energy_J\": 0.0,\n    \"max_step_balance_residual_J\": 0.0,\n    \"mechanical_balance_residual_J\": 0.0,\n    \"momentum_kg_m2_s\": 0.0,\n    \"omega_rad_s\": 0.0,\n    \"phase_rad\": 0.0,\n    \"piston_displacement_m\": 0.0,\n    \"piston_velocity_m_s\": 0.0,\n    \"power_failed\": false,\n    \"pressure_switch_on\": false,\n    \"shaft_work_J\": 0.0\n  },\n  \"representative_brake_absolute_pressure_Pa\": 101325.00009638043,\n  \"representative_brake_chamber\": \"A_front_L_minus_pad\",\n  \"reservoir_absolute_pressure_Pa\": 601325.0,\n  \"simulation_time_s\": 0.02000000000000006,\n  \"thermal\": {\n    \"cabinet\": {\n      \"balance_residual_J\": 1.522632580729013e-10,\n      \"heat_input_J\": 1.9431808203423908,\n      \"heat_to_ambient_J\": 0.00019694431801359265,\n      \"stored_heat_J\": 1.9429838761766405,\n      \"temperature_K\": 293.15388596775233\n    },\n    \"compressor_motor\": {\n      \"balance_residual_J\": -3.691445762889385e-12,\n      \"heat_input_J\": 0.3431808203423959,\n      \"heat_to_ambient_J\": 8.329092644264874e-05,\n      \"stored_heat_J\": 0.3430975294122618,\n      \"temperature_K\": 293.1528591460784\n    }\n  },\n  \"version\": \"B11 cable equivalent\",\n  \"warning_counts\": [\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0\n  ]\n}\n",
+      "stderr_tail": "Building the frozen B8 model; passive settling is forward integration.\n"
+    }
+  ],
+  "scope": "actual package output identity, components/regressions and headless startup; no six-case rerun"
+}

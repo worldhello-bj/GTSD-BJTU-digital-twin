@@ -1,0 +1,854 @@
+{
+  "passed": true,
+  "status": "PASS_WITH_MODEL_LIMITATIONS",
+  "cases": 5,
+  "checks": [
+    {
+      "name": "components",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "tests_run": 5,
+        "failures": [],
+        "errors": []
+      }
+    },
+    {
+      "name": "finite_fastened",
+      "passed": true,
+      "detail": "all channels"
+    },
+    {
+      "name": "full_fastened",
+      "passed": true,
+      "detail": "complete 200 Hz bench samples"
+    },
+    {
+      "name": "topology_fastened",
+      "passed": true,
+      "detail": "four 6-DOF .25 kg proxies on a fixed separate bench"
+    },
+    {
+      "name": "warnings_fastened",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mechanical_fastened",
+      "passed": true,
+      "detail": {
+        "maximum": 1.9462338980970827e-08,
+        "limit": 0.005
+      }
+    },
+    {
+      "name": "momentum_fastened",
+      "passed": true,
+      "detail": {
+        "maximum": 3.121681291558259e-19,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "penetration_fastened",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 0.0020000040531158447,
+        "scope": "numerical box/floor tolerance; uncalibrated contact"
+      }
+    },
+    {
+      "name": "release_continuity_fastened",
+      "passed": true,
+      "detail": "no qpos/qvel writes during fixture release"
+    },
+    {
+      "name": "fixed_cover_0",
+      "passed": true,
+      "detail": {
+        "maximum_gap_m": 2.6330270721328486e-06,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "fixed_cover_1",
+      "passed": true,
+      "detail": {
+        "maximum_gap_m": 5.498976311195044e-08,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "fixed_cover_2",
+      "passed": true,
+      "detail": {
+        "maximum_gap_m": 1.665345924360121e-06,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "fixed_cover_3",
+      "passed": true,
+      "detail": {
+        "maximum_gap_m": 5.881417605295441e-06,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "source_fastened_covers.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_fastened_simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_fastened_source_covers.json",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "output_fastened_fastened.xml",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_fastened_fastened.csv",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_fastened_fastened_metrics.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_fastened_fastened_replay.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "replay_fastened",
+      "passed": true,
+      "detail": {
+        "frames": 122,
+        "expected": 122
+      }
+    },
+    {
+      "name": "xml_fastened",
+      "passed": true,
+      "detail": "exact model association"
+    },
+    {
+      "name": "quaternions_fastened",
+      "passed": true,
+      "detail": "normalized solver rotations"
+    },
+    {
+      "name": "finite_drop",
+      "passed": true,
+      "detail": "all channels"
+    },
+    {
+      "name": "full_drop",
+      "passed": true,
+      "detail": "complete 200 Hz bench samples"
+    },
+    {
+      "name": "topology_drop",
+      "passed": true,
+      "detail": "four 6-DOF .25 kg proxies on a fixed separate bench"
+    },
+    {
+      "name": "warnings_drop",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mechanical_drop",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0006616231870614467,
+        "limit": 0.005
+      }
+    },
+    {
+      "name": "momentum_drop",
+      "passed": true,
+      "detail": {
+        "maximum": 1.0122591783887097e-12,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "penetration_drop",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0009741015556373061,
+        "limit": 0.0020000040531158447,
+        "scope": "numerical box/floor tolerance; uncalibrated contact"
+      }
+    },
+    {
+      "name": "release_continuity_drop",
+      "passed": true,
+      "detail": "no qpos/qvel writes during fixture release"
+    },
+    {
+      "name": "four_release_events_drop",
+      "passed": true,
+      "detail": "same physical release time at both step sizes"
+    },
+    {
+      "name": "landed_cover_0_drop",
+      "passed": true,
+      "detail": {
+        "height_m": 0.017499958785699966,
+        "speed_mps": 1.7137874614742322e-14
+      }
+    },
+    {
+      "name": "landed_cover_1_drop",
+      "passed": true,
+      "detail": {
+        "height_m": 0.0034999602162099955,
+        "speed_mps": 2.1759492417780794e-15
+      }
+    },
+    {
+      "name": "landed_cover_2_drop",
+      "passed": true,
+      "detail": {
+        "height_m": 0.02249998381969995,
+        "speed_mps": 1.7137806785909967e-14
+      }
+    },
+    {
+      "name": "landed_cover_3_drop",
+      "passed": true,
+      "detail": {
+        "height_m": 0.0019999795281199955,
+        "speed_mps": 2.1761197292461984e-15
+      }
+    },
+    {
+      "name": "source_drop_covers.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_drop_simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_drop_source_covers.json",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "output_drop_drop.xml",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_drop_drop.csv",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_drop_drop_metrics.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_drop_drop_replay.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "replay_drop",
+      "passed": true,
+      "detail": {
+        "frames": 122,
+        "expected": 122
+      }
+    },
+    {
+      "name": "xml_drop",
+      "passed": true,
+      "detail": "exact model association"
+    },
+    {
+      "name": "quaternions_drop",
+      "passed": true,
+      "detail": "normalized solver rotations"
+    },
+    {
+      "name": "finite_drop_half_dt",
+      "passed": true,
+      "detail": "all channels"
+    },
+    {
+      "name": "full_drop_half_dt",
+      "passed": true,
+      "detail": "complete 200 Hz bench samples"
+    },
+    {
+      "name": "topology_drop_half_dt",
+      "passed": true,
+      "detail": "four 6-DOF .25 kg proxies on a fixed separate bench"
+    },
+    {
+      "name": "warnings_drop_half_dt",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mechanical_drop_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 0.00033081159428872346,
+        "limit": 0.005
+      }
+    },
+    {
+      "name": "momentum_drop_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.6323609131063679e-12,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "penetration_drop_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0010162152753009335,
+        "limit": 0.0020000040531158447,
+        "scope": "numerical box/floor tolerance; uncalibrated contact"
+      }
+    },
+    {
+      "name": "release_continuity_drop_half_dt",
+      "passed": true,
+      "detail": "no qpos/qvel writes during fixture release"
+    },
+    {
+      "name": "four_release_events_drop_half_dt",
+      "passed": true,
+      "detail": "same physical release time at both step sizes"
+    },
+    {
+      "name": "landed_cover_0_drop_half_dt",
+      "passed": true,
+      "detail": {
+        "height_m": 0.017499958785699904,
+        "speed_mps": 3.101574363047921e-14
+      }
+    },
+    {
+      "name": "landed_cover_1_drop_half_dt",
+      "passed": true,
+      "detail": {
+        "height_m": 0.003499960216209988,
+        "speed_mps": 3.910766182511278e-15
+      }
+    },
+    {
+      "name": "landed_cover_2_drop_half_dt",
+      "passed": true,
+      "detail": {
+        "height_m": 0.022499983819699892,
+        "speed_mps": 3.101541911776921e-14
+      }
+    },
+    {
+      "name": "landed_cover_3_drop_half_dt",
+      "passed": true,
+      "detail": {
+        "height_m": 0.001999979528119991,
+        "speed_mps": 3.910550343718249e-15
+      }
+    },
+    {
+      "name": "source_drop_half_dt_covers.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_drop_half_dt_simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_drop_half_dt_source_covers.json",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "output_drop_half_dt_drop_half_dt.xml",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_drop_half_dt_drop_half_dt.csv",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_drop_half_dt_drop_half_dt_metrics.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_drop_half_dt_drop_half_dt_replay.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "replay_drop_half_dt",
+      "passed": true,
+      "detail": {
+        "frames": 121,
+        "expected": 121
+      }
+    },
+    {
+      "name": "xml_drop_half_dt",
+      "passed": true,
+      "detail": "exact model association"
+    },
+    {
+      "name": "quaternions_drop_half_dt",
+      "passed": true,
+      "detail": "normalized solver rotations"
+    },
+    {
+      "name": "finite_handle_remove",
+      "passed": true,
+      "detail": "all channels"
+    },
+    {
+      "name": "full_handle_remove",
+      "passed": true,
+      "detail": "complete 200 Hz bench samples"
+    },
+    {
+      "name": "topology_handle_remove",
+      "passed": true,
+      "detail": "four 6-DOF .25 kg proxies on a fixed separate bench"
+    },
+    {
+      "name": "warnings_handle_remove",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mechanical_handle_remove",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0006346049356620309,
+        "limit": 0.005
+      }
+    },
+    {
+      "name": "momentum_handle_remove",
+      "passed": true,
+      "detail": {
+        "maximum": 7.703434363487338e-13,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "penetration_handle_remove",
+      "passed": true,
+      "detail": {
+        "maximum": 0.001520799166104446,
+        "limit": 0.0020000040531158447,
+        "scope": "numerical box/floor tolerance; uncalibrated contact"
+      }
+    },
+    {
+      "name": "release_continuity_handle_remove",
+      "passed": true,
+      "detail": "no qpos/qvel writes during fixture release"
+    },
+    {
+      "name": "four_release_events_handle_remove",
+      "passed": true,
+      "detail": "same physical release time at both step sizes"
+    },
+    {
+      "name": "landed_cover_0_handle_remove",
+      "passed": true,
+      "detail": {
+        "height_m": 0.017499958785699935,
+        "speed_mps": 1.713825875085448e-14
+      }
+    },
+    {
+      "name": "landed_cover_1_handle_remove",
+      "passed": true,
+      "detail": {
+        "height_m": 0.0034999602162099895,
+        "speed_mps": 2.176163529033466e-15
+      }
+    },
+    {
+      "name": "landed_cover_2_handle_remove",
+      "passed": true,
+      "detail": {
+        "height_m": 0.022499983819699962,
+        "speed_mps": 1.71374310701558e-14
+      }
+    },
+    {
+      "name": "landed_cover_3_handle_remove",
+      "passed": true,
+      "detail": {
+        "height_m": 0.0019999795281199937,
+        "speed_mps": 2.175405303173881e-15
+      }
+    },
+    {
+      "name": "source_handle_remove_covers.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_handle_remove_simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_handle_remove_source_covers.json",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "output_handle_remove_handle_remove.xml",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_handle_remove_handle_remove.csv",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_handle_remove_handle_remove_metrics.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_handle_remove_handle_remove_replay.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "replay_handle_remove",
+      "passed": true,
+      "detail": {
+        "frames": 122,
+        "expected": 122
+      }
+    },
+    {
+      "name": "xml_handle_remove",
+      "passed": true,
+      "detail": "exact model association"
+    },
+    {
+      "name": "quaternions_handle_remove",
+      "passed": true,
+      "detail": "normalized solver rotations"
+    },
+    {
+      "name": "finite_handle_half_dt",
+      "passed": true,
+      "detail": "all channels"
+    },
+    {
+      "name": "full_handle_half_dt",
+      "passed": true,
+      "detail": "complete 200 Hz bench samples"
+    },
+    {
+      "name": "topology_handle_half_dt",
+      "passed": true,
+      "detail": "four 6-DOF .25 kg proxies on a fixed separate bench"
+    },
+    {
+      "name": "warnings_handle_half_dt",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mechanical_handle_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 0.00031730154053533077,
+        "limit": 0.005
+      }
+    },
+    {
+      "name": "momentum_handle_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.9822693640774522e-12,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "penetration_handle_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 0.001491634183355444,
+        "limit": 0.0020000040531158447,
+        "scope": "numerical box/floor tolerance; uncalibrated contact"
+      }
+    },
+    {
+      "name": "release_continuity_handle_half_dt",
+      "passed": true,
+      "detail": "no qpos/qvel writes during fixture release"
+    },
+    {
+      "name": "four_release_events_handle_half_dt",
+      "passed": true,
+      "detail": "same physical release time at both step sizes"
+    },
+    {
+      "name": "landed_cover_0_handle_half_dt",
+      "passed": true,
+      "detail": {
+        "height_m": 0.01749995878569991,
+        "speed_mps": 3.1015253252209787e-14
+      }
+    },
+    {
+      "name": "landed_cover_1_handle_half_dt",
+      "passed": true,
+      "detail": {
+        "height_m": 0.0034999602162099856,
+        "speed_mps": 3.9107273196722126e-15
+      }
+    },
+    {
+      "name": "landed_cover_2_handle_half_dt",
+      "passed": true,
+      "detail": {
+        "height_m": 0.022499983819699934,
+        "speed_mps": 3.10152818233866e-14
+      }
+    },
+    {
+      "name": "landed_cover_3_handle_half_dt",
+      "passed": true,
+      "detail": {
+        "height_m": 0.001999979528119991,
+        "speed_mps": 3.910294011101994e-15
+      }
+    },
+    {
+      "name": "source_handle_half_dt_covers.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_handle_half_dt_simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_handle_half_dt_source_covers.json",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "output_handle_half_dt_handle_half_dt.xml",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_handle_half_dt_handle_half_dt.csv",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_handle_half_dt_handle_half_dt_metrics.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_handle_half_dt_handle_half_dt_replay.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "replay_handle_half_dt",
+      "passed": true,
+      "detail": {
+        "frames": 121,
+        "expected": 121
+      }
+    },
+    {
+      "name": "xml_handle_half_dt",
+      "passed": true,
+      "detail": "exact model association"
+    },
+    {
+      "name": "quaternions_handle_half_dt",
+      "passed": true,
+      "detail": "normalized solver rotations"
+    },
+    {
+      "name": "halfstep_peak_drop",
+      "passed": true,
+      "detail": {
+        "relative_change": 0.018550689236322748,
+        "limit": 0.05
+      }
+    },
+    {
+      "name": "halfstep_final_height_drop",
+      "passed": true,
+      "detail": {
+        "maximum_difference_m": 6.245004513516506e-17,
+        "limit": 0.0001
+      }
+    },
+    {
+      "name": "halfstep_peak_handle_remove",
+      "passed": true,
+      "detail": {
+        "relative_change": 0.02537321516128621,
+        "limit": 0.05
+      }
+    },
+    {
+      "name": "halfstep_final_height_handle_remove",
+      "passed": true,
+      "detail": {
+        "maximum_difference_m": 2.7755575615628914e-17,
+        "limit": 0.0001
+      }
+    },
+    {
+      "name": "handling_lifts_cover_0",
+      "passed": true,
+      "detail": {
+        "maximum_height_m": 0.5471462822338881,
+        "initial_height_m": 0.4
+      }
+    },
+    {
+      "name": "handling_rotates_cover_0",
+      "passed": true,
+      "detail": "applied lever-arm torque produces rotation"
+    },
+    {
+      "name": "handling_lifts_cover_1",
+      "passed": true,
+      "detail": {
+        "maximum_height_m": 0.5471496306106355,
+        "initial_height_m": 0.4
+      }
+    },
+    {
+      "name": "handling_rotates_cover_1",
+      "passed": true,
+      "detail": "applied lever-arm torque produces rotation"
+    },
+    {
+      "name": "handling_lifts_cover_2",
+      "passed": true,
+      "detail": {
+        "maximum_height_m": 0.5471495141819187,
+        "initial_height_m": 0.4
+      }
+    },
+    {
+      "name": "handling_rotates_cover_2",
+      "passed": true,
+      "detail": "applied lever-arm torque produces rotation"
+    },
+    {
+      "name": "handling_lifts_cover_3",
+      "passed": true,
+      "detail": {
+        "maximum_height_m": 0.5471461224061949,
+        "initial_height_m": 0.4
+      }
+    },
+    {
+      "name": "handling_rotates_cover_3",
+      "passed": true,
+      "detail": "applied lever-arm torque produces rotation"
+    },
+    {
+      "name": "no_state_drivers",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "scope": "five full independent maintenance-bench cases, four source-shaped proxies; no moving-vehicle integration",
+  "limits": [
+    "Source dimensions unmeasured; two source lid assembly poses unresolved.",
+    "Four assigned .25 kg masses, uniform box inertias/contact and ideal numerical fixtures are inferred.",
+    "Source fin geometry is visual; bounding-box contact is not literal mesh contact.",
+    "No bolt unscrewing, hand geometry, source hinge or measured fixture compliance.",
+    "Maximum allowed penetration is half the thinnest proxy thickness; no real impact-load accuracy claim."
+  ]
+}

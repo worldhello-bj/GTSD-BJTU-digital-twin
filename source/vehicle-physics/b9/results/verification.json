@@ -1,0 +1,1001 @@
+{
+  "status": "PASS_WITH_MODEL_LIMITATIONS",
+  "passed": true,
+  "integrated_cases": 5,
+  "component_tests": 19,
+  "regression_tests": 35,
+  "checks": [
+    {
+      "name": "component_verification",
+      "passed": true,
+      "detail": {
+        "tests_run": 19
+      }
+    },
+    {
+      "name": "component_regression",
+      "passed": true,
+      "detail": {
+        "tests_run": 35
+      }
+    },
+    {
+      "name": "topology_service_brake",
+      "passed": true,
+      "detail": {
+        "mechanical_coordinates": 77,
+        "gas_mass_states": 26,
+        "metering_ports": 51,
+        "extra_spool_states": 102
+      }
+    },
+    {
+      "name": "finite_service_brake",
+      "passed": true,
+      "detail": "CSV physical samples finite"
+    },
+    {
+      "name": "solver_service_brake",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mechanical_work_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 0.05579283855133804,
+        "unchanged_B8_limit": 0.15
+      }
+    },
+    {
+      "name": "gas_work_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 1.1560979951141803e-10,
+        "unchanged_B8_limit": 1e-05
+      }
+    },
+    {
+      "name": "coupling_work_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 0.00035124115269458134,
+        "unchanged_B8_limit": 0.05
+      }
+    },
+    {
+      "name": "momentum_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 0.021444026086047858,
+        "unchanged_B8_limit": 0.05
+      }
+    },
+    {
+      "name": "gas_mass_service_brake",
+      "passed": true,
+      "detail": 5.474121648017714e-16
+    },
+    {
+      "name": "contact_passivity_service_brake",
+      "passed": true,
+      "detail": "same B8 passive contact criterion"
+    },
+    {
+      "name": "spool_energy_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum_J": 5.264018387851621e-15,
+        "limit_J": 1e-07
+      }
+    },
+    {
+      "name": "spool_flow_bounds_service_brake",
+      "passed": true,
+      "detail": "bounded actual metering areas"
+    },
+    {
+      "name": "output_hash_service_brake_service_brake.xml",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_service_brake_service_brake.csv",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_service_brake_service_brake_metrics.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_service_brake_service_brake_spools.csv",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_service_brake_service_brake_replay.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "source_hash_service_brake_simulate_full.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_service_brake_full_model.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_service_brake_compliant_contact.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_service_brake_pneumatics.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_service_brake_pantograph.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_service_brake_access_doors.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_service_brake_build_model.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_service_brake_valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_service_brake_compat.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_service_brake_simulate.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "xml_replay_identity_service_brake",
+      "passed": true,
+      "detail": "7808bc4784bcddb7e9440accb27fa79eb539c06633323c6d56f79a6fa9299199"
+    },
+    {
+      "name": "full_replay_service_brake",
+      "passed": true,
+      "detail": {
+        "frames": 301,
+        "expected_frames": 301,
+        "rigid_bodies": 44,
+        "rule": "whole physics-step replay stride plus exact final endpoint"
+      }
+    },
+    {
+      "name": "topology_half_dt",
+      "passed": true,
+      "detail": {
+        "mechanical_coordinates": 77,
+        "gas_mass_states": 26,
+        "metering_ports": 51,
+        "extra_spool_states": 102
+      }
+    },
+    {
+      "name": "finite_half_dt",
+      "passed": true,
+      "detail": "CSV physical samples finite"
+    },
+    {
+      "name": "solver_half_dt",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mechanical_work_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 0.019704130415815813,
+        "unchanged_B8_limit": 0.15
+      }
+    },
+    {
+      "name": "gas_work_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 3.4872776888406065e-10,
+        "unchanged_B8_limit": 1e-05
+      }
+    },
+    {
+      "name": "coupling_work_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0001758757505885833,
+        "unchanged_B8_limit": 0.05
+      }
+    },
+    {
+      "name": "momentum_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 0.010722715507293723,
+        "unchanged_B8_limit": 0.05
+      }
+    },
+    {
+      "name": "gas_mass_half_dt",
+      "passed": true,
+      "detail": 1.6548816044294125e-15
+    },
+    {
+      "name": "contact_passivity_half_dt",
+      "passed": true,
+      "detail": "same B8 passive contact criterion"
+    },
+    {
+      "name": "spool_energy_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum_J": 1.954773148904465e-14,
+        "limit_J": 1e-07
+      }
+    },
+    {
+      "name": "spool_flow_bounds_half_dt",
+      "passed": true,
+      "detail": "bounded actual metering areas"
+    },
+    {
+      "name": "output_hash_half_dt_half_dt.xml",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_half_dt_half_dt.csv",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_half_dt_half_dt_metrics.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_half_dt_half_dt_spools.csv",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_half_dt_half_dt_replay.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "source_hash_half_dt_simulate_full.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_half_dt_full_model.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_half_dt_compliant_contact.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_half_dt_pneumatics.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_half_dt_pantograph.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_half_dt_access_doors.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_half_dt_build_model.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_half_dt_valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_half_dt_compat.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_half_dt_simulate.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "xml_replay_identity_half_dt",
+      "passed": true,
+      "detail": "5b9e3aa33b323e9fd2ada591101adb21a5bb90103b6e870781480f0a5533acf7"
+    },
+    {
+      "name": "full_replay_half_dt",
+      "passed": true,
+      "detail": {
+        "frames": 302,
+        "expected_frames": 302,
+        "rigid_bodies": 44,
+        "rule": "whole physics-step replay stride plus exact final endpoint"
+      }
+    },
+    {
+      "name": "topology_brake_coil_failure",
+      "passed": true,
+      "detail": {
+        "mechanical_coordinates": 77,
+        "gas_mass_states": 26,
+        "metering_ports": 51,
+        "extra_spool_states": 102
+      }
+    },
+    {
+      "name": "finite_brake_coil_failure",
+      "passed": true,
+      "detail": "CSV physical samples finite"
+    },
+    {
+      "name": "solver_brake_coil_failure",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mechanical_work_brake_coil_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 0.050979049326447756,
+        "unchanged_B8_limit": 0.15
+      }
+    },
+    {
+      "name": "gas_work_brake_coil_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 4.400629860512595e-11,
+        "unchanged_B8_limit": 1e-05
+      }
+    },
+    {
+      "name": "coupling_work_brake_coil_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 0.00035124115269458134,
+        "unchanged_B8_limit": 0.05
+      }
+    },
+    {
+      "name": "momentum_brake_coil_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 0.021444026086047858,
+        "unchanged_B8_limit": 0.05
+      }
+    },
+    {
+      "name": "gas_mass_brake_coil_failure",
+      "passed": true,
+      "detail": 2.1239671767607007e-16
+    },
+    {
+      "name": "contact_passivity_brake_coil_failure",
+      "passed": true,
+      "detail": "same B8 passive contact criterion"
+    },
+    {
+      "name": "spool_energy_brake_coil_failure",
+      "passed": true,
+      "detail": {
+        "maximum_J": 3.273423199168235e-15,
+        "limit_J": 1e-07
+      }
+    },
+    {
+      "name": "spool_flow_bounds_brake_coil_failure",
+      "passed": true,
+      "detail": "bounded actual metering areas"
+    },
+    {
+      "name": "output_hash_brake_coil_failure_brake_coil_failure.xml",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_brake_coil_failure_brake_coil_failure.csv",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_brake_coil_failure_brake_coil_failure_metrics.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_brake_coil_failure_brake_coil_failure_spools.csv",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_brake_coil_failure_brake_coil_failure_replay.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "source_hash_brake_coil_failure_simulate_full.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_brake_coil_failure_full_model.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_brake_coil_failure_compliant_contact.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_brake_coil_failure_pneumatics.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_brake_coil_failure_pantograph.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_brake_coil_failure_access_doors.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_brake_coil_failure_build_model.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_brake_coil_failure_valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_brake_coil_failure_compat.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_brake_coil_failure_simulate.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "xml_replay_identity_brake_coil_failure",
+      "passed": true,
+      "detail": "7808bc4784bcddb7e9440accb27fa79eb539c06633323c6d56f79a6fa9299199"
+    },
+    {
+      "name": "full_replay_brake_coil_failure",
+      "passed": true,
+      "detail": {
+        "frames": 301,
+        "expected_frames": 301,
+        "rigid_bodies": 44,
+        "rule": "whole physics-step replay stride plus exact final endpoint"
+      }
+    },
+    {
+      "name": "topology_slow_brake_valves",
+      "passed": true,
+      "detail": {
+        "mechanical_coordinates": 77,
+        "gas_mass_states": 26,
+        "metering_ports": 51,
+        "extra_spool_states": 102
+      }
+    },
+    {
+      "name": "finite_slow_brake_valves",
+      "passed": true,
+      "detail": "CSV physical samples finite"
+    },
+    {
+      "name": "solver_slow_brake_valves",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mechanical_work_slow_brake_valves",
+      "passed": true,
+      "detail": {
+        "maximum": 0.05591208204803272,
+        "unchanged_B8_limit": 0.15
+      }
+    },
+    {
+      "name": "gas_work_slow_brake_valves",
+      "passed": true,
+      "detail": {
+        "maximum": 5.481881615310158e-11,
+        "unchanged_B8_limit": 1e-05
+      }
+    },
+    {
+      "name": "coupling_work_slow_brake_valves",
+      "passed": true,
+      "detail": {
+        "maximum": 0.00035124115217538554,
+        "unchanged_B8_limit": 0.05
+      }
+    },
+    {
+      "name": "momentum_slow_brake_valves",
+      "passed": true,
+      "detail": {
+        "maximum": 0.021444026087394364,
+        "unchanged_B8_limit": 0.05
+      }
+    },
+    {
+      "name": "gas_mass_slow_brake_valves",
+      "passed": true,
+      "detail": 2.637148506776272e-16
+    },
+    {
+      "name": "contact_passivity_slow_brake_valves",
+      "passed": true,
+      "detail": "same B8 passive contact criterion"
+    },
+    {
+      "name": "spool_energy_slow_brake_valves",
+      "passed": true,
+      "detail": {
+        "maximum_J": 4.55278176270113e-15,
+        "limit_J": 1e-07
+      }
+    },
+    {
+      "name": "spool_flow_bounds_slow_brake_valves",
+      "passed": true,
+      "detail": "bounded actual metering areas"
+    },
+    {
+      "name": "output_hash_slow_brake_valves_slow_brake_valves.xml",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_slow_brake_valves_slow_brake_valves.csv",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_slow_brake_valves_slow_brake_valves_metrics.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_slow_brake_valves_slow_brake_valves_spools.csv",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_slow_brake_valves_slow_brake_valves_replay.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "source_hash_slow_brake_valves_simulate_full.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_slow_brake_valves_full_model.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_slow_brake_valves_compliant_contact.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_slow_brake_valves_pneumatics.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_slow_brake_valves_pantograph.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_slow_brake_valves_access_doors.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_slow_brake_valves_build_model.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_slow_brake_valves_valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_slow_brake_valves_compat.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_slow_brake_valves_simulate.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "xml_replay_identity_slow_brake_valves",
+      "passed": true,
+      "detail": "7808bc4784bcddb7e9440accb27fa79eb539c06633323c6d56f79a6fa9299199"
+    },
+    {
+      "name": "full_replay_slow_brake_valves",
+      "passed": true,
+      "detail": {
+        "frames": 301,
+        "expected_frames": 301,
+        "rigid_bodies": 44,
+        "rule": "whole physics-step replay stride plus exact final endpoint"
+      }
+    },
+    {
+      "name": "topology_normal_exhaust",
+      "passed": true,
+      "detail": {
+        "mechanical_coordinates": 77,
+        "gas_mass_states": 26,
+        "metering_ports": 51,
+        "extra_spool_states": 102
+      }
+    },
+    {
+      "name": "finite_normal_exhaust",
+      "passed": true,
+      "detail": "CSV physical samples finite"
+    },
+    {
+      "name": "solver_normal_exhaust",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mechanical_work_normal_exhaust",
+      "passed": true,
+      "detail": {
+        "maximum": 0.055660824847444,
+        "unchanged_B8_limit": 0.15
+      }
+    },
+    {
+      "name": "gas_work_normal_exhaust",
+      "passed": true,
+      "detail": {
+        "maximum": 1.1560979951141803e-10,
+        "unchanged_B8_limit": 1e-05
+      }
+    },
+    {
+      "name": "coupling_work_normal_exhaust",
+      "passed": true,
+      "detail": {
+        "maximum": 0.00035124115269458134,
+        "unchanged_B8_limit": 0.05
+      }
+    },
+    {
+      "name": "momentum_normal_exhaust",
+      "passed": true,
+      "detail": {
+        "maximum": 0.021444026086047858,
+        "unchanged_B8_limit": 0.05
+      }
+    },
+    {
+      "name": "gas_mass_normal_exhaust",
+      "passed": true,
+      "detail": 5.474121648017714e-16
+    },
+    {
+      "name": "contact_passivity_normal_exhaust",
+      "passed": true,
+      "detail": "same B8 passive contact criterion"
+    },
+    {
+      "name": "spool_energy_normal_exhaust",
+      "passed": true,
+      "detail": {
+        "maximum_J": 5.245803791353865e-15,
+        "limit_J": 1e-07
+      }
+    },
+    {
+      "name": "spool_flow_bounds_normal_exhaust",
+      "passed": true,
+      "detail": "bounded actual metering areas"
+    },
+    {
+      "name": "output_hash_normal_exhaust_normal_exhaust.xml",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_normal_exhaust_normal_exhaust.csv",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_normal_exhaust_normal_exhaust_metrics.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_normal_exhaust_normal_exhaust_spools.csv",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "output_hash_normal_exhaust_normal_exhaust_replay.json",
+      "passed": true,
+      "detail": "exact output association"
+    },
+    {
+      "name": "source_hash_normal_exhaust_simulate_full.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_normal_exhaust_full_model.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_normal_exhaust_compliant_contact.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_normal_exhaust_pneumatics.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_normal_exhaust_pantograph.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_normal_exhaust_access_doors.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_normal_exhaust_build_model.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_normal_exhaust_valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_normal_exhaust_compat.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "source_hash_normal_exhaust_simulate.py",
+      "passed": true,
+      "detail": "actual executed force/flow source"
+    },
+    {
+      "name": "xml_replay_identity_normal_exhaust",
+      "passed": true,
+      "detail": "7808bc4784bcddb7e9440accb27fa79eb539c06633323c6d56f79a6fa9299199"
+    },
+    {
+      "name": "full_replay_normal_exhaust",
+      "passed": true,
+      "detail": {
+        "frames": 301,
+        "expected_frames": 301,
+        "rigid_bodies": 44,
+        "rule": "whole physics-step replay stride plus exact final endpoint"
+      }
+    },
+    {
+      "name": "normal_pressure_braking_stops",
+      "passed": true,
+      "detail": {
+        "stop_distance_m": 0.8497412769047843,
+        "stopped_after_brake_s": 4.969999999979095
+      }
+    },
+    {
+      "name": "halfstep_stop_distance",
+      "passed": true,
+      "detail": {
+        "relative_change": 1.3233529388978482e-05,
+        "unchanged_B8_limit": 0.025
+      }
+    },
+    {
+      "name": "halfstep_collector_peak",
+      "passed": true,
+      "detail": {
+        "main_N": 13.68847329652558,
+        "half_N": 13.563005599301606,
+        "unchanged_B8_limit": 0.1
+      }
+    },
+    {
+      "name": "supply_coil_failure_prevents_stop",
+      "passed": true,
+      "detail": {
+        "final_speed_mps": 0.5252462466896607,
+        "brake_pressure_Pa": 101324.99487234573
+      }
+    },
+    {
+      "name": "failed_supply_spools_stay_closed",
+      "passed": true,
+      "detail": "all 16 brake supply proxy coils fail"
+    },
+    {
+      "name": "slow_valves_increase_braking_distance",
+      "passed": true,
+      "detail": {
+        "normal_m": 0.8497412769047843,
+        "slow_m": 0.8628964002169299
+      }
+    },
+    {
+      "name": "quick_exhaust_remains_faster",
+      "passed": true,
+      "detail": {
+        "quick_Pa": 325617.0882505222,
+        "normal_Pa": 550595.4697367816
+      }
+    },
+    {
+      "name": "frozen_b8_full_model.py",
+      "passed": true,
+      "detail": "frozen B8 source identity retained"
+    },
+    {
+      "name": "frozen_b8_simulate_full.py",
+      "passed": true,
+      "detail": "frozen B8 source identity retained"
+    },
+    {
+      "name": "frozen_b8_compliant_contact.py",
+      "passed": true,
+      "detail": "frozen B8 source identity retained"
+    },
+    {
+      "name": "frozen_b8_pneumatics.py",
+      "passed": true,
+      "detail": "frozen B8 source identity retained"
+    },
+    {
+      "name": "frozen_b8_pantograph.py",
+      "passed": true,
+      "detail": "frozen B8 source identity retained"
+    },
+    {
+      "name": "frozen_b8_access_doors.py",
+      "passed": true,
+      "detail": "frozen B8 source identity retained"
+    },
+    {
+      "name": "frozen_b8_live_viewer_full.py",
+      "passed": true,
+      "detail": "frozen B8 source identity retained"
+    },
+    {
+      "name": "frozen_b8_parameters.json",
+      "passed": true,
+      "detail": "frozen B8 source identity retained"
+    },
+    {
+      "name": "no_b9_vehicle_state_overrides",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "scope": "5 settled B9 valve-coupling cases only; B8 frozen 22 cases are historical, not rerun B9 acceptance",
+  "limitations": [
+    "All added valve masses, strokes, forces, damping and land widths are uncalibrated.",
+    "51 independent balanced metering-port proxies are a numerical topology, not 51 real hardware valves.",
+    "Valve mount reactions and pressure imbalance/swept spool volumes are outside this balanced external-bench model.",
+    "No new source valve-internal mesh motion is asserted; rigid-body replay uses the frozen B8 adapter.",
+    "Soft cables/hoses, compressor crank/piston and fan impellers remain unphysicalized.",
+    "No B9 low-adhesion, full 22-case, hardware calibration or safety acceptance claim."
+  ]
+}

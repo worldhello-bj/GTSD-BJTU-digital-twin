@@ -1,0 +1,20 @@
+[
+  {
+    "max_link_length_m": 0.6,
+    "chord_error_m": 0.003,
+    "links": 90,
+    "nv": 347,
+    "runtime_100_native_steps_s": 0.289145800001279,
+    "total_cable_mass_kg": 4.289823813798074,
+    "maximum_source_length_relative_change": 0.0004872420978087044
+  },
+  {
+    "max_link_length_m": 1.0,
+    "chord_error_m": 0.003,
+    "links": 85,
+    "nv": 332,
+    "runtime_100_native_steps_s": 0.24618069999996806,
+    "total_cable_mass_kg": 4.289823813798074,
+    "maximum_source_length_relative_change": 0.0004872420978087044
+  }
+]

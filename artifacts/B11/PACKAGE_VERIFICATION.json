@@ -1,0 +1,631 @@
+{
+  "passed": true,
+  "path": "artifacts/B11/GTSD_BJTU_B11_source_cable_dynamics.zip",
+  "files": 152,
+  "size": 64222335,
+  "sha256": "a1c16c30e38eedfa41b748ba970f7fb06a72e7d1d4a8ab90ce4ba2bdeba8b74d",
+  "zip_crc": "passed",
+  "file_hashes": "all passed",
+  "manifest": {
+    "schema": "B11 source-cable equivalent incremental package v1",
+    "acceptance": "PASS_WITH_MODEL_LIMITATIONS",
+    "cases": 6,
+    "contents": {
+      "local-replay-base/GTSD_BJTU_B8/reports/source_door_closed_rest.json": {
+        "size": 164118,
+        "sha256": "cefcdb9a04dc5f5ea20a6065810ae83ee8e4e1384aa137dc464000056c29071b"
+      },
+      "local-replay-base/GTSD_BJTU_B8/source/GTSD_BJTU_B7_detailed.blend": {
+        "size": 2327901,
+        "sha256": "c96811c45220dcdfad0853b73e4743297be7e090d4fb3230a7531eb89b3a4c04"
+      },
+      "source/GTSD_BJTU_B8/scripts/append_b8_access_replay.py": {
+        "size": 9444,
+        "sha256": "fa85f947de9c6b9c7eed64e32bed38d8a5ed2ce79d3388bcae09792c3120bc8f"
+      },
+      "source/GTSD_BJTU_B8/scripts/import_b8_replay.py": {
+        "size": 24122,
+        "sha256": "4db08162c313f55e57c89e9c982a7b488ec69689d96bbe5212fd74790a4e6cbf"
+      },
+      "source/GTSD_BJTU_B8/scripts/render_b8_review.py": {
+        "size": 2146,
+        "sha256": "f4e2af3aab1a177c57cca6701a835800cd73c9a740baa2eb42fe3ecd424c448f"
+      },
+      "source/GTSD_BJTU_B8/scripts/replay_contract.py": {
+        "size": 4588,
+        "sha256": "9443d2fbd0d84210d8455eec14ac459b136563d61c628330a51b8d8e69f76d22"
+      },
+      "source/GTSD_BJTU_B8/scripts/source_access_bindings.py": {
+        "size": 4307,
+        "sha256": "06931994a91bbcf5029306ab4732008c004980528207c990ec460458391c24f3"
+      },
+      "source/GTSD_BJTU_B8/scripts/validate_b8_saved_replays.py": {
+        "size": 3101,
+        "sha256": "ce447532e5a12154d40390ea11d024300023eb10c9dacd67932f9cfa52d25c8a"
+      },
+      "source/vehicle-physics/b10/README.md": {
+        "size": 6386,
+        "sha256": "33bcfb911143b8e3c5c427c259dd653b058826dca4e92aaf6b1140af6b438057"
+      },
+      "source/vehicle-physics/b10/RESULTS.md": {
+        "size": 1753,
+        "sha256": "f54ad01f812f8f90654e7fab5a7db944b8256675ef719ad566d08202938002e4"
+      },
+      "source/vehicle-physics/b10/auxiliaries.py": {
+        "size": 20826,
+        "sha256": "03f55f0238a191fed0e8289183248547d51497d56b20c50b2905d143de1e65e4"
+      },
+      "source/vehicle-physics/b10/bench.py": {
+        "size": 3775,
+        "sha256": "b837056b9ebf9a127a65ad1d6f380e14dc7b7ca0bae90bc520ceaba3022613bf"
+      },
+      "source/vehicle-physics/b10/build_blender_replay.py": {
+        "size": 11555,
+        "sha256": "f6634da68238d9a77f675ee35ad999d66c7108f0ff684afacc14aa24cd5b0112"
+      },
+      "source/vehicle-physics/b10/freeze_execution.py": {
+        "size": 2035,
+        "sha256": "e590b9aeceaebc130aa5dfdf1f3cce87343f06489ea98b679caf7b9b3e5f5039"
+      },
+      "source/vehicle-physics/b10/live.py": {
+        "size": 1597,
+        "sha256": "0da0a7f0de952ad8b3158358666c0bee066402dde36aed2d3355a10dea4016ac"
+      },
+      "source/vehicle-physics/b10/package.py": {
+        "size": 3895,
+        "sha256": "1204c5b0f4d05bc8b258a8344ddc2f0c26906436f8461e187c0a4420f9cbb8ca"
+      },
+      "source/vehicle-physics/b10/probe.py": {
+        "size": 1377,
+        "sha256": "9f95f52c05dcd2ef10748a71d804d1ebea634ad11611a1bf63c35cef4d136fd2"
+      },
+      "source/vehicle-physics/b10/render_blender_replay.py": {
+        "size": 866,
+        "sha256": "b367eda66259be25f676f7590415b98b4090ee7b38fa3b572e4bdbe180ed03b4"
+      },
+      "source/vehicle-physics/b10/replay/assets/GTSD_BJTU_B10_source_dynamics.blend": {
+        "size": 6680563,
+        "sha256": "39b5bb0b8089e6da01142dfa0c0f57206986ac5805bad8fef62359b79a2771c9"
+      },
+      "source/vehicle-physics/b10/replay/inputs/auxiliary_startup.csv": {
+        "size": 596873,
+        "sha256": "464118444dadeec8f7ad73291267962d72eb522df20f9594887e690c2b3c1f5f"
+      },
+      "source/vehicle-physics/b10/replay/inputs/auxiliary_startup_identity.json": {
+        "size": 5937,
+        "sha256": "6c97932b85b85255f7ad8d2f285eee367a0797d516800a6444020e04bfdfe446"
+      },
+      "source/vehicle-physics/b10/replay/reports/b10_readback.json": {
+        "size": 795,
+        "sha256": "569701441f5852ee585a01d96f314b99136a8f40a9ecc6ff28d2f81a5110eb4d"
+      },
+      "source/vehicle-physics/b10/report.py": {
+        "size": 5929,
+        "sha256": "6b6b68acce139a8e27508a12ebdf3d8b42b630ccfd6e97ad9ebd7fbe7f7629f9"
+      },
+      "source/vehicle-physics/b10/simulate.py": {
+        "size": 6867,
+        "sha256": "725e0d4a19ce3042f291fbe7f63d469ba8ef7b443f287eb88514bd727b7035b3"
+      },
+      "source/vehicle-physics/b10/smoke_package.py": {
+        "size": 2389,
+        "sha256": "1461adeeed7e07dcbdf79ab5ff3a7ea3240f21394624b7f97065515e7631c4b6"
+      },
+      "source/vehicle-physics/b10/test_auxiliaries.py": {
+        "size": 9064,
+        "sha256": "7f6267c52ffce0bc9e7237f2dd5064d0b549c50b6ae0cd2c18373b3f79c1e156"
+      },
+      "source/vehicle-physics/b10/test_integration.py": {
+        "size": 3371,
+        "sha256": "a0cb1cde6f7068853d1224233e7b69163292e2a9c4907257a39201f81d28bb9e"
+      },
+      "source/vehicle-physics/b10/validate_blender_replay.py": {
+        "size": 4537,
+        "sha256": "5f9ca40fe6d84b935d82c74d58dd731297846f1b0372243d4ee376bb380bd66b"
+      },
+      "source/vehicle-physics/b10/verify.py": {
+        "size": 11163,
+        "sha256": "1fd4abb5c5294b2cf3b39842ce63af647e17f277216a72be6e55e79adc82c1ed"
+      },
+      "source/vehicle-physics/b11/README.md": {
+        "size": 6605,
+        "sha256": "4bccdafac90850fcfec8fdd9a0a27111ff4473e75a91d8c9ca20b982fc90b696"
+      },
+      "source/vehicle-physics/b11/RESULTS.md": {
+        "size": 3512,
+        "sha256": "489c84a6f33b67c5cea38cc0bae299aa3596f773bd2022ae843519ea53e40eed"
+      },
+      "source/vehicle-physics/b11/build_blender_replay.py": {
+        "size": 11937,
+        "sha256": "48c6bff52605ad09cc645ee75a77972a67cf5c244b5aaa7b9c8459261f20c9c5"
+      },
+      "source/vehicle-physics/b11/cable_contact_audit.py": {
+        "size": 2444,
+        "sha256": "76cbde88e90f3cd830e7de0089eca54a4c9992fbcdd2834ee0b51cf1dc775b32"
+      },
+      "source/vehicle-physics/b11/cables.py": {
+        "size": 10398,
+        "sha256": "887596a59a9c38e2da65c1ea77f3fe888786a7234739ed7a88b55d325abcd1c6"
+      },
+      "source/vehicle-physics/b11/component_verification.json": {
+        "size": 561,
+        "sha256": "ae0201432874b031c142a07b9547291d09524259813e8288ffd024b3fe2cd3ac"
+      },
+      "source/vehicle-physics/b11/derive_b8_solver.py": {
+        "size": 9138,
+        "sha256": "6c4f7a0c7d04f16570481e96e646e31eb719e274bb3581298d8bb16c060a1654"
+      },
+      "source/vehicle-physics/b11/extract_source_cables.py": {
+        "size": 2958,
+        "sha256": "830037e84339e56e5c0cd1e3da907f4040f7ecfd34031cab9052988695b15367"
+      },
+      "source/vehicle-physics/b11/history/v2_4of6_verification.json": {
+        "size": 55139,
+        "sha256": "cddf75c79bbe2e70dd09b053f8fe9ecccad868823610b3a3adc0ee8890418e88"
+      },
+      "source/vehicle-physics/b11/history/v2_rejection.json": {
+        "size": 102109,
+        "sha256": "beb6dc80a1cb6be4158b3dfafb1d935b89b8081d3ef2e822b2f6d8a55a262522"
+      },
+      "source/vehicle-physics/b11/history/v3_constraint_probe.json": {
+        "size": 9806,
+        "sha256": "8085ed8b027f6b2e96f62597a59d9eaf9c2c2ad04e4b0c454dee510989d48fbe"
+      },
+      "source/vehicle-physics/b11/import_results.py": {
+        "size": 3169,
+        "sha256": "6753794ed3c444cb7bfe3fc3f7c29210dafd43bd6b9d8b9e4b631d61767b834a"
+      },
+      "source/vehicle-physics/b11/live.py": {
+        "size": 2587,
+        "sha256": "0a8269b2226937fc7df9d776588d6f4a95474510c5134eb196ece0c03bf6d7a7"
+      },
+      "source/vehicle-physics/b11/package.py": {
+        "size": 5842,
+        "sha256": "e09fbf9b1719ada76ca0e338cda8ffef0141f215a80146ccb227568e728efa13"
+      },
+      "source/vehicle-physics/b11/regression_verification.json": {
+        "size": 467,
+        "sha256": "645e77e8dd4c7ae052af9d85405da3433c0d66b72404f1854a8d1fecf053b3f8"
+      },
+      "source/vehicle-physics/b11/render_blender_replay.py": {
+        "size": 831,
+        "sha256": "d19d9e82a308427625220903c021b7d72c3c25ef80e7d2e7ea926c640c7d862a"
+      },
+      "source/vehicle-physics/b11/replay/assets/GTSD_BJTU_B11_source_cable_dynamics.blend": {
+        "size": 14393699,
+        "sha256": "ebcc6446da2f7a62b776196c56e1e5f8f3147d381e7eb36766cc5cb21907d7a9"
+      },
+      "source/vehicle-physics/b11/replay/inputs/doors_open_close.xml": {
+        "size": 144919,
+        "sha256": "5e11dc629019b8efc092a8cc11820aa7b80f324b0ffad42deddc7950d6ef40be"
+      },
+      "source/vehicle-physics/b11/replay/inputs/doors_open_close_replay.json": {
+        "size": 11079280,
+        "sha256": "4dafe9c0ceeb7dba9e6366cdcd1d3b86e86f48543c92ad3fd7509ce95e32e226"
+      },
+      "source/vehicle-physics/b11/replay/inputs/final_model.xml": {
+        "size": 144919,
+        "sha256": "5e11dc629019b8efc092a8cc11820aa7b80f324b0ffad42deddc7950d6ef40be"
+      },
+      "source/vehicle-physics/b11/replay/inputs/final_replay.json": {
+        "size": 11035516,
+        "sha256": "6b542fb628466584deedb2270483bb8381aac019e52e9eb58793dfedb11fed16"
+      },
+      "source/vehicle-physics/b11/replay/renders/b11_bonding_cable.png": {
+        "size": 962362,
+        "sha256": "5b7cad964acb1dcc70d7571f74cc7b791b123be932daa7c951691db908b74974"
+      },
+      "source/vehicle-physics/b11/replay/renders/b11_overview.png": {
+        "size": 1150487,
+        "sha256": "f99fbd0592c932b7bf50466e1e5b79440a514dbcc6aaea127f1824f9497de2a2"
+      },
+      "source/vehicle-physics/b11/replay/renders/b11_supply_cables.png": {
+        "size": 1015304,
+        "sha256": "ad121d7dc5c303fb560c1613153d6c6905b295fa8771d48cededb9b01fc7fbf8"
+      },
+      "source/vehicle-physics/b11/replay/reports/b11_export.json": {
+        "size": 47087,
+        "sha256": "8ceffdad9e6a9bc69290d8d2d6c931054aeca5fabfc518890025b7fd3b2cfb01"
+      },
+      "source/vehicle-physics/b11/replay/reports/b11_readback.json": {
+        "size": 1478,
+        "sha256": "35cd32f7208ef04479d4bfb89c7cb013c46e66b4530b57f6ce3ab33ebfed8452"
+      },
+      "source/vehicle-physics/b11/replay/reports/final_display_check.json": {
+        "size": 947,
+        "sha256": "04b651efd10979bcdf92ab364a5770b51c987a1212ea7cf2b2c18a37202a9efc"
+      },
+      "source/vehicle-physics/b11/replay/reports/final_mapping.json": {
+        "size": 439099,
+        "sha256": "296c487342d654a8f6da63cd492c23f1633f421b9b5989e48aa966595fa18562"
+      },
+      "source/vehicle-physics/b11/replay/reports/source_door_closed_rest.json": {
+        "size": 164118,
+        "sha256": "cefcdb9a04dc5f5ea20a6065810ae83ee8e4e1384aa137dc464000056c29071b"
+      },
+      "source/vehicle-physics/b11/replay_geometry.py": {
+        "size": 3001,
+        "sha256": "4b9f04234d0ff066861a18b15e34dddac773a70f6c791049f6f3ac6ca5784fc9"
+      },
+      "source/vehicle-physics/b11/report.py": {
+        "size": 6684,
+        "sha256": "7de35aceba2adf3fc5cc45e2fd0719e03cd7dca16ef3d11c19e9199de308cd5b"
+      },
+      "source/vehicle-physics/b11/results/b11_cable_response.pdf": {
+        "size": 60032,
+        "sha256": "2ff0d73b164f678445c520b642675262cf3761fda5890cc1c9c1658966457e27"
+      },
+      "source/vehicle-physics/b11/results/b11_cable_response.png": {
+        "size": 317094,
+        "sha256": "94185361ea1834f9a1341eb6f311cae634efb57a263fc8935891342dc53241bf"
+      },
+      "source/vehicle-physics/b11/results/doors_half_dt.csv": {
+        "size": 1569324,
+        "sha256": "60a4a3859f35a28c754c87a990bf749ba462e24de436c3314d91fcb1ec892e03"
+      },
+      "source/vehicle-physics/b11/results/doors_half_dt.xml": {
+        "size": 144921,
+        "sha256": "a523537a594b2e906769e9a397bc6f1ce1330b8948d54d878c7d28f89a7dde46"
+      },
+      "source/vehicle-physics/b11/results/doors_half_dt_auxiliaries.csv": {
+        "size": 835600,
+        "sha256": "c9dced243cdb7a02f2967a5eb94dab3758e1cb7162431929fde5e6bbb9927704"
+      },
+      "source/vehicle-physics/b11/results/doors_half_dt_identity.json": {
+        "size": 21659,
+        "sha256": "e428bacf2b2732b6c729fce46bcaee800ed1a07cb9358a50d9b4393b7bd8052f"
+      },
+      "source/vehicle-physics/b11/results/doors_half_dt_metrics.json": {
+        "size": 170204,
+        "sha256": "afad1b672b2fc0d620ec1a15aab183524bdabba6447e2a82cb0d1967e8a9f95e"
+      },
+      "source/vehicle-physics/b11/results/doors_half_dt_replay.json": {
+        "size": 11116433,
+        "sha256": "4501339ac0c9c2543f605ba4b6575729c5bbbe262612b9e58b356cd64820693a"
+      },
+      "source/vehicle-physics/b11/results/doors_open_close.csv": {
+        "size": 1565240,
+        "sha256": "c1067e07d911d5ffa179f5d370441229001759185dbea52b1a5f972484a8e4fc"
+      },
+      "source/vehicle-physics/b11/results/doors_open_close.xml": {
+        "size": 144919,
+        "sha256": "5e11dc629019b8efc092a8cc11820aa7b80f324b0ffad42deddc7950d6ef40be"
+      },
+      "source/vehicle-physics/b11/results/doors_open_close_auxiliaries.csv": {
+        "size": 831876,
+        "sha256": "206c08577ec486ecc8274ee5c0cd65d64664182b4eb8f29e38b5541e6c2b6463"
+      },
+      "source/vehicle-physics/b11/results/doors_open_close_identity.json": {
+        "size": 21677,
+        "sha256": "3bf41a06d14be68245e22042be6a1d3e6cbc65dfaa101bd30ce3816cce6d009a"
+      },
+      "source/vehicle-physics/b11/results/doors_open_close_metrics.json": {
+        "size": 170851,
+        "sha256": "21f69f8542b0ba097d883c941f08349b730883c95c6b46604fbdee53ee61613e"
+      },
+      "source/vehicle-physics/b11/results/doors_open_close_replay.json": {
+        "size": 11079280,
+        "sha256": "4dafe9c0ceeb7dba9e6366cdcd1d3b86e86f48543c92ad3fd7509ce95e32e226"
+      },
+      "source/vehicle-physics/b11/results/half_dt.csv": {
+        "size": 1578004,
+        "sha256": "d84bc61293b55ce742be0d7b674f08ba18559375c29843e3d55bb2b76b01b3ea"
+      },
+      "source/vehicle-physics/b11/results/half_dt.xml": {
+        "size": 144921,
+        "sha256": "a523537a594b2e906769e9a397bc6f1ce1330b8948d54d878c7d28f89a7dde46"
+      },
+      "source/vehicle-physics/b11/results/half_dt_auxiliaries.csv": {
+        "size": 836003,
+        "sha256": "a89aeefcf5db526afb9cfd7ca2087f81d5925777728236ff5f8d708c980b4fbd"
+      },
+      "source/vehicle-physics/b11/results/half_dt_identity.json": {
+        "size": 21623,
+        "sha256": "51527b7dce93802f8b575fdf688772de6b7974ae76fe02196dd0b0e6c3a97247"
+      },
+      "source/vehicle-physics/b11/results/half_dt_metrics.json": {
+        "size": 172452,
+        "sha256": "a8dec2c7f454a94b7e81c0d1f41c28bf113d94c04561f36d3766c239955020ae"
+      },
+      "source/vehicle-physics/b11/results/half_dt_replay.json": {
+        "size": 11070196,
+        "sha256": "e9b7499bc82d730b58555d0545d297b2a3730bd4bced36ec610e9c12843b6b1d"
+      },
+      "source/vehicle-physics/b11/results/service_brake.csv": {
+        "size": 1576435,
+        "sha256": "491c1aacbd16aac3e7fa68f5d95ffff4e407e06caca11328e388c63b29244e17"
+      },
+      "source/vehicle-physics/b11/results/service_brake.xml": {
+        "size": 144919,
+        "sha256": "5e11dc629019b8efc092a8cc11820aa7b80f324b0ffad42deddc7950d6ef40be"
+      },
+      "source/vehicle-physics/b11/results/service_brake_auxiliaries.csv": {
+        "size": 831152,
+        "sha256": "7b900c047b6fed785f76fecb2b2245abbde696aa0446f15e39a0f7efdff6c75d"
+      },
+      "source/vehicle-physics/b11/results/service_brake_identity.json": {
+        "size": 21659,
+        "sha256": "fa48bed58f7eb8e7a7bf9509ae9b8f93d1b21cc2e4d3f0116d5a4e6b418c01d8"
+      },
+      "source/vehicle-physics/b11/results/service_brake_metrics.json": {
+        "size": 173066,
+        "sha256": "1b98fb317638d6cfd8eb3d66c082b365ea960fb97d65456ebab796e8c82ee1c5"
+      },
+      "source/vehicle-physics/b11/results/service_brake_replay.json": {
+        "size": 11035516,
+        "sha256": "6b542fb628466584deedb2270483bb8381aac019e52e9eb58793dfedb11fed16"
+      },
+      "source/vehicle-physics/b11/results/spatial_refinement.csv": {
+        "size": 1576032,
+        "sha256": "a39d15724264fdc0944df8c28779e69231553f755ffaf0442a58b31b0e073b03"
+      },
+      "source/vehicle-physics/b11/results/spatial_refinement.xml": {
+        "size": 167116,
+        "sha256": "960e69261f5f6fe450f3f0232d92686e9083f14e9c12644f3e568398e8d10bac"
+      },
+      "source/vehicle-physics/b11/results/spatial_refinement_auxiliaries.csv": {
+        "size": 831152,
+        "sha256": "7b900c047b6fed785f76fecb2b2245abbde696aa0446f15e39a0f7efdff6c75d"
+      },
+      "source/vehicle-physics/b11/results/spatial_refinement_identity.json": {
+        "size": 25475,
+        "sha256": "95adcc3178382cc94772d17cc17141b2f12fbba80d9589a395aa824c61f47a01"
+      },
+      "source/vehicle-physics/b11/results/spatial_refinement_metrics.json": {
+        "size": 176969,
+        "sha256": "96ceb934c08d599aba8f77076f69eb5f123a07f01722e138bc5b291fa996a862"
+      },
+      "source/vehicle-physics/b11/results/spatial_refinement_replay.json": {
+        "size": 13081772,
+        "sha256": "9edd44b010383a1464949376baaf3d5ba5f65ade41e6e7a193140b2ac809965e"
+      },
+      "source/vehicle-physics/b11/results/tether_release.csv": {
+        "size": 1528319,
+        "sha256": "d03711cc56add4a548521e9a687e554494c1c64e87c79e4e9918dfc8f5b1dc88"
+      },
+      "source/vehicle-physics/b11/results/tether_release.xml": {
+        "size": 144919,
+        "sha256": "5e11dc629019b8efc092a8cc11820aa7b80f324b0ffad42deddc7950d6ef40be"
+      },
+      "source/vehicle-physics/b11/results/tether_release_auxiliaries.csv": {
+        "size": 831152,
+        "sha256": "7b900c047b6fed785f76fecb2b2245abbde696aa0446f15e39a0f7efdff6c75d"
+      },
+      "source/vehicle-physics/b11/results/tether_release_identity.json": {
+        "size": 21665,
+        "sha256": "d12021d870869cd5cce08380f5f5a7f15a0c886b3671434d4ddb6c46478709fc"
+      },
+      "source/vehicle-physics/b11/results/tether_release_metrics.json": {
+        "size": 173063,
+        "sha256": "7e88f43ca6ab7362d772b6b08edca17b2923669455334d6e44e7e0659e12858b"
+      },
+      "source/vehicle-physics/b11/results/tether_release_replay.json": {
+        "size": 11066496,
+        "sha256": "b8fb54bb195e710a6d144076295c07769a80759e5faef6b7f355c96ceef74f97"
+      },
+      "source/vehicle-physics/b11/results/verification.json": {
+        "size": 89892,
+        "sha256": "bb5f12e32ec80c62878ca2389dbdc6bda62b4cbb7aea926cc25cb7493f97be6b"
+      },
+      "source/vehicle-physics/b11/simulate.py": {
+        "size": 25297,
+        "sha256": "92eb93a761fd7f3d07e4477b7dad8b2d5bad0518c8b4311878b51ab3147e7db0"
+      },
+      "source/vehicle-physics/b11/smoke_package.py": {
+        "size": 2276,
+        "sha256": "6d2942829928bf2188dc1ce332d8a53377ef99b32971c3fc189b6ce26a012052"
+      },
+      "source/vehicle-physics/b11/source_cables.json": {
+        "size": 54910,
+        "sha256": "e0831e8fc3b5e3691418ce46fc6e9ea5db3b43201e8afb179ff471ded0b744ad"
+      },
+      "source/vehicle-physics/b11/test_cables.py": {
+        "size": 7038,
+        "sha256": "b917184a041650f8e89d9db031edae7cae8899d9335545bd407df45d70863dcd"
+      },
+      "source/vehicle-physics/b11/test_integration.py": {
+        "size": 2668,
+        "sha256": "fcedabb7488a91c3ce85b9deb166437dd649a69df880b65b52582a616887edb4"
+      },
+      "source/vehicle-physics/b11/validate_blender_replay.py": {
+        "size": 7605,
+        "sha256": "206a899069e445179ada7defca602e51174c094b36a252aa693063698e6e5de0"
+      },
+      "source/vehicle-physics/b11/verify.py": {
+        "size": 15962,
+        "sha256": "fe2e605f9c3e5df189afe0b391c4099382dda21e92682e590c8ec6a33c5b8c77"
+      },
+      "source/vehicle-physics/b8/ACCESS_DOORS.md": {
+        "size": 12853,
+        "sha256": "628d3f2f3ee0fe7cb96eefd09aa5ddfd1ba219350c461cb94309e0866bdebf46"
+      },
+      "source/vehicle-physics/b8/B7_PRESERVATION.json": {
+        "size": 119,
+        "sha256": "94e0f4979be4a3eb5c8d05113dd9f1d0dafd7ae0b3e77089fb241255b363ee50"
+      },
+      "source/vehicle-physics/b8/BRAKE_CIRCUIT_SCOPE.md": {
+        "size": 2335,
+        "sha256": "0406c6466f924ef2b978f11e23c30d2a222ed86fbf458d32fb463adba8fd167d"
+      },
+      "source/vehicle-physics/b8/CONTACT_REPAIR.md": {
+        "size": 2700,
+        "sha256": "f7cd9cb0271b1d08c847e7edf0447d0040e9f93792263becc0a8884f48e23375"
+      },
+      "source/vehicle-physics/b8/COVERAGE.md": {
+        "size": 5152,
+        "sha256": "4510e3cd1bbe07861a0631720eb24e51f727c577281eb59bcb0dacd88a004ed5"
+      },
+      "source/vehicle-physics/b8/FINAL_ACCEPTANCE.md": {
+        "size": 4212,
+        "sha256": "378a73990a0d72891b720c176441980d4419b2e7efe6ffe309e781c95b533f7c"
+      },
+      "source/vehicle-physics/b8/LIVE_CONTROLS.md": {
+        "size": 11302,
+        "sha256": "84d256df0237729eb7bfac928c6cebfb2c2fc3165bd209a6236e7830daf175ca"
+      },
+      "source/vehicle-physics/b8/PANTOGRAPH.md": {
+        "size": 12701,
+        "sha256": "9aa53b3e88e9694213246f72e18f23593437184ece033102b77c5aac84c8fbb7"
+      },
+      "source/vehicle-physics/b8/PARAMETER_PROVENANCE.csv": {
+        "size": 21537,
+        "sha256": "c59e09fd124ef33ffd5fb10a24053a30c15248804c0d87b749637e7867e8ede8"
+      },
+      "source/vehicle-physics/b8/PNEUMATICS.md": {
+        "size": 20064,
+        "sha256": "9eb8c4a0da68c138a650bb5cd326f9628d86a3f4c2770315616fbe3075c718b0"
+      },
+      "source/vehicle-physics/b8/README.md": {
+        "size": 5482,
+        "sha256": "0c296ed0e64e6881e65582b6917d2083fa44546fe38bb6ea0d3e42795363782f"
+      },
+      "source/vehicle-physics/b8/RESULTS_ZH.txt": {
+        "size": 6246,
+        "sha256": "e3e0649234532144ba8153f3c4af5c6e118f2f2c2333aae76424cf7ea07b6c68"
+      },
+      "source/vehicle-physics/b8/SOURCE_CONSISTENCY.md": {
+        "size": 4645,
+        "sha256": "964b8b83d5ff62e29654984691d58f16fd7ddfba9abbd7710b78145c1699af78"
+      },
+      "source/vehicle-physics/b8/access_doors.py": {
+        "size": 27803,
+        "sha256": "4bdc4dec211189ff065f1101c14d4641e707582af7bf6e3214174aba2acd5d32"
+      },
+      "source/vehicle-physics/b8/compliant_contact.py": {
+        "size": 7630,
+        "sha256": "bf3f152f3b2702b1f1a74a197031877065f9b2992d19396e7c272084c0942a09"
+      },
+      "source/vehicle-physics/b8/diagnose_flange.py": {
+        "size": 8154,
+        "sha256": "1836252e6ab39539e751c40c64df3458ce0d2c13cb85e249a3480c3690cdfd8f"
+      },
+      "source/vehicle-physics/b8/full_model.py": {
+        "size": 10485,
+        "sha256": "ce45ceb8ebfd5eb8c41810220a717341ca3f6ade5e977d9fb160f76231e67321"
+      },
+      "source/vehicle-physics/b8/live_viewer_full.py": {
+        "size": 21385,
+        "sha256": "f76055ba0b1f5b9fe03f79936fa02aa800c064c90ec73ce17056e971055d62fa"
+      },
+      "source/vehicle-physics/b8/package_delivery.py": {
+        "size": 5906,
+        "sha256": "60f06722cbf1592e80c55e179d2e05b07bb2762f859ad16ebc68c06d9b7a2d6d"
+      },
+      "source/vehicle-physics/b8/pantograph.py": {
+        "size": 14277,
+        "sha256": "cbf89c6637cb14dbe62be0389d3fdb67592f2161cfdbf79729d8b87e23745e87"
+      },
+      "source/vehicle-physics/b8/pantograph_results/verification.json": {
+        "size": 7727,
+        "sha256": "ba890baf7ac507e8b02764e286d4051a151a67de1699134b41aed75eda151ced"
+      },
+      "source/vehicle-physics/b8/parameters.json": {
+        "size": 3218,
+        "sha256": "7109e6f4be9bd114569ea006b88e379de92e446b7499df2750a020b73faffa83"
+      },
+      "source/vehicle-physics/b8/plot_contact_acceptance.py": {
+        "size": 2772,
+        "sha256": "1121945e9ede1ae6249cbcc3742745ad3b512dd4fe529a13126ef44fe02c5627"
+      },
+      "source/vehicle-physics/b8/plot_full.py": {
+        "size": 4825,
+        "sha256": "81a69fd62d818074aa6193a5587909fd7026f2d1ec753b09e1c757905c0e1469"
+      },
+      "source/vehicle-physics/b8/pneumatics.py": {
+        "size": 25685,
+        "sha256": "a96d81f70e347319ad055c0fea4aa06933f762e01910522377c81a16dc6a1915"
+      },
+      "source/vehicle-physics/b8/render_full.py": {
+        "size": 3524,
+        "sha256": "b5bcf6f12380e0719e6a0dc0e1146ec04ac4dc3c548b764ce3e03e18a8be9c88"
+      },
+      "source/vehicle-physics/b8/results/physics_run_identity.json": {
+        "size": 103718,
+        "sha256": "1b2af9c58e3e051e2b41f81a2cd340d43fad2b50517ad5a963b3ec33599f54e2"
+      },
+      "source/vehicle-physics/b8/results/verification.json": {
+        "size": 41565,
+        "sha256": "4282c0f05d810e30fca448f1986040c4f614683e7356621ed54854fe88abe912"
+      },
+      "source/vehicle-physics/b8/run_compliant_candidate.py": {
+        "size": 12120,
+        "sha256": "2bf89fb796e9c8a3e5aa428276abe8f20e2cc6dc5a6e5e6fdf6266b096f27ca7"
+      },
+      "source/vehicle-physics/b8/run_overload_diagnostic.py": {
+        "size": 950,
+        "sha256": "aa12915a94bb0e22d0d01ac2ebaa7ad6e4a252c52d56cf7dba4b9d3cba7e4bee"
+      },
+      "source/vehicle-physics/b8/run_suite.py": {
+        "size": 871,
+        "sha256": "707e8a16b228c85ca4ba905cc322600c73f9bf07df9f6acf7d8621a5cd92deae"
+      },
+      "source/vehicle-physics/b8/simulate_full.py": {
+        "size": 22262,
+        "sha256": "b96df8388a6f9fda55acb4b88d083397fe61ff73890462e6729b4a9d1a8e4766"
+      },
+      "source/vehicle-physics/b8/test_access_doors.py": {
+        "size": 13786,
+        "sha256": "af842b7baa9fd3a1e67d103e907983dbcc3491063458196cd06cdc71041b5fd6"
+      },
+      "source/vehicle-physics/b8/test_compliant_contact.py": {
+        "size": 5503,
+        "sha256": "9d8b0178a2496a202637cfd8a0d83bc353821e0b00df4812373a5e4e377dd837"
+      },
+      "source/vehicle-physics/b8/test_contact_candidates.py": {
+        "size": 3147,
+        "sha256": "0a041a1cfe946d42eeaf796aff07a5225df6baca8219c1d585fdf7f4eb0c2643"
+      },
+      "source/vehicle-physics/b8/test_live_controls.py": {
+        "size": 11680,
+        "sha256": "bd304e8f3b56b811b1f1579a17aed1cf5d1c4075e77f76da9e367c10100822fe"
+      },
+      "source/vehicle-physics/b8/test_pantograph.py": {
+        "size": 13552,
+        "sha256": "ec327feb606849cdda601a0c428e0ca32a3839357d2d5f45719770c7f76f4404"
+      },
+      "source/vehicle-physics/b8/test_pneumatics.py": {
+        "size": 12970,
+        "sha256": "39ee852e9a299919d6fc563a4fd334f99e54290055e715b5034570f135b8ce4b"
+      },
+      "source/vehicle-physics/b8/verify_full.py": {
+        "size": 11588,
+        "sha256": "a9e39e307a2b798a75e0b2d9571da7764df0a7753aa841bb014053e6ee3818d8"
+      },
+      "source/vehicle-physics/b8/write_report.py": {
+        "size": 11069,
+        "sha256": "9fe74c5a6685101a70b434a4da2281a168353ecef275b52a0f7907a89ac6e901"
+      },
+      "source/vehicle-physics/b9/compat.py": {
+        "size": 495,
+        "sha256": "222f5d56617632b388da5178b5f85bae978b79eea2b3ed1f51077699b8a149dd"
+      },
+      "source/vehicle-physics/b9/requirements.txt": {
+        "size": 46,
+        "sha256": "9a02d5b3789c1dcf98ee189347c04c4b8da7d8238381bc0f02440f53ddcb2e2d"
+      },
+      "source/vehicle-physics/b9/results/service_brake_identity.json": {
+        "size": 38776,
+        "sha256": "4fa239c89b83dd766e3d78bc4395dfdddf20758fd3fc812af3e1b9a25df7105c"
+      },
+      "source/vehicle-physics/b9/simulate.py": {
+        "size": 5803,
+        "sha256": "53e2ee39891d1bfb292aff7fe80fcaf241b38eb51a5e7e15df232ef6838dda6a"
+      },
+      "source/vehicle-physics/b9/valve_dynamics.py": {
+        "size": 12040,
+        "sha256": "acd3d855c74db93793022f4f39c6acec821c1a51f168b23d4c56f0f3b4908a50"
+      },
+      "source/vehicle-physics/build_model.py": {
+        "size": 8310,
+        "sha256": "9fa316eee3d844c91c4525993f6d4a42cd91065337e2a475426c6ad412b8a5db"
+      }
+    },
+    "scope": "complete B11 source/data/Blender with frozen B8, B9 valve dependencies and B10 auxiliary code/probe; earlier full B9/B10 cases remain separate archives",
+    "exclusions": [
+      "local environments/credentials/caches",
+      "diagnostic-only profile/prototype outputs",
+      "intermediate display saves",
+      "earlier full delivery archives"
+    ]
+  }
+}

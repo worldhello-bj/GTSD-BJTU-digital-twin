@@ -1,0 +1,265 @@
+{
+  "status": "DIAGNOSTIC_PASS",
+  "passed": true,
+  "full_case_acceptance": false,
+  "records": [
+    {
+      "name": "v2_baseline",
+      "source_xml_sha256": "bba1cbc084f11578144496d2c2a653e545f0a04a8b5ef9e3fab4a8240143a1b1",
+      "overrides": {
+        "gravity": [
+          0,
+          0,
+          0
+        ],
+        "timestep_s": 5e-05,
+        "load_N_per_supply_body": [
+          32,
+          0,
+          0
+        ]
+      },
+      "conditioning_duration_s": 0.1,
+      "duration_s": 0.2,
+      "maximum_attachment_gaps_m": {
+        "supply_0": 0.005683449199789501,
+        "supply_1": 0.01322713546370335,
+        "supply_2": 0.026997659354499003,
+        "bond_PWR": 1.2755491433176288e-15,
+        "bond_DAQ": 1.2755491433176288e-15
+      },
+      "maximum_gap_radius_ratios": {
+        "supply_0": 0.4736207625322505,
+        "supply_1": 2.204522558121423,
+        "supply_2": 4.499609853304344,
+        "bond_PWR": 3.644426011273282e-13,
+        "bond_DAQ": 3.644426011273282e-13
+      },
+      "source_pose_conditioning_geometry": {
+        "schema": "B11 every-integrated-position native cable geometry v1",
+        "integrated_position_states": 2001,
+        "native_cable_contacts_checked": 2479,
+        "first_integration_time_s": 0.0,
+        "last_integration_time_s": 0.09999999999999715,
+        "maximum_penetration_m": 0.00824301824859213,
+        "maximum_penetration_radius_ratio": 1.3738363628234969,
+        "worst_ratio": {
+          "integration_time_s": 0.0,
+          "geoms": [
+            "cable_supply_0_21_capsule",
+            "cable_supply_1_22_capsule"
+          ],
+          "penetration_m": 0.00824301824859213,
+          "limiting_cable_radius_m": 0.006000000052154064,
+          "ratio": 1.3738363628234969
+        },
+        "scope": "Initial position plus every completed integration step, including settling. Geometry, not measured material compression or force accuracy."
+      },
+      "cable_contact_geometry": {
+        "schema": "B11 every-integrated-position native cable geometry v1",
+        "integrated_position_states": 4001,
+        "native_cable_contacts_checked": 35407,
+        "first_integration_time_s": 0.09999999999999715,
+        "last_integration_time_s": 0.2999999999999751,
+        "maximum_penetration_m": 0.003903176038051669,
+        "maximum_penetration_radius_ratio": 0.6505293340206534,
+        "worst_ratio": {
+          "integration_time_s": 0.21884999999998406,
+          "geoms": [
+            "cable_supply_1_17_capsule",
+            "cable_trough_base"
+          ],
+          "penetration_m": 0.003903176038051669,
+          "limiting_cable_radius_m": 0.006000000052154064,
+          "ratio": 0.6505293340206534
+        },
+        "scope": "Initial position plus every completed integration step, including settling. Geometry, not measured material compression or force accuracy."
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_s": 27.593924522399902
+    },
+    {
+      "name": "v3_baseline",
+      "source_xml_sha256": "5e11dc629019b8efc092a8cc11820aa7b80f324b0ffad42deddc7950d6ef40be",
+      "overrides": {
+        "gravity": [
+          0,
+          0,
+          0
+        ],
+        "timestep_s": 5e-05,
+        "load_N_per_supply_body": [
+          32,
+          0,
+          0
+        ]
+      },
+      "conditioning_duration_s": 0.1,
+      "duration_s": 0.2,
+      "maximum_attachment_gaps_m": {
+        "supply_0": 0.00010007919315654385,
+        "supply_1": 0.00035012568738802065,
+        "supply_2": 0.00021444534187849002,
+        "bond_PWR": 9.945640348601413e-16,
+        "bond_DAQ": 9.945640348601413e-16
+      },
+      "maximum_gap_radius_ratios": {
+        "supply_0": 0.008339932690551756,
+        "supply_1": 0.058354280724101294,
+        "supply_2": 0.035740890002409556,
+        "bond_PWR": 2.84161144046069e-13,
+        "bond_DAQ": 2.84161144046069e-13
+      },
+      "source_pose_conditioning_geometry": {
+        "schema": "B11 every-integrated-position native cable geometry v1",
+        "integrated_position_states": 2001,
+        "native_cable_contacts_checked": 915,
+        "first_integration_time_s": 0.0,
+        "last_integration_time_s": 0.09999999999999715,
+        "maximum_penetration_m": 0.00824301824859213,
+        "maximum_penetration_radius_ratio": 1.3738363628234969,
+        "worst_ratio": {
+          "integration_time_s": 0.0,
+          "geoms": [
+            "cable_supply_0_21_capsule",
+            "cable_supply_1_22_capsule"
+          ],
+          "penetration_m": 0.00824301824859213,
+          "limiting_cable_radius_m": 0.006000000052154064,
+          "ratio": 1.3738363628234969
+        },
+        "scope": "Initial position plus every completed integration step, including settling. Geometry, not measured material compression or force accuracy."
+      },
+      "cable_contact_geometry": {
+        "schema": "B11 every-integrated-position native cable geometry v1",
+        "integrated_position_states": 4001,
+        "native_cable_contacts_checked": 20451,
+        "first_integration_time_s": 0.09999999999999715,
+        "last_integration_time_s": 0.2999999999999751,
+        "maximum_penetration_m": 0.0004022640362749304,
+        "maximum_penetration_radius_ratio": 0.06704400546305217,
+        "worst_ratio": {
+          "integration_time_s": 0.15054999999999158,
+          "geoms": [
+            "cable_supply_1_25_capsule",
+            "cable_supply_2_26_capsule"
+          ],
+          "penetration_m": 0.0004022640362749304,
+          "limiting_cable_radius_m": 0.006000000052154064,
+          "ratio": 0.06704400546305217
+        },
+        "scope": "Initial position plus every completed integration step, including settling. Geometry, not measured material compression or force accuracy."
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_s": 32.949326276779175
+    },
+    {
+      "name": "v3_half_dt",
+      "source_xml_sha256": "5e11dc629019b8efc092a8cc11820aa7b80f324b0ffad42deddc7950d6ef40be",
+      "overrides": {
+        "gravity": [
+          0,
+          0,
+          0
+        ],
+        "timestep_s": 2.5e-05,
+        "load_N_per_supply_body": [
+          32,
+          0,
+          0
+        ]
+      },
+      "conditioning_duration_s": 0.1,
+      "duration_s": 0.2,
+      "maximum_attachment_gaps_m": {
+        "supply_0": 0.00010631002565863226,
+        "supply_1": 0.00037735522213390324,
+        "supply_2": 0.0002314076996033058,
+        "bond_PWR": 9.945640348601413e-16,
+        "bond_DAQ": 9.945640348601413e-16
+      },
+      "maximum_gap_radius_ratios": {
+        "supply_0": 0.008859168727879079,
+        "supply_1": 0.06289253647563364,
+        "supply_2": 0.038567949598638414,
+        "bond_PWR": 2.84161144046069e-13,
+        "bond_DAQ": 2.84161144046069e-13
+      },
+      "source_pose_conditioning_geometry": {
+        "schema": "B11 every-integrated-position native cable geometry v1",
+        "integrated_position_states": 4001,
+        "native_cable_contacts_checked": 1872,
+        "first_integration_time_s": 0.0,
+        "last_integration_time_s": 0.09999999999999307,
+        "maximum_penetration_m": 0.00824301824859213,
+        "maximum_penetration_radius_ratio": 1.3738363628234969,
+        "worst_ratio": {
+          "integration_time_s": 0.0,
+          "geoms": [
+            "cable_supply_0_21_capsule",
+            "cable_supply_1_22_capsule"
+          ],
+          "penetration_m": 0.00824301824859213,
+          "limiting_cable_radius_m": 0.006000000052154064,
+          "ratio": 1.3738363628234969
+        },
+        "scope": "Initial position plus every completed integration step, including settling. Geometry, not measured material compression or force accuracy."
+      },
+      "cable_contact_geometry": {
+        "schema": "B11 every-integrated-position native cable geometry v1",
+        "integrated_position_states": 8001,
+        "native_cable_contacts_checked": 39974,
+        "first_integration_time_s": 0.09999999999999307,
+        "last_integration_time_s": 0.29999999999997107,
+        "maximum_penetration_m": 0.0005394420299040612,
+        "maximum_penetration_radius_ratio": 0.08990700420250759,
+        "worst_ratio": {
+          "integration_time_s": 0.1504249999999875,
+          "geoms": [
+            "cable_supply_1_25_capsule",
+            "cable_supply_2_26_capsule"
+          ],
+          "penetration_m": 0.0005394420299040612,
+          "limiting_cable_radius_m": 0.006000000052154064,
+          "ratio": 0.08990700420250759
+        },
+        "scope": "Initial position plus every completed integration step, including settling. Geometry, not measured material compression or force accuracy."
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_s": 53.515947580337524
+    }
+  ],
+  "sources_sha256": {
+    "cables.py": "887596a59a9c38e2da65c1ea77f3fe888786a7234739ed7a88b55d325abcd1c6",
+    "cable_contact_audit.py": "76cbde88e90f3cd830e7de0089eca54a4c9992fbcdd2834ee0b51cf1dc775b32",
+    "source_cables.json": "e0831e8fc3b5e3691418ce46fc6e9ea5db3b43201e8afb179ff471ded0b744ad"
+  },
+  "scope": "0.1 s unforced source-pose conditioning plus 0.2 s native load envelope only; no gravity, Python wheel/rail or finite gas coupling. Initial source intersections are separately reported. Does not reproduce or replace six settled integrated cases."
+}

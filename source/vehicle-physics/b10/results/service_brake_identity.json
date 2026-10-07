@@ -1,0 +1,2255 @@
+{
+  "case": "service_brake",
+  "python": "3.12.14",
+  "mujoco": "3.3.7",
+  "numpy": "2.2.6",
+  "sources_sha256": {
+    "b8": {
+      "simulate_full.py": "b96df8388a6f9fda55acb4b88d083397fe61ff73890462e6729b4a9d1a8e4766",
+      "full_model.py": "ce45ceb8ebfd5eb8c41810220a717341ca3f6ade5e977d9fb160f76231e67321",
+      "compliant_contact.py": "bf3f152f3b2702b1f1a74a197031877065f9b2992d19396e7c272084c0942a09",
+      "pneumatics.py": "a96d81f70e347319ad055c0fea4aa06933f762e01910522377c81a16dc6a1915",
+      "pantograph.py": "cbf89c6637cb14dbe62be0389d3fdb67592f2161cfdbf79729d8b87e23745e87",
+      "access_doors.py": "4bdc4dec211189ff065f1101c14d4641e707582af7bf6e3214174aba2acd5d32"
+    },
+    "b9": {
+      "valve_dynamics.py": "acd3d855c74db93793022f4f39c6acec821c1a51f168b23d4c56f0f3b4908a50",
+      "compat.py": "222f5d56617632b388da5178b5f85bae978b79eea2b3ed1f51077699b8a149dd"
+    },
+    "b10": {
+      "auxiliaries.py": "03f55f0238a191fed0e8289183248547d51497d56b20c50b2905d143de1e65e4",
+      "simulate.py": "725e0d4a19ce3042f291fbe7f63d469ba8ef7b443f287eb88514bd727b7035b3"
+    },
+    "parent": {
+      "build_model.py": "9fa316eee3d844c91c4525993f6d4a42cd91065337e2a475426c6ad412b8a5db"
+    }
+  },
+  "outputs_sha256": {
+    "service_brake.xml": "7808bc4784bcddb7e9440accb27fa79eb539c06633323c6d56f79a6fa9299199",
+    "service_brake.csv": "6b3dd75528037d3d5234a706190ea74e41cf135aff6d0e86c969c8948cd511c0",
+    "service_brake_metrics.json": "482d0fa6fd323a7ea6f94c48f68afb62861b7266f4393b0e932c4b4e069c54bc",
+    "service_brake_auxiliaries.csv": "e977d42ff3cc3e3cc69c36697ed55b4aa4389d3dcae8e4f6149bbb1ac1022023",
+    "service_brake_replay.json": "70bfdf4d306ec8d890c13ba542037f9a2e89a0c4abd62d4abc25aefb6cb707f0"
+  },
+  "configuration": {
+    "model": "isothermal ideal gas, finite-volume compressible orifice network",
+    "provenance": "CALIBRATION_ASSUMPTION: synthetic engineering prototype, not measured",
+    "temperature_K": 293.15,
+    "ambient_pressure_Pa": 101325.0,
+    "gas_constant_J_kg_K": 287.05,
+    "gamma": 1.4,
+    "max_substep_s": 0.0005,
+    "volumes": {
+      "reservoir": {
+        "dead_volume_m3": 0.002,
+        "piston_area_m2": 0.0,
+        "initial_condition": {
+          "pressure_Pa": 401325,
+          "displacement_m": 0.0,
+          "mass_kg": 0.009538470926603359,
+          "volume_m3": 0.002
+        }
+      },
+      "pantograph": {
+        "dead_volume_m3": 4e-05,
+        "piston_area_m2": 0.0002,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": -2.498001805406602e-16,
+          "mass_kg": 4.8164732654984575e-05,
+          "volume_m3": 3.9999999999999956e-05
+        }
+      },
+      "air_A_FL": {
+        "dead_volume_m3": 0.000125,
+        "piston_area_m2": 0.0015,
+        "initial_condition": {
+          "pressure_Pa": 200000.0,
+          "displacement_m": 0.0,
+          "mass_kg": 0.00029709309557725527,
+          "volume_m3": 0.000125
+        }
+      },
+      "air_A_FR": {
+        "dead_volume_m3": 0.000125,
+        "piston_area_m2": 0.0015,
+        "initial_condition": {
+          "pressure_Pa": 200000.0,
+          "displacement_m": 0.0,
+          "mass_kg": 0.00029709309557725527,
+          "volume_m3": 0.000125
+        }
+      },
+      "air_A_RL": {
+        "dead_volume_m3": 0.000125,
+        "piston_area_m2": 0.0015,
+        "initial_condition": {
+          "pressure_Pa": 200000.0,
+          "displacement_m": 0.0,
+          "mass_kg": 0.00029709309557725527,
+          "volume_m3": 0.000125
+        }
+      },
+      "air_A_RR": {
+        "dead_volume_m3": 0.000125,
+        "piston_area_m2": 0.0015,
+        "initial_condition": {
+          "pressure_Pa": 200000.0,
+          "displacement_m": 0.0,
+          "mass_kg": 0.00029709309557725527,
+          "volume_m3": 0.000125
+        }
+      },
+      "air_B_FL": {
+        "dead_volume_m3": 0.000125,
+        "piston_area_m2": 0.0015,
+        "initial_condition": {
+          "pressure_Pa": 200000.0,
+          "displacement_m": 0.0,
+          "mass_kg": 0.00029709309557725527,
+          "volume_m3": 0.000125
+        }
+      },
+      "air_B_FR": {
+        "dead_volume_m3": 0.000125,
+        "piston_area_m2": 0.0015,
+        "initial_condition": {
+          "pressure_Pa": 200000.0,
+          "displacement_m": 0.0,
+          "mass_kg": 0.00029709309557725527,
+          "volume_m3": 0.000125
+        }
+      },
+      "air_B_RL": {
+        "dead_volume_m3": 0.000125,
+        "piston_area_m2": 0.0015,
+        "initial_condition": {
+          "pressure_Pa": 200000.0,
+          "displacement_m": 0.0,
+          "mass_kg": 0.00029709309557725527,
+          "volume_m3": 0.000125
+        }
+      },
+      "air_B_RR": {
+        "dead_volume_m3": 0.000125,
+        "piston_area_m2": 0.0015,
+        "initial_condition": {
+          "pressure_Pa": 200000.0,
+          "displacement_m": 0.0,
+          "mass_kg": 0.00029709309557725527,
+          "volume_m3": 0.000125
+        }
+      },
+      "A_front_L_minus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "A_front_L_plus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "A_front_R_minus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "A_front_R_plus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "A_rear_L_minus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "A_rear_L_plus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "A_rear_R_minus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "A_rear_R_plus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "B_front_L_minus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "B_front_L_plus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "B_front_R_minus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "B_front_R_plus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "B_rear_L_minus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "B_rear_L_plus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "B_rear_R_minus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "B_rear_R_plus_pad": {
+        "dead_volume_m3": 2e-06,
+        "piston_area_m2": 6e-05,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.408236632749231e-06,
+          "volume_m3": 2e-06
+        }
+      },
+      "compressor_cylinder": {
+        "dead_volume_m3": 2.0357520395261859e-07,
+        "piston_area_m2": 0.00011309733552923255,
+        "initial_condition": {
+          "pressure_Pa": 101325.0,
+          "displacement_m": 0.0,
+          "mass_kg": 2.451286318390461e-07,
+          "volume_m3": 2.0357520395261859e-07
+        }
+      }
+    },
+    "orifices": {
+      "pantograph_supply": {
+        "name": "pantograph_supply",
+        "node_a": "reservoir",
+        "node_b": "pantograph",
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": true
+      },
+      "pantograph_exhaust": {
+        "name": "pantograph_exhaust",
+        "node_a": "pantograph",
+        "node_b": null,
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "pantograph_quick_exhaust": {
+        "name": "pantograph_quick_exhaust",
+        "node_a": "pantograph",
+        "node_b": null,
+        "area_m2": 6e-07,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": false
+      },
+      "pantograph_leak": {
+        "name": "pantograph_leak",
+        "node_a": "pantograph",
+        "node_b": null,
+        "area_m2": 1e-07,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "reservoir_leak": {
+        "name": "reservoir_leak",
+        "node_a": "reservoir",
+        "node_b": null,
+        "area_m2": 2e-06,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "air_A_FL_supply": {
+        "name": "air_A_FL_supply",
+        "node_a": "reservoir",
+        "node_b": "air_A_FL",
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": true
+      },
+      "air_A_FL_exhaust": {
+        "name": "air_A_FL_exhaust",
+        "node_a": "air_A_FL",
+        "node_b": null,
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "air_A_FR_supply": {
+        "name": "air_A_FR_supply",
+        "node_a": "reservoir",
+        "node_b": "air_A_FR",
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": true
+      },
+      "air_A_FR_exhaust": {
+        "name": "air_A_FR_exhaust",
+        "node_a": "air_A_FR",
+        "node_b": null,
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "air_A_RL_supply": {
+        "name": "air_A_RL_supply",
+        "node_a": "reservoir",
+        "node_b": "air_A_RL",
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": true
+      },
+      "air_A_RL_exhaust": {
+        "name": "air_A_RL_exhaust",
+        "node_a": "air_A_RL",
+        "node_b": null,
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "air_A_RR_supply": {
+        "name": "air_A_RR_supply",
+        "node_a": "reservoir",
+        "node_b": "air_A_RR",
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": true
+      },
+      "air_A_RR_exhaust": {
+        "name": "air_A_RR_exhaust",
+        "node_a": "air_A_RR",
+        "node_b": null,
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "air_B_FL_supply": {
+        "name": "air_B_FL_supply",
+        "node_a": "reservoir",
+        "node_b": "air_B_FL",
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": true
+      },
+      "air_B_FL_exhaust": {
+        "name": "air_B_FL_exhaust",
+        "node_a": "air_B_FL",
+        "node_b": null,
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "air_B_FR_supply": {
+        "name": "air_B_FR_supply",
+        "node_a": "reservoir",
+        "node_b": "air_B_FR",
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": true
+      },
+      "air_B_FR_exhaust": {
+        "name": "air_B_FR_exhaust",
+        "node_a": "air_B_FR",
+        "node_b": null,
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "air_B_RL_supply": {
+        "name": "air_B_RL_supply",
+        "node_a": "reservoir",
+        "node_b": "air_B_RL",
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": true
+      },
+      "air_B_RL_exhaust": {
+        "name": "air_B_RL_exhaust",
+        "node_a": "air_B_RL",
+        "node_b": null,
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "air_B_RR_supply": {
+        "name": "air_B_RR_supply",
+        "node_a": "reservoir",
+        "node_b": "air_B_RR",
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": true
+      },
+      "air_B_RR_exhaust": {
+        "name": "air_B_RR_exhaust",
+        "node_a": "air_B_RR",
+        "node_b": null,
+        "area_m2": 6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_front_L_minus_pad_supply": {
+        "name": "A_front_L_minus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "A_front_L_minus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "A_front_L_minus_pad_exhaust": {
+        "name": "A_front_L_minus_pad_exhaust",
+        "node_a": "A_front_L_minus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_front_L_minus_pad_leak": {
+        "name": "A_front_L_minus_pad_leak",
+        "node_a": "A_front_L_minus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_front_L_plus_pad_supply": {
+        "name": "A_front_L_plus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "A_front_L_plus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "A_front_L_plus_pad_exhaust": {
+        "name": "A_front_L_plus_pad_exhaust",
+        "node_a": "A_front_L_plus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_front_L_plus_pad_leak": {
+        "name": "A_front_L_plus_pad_leak",
+        "node_a": "A_front_L_plus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_front_R_minus_pad_supply": {
+        "name": "A_front_R_minus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "A_front_R_minus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "A_front_R_minus_pad_exhaust": {
+        "name": "A_front_R_minus_pad_exhaust",
+        "node_a": "A_front_R_minus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_front_R_minus_pad_leak": {
+        "name": "A_front_R_minus_pad_leak",
+        "node_a": "A_front_R_minus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_front_R_plus_pad_supply": {
+        "name": "A_front_R_plus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "A_front_R_plus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "A_front_R_plus_pad_exhaust": {
+        "name": "A_front_R_plus_pad_exhaust",
+        "node_a": "A_front_R_plus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_front_R_plus_pad_leak": {
+        "name": "A_front_R_plus_pad_leak",
+        "node_a": "A_front_R_plus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_rear_L_minus_pad_supply": {
+        "name": "A_rear_L_minus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "A_rear_L_minus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "A_rear_L_minus_pad_exhaust": {
+        "name": "A_rear_L_minus_pad_exhaust",
+        "node_a": "A_rear_L_minus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_rear_L_minus_pad_leak": {
+        "name": "A_rear_L_minus_pad_leak",
+        "node_a": "A_rear_L_minus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_rear_L_plus_pad_supply": {
+        "name": "A_rear_L_plus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "A_rear_L_plus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "A_rear_L_plus_pad_exhaust": {
+        "name": "A_rear_L_plus_pad_exhaust",
+        "node_a": "A_rear_L_plus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_rear_L_plus_pad_leak": {
+        "name": "A_rear_L_plus_pad_leak",
+        "node_a": "A_rear_L_plus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_rear_R_minus_pad_supply": {
+        "name": "A_rear_R_minus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "A_rear_R_minus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "A_rear_R_minus_pad_exhaust": {
+        "name": "A_rear_R_minus_pad_exhaust",
+        "node_a": "A_rear_R_minus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_rear_R_minus_pad_leak": {
+        "name": "A_rear_R_minus_pad_leak",
+        "node_a": "A_rear_R_minus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_rear_R_plus_pad_supply": {
+        "name": "A_rear_R_plus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "A_rear_R_plus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "A_rear_R_plus_pad_exhaust": {
+        "name": "A_rear_R_plus_pad_exhaust",
+        "node_a": "A_rear_R_plus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "A_rear_R_plus_pad_leak": {
+        "name": "A_rear_R_plus_pad_leak",
+        "node_a": "A_rear_R_plus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_front_L_minus_pad_supply": {
+        "name": "B_front_L_minus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "B_front_L_minus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "B_front_L_minus_pad_exhaust": {
+        "name": "B_front_L_minus_pad_exhaust",
+        "node_a": "B_front_L_minus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_front_L_minus_pad_leak": {
+        "name": "B_front_L_minus_pad_leak",
+        "node_a": "B_front_L_minus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_front_L_plus_pad_supply": {
+        "name": "B_front_L_plus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "B_front_L_plus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "B_front_L_plus_pad_exhaust": {
+        "name": "B_front_L_plus_pad_exhaust",
+        "node_a": "B_front_L_plus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_front_L_plus_pad_leak": {
+        "name": "B_front_L_plus_pad_leak",
+        "node_a": "B_front_L_plus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_front_R_minus_pad_supply": {
+        "name": "B_front_R_minus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "B_front_R_minus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "B_front_R_minus_pad_exhaust": {
+        "name": "B_front_R_minus_pad_exhaust",
+        "node_a": "B_front_R_minus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_front_R_minus_pad_leak": {
+        "name": "B_front_R_minus_pad_leak",
+        "node_a": "B_front_R_minus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_front_R_plus_pad_supply": {
+        "name": "B_front_R_plus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "B_front_R_plus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "B_front_R_plus_pad_exhaust": {
+        "name": "B_front_R_plus_pad_exhaust",
+        "node_a": "B_front_R_plus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_front_R_plus_pad_leak": {
+        "name": "B_front_R_plus_pad_leak",
+        "node_a": "B_front_R_plus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_rear_L_minus_pad_supply": {
+        "name": "B_rear_L_minus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "B_rear_L_minus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "B_rear_L_minus_pad_exhaust": {
+        "name": "B_rear_L_minus_pad_exhaust",
+        "node_a": "B_rear_L_minus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_rear_L_minus_pad_leak": {
+        "name": "B_rear_L_minus_pad_leak",
+        "node_a": "B_rear_L_minus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_rear_L_plus_pad_supply": {
+        "name": "B_rear_L_plus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "B_rear_L_plus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "B_rear_L_plus_pad_exhaust": {
+        "name": "B_rear_L_plus_pad_exhaust",
+        "node_a": "B_rear_L_plus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_rear_L_plus_pad_leak": {
+        "name": "B_rear_L_plus_pad_leak",
+        "node_a": "B_rear_L_plus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_rear_R_minus_pad_supply": {
+        "name": "B_rear_R_minus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "B_rear_R_minus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "B_rear_R_minus_pad_exhaust": {
+        "name": "B_rear_R_minus_pad_exhaust",
+        "node_a": "B_rear_R_minus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_rear_R_minus_pad_leak": {
+        "name": "B_rear_R_minus_pad_leak",
+        "node_a": "B_rear_R_minus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_rear_R_plus_pad_supply": {
+        "name": "B_rear_R_plus_pad_supply",
+        "node_a": "reservoir",
+        "node_b": "B_rear_R_plus_pad",
+        "area_m2": 8e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      },
+      "B_rear_R_plus_pad_exhaust": {
+        "name": "B_rear_R_plus_pad_exhaust",
+        "node_a": "B_rear_R_plus_pad",
+        "node_b": null,
+        "area_m2": 1.6e-08,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "B_rear_R_plus_pad_leak": {
+        "name": "B_rear_R_plus_pad_leak",
+        "node_a": "B_rear_R_plus_pad",
+        "node_b": null,
+        "area_m2": 3e-09,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "compressor_intake": {
+        "name": "compressor_intake",
+        "node_a": "compressor_cylinder",
+        "node_b": null,
+        "area_m2": 2e-06,
+        "discharge_coefficient": 0.7,
+        "opening": 0.0,
+        "one_way": false
+      },
+      "compressor_discharge": {
+        "name": "compressor_discharge",
+        "node_a": "compressor_cylinder",
+        "node_b": "reservoir",
+        "area_m2": 1e-06,
+        "discharge_coefficient": 0.7,
+        "opening": 1.0,
+        "one_way": true
+      }
+    },
+    "compressors": {},
+    "dynamic_metering_ports": {
+      "provenance": "CALIBRATION_ASSUMPTION: balanced 2/2 metering-port proxy, not measured valve hardware",
+      "pressure_balance_area_m2": 0.0,
+      "mount": "external fixed test bench; no vehicle mount reaction coupling",
+      "port_count": 51,
+      "state_count": 102,
+      "topology": "one independent normally-closed proxy per B8 metering edge; not a hardware valve count",
+      "parameters": {
+        "pantograph_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "pantograph_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "pantograph_quick_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_A_FL_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_A_FL_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_A_FR_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_A_FR_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_A_RL_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_A_RL_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_A_RR_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_A_RR_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_B_FL_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_B_FL_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_B_FR_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_B_FR_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_B_RL_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_B_RL_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_B_RR_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "air_B_RR_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_front_L_minus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_front_L_minus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_front_L_plus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_front_L_plus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_front_R_minus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_front_R_minus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_front_R_plus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_front_R_plus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_rear_L_minus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_rear_L_minus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_rear_L_plus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_rear_L_plus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_rear_R_minus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_rear_R_minus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_rear_R_plus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "A_rear_R_plus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_front_L_minus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_front_L_minus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_front_L_plus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_front_L_plus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_front_R_minus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_front_R_minus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_front_R_plus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_front_R_plus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_rear_L_minus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_rear_L_minus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_rear_L_plus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_rear_L_plus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_rear_R_minus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_rear_R_minus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_rear_R_plus_pad_supply": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        },
+        "B_rear_R_plus_pad_exhaust": {
+          "mass_kg": 0.01,
+          "spring_N_m": 1800.0,
+          "damping_N_s_m": 12.0,
+          "travel_m": 0.002,
+          "land_m": 0.0002,
+          "coil_force_N": 4.5,
+          "stop_stiffness_N_m": 100000.0
+        }
+      },
+      "initial_states": {
+        "pantograph_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "pantograph_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "pantograph_quick_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_A_FL_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_A_FL_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_A_FR_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_A_FR_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_A_RL_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_A_RL_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_A_RR_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_A_RR_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_B_FL_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_B_FL_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_B_FR_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_B_FR_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_B_RL_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_B_RL_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_B_RR_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "air_B_RR_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_front_L_minus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_front_L_minus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_front_L_plus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_front_L_plus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_front_R_minus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_front_R_minus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_front_R_plus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_front_R_plus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_rear_L_minus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_rear_L_minus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_rear_L_plus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_rear_L_plus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_rear_R_minus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_rear_R_minus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_rear_R_plus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "A_rear_R_plus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_front_L_minus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_front_L_minus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_front_L_plus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_front_L_plus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_front_R_minus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_front_R_minus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_front_R_plus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_front_R_plus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_rear_L_minus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_rear_L_minus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_rear_L_plus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_rear_L_plus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_rear_R_minus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_rear_R_minus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_rear_R_plus_pad_supply": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        },
+        "B_rear_R_plus_pad_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        }
+      },
+      "coil_failures": {
+        "pantograph_supply": false,
+        "pantograph_exhaust": false,
+        "pantograph_quick_exhaust": false,
+        "air_A_FL_supply": false,
+        "air_A_FL_exhaust": false,
+        "air_A_FR_supply": false,
+        "air_A_FR_exhaust": false,
+        "air_A_RL_supply": false,
+        "air_A_RL_exhaust": false,
+        "air_A_RR_supply": false,
+        "air_A_RR_exhaust": false,
+        "air_B_FL_supply": false,
+        "air_B_FL_exhaust": false,
+        "air_B_FR_supply": false,
+        "air_B_FR_exhaust": false,
+        "air_B_RL_supply": false,
+        "air_B_RL_exhaust": false,
+        "air_B_RR_supply": false,
+        "air_B_RR_exhaust": false,
+        "A_front_L_minus_pad_supply": false,
+        "A_front_L_minus_pad_exhaust": false,
+        "A_front_L_plus_pad_supply": false,
+        "A_front_L_plus_pad_exhaust": false,
+        "A_front_R_minus_pad_supply": false,
+        "A_front_R_minus_pad_exhaust": false,
+        "A_front_R_plus_pad_supply": false,
+        "A_front_R_plus_pad_exhaust": false,
+        "A_rear_L_minus_pad_supply": false,
+        "A_rear_L_minus_pad_exhaust": false,
+        "A_rear_L_plus_pad_supply": false,
+        "A_rear_L_plus_pad_exhaust": false,
+        "A_rear_R_minus_pad_supply": false,
+        "A_rear_R_minus_pad_exhaust": false,
+        "A_rear_R_plus_pad_supply": false,
+        "A_rear_R_plus_pad_exhaust": false,
+        "B_front_L_minus_pad_supply": false,
+        "B_front_L_minus_pad_exhaust": false,
+        "B_front_L_plus_pad_supply": false,
+        "B_front_L_plus_pad_exhaust": false,
+        "B_front_R_minus_pad_supply": false,
+        "B_front_R_minus_pad_exhaust": false,
+        "B_front_R_plus_pad_supply": false,
+        "B_front_R_plus_pad_exhaust": false,
+        "B_rear_L_minus_pad_supply": false,
+        "B_rear_L_minus_pad_exhaust": false,
+        "B_rear_L_plus_pad_supply": false,
+        "B_rear_L_plus_pad_exhaust": false,
+        "B_rear_R_minus_pad_supply": false,
+        "B_rear_R_minus_pad_exhaust": false,
+        "B_rear_R_plus_pad_supply": false,
+        "B_rear_R_plus_pad_exhaust": false
+      },
+      "requested_coil_force_fractions": {
+        "pantograph_supply": 0.0,
+        "pantograph_exhaust": 0.0,
+        "pantograph_quick_exhaust": 1.0,
+        "pantograph_leak": 0.0,
+        "reservoir_leak": 0.0,
+        "air_A_FL_supply": 0.0,
+        "air_A_FL_exhaust": 0.0,
+        "air_A_FR_supply": 0.0,
+        "air_A_FR_exhaust": 0.0,
+        "air_A_RL_supply": 0.0,
+        "air_A_RL_exhaust": 0.0,
+        "air_A_RR_supply": 0.0,
+        "air_A_RR_exhaust": 0.0,
+        "air_B_FL_supply": 0.0,
+        "air_B_FL_exhaust": 0.0,
+        "air_B_FR_supply": 0.0,
+        "air_B_FR_exhaust": 0.0,
+        "air_B_RL_supply": 0.0,
+        "air_B_RL_exhaust": 0.0,
+        "air_B_RR_supply": 0.0,
+        "air_B_RR_exhaust": 0.0,
+        "A_front_L_minus_pad_supply": 1.0,
+        "A_front_L_minus_pad_exhaust": 0.0,
+        "A_front_L_minus_pad_leak": 0.0,
+        "A_front_L_plus_pad_supply": 1.0,
+        "A_front_L_plus_pad_exhaust": 0.0,
+        "A_front_L_plus_pad_leak": 0.0,
+        "A_front_R_minus_pad_supply": 1.0,
+        "A_front_R_minus_pad_exhaust": 0.0,
+        "A_front_R_minus_pad_leak": 0.0,
+        "A_front_R_plus_pad_supply": 1.0,
+        "A_front_R_plus_pad_exhaust": 0.0,
+        "A_front_R_plus_pad_leak": 0.0,
+        "A_rear_L_minus_pad_supply": 1.0,
+        "A_rear_L_minus_pad_exhaust": 0.0,
+        "A_rear_L_minus_pad_leak": 0.0,
+        "A_rear_L_plus_pad_supply": 1.0,
+        "A_rear_L_plus_pad_exhaust": 0.0,
+        "A_rear_L_plus_pad_leak": 0.0,
+        "A_rear_R_minus_pad_supply": 1.0,
+        "A_rear_R_minus_pad_exhaust": 0.0,
+        "A_rear_R_minus_pad_leak": 0.0,
+        "A_rear_R_plus_pad_supply": 1.0,
+        "A_rear_R_plus_pad_exhaust": 0.0,
+        "A_rear_R_plus_pad_leak": 0.0,
+        "B_front_L_minus_pad_supply": 1.0,
+        "B_front_L_minus_pad_exhaust": 0.0,
+        "B_front_L_minus_pad_leak": 0.0,
+        "B_front_L_plus_pad_supply": 1.0,
+        "B_front_L_plus_pad_exhaust": 0.0,
+        "B_front_L_plus_pad_leak": 0.0,
+        "B_front_R_minus_pad_supply": 1.0,
+        "B_front_R_minus_pad_exhaust": 0.0,
+        "B_front_R_minus_pad_leak": 0.0,
+        "B_front_R_plus_pad_supply": 1.0,
+        "B_front_R_plus_pad_exhaust": 0.0,
+        "B_front_R_plus_pad_leak": 0.0,
+        "B_rear_L_minus_pad_supply": 1.0,
+        "B_rear_L_minus_pad_exhaust": 0.0,
+        "B_rear_L_minus_pad_leak": 0.0,
+        "B_rear_L_plus_pad_supply": 1.0,
+        "B_rear_L_plus_pad_exhaust": 0.0,
+        "B_rear_L_plus_pad_leak": 0.0,
+        "B_rear_R_minus_pad_supply": 1.0,
+        "B_rear_R_minus_pad_exhaust": 0.0,
+        "B_rear_R_minus_pad_leak": 0.0,
+        "B_rear_R_plus_pad_supply": 1.0,
+        "B_rear_R_plus_pad_exhaust": 0.0,
+        "B_rear_R_plus_pad_leak": 0.0,
+        "compressor_intake": 0.0,
+        "compressor_discharge": 0.0,
+        "compressor": 0.0,
+        "compressor_fan": 1.0,
+        "bay_fan": 1.0
+      },
+      "audit": {
+        "port_count": 51,
+        "mechanical_state_count": 102,
+        "energy_J": 0.06180869351669888,
+        "coil_work_J": 0.3163924361493105,
+        "damping_loss_J": 0.2545837426326167,
+        "balance_residual_J": 5.0636578263763e-15,
+        "max_individual_balance_residual_J": 1.491862189340054e-16,
+        "max_stop_penetration_m": 2.8495540627759917e-05
+      }
+    },
+    "auxiliary_model": {
+      "provenance": "INFERRED_EQUIVALENT: unmeasured single-acting Scotch-yoke and DC fans on a fixed external bench",
+      "gas_state_count": 27,
+      "pump": {
+        "bore_m": 0.012,
+        "crank_radius_m": 0.006,
+        "clearance_fraction": 0.15,
+        "piston_mass_kg": 0.04,
+        "flywheel_inertia_kg_m2": 2e-05,
+        "viscous_friction_Nm_s": 1e-05,
+        "intake_area_m2": 2e-06,
+        "discharge_area_m2": 1e-06,
+        "cut_in_pressure_Pa": 531325.0,
+        "cut_out_pressure_Pa": 601325.0,
+        "maximum_step_s": 0.0002
+      },
+      "pump_motor": {
+        "voltage_V": 24.0,
+        "resistance_ohm": 12.0,
+        "torque_back_emf_constant": 0.055
+      },
+      "fan_parameters": {
+        "compressor_fan": {
+          "inertia_kg_m2": 2e-06,
+          "bearing_drag_Nm_s": 1e-06,
+          "aerodynamic_drag_Nm_s2": 1e-07,
+          "flow_m3_per_rad": 1e-05
+        },
+        "bay_fan": {
+          "inertia_kg_m2": 2e-06,
+          "bearing_drag_Nm_s": 1e-06,
+          "aerodynamic_drag_Nm_s2": 1e-07,
+          "flow_m3_per_rad": 1e-05
+        }
+      },
+      "fan_motors": {
+        "compressor_fan": {
+          "voltage_V": 24.0,
+          "resistance_ohm": 24,
+          "torque_back_emf_constant": 0.03
+        },
+        "bay_fan": {
+          "voltage_V": 24.0,
+          "resistance_ohm": 24,
+          "torque_back_emf_constant": 0.03
+        }
+      },
+      "auxiliary_mechanical_coordinates": 3,
+      "auxiliary_canonical_states": 6,
+      "thermal_states": 2,
+      "automatic_compressor": true,
+      "cabinet_external_heat_W": 80.0,
+      "thermal_parameters": {
+        "compressor_motor": {
+          "capacity_J_K": 120,
+          "natural_UA_W_K": 1.0,
+          "forced_UA_per_rad_s": 0.01,
+          "ambient_K": 293.15
+        },
+        "cabinet": {
+          "capacity_J_K": 500,
+          "natural_UA_W_K": 2.0,
+          "forced_UA_per_rad_s": 0.018,
+          "ambient_K": 293.15
+        }
+      },
+      "limits": [
+        "external bench: no vehicle mount reaction",
+        "inferred Scotch-yoke: not source hardware",
+        "ideal massless check seats: no reed inertia",
+        "isothermal gas: fixed ambient heat bath",
+        "quasi-static armature: no inductance",
+        "fan flow/UA proxies: no measured curve or CFD",
+        "thermal diagnostics do not alter pneumatic temperature"
+      ]
+    }
+  }
+}

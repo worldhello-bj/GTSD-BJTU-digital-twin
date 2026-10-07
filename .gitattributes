@@ -1,0 +1,12 @@
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.zip binary
+*.part001 binary
+*.part002 binary
+*.blend binary
+*.png binary
+*.mp4 binary
+source/vehicle-physics/b11/source_cables.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

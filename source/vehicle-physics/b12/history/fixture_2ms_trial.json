@@ -1,0 +1,8 @@
+{
+  "status": "FAILED_FIXED_PROXY_TOLERANCE",
+  "fixture_time_constant_s": 0.002,
+  "external_force_N": [2, 0, 0],
+  "maximum_pose_change": 0.0000620405403956581,
+  "required_limit": 0.00001,
+  "resolution": "Stiffen the numerical ideal fixture to 0.5 ms and retain the original pose-error threshold; this is not a calibrated fastener compliance."
+}

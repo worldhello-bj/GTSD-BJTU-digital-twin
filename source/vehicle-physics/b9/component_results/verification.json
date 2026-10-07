@@ -1,0 +1,142 @@
+{
+  "schema": "B9 dynamic metering-port component validation v1",
+  "provenance": "CALIBRATION_ASSUMPTION: balanced 2/2 metering-port proxy, not measured valve hardware",
+  "tests_run": 19,
+  "passed": true,
+  "failures": [],
+  "errors": [],
+  "results": {
+    "gas_coupling": {
+      "time_s": 0.5000499999999531,
+      "pressure_Pa": {
+        "reservoir": 601159.3791952545,
+        "cylinder": 266945.80474571395
+      },
+      "force_N": {},
+      "mass_kg": {
+        "reservoir": 0.014288024072033539,
+        "cylinder": 6.3446204386612575e-06
+      },
+      "volume_m3": {
+        "reservoir": 0.002,
+        "cylinder": 2e-06
+      },
+      "displacement_m": {},
+      "valve_opening": {
+        "cylinder_supply": 1.0,
+        "cylinder_exhaust": 0.0,
+        "cylinder_leak": 0.0
+      },
+      "flow_kg_s": {
+        "cylinder_supply": 7.946469506940184e-06,
+        "cylinder_exhaust": 0.0,
+        "cylinder_leak": 0.0
+      },
+      "cumulative_edge_mass_kg": {
+        "cylinder_supply": 3.936383805912038e-06,
+        "cylinder_exhaust": 0.0,
+        "cylinder_leak": 0.0
+      },
+      "audit": {
+        "external_mass_in_kg": 0.0,
+        "external_mass_out_kg": 0.0,
+        "gas_boundary_work_J": 0.0,
+        "useful_mechanical_work_J": 0.0,
+        "ambient_displacement_work_J": 0.0,
+        "gas_heat_from_bath_J": 0.0,
+        "external_enthalpy_in_J": 0.0,
+        "external_enthalpy_out_J": 0.0,
+        "compressor_work_in_J": 0.0,
+        "compressor_heat_to_bath_J": 0.0,
+        "flow_exergy_destroyed_J": 0.4038843671912673,
+        "compressor_exergy_destroyed_J": 0.0,
+        "total_mass_kg": 0.0142943686924722,
+        "mass_balance_residual_kg": 6.938893903907228e-18,
+        "internal_energy_J": 3007.131625000002,
+        "internal_energy_delta_J": 1.3642420526593924e-12,
+        "gas_energy_balance_residual_J": 1.3642420526593924e-12,
+        "combined_energy_balance_residual_J": 1.3642420526593924e-12,
+        "combined_heat_from_bath_J": 0.0,
+        "exergy_J": 1141.2780994442473,
+        "exergy_delta_J": -0.4038843671912673,
+        "exergy_destroyed_J": 0.4038843671912673,
+        "entropy_generated_J_per_K": 0.0013777396117730422,
+        "exergy_balance_residual_J": 0.0
+      },
+      "equalization_caps": 0,
+      "substeps": 10001,
+      "spools": {
+        "cylinder_supply": {
+          "position_m": 0.0020088408644400656,
+          "velocity_m_s": -7.993605777301127e-15,
+          "opening": 1.0,
+          "coil_force_fraction": 1,
+          "coil_failed": false,
+          "energy_J": 0.0036358055009822598,
+          "coil_work_J": 0.009039783889980276,
+          "damping_loss_J": 0.005403978388998155,
+          "balance_residual_J": 1.3877787807814457e-16,
+          "max_stop_penetration_m": 2.8495540627759917e-05
+        },
+        "cylinder_exhaust": {
+          "position_m": 0.0,
+          "velocity_m_s": 0.0,
+          "opening": 0.0,
+          "coil_force_fraction": 0.0,
+          "coil_failed": false,
+          "energy_J": 0.0,
+          "coil_work_J": 0.0,
+          "damping_loss_J": 0.0,
+          "balance_residual_J": 0.0,
+          "max_stop_penetration_m": 0.0
+        }
+      },
+      "spool_audit": {
+        "port_count": 2,
+        "mechanical_state_count": 4,
+        "energy_J": 0.0036358055009822598,
+        "coil_work_J": 0.009039783889980276,
+        "damping_loss_J": 0.005403978388998155,
+        "balance_residual_J": 1.3877787807814457e-16,
+        "max_individual_balance_residual_J": 1.3877787807814457e-16,
+        "max_stop_penetration_m": 2.8495540627759917e-05
+      }
+    },
+    "end_stop": {
+      "position_m": 0.0020088408644400747,
+      "velocity_m_s": -9.353628982466944e-15,
+      "opening": 1.0,
+      "coil_force_fraction": 1.0,
+      "coil_failed": false,
+      "energy_J": 0.0036358055009823005,
+      "coil_work_J": 0.009039783889980313,
+      "damping_loss_J": 0.005403978388998155,
+      "balance_residual_J": 1.4311468676808659e-16,
+      "max_stop_penetration_m": 2.8495540627759917e-05
+    },
+    "analytic_response": {
+      "solved_m": 0.00047298729251657776,
+      "analytic_m": 0.00047298656009845454,
+      "error_m": 7.324181232207586e-10
+    },
+    "slow_valve": {
+      "normal_pressure_Pa": 133177.18109934442,
+      "slow_pressure_Pa": 124951.35454204598
+    },
+    "three_step_convergence": {
+      "dt_s": [
+        0.0001,
+        5e-05,
+        2.5e-05
+      ],
+      "max_pressure_difference_Pa": [
+        0.03936783091921825,
+        0.021280003522406332
+      ],
+      "max_position_difference_m": [
+        2.9542614854395285e-07,
+        7.470714914270885e-08
+      ]
+    }
+  }
+}

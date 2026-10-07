@@ -1,0 +1,13 @@
+{
+  "tests_run": 10,
+  "passed": true,
+  "failures": [],
+  "errors": [],
+  "sources_sha256": {
+    "test_cables.py": "b917184a041650f8e89d9db031edae7cae8899d9335545bd407df45d70863dcd",
+    "cables.py": "887596a59a9c38e2da65c1ea77f3fe888786a7234739ed7a88b55d325abcd1c6",
+    "live.py": "0a8269b2226937fc7df9d776588d6f4a95474510c5134eb196ece0c03bf6d7a7",
+    "source_cables.json": "e0831e8fc3b5e3691418ce46fc6e9ea5db3b43201e8afb179ff471ded0b744ad",
+    "cable_contact_audit.py": "76cbde88e90f3cd830e7de0089eca54a4c9992fbcdd2834ee0b51cf1dc775b32"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "python": "3.12.14",
+  "sources_sha256": {
+    "b8": {
+      "pneumatics.py": "a96d81f70e347319ad055c0fea4aa06933f762e01910522377c81a16dc6a1915"
+    },
+    "b9": {
+      "valve_dynamics.py": "acd3d855c74db93793022f4f39c6acec821c1a51f168b23d4c56f0f3b4908a50"
+    },
+    "b10": {
+      "auxiliaries.py": "03f55f0238a191fed0e8289183248547d51497d56b20c50b2905d143de1e65e4",
+      "simulate.py": "725e0d4a19ce3042f291fbe7f63d469ba8ef7b443f287eb88514bd727b7035b3",
+      "bench.py": "b837056b9ebf9a127a65ad1d6f380e14dc7b7ca0bae90bc520ceaba3022613bf"
+    }
+  },
+  "outputs_sha256": {
+    "outlet_blocked.csv": "21bc89081f7a9f95fc4c31bf6520b6a68d22e6d033cd0c369ba9357c297d417c",
+    "outlet_blocked_metrics.json": "4c7eaf88ade84050c2f75e54796672acc50431b6bef309f6e763542f32d3f1e4"
+  }
+}
