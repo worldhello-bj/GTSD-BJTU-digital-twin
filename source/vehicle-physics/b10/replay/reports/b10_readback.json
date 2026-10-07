@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "vehicle_frames": 301,
+  "bodies": 44,
+  "source_door_parts": 84,
+  "auxiliary_frames": 501,
+  "auxiliary_moving_nodes": 7,
+  "display_time_dilation": 33.333333333333336,
+  "maximum_body_matrix_error": 5.960464477539062e-07,
+  "maximum_source_part_matrix_error": 4.76837158203125e-07,
+  "maximum_auxiliary_position_or_angle_error": 7.623782209975616e-06,
+  "error_limit": 2e-05,
+  "xml_sha256": "7808bc4784bcddb7e9440accb27fa79eb539c06633323c6d56f79a6fa9299199",
+  "blend_sha256": "39b5bb0b8089e6da01142dfa0c0f57206986ac5805bad8fef62359b79a2771c9",
+  "auxiliary_csv_sha256": "464118444dadeec8f7ad73291267962d72eb522df20f9594887e690c2b3c1f5f",
+  "expression_drivers": 0,
+  "scope": "saved display identity/poses; auxiliary geometry is explicitly inferred"
+}

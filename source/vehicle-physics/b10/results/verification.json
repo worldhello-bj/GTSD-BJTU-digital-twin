@@ -1,0 +1,1870 @@
+{
+  "status": "PASS_WITH_MODEL_LIMITATIONS",
+  "passed": true,
+  "integrated_cases": 3,
+  "bench_cases": 6,
+  "component_tests": 16,
+  "regression_tests": 36,
+  "checks": [
+    {
+      "name": "components",
+      "passed": true,
+      "detail": {
+        "tests": 16
+      }
+    },
+    {
+      "name": "regression",
+      "passed": true,
+      "detail": {
+        "tests": 36
+      }
+    },
+    {
+      "name": "finite_service_brake",
+      "passed": true,
+      "detail": "all physical samples"
+    },
+    {
+      "name": "topology_service_brake",
+      "passed": true,
+      "detail": "77 vehicle coordinates, 27 gas masses, 51 B9 ports, no algebraic compressor"
+    },
+    {
+      "name": "warnings_service_brake",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "full_window_service_brake",
+      "passed": true,
+      "detail": "6 s natural settling + 10 s observation"
+    },
+    {
+      "name": "mechanical_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 0.05650923247805742,
+        "limit": 0.15,
+        "column": "mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "gas_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 1.8638957044458948e-10,
+        "limit": 1e-05,
+        "column": "gas_energy_residual_J"
+      }
+    },
+    {
+      "name": "vehicle_coupling_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0002410977674500714,
+        "limit": 0.05,
+        "column": "vehicle_coupling_work_discrepancy_J"
+      }
+    },
+    {
+      "name": "momentum_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 0.021436105147131613,
+        "limit": 0.05,
+        "column": "momentum_balance_residual_Ns"
+      }
+    },
+    {
+      "name": "mass_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 1.2888020842309967e-15,
+        "limit": 1e-10,
+        "column": "air_mass_residual_kg"
+      }
+    },
+    {
+      "name": "spool_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 5.278763537397424e-15,
+        "limit": 1e-07,
+        "column": "spool_balance_residual_J"
+      }
+    },
+    {
+      "name": "mechanical_pump_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 2.7499424959387397e-10,
+        "limit": 1e-06,
+        "column": "pump_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "electrical_pump_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 4.575895218295045e-12,
+        "limit": 1e-06,
+        "column": "pump_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "mechanical_compressor_fan_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 7.642171340194182e-10,
+        "limit": 1e-06,
+        "column": "compressor_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "electrical_compressor_fan_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 1.585533482284518e-09,
+        "limit": 1e-06,
+        "column": "compressor_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "mechanical_bay_fan_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 7.642171340194182e-10,
+        "limit": 1e-06,
+        "column": "bay_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "electrical_bay_fan_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 1.585533482284518e-09,
+        "limit": 1e-06,
+        "column": "bay_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "pump_geometry_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 1.5631940186722204e-13,
+        "limit": 1e-06,
+        "column": "pump_gas_geometry_work_discrepancy_J"
+      }
+    },
+    {
+      "name": "thermal_compressor_motor_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 3.4883669286500663e-09,
+        "limit": 1e-05,
+        "column": "compressor_motor_balance_residual_J"
+      }
+    },
+    {
+      "name": "thermal_cabinet_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 5.476209707921953e-09,
+        "limit": 1e-05,
+        "column": "cabinet_balance_residual_J"
+      }
+    },
+    {
+      "name": "contact_passivity_service_brake",
+      "passed": true,
+      "detail": "unchanged B8 criterion"
+    },
+    {
+      "name": "replay_service_brake",
+      "passed": true,
+      "detail": {
+        "frames": 301,
+        "expected": 301,
+        "bodies": 44
+      }
+    },
+    {
+      "name": "xml_service_brake",
+      "passed": true,
+      "detail": "exact XML association"
+    },
+    {
+      "name": "output_service_brake_service_brake.xml",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_service_brake_service_brake.csv",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_service_brake_service_brake_metrics.json",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_service_brake_service_brake_auxiliaries.csv",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_service_brake_service_brake_replay.json",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "source_service_brake_b8_simulate_full.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b8_full_model.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b8_compliant_contact.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b8_pneumatics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b8_pantograph.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b8_access_doors.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b9_valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b9_compat.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b10_auxiliaries.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b10_simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_parent_build_model.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "finite_half_dt",
+      "passed": true,
+      "detail": "all physical samples"
+    },
+    {
+      "name": "topology_half_dt",
+      "passed": true,
+      "detail": "77 vehicle coordinates, 27 gas masses, 51 B9 ports, no algebraic compressor"
+    },
+    {
+      "name": "warnings_half_dt",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "full_window_half_dt",
+      "passed": true,
+      "detail": "6 s natural settling + 10 s observation"
+    },
+    {
+      "name": "mechanical_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 0.020052867362717275,
+        "limit": 0.15,
+        "column": "mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "gas_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.2332463938946603e-09,
+        "limit": 1e-05,
+        "column": "gas_energy_residual_J"
+      }
+    },
+    {
+      "name": "vehicle_coupling_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 0.00012005827873906583,
+        "limit": 0.05,
+        "column": "vehicle_coupling_work_discrepancy_J"
+      }
+    },
+    {
+      "name": "momentum_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 0.010718744631094287,
+        "limit": 0.05,
+        "column": "momentum_balance_residual_Ns"
+      }
+    },
+    {
+      "name": "mass_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.2142980207569353e-15,
+        "limit": 1e-10,
+        "column": "air_mass_residual_kg"
+      }
+    },
+    {
+      "name": "spool_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.954773148904465e-14,
+        "limit": 1e-07,
+        "column": "spool_balance_residual_J"
+      }
+    },
+    {
+      "name": "mechanical_pump_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.3920953279011883e-10,
+        "limit": 1e-06,
+        "column": "pump_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "electrical_pump_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 5.4285465012071654e-12,
+        "limit": 1e-06,
+        "column": "pump_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "mechanical_compressor_fan_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.841883090492047e-09,
+        "limit": 1e-06,
+        "column": "compressor_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "electrical_compressor_fan_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.461124554680282e-09,
+        "limit": 1e-06,
+        "column": "compressor_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "mechanical_bay_fan_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.841883090492047e-09,
+        "limit": 1e-06,
+        "column": "bay_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "electrical_bay_fan_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.461124554680282e-09,
+        "limit": 1e-06,
+        "column": "bay_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "pump_geometry_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 6.821210263296962e-13,
+        "limit": 1e-06,
+        "column": "pump_gas_geometry_work_discrepancy_J"
+      }
+    },
+    {
+      "name": "thermal_compressor_motor_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.920774650443491e-09,
+        "limit": 1e-05,
+        "column": "compressor_motor_balance_residual_J"
+      }
+    },
+    {
+      "name": "thermal_cabinet_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.0778791192933568e-08,
+        "limit": 1e-05,
+        "column": "cabinet_balance_residual_J"
+      }
+    },
+    {
+      "name": "contact_passivity_half_dt",
+      "passed": true,
+      "detail": "unchanged B8 criterion"
+    },
+    {
+      "name": "replay_half_dt",
+      "passed": true,
+      "detail": {
+        "frames": 302,
+        "expected": 302,
+        "bodies": 44
+      }
+    },
+    {
+      "name": "xml_half_dt",
+      "passed": true,
+      "detail": "exact XML association"
+    },
+    {
+      "name": "output_half_dt_half_dt.xml",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_half_dt_half_dt.csv",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_half_dt_half_dt_metrics.json",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_half_dt_half_dt_auxiliaries.csv",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_half_dt_half_dt_replay.json",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "source_half_dt_b8_simulate_full.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_half_dt_b8_full_model.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_half_dt_b8_compliant_contact.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_half_dt_b8_pneumatics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_half_dt_b8_pantograph.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_half_dt_b8_access_doors.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_half_dt_b9_valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_half_dt_b9_compat.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_half_dt_b10_auxiliaries.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_half_dt_b10_simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_half_dt_parent_build_model.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "finite_compressor_power_failure",
+      "passed": true,
+      "detail": "all physical samples"
+    },
+    {
+      "name": "topology_compressor_power_failure",
+      "passed": true,
+      "detail": "77 vehicle coordinates, 27 gas masses, 51 B9 ports, no algebraic compressor"
+    },
+    {
+      "name": "warnings_compressor_power_failure",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "full_window_compressor_power_failure",
+      "passed": true,
+      "detail": "6 s natural settling + 10 s observation"
+    },
+    {
+      "name": "mechanical_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 0.05662365893210464,
+        "limit": 0.15,
+        "column": "mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "gas_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 1.2404932636655985e-10,
+        "limit": 1e-05,
+        "column": "gas_energy_residual_J"
+      }
+    },
+    {
+      "name": "vehicle_coupling_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 0.00033004405748904286,
+        "limit": 0.05,
+        "column": "vehicle_coupling_work_discrepancy_J"
+      }
+    },
+    {
+      "name": "momentum_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 0.02143610514915625,
+        "limit": 0.05,
+        "column": "momentum_balance_residual_Ns"
+      }
+    },
+    {
+      "name": "mass_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 5.87822085085857e-16,
+        "limit": 1e-10,
+        "column": "air_mass_residual_kg"
+      }
+    },
+    {
+      "name": "spool_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 5.278763537397424e-15,
+        "limit": 1e-07,
+        "column": "spool_balance_residual_J"
+      }
+    },
+    {
+      "name": "mechanical_pump_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-06,
+        "column": "pump_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "electrical_pump_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-06,
+        "column": "pump_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "mechanical_compressor_fan_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 7.642171340194182e-10,
+        "limit": 1e-06,
+        "column": "compressor_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "electrical_compressor_fan_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 1.585533482284518e-09,
+        "limit": 1e-06,
+        "column": "compressor_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "mechanical_bay_fan_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 7.642171340194182e-10,
+        "limit": 1e-06,
+        "column": "bay_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "electrical_bay_fan_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 1.585533482284518e-09,
+        "limit": 1e-06,
+        "column": "bay_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "pump_geometry_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-06,
+        "column": "pump_gas_geometry_work_discrepancy_J"
+      }
+    },
+    {
+      "name": "thermal_compressor_motor_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 1.7455183964898424e-09,
+        "limit": 1e-05,
+        "column": "compressor_motor_balance_residual_J"
+      }
+    },
+    {
+      "name": "thermal_cabinet_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "maximum": 5.476209707921953e-09,
+        "limit": 1e-05,
+        "column": "cabinet_balance_residual_J"
+      }
+    },
+    {
+      "name": "contact_passivity_compressor_power_failure",
+      "passed": true,
+      "detail": "unchanged B8 criterion"
+    },
+    {
+      "name": "replay_compressor_power_failure",
+      "passed": true,
+      "detail": {
+        "frames": 301,
+        "expected": 301,
+        "bodies": 44
+      }
+    },
+    {
+      "name": "xml_compressor_power_failure",
+      "passed": true,
+      "detail": "exact XML association"
+    },
+    {
+      "name": "output_compressor_power_failure_compressor_power_failure.xml",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_compressor_power_failure_compressor_power_failure.csv",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_compressor_power_failure_compressor_power_failure_metrics.json",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_compressor_power_failure_compressor_power_failure_auxiliaries.csv",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_compressor_power_failure_compressor_power_failure_replay.json",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "source_compressor_power_failure_b8_simulate_full.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_compressor_power_failure_b8_full_model.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_compressor_power_failure_b8_compliant_contact.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_compressor_power_failure_b8_pneumatics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_compressor_power_failure_b8_pantograph.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_compressor_power_failure_b8_access_doors.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_compressor_power_failure_b9_valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_compressor_power_failure_b9_compat.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_compressor_power_failure_b10_auxiliaries.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_compressor_power_failure_b10_simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_compressor_power_failure_parent_build_model.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "bench_window_charge",
+      "passed": true,
+      "detail": "120 s"
+    },
+    {
+      "name": "bench_finite_charge",
+      "passed": true,
+      "detail": "finite samples, positive cylinder pressure"
+    },
+    {
+      "name": "bench_mass_balance_residual_kg_charge",
+      "passed": true,
+      "detail": {
+        "value": 5.0306980803327406e-17,
+        "limit": 1e-10
+      }
+    },
+    {
+      "name": "bench_gas_energy_balance_residual_J_charge",
+      "passed": true,
+      "detail": {
+        "value": 1.7962520360015333e-11,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "bench_exergy_balance_residual_J_charge",
+      "passed": true,
+      "detail": {
+        "value": -1.9184653865522705e-11,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "bench_mechanical_pump_charge",
+      "passed": true,
+      "detail": {
+        "maximum": 4.5838532969355583e-10,
+        "limit": 1e-06,
+        "column": "pump_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_pump_charge",
+      "passed": true,
+      "detail": {
+        "maximum": 2.6489033189136535e-11,
+        "limit": 1e-06,
+        "column": "pump_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_mechanical_compressor_fan_charge",
+      "passed": true,
+      "detail": {
+        "maximum": 1.0984763321175706e-08,
+        "limit": 1e-06,
+        "column": "compressor_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_compressor_fan_charge",
+      "passed": true,
+      "detail": {
+        "maximum": 8.815391083771829e-09,
+        "limit": 1e-06,
+        "column": "compressor_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_mechanical_bay_fan_charge",
+      "passed": true,
+      "detail": {
+        "maximum": 1.0984763321175706e-08,
+        "limit": 1e-06,
+        "column": "bay_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_bay_fan_charge",
+      "passed": true,
+      "detail": {
+        "maximum": 8.815391083771829e-09,
+        "limit": 1e-06,
+        "column": "bay_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_geometry_charge",
+      "passed": true,
+      "detail": {
+        "maximum": 2.2737367544323206e-13,
+        "limit": 1e-06,
+        "column": "pump_gas_geometry_work_discrepancy_J"
+      }
+    },
+    {
+      "name": "bench_thermal_compressor_motor_charge",
+      "passed": true,
+      "detail": {
+        "maximum": 1.996880882870755e-09,
+        "limit": 1e-05,
+        "column": "compressor_motor_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_thermal_cabinet_charge",
+      "passed": true,
+      "detail": {
+        "maximum": 1.371345206280239e-07,
+        "limit": 1e-05,
+        "column": "cabinet_balance_residual_J"
+      }
+    },
+    {
+      "name": "output_charge_charge.csv",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_charge_charge_metrics.json",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "source_charge_b8_pneumatics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_charge_b9_valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_charge_b10_auxiliaries.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_charge_b10_simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_charge_b10_bench.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "bench_window_half_dt",
+      "passed": true,
+      "detail": "120 s"
+    },
+    {
+      "name": "bench_finite_half_dt",
+      "passed": true,
+      "detail": "finite samples, positive cylinder pressure"
+    },
+    {
+      "name": "bench_mass_balance_residual_kg_half_dt",
+      "passed": true,
+      "detail": {
+        "value": -6.349087922075114e-16,
+        "limit": 1e-10
+      }
+    },
+    {
+      "name": "bench_gas_energy_balance_residual_J_half_dt",
+      "passed": true,
+      "detail": {
+        "value": -8.344613888766617e-11,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "bench_exergy_balance_residual_J_half_dt",
+      "passed": true,
+      "detail": {
+        "value": -8.753886504564434e-12,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "bench_mechanical_pump_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.358102963422425e-09,
+        "limit": 1e-06,
+        "column": "pump_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_pump_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 6.775735528208315e-11,
+        "limit": 1e-06,
+        "column": "pump_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_mechanical_compressor_fan_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.874605004559271e-08,
+        "limit": 1e-06,
+        "column": "compressor_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_compressor_fan_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 4.6281911636469886e-08,
+        "limit": 1e-06,
+        "column": "compressor_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_mechanical_bay_fan_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.874605004559271e-08,
+        "limit": 1e-06,
+        "column": "bay_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_bay_fan_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 4.6281911636469886e-08,
+        "limit": 1e-06,
+        "column": "bay_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_geometry_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 2.8421709430404007e-13,
+        "limit": 1e-06,
+        "column": "pump_gas_geometry_work_discrepancy_J"
+      }
+    },
+    {
+      "name": "bench_thermal_compressor_motor_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 2.708020474528894e-09,
+        "limit": 1e-05,
+        "column": "compressor_motor_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_thermal_cabinet_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 3.961877155234106e-07,
+        "limit": 1e-05,
+        "column": "cabinet_balance_residual_J"
+      }
+    },
+    {
+      "name": "output_half_dt_half_dt.csv",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_half_dt_half_dt_metrics.json",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "source_half_dt_b8_pneumatics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_half_dt_b9_valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_half_dt_b10_auxiliaries.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_half_dt_b10_simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_half_dt_b10_bench.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "bench_window_power_loss",
+      "passed": true,
+      "detail": "120 s"
+    },
+    {
+      "name": "bench_finite_power_loss",
+      "passed": true,
+      "detail": "finite samples, positive cylinder pressure"
+    },
+    {
+      "name": "bench_mass_balance_residual_kg_power_loss",
+      "passed": true,
+      "detail": {
+        "value": 3.69712940817557e-17,
+        "limit": 1e-10
+      }
+    },
+    {
+      "name": "bench_gas_energy_balance_residual_J_power_loss",
+      "passed": true,
+      "detail": {
+        "value": 2.509636942704674e-11,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "bench_exergy_balance_residual_J_power_loss",
+      "passed": true,
+      "detail": {
+        "value": -2.2808421817899216e-12,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "bench_mechanical_pump_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 5.191225227463292e-11,
+        "limit": 1e-06,
+        "column": "pump_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_pump_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 9.094947017729282e-13,
+        "limit": 1e-06,
+        "column": "pump_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_mechanical_compressor_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 1.0984763321175706e-08,
+        "limit": 1e-06,
+        "column": "compressor_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_compressor_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 8.815391083771829e-09,
+        "limit": 1e-06,
+        "column": "compressor_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_mechanical_bay_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 1.0984763321175706e-08,
+        "limit": 1e-06,
+        "column": "bay_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_bay_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 8.815391083771829e-09,
+        "limit": 1e-06,
+        "column": "bay_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_geometry_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 2.1316282072803006e-14,
+        "limit": 1e-06,
+        "column": "pump_gas_geometry_work_discrepancy_J"
+      }
+    },
+    {
+      "name": "bench_thermal_compressor_motor_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 1.1279439604550134e-09,
+        "limit": 1e-05,
+        "column": "compressor_motor_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_thermal_cabinet_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 1.371345206280239e-07,
+        "limit": 1e-05,
+        "column": "cabinet_balance_residual_J"
+      }
+    },
+    {
+      "name": "output_power_loss_power_loss.csv",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_power_loss_power_loss_metrics.json",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "source_power_loss_b8_pneumatics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_power_loss_b9_valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_power_loss_b10_auxiliaries.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_power_loss_b10_simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_power_loss_b10_bench.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "bench_window_outlet_blocked",
+      "passed": true,
+      "detail": "120 s"
+    },
+    {
+      "name": "bench_finite_outlet_blocked",
+      "passed": true,
+      "detail": "finite samples, positive cylinder pressure"
+    },
+    {
+      "name": "bench_mass_balance_residual_kg_outlet_blocked",
+      "passed": true,
+      "detail": {
+        "value": 9.719703069743096e-20,
+        "limit": 1e-10
+      }
+    },
+    {
+      "name": "bench_gas_energy_balance_residual_J_outlet_blocked",
+      "passed": true,
+      "detail": {
+        "value": 9.159339953157541e-15,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "bench_exergy_balance_residual_J_outlet_blocked",
+      "passed": true,
+      "detail": {
+        "value": -4.49596956886289e-15,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "bench_mechanical_pump_outlet_blocked",
+      "passed": true,
+      "detail": {
+        "maximum": 3.376499080331996e-11,
+        "limit": 1e-06,
+        "column": "pump_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_pump_outlet_blocked",
+      "passed": true,
+      "detail": {
+        "maximum": 4.916955731459893e-12,
+        "limit": 1e-06,
+        "column": "pump_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_mechanical_compressor_fan_outlet_blocked",
+      "passed": true,
+      "detail": {
+        "maximum": 1.0984763321175706e-08,
+        "limit": 1e-06,
+        "column": "compressor_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_compressor_fan_outlet_blocked",
+      "passed": true,
+      "detail": {
+        "maximum": 8.815391083771829e-09,
+        "limit": 1e-06,
+        "column": "compressor_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_mechanical_bay_fan_outlet_blocked",
+      "passed": true,
+      "detail": {
+        "maximum": 1.0984763321175706e-08,
+        "limit": 1e-06,
+        "column": "bay_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_bay_fan_outlet_blocked",
+      "passed": true,
+      "detail": {
+        "maximum": 8.815391083771829e-09,
+        "limit": 1e-06,
+        "column": "bay_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_geometry_outlet_blocked",
+      "passed": true,
+      "detail": {
+        "maximum": 1.3666151543745286e-14,
+        "limit": 1e-06,
+        "column": "pump_gas_geometry_work_discrepancy_J"
+      }
+    },
+    {
+      "name": "bench_thermal_compressor_motor_outlet_blocked",
+      "passed": true,
+      "detail": {
+        "maximum": 4.083631210960448e-09,
+        "limit": 1e-05,
+        "column": "compressor_motor_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_thermal_cabinet_outlet_blocked",
+      "passed": true,
+      "detail": {
+        "maximum": 1.371345206280239e-07,
+        "limit": 1e-05,
+        "column": "cabinet_balance_residual_J"
+      }
+    },
+    {
+      "name": "output_outlet_blocked_outlet_blocked.csv",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_outlet_blocked_outlet_blocked_metrics.json",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "source_outlet_blocked_b8_pneumatics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_outlet_blocked_b9_valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_outlet_blocked_b10_auxiliaries.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_outlet_blocked_b10_simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_outlet_blocked_b10_bench.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "bench_window_fan_power_loss",
+      "passed": true,
+      "detail": "120 s"
+    },
+    {
+      "name": "bench_finite_fan_power_loss",
+      "passed": true,
+      "detail": "finite samples, positive cylinder pressure"
+    },
+    {
+      "name": "bench_mass_balance_residual_kg_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "value": 5.0306980803327406e-17,
+        "limit": 1e-10
+      }
+    },
+    {
+      "name": "bench_gas_energy_balance_residual_J_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "value": 1.7962520360015333e-11,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "bench_exergy_balance_residual_J_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "value": -1.9184653865522705e-11,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "bench_mechanical_pump_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 4.5838532969355583e-10,
+        "limit": 1e-06,
+        "column": "pump_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_pump_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 2.6489033189136535e-11,
+        "limit": 1e-06,
+        "column": "pump_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_mechanical_compressor_fan_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 6.02895511292445e-11,
+        "limit": 1e-06,
+        "column": "compressor_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_compressor_fan_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 1.687823214524542e-10,
+        "limit": 1e-06,
+        "column": "compressor_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_mechanical_bay_fan_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 6.02895511292445e-11,
+        "limit": 1e-06,
+        "column": "bay_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_bay_fan_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 1.687823214524542e-10,
+        "limit": 1e-06,
+        "column": "bay_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_geometry_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 2.2737367544323206e-13,
+        "limit": 1e-06,
+        "column": "pump_gas_geometry_work_discrepancy_J"
+      }
+    },
+    {
+      "name": "bench_thermal_compressor_motor_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 5.499146027432289e-09,
+        "limit": 1e-05,
+        "column": "compressor_motor_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_thermal_cabinet_fan_power_loss",
+      "passed": true,
+      "detail": {
+        "maximum": 4.469529812922701e-08,
+        "limit": 1e-05,
+        "column": "cabinet_balance_residual_J"
+      }
+    },
+    {
+      "name": "output_fan_power_loss_fan_power_loss.csv",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_fan_power_loss_fan_power_loss_metrics.json",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "source_fan_power_loss_b8_pneumatics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_fan_power_loss_b9_valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_fan_power_loss_b10_auxiliaries.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_fan_power_loss_b10_simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_fan_power_loss_b10_bench.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "bench_window_pressure_switch",
+      "passed": true,
+      "detail": "120 s"
+    },
+    {
+      "name": "bench_finite_pressure_switch",
+      "passed": true,
+      "detail": "finite samples, positive cylinder pressure"
+    },
+    {
+      "name": "bench_mass_balance_residual_kg_pressure_switch",
+      "passed": true,
+      "detail": {
+        "value": -4.336808689942018e-19,
+        "limit": 1e-10
+      }
+    },
+    {
+      "name": "bench_gas_energy_balance_residual_J_pressure_switch",
+      "passed": true,
+      "detail": {
+        "value": 5.7127635955112055e-12,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "bench_exergy_balance_residual_J_pressure_switch",
+      "passed": true,
+      "detail": {
+        "value": -5.369500399865501e-10,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "bench_mechanical_pump_pressure_switch",
+      "passed": true,
+      "detail": {
+        "maximum": 1.8781065591610968e-10,
+        "limit": 1e-06,
+        "column": "pump_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_pump_pressure_switch",
+      "passed": true,
+      "detail": {
+        "maximum": 3.398383796593407e-10,
+        "limit": 1e-06,
+        "column": "pump_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_mechanical_compressor_fan_pressure_switch",
+      "passed": true,
+      "detail": {
+        "maximum": 1.0984763321175706e-08,
+        "limit": 1e-06,
+        "column": "compressor_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_compressor_fan_pressure_switch",
+      "passed": true,
+      "detail": {
+        "maximum": 8.815391083771829e-09,
+        "limit": 1e-06,
+        "column": "compressor_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_mechanical_bay_fan_pressure_switch",
+      "passed": true,
+      "detail": {
+        "maximum": 1.0984763321175706e-08,
+        "limit": 1e-06,
+        "column": "bay_fan_mechanical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_electrical_bay_fan_pressure_switch",
+      "passed": true,
+      "detail": {
+        "maximum": 8.815391083771829e-09,
+        "limit": 1e-06,
+        "column": "bay_fan_electrical_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_geometry_pressure_switch",
+      "passed": true,
+      "detail": {
+        "maximum": 4.973799150320701e-14,
+        "limit": 1e-06,
+        "column": "pump_gas_geometry_work_discrepancy_J"
+      }
+    },
+    {
+      "name": "bench_thermal_compressor_motor_pressure_switch",
+      "passed": true,
+      "detail": {
+        "maximum": 1.2500152024585987e-09,
+        "limit": 1e-05,
+        "column": "compressor_motor_balance_residual_J"
+      }
+    },
+    {
+      "name": "bench_thermal_cabinet_pressure_switch",
+      "passed": true,
+      "detail": {
+        "maximum": 1.371345206280239e-07,
+        "limit": 1e-05,
+        "column": "cabinet_balance_residual_J"
+      }
+    },
+    {
+      "name": "output_pressure_switch_pressure_switch.csv",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "output_pressure_switch_pressure_switch_metrics.json",
+      "passed": true,
+      "detail": "exact executed output"
+    },
+    {
+      "name": "source_pressure_switch_b8_pneumatics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_pressure_switch_b9_valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_pressure_switch_b10_auxiliaries.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_pressure_switch_b10_simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_pressure_switch_b10_bench.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "sustained_stop",
+      "passed": true,
+      "detail": 1.1069920843584002
+    },
+    {
+      "name": "train_half_step",
+      "passed": true,
+      "detail": {
+        "relative_change": 5.927346759571073e-05,
+        "unchanged_B8_limit": 0.025
+      }
+    },
+    {
+      "name": "collector_half_step",
+      "passed": true,
+      "detail": {
+        "main_N": 61.61983379352066,
+        "half_N": 61.179793496188445,
+        "unchanged_B8_limit": 0.1
+      }
+    },
+    {
+      "name": "pump_failure_reduces_reservoir_pressure",
+      "passed": true,
+      "detail": {
+        "normal_Pa": 421566.59480682836,
+        "fault_Pa": 390247.52576941054
+      }
+    },
+    {
+      "name": "failed_pump_no_electrical_input",
+      "passed": true,
+      "detail": "open circuit from startup"
+    },
+    {
+      "name": "bench_half_step_mass",
+      "passed": true,
+      "detail": {
+        "relative_change": 0.0015146043807541254,
+        "limit": 0.025
+      }
+    },
+    {
+      "name": "bench_compression_from_ambient",
+      "passed": true,
+      "detail": "no prescribed gas pressure or flow"
+    },
+    {
+      "name": "blocked_outlet_no_delivery",
+      "passed": true,
+      "detail": 101325.0
+    },
+    {
+      "name": "power_failure_limits_delivery",
+      "passed": true,
+      "detail": 0.0009352297855064026
+    },
+    {
+      "name": "fault_cuts_electrical_work",
+      "passed": true,
+      "detail": "state coasts after open circuit, no continuing power input"
+    },
+    {
+      "name": "fan_failure_reduces_cooling",
+      "passed": true,
+      "detail": {
+        "normal_K": 301.6642250362452,
+        "fault_K": 308.40592909501186
+      }
+    },
+    {
+      "name": "pressure_switch_opens",
+      "passed": true,
+      "detail": [
+        {
+          "time_s": 0.0002,
+          "pressure_Pa": 101325.0,
+          "on": true
+        },
+        {
+          "time_s": 23.661399999958196,
+          "pressure_Pa": 601356.2796696775,
+          "on": false
+        }
+      ]
+    },
+    {
+      "name": "frozen_b8_full_model.py",
+      "passed": true,
+      "detail": "B8 untouched"
+    },
+    {
+      "name": "frozen_b8_simulate_full.py",
+      "passed": true,
+      "detail": "B8 untouched"
+    },
+    {
+      "name": "frozen_b8_compliant_contact.py",
+      "passed": true,
+      "detail": "B8 untouched"
+    },
+    {
+      "name": "frozen_b8_pneumatics.py",
+      "passed": true,
+      "detail": "B8 untouched"
+    },
+    {
+      "name": "frozen_b8_pantograph.py",
+      "passed": true,
+      "detail": "B8 untouched"
+    },
+    {
+      "name": "frozen_b8_access_doors.py",
+      "passed": true,
+      "detail": "B8 untouched"
+    },
+    {
+      "name": "frozen_b8_live_viewer_full.py",
+      "passed": true,
+      "detail": "B8 untouched"
+    },
+    {
+      "name": "frozen_b8_parameters.json",
+      "passed": true,
+      "detail": "B8 untouched"
+    },
+    {
+      "name": "frozen_b9_valve_dynamics.py",
+      "passed": true,
+      "detail": "B9 increment preserved"
+    },
+    {
+      "name": "frozen_b9_compat.py",
+      "passed": true,
+      "detail": "B9 increment preserved"
+    },
+    {
+      "name": "frozen_b9_simulate.py",
+      "passed": true,
+      "detail": "B9 increment preserved"
+    },
+    {
+      "name": "no_vehicle_state_override",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "scope": "B10 3 full vehicle + 6 independent 120 s auxiliary cases",
+  "limitations": [
+    "Inferred internal topology and uncalibrated parameters",
+    "Fixed auxiliary bench; no vehicle mount reaction",
+    "Massless ideal check seats",
+    "Isothermal gas and quasi-static electrical armature",
+    "Fan flow and cooling proxies, no device curves or CFD",
+    "No physical cable/cover upgrade in B10",
+    "B8 historical low-adhesion/overload failures remain; no hardware certification"
+  ]
+}

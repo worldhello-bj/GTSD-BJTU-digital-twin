@@ -1,0 +1,10 @@
+{
+  "source_sha256": "c96811c45220dcdfad0853b73e4743297be7e090d4fb3230a7531eb89b3a4c04",
+  "blend_sha256": "39b5bb0b8089e6da01142dfa0c0f57206986ac5805bad8fef62359b79a2771c9",
+  "scenes": [
+    "B10_INFERRED_AUXILIARY_BENCH",
+    "B10_MECHANICAL_REPLAY",
+    "B10_PANTOGRAPH_CLOSEUP"
+  ],
+  "auxiliary_display": "inferred independent fixed bench, 0.5 s startup at 33.3x slowed time"
+}

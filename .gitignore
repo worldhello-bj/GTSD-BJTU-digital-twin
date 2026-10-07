@@ -1,4 +1,5 @@
 __pycache__/
+execution-snapshots/
 local-replay-base/
 package-verification/
 *.py[cod]
@@ -12,3 +13,14 @@ source/vehicle-physics/b9/component_results/*.csv
 source/vehicle-physics/b9/replay/assets/
 source/vehicle-physics/b9/replay/inputs/
 source/vehicle-physics/b9/replay/reports/final_mapping.json
+source/vehicle-physics/b10/results/*_replay.json
+source/vehicle-physics/b10/results/*.xml
+source/vehicle-physics/b10/results/*.csv
+source/vehicle-physics/b10/results/*_metrics.json
+source/vehicle-physics/b10/bench_results/*.csv
+source/vehicle-physics/b10/bench_results/*_metrics.json
+source/vehicle-physics/b10/component_results/*.csv
+source/vehicle-physics/b10/component_results/*.log
+source/vehicle-physics/b10/replay/assets/
+source/vehicle-physics/b10/replay/inputs/
+source/vehicle-physics/b10/replay/reports/final_mapping.json
