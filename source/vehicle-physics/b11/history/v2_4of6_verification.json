@@ -1,0 +1,2104 @@
+{
+  "status": "INCOMPLETE_OR_FAILED",
+  "passed": false,
+  "integrated_cases": 4,
+  "checks": [
+    {
+      "name": "component",
+      "passed": true,
+      "detail": {
+        "tests_run": 8,
+        "passed": true,
+        "failures": [],
+        "errors": [],
+        "sources_sha256": {
+          "test_cables.py": "07391f5b104fe48c7e77faf11ad8b784eb33c0c850221c31afb339c39560d216",
+          "cables.py": "6ab52cc6a9e9eee8ad506b1486ae0db6492f95c28e548e6650fcaed2e332e537",
+          "live.py": "0a8269b2226937fc7df9d776588d6f4a95474510c5134eb196ece0c03bf6d7a7",
+          "source_cables.json": "e0831e8fc3b5e3691418ce46fc6e9ea5db3b43201e8afb179ff471ded0b744ad"
+        }
+      }
+    },
+    {
+      "name": "test_identity_component",
+      "passed": true,
+      "detail": "test and plant source bytes"
+    },
+    {
+      "name": "regression",
+      "passed": true,
+      "detail": {
+        "tests_run": 35,
+        "passed": true,
+        "failures": [],
+        "errors": [],
+        "sources_sha256": {
+          "test_integration.py": "fcedabb7488a91c3ce85b9deb166437dd649a69df880b65b52582a616887edb4",
+          "cables.py": "6ab52cc6a9e9eee8ad506b1486ae0db6492f95c28e548e6650fcaed2e332e537",
+          "live.py": "0a8269b2226937fc7df9d776588d6f4a95474510c5134eb196ece0c03bf6d7a7",
+          "source_cables.json": "e0831e8fc3b5e3691418ce46fc6e9ea5db3b43201e8afb179ff471ded0b744ad"
+        }
+      }
+    },
+    {
+      "name": "test_identity_regression",
+      "passed": true,
+      "detail": "test and plant source bytes"
+    },
+    {
+      "name": "case_configuration_service_brake",
+      "passed": true,
+      "detail": {
+        "torque": true,
+        "brake": true
+      }
+    },
+    {
+      "name": "case_timestep_service_brake",
+      "passed": true,
+      "detail": {
+        "actual_s": 5e-05,
+        "expected_s": 5e-05
+      }
+    },
+    {
+      "name": "case_resolution_service_brake",
+      "passed": true,
+      "detail": {
+        "actual_m": 0.6,
+        "expected_m": 0.6
+      }
+    },
+    {
+      "name": "finite_service_brake",
+      "passed": true,
+      "detail": "all recorded channels"
+    },
+    {
+      "name": "full_window_service_brake",
+      "passed": true,
+      "detail": "6 s settling + 10 s observation"
+    },
+    {
+      "name": "topology_service_brake",
+      "passed": true,
+      "detail": {
+        "dofs": 347,
+        "links": 90,
+        "gas_states": 27,
+        "dynamic_ports": 51
+      }
+    },
+    {
+      "name": "warnings_service_brake",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "train_mass_service_brake",
+      "passed": true,
+      "detail": "B8 vehicle mass unchanged; cables are separate finite masses"
+    },
+    {
+      "name": "mechanical_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 0.05865322506506623,
+        "limit": 0.15
+      }
+    },
+    {
+      "name": "gas_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 1.164316421053968e-10,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "mass_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 5.531188474518278e-16,
+        "limit": 1e-10
+      }
+    },
+    {
+      "name": "momentum_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 0.020919305580266834,
+        "limit": 0.05
+      }
+    },
+    {
+      "name": "vehicle_coupling_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 0.00036865206582159527,
+        "limit": 0.05
+      }
+    },
+    {
+      "name": "spool_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 5.278763537397424e-15,
+        "limit": 1e-07
+      }
+    },
+    {
+      "name": "mechanical_pump_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "electrical_pump_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "mechanical_compressor_fan_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 7.642171340194182e-10,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "electrical_compressor_fan_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 1.585533482284518e-09,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "mechanical_bay_fan_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 7.642171340194182e-10,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "electrical_bay_fan_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 1.585533482284518e-09,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "pump_gas_geometry_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "thermal_compressor_motor_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 1.7455183964898424e-09,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "thermal_cabinet_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 5.476209707921953e-09,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "hc_passivity_service_brake",
+      "passed": true,
+      "detail": "unchanged B8 passive rail law"
+    },
+    {
+      "name": "attachment_supply_0_service_brake",
+      "passed": false,
+      "detail": {
+        "maximum": 0.014399123221157214,
+        "limit": 0.001200000010430813
+      }
+    },
+    {
+      "name": "source_length_supply_0_service_brake",
+      "passed": true,
+      "detail": -0.0004872420978087044
+    },
+    {
+      "name": "attachment_supply_1_service_brake",
+      "passed": false,
+      "detail": {
+        "maximum": 0.010049640048231877,
+        "limit": 0.0006000000052154065
+      }
+    },
+    {
+      "name": "source_length_supply_1_service_brake",
+      "passed": true,
+      "detail": -0.00047762864299627505
+    },
+    {
+      "name": "attachment_supply_2_service_brake",
+      "passed": false,
+      "detail": {
+        "maximum": 0.023946211844551722,
+        "limit": 0.0006000000052154065
+      }
+    },
+    {
+      "name": "source_length_supply_2_service_brake",
+      "passed": true,
+      "detail": -0.0004713858372217272
+    },
+    {
+      "name": "attachment_bond_PWR_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 1.3822419542958945e-06,
+        "limit": 0.0003500000108033419
+      }
+    },
+    {
+      "name": "source_length_bond_PWR_service_brake",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "attachment_bond_DAQ_service_brake",
+      "passed": true,
+      "detail": {
+        "maximum": 1.3822419547692584e-06,
+        "limit": 0.0003500000108033419
+      }
+    },
+    {
+      "name": "source_length_bond_DAQ_service_brake",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "identity_case_service_brake",
+      "passed": true,
+      "detail": "case, cable parameters and pinned solver"
+    },
+    {
+      "name": "source_service_brake_b11\\simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b11\\cables.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b11\\source_cables.json",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_build_model.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b10\\auxiliaries.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b9\\valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b8\\full_model.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b8\\compliant_contact.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b8\\pantograph.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b8\\access_doors.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_service_brake_b8\\pneumatics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "output_service_brake_service_brake.xml",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_service_brake_service_brake.csv",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_service_brake_service_brake_metrics.json",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_service_brake_service_brake_auxiliaries.csv",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_service_brake_service_brake_replay.json",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "replay_configuration_service_brake",
+      "passed": true,
+      "detail": "same force model and parameters"
+    },
+    {
+      "name": "replay_window_service_brake",
+      "passed": true,
+      "detail": "monotonic complete observation"
+    },
+    {
+      "name": "replay_finite_unit_quaternion_service_brake",
+      "passed": true,
+      "detail": "finite poses and unit quaternion"
+    },
+    {
+      "name": "replay_service_brake",
+      "passed": true,
+      "detail": {
+        "frames": 301,
+        "expected": 301,
+        "bodies": 134
+      }
+    },
+    {
+      "name": "xml_service_brake",
+      "passed": true,
+      "detail": "exact XML association"
+    },
+    {
+      "name": "maximum_link_length_error_m_service_brake",
+      "passed": true,
+      "detail": {
+        "value": 2.1094237467877974e-15,
+        "limit": 2e-08
+      }
+    },
+    {
+      "name": "maximum_internal_joint_gap_m_service_brake",
+      "passed": true,
+      "detail": {
+        "value": 4.5285929894867646e-13,
+        "limit": 2e-08
+      }
+    },
+    {
+      "name": "maximum_fixed_anchor_motion_m_service_brake",
+      "passed": true,
+      "detail": {
+        "value": 3.958296386997119e-12,
+        "limit": 2e-08
+      }
+    },
+    {
+      "name": "native_replay_pose_service_brake",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "sampled_cable_contact_domain_service_brake",
+      "passed": false,
+      "detail": {
+        "maximum_ratio": 1.3013903843128787,
+        "limit": 1.0,
+        "scope": "recorded poses"
+      }
+    },
+    {
+      "name": "global_worst_cable_contact_domain_service_brake",
+      "passed": false,
+      "detail": {
+        "time_s": 4.7727999999888775,
+        "geoms": [
+          "cable_supply_1_27_capsule",
+          "cable_supply_2_28_capsule"
+        ],
+        "penetration_m": 0.009100794353769578,
+        "limiting_cable_radius_m": 0.006000000052154064,
+        "ratio": 1.5167990457770573
+      }
+    },
+    {
+      "name": "normal_brake_stop",
+      "passed": true,
+      "detail": {
+        "distance_m": 0.7502359298024182,
+        "final_speed_mps": -0.0038050877373653124
+      }
+    },
+    {
+      "name": "complete_half_dt",
+      "passed": false,
+      "detail": "missing full settled case"
+    },
+    {
+      "name": "complete_spatial_refinement",
+      "passed": false,
+      "detail": "missing full settled case"
+    },
+    {
+      "name": "case_configuration_doors_open_close",
+      "passed": true,
+      "detail": {
+        "torque": false,
+        "brake": false,
+        "panto": false,
+        "doors": true
+      }
+    },
+    {
+      "name": "case_timestep_doors_open_close",
+      "passed": true,
+      "detail": {
+        "actual_s": 5e-05,
+        "expected_s": 5e-05
+      }
+    },
+    {
+      "name": "case_resolution_doors_open_close",
+      "passed": true,
+      "detail": {
+        "actual_m": 0.6,
+        "expected_m": 0.6
+      }
+    },
+    {
+      "name": "finite_doors_open_close",
+      "passed": true,
+      "detail": "all recorded channels"
+    },
+    {
+      "name": "full_window_doors_open_close",
+      "passed": true,
+      "detail": "6 s settling + 10 s observation"
+    },
+    {
+      "name": "topology_doors_open_close",
+      "passed": true,
+      "detail": {
+        "dofs": 347,
+        "links": 90,
+        "gas_states": 27,
+        "dynamic_ports": 51
+      }
+    },
+    {
+      "name": "warnings_doors_open_close",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "train_mass_doors_open_close",
+      "passed": true,
+      "detail": "B8 vehicle mass unchanged; cables are separate finite masses"
+    },
+    {
+      "name": "mechanical_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 0.057970419680141286,
+        "limit": 0.15
+      }
+    },
+    {
+      "name": "gas_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 1.1657563803169069e-11,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "mass_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 5.684687586696356e-17,
+        "limit": 1e-10
+      }
+    },
+    {
+      "name": "momentum_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 0.00048060798524782004,
+        "limit": 0.05
+      }
+    },
+    {
+      "name": "vehicle_coupling_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 2.0324652342529337e-06,
+        "limit": 0.05
+      }
+    },
+    {
+      "name": "spool_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 3.273423199168235e-15,
+        "limit": 1e-07
+      }
+    },
+    {
+      "name": "mechanical_pump_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "electrical_pump_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "mechanical_compressor_fan_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 7.642171340194182e-10,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "electrical_compressor_fan_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 1.585533482284518e-09,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "mechanical_bay_fan_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 7.642171340194182e-10,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "electrical_bay_fan_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 1.585533482284518e-09,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "pump_gas_geometry_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "thermal_compressor_motor_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 1.7455183964898424e-09,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "thermal_cabinet_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 5.476209707921953e-09,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "hc_passivity_doors_open_close",
+      "passed": true,
+      "detail": "unchanged B8 passive rail law"
+    },
+    {
+      "name": "attachment_supply_0_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 1.6652143770444797e-06,
+        "limit": 0.001200000010430813
+      }
+    },
+    {
+      "name": "source_length_supply_0_doors_open_close",
+      "passed": true,
+      "detail": -0.0004872420978087044
+    },
+    {
+      "name": "attachment_supply_1_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 4.0035071272487626e-06,
+        "limit": 0.0006000000052154065
+      }
+    },
+    {
+      "name": "source_length_supply_1_doors_open_close",
+      "passed": true,
+      "detail": -0.00047762864299627505
+    },
+    {
+      "name": "attachment_supply_2_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 7.948561660001981e-06,
+        "limit": 0.0006000000052154065
+      }
+    },
+    {
+      "name": "source_length_supply_2_doors_open_close",
+      "passed": true,
+      "detail": -0.0004713858372217272
+    },
+    {
+      "name": "attachment_bond_PWR_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 7.308764805909932e-06,
+        "limit": 0.0003500000108033419
+      }
+    },
+    {
+      "name": "source_length_bond_PWR_doors_open_close",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "attachment_bond_DAQ_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum": 7.308764805754646e-06,
+        "limit": 0.0003500000108033419
+      }
+    },
+    {
+      "name": "source_length_bond_DAQ_doors_open_close",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "identity_case_doors_open_close",
+      "passed": true,
+      "detail": "case, cable parameters and pinned solver"
+    },
+    {
+      "name": "source_doors_open_close_b11\\simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_open_close_b11\\cables.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_open_close_b11\\source_cables.json",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_open_close_build_model.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_open_close_b10\\auxiliaries.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_open_close_b9\\valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_open_close_b8\\full_model.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_open_close_b8\\compliant_contact.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_open_close_b8\\pantograph.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_open_close_b8\\access_doors.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_open_close_b8\\pneumatics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "output_doors_open_close_doors_open_close.xml",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_doors_open_close_doors_open_close.csv",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_doors_open_close_doors_open_close_metrics.json",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_doors_open_close_doors_open_close_auxiliaries.csv",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_doors_open_close_doors_open_close_replay.json",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "replay_configuration_doors_open_close",
+      "passed": true,
+      "detail": "same force model and parameters"
+    },
+    {
+      "name": "replay_window_doors_open_close",
+      "passed": true,
+      "detail": "monotonic complete observation"
+    },
+    {
+      "name": "replay_finite_unit_quaternion_doors_open_close",
+      "passed": true,
+      "detail": "finite poses and unit quaternion"
+    },
+    {
+      "name": "replay_doors_open_close",
+      "passed": true,
+      "detail": {
+        "frames": 301,
+        "expected": 301,
+        "bodies": 134
+      }
+    },
+    {
+      "name": "xml_doors_open_close",
+      "passed": true,
+      "detail": "exact XML association"
+    },
+    {
+      "name": "maximum_link_length_error_m_doors_open_close",
+      "passed": true,
+      "detail": {
+        "value": 6.661338147750939e-16,
+        "limit": 2e-08
+      }
+    },
+    {
+      "name": "maximum_internal_joint_gap_m_doors_open_close",
+      "passed": true,
+      "detail": {
+        "value": 4.524752347062754e-13,
+        "limit": 2e-08
+      }
+    },
+    {
+      "name": "maximum_fixed_anchor_motion_m_doors_open_close",
+      "passed": true,
+      "detail": {
+        "value": 3.958296386997119e-12,
+        "limit": 2e-08
+      }
+    },
+    {
+      "name": "native_replay_pose_doors_open_close",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "sampled_cable_contact_domain_doors_open_close",
+      "passed": true,
+      "detail": {
+        "maximum_ratio": 0.12343526669274717,
+        "limit": 1.0,
+        "scope": "recorded poses"
+      }
+    },
+    {
+      "name": "global_worst_cable_contact_domain_doors_open_close",
+      "passed": true,
+      "detail": {
+        "time_s": 9.999999999976694,
+        "geoms": [
+          "cable_supply_2_19_capsule",
+          "cable_trough_side_-1"
+        ],
+        "penetration_m": 0.0007406116065941338,
+        "limiting_cable_radius_m": 0.006000000052154064,
+        "ratio": 0.12343526669274717
+      }
+    },
+    {
+      "name": "six_doors_doors_open_close",
+      "passed": true,
+      "detail": "all original B8 door leaves retained"
+    },
+    {
+      "name": "door_opens_bay_L_doors_open_close",
+      "passed": true,
+      "detail": 1.3114001086242972
+    },
+    {
+      "name": "door_relatches_bay_L_doors_open_close",
+      "passed": true,
+      "detail": "force-solved close and passive latch"
+    },
+    {
+      "name": "door_opens_bay_R_doors_open_close",
+      "passed": true,
+      "detail": 1.311413137206623
+    },
+    {
+      "name": "door_relatches_bay_R_doors_open_close",
+      "passed": true,
+      "detail": "force-solved close and passive latch"
+    },
+    {
+      "name": "door_opens_bay_L_secondary_doors_open_close",
+      "passed": true,
+      "detail": 1.3113563054370467
+    },
+    {
+      "name": "door_relatches_bay_L_secondary_doors_open_close",
+      "passed": true,
+      "detail": "force-solved close and passive latch"
+    },
+    {
+      "name": "door_opens_bay_R_secondary_doors_open_close",
+      "passed": true,
+      "detail": 1.3113151623092558
+    },
+    {
+      "name": "door_relatches_bay_R_secondary_doors_open_close",
+      "passed": true,
+      "detail": "force-solved close and passive latch"
+    },
+    {
+      "name": "door_opens_cabinet_PWR_doors_open_close",
+      "passed": true,
+      "detail": 1.9216519021551077
+    },
+    {
+      "name": "door_relatches_cabinet_PWR_doors_open_close",
+      "passed": true,
+      "detail": "force-solved close and passive latch"
+    },
+    {
+      "name": "door_opens_cabinet_DAQ_doors_open_close",
+      "passed": true,
+      "detail": 1.9216519021551055
+    },
+    {
+      "name": "door_relatches_cabinet_DAQ_doors_open_close",
+      "passed": true,
+      "detail": "force-solved close and passive latch"
+    },
+    {
+      "name": "case_configuration_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "torque": false,
+        "brake": false,
+        "panto": false,
+        "doors": true,
+        "timestep_s": 2.5e-05
+      }
+    },
+    {
+      "name": "case_timestep_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "actual_s": 2.5e-05,
+        "expected_s": 2.5e-05
+      }
+    },
+    {
+      "name": "case_resolution_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "actual_m": 0.6,
+        "expected_m": 0.6
+      }
+    },
+    {
+      "name": "finite_doors_half_dt",
+      "passed": true,
+      "detail": "all recorded channels"
+    },
+    {
+      "name": "full_window_doors_half_dt",
+      "passed": true,
+      "detail": "6 s settling + 10 s observation"
+    },
+    {
+      "name": "topology_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "dofs": 347,
+        "links": 90,
+        "gas_states": 27,
+        "dynamic_ports": 51
+      }
+    },
+    {
+      "name": "warnings_doors_half_dt",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "train_mass_doors_half_dt",
+      "passed": true,
+      "detail": "B8 vehicle mass unchanged; cables are separate finite masses"
+    },
+    {
+      "name": "mechanical_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 0.020198392979261008,
+        "limit": 0.15
+      }
+    },
+    {
+      "name": "gas_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 4.490630090003833e-12,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "mass_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.1602427355279116e-17,
+        "limit": 1e-10
+      }
+    },
+    {
+      "name": "momentum_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 0.00024009174579768815,
+        "limit": 0.05
+      }
+    },
+    {
+      "name": "vehicle_coupling_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.0078727273599153e-06,
+        "limit": 0.05
+      }
+    },
+    {
+      "name": "spool_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.2194238674378965e-14,
+        "limit": 1e-07
+      }
+    },
+    {
+      "name": "mechanical_pump_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "electrical_pump_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "mechanical_compressor_fan_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.841883090492047e-09,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "electrical_compressor_fan_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.461124554680282e-09,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "mechanical_bay_fan_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.841883090492047e-09,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "electrical_bay_fan_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.461124554680282e-09,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "pump_gas_geometry_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "thermal_compressor_motor_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 2.0682726642462512e-09,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "thermal_cabinet_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.0778791192933568e-08,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "hc_passivity_doors_half_dt",
+      "passed": true,
+      "detail": "unchanged B8 passive rail law"
+    },
+    {
+      "name": "attachment_supply_0_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 1.6687010853048997e-06,
+        "limit": 0.001200000010430813
+      }
+    },
+    {
+      "name": "source_length_supply_0_doors_half_dt",
+      "passed": true,
+      "detail": -0.0004872420978087044
+    },
+    {
+      "name": "attachment_supply_1_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 3.7539176453730317e-06,
+        "limit": 0.0006000000052154065
+      }
+    },
+    {
+      "name": "source_length_supply_1_doors_half_dt",
+      "passed": true,
+      "detail": -0.00047762864299627505
+    },
+    {
+      "name": "attachment_supply_2_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 7.629817040929643e-06,
+        "limit": 0.0006000000052154065
+      }
+    },
+    {
+      "name": "source_length_supply_2_doors_half_dt",
+      "passed": true,
+      "detail": -0.0004713858372217272
+    },
+    {
+      "name": "attachment_bond_PWR_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 7.345870397228631e-06,
+        "limit": 0.0003500000108033419
+      }
+    },
+    {
+      "name": "source_length_bond_PWR_doors_half_dt",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "attachment_bond_DAQ_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum": 7.345870397387574e-06,
+        "limit": 0.0003500000108033419
+      }
+    },
+    {
+      "name": "source_length_bond_DAQ_doors_half_dt",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "identity_case_doors_half_dt",
+      "passed": true,
+      "detail": "case, cable parameters and pinned solver"
+    },
+    {
+      "name": "source_doors_half_dt_b11\\simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_half_dt_b11\\cables.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_half_dt_b11\\source_cables.json",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_half_dt_build_model.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_half_dt_b10\\auxiliaries.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_half_dt_b9\\valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_half_dt_b8\\full_model.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_half_dt_b8\\compliant_contact.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_half_dt_b8\\pantograph.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_half_dt_b8\\access_doors.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_doors_half_dt_b8\\pneumatics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "output_doors_half_dt_doors_half_dt.xml",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_doors_half_dt_doors_half_dt.csv",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_doors_half_dt_doors_half_dt_metrics.json",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_doors_half_dt_doors_half_dt_auxiliaries.csv",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_doors_half_dt_doors_half_dt_replay.json",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "replay_configuration_doors_half_dt",
+      "passed": true,
+      "detail": "same force model and parameters"
+    },
+    {
+      "name": "replay_window_doors_half_dt",
+      "passed": true,
+      "detail": "monotonic complete observation"
+    },
+    {
+      "name": "replay_finite_unit_quaternion_doors_half_dt",
+      "passed": true,
+      "detail": "finite poses and unit quaternion"
+    },
+    {
+      "name": "replay_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "frames": 302,
+        "expected": 302,
+        "bodies": 134
+      }
+    },
+    {
+      "name": "xml_doors_half_dt",
+      "passed": true,
+      "detail": "exact XML association"
+    },
+    {
+      "name": "maximum_link_length_error_m_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "value": 6.661338147750939e-16,
+        "limit": 2e-08
+      }
+    },
+    {
+      "name": "maximum_internal_joint_gap_m_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "value": 4.5246071493340333e-13,
+        "limit": 2e-08
+      }
+    },
+    {
+      "name": "maximum_fixed_anchor_motion_m_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "value": 3.958296386997119e-12,
+        "limit": 2e-08
+      }
+    },
+    {
+      "name": "native_replay_pose_doors_half_dt",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "sampled_cable_contact_domain_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "maximum_ratio": 0.1313888177336807,
+        "limit": 1.0,
+        "scope": "recorded poses"
+      }
+    },
+    {
+      "name": "global_worst_cable_contact_domain_doors_half_dt",
+      "passed": true,
+      "detail": {
+        "time_s": 0.0,
+        "geoms": [
+          "cable_supply_2_19_capsule",
+          "cable_trough_side_-1"
+        ],
+        "penetration_m": 0.000788332913254545,
+        "limiting_cable_radius_m": 0.006000000052154064,
+        "ratio": 0.1313888177336807
+      }
+    },
+    {
+      "name": "six_doors_doors_half_dt",
+      "passed": true,
+      "detail": "all original B8 door leaves retained"
+    },
+    {
+      "name": "door_opens_bay_L_doors_half_dt",
+      "passed": true,
+      "detail": 1.3114322608631572
+    },
+    {
+      "name": "door_relatches_bay_L_doors_half_dt",
+      "passed": true,
+      "detail": "force-solved close and passive latch"
+    },
+    {
+      "name": "door_opens_bay_R_doors_half_dt",
+      "passed": true,
+      "detail": 1.3113835285623225
+    },
+    {
+      "name": "door_relatches_bay_R_doors_half_dt",
+      "passed": true,
+      "detail": "force-solved close and passive latch"
+    },
+    {
+      "name": "door_opens_bay_L_secondary_doors_half_dt",
+      "passed": true,
+      "detail": 1.311383211133764
+    },
+    {
+      "name": "door_relatches_bay_L_secondary_doors_half_dt",
+      "passed": true,
+      "detail": "force-solved close and passive latch"
+    },
+    {
+      "name": "door_opens_bay_R_secondary_doors_half_dt",
+      "passed": true,
+      "detail": 1.3112994551888095
+    },
+    {
+      "name": "door_relatches_bay_R_secondary_doors_half_dt",
+      "passed": true,
+      "detail": "force-solved close and passive latch"
+    },
+    {
+      "name": "door_opens_cabinet_PWR_doors_half_dt",
+      "passed": true,
+      "detail": 1.921635815721845
+    },
+    {
+      "name": "door_relatches_cabinet_PWR_doors_half_dt",
+      "passed": true,
+      "detail": "force-solved close and passive latch"
+    },
+    {
+      "name": "door_opens_cabinet_DAQ_doors_half_dt",
+      "passed": true,
+      "detail": 1.9216358157218443
+    },
+    {
+      "name": "door_relatches_cabinet_DAQ_doors_half_dt",
+      "passed": true,
+      "detail": "force-solved close and passive latch"
+    },
+    {
+      "name": "case_configuration_tether_release",
+      "passed": true,
+      "detail": {
+        "torque": true,
+        "brake": true,
+        "tether_release": true
+      }
+    },
+    {
+      "name": "case_timestep_tether_release",
+      "passed": true,
+      "detail": {
+        "actual_s": 5e-05,
+        "expected_s": 5e-05
+      }
+    },
+    {
+      "name": "case_resolution_tether_release",
+      "passed": true,
+      "detail": {
+        "actual_m": 0.6,
+        "expected_m": 0.6
+      }
+    },
+    {
+      "name": "finite_tether_release",
+      "passed": true,
+      "detail": "all recorded channels"
+    },
+    {
+      "name": "full_window_tether_release",
+      "passed": true,
+      "detail": "6 s settling + 10 s observation"
+    },
+    {
+      "name": "topology_tether_release",
+      "passed": true,
+      "detail": {
+        "dofs": 347,
+        "links": 90,
+        "gas_states": 27,
+        "dynamic_ports": 51
+      }
+    },
+    {
+      "name": "warnings_tether_release",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "train_mass_tether_release",
+      "passed": true,
+      "detail": "B8 vehicle mass unchanged; cables are separate finite masses"
+    },
+    {
+      "name": "mechanical_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 0.06264927224623276,
+        "limit": 0.15
+      }
+    },
+    {
+      "name": "gas_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 1.33679289859856e-10,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "mass_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 6.334320101163082e-16,
+        "limit": 1e-10
+      }
+    },
+    {
+      "name": "momentum_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 0.02133728256011308,
+        "limit": 0.05
+      }
+    },
+    {
+      "name": "vehicle_coupling_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 0.00034098344192723395,
+        "limit": 0.05
+      }
+    },
+    {
+      "name": "spool_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 5.278763537397424e-15,
+        "limit": 1e-07
+      }
+    },
+    {
+      "name": "mechanical_pump_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "electrical_pump_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "mechanical_compressor_fan_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 7.642171340194182e-10,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "electrical_compressor_fan_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 1.585533482284518e-09,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "mechanical_bay_fan_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 7.642171340194182e-10,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "electrical_bay_fan_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 1.585533482284518e-09,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "pump_gas_geometry_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-06
+      }
+    },
+    {
+      "name": "thermal_compressor_motor_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 1.7455183964898424e-09,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "thermal_cabinet_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 5.476209707921953e-09,
+        "limit": 1e-05
+      }
+    },
+    {
+      "name": "hc_passivity_tether_release",
+      "passed": true,
+      "detail": "unchanged B8 passive rail law"
+    },
+    {
+      "name": "attachment_supply_0_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 0.00010896955334878714,
+        "limit": 0.001200000010430813
+      }
+    },
+    {
+      "name": "source_length_supply_0_tether_release",
+      "passed": true,
+      "detail": -0.0004872420978087044
+    },
+    {
+      "name": "attachment_supply_1_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 2.203884116768061e-05,
+        "limit": 0.0006000000052154065
+      }
+    },
+    {
+      "name": "source_length_supply_1_tether_release",
+      "passed": true,
+      "detail": -0.00047762864299627505
+    },
+    {
+      "name": "attachment_supply_2_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 2.211307324206053e-05,
+        "limit": 0.0006000000052154065
+      }
+    },
+    {
+      "name": "source_length_supply_2_tether_release",
+      "passed": true,
+      "detail": -0.0004713858372217272
+    },
+    {
+      "name": "attachment_bond_PWR_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 1.3822419542958945e-06,
+        "limit": 0.0003500000108033419
+      }
+    },
+    {
+      "name": "source_length_bond_PWR_tether_release",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "attachment_bond_DAQ_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum": 1.3822419547692584e-06,
+        "limit": 0.0003500000108033419
+      }
+    },
+    {
+      "name": "source_length_bond_DAQ_tether_release",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "identity_case_tether_release",
+      "passed": true,
+      "detail": "case, cable parameters and pinned solver"
+    },
+    {
+      "name": "source_tether_release_b11\\simulate.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_tether_release_b11\\cables.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_tether_release_b11\\source_cables.json",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_tether_release_build_model.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_tether_release_b10\\auxiliaries.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_tether_release_b9\\valve_dynamics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_tether_release_b8\\full_model.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_tether_release_b8\\compliant_contact.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_tether_release_b8\\pantograph.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_tether_release_b8\\access_doors.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "source_tether_release_b8\\pneumatics.py",
+      "passed": true,
+      "detail": "actual executed source"
+    },
+    {
+      "name": "output_tether_release_tether_release.xml",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_tether_release_tether_release.csv",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_tether_release_tether_release_metrics.json",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_tether_release_tether_release_auxiliaries.csv",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "output_tether_release_tether_release_replay.json",
+      "passed": true,
+      "detail": "actual output association"
+    },
+    {
+      "name": "replay_configuration_tether_release",
+      "passed": true,
+      "detail": "same force model and parameters"
+    },
+    {
+      "name": "replay_window_tether_release",
+      "passed": true,
+      "detail": "monotonic complete observation"
+    },
+    {
+      "name": "replay_finite_unit_quaternion_tether_release",
+      "passed": true,
+      "detail": "finite poses and unit quaternion"
+    },
+    {
+      "name": "replay_tether_release",
+      "passed": true,
+      "detail": {
+        "frames": 301,
+        "expected": 301,
+        "bodies": 134
+      }
+    },
+    {
+      "name": "xml_tether_release",
+      "passed": true,
+      "detail": "exact XML association"
+    },
+    {
+      "name": "maximum_link_length_error_m_tether_release",
+      "passed": true,
+      "detail": {
+        "value": 6.661338147750939e-16,
+        "limit": 2e-08
+      }
+    },
+    {
+      "name": "maximum_internal_joint_gap_m_tether_release",
+      "passed": true,
+      "detail": {
+        "value": 4.525016087039988e-13,
+        "limit": 2e-08
+      }
+    },
+    {
+      "name": "maximum_fixed_anchor_motion_m_tether_release",
+      "passed": true,
+      "detail": {
+        "value": 3.958296386997119e-12,
+        "limit": 2e-08
+      }
+    },
+    {
+      "name": "native_replay_pose_tether_release",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "sampled_cable_contact_domain_tether_release",
+      "passed": true,
+      "detail": {
+        "maximum_ratio": 0.23199886181209087,
+        "limit": 1.0,
+        "scope": "recorded poses"
+      }
+    },
+    {
+      "name": "global_worst_cable_contact_domain_tether_release",
+      "passed": true,
+      "detail": {
+        "time_s": 2.2835999999946788,
+        "geoms": [
+          "cable_floor",
+          "cable_supply_0_26_capsule"
+        ],
+        "penetration_m": 0.007793599726910655,
+        "limiting_cable_radius_m": 0.012000000104308128,
+        "ratio": 0.6494666382638338
+      }
+    },
+    {
+      "name": "released_force_supply_0",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-08
+      }
+    },
+    {
+      "name": "released_separation_supply_0",
+      "passed": true,
+      "detail": "free end moves independently after equality release"
+    },
+    {
+      "name": "released_force_supply_1",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-08
+      }
+    },
+    {
+      "name": "released_separation_supply_1",
+      "passed": true,
+      "detail": "free end moves independently after equality release"
+    },
+    {
+      "name": "released_force_supply_2",
+      "passed": true,
+      "detail": {
+        "maximum": 0.0,
+        "limit": 1e-08
+      }
+    },
+    {
+      "name": "released_separation_supply_2",
+      "passed": true,
+      "detail": "free end moves independently after equality release"
+    },
+    {
+      "name": "frozen_b8_full_model.py",
+      "passed": true,
+      "detail": "frozen source retained"
+    },
+    {
+      "name": "frozen_b8_simulate_full.py",
+      "passed": true,
+      "detail": "frozen source retained"
+    },
+    {
+      "name": "frozen_b8_compliant_contact.py",
+      "passed": true,
+      "detail": "frozen source retained"
+    },
+    {
+      "name": "frozen_b8_pneumatics.py",
+      "passed": true,
+      "detail": "frozen source retained"
+    },
+    {
+      "name": "frozen_b8_pantograph.py",
+      "passed": true,
+      "detail": "frozen source retained"
+    },
+    {
+      "name": "frozen_b8_access_doors.py",
+      "passed": true,
+      "detail": "frozen source retained"
+    },
+    {
+      "name": "frozen_b8_live_viewer_full.py",
+      "passed": true,
+      "detail": "frozen source retained"
+    },
+    {
+      "name": "frozen_b8_parameters.json",
+      "passed": true,
+      "detail": "frozen source retained"
+    },
+    {
+      "name": "no_prescribed_state",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "replay_geometry": {
+    "service_brake": {
+      "maximum_link_length_error_m": 2.1094237467877974e-15,
+      "maximum_internal_joint_gap_m": 4.5285929894867646e-13,
+      "maximum_fixed_anchor_motion_m": 3.958296386997119e-12
+    },
+    "doors_open_close": {
+      "maximum_link_length_error_m": 6.661338147750939e-16,
+      "maximum_internal_joint_gap_m": 4.524752347062754e-13,
+      "maximum_fixed_anchor_motion_m": 3.958296386997119e-12
+    },
+    "doors_half_dt": {
+      "maximum_link_length_error_m": 6.661338147750939e-16,
+      "maximum_internal_joint_gap_m": 4.5246071493340333e-13,
+      "maximum_fixed_anchor_motion_m": 3.958296386997119e-12
+    },
+    "tether_release": {
+      "maximum_link_length_error_m": 6.661338147750939e-16,
+      "maximum_internal_joint_gap_m": 4.525016087039988e-13,
+      "maximum_fixed_anchor_motion_m": 3.958296386997119e-12
+    }
+  },
+  "replay_contact_geometry": {
+    "service_brake": {
+      "recorded_poses": 301,
+      "native_cable_contacts_checked": 35355,
+      "maximum_native_pose_position_error_m": 0.0,
+      "maximum_sampled_cable_penetration_m": 0.00780834237375007,
+      "maximum_sampled_penetration_radius_ratio": 1.3013903843128787,
+      "worst_sampled_ratio": {
+        "time_s": 4.769049999988886,
+        "geoms": [
+          "cable_supply_1_27_capsule",
+          "cable_supply_2_28_capsule"
+        ],
+        "penetration_m": 0.00780834237375007,
+        "limiting_cable_radius_m": 0.006000000052154064
+      },
+      "all_step_global_worst_contact_if_cable": {
+        "time_s": 4.7727999999888775,
+        "geoms": [
+          "cable_supply_1_27_capsule",
+          "cable_supply_2_28_capsule"
+        ],
+        "penetration_m": 0.009100794353769578,
+        "limiting_cable_radius_m": 0.006000000052154064,
+        "ratio": 1.5167990457770573
+      },
+      "scope": "Contact geometry at recorded replay poses; global all-step worst is reported when it is a cable contact. Not every per-contact integration-step maximum is available."
+    },
+    "doors_open_close": {
+      "recorded_poses": 301,
+      "native_cable_contacts_checked": 37324,
+      "maximum_native_pose_position_error_m": 0.0,
+      "maximum_sampled_cable_penetration_m": 0.0007406116065941338,
+      "maximum_sampled_penetration_radius_ratio": 0.12343526669274717,
+      "worst_sampled_ratio": {
+        "time_s": 9.999999999976694,
+        "geoms": [
+          "cable_supply_2_19_capsule",
+          "cable_trough_side_-1"
+        ],
+        "penetration_m": 0.0007406116065941338,
+        "limiting_cable_radius_m": 0.006000000052154064
+      },
+      "all_step_global_worst_contact_if_cable": {
+        "time_s": 9.999999999976694,
+        "geoms": [
+          "cable_supply_2_19_capsule",
+          "cable_trough_side_-1"
+        ],
+        "penetration_m": 0.0007406116065941338,
+        "limiting_cable_radius_m": 0.006000000052154064,
+        "ratio": 0.12343526669274717
+      },
+      "scope": "Contact geometry at recorded replay poses; global all-step worst is reported when it is a cable contact. Not every per-contact integration-step maximum is available."
+    },
+    "doors_half_dt": {
+      "recorded_poses": 302,
+      "native_cable_contacts_checked": 37154,
+      "maximum_native_pose_position_error_m": 0.0,
+      "maximum_sampled_cable_penetration_m": 0.000788332913254545,
+      "maximum_sampled_penetration_radius_ratio": 0.1313888177336807,
+      "worst_sampled_ratio": {
+        "time_s": 0.0,
+        "geoms": [
+          "cable_supply_2_19_capsule",
+          "cable_trough_side_-1"
+        ],
+        "penetration_m": 0.000788332913254545,
+        "limiting_cable_radius_m": 0.006000000052154064
+      },
+      "all_step_global_worst_contact_if_cable": {
+        "time_s": 0.0,
+        "geoms": [
+          "cable_supply_2_19_capsule",
+          "cable_trough_side_-1"
+        ],
+        "penetration_m": 0.000788332913254545,
+        "limiting_cable_radius_m": 0.006000000052154064,
+        "ratio": 0.1313888177336807
+      },
+      "scope": "Contact geometry at recorded replay poses; global all-step worst is reported when it is a cable contact. Not every per-contact integration-step maximum is available."
+    },
+    "tether_release": {
+      "recorded_poses": 301,
+      "native_cable_contacts_checked": 41742,
+      "maximum_native_pose_position_error_m": 0.0,
+      "maximum_sampled_cable_penetration_m": 0.0013919931829722287,
+      "maximum_sampled_penetration_radius_ratio": 0.23199886181209087,
+      "worst_sampled_ratio": {
+        "time_s": 2.2677999999947156,
+        "geoms": [
+          "cable_floor",
+          "cable_supply_2_27_capsule"
+        ],
+        "penetration_m": 0.0013919931829722287,
+        "limiting_cable_radius_m": 0.006000000052154064
+      },
+      "all_step_global_worst_contact_if_cable": {
+        "time_s": 2.2835999999946788,
+        "geoms": [
+          "cable_floor",
+          "cable_supply_0_26_capsule"
+        ],
+        "penetration_m": 0.007793599726910655,
+        "limiting_cable_radius_m": 0.012000000104308128,
+        "ratio": 0.6494666382638338
+      },
+      "scope": "Contact geometry at recorded replay poses; global all-step worst is reported when it is a cable contact. Not every per-contact integration-step maximum is available."
+    }
+  },
+  "scope": "six settled source-cable equivalent cases; B8/B9/B10 older full-case acceptance remains historical",
+  "limits": [
+    "Source centerlines/anchors, inferred density/EI/damping/friction; no hardware calibration.",
+    "Rigid capsule links and isotropic passive ball joints; no axial elasticity.",
+    "Soft endpoint constraints; no literal connector material law.",
+    "No cable electrical continuity, hose pressure-radius coupling, real breakage criterion or internal hardware reconstruction.",
+    "B10 auxiliaries remain fixed external bench; no vehicle mount reaction.",
+    "Cable geometry sampled at replay poses; all-step global worst additionally checked if it is a cable contact. No per-contact all-step peak accuracy or real material compression claim."
+  ]
+}

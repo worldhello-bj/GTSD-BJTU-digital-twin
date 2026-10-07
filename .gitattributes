@@ -9,4 +9,4 @@
 *.blend binary
 *.png binary
 *.mp4 binary
-source/vehicle-physics/b11/source_cables.json -text
+source/vehicle-physics/b11/source_cables.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
