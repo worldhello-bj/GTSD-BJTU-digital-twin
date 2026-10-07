@@ -9,3 +9,4 @@
 *.blend binary
 *.png binary
 *.mp4 binary
+source/vehicle-physics/b11/source_cables.json -text

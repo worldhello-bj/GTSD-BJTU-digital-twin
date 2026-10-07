@@ -1,0 +1,9 @@
+{
+  "source_sha256": "c96811c45220dcdfad0853b73e4743297be7e090d4fb3230a7531eb89b3a4c04",
+  "blend_sha256": "9ee48119ed7a5f00fbed3279cab3a8d3bff4561f6503b55b282198d141732503",
+  "scenes": [
+    "B12_COVER_HANDLING",
+    "B12_COVER_DROP"
+  ],
+  "scope": "source meshes on inferred separate fixtures; solved release/free-body/contact poses; no actual mounting pose claim"
+}

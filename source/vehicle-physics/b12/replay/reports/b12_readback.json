@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "blend_sha256": "9ee48119ed7a5f00fbed3279cab3a8d3bff4561f6503b55b282198d141732503",
+  "cases": [
+    {
+      "case": "handle_remove",
+      "frames": 122,
+      "bodies": 4,
+      "source_meshes": 4,
+      "maximum_body_matrix_error": 5.960464477539062e-07,
+      "maximum_source_mesh_matrix_error": 5.960464477539062e-07,
+      "xml_sha256": "4c0e85215558081590e2b4990dc8632a285ee6fa0d187a75f45b0cc13c660cff"
+    },
+    {
+      "case": "drop",
+      "frames": 122,
+      "bodies": 4,
+      "source_meshes": 4,
+      "maximum_body_matrix_error": 0.0,
+      "maximum_source_mesh_matrix_error": 1.0339757656912846e-25,
+      "xml_sha256": "4c0e85215558081590e2b4990dc8632a285ee6fa0d187a75f45b0cc13c660cff"
+    }
+  ],
+  "error_limit": 2e-05,
+  "expression_drivers": 0,
+  "scope": "saved solver pose and source-shape binding; independent inferred maintenance-bench layout"
+}

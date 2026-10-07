@@ -1,0 +1,523 @@
+{
+  "source_sha256": "c96811c45220dcdfad0853b73e4743297be7e090d4fb3230a7531eb89b3a4c04",
+  "reference_frame": 1,
+  "covers": [
+    {
+      "name": "B1_InverterParallelFins",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.2999999523162842
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.20499999821186066
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.075124979019165
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "object_location": [
+        1.2999999523162842,
+        0.20499999821186066,
+        1.075124979019165
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.2999999523162842
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.20499999821186066
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.075124979019165
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_parent_inverse": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          -1.2999999523162842
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -1.0950000286102295
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "aabb_center_world_m": [
+        1.2999999523162842,
+        0.20499999821186066,
+        1.075124979019165
+      ],
+      "aabb_dimensions_m": [
+        0.3529999256134033,
+        0.30300000309944153,
+        0.034999966621398926
+      ],
+      "evaluated_vertex_count": 952,
+      "evaluated_polygon_count": 918,
+      "collection_names": [
+        "27_B5_COMPONENT_COVERS"
+      ],
+      "source_hide_render": false,
+      "attachment_chain": [
+        {
+          "name": "B1_InverterParallelFins",
+          "parent_type": "OBJECT",
+          "parent_bone": ""
+        },
+        {
+          "name": "CarBody_ROOT",
+          "parent_type": "OBJECT",
+          "parent_bone": ""
+        }
+      ],
+      "drivers": 0,
+      "source_properties": {
+        "assembly": "AuxPower",
+        "dimension_status": "UNVERIFIED_DIMENSION",
+        "appearance_source": "reference/images/field_photos/aux_power_bay.jpg",
+        "reference_identity": "USER_CONFIRMED_REAL_TARGET_PHOTO",
+        "detail_revision": "B1_v001",
+        "size_basis": "Fit to existing assembly; appearance from photograph; absolute sizes unmeasured"
+      },
+      "center_local_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "B5_InverterLid",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "object_location": [
+        -1.2999999523162842,
+        -0.05999999865889549,
+        -1.0950000286102295
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.2999999523162842
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.05999999865889549
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.0950000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "aabb_center_world_m": [
+        5.960464477539063e-08,
+        0.0,
+        0.0
+      ],
+      "aabb_dimensions_m": [
+        0.39399993419647217,
+        0.3179999887943268,
+        0.006999969482421875
+      ],
+      "evaluated_vertex_count": 56,
+      "evaluated_polygon_count": 54,
+      "collection_names": [
+        "27_B5_COMPONENT_COVERS"
+      ],
+      "source_hide_render": false,
+      "attachment_chain": [
+        {
+          "name": "B5_InverterLid",
+          "parent_type": "BONE",
+          "parent_bone": "Body_31"
+        },
+        {
+          "name": "GTSD_Rig",
+          "parent_type": "OBJECT",
+          "parent_bone": ""
+        }
+      ],
+      "drivers": 0,
+      "source_properties": {
+        "detail_revision": "B5_v001",
+        "source_refs": "P01",
+        "evidence_status": "ANALOGUE_ARCHITECTURE",
+        "dimension_status": "UNVERIFIED_DIMENSION",
+        "geometry_use": "Illustrative internal layout fitted to existing envelope",
+        "bind_bone": "Body_31"
+      },
+      "center_local_m": [
+        5.960464477539063e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "B1_ControllerHeatsink",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.9179999828338623
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.20000000298023224
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.9601250290870667
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "object_location": [
+        1.9179999828338623,
+        -0.20000000298023224,
+        0.9601250290870667
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.9179999828338623
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.20000000298023224
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.9601250290870667
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_parent_inverse": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          -1.2999999523162842
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -1.0950000286102295
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "aabb_center_world_m": [
+        1.9179999828338623,
+        -0.20000000298023224,
+        0.9601249694824219
+      ],
+      "aabb_dimensions_m": [
+        0.34499990940093994,
+        0.27000001072883606,
+        0.04500001668930054
+      ],
+      "evaluated_vertex_count": 952,
+      "evaluated_polygon_count": 918,
+      "collection_names": [
+        "27_B5_COMPONENT_COVERS"
+      ],
+      "source_hide_render": false,
+      "attachment_chain": [
+        {
+          "name": "B1_ControllerHeatsink",
+          "parent_type": "OBJECT",
+          "parent_bone": ""
+        },
+        {
+          "name": "CarBody_ROOT",
+          "parent_type": "OBJECT",
+          "parent_bone": ""
+        }
+      ],
+      "drivers": 0,
+      "source_properties": {
+        "assembly": "AuxPower",
+        "dimension_status": "UNVERIFIED_DIMENSION",
+        "appearance_source": "reference/images/field_photos/equipment_bay_wheels.jpg",
+        "reference_identity": "USER_CONFIRMED_REAL_TARGET_PHOTO",
+        "detail_revision": "B1_v001",
+        "size_basis": "Fit to existing assembly; appearance from photograph; absolute sizes unmeasured"
+      },
+      "center_local_m": [
+        0.0,
+        0.0,
+        -5.960464477539063e-08
+      ]
+    },
+    {
+      "name": "B5_DriveControllerLid",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "object_location": [
+        -1.2999999523162842,
+        -0.05999999865889549,
+        -1.0950000286102295
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.2999999523162842
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.05999999865889549
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.0950000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "aabb_center_world_m": [
+        5.960464477539063e-08,
+        0.0,
+        2.9802322387695312e-08
+      ],
+      "aabb_dimensions_m": [
+        0.37699997425079346,
+        0.2800000011920929,
+        0.0040000081062316895
+      ],
+      "evaluated_vertex_count": 56,
+      "evaluated_polygon_count": 54,
+      "collection_names": [
+        "27_B5_COMPONENT_COVERS"
+      ],
+      "source_hide_render": false,
+      "attachment_chain": [
+        {
+          "name": "B5_DriveControllerLid",
+          "parent_type": "BONE",
+          "parent_bone": "Body_31"
+        },
+        {
+          "name": "GTSD_Rig",
+          "parent_type": "OBJECT",
+          "parent_bone": ""
+        }
+      ],
+      "drivers": 0,
+      "source_properties": {
+        "detail_revision": "B5_v001",
+        "source_refs": "P02",
+        "evidence_status": "ANALOGUE_ARCHITECTURE",
+        "dimension_status": "UNVERIFIED_DIMENSION",
+        "geometry_use": "Illustrative internal layout fitted to existing envelope",
+        "bind_bone": "Body_31"
+      },
+      "center_local_m": [
+        5.960464477539063e-08,
+        0.0,
+        2.9802322387695312e-08
+      ]
+    }
+  ],
+  "original_cover_collection_hidden": {
+    "hide_viewport": true,
+    "hide_render": true
+  },
+  "scope": "source removable cover geometry; hidden visibility-only members; no hinge, fastener mechanism, mass or material evidence"
+}
