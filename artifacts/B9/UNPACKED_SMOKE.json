@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "unpacked_acceptance_checks": 158,
+  "headless_startup": true,
+  "ports": 51,
+  "solver_warnings": 0,
+  "scope": "Fresh package extraction, stored acceptance rerun and one-step live entry; no repeat of long physical integrations"
+}

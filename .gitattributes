@@ -1,0 +1,11 @@
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.zip binary
+*.part001 binary
+*.part002 binary
+*.blend binary
+*.png binary
+*.mp4 binary

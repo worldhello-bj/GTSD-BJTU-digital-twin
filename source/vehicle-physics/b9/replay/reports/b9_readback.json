@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "frames": 301,
+  "bodies": 44,
+  "door_parts": 84,
+  "maximum_body_matrix_error": 4.76837158203125e-07,
+  "maximum_source_part_matrix_error": 4.76837158203125e-07,
+  "unchanged_B8_matrix_error_limit": 2e-05,
+  "xml_sha256": "7808bc4784bcddb7e9440accb27fa79eb539c06633323c6d56f79a6fa9299199",
+  "blend_sha256": "3a75a8ffc72e89598681bec437982170a033c56f1ef42a11aa1c50d010373b88",
+  "expression_drivers": 0,
+  "scope": "Saved display representation and identity, not additional physics validation"
+}

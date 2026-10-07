@@ -1,0 +1,14 @@
+__pycache__/
+local-replay-base/
+package-verification/
+*.py[cod]
+*.restoring
+artifacts/B8/*.zip
+source/vehicle-physics/b9/results/*_replay.json
+source/vehicle-physics/b9/results/*.xml
+source/vehicle-physics/b9/results/*.csv
+source/vehicle-physics/b9/results/*_metrics.json
+source/vehicle-physics/b9/component_results/*.csv
+source/vehicle-physics/b9/replay/assets/
+source/vehicle-physics/b9/replay/inputs/
+source/vehicle-physics/b9/replay/reports/final_mapping.json

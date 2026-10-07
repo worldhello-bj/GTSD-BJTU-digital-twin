@@ -1,6 +1,16 @@
-# GTSD BJTU · B8 冻结备份
+# GTSD BJTU · B8 冻结备份与 B9 阀芯动力学
 
 这是两车机械物理工程原型及 Blender 源模型回放的 B8 冻结版本。22 组工况、273 项检查通过，状态为 PASS_WITH_MODEL_LIMITATIONS；包含 77 个广义机械速度坐标与 26 个气体质量状态。尚未实测标定，不代表整机数字孪生完成或安全认证。
+
+## B9 物理化增量
+
+供气/排气端口增加力驱动阀芯：线圈力、质量、弹簧、阻尼、软止挡和遮盖量决定实际开口，再驱动原有限质量气路。19 项模块检查和 35 项控制/旧 B8 回归检查通过；五组完整 B9 工况检验正常制动、半步长、阀芯迟滞、供气线圈失效及正常/快速排气。B8 原 22 组保留为历史验收；本次没有重跑全部 22 组。
+
+- [B9 源码与复现](source/vehicle-physics/b9/README.md) · [数值结果](source/vehicle-physics/b9/RESULTS.md) · [验收 JSON](source/vehicle-physics/b9/results/verification.json)
+- [完整 B9 增量包：源码、数据与 Blender 工程](artifacts/B9/GTSD_BJTU_B9_valve_dynamics.zip) · [包校验](artifacts/B9/PACKAGE_VERIFICATION.json)
+- [阀芯—压力—车速对比图](source/vehicle-physics/b9/results/b9_valve_response.png) · [Blender 保存重读检查](source/vehicle-physics/b9/replay/reports/b9_readback.json)
+
+新增 51 个独立压力平衡计量端口代理、102 个阀芯状态；这是数值拓扑，不是实物阀数量。阀芯参数未标定，固定实验台支承反力未传入车体。软线/软管、压缩机内部、风扇叶轮仍待物理化；没有编造源阀芯内部网格动作。B8 冻结源码、原包和历史失败均保留。
 
 ## 一键恢复完整四包
 
@@ -39,4 +49,4 @@ source/ 仅展开源码、参数和主要报告，全部数值与动态轨迹保
 
 所有实机质量、刚度、摩擦与气路参数未标定。软线/软管、阀芯、压缩机内部、风扇及把手内部动作尚未完整物理化；门闩、传动、接触和结构仍含理想化与等效模型。历史原生接触收敛失败及域外过载失败保留在验收材料中。具体边界见上述最终验收报告。
 
-本仓库保留 B8 冻结交付，不包含 B9；按交付包清单与启发式扫描排除缓存、凭据及外部整本参考资料。原始四包的字节、SHA-256 和 Git blob SHA 见校验清单。
+本仓库保留 B8 冻结交付，并单独保存 B9 增量。按交付包清单与启发式扫描排除缓存、凭据及外部整本参考资料。原始四包的字节、SHA-256 和 Git blob SHA 见校验清单。文本 LF 规则用于保留冻结文件的原始字节校验。
