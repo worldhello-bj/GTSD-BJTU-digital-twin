@@ -1,0 +1,20 @@
+{
+  "scope": "Static geometry reconstruction only; no physics solver or hardware claim",
+  "upstream_source_commit": "d78e0e4616f9a491e46a5c03637755971a9ec92c",
+  "original_repository_cad_directory": "reference/试验台几何建模资料-1011",
+  "upstream_assembly_sha256": "965d98942273db65249f6f48619939f0ce74d226918c993189a56fb84f308498",
+  "published_assembly_sha256": "f4954732944c2ba3c44fd07204bbd3d56eaf2d765a8f6bfa1807f8a16e3133df",
+  "geometry_registry_sha256": "2ac219d9b41f9113476e895c09b98ae15669a4887797340ae616bc546c787c1e",
+  "default_meshes": 1936,
+  "default_triangles": 1256416,
+  "vehicle_meshes": 822,
+  "vehicle_triangles": 415352,
+  "semantic_registry_rows": 109,
+  "semantic_rows_are_not_physical_part_count": true,
+  "all_CAD_consumption_complete": false,
+  "privacy_scan": {
+    "decompressed_geometry_checked": true,
+    "absolute_private_paths_or_URLs_found": 0
+  },
+  "metadata_change": "cad_body_overlay.shell_contact_boundary renamed to legacy_shell_contact_boundary_not_current; numeric geometry and registry unchanged."
+}

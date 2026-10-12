@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>GTSD · CAD逐块装配审阅</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="model.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div><div class="eyebrow">GTSD / RECONSTRUCTION REVIEW</div><h1>CAD + 照片三维装配 <span class="version-label">CAD整合</span></h1><p>整车与全台架 · 只读检查 · 本地运行</p></div>
+    <div class="download-links"><a href="../outputs/pass3/CAD_reference_vehicle_working.glb" download>下载 GLB <span>↗</span></a><a href="../outputs/pass3/GTSD_CAD_vehicle_and_bench.blend" download>下载 Blender <span>↗</span></a></div>
+  </header>
+  <section class="boundary" aria-label="证据与推断边界"><strong>证据边界</strong><span>车体宽1120.046933mm、侧框长/高及轴距有原生CAD依据。新弓架、转向架与台架按源图逐块登记；厚度、深度和未唯一确认的装配仍逐件标为候选。此页仅审阅静态几何，109登记节点与CAD块覆盖分别计数。</span></section>
+  <section class="dimension-strip" aria-label="尺寸来源">
+    <div><span class="metric-label">侧框长 · CAD</span><strong id="dim-length">—</strong><small>不是整车包络长度</small></div>
+    <div><span class="metric-label">侧框高 · CAD</span><strong id="dim-height">—</strong><small>不是车顶离轨面高度</small></div>
+    <div><span class="metric-label">轴距 · CAD</span><strong id="dim-axle">—</strong><small>对应源图圆心间距</small></div>
+    <div class="inferred"><span class="metric-label">车体宽 · CAD正视截面</span><strong id="dim-width">—</strong><small>原生实例宽1120.046933mm</small></div>
+    <div class="rail-candidate"><span class="metric-label">轨轮廓中心距 · CAD 图面候选</span><strong id="dim-rail-centers">—</strong><small>不是标准轨距</small></div>
+  </section>
+  <p class="rail-section-note" id="rail-section-note">轨断面显示解释待源数据加载；轨头与轨底角色仅为工程假设。</p>
+  <main class="workspace">
+    <section class="viewer-panel" aria-label="三维查看器">
+      <div class="toolbar"><div class="presets" role="group" aria-label="查看预设"><button data-view="whole" class="active" aria-pressed="true">整车</button><button data-view="platform" aria-pressed="false">全台架</button><button data-view="cutaway" aria-pressed="false">剖开壳体</button><button data-view="bogie" aria-pressed="false">仅转向架</button><button data-view="pantograph" aria-pressed="false">仅受电弓</button><button data-view="encoder" aria-pressed="false">打开编码器罩</button></div><div class="camera-tools" role="group" aria-label="相机控制"><button id="zoom-in" title="放大（+）" aria-label="放大">＋</button><button id="zoom-out" title="缩小（-）" aria-label="缩小">−</button><button id="reset" title="复位当前预设（Home）">复位</button></div></div>
+      <div class="canvas-wrap"><canvas id="model-canvas" aria-label="GTSD 实际重建网格。拖动旋转，滚轮缩放，方向键旋转，Home 复位。" tabindex="0"></canvas><div id="load-overlay" class="load-overlay"><div class="load-symbol">◇</div><strong id="load-title">正在读取重建网格</strong><p id="load-description">仅加载随附的 geometry 数据，不生成替代模型。</p><label class="file-choice">选择本地 geometry.json<input id="geometry-file" type="file" accept=".json,application/json"></label></div><div class="viewport-tag"><span class="dot"></span><span id="view-label">整车</span><span class="unit-tag">m · Z ↑</span></div><div class="gesture-help">拖动旋转 · 滚轮缩放 · 列表选部件</div></div>
+      <div id="renderer-warning" class="renderer-warning" role="status" hidden></div>
+      <div class="viewer-footer"><span id="render-status" role="status">等待实际网格</span><button id="software-mode" class="text-button">Canvas 兼容模式</button></div>
+      <div class="context-note" id="preset-note">整车预设仅显示车体、转向架与受电弓；切到“全台架”检查轨道、接触网与控制台。</div>
+    </section>
+    <aside class="inspector" aria-label="部件与来源检查">
+      <div class="inspector-heading"><h2>部件与来源</h2><span id="registry-count" class="small-badge">等待读取</span></div>
+      <div class="tabs" role="tablist" aria-label="选择部件列表"><button id="mesh-tab" role="tab" aria-selected="true" aria-controls="mesh-list" class="active">实体网格 <span id="mesh-count">—</span></button><button id="registry-tab" role="tab" aria-selected="false" aria-controls="registry-list">登记层级 <span id="node-count">—</span></button></div>
+      <label class="search-label"><span class="sr-only">搜索部件、ID 或来源</span><input type="search" id="component-search" placeholder="搜索部件、ID 或来源…" autocomplete="off"></label>
+      <div class="list-area"><div id="mesh-list" role="tabpanel" aria-labelledby="mesh-tab"></div><div id="registry-list" role="tabpanel" aria-labelledby="registry-tab" hidden></div><p id="no-results" hidden>没有匹配的部件。</p></div>
+      <section class="selection-panel" aria-labelledby="selection-title"><div class="selection-heading"><h3 id="selection-title">检查来源</h3><button id="clear-selection" class="text-button" hidden>清除选择</button></div><p id="selection-hint">在上方选择实体或登记节点，查看网格状态和来源。橙色表示选中，不改变模型文件。</p><div id="selection-detail"></div><button id="focus-selection" class="focus-button" hidden>显示并聚焦选中实体</button></section>
+    </aside>
+  </main>
+  <section class="provenance-section"><details><summary>重建依据、显示边界与文件信息</summary><div class="provenance-grid"><div><h2>来源追溯</h2><dl id="resource-info"></dl><p>登记层级保留原表的节点、父节点和来源行号。节点无对应网格时明确标记为“仅登记，未建模”；上级节点的数量包含登记子级。</p></div><div><h2>推断与假设</h2><pre id="assumptions">尚未加载。</pre></div><div><h2>操作与离线使用</h2><ul><li>鼠标左键或单指拖动旋转；滚轮或 ＋／− 缩放；Home 复位。</li><li>剖开壳体会隐藏被标记为 shell 的完整网格，不生成切面或修改几何。</li><li>WebGL 不可用时，仅投影同一批三角形。Canvas 回退使用逐像素 Z-buffer；最多 48 万像素、35 万三角形。当前整车415352面、全台架1256416面均超过此预算，请使用WebGL或Blender；Canvas可查看较小子系统。超限明确提示，不隐性减面。</li><li>相对下载链接指向同包 outputs 文件夹，不上传或对外发布。</li><li>从包根运行 python -m http.server 8000 后打开 /web/。本页只通过HTTP读取同包压缩几何；不上传、不连接硬件。</li></ul></div></div></details></section>
+  <footer class="page-footer"><span>GTSD · 新几何重建审阅</span><span id="commit-label">源版本待加载</span><span>无 CDN · 无物理控制 · 无网络上传</span></footer>
+</body>
+</html>
