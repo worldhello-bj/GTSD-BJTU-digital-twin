@@ -1,0 +1,15 @@
+{
+  "review_status": "GEOMETRY_AND_EXPORTS_PASS_WITH_EXPLICIT_UI_NETWORK_AND_LEGACY_WORDING_LIMITS",
+  "source_assembly_sha256": "965d98942273db65249f6f48619939f0ce74d226918c993189a56fb84f308498",
+  "main_scene_meshes": 1936,
+  "source_checks_passed": 4070,
+  "native_rail_transform_errors_m": 0.0,
+  "Node_tests_passed": 30,
+  "Node_tests_failed": 0,
+  "Node_tests_skipped": 0,
+  "browser_end_to_end_passed": false,
+  "physics_run": false,
+  "hardware_operations": false,
+  "source_or_main_files_modified": false,
+  "scope_note": "Summary of independent verification of the frozen upstream assembly. This published copy changes legacy metadata only; run supplied tests for this copy."
+}

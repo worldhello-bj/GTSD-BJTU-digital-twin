@@ -1,0 +1,38 @@
+✔ schema, metre units and real nonempty mesh data required (2.136206ms)
+✔ reject invalid vertex, index, color, group and duplicate identities (0.822344ms)
+✔ preset filters select exact exported meshes without generating geometry (1.329412ms)
+✔ full-platform view includes environment while vehicle views exclude it and display refs (0.624467ms)
+✔ default vehicle framing ignores distant platform geometry (8.537316ms)
+✔ focusing a hidden environment component reveals platform and preserves source identity (2.152524ms)
+✔ older resources without environment remain compatible with all presets (3.071672ms)
+✔ bounds and camera use exact source coordinates (0.752947ms)
+✔ projected fitting fills 80% of a viewport axis without cropping at any orbit (1.275082ms)
+✔ registry hierarchy preserves every record without mutating source (0.557367ms)
+✔ cycles or missing parent promote records instead of losing nodes (0.140186ms)
+✔ registry selection includes descendants, but does not invent unmodeled components (0.298366ms)
+✔ GPU triangle expansion copies positions and leaves geometry unchanged (0.209809ms)
+✔ Canvas fallback explicitly reports mode and only draws provided triangles (2.848467ms)
+✔ view changes, zoom bounds, reset and selection are reversible (1.682079ms)
+✔ an empty preset is a valid empty display, never a substitute mesh (0.816192ms)
+✔ repeated resource loads and invalid replacement preserve valid source (1.427824ms)
+✔ WebGL path uploads and draws every source triangle without LOD (0.979737ms)
+✔ WebGL draw failure falls back and redraws the same actual triangles (1.281135ms)
+✔ CPU pixel budget preserves aspect while imposing finite allocation (0.133395ms)
+✔ Z-buffer makes nearer triangle win regardless of submission order (0.253818ms)
+✔ per-pixel depth resolves crossing planes where average sorting fails (0.182743ms)
+✔ depth raster handles winding, viewport clipping and degenerate triangles (0.169747ms)
+✔ scanline raster matches independent barycentric pixel reference (13.039334ms)
+✔ orbit camera changes which physical plane is nearer in CPU depth (0.528214ms)
+✔ CPU triangle budget rejects oversized scenes rather than dropping occluders (1.524015ms)
+✔ static page uses local dependencies and relative native-model downloads (1.479503ms)
+✔ encoder inspection hides only the documented cup cover (0.150948ms)
+✔ candidate IDs remain separate from verified registry mappings (0.235809ms)
+✔ current compressed CAD assembly preserves all source triangles and IDs in viewer adaptation (808.948464ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1027.307054
