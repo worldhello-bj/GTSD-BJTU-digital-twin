@@ -137,6 +137,10 @@ def ensure_assets(root=ROOT, check_only=False, only=None):
     if only is not None:
         result.update(scope='selected', assets_total=assets_total,
                       selected_assets=[asset['path'] for asset in selected])
+    if only is None:
+        from source_review_assets import source_review_required, ensure_source_review
+        if source_review_required(root):
+            result['source_review'] = ensure_source_review(root, check_only=check_only)
     return result
 
 def main(argv=None, root=ROOT):
@@ -145,8 +149,16 @@ def main(argv=None, root=ROOT):
     mode.add_argument('--check-only', action='store_true', help='Verify without creating any missing assets')
     mode.add_argument('--list-assets', action='store_true', help='List exact manifest paths only; does not verify availability')
     parser.add_argument('--only', action='append', metavar='ASSET_PATH', help='Select this exact, full manifest asset.path; repeat to select more (no globs or basenames)')
+    parser.add_argument('--source-review-only', action='store_true', help='Restore/check only the reviewed source JSON files from both pinned containers; no legacy binary assets are required')
     args = parser.parse_args(argv)
-    if args.list_assets:
+    if args.source_review_only:
+        if args.only:
+            parser.error('--source-review-only cannot be combined with --only')
+        from source_review_assets import ensure_source_review, list_source_review
+        result = ({'scope': 'source_review', 'files': list_source_review(root), 'network_used': False}
+                  if args.list_assets else ensure_source_review(root, check_only=args.check_only))
+        print(json.dumps(result, indent=2))
+    elif args.list_assets:
         print(json.dumps({'assets': list_assets(root, only=args.only), 'network_used': False}, indent=2))
     else:
         print(json.dumps(ensure_assets(root, check_only=args.check_only, only=args.only), indent=2))

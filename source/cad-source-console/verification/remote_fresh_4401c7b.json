@@ -1,0 +1,98 @@
+{
+  "schema": "gtsd-genuine-remote-fresh-checkout-acceptance-v1",
+  "checked_utc": "2026-10-13T09:35:54.266933+00:00",
+  "git_head_sha": "4401c7b64f53b434f0eba141b4a800e493152c7e",
+  "repository": "https://github.com/worldhello-bj/GTSD-BJTU-digital-twin",
+  "remote_checkout_method": "git clone --depth 1 --single-branch via ordinary GitHub HTTPS",
+  "local_source_copy_used": false,
+  "tracked_files_checked_against_raw_git_blob": 840,
+  "git_fsck_ok": true,
+  "git_clean_before": true,
+  "git_clean_after": true,
+  "assets": {
+    "ok": true,
+    "assets_checked": 57,
+    "assets_restored": 57,
+    "network_used": false
+  },
+  "all_assets_packed_and_decoded_hashes_verified": true,
+  "missing_chunks": 0,
+  "public_manifest_json_valid": true,
+  "frozen_csv_identity_and_attributes_verified": true,
+  "python_tests": {
+    "count": 41,
+    "failed": 0,
+    "skipped": 0
+  },
+  "node_tests": {
+    "count": 41,
+    "failed": 0,
+    "skipped": 0
+  },
+  "doctor": {
+    "ok": true,
+    "frozen_files_checked": 289,
+    "release_files_checked": 645,
+    "variants": [
+      {
+        "mode": "source_rails",
+        "identity": "be4261ece5c8b374bf679ff7e5339ac0770ac6ccfc48c54a93e31a23f9e8828e",
+        "nq": 94,
+        "nv": 82,
+        "time_s": 0.0,
+        "restore_exact": true
+      },
+      {
+        "mode": "cad_seat_research",
+        "identity": "ebd3eeb9048c66800ff3bd53788adeba4f53c11189284142151910a75a1b488b",
+        "nq": 94,
+        "nv": 82,
+        "time_s": 0.0,
+        "restore_exact": true
+      }
+    ],
+    "candidate_cold_init": true,
+    "steps_integrated": 0,
+    "wall_s": 11.219202773005236
+  },
+  "runtime_checks": [
+    {
+      "name": "asset_unit",
+      "exit_code": 0,
+      "wall_s": 0.767
+    },
+    {
+      "name": "doctor",
+      "exit_code": 0,
+      "wall_s": 11.71
+    },
+    {
+      "name": "node",
+      "exit_code": 0,
+      "wall_s": 3.83
+    },
+    {
+      "name": "source_http",
+      "exit_code": 0,
+      "wall_s": 5.982
+    },
+    {
+      "name": "rail_http",
+      "exit_code": 0,
+      "wall_s": 11.603
+    },
+    {
+      "name": "seat_http",
+      "exit_code": 0,
+      "wall_s": 12.366
+    },
+    {
+      "name": "candidate_http",
+      "exit_code": 0,
+      "wall_s": 6.387
+    }
+  ],
+  "browser_visual_acceptance": false,
+  "hardware_connected": false,
+  "scope": "Bounded virtual research runtime acceptance only; no physical calibration or long-horizon convergence claim."
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "gtsd-reviewed-source-bundle-v1",
+  "encoding": "xz-concatenated-json-v1",
+  "file_count": 8,
+  "raw_bytes": 1762187,
+  "raw_sha256": "c3ab1973c9aa3385759fc6fb38bf347d7727cdbffad3088933c5e7dcd7de3ff2",
+  "packed_bytes": 252660,
+  "packed_sha256": "2c0ee1b533169487fecb17ad7fa70d631dc3b41d7324493db6a3a1b3e6fb9465",
+  "max_chunk_bytes": 300000,
+  "chunks": [
+    {
+      "path": "payloads/source-review-extra-v1/2c0ee1b533169487fecb.000.bin",
+      "bytes": 252660,
+      "sha256": "2c0ee1b533169487fecb17ad7fa70d631dc3b41d7324493db6a3a1b3e6fb9465"
+    }
+  ],
+  "files": [
+    {
+      "path": "integration/data/source_library/legacy_Model_2BDB_source_face.json",
+      "offset": 0,
+      "bytes": 6591,
+      "sha256": "ab7ae4cef157d3384391cd521760674aaeb450babda04e7fe831d11c8f259c72"
+    },
+    {
+      "path": "integration/data/source_library/legacy_Model_2BDC_source_face.json",
+      "offset": 6591,
+      "bytes": 6572,
+      "sha256": "64f67c9f0ae39d36a31fa0297ee022af04743d7ccb0a2a88b596ad2530b3f7ef"
+    },
+    {
+      "path": "integration/data/source_library/legacy_Model_A45_source_face.json",
+      "offset": 13163,
+      "bytes": 43949,
+      "sha256": "e14b62edc762a6a209d5e2b67e8da491545ea7a40becf73e0037eccc9dd47089"
+    },
+    {
+      "path": "integration/data/source_library/legacy_wheel_source_radius_comparison.json",
+      "offset": 57112,
+      "bytes": 584021,
+      "sha256": "c1bdaf8fb12227f54856100b4acac4cf1a92279b12def4c669ebdae3bb8cf219"
+    },
+    {
+      "path": "integration/data/source_library/shared_460e_hidden_overlap_comparison.json",
+      "offset": 641133,
+      "bytes": 784630,
+      "sha256": "e0e3807515f248959761b9a094ce9efcd8dbd88ea4274357415484b30f705741"
+    },
+    {
+      "path": "integration/data/source_library/shared_7f05_distal_eye_registered_source_comparison.json",
+      "offset": 1425763,
+      "bytes": 41513,
+      "sha256": "1456812a2cb021e3c54baf5b3612326ebaea1db57936e5c805df6480080f74aa"
+    },
+    {
+      "path": "integration/data/source_library/shared_7f05_distal_eye_source_regions.json",
+      "offset": 1467276,
+      "bytes": 17714,
+      "sha256": "7915c9ae59850c131d8d26d7c2268065813d16b86a6bcda3cb0c7e91e77fe52f"
+    },
+    {
+      "path": "integration/data/source_library/shared_library73_model_alias_source_regions.json",
+      "offset": 1484990,
+      "bytes": 277197,
+      "sha256": "36451d79f4c5e4901382d361a69f7ba01e5f10fefc727519d84abef3f2048da2"
+    }
+  ]
+}

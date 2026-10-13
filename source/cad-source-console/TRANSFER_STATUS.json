@@ -1,9 +1,7 @@
 {
-  "schema": "gtsd-public-transfer-pending-v5",
-  "checked_utc": "2026-10-13T09:30:58.904172+00:00",
-  "remote_runnable": false,
-  "remote_stage": "assets_complete_pending_fresh_checkout_runtime",
-  "console_tree_files": 590,
+  "schema": "gtsd-public-complete-source-transfer-v7",
+  "checked_utc": "2026-10-13T11:13:00Z",
+  "console_tree_files": 622,
   "planned_asset_count": 57,
   "complete_assets": 57,
   "incomplete_assets": 0,
@@ -475,6 +473,55 @@
     "frame_18068_native_curves.json"
   ],
   "local_complete_snapshot_verified": true,
-  "browser_visual_acceptance": false,
-  "note": "All expected resource paths are linked. Full fresh-checkout runtime acceptance is pending; resource completeness alone is not physical calibration."
+  "note": "Core runtime passed a real fresh-checkout run at the recorded head. The 476-state source-review layer passed local validation and awaits a fresh remote checkout of its new branch. Browser visual acceptance remains blocked. Source states are not distinct physical parts; no new physics or material calibration is claimed.",
+  "source_review": {
+    "states": 476,
+    "preserved_original_resources": 44,
+    "new_json_files": 432,
+    "containers": 2,
+    "chunks": 24,
+    "packed_bytes": 6915152,
+    "raw_bytes": 43998336,
+    "missing_paths": [],
+    "all_linked": true,
+    "remote_fresh_checkout_status": "pending_new_branch_verification",
+    "local_validation": {
+      "python_tests_run": 107,
+      "python_tests_passed": 106,
+      "python_tests_skipped": 1,
+      "skip_reason": "Git attribute check unavailable in disposable fixture without Git metadata.",
+      "node_tests_passed": 12,
+      "restored_json_files_sha_verified": 432,
+      "independent_reproduction_equal": true,
+      "independently_rebuilt_files": 46
+    }
+  },
+  "core_runtime": {
+    "status": "passed_remote_fresh_checkout",
+    "verified_head": "4401c7b64f53b434f0eba141b4a800e493152c7e",
+    "merged_main_head": "09280ec31d298e37f177f61f99b2a4ef550c2ede",
+    "checks": {
+      "python_tests_passed": 41,
+      "node_tests_passed": 41,
+      "doctor": "passed",
+      "http_routes": [
+        "source",
+        "rail",
+        "seat",
+        "candidate"
+      ],
+      "http_routes_passed": 4,
+      "working_tree": "clean"
+    },
+    "evidence": "verification/remote_fresh_4401c7b.json"
+  },
+  "browser_visual_acceptance": {
+    "status": "blocked",
+    "blockers": [
+      "Browser session isolation prevents reaching the executor-local server.",
+      "Default sandbox socket permission prevents required browser-side access."
+    ],
+    "restrictions_bypassed": false,
+    "visual_acceptance_completed": false
+  }
 }

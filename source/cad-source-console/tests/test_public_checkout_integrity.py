@@ -5,6 +5,7 @@ For an external audit: python test_public_checkout_integrity.py --console PATH.
 Missing binary transport is reported as one explicit skip by default; use
 --require-complete (or GTSD_REQUIRE_COMPLETE_ASSETS=1) to make it a failure.
 A successful default run with that skip is NOT full release/runtime acceptance.
+Packed source JSON has its own pinned transport classification when present.
 No assets are restored, downloaded, or decoded; no simulation is initialized.
 """
 from functools import lru_cache
@@ -81,6 +82,53 @@ def asset_manifest():
     return value
 
 
+
+@lru_cache(maxsize=1)
+def source_review_manifest():
+    """Optional new transport; no decoded files or container reads required."""
+    path = CONSOLE / 'SOURCE_REVIEW_MANIFEST.json'
+    if not path.exists():
+        return None
+    value = load_json(path)
+    # Importing this standard-library helper performs no reads/writes or restore.
+    import importlib.util
+    spec = importlib.util.spec_from_file_location('gtsd_source_review_gate', CONSOLE / 'source_review_assets.py')
+    helper = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(helper)
+    try:
+        if identity(path) != (path.stat().st_size, helper.MANIFEST_SHA256):
+            raise ValueError('Pinned source-review manifest identity mismatch')
+        helper._validate(value)
+    except (ValueError, KeyError, TypeError) as exc:
+        raise AssertionError('Invalid source-review transport manifest: ' + str(exc)) from exc
+    extra_path = CONSOLE / 'SOURCE_REVIEW_EXTRA_MANIFEST.json'
+    if extra_path.exists():
+        extra = load_json(extra_path)
+        try:
+            if identity(extra_path) != (extra_path.stat().st_size, helper.EXTRA_MANIFEST_SHA256):
+                raise ValueError('Pinned additional source-review manifest identity mismatch')
+            helper._validate(extra, 'payloads/source-review-extra-v1')
+        except (ValueError, KeyError, TypeError) as exc:
+            raise AssertionError('Invalid additional source-review manifest: ' + str(exc)) from exc
+        if {row['path'] for row in value['files']} & {row['path'] for row in extra['files']}:
+            raise AssertionError('Duplicate source-review path across containers')
+        value = {**value, 'files': value['files'] + extra['files'],
+                 'chunks': value['chunks'] + extra['chunks']}
+    old_targets = {row['path'] for row in asset_manifest()['assets']}
+    old_chunks = {chunk['path'] for row in asset_manifest()['assets'] for chunk in row['chunks']}
+    review_targets = {row['path'] for row in value['files']}
+    review_chunks = {row['path'] for row in value['chunks']}
+    if (review_targets & (old_targets | old_chunks) or review_chunks & (old_targets | old_chunks)
+            or review_targets & review_chunks):
+        raise AssertionError('Source-review paths overlap the original asset transport')
+    public = public_manifest()['files']
+    for row in value['files'] + value['chunks']:
+        checked_path(CONSOLE, row['path'])
+        if public.get(row['path']) != {key: row[key] for key in ('bytes', 'sha256')}:
+            raise AssertionError('Source-review/public identity mismatch: ' + row['path'])
+    return value
+
+
 def identity(path):
     h = hashlib.sha256()
     count = 0
@@ -95,17 +143,28 @@ def availability():
     assets = asset_manifest()['assets']
     targets = {a['path'] for a in assets}
     chunks = {c['path'] for a in assets for c in a['chunks']}
+    review = source_review_manifest()
+    review_targets = {row['path'] for row in review['files']} if review else set()
+    review_chunks = {row['path'] for row in review['chunks']} if review else set()
+    all_targets = targets | review_targets
+    chunks |= review_chunks
     missing_chunks = sorted(p for p in chunks if not checked_path(CONSOLE, p).is_file())
     absent = [p for p in public_manifest()['files'] if not checked_path(CONSOLE, p).is_file()]
-    missing_static_binary = sorted(p for p in absent if p not in targets and p not in chunks and PurePosixPath(p).suffix.lower() in BINARY_SUFFIXES)
-    missing_source = sorted(p for p in absent if p not in targets and p not in chunks and p not in missing_static_binary)
+    missing_static_binary = sorted(p for p in absent if p not in all_targets and p not in chunks and PurePosixPath(p).suffix.lower() in BINARY_SUFFIXES)
+    missing_source = sorted(p for p in absent if p not in all_targets and p not in chunks and p not in missing_static_binary)
     absent_targets = sorted(p for p in targets if not checked_path(CONSOLE, p).is_file())
     incomplete_assets = [a['path'] for a in assets if any(c['path'] in missing_chunks for c in a['chunks'])]
-    return {'planned_assets': len(assets), 'present_chunksets': len(assets) - len(incomplete_assets),
+    result = {'planned_assets': len(assets), 'present_chunksets': len(assets) - len(incomplete_assets),
             'incomplete_assets': incomplete_assets, 'missing_chunks': missing_chunks,
             'missing_static_binary': missing_static_binary, 'missing_source_files': missing_source,
             'unrestored_asset_targets': absent_targets,
             'note': 'Chunk presence alone is not decoded-asset or runtime acceptance.'}
+    if review:
+        result.update(reviewed_source_files=len(review_targets),
+            reviewed_source_chunks=len(review_chunks),
+            missing_source_review_chunks=sorted(review_chunks & set(missing_chunks)),
+            unrestored_source_review_targets=sorted(p for p in review_targets if not checked_path(CONSOLE, p).is_file()))
+    return result
 
 
 class PublicCheckoutIntegrityTests(unittest.TestCase):
@@ -131,6 +190,12 @@ class PublicCheckoutIntegrityTests(unittest.TestCase):
             for chunk in asset['chunks']:
                 path = checked_path(CONSOLE, chunk['path'])
                 if path.exists() and (not path.is_file() or chunk['bytes'] > manifest['max_chunk_bytes'] or identity(path) != (chunk['bytes'], chunk['sha256'])):
+                    bad.append(chunk['path'])
+        review = source_review_manifest()
+        if review:
+            for chunk in review['chunks']:
+                path = checked_path(CONSOLE, chunk['path'])
+                if path.exists() and (not path.is_file() or chunk['bytes'] > review['max_chunk_bytes'] or identity(path) != (chunk['bytes'], chunk['sha256'])):
                     bad.append(chunk['path'])
         self.assertEqual(bad, [], 'Present binary chunks have wrong bytes/hash: ' + ', '.join(bad))
 
