@@ -1,21 +1,15 @@
 {
   "schema": "gtsd-public-transfer-pending-v5",
-  "checked_utc": "2026-10-13T08:55:47.356792+00:00",
+  "checked_utc": "2026-10-13T09:30:58.904172+00:00",
   "remote_runnable": false,
-  "remote_stage": "partial_assets_with_hash_checked_reassembly",
-  "console_tree_files": 583,
+  "remote_stage": "assets_complete_pending_fresh_checkout_runtime",
+  "console_tree_files": 590,
   "planned_asset_count": 57,
-  "complete_assets": 56,
-  "incomplete_assets": 1,
+  "complete_assets": 57,
+  "incomplete_assets": 0,
   "planned_binary_files": 227,
-  "missing_binary_files": 5,
-  "missing_paths": [
-    "source/cad-source-console/payloads/676ce2a14f5c9ca574e6.001.bin",
-    "source/cad-source-console/payloads/676ce2a14f5c9ca574e6.002.bin",
-    "source/cad-source-console/payloads/676ce2a14f5c9ca574e6.003.bin",
-    "source/cad-source-console/payloads/676ce2a14f5c9ca574e6.004.bin",
-    "source/cad-source-console/payloads/676ce2a14f5c9ca574e6.005.bin"
-  ],
+  "missing_binary_files": 0,
+  "missing_paths": [],
   "assets": [
     {
       "path": "baseline_console/GTSD_Assembly_Console/app/data/catalog.json",
@@ -62,8 +56,8 @@
       "bytes": 24848917,
       "sha256": "676ce2a14f5c9ca574e63c3f3f1f6ed7c1f5805ab4b58da889b15cac9ce58f87",
       "chunks": 6,
-      "missing_chunks": 5,
-      "complete": false
+      "missing_chunks": 0,
+      "complete": true
     },
     {
       "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase5_Internal_Coupling/integrated/vendor/bogie/binding.json",
@@ -482,5 +476,5 @@
   ],
   "local_complete_snapshot_verified": true,
   "browser_visual_acceptance": false,
-  "note": "Counts refer to this frozen checkpoint, not any later upload receipts. Missing parts prevent full clean-checkout startup. A partial model is not an accepted 1:1 physical twin."
+  "note": "All expected resource paths are linked. Full fresh-checkout runtime acceptance is pending; resource completeness alone is not physical calibration."
 }
