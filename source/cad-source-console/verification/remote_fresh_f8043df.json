@@ -1,0 +1,173 @@
+{
+  "schema": "gtsd-genuine-remote-fresh-checkout-acceptance-v2",
+  "checked_utc": "2026-10-13T11:26:29.008727+00:00",
+  "git_head_sha": "f8043dfa175c349dff0c280e1f21992d3866a89e",
+  "git_tree_sha": "13c9bf7c237d87dd9767384ceddc7d9febbc3e0d",
+  "repository": "https://github.com/worldhello-bj/GTSD-BJTU-digital-twin",
+  "remote_checkout_method": "ordinary GitHub HTTPS shallow clone; explicit existing-commit fetch and detached checkout when recorded",
+  "checkout_method_details": "cloned_branch=main\nfetch_exact_commit=1\n",
+  "pull_request_publication_verified_by_this_audit": false,
+  "local_source_copy_used": false,
+  "tracked_files_checked_against_raw_git_blob": 872,
+  "git_fsck_ok": true,
+  "git_clean_before": true,
+  "git_clean_after": true,
+  "assets": {
+    "ok": true,
+    "assets_checked": 57,
+    "assets_restored": 57,
+    "network_used": false,
+    "source_review": {
+      "ok": true,
+      "scope": "source_review",
+      "files_checked": 432,
+      "files_restored": 432,
+      "network_used": false
+    }
+  },
+  "source_review_pre_restore": {
+    "required": true,
+    "manifest_count": 2,
+    "files_declared": 432,
+    "files_verified_in_memory": 432,
+    "chunks_declared": 24,
+    "missing_chunks": [],
+    "errors": [],
+    "containers": [
+      {
+        "manifest": "SOURCE_REVIEW_MANIFEST.json",
+        "manifest_sha256": "52cffddf6d23c3b92df133eb629ccfe1e73ac3732e47c58fd6551b61d53201d2",
+        "files": 424,
+        "chunks": 23,
+        "raw_bytes": 42236149,
+        "raw_sha256": "c4bc15cdb00f88b927804e341461762d301e06c5453b024dce4c5092a7e5e9d5",
+        "packed_sha256": "11acf9855e0586f15c32b17cb3fc621c055266c0a26d7cf394e217771f871b86",
+        "decoded_verified": true
+      },
+      {
+        "manifest": "SOURCE_REVIEW_EXTRA_MANIFEST.json",
+        "manifest_sha256": "89ce7569251eb9ce14077e70c8d3f8c15364e859f6ef5ca44d31905b76c1992b",
+        "files": 8,
+        "chunks": 1,
+        "raw_bytes": 1762187,
+        "raw_sha256": "c3ab1973c9aa3385759fc6fb38bf347d7727cdbffad3088933c5e7dcd7de3ff2",
+        "packed_sha256": "2c0ee1b533169487fecb17ad7fa70d631dc3b41d7324493db6a3a1b3e6fb9465",
+        "decoded_verified": true
+      }
+    ],
+    "targets_already_present": 0,
+    "targets_restored": 0,
+    "network_used": false,
+    "ok": true
+  },
+  "missing_legacy_chunks": 0,
+  "all_json_parse_checks_passed": true,
+  "python_tests": {
+    "count": 107,
+    "failed": 0,
+    "skipped": 0
+  },
+  "node_tests": {
+    "count": 50,
+    "failed": 0,
+    "skipped": 0
+  },
+  "doctor": {
+    "ok": true,
+    "frozen_files_checked": 289,
+    "release_files_checked": 1109,
+    "variants": [
+      {
+        "mode": "source_rails",
+        "identity": "be4261ece5c8b374bf679ff7e5339ac0770ac6ccfc48c54a93e31a23f9e8828e",
+        "nq": 94,
+        "nv": 82,
+        "time_s": 0.0,
+        "restore_exact": true
+      },
+      {
+        "mode": "cad_seat_research",
+        "identity": "ebd3eeb9048c66800ff3bd53788adeba4f53c11189284142151910a75a1b488b",
+        "nq": 94,
+        "nv": 82,
+        "time_s": 0.0,
+        "restore_exact": true
+      }
+    ],
+    "candidate_cold_init": true,
+    "steps_integrated": 0,
+    "wall_s": 10.90972070099815
+  },
+  "runtime_checks": [
+    {
+      "name": "asset_unit",
+      "exit_code": 0,
+      "wall_s": 1.218
+    },
+    {
+      "name": "doctor",
+      "exit_code": 0,
+      "wall_s": 12.609
+    },
+    {
+      "name": "node",
+      "exit_code": 0,
+      "wall_s": 3.73
+    },
+    {
+      "name": "source_http",
+      "exit_code": 0,
+      "wall_s": 9.803
+    },
+    {
+      "name": "rail_http",
+      "exit_code": 0,
+      "wall_s": 12.908
+    },
+    {
+      "name": "seat_http",
+      "exit_code": 0,
+      "wall_s": 12.152
+    },
+    {
+      "name": "candidate_http",
+      "exit_code": 0,
+      "wall_s": 5.833
+    }
+  ],
+  "source_catalog_review_states": 476,
+  "source_resource_api_paths_tested": 476,
+  "source_resource_api_all_http_200_and_bytes_verified": true,
+  "source_http_result": {
+    "ok": true,
+    "source_pages": 5,
+    "source_resources_byte_equal": 482,
+    "new_geometry_revision": "3e1d785643dc3eca93cf989b663af29311db3c6d1ce3197d97d7758a4e9fb93e",
+    "main_native_checkpoint_unchanged": true,
+    "main_steps": 0,
+    "run_lease_unchanged": true,
+    "pantograph_candidate_disabled": true,
+    "unknown_and_cross_origin_rejected": true,
+    "browser_visual_acceptance": false,
+    "browser_download_acceptance": false
+  },
+  "legacy_preservation": {
+    "baseline_head_sha": "4401c7b64f53b434f0eba141b4a800e493152c7e",
+    "asset_manifest_byte_identical": true,
+    "assets_checked": 57,
+    "original_source_resources_checked": 44
+  },
+  "browser_visual_acceptance": false,
+  "browser_attempts_for_this_head": 0,
+  "hardware_connected": false,
+  "scope": "Bounded virtual research runtime and source-resource delivery; no physical calibration or long-horizon convergence claim.",
+  "git_parent_sha": "09280ec31d298e37f177f61f99b2a4ef550c2ede",
+  "remote_branch_confirmation": {
+    "branch": "feature/cad-source-review-476-1013",
+    "head_sha": "f8043dfa175c349dff0c280e1f21992d3866a89e",
+    "checked_utc": "2026-10-13T11:27:58.095035+00:00",
+    "method": "read-only git ls-remote --heads via ordinary GitHub HTTPS",
+    "same_tested_commit": true
+  },
+  "source_code_mutation_during_audit": false
+}
