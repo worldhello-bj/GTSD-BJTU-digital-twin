@@ -1,0 +1,190 @@
+{
+  "schema": "gtsd-console-strict82-preflight-v1",
+  "ok": true,
+  "config": {
+    "schema": "gtsd-phase6-console-config-v1",
+    "source_root": "/workspace/shared/gtsd-strict82-portable-acceptance-1012/portable/GTSD_Phase5_Internal_Coupling",
+    "auxiliary_root": "/workspace/shared/gtsd-strict82-portable-acceptance-1012/portable/GTSD_Phase6/auxiliary",
+    "cad_body_root": "/workspace/shared/gtsd-strict82-portable-acceptance-1012/portable/GTSD_Phase6/cad_body",
+    "evidence_root": "/workspace/shared/gtsd-strict82-portable-acceptance-1012/portable/GTSD_Phase6/truth",
+    "encoder_candidate_root": "/workspace/shared/gtsd-strict82-portable-acceptance-1012/portable/GTSD_Phase6/geometry/encoder",
+    "body_candidate_root": "/workspace/shared/gtsd-strict82-portable-acceptance-1012/portable/GTSD_Phase6/geometry/body",
+    "pantograph_candidate_root": "/workspace/shared/gtsd-strict82-portable-acceptance-1012/portable/GTSD_Phase6/geometry/pantograph/plan_candidate",
+    "variant": "cad-body-mounted-research",
+    "port": 8778,
+    "resume": null,
+    "config_path": "/workspace/shared/gtsd-strict82-portable-acceptance-1012/portable/GTSD_Phase6/console_phase6/phase6_config.portable.json"
+  },
+  "python": "3.12.14",
+  "python_executable": "/workspace/shared/gtsd-bjtu-digital-twin/.venv-console/bin/python",
+  "dependencies": {
+    "mujoco": "3.3.7",
+    "numpy": "2.2.6"
+  },
+  "source_file_sha256": {
+    "requirements.txt": "6ba8c8e8036eaf8e285b7f8daf34e65fa5c38a2e73cacc7c6d14592898bcc96f",
+    "console/server.py": "ff6f4e99f3b45804dfb3c38f6f2cec6792408421ccc6221c6708a000280d89a1",
+    "console/controller.py": "f1b47cb2f05b457c50ec55d4efa20ce151f82199be6cfcd5e52ffa8ba5b1efaf",
+    "console/phase5_controller.py": "922139cb7c604e200f5038494894956ba753dbb9c5f6ec9c4a12e55cf34fdf0b",
+    "console/live_plant.py": "8aab7b1e2b7eeb9b7090d69f349170a668d9b25408919bccd650647458e7e5d9",
+    "console/web/index.html": "0e4373141a5922ceb6e1a332e78d45110c32ac6aa2d3de149e40514b3b75e0e5",
+    "console/web/app.js": "544213e3d054e61ebfed5519e46af70c273177e136559d524ad5ec9cf5baa1f0",
+    "console/web/ui-model.js": "c9ca7cb5b8a98b72211ab756a2638017994ed44b66a02045723b093f745a7fdb",
+    "console/web/style.css": "439883635c915a799260ad21e0959d5a9e9ff63ef9dd262f820f9aef7051d747",
+    "console/web/contact-sections.js": "481397bbdd285b9aa8b6f09c2524f80dfe5d874711211a5e764f257df926945e",
+    "console/web/internal-systems.js": "c18b86d3fef86318bcf35531dc240e737d1b530c3c348a7925605f1cd06b290b",
+    "web/physics-model.js": "fb23369a8b29c2e4b16a839c51a93d98373dfe8a860f623b21b4cc2b02d37e5f",
+    "web/render-model.js": "9be3744c00a1a55c64d0ec6ece1bfd15a9a0fb53c1c4c882e05dec3fe563cf3e",
+    "web/geometry.json": "7d925267cbfb18d39e64041ea851fc13db2e3a13f6d403eab386235f741d8f43",
+    "internal_registry/registry.py": "63286381026fb222c2896934f5a048d78820e2c7dc5e3d365187788fa80e61e2",
+    "console/phase5_display.py": "b21a6ebb9c89a04864c17b5a2f5f8a644e3bbd97c09445b2a3ddf69257d06dc2",
+    "support_integrated/combined.py": "9e3ef25ca1e31cfe3ce14b7e40a506264c9090874b013d7963eb9e4e28503ec6"
+  },
+  "bind": "127.0.0.1",
+  "port_checked": false,
+  "port_check_is_reservation": false,
+  "expected_dof": 79,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "research_only",
+      "message": "79DOF is an explicit research variant; source freeze and numerical acceptance must be checked independently. No 1:1 or hardware certification."
+    }
+  ],
+  "boundaries": [
+    "software-only",
+    "no hardware I/O",
+    "no external network requests",
+    "no installation",
+    "no automatic resume",
+    "no browser opened",
+    "hashes are observations, not authenticity certificates",
+    "engineering assumptions are not 1:1 hardware calibration"
+  ],
+  "evidence_revision_sha256": "f1f92c31f448390dca0749be7d3ca321c5b41dcc09e178b8981ac96284ae6345",
+  "truth_fields": 763,
+  "encoder_independent_review_available": true,
+  "body_independent_review_available": true,
+  "pantograph_independent_review_available": true,
+  "auxiliary_source_freeze": {
+    "schema": "gtsd-phase6-source-freeze-v1",
+    "phase5_dependency_sha256": "b7023c493af2bb9e755072bd2e04ae3a97b457b6ef6a2addb5e76d1d0bba5836",
+    "physics_source_sha256": {
+      "aux_mount/__init__.py": "66217be79bc31930c57f9877e284602993b37560f318581381cc745d62e95751",
+      "aux_mount/bootstrap.py": "d8f194f6551ac83e22b3e52fe7cd04f6bb47128a6603051961a21155dca0af9e",
+      "aux_mount/model.py": "1611b5d0871d2fe37737d8b416dad6768bdf8387f56905bfd540ebc77cf310a5",
+      "aux_mount/runtime.py": "aad8141fcc9ce9449eb67d238b084fa87e9ea7ac1b1ae5643d498255166865af",
+      "aux_mount/pneumatics.py": "0fc64be74b11ad4051cbf28de6ff814bfad6f67bf6e8603edd57b94d39136bc4",
+      "aux_mount/plant.py": "47b6dde8c54590c5713fbf995e74493595dab9d59b7cfba1fe24f311a527d8eb"
+    },
+    "scope": "RESEARCH_EQUIVALENT_NOT_CAD_FINAL_OR_HARDWARE_CALIBRATED"
+  },
+  "cad_body_source_freeze": {
+    "schema": "gtsd-cad-body-source-freeze-v1",
+    "physics_source_sha256": {
+      "cad_body/__init__.py": "8fd2d60ee687a024a39678aa0d0ba612f92d00a2a5c998276621c503e2d1169a",
+      "cad_body/bootstrap.py": "79319c5a301bc248c5b3c67acbc1201d5844272aaad2b4397be9b989c0183ac8",
+      "cad_body/geometry.py": "8d54f44fa58c85dcbf6065293905721e29319bf59716c7eac6044b16ee49348f",
+      "cad_body/model.py": "da81c5d8a0f3db1197d97fa2faad3fd11919fcf0e8219c5325f778d449b65e28",
+      "cad_body/plant.py": "0e76e4e50ab216ca85375369a2a7c3caa3817b81a271959cb0435f548196b45a",
+      "READONLY_DEPENDENCIES.json": "af3d1e6b1c8abd4154e1d9f8088209a3f82353037ca4d1ebef23256c1a733e4e",
+      "replacement_manifest.json": "2d1847f9ea3b6501d11cbd1d688bca4bccce9f68757dc6ae2fc23ca2977d08f4"
+    },
+    "factory": "cad_body.plant.CadBodyPlant",
+    "variant": "cad_body_mounted",
+    "visual_resource_interface": "callable plant.visual_resource_bytes() -> deterministic bytes; no persisted full geometry duplicate",
+    "composed_geometry_sha256": "dd755228cb86d2e9a48fb1fb4dcce5dbb7dfeb7456ea99af9fd7541ef7f1299b",
+    "validated_identity_sha256": {
+      "full": "9f08e7d4cd94594e8279e466bc93b452a9a207f5640e7d2e802b08b84388f7af",
+      "half": "36822f08aaa10cdeee61ae35122b142736879cc405cb27367ba505540e518570"
+    },
+    "scope": "CAD_SECTION_PARTIAL_MOUNTING_MIGRATION_RESEARCH_ONLY"
+  },
+  "explicit_variant": "cad-doors-four-fans-strict-rollback-research",
+  "legacy_expected_hash_modified": false,
+  "cad_doors_source_freeze": {
+    "schema": "gtsd-cad-doors-source-freeze-v1",
+    "physics_source_sha256": {
+      "cad_doors/__init__.py": "cbb5e9c78b8237cf81dfe3873a178dd066618cbbe3e2142cd6035ded30848b2e",
+      "cad_doors/bootstrap.py": "870df3c0d4e142066c251a02a507e2fe6fd95f7f19ef68cee42ed32ef64c42b5",
+      "cad_doors/geometry.py": "c1c6bb23e257810e02c9e8bcff2babdb580e888d1897613ac983594650b2a602",
+      "cad_doors/moments.py": "c1959b25505889d122fa25da1af0b2a29ee8d8e3e6998540c596a93b18eb9893",
+      "cad_doors/model.py": "8f52acff75035bedeca1990c60d5e79f089279255287c1bfd54bee5e5d780ef2",
+      "cad_doors/plant.py": "4a30255fe0c5d7170900085236cb26e750bdcd0abd11871e8985da1e6d1b7713",
+      "READONLY_DEPENDENCIES.json": "faffb86dc8609e1f1380584d54a497b578c19e9c760a43ec5bd7defd2e0457a7",
+      "PHYSICAL_INTERFACE_CONTRACT.json": "1c2eacefb601016d029282c75833077569196cdd89dd4dffe1c17bf086dcc253"
+    },
+    "factory": "cad_doors.plant.CadDoorsPlant",
+    "variant": "cad_doors_mounted",
+    "state_schema": "gtsd-v5-live-plant-state-v1",
+    "checkpoint_schema": "gtsd-cad-doors-assembly-checkpoint-v1",
+    "visual_resource_interface": "plant.visual_resource_bytes() callable returns deterministic bytes",
+    "composed_geometry_sha256": "b35ad745e7558a31afea5ad45087985fe36d747d9424bd8dc28e1ca885a5acdc",
+    "validated_identity_sha256": {
+      "full": "d74ea534b0635b33f0665c30fda60d46135b49351d36f20bd61c2e6c56578979",
+      "half": "8d9227a0bedc305bb474bf11553a402e0b4451a65c6707e14600e27689a4fdce"
+    },
+    "nq": 91,
+    "nv": 79,
+    "scope": "CAD_OPENING_DERIVED_CANDIDATE_DOORS_IDEAL_SPATIAL_CATCHES_PARTIAL_CONTACT_ONE_NATIVE_FAN"
+  },
+  "fan82_source_freeze": {
+    "schema": "gtsd-fan82-source-freeze-v1",
+    "physics_source_sha256": {
+      "fan82/__init__.py": "f718f4da672d235c9d935b70360104b0bb03cdfaa34422c99a81f2e66556c27a",
+      "fan82/bootstrap.py": "745a9546dd333c302d239a5b7a39a0c66b01d2584cb3126ed1cf25f75d73907f",
+      "fan82/model.py": "56685007965717b1ccc701eedfad5a59741377d8413a3c2cf2d0236dafbac759",
+      "fan82/geometry.py": "2ef316af43ed12ba290bc4fd54b8be7693221d7b82f7e4a1f05f866ea57e4da3",
+      "fan82/runtime.py": "7fbb4ee18e91566bae832a10c192beea663cc64f94369703ebacd0b7b77e37ff",
+      "fan82/plant.py": "b21a53fe2cced3ca8c621415474629aed2ab30a7ca0d0042e433a9df7843d41a",
+      "FAN82_INTERFACE_CONTRACT.json": "b56b541f62e2b4dd94e42e42cf6cf3c1cd802327aad749cd5c24cf4692ab6115"
+    },
+    "frozen79_source_freeze_sha256": "4a9d61522b2bd05293be8436a79bce1aa62e2ba2070437e466d73d0c76e42046",
+    "factory": "fan82.plant.FourDoorFansPlant",
+    "variant": "cad_doors_four_fans",
+    "nq": 94,
+    "nv": 82,
+    "geometry_sha256": "2b6314a577bc67c5781268d797c57be6674ef16d42eed9f47731238cfc299fed",
+    "validated_identity_sha256": {
+      "full": "df9da29aab2a3a5ebc406004d48ad0b15d58f9b533d847a99aa04a469bf3dd09",
+      "half": "2e9c1de2fe0407521d19c3efa4564c5c678a745513d26e9ccd7d3901b9fd131f"
+    },
+    "thermal_boundary": "Additional three copper/bearing heats standalone diagnostics, no old cabinet feedback"
+  },
+  "strict_freeze": {
+    "schema": "gtsd-four-fan-strict-rollback-source-freeze-v1",
+    "physics_source_sha256": {
+      "bootstrap.py": "b272c017370b03814610726ec69ba0942c3c058ca4b2787e42b4a7366fa156a4",
+      "strict_four_fan.py": "cead214288657c66cc801ed0bf4542f8ab3f14d9c94e639cd1902e6f24451a70",
+      "optimized_four_fan.py": "4e28fd9972881a1e70213626f88ec6dea543ca9b7fd34ca6bea5e80577a5862e"
+    },
+    "frozen82_source_freeze_sha256": "b084492e62453f8bd8fdf8bec25c82efd547fc8cd28095aaa0ed1baf30811526",
+    "trusted_rollback_source_sha256": "e368f4f19af2e645d1f746036cec40c83c66c1ba1c2a1bad9008124df0cb2c9f",
+    "strict_factory": "strict_four_fan.StrictFourDoorFansPlant",
+    "optimized_factory": "optimized_four_fan.TrustedRollbackFourDoorFansPlant",
+    "nq": 94,
+    "nv": 82,
+    "geometry_sha256": "2b6314a577bc67c5781268d797c57be6674ef16d42eed9f47731238cfc299fed",
+    "validated_optimized_identity_sha256": {
+      "full": "9bd3b5a7f26a40c44f1b77f5c71b9ec53488e682170ddfda651a939aa96323db",
+      "half": "9b02c97569592717ed225283e919f187bdfc2fad46bfbcd37e756c155289931a"
+    },
+    "physics_equations_changed": false
+  },
+  "console_interface_identity": {
+    "schema": "gtsd-strict82-console-interface-identity-v1",
+    "adapter_source_sha256": "19582ffdef2e3dcd422b1641be3a72fb9a6912f0c831590e38504d5de93c3b3d",
+    "prior_console_source_freeze_sha256": "8d7768d39969d218976f392ad2e29164ecbd9281d74d8e40f5dad8e6502c5989",
+    "strict_physics_source_freeze_sha256": "8ca0b3c31aae608c08e80a9657d4da0b2cc8f9c74edd4cea2125cb8087ea4e82",
+    "trusted_rollback_source_sha256": "e368f4f19af2e645d1f746036cec40c83c66c1ba1c2a1bad9008124df0cb2c9f",
+    "bootstrap_policy": "reviewed path/admission shim; original frozen bootstrap pinned, not executed; no numerical source file edits",
+    "presentation_policy": "composition delegate; native type/MRO and raw checkpoint unchanged",
+    "command_protocol": "detached snapshot enum/values -> string/enum with exact value set preserved"
+  },
+  "assembly": {
+    "default_scene": "20_FRONT_ROUTE_NOMINAL_FIT",
+    "meshes": 1933,
+    "mapping_loaded": true,
+    "new_contact_enabled": false
+  }
+}

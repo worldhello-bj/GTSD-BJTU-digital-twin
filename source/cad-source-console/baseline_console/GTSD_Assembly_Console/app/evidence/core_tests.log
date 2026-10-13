@@ -1,0 +1,20 @@
+✔ catalogue rejects duplicates and unknown scene members (1.622524ms)
+✔ mutually exclusive source variants never accumulate (0.874861ms)
+✔ stale, nonfinite and incomplete runtimes reject commands (0.636306ms)
+✔ world-space native translation applies once without modifying source (0.587521ms)
+✔ nontrivial reference rotation is inverted before current rotation (0.373663ms)
+✔ wrong visual or solver identity blocks pose application (0.236007ms)
+✔ missing or nonunit body/reference poses fail closed (0.418557ms)
+✔ world remains static and excluded/unknown fields never animate (0.208932ms)
+✔ unverified oriented triangles cannot be bound (0.325349ms)
+✔ unknown row and invalid alternative arrays reject (0.655768ms)
+✔ pause remains available for known stale session while run and step fail closed (0.445534ms)
+✔ command whitelist rejects extra or invalid run/step arguments at server boundary (0.165261ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 154.837207

@@ -1,0 +1,28 @@
+{
+  "schema": "gtsd-public-privacy-scope-v1",
+  "checked_on": "2026-10-13",
+  "included": "Generated assembly/physics source, generated runtime meshes and source-review states, actual engineering renders, frozen source and verification contracts.",
+  "excluded": [
+    "Original CAD DWG/DXF",
+    "Raw photos and course PDFs",
+    "Original OLE embedded images",
+    "Private notes and complete audit archives",
+    "Credentials and signed/private attachment URLs",
+    "Raw long-duration simulation traces, pickle/NumPy state dumps",
+    "Private-input extraction and reconstruction recipes outside byte-frozen baseline provenance"
+  ],
+  "pattern_matches": {
+    "private_library_id": 0,
+    "signed_url": 0,
+    "credential": 0,
+    "private_service_url": 0,
+    "internal_note_path": 0,
+    "private_marker": 0
+  },
+  "frozen_files_verified_byte_equal": 289,
+  "frozen_historical_workspace_constants": "Preserved as provenance; portable loader resolves current checkout. Source hashes were not rewritten.",
+  "runtime_library_states": 44,
+  "native_meshes": 1932,
+  "native_sha256": "08b61aa81c1a3b51c54488b413aaae5072013c51ca6afcd32c20168b7bb9eac2",
+  "scan_scope": "All included source and payload-decoded bytes, with gzip runtime assets decompressed for scanning. Pattern scan plus explicit allowlist, not a proof against arbitrary secret formats."
+}

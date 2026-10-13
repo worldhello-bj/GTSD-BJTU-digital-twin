@@ -1,0 +1,197 @@
+{
+  "schema": "gtsd-cad-assembly-console-acceptance-v1",
+  "software_http_accepted": true,
+  "browser_accepted": false,
+  "browser_blocker": "Execution Chromium sandbox socket EPERM; official escalation bwrap mount error. Official cloud CDP available but new execution loopback endpoint returns ERR_CONNECTION_REFUSED while same-process HTTP=200.",
+  "node_tests_passed": 23,
+  "readonly_http_tests_passed": 6,
+  "real_http_test": {
+    "ok": true,
+    "native_calls": [
+      {
+        "wall_s": 0.12329463500645943,
+        "steps": 1
+      },
+      {
+        "wall_s": 0.23526934400433674,
+        "steps": 2
+      },
+      {
+        "wall_s": 0.16839073100709356,
+        "steps": 2
+      }
+    ],
+    "runtime_pose_count": 48,
+    "changed_bodies_after_step1": [
+      "frame",
+      "payload_secondary",
+      "panto_base",
+      "panto_lower",
+      "panto_upper",
+      "panto_head_carriage",
+      "panto_head_float",
+      "door_end_neg_y_neg",
+      "bay_fan_stator",
+      "bay_fan_rotor",
+      "door_end_neg_y_pos",
+      "door_fan_end_neg_y_pos_stator",
+      "door_fan_end_neg_y_pos_rotor",
+      "door_end_pos_y_neg",
+      "door_fan_end_pos_y_neg_stator",
+      "door_fan_end_pos_y_neg_rotor",
+      "door_end_pos_y_pos",
+      "door_fan_end_pos_y_pos_stator",
+      "door_fan_end_pos_y_pos_rotor",
+      "compressor_stator",
+      "compressor_rotor",
+      "compressor_piston",
+      "compressor_fan_stator",
+      "compressor_fan_rotor",
+      "aux_cabinet",
+      "arm_carrier_1",
+      "wheelset_1",
+      "brake_disc_1",
+      "brake_axle_1_minus",
+      "brake_axle_1_plus",
+      "arm_carrier_2",
+      "wheelset_2",
+      "brake_disc_2",
+      "brake_axle_2_minus",
+      "brake_axle_2_plus",
+      "v5c_bay_wire_0_0",
+      "v5c_bay_wire_0_1",
+      "v5c_bay_wire_0_2",
+      "v5c_bay_wire_0_3",
+      "v5c_bay_wire_0_4",
+      "v5c_bay_wire_0_5",
+      "v5c_bay_wire_0_6",
+      "v5c_panto_air_hose_0",
+      "v5c_panto_air_hose_1",
+      "v5c_panto_air_hose_2",
+      "v5c_panto_air_hose_3"
+    ],
+    "readonly_routes_no_mutation_or_lease": true,
+    "complete_resource_hashes": true,
+    "restore_checkpoint_exact_json_structure": true,
+    "restore_body_poses_exact": true,
+    "continued_checkpoint_and_poses_exact": true,
+    "zero_new_collision": true,
+    "wall_s": 40.4361665630131,
+    "browser": false,
+    "uncompressed_glb_written": false
+  },
+  "actual_geometry_parse": {
+    "pass": true,
+    "glb_sha256": "fff3f9fffd83e380435eba3a0f9ba975b87557b794d671ee175ea842235bbfa9",
+    "union_meshes": 1950,
+    "scenes": {
+      "19_NATIVE_CLAMP_SOURCE_REVIEW": {
+        "meshes": 1933,
+        "triangles": 1631188
+      },
+      "20_FRONT_ROUTE_NOMINAL_FIT": {
+        "meshes": 1933,
+        "triangles": 1631316
+      },
+      "21_PLAN_ROUTE_NOMINAL_FIT": {
+        "meshes": 1934,
+        "triangles": 1631976
+      },
+      "22_FRONT_ROUTE_HOLES_6P2": {
+        "meshes": 1933,
+        "triangles": 1631316
+      },
+      "23_FRONT_ROUTE_UNCUT_SLOT_REVIEW": {
+        "meshes": 1933,
+        "triangles": 1631276
+      }
+    },
+    "default_initial_pose_summary": {
+      "dynamic_visual_meshes": 466,
+      "world_static_meshes": 764,
+      "unbound_or_static_reference_meshes": 703,
+      "new_collision_meshes": 0,
+      "sample_time_s": 0,
+      "steps": 0
+    },
+    "all_output_vertices_finite": true,
+    "unbound_vertices_same_array": true,
+    "source_vertices_witness_sha256": "a53b573e42a979e9fcd0d3b3f947ab3ca6f44dd7c63a4e0926cfe4d949a9763b",
+    "new_native_step_calls": 0,
+    "source_geometry_unmodified": true,
+    "meaning": "Actual asset parsing and verified initial native poses only; not browser or new collision acceptance."
+  },
+  "runtime_pose_follow": {
+    "pass": true,
+    "scope": "Actual saved HTTP native poses -> complete mesh transform; independent matrix formula, no browser or new contacts.",
+    "samples": [
+      {
+        "sample": "initial",
+        "time_s": 0,
+        "steps": 0,
+        "session_id": "5b8d8488c70f7a879d8f84c539624fa4",
+        "dynamic_meshes": 466,
+        "changed_source_meshes": 0,
+        "checked_dynamic_vertices": 222783,
+        "maximum_independent_matrix_error_m": 0,
+        "unbound_and_world_source_arrays_unchanged": true
+      },
+      {
+        "sample": "step1",
+        "time_s": 0.0002,
+        "steps": 1,
+        "session_id": "5b8d8488c70f7a879d8f84c539624fa4",
+        "dynamic_meshes": 466,
+        "changed_source_meshes": 465,
+        "checked_dynamic_vertices": 222783,
+        "maximum_independent_matrix_error_m": 2.220446049250313e-16,
+        "unbound_and_world_source_arrays_unchanged": true
+      },
+      {
+        "sample": "step2",
+        "time_s": 0.0004,
+        "steps": 2,
+        "session_id": "5b8d8488c70f7a879d8f84c539624fa4",
+        "dynamic_meshes": 466,
+        "changed_source_meshes": 465,
+        "checked_dynamic_vertices": 222783,
+        "maximum_independent_matrix_error_m": 2.220446049250313e-16,
+        "unbound_and_world_source_arrays_unchanged": true
+      },
+      {
+        "sample": "restored",
+        "time_s": 0.0002,
+        "steps": 1,
+        "session_id": "296e2a535692e23e54b48aca3fba6e19",
+        "dynamic_meshes": 466,
+        "changed_source_meshes": 465,
+        "checked_dynamic_vertices": 222783,
+        "maximum_independent_matrix_error_m": 2.220446049250313e-16,
+        "unbound_and_world_source_arrays_unchanged": true
+      },
+      {
+        "sample": "continued",
+        "time_s": 0.0004,
+        "steps": 2,
+        "session_id": "296e2a535692e23e54b48aca3fba6e19",
+        "dynamic_meshes": 466,
+        "changed_source_meshes": 465,
+        "checked_dynamic_vertices": 222783,
+        "maximum_independent_matrix_error_m": 2.220446049250313e-16,
+        "unbound_and_world_source_arrays_unchanged": true
+      }
+    ],
+    "replay_age_note": "Recorded transport ages retained in source evidence, set to zero only for explicit offline transform verification; production freshness checks unchanged."
+  },
+  "frozen_numeric_sources_modified": false,
+  "new_cad_contact_enabled": false,
+  "pending_public_resource_publication": "Existing unrelated GitHub blob approval remains unresolved; no write retried",
+  "independent_review": "independent_audit/AUDIT.md",
+  "post_audit_server_change": "Only Content-Security-Policy header added to fixed assembly file responses; six readonly route tests passed again; no numerical/mapping change",
+  "final_code_sha256": {
+    "assembly_server.py": "259d392649fd3cc6227bb7103b841577cd0f310e386af202330d1c6a2701d78f",
+    "web/core.js": "1a387235942dbd77b52c57b19fc7eec826390ee172c6faf2852103bd57858388",
+    "web/app.js": "3c4403169793b6f6445fbc7c98c2a599675c11764c82b679f882c64443e82f42"
+  },
+  "browser_scope": "Read-only existing old course tab succeeded, not current assembly visual acceptance."
+}
