@@ -2573,6 +2573,14 @@
     "SELECTIVE_ASSET_RESTORE.md": {
       "bytes": 3814,
       "sha256": "6bff057dcffc3bb1fc3942f228ed5b745e2849aaa37b0bf44bef2060335ca023"
+    },
+    "tests/test_public_checkout_integrity.py": {
+      "bytes": 9987,
+      "sha256": "c776514078f643b4e8c8ab69fb24c85d6a51f7136069f0fc5e061a87c6aa0586"
+    },
+    "verification/remote_native_94977d1.json": {
+      "bytes": 846,
+      "sha256": "23397957ff97069219bb503f8a132a94fb06d8f7c43aad398f91ca8e4cd9101e"
     }
   }
 }
