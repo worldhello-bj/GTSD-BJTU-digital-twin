@@ -2,6 +2,7 @@
 from pathlib import Path
 import argparse
 import json
+import re
 import os
 import subprocess
 import sys
@@ -21,7 +22,7 @@ def main():
     env = {**os.environ, 'PYTHONDONTWRITEBYTECODE': '1'}
     commands = [('asset_unit', [sys.executable, '-m', 'unittest', 'discover', '-s', 'tests']),
                 ('doctor', [sys.executable, 'doctor.py']),
-                ('node', ['node', '--test', *[str(p.relative_to(ROOT)) for p in sorted((ROOT / 'integration/tests').glob('test_*.js'))]]),
+                ('node', ['node', '--test', '--test-reporter=tap', *[str(p.relative_to(ROOT)) for p in sorted((ROOT / 'integration/tests').glob('test_*.js'))]]),
                 ('source_http', [sys.executable, 'integration/check_source_review_routes.py']),
                 ('rail_http', [sys.executable, 'integration/check_http.py']),
                 ('seat_http', [sys.executable, 'integration/check_seat_http.py']),
@@ -38,7 +39,7 @@ def main():
         print(json.dumps(row), flush=True)
         if run.returncode:
             raise SystemExit('Failed: ' + str(args.out / (name + '.log')))
-    result = {'ok': True, 'checks': checks, 'browser_visual_acceptance': False, 'node_test_count': 41, 'hardware_connected': False}
+    result = {'ok': True, 'checks': checks, 'browser_visual_acceptance': False, 'node_test_count': int(re.search(r'^# tests (\d+)$', (args.out / 'node.log').read_text(), re.M).group(1)), 'hardware_connected': False}
     (args.out / 'result.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
     return result
 

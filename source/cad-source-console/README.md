@@ -1,12 +1,12 @@
 # GTSD 来源整机与虚拟研究控制台
 
-## 传输中草稿：远端资源尚未齐备
+## 交付状态：资源已齐备，真实远端验收通过
 
-当前公开分支仍在补齐资源，尚不能视为可独立运行的完整交付。完整本地冻结快照的验收结果不等于远端 checkout 已可运行；具体传输进度、缺失资源和阻塞项请读取 [TRANSFER_STATUS.json](TRANSFER_STATUS.json)。下面保留的是资源齐备后的运行设计、启动命令与研究边界。
+当前公开分支已具备完整恢复和软件运行所需资源：原有 57 项运行资产、432 份新增来源 JSON 均可从仓库分块校验恢复，来源目录共 476 条审阅状态。真实远端 fresh checkout 已通过运行验收，证据见 [remote_fresh_f8043df.json](verification/remote_fresh_f8043df.json)，分项状态见 [TRANSFER_STATUS.json](TRANSFER_STATUS.json)。下列启动命令可用于复现；浏览器 WebGL 视觉验收和实物校准仍保留独立边界。
 
-本目录保存面向完整交付的公共源码与生成模型快照（2026-10-13）。完整快照包含以下内容，远端是否已齐备以传输状态为准。包含完整最新装配视图、strict82 来源轨道/近侧弹簧座两个物理变体、独立受电弓 H1 候选、44 个来源审阅状态，以及完整 1,932 网格原生 Blender 整机。只监听回环地址，不接真实硬件。
+本目录保存公共源码与生成模型快照（2026-10-13），包含完整装配视图、strict82 来源轨道/近侧弹簧座两个物理变体、独立受电弓 H1 候选、476 个公共来源审阅状态（保留原 44 项身份，新增 432 项），以及完整 1,932 网格原生 Blender 整机。476 是来源审阅状态数，不代表独立实物数。只监听回环地址，不接真实硬件。
 
-## 资源齐备后的启动方式
+## 启动方式
 
 Python 3.12。运行时版本固定为 MuJoCo 3.3.7、NumPy 2.2.6。Node.js 22 或更新版本仅供测试（本次用 24.19.0 复验）；Blender 不是控制台运行依赖。
 
@@ -38,12 +38,40 @@ python prepare_assets.py --check-only # 全只读验证，缺资源即报错
 
 仓库内使用普通二进制分块，现存分块最大 4 MiB；本次增量交付的新分块每块不超过 300,000 字节。生成资源约 175 MB，分块约 82 MB（十进制），另有普通源码、合同和实渲图。57 个恢复资源中包括 9 张生成 PNG；运行 `doctor.py` 或 `launch.py` 时会恢复到原路径，无需手工拼接。解压后按 `.gitignore` 忽略生成的大文件和这些 PNG；不要提交恢复副本。
 
+## 只恢复某个资源：无需等待无关资源传完
+
+在本目录运行下面命令；只会使用清单中该资源自己的分块，不下载资源，也不启动 Blender、求解器或网页：
+
+```sh
+python prepare_assets.py --list-assets
+python prepare_assets.py --only integration/source_assembly_native/GTSD_Source_Assembly_Revision.blend
+python prepare_assets.py --check-only --only integration/source_assembly_native/GTSD_Source_Assembly_Revision.blend
+```
+
+`--only` 必须使用 `ASSET_MANIFEST.json` 的完整 `asset.path`，可重复指定；不接受简称、目录或通配符。该资源自己的全部分块仍必须齐备。`--list-assets` 只列出名称，不证明文件已在远端或本地可用。选择恢复成功只证明所选资源通过身份检查，不能证明整套控制台可启动。
+
+不带 `--only` 的恢复、`doctor.py` 和 `launch.py` 仍严格要求全套资源，不会记住上一次选择或跳过缺失项。更多边界与并发写入保护见 [SELECTIVE_ASSET_RESTORE.md](SELECTIVE_ASSET_RESTORE.md)。
+
+完整来源层已在代码提交 `f8043dfa175c349dff0c280e1f21992d3866a89e` 通过真实 GitHub HTTPS fresh checkout 验收：107 项 Python、50 项 Node 测试全部通过，零失败、零跳过；doctor 及来源、rail、seat、candidate HTTP 检查全部通过。476 条来源资源 API 均返回 HTTP 200 且字节一致，432 份 JSON 完整恢复并逐 SHA 核验；旧 57 项资产、44 份来源和 ASSET_MANIFEST 保持不变。详细结果见 [公开验收报告](verification/remote_fresh_f8043df.json)。其后提交仅修正文档、验收证据及对应清单，运行代码和模型资产与该已验收代码提交相同。
+
+浏览器 WebGL/鼠标视觉验收仍为 `blocked_environment`：会话隔离和默认沙箱 socket 权限限制尚未解决，未绕过限制。GitHub CI 在本次交付查询时未运行；上述通过结果来自独立真实远端检出验收。未连接硬件，未进行实物或材料校准，短步软件验收不推导长期收敛或实机安全结论。
+
+公共来源页保留原 44 项资源字节身份，新增 432 个已审阅的生成 JSON。此前保守隔离的 8 项来源比较现按原字节加入独立小容器，保留原不确定性与语义层级；来源出处字段只作标识，不表示该证据文件可下载。本增量不修改整机映射、物理、质量或碰撞，来源状态数不代表 1:1 实体化完成。
+
+## 新增来源 JSON 的独立无损传输
+
+432 个新增的已审生成 JSON 共 43,998,336 字节，分为两个独立、固定白名单的 XZ 容器，总计 6,915,152 字节、24 块，每块不超过 300,000 字节。第一容器的 424 文件/23 块完全保持已验证身份；第二容器只增加 8 文件/252,660 字节单块。原 57 运行资产的清单、分块、路径、字节和 SHA 均不变。公共来源目录为 476 审阅状态，按原路径延迟加载，不等于 476 个实物。
+
+`python prepare_assets.py --source-review-only` 自动校验并恢复全部 432 新 JSON；加 `--check-only` 只读检查。正常 `prepare_assets.py`、`launch.py`、`doctor.py` 在旧资源恢复后自动执行相同来源恢复。无需手工重组。旧 `--only` 和 `--list-assets` 仍仅针对原 57 资产。
+
+恢复器先验证两个固定清单、所有块与每个文件的边界/SHA/UTF-8 JSON，再逐文件原子创建，拒绝覆盖不同内容或跟随符号链接。需要 Linux/macOS 的目录相对文件操作；Windows 请使用 WSL。中断后重跑校验已完成文件并补齐缺项。详见 [SOURCE_REVIEW_RESTORE.md](SOURCE_REVIEW_RESTORE.md)。来源层恢复不替代完整控制台和真实远端 checkout 验收。
+
 ## 页面
 
 - `/`：完整设备控制台，共用 strict82 会话
 - `/assembly`：真实装配源网格、逐件来源/绑定、运行/暂停/单步及来源替换开关
 - `/pantograph-candidate`：独立 H1 拓扑试验，默认禁用，不沿用整车状态
-- `/source-library`：44 个互斥来源、解释、拓扑清理或冲突对照状态
+- `/source-library`：476 个互斥公共来源、解释、拓扑清理或冲突对照状态；目录列出状态不等于远端资源齐备
 - `/source-audit`：2,738 个 Model 顶层对象索引
 - `/source-dimensions`、`/source-drive`、`/source-fixture`：轴承包络、40 件驱动对照、变压器配套来源
 
@@ -72,9 +100,9 @@ node --test integration/tests/test_*.js
 python run_acceptance.py
 ```
 
-`run_acceptance.py` 自动恢复资源，在 `acceptance-output/` 写本次证据并运行：6 项恢复安全测试、doctor、41 个 Node 测试、来源页面只读 HTTP、两个整车模式各三次原生单步及完整 checkpoint 恢复/续算、独立候选联合路由。它不重写冻结基线或历史证据。测试应在无其它本目录控制台运行的环境执行。核心正常启动不依赖 Node。
+`run_acceptance.py` 自动恢复资源，在 `acceptance-output/` 写本次证据并运行：自动发现的全部恢复与完整性测试（保留原 35 项并新增来源打包与 checkout 检查）、doctor、按当前源码发现的 Node 测试、来源页面只读 HTTP、两个整车模式各三次原生单步及完整 checkpoint 恢复/续算、独立候选联合路由。它不重写冻结基线或历史证据。测试应在无其它本目录控制台运行的环境执行。核心正常启动不依赖 Node。
 
-公共源码自带 `PUBLIC_MANIFEST.json`；冻结 `baseline_console/GTSD_Assembly_Console/BUNDLE_MANIFEST.json` 的 289 项文件恢复后逐字节不变，原有求解器身份不重新签署。历史 `/workspace/shared/...` 常量是代码来源，portable 加载器在运行时使用当前目录，不能为“清理路径”而改写这些冻结源文件。公共包 fresh-copy 复验结果见 `PUBLIC_ACCEPTANCE.json`。浏览器 WebGL/鼠标交互不由 HTTP/Node 通过推出。
+公共源码自带 `PUBLIC_MANIFEST.json`；冻结 `baseline_console/GTSD_Assembly_Console/BUNDLE_MANIFEST.json` 的 289 项文件恢复后逐字节不变，原有求解器身份不重新签署。历史工作区绝对路径常量是代码来源，portable 加载器在运行时使用当前目录，不能为“清理路径”而改写这些冻结源文件。原冻结公共包的历史 fresh-copy 复验结果见 `PUBLIC_ACCEPTANCE.json`；其中的旧测试数量和 44 项来源范围不代表本次增量已完成整套验收。`PUBLIC_PRIVACY_REPORT.json` 也保留冻结时的历史范围。浏览器 WebGL/鼠标交互不由 HTTP/Node 通过推出。
 
 ## 必须保留的研究边界
 
@@ -86,7 +114,3 @@ python run_acceptance.py
 - 短步恢复验收与已保存的 20 ms 数值研究不证明长期收敛、载荷准确、实机安全或实时性能。原始长程结论不自动继承到新几何。
 
 发布范围和扫描结果见 `PUBLIC_PRIVACY_REPORT.json`；资产和原生身份见 `ASSET_MANIFEST.json`、`integration/source_assembly_native/NATIVE_MANIFEST.json`。
-
-## Selective asset recovery
-
-Use `python prepare_assets.py --list-assets` to inspect exact names and `python prepare_assets.py --only integration/source_assembly_native/GTSD_Source_Assembly_Revision.blend` to restore only the native model after all of its chunks are present. Multiple `--only` selections are supported. Partial recovery does not make the complete console runnable. Default launch and doctor still require every asset. See SELECTIVE_ASSET_RESTORE.md.

@@ -1,9 +1,7 @@
 {
-  "schema": "gtsd-public-transfer-pending-v5",
-  "checked_utc": "2026-10-13T09:30:58.904172+00:00",
-  "remote_runnable": false,
-  "remote_stage": "assets_complete_pending_fresh_checkout_runtime",
-  "console_tree_files": 590,
+  "schema": "gtsd-public-complete-source-transfer-v7",
+  "checked_utc": "2026-10-13T11:28:15Z",
+  "console_tree_files": 623,
   "planned_asset_count": 57,
   "complete_assets": 57,
   "incomplete_assets": 0,
@@ -475,6 +473,106 @@
     "frame_18068_native_curves.json"
   ],
   "local_complete_snapshot_verified": true,
-  "browser_visual_acceptance": false,
-  "note": "All expected resource paths are linked. Full fresh-checkout runtime acceptance is pending; resource completeness alone is not physical calibration."
+  "note": "The complete 476-state source-review and core virtual runtime passed a genuine remote fresh checkout at the recorded code commit. The subsequent documentation-only commit adds this report, its manifest entry, and status; runtime code and model assets are unchanged. Browser WebGL visual acceptance remains independently blocked by the environment. Source states are not distinct physical parts; no new physics or material calibration is claimed.",
+  "source_review": {
+    "states": 476,
+    "preserved_original_resources": 44,
+    "new_json_files": 432,
+    "containers": 2,
+    "chunks": 24,
+    "packed_bytes": 6915152,
+    "raw_bytes": 43998336,
+    "missing_paths": [],
+    "all_linked": true,
+    "remote_fresh_checkout_status": "passed",
+    "local_validation": {
+      "python_tests_run": 107,
+      "python_tests_passed": 106,
+      "python_tests_skipped": 1,
+      "skip_reason": "Git attribute check unavailable in disposable fixture without Git metadata.",
+      "node_tests_passed": 12,
+      "restored_json_files_sha_verified": 432,
+      "independent_reproduction_equal": true,
+      "independently_rebuilt_files": 46
+    },
+    "verified_commit": "f8043dfa175c349dff0c280e1f21992d3866a89e",
+    "remote_verification": {
+      "evidence": "verification/remote_fresh_f8043df.json",
+      "python_tests": {
+        "count": 107,
+        "failed": 0,
+        "skipped": 0
+      },
+      "node_tests": {
+        "count": 50,
+        "failed": 0,
+        "skipped": 0
+      },
+      "source_resource_api_paths_tested": 476,
+      "source_resource_api_all_http_200_and_bytes_verified": true,
+      "json_files_restored_and_sha_verified": 432,
+      "tracked_git_blobs_verified": 872,
+      "git_clean_before": true,
+      "git_clean_after": true
+    }
+  },
+  "core_runtime": {
+    "status": "passed_remote_fresh_checkout",
+    "verified_head": "4401c7b64f53b434f0eba141b4a800e493152c7e",
+    "merged_main_head": "09280ec31d298e37f177f61f99b2a4ef550c2ede",
+    "checks": {
+      "python_tests_passed": 41,
+      "node_tests_passed": 41,
+      "doctor": "passed",
+      "http_routes": [
+        "source",
+        "rail",
+        "seat",
+        "candidate"
+      ],
+      "http_routes_passed": 4,
+      "working_tree": "clean"
+    },
+    "evidence": "verification/remote_fresh_4401c7b.json"
+  },
+  "browser_visual_acceptance": {
+    "status": "blocked_environment",
+    "blockers": [
+      "Browser session isolation prevents reaching the executor-local server.",
+      "Default sandbox socket permission prevents required browser-side access."
+    ],
+    "restrictions_bypassed": false,
+    "visual_acceptance_completed": false,
+    "webgl_visual_acceptance": "not_completed",
+    "independent_of_software_acceptance": true
+  },
+  "complete_runtime": {
+    "status": "passed_remote_fresh_checkout",
+    "verified_commit": "f8043dfa175c349dff0c280e1f21992d3866a89e",
+    "verified_tree": "13c9bf7c237d87dd9767384ceddc7d9febbc3e0d",
+    "evidence": "verification/remote_fresh_f8043df.json",
+    "checks": {
+      "python_tests_passed": 107,
+      "python_tests_failed": 0,
+      "python_tests_skipped": 0,
+      "node_tests_passed": 50,
+      "node_tests_failed": 0,
+      "node_tests_skipped": 0,
+      "doctor": "passed",
+      "http_routes": [
+        "source",
+        "rail",
+        "seat",
+        "candidate"
+      ],
+      "http_routes_passed": 4,
+      "source_api_paths_byte_verified": 476
+    },
+    "legacy_preservation": {
+      "baseline_head_sha": "4401c7b64f53b434f0eba141b4a800e493152c7e",
+      "asset_manifest_byte_identical": true,
+      "assets_checked": 57,
+      "original_source_resources_checked": 44
+    }
+  }
 }
