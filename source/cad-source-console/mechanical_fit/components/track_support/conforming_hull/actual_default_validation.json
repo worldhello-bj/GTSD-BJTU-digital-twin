@@ -1,0 +1,264 @@
+{
+  "profile_id": "track_support_conforming_hull",
+  "pass": true,
+  "actual_main_commit": "c5dd336857fe7b573443bc6c1721e4883584acc5",
+  "actual_default_scene_mesh_count": 1936,
+  "post_profile_mesh_count": 1932,
+  "remove_names_all_exist_in_actual_default": true,
+  "complete_original_5_groups_11_meshes_included": true,
+  "all_replaced_source_axes_and_Z_support_datums_preserved": true,
+  "no_positive_volume_collision_for_9_profile_meshes_against_complete_actual_default_scene": true,
+  "aabb_tolerance_m": 1e-08,
+  "exact_surface_tolerance_m": 1e-09,
+  "full_scene_nontrivial_pairs": [
+    {
+      "pair": [
+        "CAD_TRACK_REV_outer_branch_native_xy",
+        "FIT_TRACK_clip_01_0_-1"
+      ],
+      "status": "EXACT_TRIANGULATED_MESHES_SEPARATED",
+      "tested_triangle_pairs": 90,
+      "method": "Triangle AABB, six segment-triangle tests, coplanar 2D SAT, both unique-vertex containment directions",
+      "tolerance_m": 1e-09
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_outer_branch_native_xy",
+        "FIT_TRACK_clip_01_0_1"
+      ],
+      "status": "EXACT_TRIANGULATED_MESHES_SEPARATED",
+      "tested_triangle_pairs": 90,
+      "method": "Triangle AABB, six segment-triangle tests, coplanar 2D SAT, both unique-vertex containment directions",
+      "tolerance_m": 1e-09
+    },
+    {
+      "pair": [
+        "DETAIL_BENCH_turnout_inner_left_segment",
+        "FIT_TRACK_clip_03_1_-1"
+      ],
+      "status": "SEPARATING_PLANE_PROOF",
+      "separated_or_coplanar": true,
+      "separating_axis": [
+        0.14141963422298431,
+        0.9899497628211975,
+        -0.0
+      ],
+      "minimum_projected_gap_mm": 0.5502301196449455
+    },
+    {
+      "pair": [
+        "DETAIL_BENCH_turnout_inner_left_segment",
+        "FIT_TRACK_clip_03_1_1"
+      ],
+      "status": "SEPARATING_PLANE_PROOF",
+      "separated_or_coplanar": true,
+      "separating_axis": [
+        0.14141963422298431,
+        0.9899497628211975,
+        -0.0
+      ],
+      "minimum_projected_gap_mm": 24.45798050551462
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_outer_branch_native_xy",
+        "FIT_TRACK_clip_03_1_1"
+      ],
+      "status": "SEPARATING_PLANE_PROOF",
+      "separated_or_coplanar": true,
+      "separating_axis": [
+        -0.38270557148806983,
+        -0.9238703618755122,
+        0.0
+      ],
+      "minimum_projected_gap_mm": 232.96495023678833
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_TRACK_clip_23_2_-1"
+      ],
+      "status": "SEPARATING_PLANE_PROOF",
+      "separated_or_coplanar": true,
+      "separating_axis": [
+        -0.06585300322007975,
+        -0.9978293350903731,
+        -0.0
+      ],
+      "minimum_projected_gap_mm": 0.08812298295579613
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_TRACK_clip_23_2_1"
+      ],
+      "status": "EXACT_TRIANGULATED_MESHES_SEPARATED",
+      "tested_triangle_pairs": 42,
+      "method": "Triangle AABB, six segment-triangle tests, coplanar 2D SAT, both unique-vertex containment directions",
+      "tolerance_m": 1e-09
+    }
+  ],
+  "retained_unrelated_global_scene_not_certified": true,
+  "source_support_volume_analysis": [
+    {
+      "name": "FIT_TRACK_station03_common_support",
+      "source_position_constituents": [
+        "DETAIL_BENCH_branch_chair_03_1",
+        "ENV_rail_chair.007",
+        "DETAIL_BENCH_crossing_support_plate",
+        "ENV_rail_chair.009"
+      ],
+      "union_existing_material_mm3": 470428.58978041186,
+      "candidate_material_mm3": 575812.0225318671,
+      "added_joining_material_mm3": 105383.43275145529,
+      "added_fraction_of_union": 0.22401579121848547,
+      "removed_material_mm3": 0,
+      "volume_method": "Inclusion-exclusion of exact convex hulls verified equal to frozen convex proxy volumes within 0.01 mm3; not AABB estimate",
+      "intersection_terms": [
+        {
+          "input_indices": [
+            0
+          ],
+          "intersection_volume_mm3": 52103.503461543696
+        },
+        {
+          "input_indices": [
+            1
+          ],
+          "intersection_volume_mm3": 52103.49702130417
+        },
+        {
+          "input_indices": [
+            2
+          ],
+          "intersection_volume_mm3": 405427.1372587826
+        },
+        {
+          "input_indices": [
+            3
+          ],
+          "intersection_volume_mm3": 52103.49702130417
+        },
+        {
+          "input_indices": [
+            0,
+            1
+          ],
+          "intersection_volume_mm3": 38139.35548564428
+        },
+        {
+          "input_indices": [
+            0,
+            2
+          ],
+          "intersection_volume_mm3": 12052.74013981475
+        },
+        {
+          "input_indices": [
+            0,
+            3
+          ],
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "input_indices": [
+            1,
+            2
+          ],
+          "intersection_volume_mm3": 12890.464331430308
+        },
+        {
+          "input_indices": [
+            1,
+            3
+          ],
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "input_indices": [
+            2,
+            3
+          ],
+          "intersection_volume_mm3": 37253.66743536194
+        },
+        {
+          "input_indices": [
+            0,
+            1,
+            2
+          ],
+          "intersection_volume_mm3": 9027.182409728513
+        },
+        {
+          "input_indices": [
+            0,
+            1,
+            3
+          ],
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "input_indices": [
+            0,
+            2,
+            3
+          ],
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "input_indices": [
+            1,
+            2,
+            3
+          ],
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "input_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "intersection_volume_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "name": "FIT_TRACK_station23_common_support",
+      "source_position_constituents": [
+        "DETAIL_BENCH_branch_chair_23_2",
+        "ENV_rail_chair.046"
+      ],
+      "union_existing_material_mm3": 102975.22670026847,
+      "candidate_material_mm3": 102975.22670026847,
+      "added_joining_material_mm3": 0.0,
+      "added_fraction_of_union": 0.0,
+      "removed_material_mm3": 0,
+      "volume_method": "Inclusion-exclusion of exact convex hulls verified equal to frozen convex proxy volumes within 0.01 mm3; not AABB estimate",
+      "intersection_terms": [
+        {
+          "input_indices": [
+            0
+          ],
+          "intersection_volume_mm3": 52103.48314436132
+        },
+        {
+          "input_indices": [
+            1
+          ],
+          "intersection_volume_mm3": 52103.483933257085
+        },
+        {
+          "input_indices": [
+            0,
+            1
+          ],
+          "intersection_volume_mm3": 1231.7403773499345
+        }
+      ]
+    }
+  ],
+  "physics_unchanged": true,
+  "no_hardware": true
+}

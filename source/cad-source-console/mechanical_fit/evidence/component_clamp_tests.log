@@ -1,0 +1,14 @@
+test_cross_integral_translation_invariance (__main__.ClampProfiles.test_cross_integral_translation_invariance) ... ok
+test_each_new_mesh_oriented_watertight (__main__.ClampProfiles.test_each_new_mesh_oriented_watertight) ... ok
+test_frozen_profiles (__main__.ClampProfiles.test_frozen_profiles) ... ok
+test_main_wire_untouched (__main__.ClampProfiles.test_main_wire_untouched) ... ok
+test_optional_endpoint_interference_not_hidden (__main__.ClampProfiles.test_optional_endpoint_interference_not_hidden) ... ok
+test_profile_no_machine_paths_or_physics (__main__.ClampProfiles.test_profile_no_machine_paths_or_physics) ... ok
+test_retain_front_projection (__main__.ClampProfiles.test_retain_front_projection) ... ok
+test_three_exclusive_profiles (__main__.ClampProfiles.test_three_exclusive_profiles) ... ok
+test_uncertainties_stay_unresolved (__main__.ClampProfiles.test_uncertainties_stay_unresolved) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.198s
+
+OK

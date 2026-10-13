@@ -1,0 +1,19 @@
+{
+  "schema": "balise-portable-rebuild-check-v1",
+  "pass": true,
+  "copied_input_files": [
+    "balise_geometry.py",
+    "build_balise_candidate.py",
+    "verify_main_effective_scene.py",
+    "test_balise_candidate.py",
+    "fit_config.json",
+    "balise_source_seed.json",
+    "current_main_effective_scene_validation.json"
+  ],
+  "private_census_or_photo_files_copied": false,
+  "project_assets_only": true,
+  "profile_rebuilt_byte_identical": true,
+  "profile_sha256": "773dc5f05871b0d087b7e7d5e384a2e432c08bbfe38f2a7db3ee4f132a44d5e1",
+  "unit_tests": 13,
+  "scripts_contain_private_absolute_paths": false
+}

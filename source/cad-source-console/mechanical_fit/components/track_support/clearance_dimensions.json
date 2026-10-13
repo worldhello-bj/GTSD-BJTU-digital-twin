@@ -1,0 +1,85 @@
+{
+  "method": "Minimum vertex-triangle and edge-edge distance over the frozen triangle boundaries, using a 20 mm expanded bolt AABB; the returned distance is smaller than 20 mm, so excluded triangles cannot be nearer. This is static visual-proxy clearance, not tolerance, operating swept-envelope or tool-access certification.",
+  "clearances": [
+    {
+      "bolt": "FIT_TRACK_clip_01_0_-1",
+      "rail": "CAD_TRACK_REV_outer_branch_native_xy",
+      "exact_triangulated_surface_distance_mm": 1.050255988967831
+    },
+    {
+      "bolt": "FIT_TRACK_clip_01_0_1",
+      "rail": "CAD_TRACK_REV_outer_branch_native_xy",
+      "exact_triangulated_surface_distance_mm": 1.0502559889677054
+    },
+    {
+      "bolt": "FIT_TRACK_clip_03_1_-1",
+      "rail": "DETAIL_BENCH_turnout_inner_left_segment",
+      "exact_triangulated_surface_distance_mm": 0.5502191324815675
+    },
+    {
+      "bolt": "FIT_TRACK_clip_03_1_1",
+      "rail": "ENV_main_rail_1",
+      "exact_triangulated_surface_distance_mm": 0.49998847372592486
+    },
+    {
+      "bolt": "FIT_TRACK_clip_23_2_-1",
+      "rail": "CAD_TRACK_REV_inner_right_native_xy",
+      "exact_triangulated_surface_distance_mm": 0.5096757127575432
+    },
+    {
+      "bolt": "FIT_TRACK_clip_23_2_1",
+      "rail": "CAD_TRACK_REV_inner_right_native_xy",
+      "exact_triangulated_surface_distance_mm": 0.5096682765775395
+    }
+  ],
+  "head_footprints": [
+    {
+      "bolt": "FIT_TRACK_clip_01_0_-1",
+      "support": "FIT_TRACK_station01_source_chair",
+      "coplanar_bottom_to_support_top_mm": 0.0,
+      "minimum_projected_top_land_edge_margin_mm": 1.0000000000000009,
+      "all_head_footprint_inside_support_top": true
+    },
+    {
+      "bolt": "FIT_TRACK_clip_01_0_1",
+      "support": "FIT_TRACK_station01_source_chair",
+      "coplanar_bottom_to_support_top_mm": 0.0,
+      "minimum_projected_top_land_edge_margin_mm": 2.601751820707654,
+      "all_head_footprint_inside_support_top": true
+    },
+    {
+      "bolt": "FIT_TRACK_clip_03_1_-1",
+      "support": "FIT_TRACK_station03_common_support",
+      "coplanar_bottom_to_support_top_mm": 0.0,
+      "minimum_projected_top_land_edge_margin_mm": 0.9221328891367286,
+      "all_head_footprint_inside_support_top": true
+    },
+    {
+      "bolt": "FIT_TRACK_clip_03_1_1",
+      "support": "FIT_TRACK_station03_common_support",
+      "coplanar_bottom_to_support_top_mm": 0.0,
+      "minimum_projected_top_land_edge_margin_mm": 0.5000190734862908,
+      "all_head_footprint_inside_support_top": true
+    },
+    {
+      "bolt": "FIT_TRACK_clip_23_2_-1",
+      "support": "FIT_TRACK_station23_common_support",
+      "coplanar_bottom_to_support_top_mm": 0.0,
+      "minimum_projected_top_land_edge_margin_mm": 29.889753138411024,
+      "all_head_footprint_inside_support_top": true
+    },
+    {
+      "bolt": "FIT_TRACK_clip_23_2_1",
+      "support": "FIT_TRACK_station23_common_support",
+      "coplanar_bottom_to_support_top_mm": 0.0,
+      "minimum_projected_top_land_edge_margin_mm": 0.5811739021480966,
+      "all_head_footprint_inside_support_top": true
+    }
+  ],
+  "parameters": {
+    "support_mode": "conforming_hull",
+    "pitch_mm": 16,
+    "normal_offset_mm": 42.5,
+    "outer_bolt_land_edge_allowance_mm": 1.0
+  }
+}

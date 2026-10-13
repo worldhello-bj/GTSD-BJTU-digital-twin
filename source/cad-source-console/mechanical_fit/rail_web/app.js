@@ -1,0 +1,3 @@
+function view(v){const b={all:'-9550 -1050 11050 1550',crossing:'-9520 -400 1270 260',right:'-5350 -440 4050 320'};document.getElementById('plot').setAttribute('viewBox',b[v]);}function mode(v){document.querySelectorAll('.edge').forEach(e=>{e.style.opacity=v==='source_only'?'1':v==='straight_research'?(e.classList.contains('main')||e.classList.contains('detail')?'1':'.35'):(e.classList.contains('branch')||e.classList.contains('detail')?'1':'.35');});}
+document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>view(b.dataset.view)));
+document.getElementById("mode").addEventListener("change",e=>mode(e.target.value));

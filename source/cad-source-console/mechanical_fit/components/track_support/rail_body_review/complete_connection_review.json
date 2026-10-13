@@ -1,0 +1,311 @@
+{
+  "schema": "gtsd-complete-track-connection-review-v1",
+  "reviewed_finite_curves": 57,
+  "detail_endpoints": [
+    {
+      "handle": "4ECE9",
+      "endpoint": 0,
+      "world_XY_mm": [
+        -3249.920495062128,
+        204.1451584008828
+      ],
+      "exact_finite_edge_connections": [
+        {
+          "handle": "4ED2C",
+          "polyline_segment": 0,
+          "parameter": 3.6887237034697813e-14,
+          "relation": "ENDPOINT",
+          "residual_mm": 5.684341886080801e-13
+        }
+      ]
+    },
+    {
+      "handle": "4ECE9",
+      "endpoint": 1,
+      "world_XY_mm": [
+        -4695.666522914675,
+        239.16666666669335
+      ],
+      "exact_finite_edge_connections": [
+        {
+          "handle": "4ECEA",
+          "polyline_segment": 0,
+          "parameter": 0.0,
+          "relation": "ENDPOINT",
+          "residual_mm": 0.0
+        }
+      ]
+    },
+    {
+      "handle": "4ECEE",
+      "endpoint": 0,
+      "world_XY_mm": [
+        -8585.038049285988,
+        223.8333333333576
+      ],
+      "exact_finite_edge_connections": [
+        {
+          "handle": "4ECFA",
+          "polyline_segment": 0,
+          "parameter": 1.0,
+          "relation": "ENDPOINT",
+          "residual_mm": 0.0
+        }
+      ]
+    },
+    {
+      "handle": "4ECEE",
+      "endpoint": 1,
+      "world_XY_mm": [
+        -9271.347807180977,
+        223.8333333333576
+      ],
+      "exact_finite_edge_connections": [
+        {
+          "handle": "4ED5C",
+          "polyline_segment": 0,
+          "parameter": 0.0,
+          "relation": "ENDPOINT",
+          "residual_mm": 0.0
+        }
+      ]
+    },
+    {
+      "handle": "4ED02",
+      "endpoint": 0,
+      "world_XY_mm": [
+        -8583.948356602406,
+        239.16666666669335
+      ],
+      "exact_finite_edge_connections": [
+        {
+          "handle": "4ECEC",
+          "polyline_segment": 0,
+          "parameter": 1.0,
+          "relation": "ENDPOINT",
+          "residual_mm": 0.0
+        }
+      ]
+    },
+    {
+      "handle": "4ED02",
+      "endpoint": 1,
+      "world_XY_mm": [
+        -9263.360527311746,
+        336.22430971378344
+      ],
+      "exact_finite_edge_connections": [
+        {
+          "handle": "4ED5D",
+          "polyline_segment": 0,
+          "parameter": -1.1545919108615965e-12,
+          "relation": "ENDPOINT",
+          "residual_mm": 1.1120554516342494e-11
+        }
+      ]
+    },
+    {
+      "handle": "4ED2C",
+      "endpoint": 0,
+      "world_XY_mm": [
+        -3249.920495062157,
+        204.1451584008828
+      ],
+      "exact_finite_edge_connections": [
+        {
+          "handle": "4ECE9",
+          "polyline_segment": 0,
+          "parameter": 2.011886040714567e-14,
+          "relation": "ENDPOINT",
+          "residual_mm": 7.105427357601002e-13
+        }
+      ]
+    },
+    {
+      "handle": "4ED2C",
+      "endpoint": 1,
+      "world_XY_mm": [
+        -2461.2412543540777,
+        188.37463649437268
+      ],
+      "exact_finite_edge_connections": []
+    },
+    {
+      "handle": "4ED5C",
+      "endpoint": 0,
+      "world_XY_mm": [
+        -9271.347807180977,
+        223.8333333333576
+      ],
+      "exact_finite_edge_connections": [
+        {
+          "handle": "4ECEE",
+          "polyline_segment": 0,
+          "parameter": 1.0,
+          "relation": "ENDPOINT",
+          "residual_mm": 0.0
+        }
+      ]
+    },
+    {
+      "handle": "4ED5C",
+      "endpoint": 1,
+      "world_XY_mm": [
+        -9311.547688287937,
+        239.16666666669335
+      ],
+      "exact_finite_edge_connections": [
+        {
+          "handle": "4ECED",
+          "polyline_segment": 0,
+          "parameter": 0.7961958029126915,
+          "relation": "INTERIOR_OF_FINITE_SOURCE_EDGE",
+          "residual_mm": 0.0
+        }
+      ]
+    },
+    {
+      "handle": "4ED5D",
+      "endpoint": 0,
+      "world_XY_mm": [
+        -9263.360527311797,
+        336.22430971378344
+      ],
+      "exact_finite_edge_connections": [
+        {
+          "handle": "4ED02",
+          "polyline_segment": 0,
+          "parameter": 1.0000000000000735,
+          "relation": "ENDPOINT",
+          "residual_mm": 7.389644451905042e-12
+        }
+      ]
+    },
+    {
+      "handle": "4ED5D",
+      "endpoint": 1,
+      "world_XY_mm": [
+        -9305.324823094019,
+        326.73013088529115
+      ],
+      "exact_finite_edge_connections": [
+        {
+          "handle": "4ECFE",
+          "polyline_segment": 0,
+          "parameter": 0.79619580291269,
+          "relation": "INTERIOR_OF_FINITE_SOURCE_EDGE",
+          "residual_mm": 1.3875849965634118e-11
+        }
+      ]
+    }
+  ],
+  "paired_head_plan_intervals": [
+    {
+      "lower_head_handle": "4ECED",
+      "upper_head_handle": "4ED17",
+      "world_X_interval_mm": [
+        -9470.039418889508,
+        -8692.372752222807
+      ],
+      "plan_head_band_width_mm": 39.50000000001455,
+      "z_section_confirmed": false,
+      "existing_complete_main_head_rectangle_already_matches_this_local_plan_band": true
+    },
+    {
+      "lower_head_handle": "4ECEC",
+      "upper_head_handle": "4ED17",
+      "world_X_interval_mm": [
+        -8583.948356602406,
+        -8323.039418889508
+      ],
+      "plan_head_band_width_mm": 39.50000000001455,
+      "z_section_confirmed": false,
+      "existing_complete_main_head_rectangle_already_matches_this_local_plan_band": true
+    },
+    {
+      "lower_head_handle": "4ECEB",
+      "upper_head_handle": "4ED17",
+      "world_X_interval_mm": [
+        -8320.372752222836,
+        -5199.903446474054
+      ],
+      "plan_head_band_width_mm": 39.5,
+      "z_section_confirmed": false,
+      "existing_complete_main_head_rectangle_already_matches_this_local_plan_band": true
+    },
+    {
+      "lower_head_handle": "4ECEA",
+      "upper_head_handle": "4ED17",
+      "world_X_interval_mm": [
+        -5197.23677980739,
+        -4695.666522914675
+      ],
+      "plan_head_band_width_mm": 39.50000000001455,
+      "z_section_confirmed": false,
+      "existing_complete_main_head_rectangle_already_matches_this_local_plan_band": true
+    },
+    {
+      "lower_head_handle": "4ED15",
+      "upper_head_handle": "4ED17",
+      "world_X_interval_mm": [
+        -1594.3331895813535,
+        1419.984253761846
+      ],
+      "plan_head_band_width_mm": 39.50000000003638,
+      "z_section_confirmed": false,
+      "existing_complete_main_head_rectangle_already_matches_this_local_plan_band": true
+    }
+  ],
+  "gaps_between_horizontal_head_segments": [
+    {
+      "after": "4ECED",
+      "before": "4ECEC",
+      "gap_X_interval_mm": [
+        -8692.372752222807,
+        -8583.948356602406
+      ],
+      "gap_length_mm": 108.4243956204009,
+      "not_permission_to_delete_material": true
+    },
+    {
+      "after": "4ECEC",
+      "before": "4ECEB",
+      "gap_X_interval_mm": [
+        -8323.039418889508,
+        -8320.372752222836
+      ],
+      "gap_length_mm": 2.6666666666715173,
+      "not_permission_to_delete_material": true
+    },
+    {
+      "after": "4ECEB",
+      "before": "4ECEA",
+      "gap_X_interval_mm": [
+        -5199.903446474054,
+        -5197.23677980739
+      ],
+      "gap_length_mm": 2.6666666666642413,
+      "not_permission_to_delete_material": true
+    },
+    {
+      "after": "4ECEA",
+      "before": "4ED15",
+      "gap_X_interval_mm": [
+        -4695.666522914675,
+        -1594.3331895813535
+      ],
+      "gap_length_mm": 3101.333333333321,
+      "not_permission_to_delete_material": true
+    }
+  ],
+  "key_correction_to_single_handle_view": "4ED15 alone is not the complete main inner head edge. 4ECED provides the edge at the X\u2248-8970 mm head overlap, so missing-4ED15 extrapolation does not explain that overlap.",
+  "source_curve_deduplication": "These native records are distinct finite top-level Model records in the common track layout; they are not repeated transformed block instances. Their different geometries do not match as duplicate projections. This does not establish whether the drawing superimposes operating states.",
+  "topology_limit": "An endpoint on a finite rail edge establishes a planar junction, not automatically a manufacturing joint or a single connected material region. The graph contains open chains and crossing material-band interpretations. Flangeway and switch-route semantics remain undetermined.",
+  "source_determined_mesh_patch": "Already-correct paired straight plan bands do not warrant a change. No unique complete replacement head solid follows from these connections alone. Provide all relevant native curves and piecewise boundary constraints; retain unknown lengths as explicitly unresolved, never silently delete them for collision clearance.",
+  "unknown_physical_boundaries": [
+    "Closed top rail/frog contours through crossing band intersections",
+    "Flangeway profile/depth and active switch route",
+    "Meaning of 4ECE9/4ED2C open trace beyond straight main segment",
+    "Rail/guard shared-base or separately fixed relationship"
+  ]
+}

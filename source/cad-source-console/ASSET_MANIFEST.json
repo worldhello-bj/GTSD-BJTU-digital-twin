@@ -1696,6 +1696,511 @@
           "sha256": "e3d356beb25d49bcff8de097e87433dc8294c47e60d8ab15b5dd8aacd2c0781c"
         }
       ]
+    },
+    {
+      "path": "mechanical_fit/GTSD_Mechanical_Fit_Candidates.blend",
+      "bytes": 34472083,
+      "sha256": "ede3935c0b1d58be36dcf8a44a3a470b27fc6724400838e3485637dff7fcd24b",
+      "encoding": "gzip",
+      "packed_bytes": 34286912,
+      "packed_sha256": "7044a712ff28116677ce53b81996734970a0abc290ad67d032dcfce8539b3a36",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.000.bin",
+          "bytes": 1048576,
+          "sha256": "df06a446455310a93142db7124915c269bf9564c0fa489a5d0c55e1632402b78"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.001.bin",
+          "bytes": 1048576,
+          "sha256": "c589ab213264e8fcd471f0f0f4158afc9f32019be8196d9f7c59a13710ee825e"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.002.bin",
+          "bytes": 1048576,
+          "sha256": "238cbc666d05d3047299e394aad3a691031d2470ad601b0357dd0415faaad11b"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.003.bin",
+          "bytes": 1048576,
+          "sha256": "99078eab3880d83441bc84999f3aade8e73d85ceaf90c6381ab2d8dad4890aa9"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.004.bin",
+          "bytes": 1048576,
+          "sha256": "997bd78bbf57fe75537dc80531742f347680d17e8f9d036032e0d03859c077fc"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.005.bin",
+          "bytes": 1048576,
+          "sha256": "5ba3ba7148db19a633c01211e071f2937b36e43618207441d2d6e17fa24a6051"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.006.bin",
+          "bytes": 1048576,
+          "sha256": "7ce0f4544e43f844cb988e4b1c387fce591b1c026921869d1a71a59cd605296a"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.007.bin",
+          "bytes": 1048576,
+          "sha256": "f666916c139bb0961642ea7e11c74097dd771c0a5c873f9bd9bee75700d92936"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.008.bin",
+          "bytes": 1048576,
+          "sha256": "b55650fbe350fecb28cf66544956f8a034d7049f253162b758749823ba4250a8"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.009.bin",
+          "bytes": 1048576,
+          "sha256": "7890f6dbed6fc645dac7f817a87b72f35cb4f2de86026da8e8b81e4023e83a74"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.010.bin",
+          "bytes": 1048576,
+          "sha256": "f2b98e3082115b68bb927e99df37c97edcd7f46d9cd681afdf54c26d381e8216"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.011.bin",
+          "bytes": 1048576,
+          "sha256": "b3d370002ccb604a83656ebe607c9296a210072c508cf0ea0aa880c1801543bb"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.012.bin",
+          "bytes": 1048576,
+          "sha256": "d127572651f0da750ddd050e497f3291e0a2cb2241e5951c1f870d356ad73567"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.013.bin",
+          "bytes": 1048576,
+          "sha256": "4756b284b32ad7371f0518c0f22259093e70299840767c334347598d1644e4a8"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.014.bin",
+          "bytes": 1048576,
+          "sha256": "9815672a8968fcf92e8a49626446eda7faeee1bffbef7785d3bc70761ebba48b"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.015.bin",
+          "bytes": 1048576,
+          "sha256": "d731e5fdd6340a1b98e57b4f3a92de647ebb4e328de7c55ecb56533dce08b0d9"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.016.bin",
+          "bytes": 1048576,
+          "sha256": "0f8c046ec5cc0e70100f6daf62b4ddf32c80abc685d3681ecbc1e86fbb5cdcd5"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.017.bin",
+          "bytes": 1048576,
+          "sha256": "ba2ea5edd64a2fd9bd8f4233467707ec68d95338dc856d0424a195331d1650f9"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.018.bin",
+          "bytes": 1048576,
+          "sha256": "ca2398551ee7e55c1d3f6577b1e31381950a69bfedc5f660431455847ae7c5fd"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.019.bin",
+          "bytes": 1048576,
+          "sha256": "6d7e907c73eeffa6391612ccaea9ecbe585f52a38cb03f5e69b0e607ae7423a1"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.020.bin",
+          "bytes": 1048576,
+          "sha256": "88d5f0e99f20dfbac18bcc7a303ead7a43e75d0b55a5d28c931fcb540d85fb6f"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.021.bin",
+          "bytes": 1048576,
+          "sha256": "a8cf12f6db4380cf4b2f1bbc813ba347b0c064ab691e04660909dc201d7927df"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.022.bin",
+          "bytes": 1048576,
+          "sha256": "55e094beb34fe06616f7daef2c8cc24352f83863fa436d8057538d786071b047"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.023.bin",
+          "bytes": 1048576,
+          "sha256": "8113a8f38c44433cc7159e8a691fa5a8b243ee6bbe491922c883e939431168f6"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.024.bin",
+          "bytes": 1048576,
+          "sha256": "8e53300b9f33602991ec69a140360b267b635c9c4e5f56c729e6c10157a514ba"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.025.bin",
+          "bytes": 1048576,
+          "sha256": "6656d141d32b986854e09bfdf0dd861116bd50338a115694368631b82d0d643b"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.026.bin",
+          "bytes": 1048576,
+          "sha256": "7495c9cd3f2e82bd04b40c00a14f519bd043eb056edf565aade40b3ddf3e4c8c"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.027.bin",
+          "bytes": 1048576,
+          "sha256": "b22febc23d26b26d9b4e4b5901823b2b7215ccd0b53bc0698eee55e173253b03"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.028.bin",
+          "bytes": 1048576,
+          "sha256": "b57576178eac56ed7f90fdc4297111e852c4af53b68b6ec5b2a480653e2e7f98"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.029.bin",
+          "bytes": 1048576,
+          "sha256": "1ac7ef6bb360b33a0a572b0921ba897759b42718703a4a889c408151755781c7"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.030.bin",
+          "bytes": 1048576,
+          "sha256": "5a5be6478f0c243c1cc745cf09e15f4c21a077b3e4e7b9edcd78d7b4beea3517"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.031.bin",
+          "bytes": 1048576,
+          "sha256": "2ed3e51547dcc42ed6bd0a4f33094ada63d563b805994cc8dc657510fb6d18db"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.032.bin",
+          "bytes": 732480,
+          "sha256": "dace395ea3579ac502e236d96844159843cf1519f65e90f4353b6e28d4b6189c"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/components/balise/balise_fit_before_after.png",
+      "bytes": 246187,
+      "sha256": "334331ed7effb249451ae8cfc490ab6380357fcacb421c8dbd982323a2bbda2f",
+      "encoding": "gzip",
+      "packed_bytes": 234005,
+      "packed_sha256": "57fab57de454db3986a624dd8400088072609b2e527efbf0bbcc9f60417a0a9a",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/334331ed7effb249451a.000.bin",
+          "bytes": 234005,
+          "sha256": "57fab57de454db3986a624dd8400088072609b2e527efbf0bbcc9f60417a0a9a"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/components/balise/balise_fit_profile.json",
+      "bytes": 413517,
+      "sha256": "773dc5f05871b0d087b7e7d5e384a2e432c08bbfe38f2a7db3ee4f132a44d5e1",
+      "encoding": "gzip",
+      "packed_bytes": 26315,
+      "packed_sha256": "32a86f213e31af758252dccefa64ca2a9a677596ce978998eb6066e7e4843ddd",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/773dc5f05871b0d087b7.000.bin",
+          "bytes": 26315,
+          "sha256": "32a86f213e31af758252dccefa64ca2a9a677596ce978998eb6066e7e4843ddd"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/components/clamps/clamp_b535_review_profile.json",
+      "bytes": 258095,
+      "sha256": "35c133ee7616daf2d73e7824ff7657b61848ca867e3dd848a57f558f5ab12fe2",
+      "encoding": "gzip",
+      "packed_bytes": 25888,
+      "packed_sha256": "62962fe5ebff8eee1f6297a71beb5901c099bae612dca7923a725373486791b0",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/35c133ee7616daf2d73e.000.bin",
+          "bytes": 25888,
+          "sha256": "62962fe5ebff8eee1f6297a71beb5901c099bae612dca7923a725373486791b0"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/components/clamps/clamp_fit_profile.json",
+      "bytes": 348337,
+      "sha256": "12fff9c14ea4c78815d384623458d47217a186430d5b82a815588dcf6a56f80d",
+      "encoding": "gzip",
+      "packed_bytes": 37386,
+      "packed_sha256": "8af8f87ca52e178107dd90cf46f567d14deca35620cb102490118915c11a9915",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/12fff9c14ea4c78815d3.000.bin",
+          "bytes": 37386,
+          "sha256": "8af8f87ca52e178107dd90cf46f567d14deca35620cb102490118915c11a9915"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/components/clamps/clamp_messenger_datum_profile.json",
+      "bytes": 359229,
+      "sha256": "e54f373e7b080df7d6958cf07aadad9e735a94e648166662112afa99eebc879e",
+      "encoding": "gzip",
+      "packed_bytes": 38406,
+      "packed_sha256": "4210924073bd0f582463d78402247e2ce41e12ddd70a04840586d0db29e4c7c4",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/e54f373e7b080df7d695.000.bin",
+          "bytes": 38406,
+          "sha256": "4210924073bd0f582463d78402247e2ce41e12ddd70a04840586d0db29e4c7c4"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/components/clamps/published_clamp_meshes.json",
+      "bytes": 5373820,
+      "sha256": "c7742000bd2465155a9fbc01d7fb4257c3ee180f822d779e5d68fcff3f422b3c",
+      "encoding": "gzip",
+      "packed_bytes": 518854,
+      "packed_sha256": "df885663c894401f85b66582f53f2b57ca33ed087333771c2b14bcabb62deb87",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/c7742000bd2465155a9f.000.bin",
+          "bytes": 518854,
+          "sha256": "df885663c894401f85b66582f53f2b57ca33ed087333771c2b14bcabb62deb87"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/components/clamps/published_scene_bounds.json",
+      "bytes": 346982,
+      "sha256": "942dda012471babf0c3a0e55ec26c7629f467c281cbe5dce2b2832f91c1f7b4f",
+      "encoding": "gzip",
+      "packed_bytes": 58774,
+      "packed_sha256": "cf4cf5b0aba05a8fab260cd031a5c703606b4547e2976fa30a88359a779e2f52",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/942dda012471babf0c3a.000.bin",
+          "bytes": 58774,
+          "sha256": "cf4cf5b0aba05a8fab260cd031a5c703606b4547e2976fa30a88359a779e2f52"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/components/track_support/rail_body_review/native_edge_graph.png",
+      "bytes": 275290,
+      "sha256": "6b7f35d764954dca72b301c2913c2678436ba6a6c877c54a7a4e7444cc2d573a",
+      "encoding": "gzip",
+      "packed_bytes": 242303,
+      "packed_sha256": "2ca2b40b969c66ec1b430580c51b37a6361df5e327c77e4f098fa02d16ca4d04",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/6b7f35d764954dca72b3.000.bin",
+          "bytes": 242303,
+          "sha256": "2ca2b40b969c66ec1b430580c51b37a6361df5e327c77e4f098fa02d16ca4d04"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/inputs/balise/balise_fit_profile.json",
+      "bytes": 260818,
+      "sha256": "52507fb9aad16551342def0c25fee0d4f052a3002bb729e084b04ce5192c7734",
+      "encoding": "gzip",
+      "packed_bytes": 23067,
+      "packed_sha256": "4e514f8d88a7a18f7946fe89eb8f353c8b1031f32e23917d8f9d070d4b8d5686",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/52507fb9aad16551342d.000.bin",
+          "bytes": 23067,
+          "sha256": "4e514f8d88a7a18f7946fe89eb8f353c8b1031f32e23917d8f9d070d4b8d5686"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/profiles.json",
+      "bytes": 1513952,
+      "sha256": "06cbf71b9a38f0471f01695694a1b9adeb0a4ec599ecfd01dd8ebc0908a6da01",
+      "encoding": "gzip",
+      "packed_bytes": 199590,
+      "packed_sha256": "a1e4c8a5101b804447c5b65cd3bcbbb97ac070a2d8387e87abda4f3f47b36d77",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/06cbf71b9a38f0471f01.000.bin",
+          "bytes": 199590,
+          "sha256": "a1e4c8a5101b804447c5b65cd3bcbbb97ac070a2d8387e87abda4f3f47b36d77"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/renders/balise_after.png",
+      "bytes": 1364903,
+      "sha256": "6be363c3382bf5017d42ea26106697adae885ff3c2ebb7ddbe0a74af33603784",
+      "encoding": "identity",
+      "packed_bytes": 1364903,
+      "packed_sha256": "6be363c3382bf5017d42ea26106697adae885ff3c2ebb7ddbe0a74af33603784",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/6be363c3382bf5017d42.000.bin",
+          "bytes": 1048576,
+          "sha256": "65d83c30f8237f1b3b8499724f00e7ee8690860d31c6149a9460fd59066badff"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/6be363c3382bf5017d42.001.bin",
+          "bytes": 316327,
+          "sha256": "567c7c19e22f6cd836b6588612fb0cc56b083657b9733228e8c47e6a5d9540b2"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/renders/balise_before.png",
+      "bytes": 1367095,
+      "sha256": "1dcce478de4b41df9eea3f9a096aa99f4d295ba10f5b3f174dd008d612f03631",
+      "encoding": "identity",
+      "packed_bytes": 1367095,
+      "packed_sha256": "1dcce478de4b41df9eea3f9a096aa99f4d295ba10f5b3f174dd008d612f03631",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/1dcce478de4b41df9eea.000.bin",
+          "bytes": 1048576,
+          "sha256": "2437ca57599d592c4898fbcbf2cb85bb7c2ea51e46416076da8cc7c777003dc1"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/1dcce478de4b41df9eea.001.bin",
+          "bytes": 318519,
+          "sha256": "b08c3b153308a307beb0f038f60b3a6f6b76e00c621a462ef21f5e39e2480512"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/renders/lower_clamp_after.png",
+      "bytes": 1223143,
+      "sha256": "1592d2d1af7ea31ca915656d8f580251007a2ed1b526e2433b7275c29c7e548c",
+      "encoding": "gzip",
+      "packed_bytes": 1223115,
+      "packed_sha256": "c0d56bd0a99ac208309b3e67c52dd3f83b559a7ea720952e1d97cac7700237e0",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/1592d2d1af7ea31ca915.000.bin",
+          "bytes": 1048576,
+          "sha256": "64dac02f5fdbbd5ffaebb0fd9d6706f2f28fa54b4cb453cda75f2572d80ae1e1"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/1592d2d1af7ea31ca915.001.bin",
+          "bytes": 174539,
+          "sha256": "a63de3ce5ad16b410e1bfe670f30a34806e54178380c518b61742b9ff0df0145"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/renders/lower_clamp_before.png",
+      "bytes": 1224646,
+      "sha256": "1a535b123ef5df4e22c9ede67779f2b2a141b7778c1bd72508092ec85050ff4d",
+      "encoding": "identity",
+      "packed_bytes": 1224646,
+      "packed_sha256": "1a535b123ef5df4e22c9ede67779f2b2a141b7778c1bd72508092ec85050ff4d",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/1a535b123ef5df4e22c9.000.bin",
+          "bytes": 1048576,
+          "sha256": "2ec11a28472f362bf0ea458d1a6e16f14023b2c8017147b10e13a06ff7621448"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/1a535b123ef5df4e22c9.001.bin",
+          "bytes": 176070,
+          "sha256": "6ed510dcd3905c05f86b139deb14ec71336fe2dcfa1ace0bb764852cc0048d92"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/renders/track_support_after.png",
+      "bytes": 1273739,
+      "sha256": "fcad03170918ce7498206dc76c4e87857bfbee7be18288af0ec2664a97c3a77d",
+      "encoding": "gzip",
+      "packed_bytes": 1273584,
+      "packed_sha256": "5efdd3642ef700945d56e6141cd409ef601da380c811cf6394cf3b3e753226a1",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/fcad03170918ce749820.000.bin",
+          "bytes": 1048576,
+          "sha256": "ecc74bf19b998b9e88a8ca971be8a11d6b7e2f88a4ba40739523f7165dbe12a6"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/fcad03170918ce749820.001.bin",
+          "bytes": 225008,
+          "sha256": "345b3ee6da2049b1568fdd67c5b24d2f63a1bb05b63cb575512296bc00810d4f"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/renders/track_support_before.png",
+      "bytes": 1267839,
+      "sha256": "035f3990cdc6668f4c1c27ca7db3711c3c22267ec0575e261ad867377152b913",
+      "encoding": "gzip",
+      "packed_bytes": 1267604,
+      "packed_sha256": "36f242e1856d4dbd0e1a6e14ffdf1fc974badd93fa920c3a53d52b8cf7c8026d",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/035f3990cdc6668f4c1c.000.bin",
+          "bytes": 1048576,
+          "sha256": "654e23f3fb5aaefc277ef4b461baae189cd1b2677c8eb011c43cd01bb5f13d64"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/035f3990cdc6668f4c1c.001.bin",
+          "bytes": 219028,
+          "sha256": "36bbdf77d96f7a2ae8cd865646881af65b6b79792e43f49dc1606753ec51bbe6"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/renders/upper_clamp_after.png",
+      "bytes": 1328456,
+      "sha256": "989275f8336827cdf68b324ec5c8b9e114389453e15f21410fb57c7a9273a7db",
+      "encoding": "identity",
+      "packed_bytes": 1328456,
+      "packed_sha256": "989275f8336827cdf68b324ec5c8b9e114389453e15f21410fb57c7a9273a7db",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/989275f8336827cdf68b.000.bin",
+          "bytes": 1048576,
+          "sha256": "9789fefaad0437812d5e6ea107679ee0bd06f7ed521af88b04e2af12cab30039"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/989275f8336827cdf68b.001.bin",
+          "bytes": 279880,
+          "sha256": "390816e69241ff5a2c9ce574073dba4d83870fdd1b154dfb13fc5a4c17e9c725"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/renders/upper_clamp_before.png",
+      "bytes": 1322986,
+      "sha256": "9e1891bffd4bf754270b45112ba2728adc90c664e9d39ac5a37eff31c470afdb",
+      "encoding": "identity",
+      "packed_bytes": 1322986,
+      "packed_sha256": "9e1891bffd4bf754270b45112ba2728adc90c664e9d39ac5a37eff31c470afdb",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/9e1891bffd4bf754270b.000.bin",
+          "bytes": 1048576,
+          "sha256": "baf5e064eaae71535dcef2359b8d862372706d1e113ec072b194931215b3549c"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/9e1891bffd4bf754270b.001.bin",
+          "bytes": 274410,
+          "sha256": "81a61fbc8650d85cecfaf371b841e6619841c8333b7a49df9dffc3b26f992004"
+        }
+      ]
+    },
+    {
+      "path": "mechanical_fit/renders/whole_candidate.png",
+      "bytes": 1330305,
+      "sha256": "ad25b0527dc390c3b681c4bc5863ccaccc08661af91b1815bbd15f3876a228d7",
+      "encoding": "gzip",
+      "packed_bytes": 1330267,
+      "packed_sha256": "e7f1a3f7e072dae657e0de99805f5ecbb963cf6e27bac7903a895ea2aca6943b",
+      "chunks": [
+        {
+          "path": "payloads/mechanical-fit-v1/ad25b0527dc390c3b681.000.bin",
+          "bytes": 1048576,
+          "sha256": "2f854ded685f301b5f00704b3073dfc1b2cbb59a7683f9058e03b65854409211"
+        },
+        {
+          "path": "payloads/mechanical-fit-v1/ad25b0527dc390c3b681.001.bin",
+          "bytes": 281691,
+          "sha256": "6a0f19c3280ffd5d0008d1ef91589a9ed13d71291ea3c81812f6a9bc2002fef3"
+        }
+      ]
     }
   ]
 }

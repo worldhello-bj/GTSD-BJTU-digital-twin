@@ -1,0 +1,105 @@
+{
+  "schema": "balise-fit-public-file-manifest-v1",
+  "profile_frozen_sha256": "773dc5f05871b0d087b7e7d5e384a2e432c08bbfe38f2a7db3ee4f132a44d5e1",
+  "public_files": [
+    {
+      "path": "README_ZH.md",
+      "bytes": 7633,
+      "sha256": "e3f06a15b7f07a604951b42419ff45101588e827d30169c3b84657798484c9e7"
+    },
+    {
+      "path": "balise_geometry.py",
+      "bytes": 15706,
+      "sha256": "86db33060f5cbe2aa1fb9c076bae3d3f059bd5b2a30ae3b8bf7fca0253fc40d3"
+    },
+    {
+      "path": "build_balise_candidate.py",
+      "bytes": 16728,
+      "sha256": "f4c6f722799c3dbcf286dd8fbd0ca306b96668e952f7ffe50b100aa87a9df393"
+    },
+    {
+      "path": "verify_main_effective_scene.py",
+      "bytes": 2956,
+      "sha256": "49b538ad3e63c5b30ebbba0b3e849271976b17d004a630c76c49904de44e7405"
+    },
+    {
+      "path": "test_balise_candidate.py",
+      "bytes": 8415,
+      "sha256": "24d8e280e925207168d172dbcf1bbd290b4d4331ca5396b6e4a2fcf9fdd71597"
+    },
+    {
+      "path": "render_balise_fit.py",
+      "bytes": 2703,
+      "sha256": "d70cce5b8c7ec659f67072ee4e8d539dc1b5a1fd9d86710725294635742f1ada"
+    },
+    {
+      "path": "fit_config.json",
+      "bytes": 1048,
+      "sha256": "dba0d9dd7294a94958b370e3d64804772ff464ede87942d8e25cbc56f3340609"
+    },
+    {
+      "path": "balise_source_seed.json",
+      "bytes": 68190,
+      "sha256": "4ea7b9148289dcd63d582869a1604a5d1e774dad817bcb72b9c58d0674f13030"
+    },
+    {
+      "path": "balise_source_reassessment.json",
+      "bytes": 16467,
+      "sha256": "20b01af86acdc34f8e232e4b5243d8f80cf6261e1b2b020d5a65b9f0ebc7528b"
+    },
+    {
+      "path": "balise_fit_profile.json",
+      "bytes": 413517,
+      "sha256": "773dc5f05871b0d087b7e7d5e384a2e432c08bbfe38f2a7db3ee4f132a44d5e1"
+    },
+    {
+      "path": "balise_fit_validation.json",
+      "bytes": 44532,
+      "sha256": "15057d3ff2930d766d249f3dfe942014a58b13a8734d10261e83d687127035de"
+    },
+    {
+      "path": "balise_installation_contract.json",
+      "bytes": 11698,
+      "sha256": "bfc84dccdf1a0f0974cfaeda746178e1ccd68c523dfffbad668301018e919824"
+    },
+    {
+      "path": "balise_transforms.json",
+      "bytes": 8059,
+      "sha256": "d4d7162ed279c02bf15321c3a208b32bb082ad342a1c2f73a33b0fdcb6cabf21"
+    },
+    {
+      "path": "current_main_effective_scene_validation.json",
+      "bytes": 122621,
+      "sha256": "e56f812aa9f5d5fa22ed3ee8d241a2f104d99784b5fd7587beb92dd1354f1364"
+    },
+    {
+      "path": "portable_rebuild_validation.json",
+      "bytes": 613,
+      "sha256": "10ce950074f1daed3b39f5d2797adca2ec7adb3d613568ad463eb8b484194cc1"
+    },
+    {
+      "path": "balise_fit_before_after.png",
+      "bytes": 246187,
+      "sha256": "334331ed7effb249451ae8cfc490ab6380357fcacb421c8dbd982323a2bbda2f"
+    },
+    {
+      "path": "test.log",
+      "bytes": 1777,
+      "sha256": "d87d4f5f667d0d86715c309b00506b43e37f700c8c6ba28e17d7979d1eb77029"
+    }
+  ],
+  "not_included": [
+    "Original source photographs",
+    "Private census database",
+    "Private scratch probes and temporary smoke-test directory"
+  ],
+  "default_enabled": false,
+  "as_built_confirmed": false,
+  "verification": {
+    "unit_tests": 13,
+    "current_main_scenes": 5,
+    "new_positive_or_unresolved_pairs": 0,
+    "after_all_changed_vs_scene_positive_or_unresolved_pairs": 0,
+    "portable_rebuild_byte_identical": true
+  }
+}

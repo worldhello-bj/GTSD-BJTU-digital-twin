@@ -1,0 +1,108 @@
+{
+  "schema": "gtsd-track-fit-public-rebuild-delivery-v1",
+  "core_profiles_frozen": true,
+  "public_source_only_rebuild": true,
+  "no_raw_photos_or_private_CAD": true,
+  "files": [
+    {
+      "path": "PORTABLE_REBUILD_ZH.md",
+      "bytes": 2102,
+      "sha256": "b7dbd0dae174b40263ca3108d138f38c07ef37ea7668bb06f30cb75c47bc7fd9"
+    },
+    {
+      "path": "README_ZH.md",
+      "bytes": 5499,
+      "sha256": "943c583c63e54c352f00b0cfa0ec6494bb5f10314e5feb5a920b741ffabf6b8e"
+    },
+    {
+      "path": "profile_conforming_hull.json",
+      "bytes": 160742,
+      "sha256": "ad20d1f38ffbdc136f6eb4e6ebf84037b504f8519d149c5e0c88187db076ea8e"
+    },
+    {
+      "path": "profile_flat_top_blank.json",
+      "bytes": 105057,
+      "sha256": "06b472139ab8392ad249d8b7f14a841372254b25034e0727ec3068179d015647"
+    },
+    {
+      "path": "rebuild_inputs.json",
+      "bytes": 78355,
+      "sha256": "7e6eccc9f31f1b69aa3c6557de378f8b654f2c806f2cd7cda7304aa59bac7b96"
+    },
+    {
+      "path": "portable_rebuild.py",
+      "bytes": 8322,
+      "sha256": "a1383f6ad01fea72612980f1653f974dff3a864210a529dc37690136d0896809"
+    },
+    {
+      "path": "mesh_geometry.py",
+      "bytes": 5922,
+      "sha256": "fbc2288017519a5ecf40f4c007be4a02c6a2a09af872b27d18637d6560646b31"
+    },
+    {
+      "path": "fit_profile.py",
+      "bytes": 2589,
+      "sha256": "0934f59384c0056816058ce0634aeeacc7030baa063fd3801df8d1d7e9ea0add"
+    },
+    {
+      "path": "test_portable_rebuild.py",
+      "bytes": 3732,
+      "sha256": "43f979cd0305fef838301cd88028b49d5b1658923ff78639b3ca311ebc69c329"
+    },
+    {
+      "path": "requirements-rebuild.txt",
+      "bytes": 107,
+      "sha256": "84f728c142e7c67b9b7a4af66058bbead7c344be5e412acf189d02381cfdec63"
+    },
+    {
+      "path": "portable_tests.log",
+      "bytes": 1036,
+      "sha256": "8f4daae2a6c648a04c6ac0667bd8e6dfaf4c1a370aa1815d6d2c61b7ff13d114"
+    },
+    {
+      "path": "source_evidence.json",
+      "bytes": 53528,
+      "sha256": "01bb3e00fca9012e1f0e97ba106a3f73ea6cd05576d8a939ef3af7224e7c7105"
+    },
+    {
+      "path": "pair_disposition.json",
+      "bytes": 7069,
+      "sha256": "1e0eed7c9ce9ecf84cdf23c05f2baf8bfe7c83479c12787bfaf9ef2fe253093b"
+    },
+    {
+      "path": "clearance_dimensions.json",
+      "bytes": 3223,
+      "sha256": "1f1739f651a9499badcf9ad6c9af39f6cab3b9fa4bb4289b7842c9f81b33aafa"
+    },
+    {
+      "path": "fit_before_after.png",
+      "bytes": 175712,
+      "sha256": "a3d8222554dcc91a1ae47ef317db9dbe5880049c8037e1c9d14a7d8f24b3f9e8"
+    },
+    {
+      "path": "portable_recheck/portable_rebuild_validation.json",
+      "bytes": 10978,
+      "sha256": "d3faa12198289cd218f1167b8c721572d77941f9cf8db45e638eb8dd580cf106"
+    },
+    {
+      "path": "conforming_hull/actual_default_validation.json",
+      "bytes": 7105,
+      "sha256": "bb7dd704c3b7b36c34cd373b0c5e653008957af0edb4a8bbce959b329ba0d0f9"
+    },
+    {
+      "path": "flat_top_blank/actual_default_validation.json",
+      "bytes": 7135,
+      "sha256": "3cf2a948cc353e1d0917c0a63f8469e0b7ffd4f073b47e778c564f547d216f13"
+    }
+  ],
+  "commands": [
+    "python portable_rebuild.py --project-root PATH_TO_CONSOLE --output OUTPUT_DIR",
+    "python test_portable_rebuild.py --project-root PATH_TO_CONSOLE"
+  ],
+  "test_summary": {
+    "public_tests": 8,
+    "passed": 8,
+    "private_path_dependencies": 0,
+    "bit_exact_rebuilt_meshes": 18
+  }
+}

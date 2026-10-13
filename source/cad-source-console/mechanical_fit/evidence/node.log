@@ -1,0 +1,400 @@
+TAP version 13
+# Subtest: stale running state permits pause without renewing run lease
+ok 1 - stale running state permits pause without renewing run lease
+  ---
+  duration_ms: 13.429703
+  type: 'test'
+  ...
+# Subtest: hanging GET visibly expires on independent freshness tick and eventually resumes polling
+ok 2 - hanging GET visibly expires on independent freshness tick and eventually resumes polling
+  ---
+  duration_ms: 4.465417
+  type: 'test'
+  ...
+# Subtest: fresh same-step recovery replaces stale badge with verified native pose
+ok 3 - fresh same-step recovery replaces stale badge with verified native pose
+  ---
+  duration_ms: 3.253125
+  type: 'test'
+  ...
+# Subtest: pause remains available while run ACK is pending and stops further heartbeat
+ok 4 - pause remains available while run ACK is pending and stops further heartbeat
+  ---
+  duration_ms: 3.852952
+  type: 'test'
+  ...
+# Subtest: run/step ACK requires matching session and request, not HTTP 202 or unrelated event
+ok 5 - run/step ACK requires matching session and request, not HTTP 202 or unrelated event
+  ---
+  duration_ms: 2.705746
+  type: 'test'
+  ...
+# Subtest: unknown command response never resends automatically and can later match ACK
+ok 6 - unknown command response never resends automatically and can later match ACK
+  ---
+  duration_ms: 2.520539
+  type: 'test'
+  ...
+# Subtest: session rollover releases unresolved ACK without replay
+ok 7 - session rollover releases unresolved ACK without replay
+  ---
+  duration_ms: 2.154181
+  type: 'test'
+  ...
+# Subtest: source selection under stale live snapshot switches to selected static source
+ok 8 - source selection under stale live snapshot switches to selected static source
+  ---
+  duration_ms: 2.313519
+  type: 'test'
+  ...
+# Subtest: delayed transport failure must not overwrite already observed command ACK
+ok 9 - delayed transport failure must not overwrite already observed command ACK
+  ---
+  duration_ms: 4.057047
+  type: 'test'
+  ...
+# Subtest: rejected native pose labels retained scene; selecting a new source falls back to that static scene
+ok 10 - rejected native pose labels retained scene; selecting a new source falls back to that static scene
+  ---
+  duration_ms: 3.653073
+  type: 'test'
+  ...
+# Subtest: wrong solver identity blocks following and run/step, preserves pause without heartbeat
+ok 11 - wrong solver identity blocks following and run/step, preserves pause without heartbeat
+  ---
+  duration_ms: 7.092085
+  type: 'test'
+  ...
+# Subtest: source reference and historical B31 interpretation are mutually exclusive with correct counts
+ok 12 - source reference and historical B31 interpretation are mutually exclusive with correct counts
+  ---
+  duration_ms: 4.581371
+  type: 'test'
+  ...
+# Subtest: environment provenance is inspectable and does not modify existing geometry or add native binding
+ok 13 - environment provenance is inspectable and does not modify existing geometry or add native binding
+  ---
+  duration_ms: 2.149174
+  type: 'test'
+  ...
+# Subtest: source-only view reveals 66 references without deleting source assembly
+ok 14 - source-only view reveals 66 references without deleting source assembly
+  ---
+  duration_ms: 51.603857
+  type: 'test'
+  ...
+# Subtest: environment rows cannot claim new physics or an unmatched triangle fingerprint
+ok 15 - environment rows cannot claim new physics or an unmatched triangle fingerprint
+  ---
+  duration_ms: 27.521746
+  type: 'test'
+  ...
+# Subtest: explicit fit selection changes geometry, never issues native commands; original is recoverable
+ok 16 - explicit fit selection changes geometry, never issues native commands; original is recoverable
+  ---
+  duration_ms: 14.335137
+  type: 'test'
+  ...
+# Subtest: invalid candidate payload retains the current verified scene
+ok 17 - invalid candidate payload retains the current verified scene
+  ---
+  duration_ms: 3.602928
+  type: 'test'
+  ...
+# Subtest: candidate geometry remains static even when existing verified bodies follow
+ok 18 - candidate geometry remains static even when existing verified bodies follow
+  ---
+  duration_ms: 4.264988
+  type: 'test'
+  ...
+# Subtest: same-name alternatives show metadata from the selected geometry, not another profile
+ok 19 - same-name alternatives show metadata from the selected geometry, not another profile
+  ---
+  duration_ms: 5.059657
+  type: 'test'
+  ...
+# Subtest: live classification counts the actual static candidate instead of its removed world mesh
+ok 20 - live classification counts the actual static candidate instead of its removed world mesh
+  ---
+  duration_ms: 2.988439
+  type: 'test'
+  ...
+# Subtest: all 66 optional references satisfy the actual renderer schema/group and prepare all triangles
+ok 21 - all 66 optional references satisfy the actual renderer schema/group and prepare all triangles
+  ---
+  duration_ms: 44.06141
+  type: 'test'
+  ...
+# Subtest: both dimension envelopes validate under the exact display adapter contract
+ok 22 - both dimension envelopes validate under the exact display adapter contract
+  ---
+  duration_ms: 25.934452
+  type: 'test'
+  ...
+# Subtest: 40 restored drive candidates validate without changing vertex/index values
+ok 23 - 40 restored drive candidates validate without changing vertex/index values
+  ---
+  duration_ms: 67.473189
+  type: 'test'
+  ...
+# Subtest: all 2738 real top-level records are searchable without treating them as installed part count
+ok 24 - all 2738 real top-level records are searchable without treating them as installed part count
+  ---
+  duration_ms: 39.328441
+  type: 'test'
+  ...
+# Subtest: incomplete or duplicate ledger cannot claim full census in the page
+ok 25 - incomplete or duplicate ledger cannot claim full census in the page
+  ---
+  duration_ms: 21.629804
+  type: 'test'
+  ...
+# Subtest: native DWG omissions and annotation overlays remain separate searchable nonpart ledgers
+ok 26 - native DWG omissions and annotation overlays remain separate searchable nonpart ledgers
+  ---
+  duration_ms: 26.178848
+  type: 'test'
+  ...
+# Subtest: incorrect DWG supplementary denominator fails closed
+ok 27 - incorrect DWG supplementary denominator fails closed
+  ---
+  duration_ms: 3.172745
+  type: 'test'
+  ...
+# Subtest: real library resources load with exact byte hashes; source/candidate modes never overlap or POST
+ok 28 - real library resources load with exact byte hashes; source/candidate modes never overlap or POST
+  ---
+  duration_ms: 1370.817897
+  type: 'test'
+  ...
+# Subtest: tampered resource leaves prior vetted view and labels selection mismatch
+ok 29 - tampered resource leaves prior vetted view and labels selection mismatch
+  ---
+  duration_ms: 4.284286
+  type: 'test'
+  ...
+# Subtest: late older response cannot overwrite a newer resource selection
+ok 30 - late older response cannot overwrite a newer resource selection
+  ---
+  duration_ms: 5.498663
+  type: 'test'
+  ...
+# Subtest: a zero-length source state hides the previous scene and restores geometry on the next selection
+ok 31 - a zero-length source state hides the previous scene and restores geometry on the next selection
+  ---
+  duration_ms: 6.372409
+  type: 'test'
+  ...
+# Subtest: hash failure after a record-only selection keeps the empty state and cannot expose an older scene
+ok 32 - hash failure after a record-only selection keeps the empty state and cannot expose an older scene
+  ---
+  duration_ms: 3.860593
+  type: 'test'
+  ...
+# Subtest: a late record-only response cannot hide a newer verified geometry selection
+ok 33 - a late record-only response cannot hide a newer verified geometry selection
+  ---
+  duration_ms: 3.888465
+  type: 'test'
+  ...
+# Subtest: viewer exposes current evidence and unknowns separately from historical source-only records
+ok 34 - viewer exposes current evidence and unknowns separately from historical source-only records
+  ---
+  duration_ms: 8.53954
+  type: 'test'
+  ...
+# Subtest: native transformer label and annotation search resolve only the 14 cited source views
+ok 35 - native transformer label and annotation search resolve only the 14 cited source views
+  ---
+  duration_ms: 7.862818
+  type: 'test'
+  ...
+# Subtest: empty/repeated source searches preserve the vetted scene without extra requests and recover on clear
+ok 36 - empty/repeated source searches preserve the vetted scene without extra requests and recover on clear
+  ---
+  duration_ms: 4.757754
+  type: 'test'
+  ...
+# Subtest: public source catalog is 476 states and preserves all 44 original identities
+ok 37 - public source catalog is 476 states and preserves all 44 original identities
+  ---
+  duration_ms: 0.647298
+  type: 'test'
+  ...
+# Subtest: unbundled provenance is shown as a source identifier rather than a download
+ok 38 - unbundled provenance is shown as a source identifier rather than a download
+  ---
+  duration_ms: 2.852776
+  type: 'test'
+  ...
+# Subtest: eight additional source comparisons preserve exact bytes and research semantics
+ok 39 - eight additional source comparisons preserve exact bytes and research semantics
+  ---
+  duration_ms: 9.2421
+  type: 'test'
+  ...
+# Subtest: 66 exact source-only references, no solid collision or mass
+ok 40 - 66 exact source-only references, no solid collision or mass
+  ---
+  duration_ms: 13.973406
+  type: 'test'
+  ...
+# Subtest: source layer filter and isolated selection
+ok 41 - source layer filter and isolated selection
+  ---
+  duration_ms: 2.09331
+  type: 'test'
+  ...
+# Subtest: malformed geometry, physical role or duplicate names rejected
+ok 42 - malformed geometry, physical role or duplicate names rejected
+  ---
+  duration_ms: 111.965472
+  type: 'test'
+  ...
+# Subtest: B31 historical material interpretations retain exact 4 names and mutual exclusion
+ok 43 - B31 historical material interpretations retain exact 4 names and mutual exclusion
+  ---
+  duration_ms: 0.20075
+  type: 'test'
+  ...
+# Subtest: real CAD corrections replace 323 with 326 in all five scenes, retain all other source vertices
+ok 44 - real CAD corrections replace 323 with 326 in all five scenes, retain all other source vertices
+  ---
+  duration_ms: 2118.066834
+  type: 'test'
+  ...
+# Subtest: pantograph 74 becomes 77; scope excluding replaced old meshes gains none
+ok 45 - pantograph 74 becomes 77; scope excluding replaced old meshes gains none
+  ---
+  duration_ms: 62.853827
+  type: 'test'
+  ...
+# Subtest: source identity, old triangle and vertex tampering fail closed
+ok 46 - source identity, old triangle and vertex tampering fail closed
+  ---
+  duration_ms: 93.905345
+  type: 'test'
+  ...
+# Subtest: new geometry tampering, collisions, mass and binding fail closed
+ok 47 - new geometry tampering, collisions, mass and binding fail closed
+  ---
+  duration_ms: 768.602066
+  type: 'test'
+  ...
+# Subtest: solver-bound mesh cannot be removed under static correction authority
+ok 48 - solver-bound mesh cannot be removed under static correction authority
+  ---
+  duration_ms: 9.710971
+  type: 'test'
+  ...
+# Subtest: world-static source correction cannot inherit old collision or turn into native body binding
+ok 49 - world-static source correction cannot inherit old collision or turn into native body binding
+  ---
+  duration_ms: 259.900828
+  type: 'test'
+  ...
+# Subtest: bearing page displays each envelope in supported platform view; repeated selection stays static
+ok 50 - bearing page displays each envelope in supported platform view; repeated selection stays static
+  ---
+  duration_ms: 20.78393
+  type: 'test'
+  ...
+# Subtest: bearing page rejects wrong physics or corrupt geometry
+ok 51 - bearing page rejects wrong physics or corrupt geometry
+  ---
+  duration_ms: 11.690262
+  type: 'test'
+  ...
+# Subtest: drive page supports candidate/current/overlap repeated modes and exposes source boundaries
+ok 52 - drive page supports candidate/current/overlap repeated modes and exposes source boundaries
+  ---
+  duration_ms: 58.803033
+  type: 'test'
+  ...
+# Subtest: drive page rejects silently enabled physics and malformed triangle
+ok 53 - drive page rejects silently enabled physics and malformed triangle
+  ---
+  duration_ms: 49.208537
+  type: 'test'
+  ...
+# Subtest: fixture page starts with four material-shape candidates, shows two envelopes only when selected
+ok 54 - fixture page starts with four material-shape candidates, shows two envelopes only when selected
+  ---
+  duration_ms: 23.768372
+  type: 'test'
+  ...
+# Subtest: fixture page fails closed on added mass and unsupported group data
+ok 55 - fixture page fails closed on added mass and unsupported group data
+  ---
+  duration_ms: 28.028935
+  type: 'test'
+  ...
+# Subtest: real public mesh identities admit every declared profile and preserve unrelated geometry
+ok 56 - real public mesh identities admit every declared profile and preserve unrelated geometry
+  ---
+  duration_ms: 1188.368385
+  type: 'test'
+  ...
+# Subtest: finite rail review keeps every source curve when highlighting either route
+ok 57 - finite rail review keeps every source curve when highlighting either route
+  ---
+  duration_ms: 3.803488
+  type: 'test'
+  ...
+# Subtest: default is exact source; opt-in replaces atomic group without physics
+ok 58 - default is exact source; opt-in replaces atomic group without physics
+  ---
+  duration_ms: 2.152729
+  type: 'test'
+  ...
+# Subtest: geometry, mass, collision and source identities fail closed
+ok 59 - geometry, mass, collision and source identities fail closed
+  ---
+  duration_ms: 0.947026
+  type: 'test'
+  ...
+# Subtest: partial scope never applies only half of an assembly group
+ok 60 - partial scope never applies only half of an assembly group
+  ---
+  duration_ms: 1.046355
+  type: 'test'
+  ...
+# Subtest: validated candidate arrays cannot be mutated after preparation
+ok 61 - validated candidate arrays cannot be mutated after preparation
+  ---
+  duration_ms: 0.258517
+  type: 'test'
+  ...
+# Subtest: scene admission rejects unreviewed assembly variants
+ok 62 - scene admission rejects unreviewed assembly variants
+  ---
+  duration_ms: 0.377775
+  type: 'test'
+  ...
+# Subtest: a native moving body cannot silently become an unbound fit mesh
+ok 63 - a native moving body cannot silently become an unbound fit mesh
+  ---
+  duration_ms: 0.322913
+  type: 'test'
+  ...
+# Subtest: metadata scrub preserves source handles without producer paths
+ok 64 - metadata scrub preserves source handles without producer paths
+  ---
+  duration_ms: 2.517976
+  type: 'test'
+  ...
+# Subtest: later reviewed frame or coil bindings cannot be removed as old unbound meshes
+ok 65 - later reviewed frame or coil bindings cannot be removed as old unbound meshes
+  ---
+  duration_ms: 0.299548
+  type: 'test'
+  ...
+1..65
+# tests 65
+# suites 0
+# pass 65
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 4539.277347

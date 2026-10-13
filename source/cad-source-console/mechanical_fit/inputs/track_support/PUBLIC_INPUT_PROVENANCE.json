@@ -1,0 +1,16 @@
+[
+  {
+    "name": "profile_conforming_hull.json",
+    "frozen_component_input_sha256": "ad20d1f38ffbdc136f6eb4e6ebf84037b504f8519d149c5e0c88187db076ea8e",
+    "public_input_sha256": "29be1a6c4086bd29e0aa783416236afe16a5eee641c2a2cbf39e26bcb25d8071",
+    "geometry_changed": false,
+    "local_staging_paths_removed": true
+  },
+  {
+    "name": "profile_flat_top_blank.json",
+    "frozen_component_input_sha256": "06b472139ab8392ad249d8b7f14a841372254b25034e0727ec3068179d015647",
+    "public_input_sha256": "042f9462b2f993de37f347072800ee009d11a39044673cd3c66ea036e5dd8f0e",
+    "geometry_changed": false,
+    "local_staging_paths_removed": true
+  }
+]

@@ -1,0 +1,390 @@
+{
+  "schema": "balise-rigid-transform-v1",
+  "transforms": [
+    {
+      "old": "ENV_balise_body_02",
+      "new": "FIT_BALISE_02_body_02",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -7.195666522914678
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.2598420423375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_triangle_sha256": "d146d2851fef115317f6025cddbd48f3fcf8dd98870857e5a2bdf3b9b08771c7",
+      "triangle_sha256": "364d5ecae9742da0812a86118ff4edd523e8c8e02c868f1709842d216944f511"
+    },
+    {
+      "old": "ENV_balise_yellow_lid_02",
+      "new": "FIT_BALISE_02_yellow_lid_02",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -7.195666522914678
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.2598420423375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_triangle_sha256": "ca6f21b1ea2bdb46b16d6612356835becebef6c3bc63b1c2e4cc07b3c648ee1c",
+      "triangle_sha256": "9651b5f73b42f4cd9ad6a8c7f0d2885200816e232037bd86c4c16b415c506f46"
+    },
+    {
+      "old": "ENV_balise_lid_screw.008",
+      "new": "FIT_BALISE_02_lid_screw.008",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -7.195666522914678
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.2598420423375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_triangle_sha256": "52ae504ecc197970908c3770c56986f3c7d3a8be767ff1898c7f31088b2910b6",
+      "triangle_sha256": "f8ade564e30751ef339c85d8afb2511dbdf9f7921c94f1d104fe0de37692e464"
+    },
+    {
+      "old": "ENV_balise_lid_screw.009",
+      "new": "FIT_BALISE_02_lid_screw.009",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -7.195666522914678
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.2598420423375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_triangle_sha256": "24d5c54b12cb0ecbb10798c506d40d0f95636b7922ca8a74b907317f261ca127",
+      "triangle_sha256": "d567340fbeb66864e2ef19e809741af72d431e83f27962c4cd1d08e0e3967789"
+    },
+    {
+      "old": "ENV_balise_lid_screw.010",
+      "new": "FIT_BALISE_02_lid_screw.010",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -7.195666522914678
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.2598420423375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_triangle_sha256": "f16f92c9a3dff0050a61ce5d3501d0afa250b93ae6e496b9c19de7b36f211b78",
+      "triangle_sha256": "1c840bf00eb05d72e6f6fe772373b587914cc6e491afa2380171a58442215b2b"
+    },
+    {
+      "old": "ENV_balise_lid_screw.011",
+      "new": "FIT_BALISE_02_lid_screw.011",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -7.195666522914678
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.2598420423375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_triangle_sha256": "92d0a3826c72b33cca91cc6abaa9fd90044ea972dccff63c9d899d2adab45e76",
+      "triangle_sha256": "32f0da494efa1b6c4b54f8f6d1425ccdff03fe4875a0a8dbc8883ac062c87d68"
+    },
+    {
+      "old": "ENV_balise_body_03",
+      "new": "FIT_BALISE_03_body_03",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -6.195666522914674
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.2801551517626875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_triangle_sha256": "fc826d92aa4df5e55a9b3932bda20e587551ca2014044746c00741c5b0e63fac",
+      "triangle_sha256": "e88c4bf8d4b1de358bee34d250413948b7a401f87ad8dd9b43e19cf4da5462ee"
+    },
+    {
+      "old": "ENV_balise_yellow_lid_03",
+      "new": "FIT_BALISE_03_yellow_lid_03",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -6.195666522914674
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.2801551517626875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_triangle_sha256": "cc72e4b37af9fa35f60bc3867ab694a6a1be74e6775d801901c5f8f2fd30f3ff",
+      "triangle_sha256": "64f975e0556211cf8ad38c0606d1f27d592263feca71b0f5f04a24e8dbfb001e"
+    },
+    {
+      "old": "ENV_balise_lid_screw.012",
+      "new": "FIT_BALISE_03_lid_screw.012",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -6.195666522914674
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.2801551517626875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_triangle_sha256": "9c0e6592b4a8b6fe69c245d645f94de8ad8089030684a3c11149af883f359e63",
+      "triangle_sha256": "33a1434d5f680ea3bca0b9a5ef9fea461f56306f83a46d9cfb11dbd4900426e5"
+    },
+    {
+      "old": "ENV_balise_lid_screw.013",
+      "new": "FIT_BALISE_03_lid_screw.013",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -6.195666522914674
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.2801551517626875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_triangle_sha256": "7e439b9e64605e223744627571dd4626ce277a9623aefeb915b8f9847fd0e7eb",
+      "triangle_sha256": "56be3c59150faf67cb250b4b14dc6492f8b8b47e7a76b693e6e2f0b826cbd5b3"
+    },
+    {
+      "old": "ENV_balise_lid_screw.014",
+      "new": "FIT_BALISE_03_lid_screw.014",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -6.195666522914674
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.2801551517626875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_triangle_sha256": "f9151042bd6391352da542936978717139a975875629baabffe65e48064efdd2",
+      "triangle_sha256": "d7160529fbdf665435807bed139f3b28549dc78a6c88798f278b614a58de0599"
+    },
+    {
+      "old": "ENV_balise_lid_screw.015",
+      "new": "FIT_BALISE_03_lid_screw.015",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -6.195666522914674
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.2801551517626875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_triangle_sha256": "48f8d6dd1cbf3b6492084dba0904bd714143509ee3f276c1b88f3250e374fd6f",
+      "triangle_sha256": "073eb8bda8676da70dc617b8450923c44c56958e2a04032a8674650da59038c5"
+    }
+  ],
+  "as_built_confirmed": false
+}

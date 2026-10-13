@@ -1,0 +1,234 @@
+{
+  "counts": {
+    "LINE": 1464,
+    "HATCH": 10,
+    "LWPOLYLINE": 441,
+    "ARC": 230,
+    "CIRCLE": 255,
+    "SPLINE": 156
+  },
+  "all_line_arc_circle_lwpolyline_curve_interiors_evaluated_analytically": true,
+  "nonlinear_or_line_hits_within_0p1mm": {
+    "open_4ED2C": [
+      {
+        "handle": "4ED2C",
+        "native_record_id": 201068,
+        "type": "LINE",
+        "min_distance_mm": 0.0,
+        "raw_line_range": [
+          8141635,
+          8141660
+        ]
+      }
+    ],
+    "gap_left_4ECED": [
+      {
+        "handle": "4ECED",
+        "native_record_id": 201005,
+        "type": "LINE",
+        "min_distance_mm": 0.0,
+        "raw_line_range": [
+          8139783,
+          8139808
+        ]
+      },
+      {
+        "handle": "4ECFE",
+        "native_record_id": 201022,
+        "type": "LINE",
+        "min_distance_mm": 2.9103830456733704e-11,
+        "raw_line_range": [
+          8140321,
+          8140346
+        ]
+      },
+      {
+        "handle": "4ED5E",
+        "native_record_id": 201118,
+        "type": "LINE",
+        "min_distance_mm": 0.0,
+        "raw_line_range": [
+          8142805,
+          8142828
+        ]
+      },
+      {
+        "handle": "4ED67",
+        "native_record_id": 201127,
+        "type": "LINE",
+        "min_distance_mm": 2.938624708779237e-11,
+        "raw_line_range": [
+          8143035,
+          8143058
+        ]
+      }
+    ],
+    "gap_right_4ECEC": [
+      {
+        "handle": "4ECEC",
+        "native_record_id": 201004,
+        "type": "LINE",
+        "min_distance_mm": 0.0,
+        "raw_line_range": [
+          8139757,
+          8139782
+        ]
+      },
+      {
+        "handle": "4ED02",
+        "native_record_id": 201026,
+        "type": "LINE",
+        "min_distance_mm": 0.0,
+        "raw_line_range": [
+          8140425,
+          8140450
+        ]
+      }
+    ]
+  },
+  "spline_control_bbox_candidates": [],
+  "hatch_boundary_bboxes": [
+    {
+      "handle": "4ECE1",
+      "boundary_bbox_world_XY_mm": [
+        [
+          -7855.887498250686,
+          226.6384491935969
+        ],
+        [
+          -7664.704575791857,
+          245.03074192847998
+        ]
+      ],
+      "any_target_within_bbox": false
+    },
+    {
+      "handle": "4ECE2",
+      "boundary_bbox_world_XY_mm": [
+        [
+          -7863.531577961006,
+          226.64895995354163
+        ],
+        [
+          -7664.704575791857,
+          245.03074192847998
+        ]
+      ],
+      "any_target_within_bbox": false
+    },
+    {
+      "handle": "4ECE3",
+      "boundary_bbox_world_XY_mm": [
+        [
+          -7863.531577961006,
+          233.50247864339326
+        ],
+        [
+          -7664.704575791857,
+          251.68437337983778
+        ]
+      ],
+      "any_target_within_bbox": false
+    },
+    {
+      "handle": "4ECE4",
+      "boundary_bbox_world_XY_mm": [
+        [
+          -7855.887498250686,
+          233.50247864339326
+        ],
+        [
+          -7664.704575791857,
+          251.68437337983778
+        ]
+      ],
+      "any_target_within_bbox": false
+    },
+    {
+      "handle": "4ECE5",
+      "boundary_bbox_world_XY_mm": [
+        [
+          -7855.887498250686,
+          226.64895995354163
+        ],
+        [
+          -7664.704575791857,
+          245.03074192847998
+        ]
+      ],
+      "any_target_within_bbox": false
+    },
+    {
+      "handle": "4ECE6",
+      "boundary_bbox_world_XY_mm": [
+        [
+          -7855.887498250686,
+          233.50247864339326
+        ],
+        [
+          -7664.704575791857,
+          251.69488413978252
+        ]
+      ],
+      "any_target_within_bbox": false
+    },
+    {
+      "handle": "4ECE7",
+      "boundary_bbox_world_XY_mm": [
+        [
+          -7855.887498250686,
+          233.50247864339326
+        ],
+        [
+          -7658.468134535036,
+          251.69488413978252
+        ]
+      ],
+      "any_target_within_bbox": false
+    },
+    {
+      "handle": "4ECE8",
+      "boundary_bbox_world_XY_mm": [
+        [
+          -7855.887498250686,
+          226.6384491935969
+        ],
+        [
+          -7658.468134535036,
+          245.03074192847998
+        ]
+      ],
+      "any_target_within_bbox": false
+    },
+    {
+      "handle": "4EE0B",
+      "boundary_bbox_world_XY_mm": [
+        [
+          -10337.534868726998,
+          4055.921946786708
+        ],
+        [
+          2192.4651312730057,
+          7145.921946786708
+        ]
+      ],
+      "any_target_within_bbox": false
+    },
+    {
+      "handle": "4EE0D",
+      "boundary_bbox_world_XY_mm": [
+        [
+          -9637.534868726998,
+          4055.921946786708
+        ],
+        [
+          1492.4651312730057,
+          4665.921946786708
+        ]
+      ],
+      "any_target_within_bbox": false
+    }
+  ],
+  "open_4ED2C_other_geometric_continuations_found": 0,
+  "limits": "Control hull exclusion for all direct Model splines is geometric only; it does not resolve intended route or material topology. Hatches checked only for spatial possibility; they are not assigned to rail solids."
+}

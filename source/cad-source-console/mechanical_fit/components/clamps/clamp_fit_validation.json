@@ -1,0 +1,1627 @@
+{
+  "schema": "gtsd-clamp-fit-validation-v1",
+  "all_tests_passed": true,
+  "check_count": 77,
+  "source_identity": {
+    "commit": "c5dd336",
+    "source_scene": "20_FRONT_ROUTE_NOMINAL_FIT",
+    "base_glb_sha256": "fff3f9fffd83e380435eba3a0f9ba975b87557b794d671ee175ea842235bbfa9",
+    "source_replacements_sha256": "fe9e6c52f5a2381394e40372147c78946b6e50c019043d381730c7593df61a73",
+    "published_total_mesh_count": 1932
+  },
+  "profile_mesh_counts": {
+    "main": 6,
+    "optional_messenger_datum": 7,
+    "b535_review": 4
+  },
+  "profile_sha256": {
+    "clamp_fit_profile.json": "12fff9c14ea4c78815d384623458d47217a186430d5b82a815588dcf6a56f80d",
+    "clamp_messenger_datum_profile.json": "e54f373e7b080df7d6958cf07aadad9e735a94e648166662112afa99eebc879e",
+    "clamp_b535_review_profile.json": "35c133ee7616daf2d73e7824ff7657b61848ca867e3dd848a57f558f5ab12fe2"
+  },
+  "checks": [
+    {
+      "name": "published_main_c5dd336_default_scene_1932",
+      "passed": true
+    },
+    {
+      "name": "catenary_8a2c_pin5_depth_candidate_scene_lock",
+      "passed": true
+    },
+    {
+      "name": "catenary_8a2c_pin5_depth_candidate_source_names_exist",
+      "passed": true
+    },
+    {
+      "name": "catenary_8a2c_pin5_depth_candidate_one_for_one",
+      "passed": true
+    },
+    {
+      "name": "catenary_8a2c_pin5_depth_candidate_FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 128,
+      "triangles": 252,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.0029354861874608673,
+      "volume_mm3": 10302.485958016026,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "catenary_8a2c_pin5_depth_candidate_FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 386,
+      "triangles": 768,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.10195125810241734,
+      "volume_mm3": 785.2563765081829,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "catenary_8a2c_pin5_depth_candidate_FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 272,
+      "triangles": 544,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.294172088021786,
+      "volume_mm3": 2982.9680394522443,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "catenary_8a2c_pin5_depth_candidate_FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 128,
+      "triangles": 252,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.002920251984672717,
+      "volume_mm3": 10302.314330304842,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "catenary_8a2c_pin5_depth_candidate_FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 386,
+      "triangles": 768,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.1017818362925027,
+      "volume_mm3": 785.2474810834209,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "catenary_8a2c_pin5_depth_candidate_FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 272,
+      "triangles": 544,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.29375063872289336,
+      "volume_mm3": 2982.9193320578224,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "catenary_b535_pin5_depth_review_scene_lock",
+      "passed": true
+    },
+    {
+      "name": "catenary_b535_pin5_depth_review_source_names_exist",
+      "passed": true
+    },
+    {
+      "name": "catenary_b535_pin5_depth_review_one_for_one",
+      "passed": true
+    },
+    {
+      "name": "catenary_b535_pin5_depth_review_FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 128,
+      "triangles": 252,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.0029354861874608673,
+      "volume_mm3": 10302.485958016026,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "catenary_b535_pin5_depth_review_FIT_50DF4_F643_NOMINAL_PIN5_B535_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 386,
+      "triangles": 768,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.10195125810241734,
+      "volume_mm3": 785.2561985883195,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_50DF4_F643_NOMINAL_PIN5_B535_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "catenary_b535_pin5_depth_review_FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 128,
+      "triangles": 252,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.002920251984672717,
+      "volume_mm3": 10302.314330304842,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "catenary_b535_pin5_depth_review_FIT_51409_F643_NOMINAL_PIN5_B535_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 386,
+      "triangles": 768,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.1017818362925027,
+      "volume_mm3": 785.2473025951241,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_51409_F643_NOMINAL_PIN5_B535_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "clamp_messenger_datum_scene_lock",
+      "passed": true
+    },
+    {
+      "name": "clamp_messenger_datum_source_names_exist",
+      "passed": true
+    },
+    {
+      "name": "clamp_messenger_datum_one_for_one",
+      "passed": true
+    },
+    {
+      "name": "clamp_messenger_datum_FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 128,
+      "triangles": 252,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.0029354861874608673,
+      "volume_mm3": 10302.485958016026,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "clamp_messenger_datum_FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 386,
+      "triangles": 768,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.10195125810241734,
+      "volume_mm3": 785.2563765081829,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "clamp_messenger_datum_FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 272,
+      "triangles": 544,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.294172088021786,
+      "volume_mm3": 2982.9680394522443,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "clamp_messenger_datum_FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 128,
+      "triangles": 252,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.002920251984672717,
+      "volume_mm3": 10302.314330304842,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "clamp_messenger_datum_FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 386,
+      "triangles": 768,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.1017818362925027,
+      "volume_mm3": 785.2474810834209,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "clamp_messenger_datum_FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 272,
+      "triangles": 544,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.29375063872289336,
+      "volume_mm3": 2982.9193320578224,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "clamp_messenger_datum_FIT_MESSENGER_NATIVE_CLAMP_DATUM_CANDIDATE_closed_positive",
+      "passed": true,
+      "welded_vertices": 24,
+      "triangles": 44,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.4186434169734768,
+      "volume_mm3": 186515.7162987828,
+      "closed": true,
+      "positive_volume": true
+    },
+    {
+      "name": "FIT_MESSENGER_NATIVE_CLAMP_DATUM_CANDIDATE_explicit_uncertainty",
+      "passed": true
+    },
+    {
+      "name": "518DF_rod_preserves_exact_front_projection",
+      "passed": true
+    },
+    {
+      "name": "518DF_rod_envelope_clearance",
+      "passed": true,
+      "actual_gap_mm": 0.9999275207519531,
+      "depth_offset_mm": 35.60001945495594
+    },
+    {
+      "name": "518DF_CAD_SOURCE_518DF_C4D1_4AEC_ring_square_fit_candidate_overlap_eliminated",
+      "passed": true
+    },
+    {
+      "name": "518DF_CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate_overlap_eliminated",
+      "passed": true
+    },
+    {
+      "name": "50DF4_nominal_pin_and_selected_hole_clear",
+      "passed": true
+    },
+    {
+      "name": "50DF4_profile0_no_new_overlap",
+      "passed": true
+    },
+    {
+      "name": "50DF4_b535_route_new_conflict_exposed",
+      "passed": true
+    },
+    {
+      "name": "518DF_unchanged_tube_is_clear",
+      "passed": true
+    },
+    {
+      "name": "50DF4_strip_outer_outline_unchanged",
+      "passed": true,
+      "hausdorff_mm": 0.0,
+      "symdiff_mm2": 0.0,
+      "xy_tolerance_mm": 1e-07,
+      "perimeter_area_bound_mm2": 2.7610050003950106e-05
+    },
+    {
+      "name": "50DF4_tongue_slot_contact_preserved",
+      "passed": true
+    },
+    {
+      "name": "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE_diagonal_false_AABB_positive",
+      "passed": true
+    },
+    {
+      "name": "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE_diagonal_false_AABB_positive",
+      "passed": true
+    },
+    {
+      "name": "518DF_contact_wire_connection_intersection_retained",
+      "passed": true
+    },
+    {
+      "name": "CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate_wire_no_overlap",
+      "passed": true
+    },
+    {
+      "name": "CAD_SOURCE_518DF_C4D1_4AEC_jaw_upper_square_fit_candidate_wire_no_overlap",
+      "passed": true
+    },
+    {
+      "name": "518E0_rod_preserves_exact_front_projection",
+      "passed": true
+    },
+    {
+      "name": "518E0_rod_envelope_clearance",
+      "passed": true,
+      "actual_gap_mm": 0.9999275207519531,
+      "depth_offset_mm": 35.60025787353549
+    },
+    {
+      "name": "518E0_CAD_SOURCE_518E0_C4D1_4AEC_ring_square_fit_candidate_overlap_eliminated",
+      "passed": true
+    },
+    {
+      "name": "518E0_CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate_overlap_eliminated",
+      "passed": true
+    },
+    {
+      "name": "51409_nominal_pin_and_selected_hole_clear",
+      "passed": true
+    },
+    {
+      "name": "51409_profile0_no_new_overlap",
+      "passed": true
+    },
+    {
+      "name": "51409_b535_route_new_conflict_exposed",
+      "passed": true
+    },
+    {
+      "name": "518E0_unchanged_tube_is_clear",
+      "passed": true
+    },
+    {
+      "name": "51409_strip_outer_outline_unchanged",
+      "passed": true,
+      "hausdorff_mm": 0.0,
+      "symdiff_mm2": 0.0,
+      "xy_tolerance_mm": 1e-07,
+      "perimeter_area_bound_mm2": 2.7609954636518466e-05
+    },
+    {
+      "name": "51409_tongue_slot_contact_preserved",
+      "passed": true
+    },
+    {
+      "name": "518E0_contact_wire_connection_intersection_retained",
+      "passed": true
+    },
+    {
+      "name": "CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate_wire_no_overlap",
+      "passed": true
+    },
+    {
+      "name": "CAD_SOURCE_518E0_C4D1_4AEC_jaw_upper_square_fit_candidate_wire_no_overlap",
+      "passed": true
+    },
+    {
+      "name": "19_NATIVE_CLAMP_SOURCE_REVIEW_rejects_without_partial_mutation",
+      "passed": true
+    },
+    {
+      "name": "21_PLAN_ROUTE_NOMINAL_FIT_rejects_without_partial_mutation",
+      "passed": true
+    },
+    {
+      "name": "22_FRONT_ROUTE_HOLES_6P2_rejects_without_partial_mutation",
+      "passed": true
+    },
+    {
+      "name": "23_FRONT_ROUTE_UNCUT_SLOT_REVIEW_rejects_without_partial_mutation",
+      "passed": true
+    },
+    {
+      "name": "missing_mesh_rejects_without_partial_mutation",
+      "passed": true
+    }
+  ],
+  "nonconnection_interfaces": [
+    {
+      "interface": "518DF 4079 / CAD_SOURCE_518DF_C4D1_4AEC_ring_square_fit_candidate",
+      "classification": "NON_CONNECTION_CLEARANCE",
+      "before": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 73.91437250721089,
+        "breakpoint_count": 73,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -2.0725347995758057,
+            0.000999405350536108,
+            2.055547981075499
+          ],
+          "winding_numbers": [
+            1.0000000000000397,
+            1.0000000000000002
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "after": {
+        "method": "exact cap integration; separating projection",
+        "volume_mm3": 0.0
+      }
+    },
+    {
+      "interface": "518DF 4079 / CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate",
+      "classification": "NON_CONNECTION_CLEARANCE",
+      "before": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 66.65453208042459,
+        "breakpoint_count": 33,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -2.0725347995758057,
+            0.000999405350536108,
+            2.092747981075499
+          ],
+          "winding_numbers": [
+            1.0000000000000002,
+            1.0
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "after": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 0.0,
+        "breakpoint_count": 2
+      }
+    },
+    {
+      "interface": "50DF4 pin / B535 (selected 8A2C hole version)",
+      "classification": "NON_CONNECTION_CLEARANCE",
+      "before": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 2.3120473488656432,
+        "depth_mm": 3.9999932050704956,
+        "volume_mm3": 9.248173685263826,
+        "cap_min_clearance_mm": 0.0,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -2.0709950923919678,
+            0.24529466778039932,
+            1.6236971020698547
+          ],
+          "winding_numbers": [
+            1.0000000000000002,
+            0.9999999999999996
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 3.9999932050704956,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.49904008612357403
+      }
+    },
+    {
+      "interface": "50DF4 pin / F643_profile_0",
+      "classification": "NOMINAL_ZERO_MARGIN_SOURCE_INTERFACE",
+      "before": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 4.000186920166016,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.0
+      },
+      "after": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 0.0,
+        "breakpoint_count": 62
+      }
+    },
+    {
+      "interface": "518DF native upper tube / native ring",
+      "classification": "UNCHANGED_ALREADY_CLEAR_NATIVE_INTERFACE",
+      "before": {
+        "method": "conservative convex projection of actual tube triangles clipped to ring Y slab against actual ring cap material",
+        "projection_overlap_area_mm2": 0.0,
+        "guaranteed_min_clearance_mm": 0.4160443675558234,
+        "positive_volume_overlap_mm3": 0.0,
+        "tube_clipped_points": 1024
+      },
+      "after": {
+        "method": "conservative convex projection of actual tube triangles clipped to ring Y slab against actual ring cap material",
+        "projection_overlap_area_mm2": 0.0,
+        "guaranteed_min_clearance_mm": 0.4160443675558234,
+        "positive_volume_overlap_mm3": 0.0,
+        "tube_clipped_points": 1024
+      }
+    },
+    {
+      "interface": "518DF messenger / CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate",
+      "classification": "MAIN_PRESERVES_SOURCE_MICRO_OVERLAP; OPTIONAL_DATUM_VARIANT_ONLY",
+      "before": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 7.636182078122518e-06,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.00010690608301814896,
+        "cap_min_clearance_mm": 0.0,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -2.0725347995758057,
+            5.54460991009087e-19,
+            2.09694766998291
+          ],
+          "winding_numbers": [
+            1.0000002126896639,
+            1.000000000000921
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 7.636182078122518e-06,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.00010690608301814896,
+        "cap_min_clearance_mm": 0.0,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -2.0725347995758057,
+            5.54460991009087e-19,
+            2.09694766998291
+          ],
+          "winding_numbers": [
+            1.0000002126896639,
+            1.000000000000921
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "optional_messenger_datum_after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.09942054748535156
+      }
+    },
+    {
+      "interface": "518DF messenger / CAD_SOURCE_518DF_C4D1_4AEC_jaw_upper_square_fit_candidate",
+      "classification": "MAIN_PRESERVES_SOURCE_MICRO_OVERLAP; OPTIONAL_DATUM_VARIANT_ONLY",
+      "before": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.14794035835953895
+      },
+      "after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.14794035835953895
+      },
+      "optional_messenger_datum_after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.09954282876861978
+      }
+    },
+    {
+      "interface": "518E0 4079 / CAD_SOURCE_518E0_C4D1_4AEC_ring_square_fit_candidate",
+      "classification": "NON_CONNECTION_CLEARANCE",
+      "before": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 73.91402651905524,
+        "breakpoint_count": 73,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -6.072535037994385,
+            0.000999405350536108,
+            2.055547981075499
+          ],
+          "winding_numbers": [
+            1.0000000000000397,
+            1.0
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "after": {
+        "method": "exact cap integration; separating projection",
+        "volume_mm3": 0.0
+      }
+    },
+    {
+      "interface": "518E0 4079 / CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate",
+      "classification": "NON_CONNECTION_CLEARANCE",
+      "before": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 66.65342169164781,
+        "breakpoint_count": 33,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -6.072535037994385,
+            0.000999405350536108,
+            2.092747981075499
+          ],
+          "winding_numbers": [
+            1.0000000000000002,
+            1.0
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "after": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 0.0,
+        "breakpoint_count": 2
+      }
+    },
+    {
+      "interface": "51409 pin / B535 (selected 8A2C hole version)",
+      "classification": "NON_CONNECTION_CLEARANCE",
+      "before": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 2.311529688654696,
+        "depth_mm": 3.9999932050704956,
+        "volume_mm3": 9.246103047937503,
+        "cap_min_clearance_mm": 0.0,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -6.0740745067596436,
+            -0.24529585987329483,
+            1.6236971020698547
+          ],
+          "winding_numbers": [
+            0.9999999999999942,
+            1.0000000000000004
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 3.9999932050704956,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.4989249314069073
+      }
+    },
+    {
+      "interface": "51409 pin / F643_profile_0",
+      "classification": "NOMINAL_ZERO_MARGIN_SOURCE_INTERFACE",
+      "before": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 3.9997100830078125,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.0
+      },
+      "after": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 0.0,
+        "breakpoint_count": 62
+      }
+    },
+    {
+      "interface": "518E0 native upper tube / native ring",
+      "classification": "UNCHANGED_ALREADY_CLEAR_NATIVE_INTERFACE",
+      "before": {
+        "method": "conservative convex projection of actual tube triangles clipped to ring Y slab against actual ring cap material",
+        "projection_overlap_area_mm2": 0.0,
+        "guaranteed_min_clearance_mm": 0.4160443675558234,
+        "positive_volume_overlap_mm3": 0.0,
+        "tube_clipped_points": 1024
+      },
+      "after": {
+        "method": "conservative convex projection of actual tube triangles clipped to ring Y slab against actual ring cap material",
+        "projection_overlap_area_mm2": 0.0,
+        "guaranteed_min_clearance_mm": 0.4160443675558234,
+        "positive_volume_overlap_mm3": 0.0,
+        "tube_clipped_points": 1024
+      }
+    },
+    {
+      "interface": "518E0 messenger / CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate",
+      "classification": "MAIN_PRESERVES_SOURCE_MICRO_OVERLAP; OPTIONAL_DATUM_VARIANT_ONLY",
+      "before": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 7.636182078122518e-06,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.00010690608301814896,
+        "cap_min_clearance_mm": 0.0,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -6.072535037994385,
+            5.54460991009087e-19,
+            2.09694766998291
+          ],
+          "winding_numbers": [
+            0.9999996188170508,
+            1.000000000000921
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 7.636182078122518e-06,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.00010690608301814896,
+        "cap_min_clearance_mm": 0.0,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -6.072535037994385,
+            5.54460991009087e-19,
+            2.09694766998291
+          ],
+          "winding_numbers": [
+            0.9999996188170508,
+            1.000000000000921
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "optional_messenger_datum_after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.09942054748535156
+      }
+    },
+    {
+      "interface": "518E0 messenger / CAD_SOURCE_518E0_C4D1_4AEC_jaw_upper_square_fit_candidate",
+      "classification": "MAIN_PRESERVES_SOURCE_MICRO_OVERLAP; OPTIONAL_DATUM_VARIANT_ONLY",
+      "before": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.14794035835953895
+      },
+      "after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.14794035835953895
+      },
+      "optional_messenger_datum_after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.09954282876861978
+      }
+    }
+  ],
+  "connection_interfaces": [
+    {
+      "interface": "518DF 4079 lower end / contact wire",
+      "classification": "PRESERVED_UNRESOLVED_FIXING_INTERFACE_NOT_ASSUMED_WELD",
+      "before": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 38.18368005972269,
+        "breakpoint_count": 40,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -2.0725347995758057,
+            0.0,
+            1.5695
+          ],
+          "winding_numbers": [
+            0.9999999999334586,
+            1.0
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "after": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 38.18368005972269,
+        "breakpoint_count": 40,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -2.0369348526000977,
+            0.0,
+            1.5695
+          ],
+          "winding_numbers": [
+            0.9999999999453635,
+            1.0
+          ],
+          "both_strictly_inside": true
+        }
+      }
+    },
+    {
+      "interface": "518E0 4079 lower end / contact wire",
+      "classification": "PRESERVED_UNRESOLVED_FIXING_INTERFACE_NOT_ASSUMED_WELD",
+      "before": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 38.183423684221864,
+        "breakpoint_count": 40,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -6.072535037994385,
+            0.0,
+            1.5695
+          ],
+          "winding_numbers": [
+            0.9999999999922308,
+            0.9999999999999999
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "after": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 38.183423684221864,
+        "breakpoint_count": 40,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -6.036934852600098,
+            0.0,
+            1.5695
+          ],
+          "winding_numbers": [
+            0.9999999999843997,
+            0.9999999999999999
+          ],
+          "both_strictly_inside": true
+        }
+      }
+    },
+    {
+      "interface": "messenger / CAD_5195F_9587_open_shackle",
+      "classification": "EXISTING_END_CONNECTION_MATERIAL_INTERFACE_FIXING_UNRESOLVED",
+      "before": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 39.00188079540965,
+        "estimated_error_mm3": 1.6510572662891798e-09,
+        "slice_evaluations": 1827,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -9.03702767775603,
+            -0.0006916324826948009,
+            2.097155534217396
+          ],
+          "winding_numbers": [
+            1.0000000000000029,
+            1.0000000000000084
+          ]
+        }
+      },
+      "after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 39.00188079540965,
+        "estimated_error_mm3": 1.6510572662891798e-09,
+        "slice_evaluations": 1827,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -9.03702767775603,
+            -0.0006916324826948009,
+            2.097155534217396
+          ],
+          "winding_numbers": [
+            1.0000000000000029,
+            1.0000000000000084
+          ]
+        }
+      },
+      "optional_messenger_datum_after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 39.0213780283665,
+        "estimated_error_mm3": 9.713868271178344e-09,
+        "slice_evaluations": 1659,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -9.037000098782029,
+            -0.0006942226009267469,
+            2.097257614135742
+          ],
+          "winding_numbers": [
+            1.000000000000002,
+            0.9999999999999938
+          ]
+        }
+      }
+    },
+    {
+      "interface": "messenger / CAD_5196A_9587_open_shackle",
+      "classification": "EXISTING_END_CONNECTION_MATERIAL_INTERFACE_FIXING_UNRESOLVED",
+      "before": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 39.002064529131175,
+        "estimated_error_mm3": 1.6603545121700233e-09,
+        "slice_evaluations": 1827,
+        "positive_volume_witness": {
+          "point_world_m": [
+            0.8919583195991418,
+            -0.0006916324826948009,
+            2.097155534217396
+          ],
+          "winding_numbers": [
+            1.0000000000000009,
+            1.0000000000000002
+          ]
+        }
+      },
+      "after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 39.002064529131175,
+        "estimated_error_mm3": 1.6603545121700233e-09,
+        "slice_evaluations": 1827,
+        "positive_volume_witness": {
+          "point_world_m": [
+            0.8919583195991418,
+            -0.0006916324826948009,
+            2.097155534217396
+          ],
+          "winding_numbers": [
+            1.0000000000000009,
+            1.0000000000000002
+          ]
+        }
+      },
+      "optional_messenger_datum_after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 39.02156617410964,
+        "estimated_error_mm3": 9.709458938544825e-09,
+        "slice_evaluations": 1659,
+        "positive_volume_witness": {
+          "point_world_m": [
+            0.8919307337941419,
+            -0.0006942226009267469,
+            2.097257614135742
+          ],
+          "winding_numbers": [
+            1.0000000000000002,
+            0.9999999999999896
+          ]
+        }
+      }
+    },
+    {
+      "interface": "messenger / CAD_Model_518E9_dropper_source",
+      "classification": "EXISTING_END_CONNECTION_MATERIAL_INTERFACE_FIXING_UNRESOLVED",
+      "before": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 0.6409363738954463,
+        "estimated_error_mm3": 2.816274162735385e-08,
+        "slice_evaluations": 462,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -8.08878310684384,
+            3.2481722999999994e-05,
+            2.0969830751419067
+          ],
+          "winding_numbers": [
+            1.0000000049369249,
+            1.0000000000000473
+          ]
+        }
+      },
+      "after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 0.6409363738954463,
+        "estimated_error_mm3": 2.816274162735385e-08,
+        "slice_evaluations": 462,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -8.08878310684384,
+            3.2481722999999994e-05,
+            2.0969830751419067
+          ],
+          "winding_numbers": [
+            1.0000000049369249,
+            1.0000000000000473
+          ]
+        }
+      },
+      "optional_messenger_datum_after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 2.980525864537161e-06,
+        "estimated_error_mm3": 3.371942121196642e-08,
+        "slice_evaluations": 231,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -8.088784665604289,
+            -5.94625e-07,
+            2.0970479249954224
+          ],
+          "winding_numbers": [
+            0.999998354810791,
+            0.9999999999833927
+          ]
+        }
+      }
+    },
+    {
+      "interface": "messenger / CAD_Model_518EA_dropper_source",
+      "classification": "EXISTING_END_CONNECTION_MATERIAL_INTERFACE_FIXING_UNRESOLVED",
+      "before": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 0.6409363782054183,
+        "estimated_error_mm3": 3.1502368275593126e-11,
+        "slice_evaluations": 504,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -6.9887832022112715,
+            3.2481722999999994e-05,
+            2.0969830751419067
+          ],
+          "winding_numbers": [
+            0.999999983115249,
+            1.0000000000000455
+          ]
+        }
+      },
+      "after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 0.6409363782054183,
+        "estimated_error_mm3": 3.1502368275593126e-11,
+        "slice_evaluations": 504,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -6.9887832022112715,
+            3.2481722999999994e-05,
+            2.0969830751419067
+          ],
+          "winding_numbers": [
+            0.999999983115249,
+            1.0000000000000455
+          ]
+        }
+      },
+      "optional_messenger_datum_after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 2.980525864537161e-06,
+        "estimated_error_mm3": 3.371942121196642e-08,
+        "slice_evaluations": 231,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -6.988784760971721,
+            -5.94625e-07,
+            2.0970479249954224
+          ],
+          "winding_numbers": [
+            0.9999935903171453,
+            0.99999999999227
+          ]
+        }
+      }
+    },
+    {
+      "interface": "messenger / CAD_Model_518EB_dropper_source",
+      "classification": "EXISTING_END_CONNECTION_MATERIAL_INTERFACE_FIXING_UNRESOLVED",
+      "before": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 0.640945495697074,
+        "estimated_error_mm3": 2.229345083470396e-11,
+        "slice_evaluations": 462,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -5.162533337872075,
+            3.2481722999999994e-05,
+            2.0969830751419067
+          ],
+          "winding_numbers": [
+            0.9999999885498321,
+            0.9999999999997283
+          ]
+        }
+      },
+      "after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 0.640945495697074,
+        "estimated_error_mm3": 2.229345083470396e-11,
+        "slice_evaluations": 462,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -5.162533337872075,
+            3.2481722999999994e-05,
+            2.0969830751419067
+          ],
+          "winding_numbers": [
+            0.9999999885498321,
+            0.9999999999997283
+          ]
+        }
+      },
+      "optional_messenger_datum_after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 2.9805875601656937e-06,
+        "estimated_error_mm3": 3.3720118434407085e-08,
+        "slice_evaluations": 231,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -5.162534922611523,
+            -5.94625e-07,
+            2.0970479249954224
+          ],
+          "winding_numbers": [
+            1.0000009399276013,
+            1.000000000001742
+          ]
+        }
+      }
+    },
+    {
+      "interface": "messenger / CAD_Model_518EC_dropper_source",
+      "classification": "EXISTING_END_CONNECTION_MATERIAL_INTERFACE_FIXING_UNRESOLVED",
+      "before": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 0.6409363782153408,
+        "estimated_error_mm3": 2.231189437285049e-11,
+        "slice_evaluations": 462,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -4.062533221284758,
+            3.2481722999999994e-05,
+            2.0969830751419067
+          ],
+          "winding_numbers": [
+            0.9999999941512631,
+            1.0000000000000457
+          ]
+        }
+      },
+      "after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 0.6409363782153408,
+        "estimated_error_mm3": 2.231189437285049e-11,
+        "slice_evaluations": 462,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -4.062533221284758,
+            3.2481722999999994e-05,
+            2.0969830751419067
+          ],
+          "winding_numbers": [
+            0.9999999941512631,
+            1.0000000000000457
+          ]
+        }
+      },
+      "optional_messenger_datum_after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 2.980525864537161e-06,
+        "estimated_error_mm3": 3.371942121196642e-08,
+        "slice_evaluations": 231,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -4.062534780045207,
+            -5.94625e-07,
+            2.0970479249954224
+          ],
+          "winding_numbers": [
+            1.0000009296518015,
+            0.99999999999227
+          ]
+        }
+      }
+    },
+    {
+      "interface": "messenger / CAD_Model_518ED_dropper_source",
+      "classification": "EXISTING_END_CONNECTION_MATERIAL_INTERFACE_FIXING_UNRESOLVED",
+      "before": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 0.6409409369766619,
+        "estimated_error_mm3": 2.229784446512791e-11,
+        "slice_evaluations": 462,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -2.962533184210957,
+            3.2481722999999994e-05,
+            2.0969830751419067
+          ],
+          "winding_numbers": [
+            0.9999999932602895,
+            1.0000000000001854
+          ]
+        }
+      },
+      "after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 0.6409409369766619,
+        "estimated_error_mm3": 2.229784446512791e-11,
+        "slice_evaluations": 462,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -2.962533184210957,
+            3.2481722999999994e-05,
+            2.0969830751419067
+          ],
+          "winding_numbers": [
+            0.9999999932602895,
+            1.0000000000001854
+          ]
+        }
+      },
+      "optional_messenger_datum_after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 2.980556712421994e-06,
+        "estimated_error_mm3": 3.371976982763987e-08,
+        "slice_evaluations": 231,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -2.9625347559606836,
+            -5.94625e-07,
+            2.0970479249954224
+          ],
+          "winding_numbers": [
+            0.9999925086640119,
+            0.9999999999945756
+          ]
+        }
+      }
+    },
+    {
+      "interface": "messenger / CAD_Model_518EE_dropper_source",
+      "classification": "EXISTING_END_CONNECTION_MATERIAL_INTERFACE_FIXING_UNRESOLVED",
+      "before": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 0.6409419809220298,
+        "estimated_error_mm3": 2.2303547522748655e-11,
+        "slice_evaluations": 462,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -1.136283233742245,
+            3.2481722999999994e-05,
+            2.0969830751419067
+          ],
+          "winding_numbers": [
+            0.999999992265701,
+            1.0000000000000826
+          ]
+        }
+      },
+      "after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 0.6409419809220298,
+        "estimated_error_mm3": 2.2303547522748655e-11,
+        "slice_evaluations": 462,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -1.136283233742245,
+            3.2481722999999994e-05,
+            2.0969830751419067
+          ],
+          "winding_numbers": [
+            0.999999992265701,
+            1.0000000000000826
+          ]
+        }
+      },
+      "optional_messenger_datum_after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 2.9805567368199034e-06,
+        "estimated_error_mm3": 3.371977029424296e-08,
+        "slice_evaluations": 231,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -1.1362847989972336,
+            -5.94625e-07,
+            2.0970479249954224
+          ],
+          "winding_numbers": [
+            0.999995641531287,
+            0.9999999999862463
+          ]
+        }
+      }
+    },
+    {
+      "interface": "messenger / CAD_Model_518EF_dropper_source",
+      "classification": "EXISTING_END_CONNECTION_MATERIAL_INTERFACE_FIXING_UNRESOLVED",
+      "before": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 0.640941113385971,
+        "estimated_error_mm3": 2.23435887931617e-11,
+        "slice_evaluations": 462,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -0.03628326899298206,
+            3.2481722999999994e-05,
+            2.0969830751419067
+          ],
+          "winding_numbers": [
+            1.0000000029100624,
+            0.9999999999999
+          ]
+        }
+      },
+      "after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 0.640941113385971,
+        "estimated_error_mm3": 2.23435887931617e-11,
+        "slice_evaluations": 462,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -0.03628326899298206,
+            3.2481722999999994e-05,
+            2.0969830751419067
+          ],
+          "winding_numbers": [
+            1.0000000029100624,
+            0.9999999999999
+          ]
+        }
+      },
+      "optional_messenger_datum_after": {
+        "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+        "volume_mm3": 2.98055647629012e-06,
+        "estimated_error_mm3": 3.3719767199015905e-08,
+        "slice_evaluations": 231,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -0.03628483932247964,
+            -5.94625e-07,
+            2.0970479249954224
+          ],
+          "winding_numbers": [
+            1.0000027956307698,
+            0.9999999999904976
+          ]
+        }
+      }
+    }
+  ],
+  "additional_context": [
+    {
+      "interface": "50DF4 B535-center route against F643_profile_0",
+      "status": "REVIEW_VARIANT_REMAINS_INTERFERING",
+      "overlap": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 10.823057653762708,
+        "breakpoint_count": 63
+      },
+      "B535_pin_hole_fit": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 3.9999932050704956,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.49904008612357403
+      }
+    },
+    {
+      "interface": "50DF4 strip / existing tongue-slot plate",
+      "before": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 0.0,
+        "breakpoint_count": 4
+      },
+      "after": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 0.0,
+        "breakpoint_count": 4
+      },
+      "classification": "EXISTING_NOMINAL_CONTACT"
+    },
+    {
+      "interface": "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE / diagonal tube",
+      "after": {
+        "method": "separating convex projection of actual triangle vertices",
+        "axes": [
+          1,
+          2
+        ],
+        "guaranteed_clearance_mm": 201.78898477928317,
+        "projected_overlap_area_mm2": 0.0
+      }
+    },
+    {
+      "interface": "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE / diagonal tube",
+      "after": {
+        "method": "separating convex projection of actual triangle vertices",
+        "axes": [
+          1,
+          2
+        ],
+        "guaranteed_clearance_mm": 187.22952012455454,
+        "projected_overlap_area_mm2": 0.0
+      }
+    },
+    {
+      "interface": "51409 B535-center route against F643_profile_0",
+      "status": "REVIEW_VARIANT_REMAINS_INTERFERING",
+      "overlap": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 10.82315352263782,
+        "breakpoint_count": 63
+      },
+      "B535_pin_hole_fit": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 3.9999932050704956,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.4989249314069073
+      }
+    },
+    {
+      "interface": "51409 strip / existing tongue-slot plate",
+      "before": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 0.0,
+        "breakpoint_count": 4
+      },
+      "after": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 0.0,
+        "breakpoint_count": 4
+      },
+      "classification": "EXISTING_NOMINAL_CONTACT"
+    }
+  ],
+  "whole_scene_broad_phase": [
+    {
+      "candidate": "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+      "existing": "ENV_contact_wire",
+      "aabb_overlap_mm": [
+        5.000114440917969,
+        4.999405238777399,
+        2.3990869522094727
+      ],
+      "this_is_not_an_interference_claim": true
+    },
+    {
+      "candidate": "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+      "existing": "CAD_50DF4_F643_profile_0",
+      "aabb_overlap_mm": [
+        4.000186920166016,
+        20.08652687072754,
+        4.999995231628418
+      ],
+      "this_is_not_an_interference_claim": true
+    },
+    {
+      "candidate": "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+      "existing": "CAD_518DF_diagonal_tube",
+      "aabb_overlap_mm": [
+        4.999876022338867,
+        39.99999165534973,
+        4.999995231628418
+      ],
+      "this_is_not_an_interference_claim": true
+    },
+    {
+      "candidate": "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+      "existing": "CAD_50DF4_F643_profile_3",
+      "aabb_overlap_mm": [
+        4.000186920166016,
+        1.4901161193847656e-05,
+        4.000067710876465
+      ],
+      "this_is_not_an_interference_claim": true
+    },
+    {
+      "candidate": "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+      "existing": "CAD_518DF_diagonal_tube",
+      "aabb_overlap_mm": [
+        15.000104904174805,
+        3.9999932050704956,
+        54.000020027160645
+      ],
+      "this_is_not_an_interference_claim": true
+    },
+    {
+      "candidate": "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+      "existing": "REPAIR_518DD_88AC_1_source-plan6.5",
+      "aabb_overlap_mm": [
+        15.000104904174805,
+        3.9999932050704956,
+        3.999948501586914
+      ],
+      "this_is_not_an_interference_claim": true
+    },
+    {
+      "candidate": "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+      "existing": "ENV_contact_wire",
+      "aabb_overlap_mm": [
+        5.000114440917969,
+        4.999405238777399,
+        2.3990869522094727
+      ],
+      "this_is_not_an_interference_claim": true
+    },
+    {
+      "candidate": "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+      "existing": "CAD_51409_F643_profile_0",
+      "aabb_overlap_mm": [
+        3.9997100830078125,
+        20.08652687072754,
+        4.999995231628418
+      ],
+      "this_is_not_an_interference_claim": true
+    },
+    {
+      "candidate": "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+      "existing": "REPAIR_518DE_88AC_1_source-plan6.5_FRONT_ROUTE_REFLECTED_CANDIDATE",
+      "aabb_overlap_mm": [
+        14.999866485595703,
+        3.9999932050704956,
+        3.999948501586914
+      ],
+      "this_is_not_an_interference_claim": true
+    }
+  ],
+  "required_source_meshes_sha256": {
+    "CAD_518DF_4079_vertical_link": "3501108259d2e64f2d95594dc8655a8dbb2a26df098cc5d4ba9d23df5bdf0de2",
+    "CAD_50DF4_F643_profile_2": "af5e5cd4207ef8ebadc8dbbb20bb6a913fac282bfeb43c1b45f2f9009f8c8ee6",
+    "REPAIR_50DF4_F643_profile_1_B535": "bec8ed33ba803e36d20a43b1775645de7a0faa5df8fe50690adc4af9f546f852",
+    "CAD_518E0_4079_vertical_link": "09417a7eb1c8497451c31f8c42bb00d904811161791ab0b16b461115058ef849",
+    "CAD_51409_F643_profile_2": "367ccc94758bd729fe0cb3368e5ba562771c41c39e7704e6c069992947a5077f",
+    "REPAIR_51409_F643_profile_1_B535": "45392bc5e2c77c42485e0dbf00bd9853e741a3a8fcd2780d5108a3b7218f68e4"
+  },
+  "limits": [
+    "This is a selected installation/orthographic-source candidate, not a unique native correction.",
+    "4079 actual depth and both end fixings, pin cross section and axial retention, and manufacturing tolerances remain unconfirmed.",
+    "Whole-scene bounds are broad phase; the report does not certify all machine contacts.",
+    "Preserved end-connection material intersections are not silently reclassified as a weld, bolt or verified load transfer.",
+    "Round pin retains nominal zero margin against the source F643_profile_0 channel; no manufacturing clearance certification.",
+    "No new solver collisions, masses, rigid bodies, electrical validation or hardware connection."
+  ]
+}

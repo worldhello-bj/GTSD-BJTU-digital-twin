@@ -1,0 +1,12 @@
+test_actual_curve_count_and_identity (test_source_review.SourceReviewTests.test_actual_curve_count_and_identity) ... ok
+test_endpoint_and_interior_relations_distinguished (test_source_review.SourceReviewTests.test_endpoint_and_interior_relations_distinguished) ... ok
+test_five_plan_intervals_preserved (test_source_review.SourceReviewTests.test_five_plan_intervals_preserved) ... ok
+test_modes_do_not_delete_material_or_move_axes (test_source_review.SourceReviewTests.test_modes_do_not_delete_material_or_move_axes) ... ok
+test_open_chain_checked_beyond_237_subset (test_source_review.SourceReviewTests.test_open_chain_checked_beyond_237_subset) ... ok
+test_real_layer_findings (test_source_review.SourceReviewTests.test_real_layer_findings) ... ok
+test_viewer_has_all_curves_no_external_dependencies (test_source_review.SourceReviewTests.test_viewer_has_all_curves_no_external_dependencies) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.004s
+
+OK

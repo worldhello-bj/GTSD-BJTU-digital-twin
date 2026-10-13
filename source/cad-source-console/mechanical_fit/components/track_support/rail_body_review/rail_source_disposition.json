@@ -1,0 +1,339 @@
+{
+  "source_dxf_sha256": "73f9eeb145cfbda5f01d1302d3e6e09d2d81e707ff7776187d899100f654f143",
+  "native_records": [
+    {
+      "handle": "4ECFE",
+      "native_record_id": 201022,
+      "raw_line_range": [
+        8140321,
+        8140346
+      ],
+      "entity_type": "LINE",
+      "native_finite_polyline_world_XY_mm": [
+        [
+          [
+            -8692.372752222836,
+            239.16666666669335
+          ],
+          [
+            -9462.223671593227,
+            349.14396609264077
+          ]
+        ]
+      ],
+      "evidence_note": "Source path compared to actual feature edges. Existing source-driven rail geometry present; original bulge and/or native endpoint band width require correction when residual exceeds 0.1mm. 3D section interpretation remains inherited.",
+      "source_Z_is_drafting_zero_not_section": true
+    },
+    {
+      "handle": "4ED00",
+      "native_record_id": 201024,
+      "raw_line_range": [
+        8140373,
+        8140398
+      ],
+      "entity_type": "LINE",
+      "native_finite_polyline_world_XY_mm": [
+        [
+          [
+            -8697.958825939928,
+            200.06365168796037
+          ],
+          [
+            -9467.809745310318,
+            310.0409511139005
+          ]
+        ]
+      ],
+      "evidence_note": "Source path compared to actual feature edges. Existing source-driven rail geometry present; original bulge and/or native endpoint band width require correction when residual exceeds 0.1mm. 3D section interpretation remains inherited.",
+      "source_Z_is_drafting_zero_not_section": true
+    },
+    {
+      "handle": "4ECFA",
+      "native_record_id": 201018,
+      "raw_line_range": [
+        8140217,
+        8140242
+      ],
+      "entity_type": "LINE",
+      "native_finite_polyline_world_XY_mm": [
+        [
+          [
+            -8326.751312590426,
+            186.93569891533116
+          ],
+          [
+            -8585.038049285988,
+            223.8333333333576
+          ]
+        ]
+      ],
+      "evidence_note": "Source path compared to actual feature edges. Existing source-driven rail geometry present; original bulge and/or native endpoint band width require correction when residual exceeds 0.1mm. 3D section interpretation remains inherited.",
+      "source_Z_is_drafting_zero_not_section": true
+    },
+    {
+      "handle": "4ECFC",
+      "native_record_id": 201020,
+      "raw_line_range": [
+        8140269,
+        8140294
+      ],
+      "entity_type": "LINE",
+      "native_finite_polyline_world_XY_mm": [
+        [
+          [
+            -8332.337386307518,
+            147.8326839365909
+          ],
+          [
+            -8590.624123003076,
+            184.73031835461734
+          ]
+        ]
+      ],
+      "evidence_note": "Source path compared to actual feature edges. Existing source-driven rail geometry present; original bulge and/or native endpoint band width require correction when residual exceeds 0.1mm. 3D section interpretation remains inherited.",
+      "source_Z_is_drafting_zero_not_section": true
+    },
+    {
+      "handle": "4ED15",
+      "native_record_id": 201045,
+      "raw_line_range": [
+        8140895,
+        8140922
+      ],
+      "entity_type": "LINE",
+      "native_finite_polyline_world_XY_mm": [
+        [
+          [
+            -1594.3331895813535,
+            239.16666666667152
+          ],
+          [
+            1419.984253761846,
+            239.1666666666497
+          ]
+        ]
+      ],
+      "evidence_note": "Actual projected sharp edges, not merely the overall envelope, reproduce the source run. Source only covers its own extent; merged continuation elsewhere is not proof of native boundary consumption.",
+      "source_Z_is_drafting_zero_not_section": true
+    },
+    {
+      "handle": "4ED16",
+      "native_record_id": 201046,
+      "raw_line_range": [
+        8140923,
+        8140948
+      ],
+      "entity_type": "LINE",
+      "native_finite_polyline_world_XY_mm": [
+        [
+          [
+            -9471.333189581357,
+            222.4166666667079
+          ],
+          [
+            1419.984253761846,
+            222.4166666666497
+          ]
+        ]
+      ],
+      "evidence_note": "Actual projected sharp edges, not merely the overall envelope, reproduce the source run. Source only covers its own extent; merged continuation elsewhere is not proof of native boundary consumption.",
+      "source_Z_is_drafting_zero_not_section": true
+    },
+    {
+      "handle": "4ED17",
+      "native_record_id": 201047,
+      "raw_line_range": [
+        8140949,
+        8140976
+      ],
+      "entity_type": "LINE",
+      "native_finite_polyline_world_XY_mm": [
+        [
+          [
+            -9471.333189581357,
+            278.6666666667079
+          ],
+          [
+            1419.984253761846,
+            278.6666666666497
+          ]
+        ]
+      ],
+      "evidence_note": "Actual projected sharp edges, not merely the overall envelope, reproduce the source run. Source only covers its own extent; merged continuation elsewhere is not proof of native boundary consumption.",
+      "source_Z_is_drafting_zero_not_section": true
+    },
+    {
+      "handle": "4ED18",
+      "native_record_id": 201048,
+      "raw_line_range": [
+        8140977,
+        8141002
+      ],
+      "entity_type": "LINE",
+      "native_finite_polyline_world_XY_mm": [
+        [
+          [
+            -9471.333189581357,
+            295.4166666667079
+          ],
+          [
+            1419.984253761846,
+            295.4166666666497
+          ]
+        ]
+      ],
+      "evidence_note": "Actual projected sharp edges, not merely the overall envelope, reproduce the source run. Source only covers its own extent; merged continuation elsewhere is not proof of native boundary consumption.",
+      "source_Z_is_drafting_zero_not_section": true
+    },
+    {
+      "handle": "4ED79",
+      "native_record_id": 201145,
+      "raw_line_range": [
+        8143477,
+        8143502
+      ],
+      "entity_type": "LINE",
+      "native_finite_polyline_world_XY_mm": [
+        [
+          [
+            -9203.659041011819,
+            768.4587492412829
+          ],
+          [
+            -9153.454455758088,
+            766.3375185840487
+          ]
+        ]
+      ],
+      "evidence_note": "Native chained lines match the centerline recovered by averaging opposite actual GLB top-section vertices. Native line is not a material boundary; current 14mm top width and Z section remain inferred.",
+      "source_Z_is_drafting_zero_not_section": true
+    },
+    {
+      "handle": "4ED7A",
+      "native_record_id": 201146,
+      "raw_line_range": [
+        8143503,
+        8143528
+      ],
+      "entity_type": "LINE",
+      "native_finite_polyline_world_XY_mm": [
+        [
+          [
+            -8805.887827714807,
+            724.4302775847536
+          ],
+          [
+            -9153.454455758088,
+            766.3375185840487
+          ]
+        ]
+      ],
+      "evidence_note": "Native chained lines match the centerline recovered by averaging opposite actual GLB top-section vertices. Native line is not a material boundary; current 14mm top width and Z section remain inferred.",
+      "source_Z_is_drafting_zero_not_section": true
+    },
+    {
+      "handle": "4ED76",
+      "native_record_id": 201142,
+      "raw_line_range": [
+        8143399,
+        8143424
+      ],
+      "entity_type": "LINE",
+      "native_finite_polyline_world_XY_mm": [
+        [
+          [
+            -8376.909604319368,
+            663.1484562160622
+          ],
+          [
+            -8805.887827714807,
+            724.4302775847536
+          ]
+        ]
+      ],
+      "evidence_note": "Native chained lines match the centerline recovered by averaging opposite actual GLB top-section vertices. Native line is not a material boundary; current 14mm top width and Z section remain inferred.",
+      "source_Z_is_drafting_zero_not_section": true
+    },
+    {
+      "handle": "4ED78",
+      "native_record_id": 201144,
+      "raw_line_range": [
+        8143451,
+        8143476
+      ],
+      "entity_type": "LINE",
+      "native_finite_polyline_world_XY_mm": [
+        [
+          [
+            -8376.909604319368,
+            663.1484562160622
+          ],
+          [
+            -7998.513085076298,
+            601.3479995140733
+          ]
+        ]
+      ],
+      "evidence_note": "Native chained lines match the centerline recovered by averaging opposite actual GLB top-section vertices. Native line is not a material boundary; current 14mm top width and Z section remain inferred.",
+      "source_Z_is_drafting_zero_not_section": true
+    },
+    {
+      "handle": "4ED77",
+      "native_record_id": 201143,
+      "raw_line_range": [
+        8143425,
+        8143450
+      ],
+      "entity_type": "LINE",
+      "native_finite_polyline_world_XY_mm": [
+        [
+          [
+            -7998.513085076298,
+            601.3479995140733
+          ],
+          [
+            -7949.722695700348,
+            589.3272713938786
+          ]
+        ]
+      ],
+      "evidence_note": "Native chained lines match the centerline recovered by averaging opposite actual GLB top-section vertices. Native line is not a material boundary; current 14mm top width and Z section remain inferred.",
+      "source_Z_is_drafting_zero_not_section": true
+    }
+  ],
+  "guard_outer_surface_extent": {
+    "pair": [
+      "DETAIL_BENCH_guard_diverging",
+      "CAD_TRACK_REV_outer_branch_native_xy"
+    ],
+    "triangle_pairs_tested": 852,
+    "surface_intersection_points_found": 80,
+    "surface_crossing_z_range_mm": [
+      -64.99999761581421,
+      -55.295187399563595
+    ],
+    "note": "Triangle surface intersection extrema. Verified positive material is separately witnessed by interior slice points; this boundary range alone is not a collision depth or proof of material overlap at every Z."
+  },
+  "guard_outer": {
+    "source_extent": "Guard centerline is five finite LINEs, already matched to displayed centerline; outer rail head/base native plan bands were rebuilt from finite source curves. No axis displacement proposed.",
+    "section_evidence": "Guard top/base widths 14/22 mm and Z section are inferred. Outer rail Z/web section is inherited; native plan bands exist, but no complete source-supported guard-to-rail fixing section was found.",
+    "interpretation_not_decided": "Could be separate guard guide attached to a shared lower support, or independent adjustable members requiring clearance. Present drawing/photo evidence cannot choose uniquely.",
+    "candidate_for_future_explicit_review": "Continuous common lower base with separate unchanged source-top guide geometry; union only of lower common member, explicitly change assembly topology. Do not claim as-built. Verify guide-face independence, flange clearance, guard attachment and service replacement first.",
+    "why_not_auto_applied": "Shared base has functional attachment consequences and no confirmed source section; kept out of frozen support profiles."
+  },
+  "inner_left_main": {
+    "source_extent": "4ED15 alone is not the full head edge. Five finite horizontal lower-edge spans (4ECED,4ECEC,4ECEB,4ECEA,4ED15) pair with full upper edge 4ED17. The actual overlap near X=-8970 mm is within 4ECED and already has both native straight boundaries; its head overlap is not explained by simply missing/extrapolating 4ED15. 4ECED joins 4ECFE exactly; 4ECEC joins 4ED02; 4ECFA joins 4ECEE. Short traces 4ED5C/5D touch finite existing edges internally.",
+    "section_evidence": "Native plan edges give five definite finite 39.5 mm straight bands, plus open and crossing detail chains. They do not assign a unique complete material boundary or operating state at the intersection. Z/web/base assignments remain inferred.",
+    "interpretation_not_decided": "Cannot decide that two independent full heads are intended, or that overlapping volumes are one frog/crossing casting. Finite source edges plus incomplete plan boundaries do not close the wheel-guidance topology.",
+    "rejected_shortcut": "Unioning only the base cannot fix a 39.5 mm full-head overlap; merging heads without flangeway geometry would create a route blockage.",
+    "necessary_next_inputs": [
+      "Finite complete head/guide contour and occlusion/route-state interpretation at crossing",
+      "Flangeway width and depth, crossing nose limits and track route",
+      "Wheel back-to-back / flange envelope and clearance convention",
+      "Section/Z drawings and fixed-versus-adjustable guard attachment"
+    ],
+    "candidate_for_future_explicit_review": "Explicit crossing/frog head-and-guide topology preserving original source centerlines and finite known edges, with missing flangeway parameters exposed. No automatic geometry patch from incomplete data."
+  },
+  "frozen_support_profiles_modified": false,
+  "whole_turnout_collision_free_claim": false
+}

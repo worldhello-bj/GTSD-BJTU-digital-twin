@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "checks": [
+    "Scene changed during first profile load: unsupported candidate rejected; current scene retained.",
+    "Previously loaded clamp candidate resets to source on unsupported scene change.",
+    "Both transitions issued zero solver POST commands."
+  ],
+  "browser_visual_acceptance": false
+}

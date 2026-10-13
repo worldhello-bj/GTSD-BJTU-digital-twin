@@ -1,0 +1,26 @@
+{
+  "schema": "gtsd-public-repo-audit-reproduction-v1",
+  "completed": true,
+  "public_exporter": "mechanical_fit/export_scene.js",
+  "public_profiles": "mechanical_fit/profiles.json",
+  "source_mesh_copies_retained_in_delivery": false,
+  "temporary_exports_cleaned_on_exit": true,
+  "blender_started": false,
+  "simulation_started": false,
+  "project_files_modified": false,
+  "primary_counts": {
+    "before_meshes": 1932,
+    "removed": 37,
+    "added": 33,
+    "unchanged": 1895,
+    "after_meshes": 1928,
+    "after_changed_vs_all_unique_pairs": 63063,
+    "before_removed_vs_all_unique_pairs": 70781,
+    "after_positive_aabb_candidates": 34,
+    "before_positive_aabb_candidates": 54,
+    "cross_profile_changed_pairs": 324,
+    "cross_profile_positive_aabb_candidates": 0
+  },
+  "precision_classifications_match": true,
+  "analytic_regression_tests_passed": 7
+}

@@ -21,8 +21,9 @@ def main():
     ensure_assets()
     env = {**os.environ, 'PYTHONDONTWRITEBYTECODE': '1'}
     commands = [('asset_unit', [sys.executable, '-m', 'unittest', 'discover', '-s', 'tests']),
+                ('fit_unit', [sys.executable, '-m', 'unittest', 'discover', '-s', 'mechanical_fit', '-p', 'test_*.py']),
                 ('doctor', [sys.executable, 'doctor.py']),
-                ('node', ['node', '--test', '--test-reporter=tap', *[str(p.relative_to(ROOT)) for p in sorted((ROOT / 'integration/tests').glob('test_*.js'))]]),
+                ('node', ['node', '--test', '--test-reporter=tap', *[str(p.relative_to(ROOT)) for p in sorted([*(ROOT / 'integration/tests').glob('test_*.js'), *(ROOT / 'mechanical_fit').glob('test_*.js')])]]),
                 ('source_http', [sys.executable, 'integration/check_source_review_routes.py']),
                 ('rail_http', [sys.executable, 'integration/check_http.py']),
                 ('seat_http', [sys.executable, 'integration/check_seat_http.py']),

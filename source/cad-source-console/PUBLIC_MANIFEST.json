@@ -3,12 +3,12 @@
   "source_date": "2026-10-13",
   "files": {
     ".gitignore": {
-      "bytes": 29521,
-      "sha256": "12c535d4594edb4307fe25873ed98b8e64f120de68a4792832cba351c0b7d043"
+      "bytes": 30664,
+      "sha256": "98a062d6ab27185908a085042e0c80fc87228b3956cbdab9ca42505ced6e1e81"
     },
     "ASSET_MANIFEST.json": {
-      "bytes": 68832,
-      "sha256": "357f1af1caadef4964816c9a7b481a07e5b42087652da1b74026d3920313baaa"
+      "bytes": 89059,
+      "sha256": "ae9a8aaa99e143b7c6dfa5ed47b1c9cb3707a8f27479ca023855ff6c882b9d53"
     },
     "PUBLIC_ACCEPTANCE.json": {
       "bytes": 6629,
@@ -19,8 +19,8 @@
       "sha256": "66c1af1ef337fc991440aa543277b7bf4be1c2585980e78d3a65fe0101ec8c75"
     },
     "README.md": {
-      "bytes": 10766,
-      "sha256": "ff55bbe176edbcc0cba9c25b000abffe068bb6d65a22185680dba56bc5a4c5df"
+      "bytes": 11488,
+      "sha256": "e3658d4b315ec13e4a8de34c1b4d43f27e8298d13cbcffd3e65dd94836ee6fdf"
     },
     "SELECTIVE_ASSET_RESTORE.md": {
       "bytes": 3814,
@@ -1279,8 +1279,8 @@
       "sha256": "ebb214f1a36b5d7028734ad98755ce711cc590e64f0cf40ef02b9f90b3509ec0"
     },
     "integration/check_source_review_routes.py": {
-      "bytes": 3288,
-      "sha256": "6ffa284e3f37d53044732c83f83507f7c8437fc70d0ed813e778e49ef5f9b356"
+      "bytes": 3984,
+      "sha256": "393b566fbaa70c4d4bf7e71df40b2b408668a8f84a5b62fba1ab4ee80c068e18"
     },
     "integration/data/source_audit_index.json": {
       "bytes": 2636058,
@@ -3291,16 +3291,20 @@
       "sha256": "1986c984fc047776075b5fd673dd9233756b91555a7b45583dc31fc01557767f"
     },
     "integration/source_console.py": {
-      "bytes": 14336,
-      "sha256": "e68e54e5ca6bdd9e54fcfb6c008c570458eb4cf013aba3d91cab659d81cd08ac"
+      "bytes": 16052,
+      "sha256": "1e2a20295f0624b04747e4560d8fbb6097714d7fbc24c064b0e6e5eff770d491"
     },
     "integration/tests/app_harness.js": {
-      "bytes": 5825,
-      "sha256": "91207e144eb10d8e92fb3f8599aa3283fa3ed0d9563e954748bcdb3a3b4d30fe"
+      "bytes": 6049,
+      "sha256": "740dadee0ad16beef44ef94518787eaf4e51e23000e37bcb6bc30040eca5440b"
     },
     "integration/tests/test_app_regressions.js": {
       "bytes": 10731,
       "sha256": "b92b44667d6b54b6c8e7ea4010d66b3b5964d2733a4cb53758d29f57154ff4e7"
+    },
+    "integration/tests/test_fit_profile_app.js": {
+      "bytes": 4947,
+      "sha256": "a0e500d3c4405cd2a1102604874fe6ddb5e497d6de847f4e6180dfbb8a4e5b9f"
     },
     "integration/tests/test_real_renderer_contract.js": {
       "bytes": 1726,
@@ -3327,12 +3331,12 @@
       "sha256": "473c38fce46d6403f3c39d79f9496b1cee8073dbcba4d3be4c26cedfc743331e"
     },
     "integration/web/app.js": {
-      "bytes": 16903,
-      "sha256": "56ef116034e54f3a9caf1f448a65fa5b2eee9a8c14fbd8c0e18a0fe309b00c22"
+      "bytes": 20352,
+      "sha256": "8e891ffdff702ff21e634dea456c1f8ecf34c5d152c32ce6f7913e6e6e1440d4"
     },
     "integration/web/index.html": {
-      "bytes": 3627,
-      "sha256": "06795aae2acf151179bddaffc9a6c2086e1d7b760d0af93c04852862013c4a42"
+      "bytes": 4505,
+      "sha256": "24d846c6fe4c5ceb32372c7be85e0e3015695ce10a77fa330ba60cd2b5f28608"
     },
     "integration/web/source-overlays.js": {
       "bytes": 1763,
@@ -3345,6 +3349,646 @@
     "launch.py": {
       "bytes": 367,
       "sha256": "258545dcff311683ad29d42573cf3933342084d52ef3c13b0aeb103152b2d5e9"
+    },
+    "mechanical_fit/GTSD_Mechanical_Fit_Candidates.blend": {
+      "bytes": 34472083,
+      "sha256": "ede3935c0b1d58be36dcf8a44a3a470b27fc6724400838e3485637dff7fcd24b"
+    },
+    "mechanical_fit/README.md": {
+      "bytes": 5834,
+      "sha256": "a9a26fb0d1732c9e5e9082f98b07084f34d37f6a38ad03a475654db244501794"
+    },
+    "mechanical_fit/audit_physics_separation.py": {
+      "bytes": 2745,
+      "sha256": "ad4b8599b2c8e3af57363c488cb53812fea0c2db2c46a39a661c3d4c1894d97b"
+    },
+    "mechanical_fit/build_native.py": {
+      "bytes": 3573,
+      "sha256": "6561999e797497dd2584e7aaaf3eb1f89c08a2781d9a5a0235a11c9ca1178c05"
+    },
+    "mechanical_fit/build_profiles.js": {
+      "bytes": 4648,
+      "sha256": "e602c9d970ad32e0fd214a12fcb2da095f2958180389670e8832e215494750e6"
+    },
+    "mechanical_fit/combined_audit/PUBLIC_FILES.json": {
+      "bytes": 2667,
+      "sha256": "a2df64e23ff01dd965fabe248950b0dceb1979872495c6554e907286e0f5a4d8"
+    },
+    "mechanical_fit/combined_audit/README_ZH.md": {
+      "bytes": 8676,
+      "sha256": "70f954d8b2042df1236b3455a91c0a0bae1abf620f8e92eee5e98dd869dbd505"
+    },
+    "mechanical_fit/combined_audit/after_pairs.csv": {
+      "bytes": 6224,
+      "sha256": "19a223e59ef35072ec5defdd70a73a33983c0957033010d703aa9e95cc530aaa"
+    },
+    "mechanical_fit/combined_audit/audit_combined.py": {
+      "bytes": 9956,
+      "sha256": "8e7b1bc5403f61afc53ab1b8c338a9336c75f1990cbfb9ba3f0fee02eea95142"
+    },
+    "mechanical_fit/combined_audit/audit_summary.json": {
+      "bytes": 3355,
+      "sha256": "965195636fe0bdbf13610b9509b3ef8f74e10298703699f3bbb84ddb6cd351f2"
+    },
+    "mechanical_fit/combined_audit/before_pairs.csv": {
+      "bytes": 11251,
+      "sha256": "90aae274d362dabf846c10da3bccfbcb95af80285e026fd8636684bb647999ca"
+    },
+    "mechanical_fit/combined_audit/cap_geometry.py": {
+      "bytes": 11265,
+      "sha256": "4c379bb59e28fa6f655da80e7f4ef922ab46674efcdb4f05cc90166936fb0ff6"
+    },
+    "mechanical_fit/combined_audit/combined_interference_audit.json": {
+      "bytes": 185795,
+      "sha256": "a1b910053300b47d7608939f467133651a003065e85499092dba403fcad84c10"
+    },
+    "mechanical_fit/combined_audit/finalize_report.py": {
+      "bytes": 5859,
+      "sha256": "de50d4a22b0e5dbd0bf056eac52337bde4d7db39d7bc7d5a34ee8a2a0eaa6bcd"
+    },
+    "mechanical_fit/combined_audit/geos_kernel.py": {
+      "bytes": 2907,
+      "sha256": "ebfcc5a2a938fd4263b0f286b40f1be6ddcb39fbfea5e68915b41644b589115e"
+    },
+    "mechanical_fit/combined_audit/interface_refinement.json": {
+      "bytes": 88260,
+      "sha256": "86dfe852b6356c640c959025e08fd30b35e7163d80f53dc26e3f1d6c3ea096e5"
+    },
+    "mechanical_fit/combined_audit/native_float32/combined_interference_audit.json": {
+      "bytes": 185806,
+      "sha256": "762b3b151fe1567d7d677424a4a716440d652c87d700eb8daad82ba1dfa4cafd"
+    },
+    "mechanical_fit/combined_audit/numerical_boundaries_export.json": {
+      "bytes": 15449,
+      "sha256": "588b51204a96f14ea922601edd6417a23845355c0682e6f076e7f4b338cf507c"
+    },
+    "mechanical_fit/combined_audit/numerical_boundaries_float32.json": {
+      "bytes": 13319,
+      "sha256": "525ebb4b3c5da8d4b5dd5aa2bb0736b535f44c7a6ba5dbd544b0e69866b966ac"
+    },
+    "mechanical_fit/combined_audit/refine_interfaces.py": {
+      "bytes": 6937,
+      "sha256": "2e5b41fb2595f54024aad2cdeeed12e1e0a67cace503aa5bde8ad5ffd7162334"
+    },
+    "mechanical_fit/combined_audit/regression_tests.log": {
+      "bytes": 717,
+      "sha256": "dc7597c58e755d60e70d90eaf277872dfd23d7e05e5b5316c776095d74b4ddc5"
+    },
+    "mechanical_fit/combined_audit/reproduce.py": {
+      "bytes": 3739,
+      "sha256": "f02787806ab51549e007c4b9d79e02a07524696181f6b68a0f77a91d10c7a5a2"
+    },
+    "mechanical_fit/combined_audit/reproduction_validation.json": {
+      "bytes": 870,
+      "sha256": "943dc9c5a2942ef0a1387eb1d222a095da73ac91c1b1e96e5bab538a02e4f4bf"
+    },
+    "mechanical_fit/combined_audit/test_audit.py": {
+      "bytes": 1848,
+      "sha256": "e0982323af252688f2e7878b2b1a1f5d9b38c1d14ce6c1960d43c5bfe380bdde"
+    },
+    "mechanical_fit/combined_audit/triangle_classifier.py": {
+      "bytes": 15706,
+      "sha256": "86db33060f5cbe2aa1fb9c076bae3d3f059bd5b2a30ae3b8bf7fca0253fc40d3"
+    },
+    "mechanical_fit/components/balise/PUBLIC_FILES.json": {
+      "bytes": 3335,
+      "sha256": "a9dd1499ac9bce075b0ac6ca4378110b339f417c0610c5525e02846aeb05a860"
+    },
+    "mechanical_fit/components/balise/README_ZH.md": {
+      "bytes": 7633,
+      "sha256": "e3f06a15b7f07a604951b42419ff45101588e827d30169c3b84657798484c9e7"
+    },
+    "mechanical_fit/components/balise/balise_fit_before_after.png": {
+      "bytes": 246187,
+      "sha256": "334331ed7effb249451ae8cfc490ab6380357fcacb421c8dbd982323a2bbda2f"
+    },
+    "mechanical_fit/components/balise/balise_fit_profile.json": {
+      "bytes": 413517,
+      "sha256": "773dc5f05871b0d087b7e7d5e384a2e432c08bbfe38f2a7db3ee4f132a44d5e1"
+    },
+    "mechanical_fit/components/balise/balise_fit_validation.json": {
+      "bytes": 44532,
+      "sha256": "15057d3ff2930d766d249f3dfe942014a58b13a8734d10261e83d687127035de"
+    },
+    "mechanical_fit/components/balise/balise_geometry.py": {
+      "bytes": 15706,
+      "sha256": "86db33060f5cbe2aa1fb9c076bae3d3f059bd5b2a30ae3b8bf7fca0253fc40d3"
+    },
+    "mechanical_fit/components/balise/balise_installation_contract.json": {
+      "bytes": 11698,
+      "sha256": "bfc84dccdf1a0f0974cfaeda746178e1ccd68c523dfffbad668301018e919824"
+    },
+    "mechanical_fit/components/balise/balise_source_reassessment.json": {
+      "bytes": 16467,
+      "sha256": "20b01af86acdc34f8e232e4b5243d8f80cf6261e1b2b020d5a65b9f0ebc7528b"
+    },
+    "mechanical_fit/components/balise/balise_source_seed.json": {
+      "bytes": 68190,
+      "sha256": "4ea7b9148289dcd63d582869a1604a5d1e774dad817bcb72b9c58d0674f13030"
+    },
+    "mechanical_fit/components/balise/balise_transforms.json": {
+      "bytes": 8059,
+      "sha256": "d4d7162ed279c02bf15321c3a208b32bb082ad342a1c2f73a33b0fdcb6cabf21"
+    },
+    "mechanical_fit/components/balise/build_balise_candidate.py": {
+      "bytes": 16728,
+      "sha256": "f4c6f722799c3dbcf286dd8fbd0ca306b96668e952f7ffe50b100aa87a9df393"
+    },
+    "mechanical_fit/components/balise/current_main_effective_scene_validation.json": {
+      "bytes": 122621,
+      "sha256": "e56f812aa9f5d5fa22ed3ee8d241a2f104d99784b5fd7587beb92dd1354f1364"
+    },
+    "mechanical_fit/components/balise/fit_config.json": {
+      "bytes": 1048,
+      "sha256": "dba0d9dd7294a94958b370e3d64804772ff464ede87942d8e25cbc56f3340609"
+    },
+    "mechanical_fit/components/balise/portable_rebuild_validation.json": {
+      "bytes": 613,
+      "sha256": "10ce950074f1daed3b39f5d2797adca2ec7adb3d613568ad463eb8b484194cc1"
+    },
+    "mechanical_fit/components/balise/render_balise_fit.py": {
+      "bytes": 2703,
+      "sha256": "d70cce5b8c7ec659f67072ee4e8d539dc1b5a1fd9d86710725294635742f1ada"
+    },
+    "mechanical_fit/components/balise/test.log": {
+      "bytes": 1777,
+      "sha256": "d87d4f5f667d0d86715c309b00506b43e37f700c8c6ba28e17d7979d1eb77029"
+    },
+    "mechanical_fit/components/balise/test_balise_candidate.py": {
+      "bytes": 8415,
+      "sha256": "24d8e280e925207168d172dbcf1bbd290b4d4331ca5396b6e4a2fcf9fdd71597"
+    },
+    "mechanical_fit/components/balise/verify_main_effective_scene.py": {
+      "bytes": 2956,
+      "sha256": "49b538ad3e63c5b30ebbba0b3e849271976b17d004a630c76c49904de44e7405"
+    },
+    "mechanical_fit/components/clamps/DELIVERY.json": {
+      "bytes": 4970,
+      "sha256": "541b5e530dc01b43ab4d7ef25fb86df35d11b78a502d70e3def6b8c8b90d71f1"
+    },
+    "mechanical_fit/components/clamps/INTERFACE_CORRECTION_CONTRACT.json": {
+      "bytes": 16882,
+      "sha256": "62594e69df30f7ea02cd50737a74821dd03fb57aea95a6e0f8e03aab25eea1f7"
+    },
+    "mechanical_fit/components/clamps/PROFILE_SHA256SUMS": {
+      "bytes": 287,
+      "sha256": "af559ea1d5046db476d529b404616ee58785ab08b270fc5d9ba971dff2f958a0"
+    },
+    "mechanical_fit/components/clamps/README_ZH.md": {
+      "bytes": 6635,
+      "sha256": "449a3a404ce3a8d80fdbc3001e1dc7991e7e2a9ae554a1d8924b3f7993ceb154"
+    },
+    "mechanical_fit/components/clamps/build_profiles.py": {
+      "bytes": 10460,
+      "sha256": "e6b864a9e78f51c9782d1f3ece49cf4768f16042d2278094ed0bbaf6b41d16de"
+    },
+    "mechanical_fit/components/clamps/clamp_b535_review_profile.json": {
+      "bytes": 258095,
+      "sha256": "35c133ee7616daf2d73e7824ff7657b61848ca867e3dd848a57f558f5ab12fe2"
+    },
+    "mechanical_fit/components/clamps/clamp_fit_profile.json": {
+      "bytes": 348337,
+      "sha256": "12fff9c14ea4c78815d384623458d47217a186430d5b82a815588dcf6a56f80d"
+    },
+    "mechanical_fit/components/clamps/clamp_fit_validation.json": {
+      "bytes": 54484,
+      "sha256": "60bf9dc84310624f66f491e1babce72ee1590d0ec0d957bf40ea9fed563d1692"
+    },
+    "mechanical_fit/components/clamps/clamp_messenger_datum_profile.json": {
+      "bytes": 359229,
+      "sha256": "e54f373e7b080df7d6958cf07aadad9e735a94e648166662112afa99eebc879e"
+    },
+    "mechanical_fit/components/clamps/extract_published.js": {
+      "bytes": 2725,
+      "sha256": "8b4c9aef3da93b185592326898bbe16dc941ea49ba2a8d3752fada80200b87a0"
+    },
+    "mechanical_fit/components/clamps/fit_config.json": {
+      "bytes": 1427,
+      "sha256": "59cc795898a063aae14fcf2a6684718e81e3c6227bd3e0887a64eb7a10262e10"
+    },
+    "mechanical_fit/components/clamps/geometry.py": {
+      "bytes": 11265,
+      "sha256": "4c379bb59e28fa6f655da80e7f4ef922ab46674efcdb4f05cc90166936fb0ff6"
+    },
+    "mechanical_fit/components/clamps/geos_kernel.py": {
+      "bytes": 2907,
+      "sha256": "ebfcc5a2a938fd4263b0f286b40f1be6ddcb39fbfea5e68915b41644b589115e"
+    },
+    "mechanical_fit/components/clamps/native_source_records.json": {
+      "bytes": 37749,
+      "sha256": "a066859d59dd47c78e08bd73fb60c6b60f15fc4d886baa88f4aed3da76f3e7a1"
+    },
+    "mechanical_fit/components/clamps/native_source_verification.json": {
+      "bytes": 88,
+      "sha256": "c4cc58e422dae1d3d2b72907800adf0805eccb0f799441a5a2223086800c9ccd"
+    },
+    "mechanical_fit/components/clamps/profiles_manifest.json": {
+      "bytes": 812,
+      "sha256": "b4b0ea919c989594ca7d16bf37d0f0ba241170f9381cc27590c569c7acf5e668"
+    },
+    "mechanical_fit/components/clamps/published_clamp_meshes.json": {
+      "bytes": 5373820,
+      "sha256": "c7742000bd2465155a9fbc01d7fb4257c3ee180f822d779e5d68fcff3f422b3c"
+    },
+    "mechanical_fit/components/clamps/published_scene_bounds.json": {
+      "bytes": 346982,
+      "sha256": "942dda012471babf0c3a0e55ec26c7629f467c281cbe5dce2b2832f91c1f7b4f"
+    },
+    "mechanical_fit/components/clamps/regression_tests.log": {
+      "bytes": 107,
+      "sha256": "f55d68aeda3961853a82b559d391a699c2099574e24e08ed0d595168c2272d69"
+    },
+    "mechanical_fit/components/clamps/reproduction_verification.json": {
+      "bytes": 219,
+      "sha256": "3e8ced647a9556f56e93cd906b8dab76e4beb9f1e73cb8164d023e8aafc54d3c"
+    },
+    "mechanical_fit/components/clamps/requirements.txt": {
+      "bytes": 63,
+      "sha256": "468baa0c32d84f7daae11650124e3dd8d485f0764f702fb2dfc6af66ad64ce40"
+    },
+    "mechanical_fit/components/clamps/source_context_summary.json": {
+      "bytes": 2312,
+      "sha256": "d3d8a46d1ed6ba61c6613e380ad98e6fc1a4144e924c0ce73499e4f14b9e5ed3"
+    },
+    "mechanical_fit/components/clamps/test_profiles.py": {
+      "bytes": 3663,
+      "sha256": "d8e68dbf10282e0e6acd6aa5c11d66f1e4efc7fc467ff1d3d2d2732191e0d148"
+    },
+    "mechanical_fit/components/clamps/verify_native_source.py": {
+      "bytes": 824,
+      "sha256": "356ec9e02aa9c68e5d8527a80c2baa6482e2fa129d5d0eabff8cdcbd0a6e16c1"
+    },
+    "mechanical_fit/components/clamps/verify_profiles.py": {
+      "bytes": 10669,
+      "sha256": "d45d0267ee30e2afb73cdd447202b9af5ceadae8c1b90ac2f70e6a32d48ab7fd"
+    },
+    "mechanical_fit/components/track_support/PORTABLE_DELIVERY.json": {
+      "bytes": 3385,
+      "sha256": "302216d45bee9d2f150ac270e5370e8543207825b053cc88356e1948616849c5"
+    },
+    "mechanical_fit/components/track_support/PORTABLE_REBUILD_ZH.md": {
+      "bytes": 2102,
+      "sha256": "b7dbd0dae174b40263ca3108d138f38c07ef37ea7668bb06f30cb75c47bc7fd9"
+    },
+    "mechanical_fit/components/track_support/README_ZH.md": {
+      "bytes": 5499,
+      "sha256": "943c583c63e54c352f00b0cfa0ec6494bb5f10314e5feb5a920b741ffabf6b8e"
+    },
+    "mechanical_fit/components/track_support/clearance_dimensions.json": {
+      "bytes": 3223,
+      "sha256": "1f1739f651a9499badcf9ad6c9af39f6cab3b9fa4bb4289b7842c9f81b33aafa"
+    },
+    "mechanical_fit/components/track_support/conforming_hull/actual_default_validation.json": {
+      "bytes": 7105,
+      "sha256": "bb7dd704c3b7b36c34cd373b0c5e653008957af0edb4a8bbce959b329ba0d0f9"
+    },
+    "mechanical_fit/components/track_support/fit_before_after.png": {
+      "bytes": 175712,
+      "sha256": "a3d8222554dcc91a1ae47ef317db9dbe5880049c8037e1c9d14a7d8f24b3f9e8"
+    },
+    "mechanical_fit/components/track_support/fit_profile.py": {
+      "bytes": 2589,
+      "sha256": "0934f59384c0056816058ce0634aeeacc7030baa063fd3801df8d1d7e9ea0add"
+    },
+    "mechanical_fit/components/track_support/flat_top_blank/actual_default_validation.json": {
+      "bytes": 7135,
+      "sha256": "3cf2a948cc353e1d0917c0a63f8469e0b7ffd4f073b47e778c564f547d216f13"
+    },
+    "mechanical_fit/components/track_support/mesh_geometry.py": {
+      "bytes": 5922,
+      "sha256": "fbc2288017519a5ecf40f4c007be4a02c6a2a09af872b27d18637d6560646b31"
+    },
+    "mechanical_fit/components/track_support/pair_disposition.json": {
+      "bytes": 7069,
+      "sha256": "1e0eed7c9ce9ecf84cdf23c05f2baf8bfe7c83479c12787bfaf9ef2fe253093b"
+    },
+    "mechanical_fit/components/track_support/portable_rebuild.py": {
+      "bytes": 8322,
+      "sha256": "a1383f6ad01fea72612980f1653f974dff3a864210a529dc37690136d0896809"
+    },
+    "mechanical_fit/components/track_support/portable_recheck/portable_rebuild_validation.json": {
+      "bytes": 10978,
+      "sha256": "d3faa12198289cd218f1167b8c721572d77941f9cf8db45e638eb8dd580cf106"
+    },
+    "mechanical_fit/components/track_support/portable_tests.log": {
+      "bytes": 1036,
+      "sha256": "8f4daae2a6c648a04c6ac0667bd8e6dfaf4c1a370aa1815d6d2c61b7ff13d114"
+    },
+    "mechanical_fit/components/track_support/profile_conforming_hull.json": {
+      "bytes": 160742,
+      "sha256": "ad20d1f38ffbdc136f6eb4e6ebf84037b504f8519d149c5e0c88187db076ea8e"
+    },
+    "mechanical_fit/components/track_support/profile_flat_top_blank.json": {
+      "bytes": 105057,
+      "sha256": "06b472139ab8392ad249d8b7f14a841372254b25034e0727ec3068179d015647"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/PUBLIC_ADDENDUM.json": {
+      "bytes": 3037,
+      "sha256": "5cbadce8bf5c79ececd97f2102af161ac2c646af129de64932d22a498f3b50f7"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/README_ZH.md": {
+      "bytes": 5561,
+      "sha256": "712be16ea73d3325dfff081c7753ad3453362e968374a3744d2e662bb76556d0"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/analyze_connections.py": {
+      "bytes": 4568,
+      "sha256": "33509b07333ef21f15bb2af23021118b2e6f964cc2df79b8acf73ec1f1353f57"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/complete_connection_review.json": {
+      "bytes": 8926,
+      "sha256": "b786c97bf9e0f9677be1f463abe99e65ac6e67b66dff41bce5b6a92fed6e9c17"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/measure_rail_overlaps.py": {
+      "bytes": 3940,
+      "sha256": "e6f4871e23bff61f039db2b9c44a81c1cee96b611314c79b5ad5351def3c6fa6"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/model_identity_witness.json": {
+      "bytes": 11310,
+      "sha256": "188c5c6ce934ab245266ce65e5f3ffe9d6d549a103cf628ad4e23bf9728d2588"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/native_curve_interior_witness.json": {
+      "bytes": 5022,
+      "sha256": "471bf3e34ab61907db429ca11b3597a987e0c8fd2d768005b222b2484f723093"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/native_edge_graph.json": {
+      "bytes": 56681,
+      "sha256": "b467a648acc949e80eef1fa2638dbd9efaf80a97bbbcfb61f36c0bbbc73e167e"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/native_edge_graph.png": {
+      "bytes": 275290,
+      "sha256": "6b7f35d764954dca72b301c2913c2678436ba6a6c877c54a7a4e7444cc2d573a"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/native_track_curve_overlay.json": {
+      "bytes": 68408,
+      "sha256": "d43f6bcb3aef578bfae543f4d086261b47058b58a42295d849401f64ef3c0a93"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/rail_layer_overlap.json": {
+      "bytes": 8755,
+      "sha256": "1170c6b1d109deaac096c771bfb5523802593e460d604e2168a085cf649f3050"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/rail_source_disposition.json": {
+      "bytes": 12849,
+      "sha256": "843714d7ad2efe2bd484cd1f11123bc18be853714a183c9787ec7a053f17df12"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/rail_source_review.html": {
+      "bytes": 31763,
+      "sha256": "3b3478013b39d5701bc53c09cb00fd93fdae8d76655ddd01531082ddfa05ad37"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/render_source_review.py": {
+      "bytes": 5237,
+      "sha256": "9f81efe130c19984905f487bf0cf0adfe0e5dac37595b338fba7a630d73c276a"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/source_review_tests.log": {
+      "bytes": 998,
+      "sha256": "10884c58d4eef120e7af7d93f27853958b3b11c2f85a01850e245becdae056ab"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/test_source_review.py": {
+      "bytes": 2935,
+      "sha256": "635bdf93a13f285857b655b8a0f856dabfcf1c30f1d3a1f6e8321080a67d6bbe"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/topology_candidate_fields.json": {
+      "bytes": 4050,
+      "sha256": "126fac23aced7888d3017524e2fb4f61c9256d5299c6d3ebf86fd34e38a77afd"
+    },
+    "mechanical_fit/components/track_support/rail_body_review/whole_model_connection_witness.json": {
+      "bytes": 3816,
+      "sha256": "9d6d09c9cc358eb9b60033390510ba4efef4d6efc6091e1caa89b9a61f273bb6"
+    },
+    "mechanical_fit/components/track_support/rebuild_inputs.json": {
+      "bytes": 78355,
+      "sha256": "7e6eccc9f31f1b69aa3c6557de378f8b654f2c806f2cd7cda7304aa59bac7b96"
+    },
+    "mechanical_fit/components/track_support/requirements-rebuild.txt": {
+      "bytes": 107,
+      "sha256": "84f728c142e7c67b9b7a4af66058bbead7c344be5e412acf189d02381cfdec63"
+    },
+    "mechanical_fit/components/track_support/source_evidence.json": {
+      "bytes": 53528,
+      "sha256": "01bb3e00fca9012e1f0e97ba106a3f73ea6cd05576d8a939ef3af7224e7c7105"
+    },
+    "mechanical_fit/components/track_support/test_portable_rebuild.py": {
+      "bytes": 3732,
+      "sha256": "43f979cd0305fef838301cd88028b49d5b1658923ff78639b3ca311ebc69c329"
+    },
+    "mechanical_fit/evidence/asset_unit.log": {
+      "bytes": 207,
+      "sha256": "bd28bf33753e4cbbd9d72d855c12f09954e51a0e3989c4af4d31af7134f7ddcd"
+    },
+    "mechanical_fit/evidence/component_balise_tests.log": {
+      "bytes": 1777,
+      "sha256": "9a7b23b4270b868c589aca56084ed3f2de78e4c15eaf3115d147ac60cc5b96cc"
+    },
+    "mechanical_fit/evidence/component_clamp_tests.log": {
+      "bytes": 1006,
+      "sha256": "ddd8b99ddced204e58e5fba809963e5564d1ccfbada7ce064550f58ca9b4492d"
+    },
+    "mechanical_fit/evidence/component_track_tests.log": {
+      "bytes": 1036,
+      "sha256": "3a464f25671f5cdfe4b3de664a1ecdf8c3fead1173458e1e800f664d202445f8"
+    },
+    "mechanical_fit/evidence/console_acceptance.json": {
+      "bytes": 1171,
+      "sha256": "26021b30142144a5a641c4ed5f765811971f6446dc521a0e0051965e258c4827"
+    },
+    "mechanical_fit/evidence/doctor.log": {
+      "bytes": 614,
+      "sha256": "2f127dd371489570ed2d55834db930aa3055d3341614826897e1da52f83c2a7f"
+    },
+    "mechanical_fit/evidence/fit_unit.log": {
+      "bytes": 103,
+      "sha256": "6273232de4d3ef7acd4ecafa5c86beeeb974f56586b21089a2990b3f72facbe6"
+    },
+    "mechanical_fit/evidence/native_pantograph_http.json": {
+      "bytes": 388,
+      "sha256": "81ec4cbabc78fbb073f41848e2a3c0bc1bac0f6c25bf4d9855caba9eaf9b8a19"
+    },
+    "mechanical_fit/evidence/native_rail_http.json": {
+      "bytes": 1822,
+      "sha256": "58e5423d9ed5d31888e4a3d640e8cccf1dbc519ad071ecb4076186640fab7f6f"
+    },
+    "mechanical_fit/evidence/native_render_verification.json": {
+      "bytes": 6941,
+      "sha256": "ed31c846f1bd11bf50f71654111a896d447c27f0f7d15d979351b95084fdf566"
+    },
+    "mechanical_fit/evidence/native_seat_http.json": {
+      "bytes": 1903,
+      "sha256": "bd48e253d750581d11ed8148c29f00e83a882901eba4170dde59b87ad08597ca"
+    },
+    "mechanical_fit/evidence/node.log": {
+      "bytes": 14725,
+      "sha256": "1e24586cd0039cdb6ef983bcde2cc50063928b186bb946f25a9334e0461799e6"
+    },
+    "mechanical_fit/evidence/pantograph_clearance_review.json": {
+      "bytes": 3400,
+      "sha256": "9e8f0121f6861fe114eaf6f0e01199b498d65b689ba72d30560a4f9c19e65af5"
+    },
+    "mechanical_fit/evidence/pantograph_interfaces.json": {
+      "bytes": 2778,
+      "sha256": "85034cc3a2becdd62715be7cc255a4633003c990f41984b4bfc1eafc675dc1de"
+    },
+    "mechanical_fit/evidence/physics_separation.json": {
+      "bytes": 11592,
+      "sha256": "afb7496413d0b8d92eff41143b1f1693cab0274b2a6fd54e9f75a587abc126fc"
+    },
+    "mechanical_fit/evidence/profile_identity_validation.json": {
+      "bytes": 3042,
+      "sha256": "8e7e092d733625e33d92c69c036319c59ef62beeaafc2b4fb81b67b97562e678"
+    },
+    "mechanical_fit/evidence/rail_source_tests.log": {
+      "bytes": 998,
+      "sha256": "0e487a4507b2f3512cc3e3c6f4fabeebd26799b3df6b22e0a63f21271148e9c6"
+    },
+    "mechanical_fit/evidence/readonly_routes_http.json": {
+      "bytes": 457,
+      "sha256": "def9af4d76c8de582dc83712105b08aea735cb547378e8e5aaf50b056ca979d6"
+    },
+    "mechanical_fit/export_scene.js": {
+      "bytes": 4383,
+      "sha256": "3cd259168b6f3fad2d0408e36fd027301962895ecf3b13251b81baf12ca14635"
+    },
+    "mechanical_fit/inputs/balise/balise_fit_profile.json": {
+      "bytes": 260818,
+      "sha256": "52507fb9aad16551342def0c25fee0d4f052a3002bb729e084b04ce5192c7734"
+    },
+    "mechanical_fit/inputs/clamps/clamp_b535_review_profile.json": {
+      "bytes": 147561,
+      "sha256": "7c873aefb0d198067af0307e1034a81386ec7cc2145d8fd993a76915370c472e"
+    },
+    "mechanical_fit/inputs/clamps/clamp_fit_profile.json": {
+      "bytes": 193015,
+      "sha256": "4cf41cf6efcfb63aa3e4d925cb1f9cdf58322c98f67becdb5ca4b40f262efd39"
+    },
+    "mechanical_fit/inputs/clamps/clamp_messenger_datum_profile.json": {
+      "bytes": 199881,
+      "sha256": "af34dc0f664a1a6fa4458ce8b5b831dc283617b8d984dcef5a91de844c520580"
+    },
+    "mechanical_fit/inputs/track_support/PUBLIC_INPUT_PROVENANCE.json": {
+      "bytes": 650,
+      "sha256": "53cfc806155de7133e4258ef39d1204e81bc23211cee4ee606f192c16d6b5515"
+    },
+    "mechanical_fit/inputs/track_support/profile_conforming_hull.json": {
+      "bytes": 96794,
+      "sha256": "29be1a6c4086bd29e0aa783416236afe16a5eee641c2a2cbf39e26bcb25d8071"
+    },
+    "mechanical_fit/inputs/track_support/profile_flat_top_blank.json": {
+      "bytes": 63033,
+      "sha256": "042f9462b2f993de37f347072800ee009d11a39044673cd3c66ea036e5dd8f0e"
+    },
+    "mechanical_fit/pantograph_clearance.py": {
+      "bytes": 5051,
+      "sha256": "b268d98c85995c5762693ebde526583fce35b5e62989d40804d8c378941491e7"
+    },
+    "mechanical_fit/profiles.json": {
+      "bytes": 1513952,
+      "sha256": "06cbf71b9a38f0471f01695694a1b9adeb0a4ec599ecfd01dd8ebc0908a6da01"
+    },
+    "mechanical_fit/rail_web/app.js": {
+      "bytes": 647,
+      "sha256": "0f6e26e34dfd45c1ce58c7ad98546bb12cc9b091334572306c18a1b763f24e38"
+    },
+    "mechanical_fit/rail_web/index.html": {
+      "bytes": 30467,
+      "sha256": "ac1f122aa99b436681b2337a6b3923b7f27ede3679edc57b5d8931bb5715d6f7"
+    },
+    "mechanical_fit/rail_web/style.css": {
+      "bytes": 1010,
+      "sha256": "56be534d318770289ba05ee737ece3c98508740d4b7c677c729c8d39f8a3ca43"
+    },
+    "mechanical_fit/release_review/REVIEW.md": {
+      "bytes": 6025,
+      "sha256": "039e5941112e42c6f17567e731e3216677c4f8652e4571b25e8ca62f22099fe8"
+    },
+    "mechanical_fit/release_review/asset_restore_check.json": {
+      "bytes": 2965,
+      "sha256": "62449f9527f7d1d285b83ec2a0b9a0ba726ce01b768c4285587be8d796d4a7b9"
+    },
+    "mechanical_fit/release_review/async_flow_results.json": {
+      "bytes": 322,
+      "sha256": "79b2a090d2c4d83cb87a3be99cae8940d64b42e3e213881715afd00bea245a97"
+    },
+    "mechanical_fit/release_review/final_focused_tests.tap": {
+      "bytes": 1455,
+      "sha256": "b209d1629c12a6fe3488a23879745219819a7ccb52f8148163e3be2794b18685"
+    },
+    "mechanical_fit/release_review/review_async_flows.js": {
+      "bytes": 3727,
+      "sha256": "d6635fee7e77637c7351dbd9d8c20c913249da4138aa5609a6dc88a3d66d0e92"
+    },
+    "mechanical_fit/release_review/reviewed_snapshot.json": {
+      "bytes": 1483,
+      "sha256": "2192476bf46987de412731018ccd5fc7d89e41ef9b0c077bd34afa4e8d4b5c78"
+    },
+    "mechanical_fit/renders/balise_after.png": {
+      "bytes": 1364903,
+      "sha256": "6be363c3382bf5017d42ea26106697adae885ff3c2ebb7ddbe0a74af33603784"
+    },
+    "mechanical_fit/renders/balise_before.png": {
+      "bytes": 1367095,
+      "sha256": "1dcce478de4b41df9eea3f9a096aa99f4d295ba10f5b3f174dd008d612f03631"
+    },
+    "mechanical_fit/renders/lower_clamp_after.png": {
+      "bytes": 1223143,
+      "sha256": "1592d2d1af7ea31ca915656d8f580251007a2ed1b526e2433b7275c29c7e548c"
+    },
+    "mechanical_fit/renders/lower_clamp_before.png": {
+      "bytes": 1224646,
+      "sha256": "1a535b123ef5df4e22c9ede67779f2b2a141b7778c1bd72508092ec85050ff4d"
+    },
+    "mechanical_fit/renders/track_support_after.png": {
+      "bytes": 1273739,
+      "sha256": "fcad03170918ce7498206dc76c4e87857bfbee7be18288af0ec2664a97c3a77d"
+    },
+    "mechanical_fit/renders/track_support_before.png": {
+      "bytes": 1267839,
+      "sha256": "035f3990cdc6668f4c1c27ca7db3711c3c22267ec0575e261ad867377152b913"
+    },
+    "mechanical_fit/renders/upper_clamp_after.png": {
+      "bytes": 1328456,
+      "sha256": "989275f8336827cdf68b324ec5c8b9e114389453e15f21410fb57c7a9273a7db"
+    },
+    "mechanical_fit/renders/upper_clamp_before.png": {
+      "bytes": 1322986,
+      "sha256": "9e1891bffd4bf754270b45112ba2728adc90c664e9d39ac5a37eff31c470afdb"
+    },
+    "mechanical_fit/renders/whole_candidate.png": {
+      "bytes": 1330305,
+      "sha256": "ad25b0527dc390c3b681c4bc5863ccaccc08661af91b1815bbd15f3876a228d7"
+    },
+    "mechanical_fit/report.html": {
+      "bytes": 5876,
+      "sha256": "4a11f349e14c79fe8c0e5486a3a706e0a29f7f74803be3ebf70aae6c25359d3f"
+    },
+    "mechanical_fit/report.json": {
+      "bytes": 34844,
+      "sha256": "18abd38c1068328b6cc057280e025dc77c1b6e0ddbc9fe02c473eb909de9f80d"
+    },
+    "mechanical_fit/static_profiles.js": {
+      "bytes": 4411,
+      "sha256": "28bddf1773594b5a22edf4a559e1d05fddfb1acf7b93d7c8995a247c6185fb81"
+    },
+    "mechanical_fit/style.css": {
+      "bytes": 597,
+      "sha256": "5241bbd32837edcd50dc87c010791983a2b3acf0937445150a267b0d001559cd"
+    },
+    "mechanical_fit/test_clearance.py": {
+      "bytes": 2152,
+      "sha256": "a744447ac660e9fef20ac8d9cc5be441f37fe4b2eee7c50f7cbbd0d8d7caff89"
+    },
+    "mechanical_fit/test_public_profiles.js": {
+      "bytes": 1395,
+      "sha256": "ed63594ca0e9f765ce08212bd4fd5846040c359cde6e1e167abfe7b7c85e4c21"
+    },
+    "mechanical_fit/test_rail_view.js": {
+      "bytes": 1445,
+      "sha256": "d0f7acca82b948402de4af6103c6a7fd4acbc17487725082499996a594775033"
+    },
+    "mechanical_fit/test_static_profiles.js": {
+      "bytes": 4356,
+      "sha256": "8afc172cf48664e94f610253ea1d427b69c329384a45c9eecf1df2adcd6dee48"
+    },
+    "mechanical_fit/verify_render_native.py": {
+      "bytes": 5098,
+      "sha256": "a6e502594a5fe0a04181c50ee5681ab8cbd86deada875287c4b0f59a2d89dcb3"
     },
     "pantograph/binding_review.json": {
       "bytes": 167620,
@@ -3581,6 +4225,250 @@
     "payloads/fe9e6c52f5a2381394e4.000.bin": {
       "bytes": 1037072,
       "sha256": "4764917d477f8edfb836836d3bbabfdf6111417cc65040e06b5efc1ea115916a"
+    },
+    "payloads/mechanical-fit-v1/035f3990cdc6668f4c1c.000.bin": {
+      "bytes": 1048576,
+      "sha256": "654e23f3fb5aaefc277ef4b461baae189cd1b2677c8eb011c43cd01bb5f13d64"
+    },
+    "payloads/mechanical-fit-v1/035f3990cdc6668f4c1c.001.bin": {
+      "bytes": 219028,
+      "sha256": "36bbdf77d96f7a2ae8cd865646881af65b6b79792e43f49dc1606753ec51bbe6"
+    },
+    "payloads/mechanical-fit-v1/06cbf71b9a38f0471f01.000.bin": {
+      "bytes": 199590,
+      "sha256": "a1e4c8a5101b804447c5b65cd3bcbbb97ac070a2d8387e87abda4f3f47b36d77"
+    },
+    "payloads/mechanical-fit-v1/12fff9c14ea4c78815d3.000.bin": {
+      "bytes": 37386,
+      "sha256": "8af8f87ca52e178107dd90cf46f567d14deca35620cb102490118915c11a9915"
+    },
+    "payloads/mechanical-fit-v1/1592d2d1af7ea31ca915.000.bin": {
+      "bytes": 1048576,
+      "sha256": "64dac02f5fdbbd5ffaebb0fd9d6706f2f28fa54b4cb453cda75f2572d80ae1e1"
+    },
+    "payloads/mechanical-fit-v1/1592d2d1af7ea31ca915.001.bin": {
+      "bytes": 174539,
+      "sha256": "a63de3ce5ad16b410e1bfe670f30a34806e54178380c518b61742b9ff0df0145"
+    },
+    "payloads/mechanical-fit-v1/1a535b123ef5df4e22c9.000.bin": {
+      "bytes": 1048576,
+      "sha256": "2ec11a28472f362bf0ea458d1a6e16f14023b2c8017147b10e13a06ff7621448"
+    },
+    "payloads/mechanical-fit-v1/1a535b123ef5df4e22c9.001.bin": {
+      "bytes": 176070,
+      "sha256": "6ed510dcd3905c05f86b139deb14ec71336fe2dcfa1ace0bb764852cc0048d92"
+    },
+    "payloads/mechanical-fit-v1/1dcce478de4b41df9eea.000.bin": {
+      "bytes": 1048576,
+      "sha256": "2437ca57599d592c4898fbcbf2cb85bb7c2ea51e46416076da8cc7c777003dc1"
+    },
+    "payloads/mechanical-fit-v1/1dcce478de4b41df9eea.001.bin": {
+      "bytes": 318519,
+      "sha256": "b08c3b153308a307beb0f038f60b3a6f6b76e00c621a462ef21f5e39e2480512"
+    },
+    "payloads/mechanical-fit-v1/334331ed7effb249451a.000.bin": {
+      "bytes": 234005,
+      "sha256": "57fab57de454db3986a624dd8400088072609b2e527efbf0bbcc9f60417a0a9a"
+    },
+    "payloads/mechanical-fit-v1/35c133ee7616daf2d73e.000.bin": {
+      "bytes": 25888,
+      "sha256": "62962fe5ebff8eee1f6297a71beb5901c099bae612dca7923a725373486791b0"
+    },
+    "payloads/mechanical-fit-v1/52507fb9aad16551342d.000.bin": {
+      "bytes": 23067,
+      "sha256": "4e514f8d88a7a18f7946fe89eb8f353c8b1031f32e23917d8f9d070d4b8d5686"
+    },
+    "payloads/mechanical-fit-v1/6b7f35d764954dca72b3.000.bin": {
+      "bytes": 242303,
+      "sha256": "2ca2b40b969c66ec1b430580c51b37a6361df5e327c77e4f098fa02d16ca4d04"
+    },
+    "payloads/mechanical-fit-v1/6be363c3382bf5017d42.000.bin": {
+      "bytes": 1048576,
+      "sha256": "65d83c30f8237f1b3b8499724f00e7ee8690860d31c6149a9460fd59066badff"
+    },
+    "payloads/mechanical-fit-v1/6be363c3382bf5017d42.001.bin": {
+      "bytes": 316327,
+      "sha256": "567c7c19e22f6cd836b6588612fb0cc56b083657b9733228e8c47e6a5d9540b2"
+    },
+    "payloads/mechanical-fit-v1/773dc5f05871b0d087b7.000.bin": {
+      "bytes": 26315,
+      "sha256": "32a86f213e31af758252dccefa64ca2a9a677596ce978998eb6066e7e4843ddd"
+    },
+    "payloads/mechanical-fit-v1/942dda012471babf0c3a.000.bin": {
+      "bytes": 58774,
+      "sha256": "cf4cf5b0aba05a8fab260cd031a5c703606b4547e2976fa30a88359a779e2f52"
+    },
+    "payloads/mechanical-fit-v1/989275f8336827cdf68b.000.bin": {
+      "bytes": 1048576,
+      "sha256": "9789fefaad0437812d5e6ea107679ee0bd06f7ed521af88b04e2af12cab30039"
+    },
+    "payloads/mechanical-fit-v1/989275f8336827cdf68b.001.bin": {
+      "bytes": 279880,
+      "sha256": "390816e69241ff5a2c9ce574073dba4d83870fdd1b154dfb13fc5a4c17e9c725"
+    },
+    "payloads/mechanical-fit-v1/9e1891bffd4bf754270b.000.bin": {
+      "bytes": 1048576,
+      "sha256": "baf5e064eaae71535dcef2359b8d862372706d1e113ec072b194931215b3549c"
+    },
+    "payloads/mechanical-fit-v1/9e1891bffd4bf754270b.001.bin": {
+      "bytes": 274410,
+      "sha256": "81a61fbc8650d85cecfaf371b841e6619841c8333b7a49df9dffc3b26f992004"
+    },
+    "payloads/mechanical-fit-v1/ad25b0527dc390c3b681.000.bin": {
+      "bytes": 1048576,
+      "sha256": "2f854ded685f301b5f00704b3073dfc1b2cbb59a7683f9058e03b65854409211"
+    },
+    "payloads/mechanical-fit-v1/ad25b0527dc390c3b681.001.bin": {
+      "bytes": 281691,
+      "sha256": "6a0f19c3280ffd5d0008d1ef91589a9ed13d71291ea3c81812f6a9bc2002fef3"
+    },
+    "payloads/mechanical-fit-v1/c7742000bd2465155a9f.000.bin": {
+      "bytes": 518854,
+      "sha256": "df885663c894401f85b66582f53f2b57ca33ed087333771c2b14bcabb62deb87"
+    },
+    "payloads/mechanical-fit-v1/e54f373e7b080df7d695.000.bin": {
+      "bytes": 38406,
+      "sha256": "4210924073bd0f582463d78402247e2ce41e12ddd70a04840586d0db29e4c7c4"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.000.bin": {
+      "bytes": 1048576,
+      "sha256": "df06a446455310a93142db7124915c269bf9564c0fa489a5d0c55e1632402b78"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.001.bin": {
+      "bytes": 1048576,
+      "sha256": "c589ab213264e8fcd471f0f0f4158afc9f32019be8196d9f7c59a13710ee825e"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.002.bin": {
+      "bytes": 1048576,
+      "sha256": "238cbc666d05d3047299e394aad3a691031d2470ad601b0357dd0415faaad11b"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.003.bin": {
+      "bytes": 1048576,
+      "sha256": "99078eab3880d83441bc84999f3aade8e73d85ceaf90c6381ab2d8dad4890aa9"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.004.bin": {
+      "bytes": 1048576,
+      "sha256": "997bd78bbf57fe75537dc80531742f347680d17e8f9d036032e0d03859c077fc"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.005.bin": {
+      "bytes": 1048576,
+      "sha256": "5ba3ba7148db19a633c01211e071f2937b36e43618207441d2d6e17fa24a6051"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.006.bin": {
+      "bytes": 1048576,
+      "sha256": "7ce0f4544e43f844cb988e4b1c387fce591b1c026921869d1a71a59cd605296a"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.007.bin": {
+      "bytes": 1048576,
+      "sha256": "f666916c139bb0961642ea7e11c74097dd771c0a5c873f9bd9bee75700d92936"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.008.bin": {
+      "bytes": 1048576,
+      "sha256": "b55650fbe350fecb28cf66544956f8a034d7049f253162b758749823ba4250a8"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.009.bin": {
+      "bytes": 1048576,
+      "sha256": "7890f6dbed6fc645dac7f817a87b72f35cb4f2de86026da8e8b81e4023e83a74"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.010.bin": {
+      "bytes": 1048576,
+      "sha256": "f2b98e3082115b68bb927e99df37c97edcd7f46d9cd681afdf54c26d381e8216"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.011.bin": {
+      "bytes": 1048576,
+      "sha256": "b3d370002ccb604a83656ebe607c9296a210072c508cf0ea0aa880c1801543bb"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.012.bin": {
+      "bytes": 1048576,
+      "sha256": "d127572651f0da750ddd050e497f3291e0a2cb2241e5951c1f870d356ad73567"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.013.bin": {
+      "bytes": 1048576,
+      "sha256": "4756b284b32ad7371f0518c0f22259093e70299840767c334347598d1644e4a8"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.014.bin": {
+      "bytes": 1048576,
+      "sha256": "9815672a8968fcf92e8a49626446eda7faeee1bffbef7785d3bc70761ebba48b"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.015.bin": {
+      "bytes": 1048576,
+      "sha256": "d731e5fdd6340a1b98e57b4f3a92de647ebb4e328de7c55ecb56533dce08b0d9"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.016.bin": {
+      "bytes": 1048576,
+      "sha256": "0f8c046ec5cc0e70100f6daf62b4ddf32c80abc685d3681ecbc1e86fbb5cdcd5"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.017.bin": {
+      "bytes": 1048576,
+      "sha256": "ba2ea5edd64a2fd9bd8f4233467707ec68d95338dc856d0424a195331d1650f9"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.018.bin": {
+      "bytes": 1048576,
+      "sha256": "ca2398551ee7e55c1d3f6577b1e31381950a69bfedc5f660431455847ae7c5fd"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.019.bin": {
+      "bytes": 1048576,
+      "sha256": "6d7e907c73eeffa6391612ccaea9ecbe585f52a38cb03f5e69b0e607ae7423a1"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.020.bin": {
+      "bytes": 1048576,
+      "sha256": "88d5f0e99f20dfbac18bcc7a303ead7a43e75d0b55a5d28c931fcb540d85fb6f"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.021.bin": {
+      "bytes": 1048576,
+      "sha256": "a8cf12f6db4380cf4b2f1bbc813ba347b0c064ab691e04660909dc201d7927df"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.022.bin": {
+      "bytes": 1048576,
+      "sha256": "55e094beb34fe06616f7daef2c8cc24352f83863fa436d8057538d786071b047"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.023.bin": {
+      "bytes": 1048576,
+      "sha256": "8113a8f38c44433cc7159e8a691fa5a8b243ee6bbe491922c883e939431168f6"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.024.bin": {
+      "bytes": 1048576,
+      "sha256": "8e53300b9f33602991ec69a140360b267b635c9c4e5f56c729e6c10157a514ba"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.025.bin": {
+      "bytes": 1048576,
+      "sha256": "6656d141d32b986854e09bfdf0dd861116bd50338a115694368631b82d0d643b"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.026.bin": {
+      "bytes": 1048576,
+      "sha256": "7495c9cd3f2e82bd04b40c00a14f519bd043eb056edf565aade40b3ddf3e4c8c"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.027.bin": {
+      "bytes": 1048576,
+      "sha256": "b22febc23d26b26d9b4e4b5901823b2b7215ccd0b53bc0698eee55e173253b03"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.028.bin": {
+      "bytes": 1048576,
+      "sha256": "b57576178eac56ed7f90fdc4297111e852c4af53b68b6ec5b2a480653e2e7f98"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.029.bin": {
+      "bytes": 1048576,
+      "sha256": "1ac7ef6bb360b33a0a572b0921ba897759b42718703a4a889c408151755781c7"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.030.bin": {
+      "bytes": 1048576,
+      "sha256": "5a5be6478f0c243c1cc745cf09e15f4c21a077b3e4e7b9edcd78d7b4beea3517"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.031.bin": {
+      "bytes": 1048576,
+      "sha256": "2ed3e51547dcc42ed6bd0a4f33094ada63d563b805994cc8dc657510fb6d18db"
+    },
+    "payloads/mechanical-fit-v1/ede3935c0b1d58be36dc.032.bin": {
+      "bytes": 732480,
+      "sha256": "dace395ea3579ac502e236d96844159843cf1519f65e90f4353b6e28d4b6189c"
+    },
+    "payloads/mechanical-fit-v1/fcad03170918ce749820.000.bin": {
+      "bytes": 1048576,
+      "sha256": "ecc74bf19b998b9e88a8ca971be8a11d6b7e2f88a4ba40739523f7165dbe12a6"
+    },
+    "payloads/mechanical-fit-v1/fcad03170918ce749820.001.bin": {
+      "bytes": 225008,
+      "sha256": "345b3ee6da2049b1568fdd67c5b24d2f63a1bb05b63cb575512296bc00810d4f"
     },
     "payloads/small-300000/08b61aa81c1a3b51c544.000.000.bin": {
       "bytes": 300000,
@@ -4399,8 +5287,8 @@
       "sha256": "206e9eda290a4f06a66aeb098f52b04fc0a5ce13114cb67a384b39e8a785120d"
     },
     "run_acceptance.py": {
-      "bytes": 2357,
-      "sha256": "0774e8a7d3174ee490875dd98e000163f488f210dc0988753e2d5998e04c8a81"
+      "bytes": 2527,
+      "sha256": "c03f5e0f48f9a1360e761ab62617e33be06f88b5814123842a58e9cf706a13fb"
     },
     "source_review_assets.py": {
       "bytes": 12558,

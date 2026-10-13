@@ -1,0 +1,37 @@
+{
+  "schema": "balise-installation-candidate-config-v1",
+  "profile_id": "balise_deck_bays_yaw90",
+  "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+  "as_built_confirmed": false,
+  "default_enabled": false,
+  "minimum_sleepers_side_clearance_mm": 1.0,
+  "minimum_rail_side_clearance_mm": 5.0,
+  "clearance_values_are_engineering_review_parameters_not_standards": true,
+  "body_dimension_changes_allowed": false,
+  "deck_z_offset_mm": 0.0,
+  "assemblies": [
+    {
+      "balise_index": 2,
+      "between_source_stations": [
+        11,
+        12
+      ],
+      "yaw_deg": 90,
+      "lateral_center_m": null,
+      "linked_source_chair_station": 12
+    },
+    {
+      "balise_index": 3,
+      "between_source_stations": [
+        16,
+        17
+      ],
+      "yaw_deg": 90,
+      "lateral_center_m": null,
+      "linked_source_chair_station": 17
+    }
+  ],
+  "minimum_clip_rail_side_clearance_mm": 0.5,
+  "minimum_clip_chair_edge_margin_mm": 0.5,
+  "clip_installation_status": "SOURCE_CHAIR_POSITION_PLUS_INFERRED_OUTBOARD_CLIP_SEATING_CANDIDATE"
+}

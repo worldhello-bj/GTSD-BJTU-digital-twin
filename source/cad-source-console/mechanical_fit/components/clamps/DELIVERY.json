@@ -1,0 +1,158 @@
+{
+  "schema": "gtsd-clamp-interface-delivery-v1",
+  "main_profile": "clamp_fit_profile.json",
+  "optional_full_wire_profile": "clamp_messenger_datum_profile.json",
+  "unresolved_b535_review": "clamp_b535_review_profile.json",
+  "supported_scene_ids": [
+    "20_FRONT_ROUTE_NOMINAL_FIT"
+  ],
+  "geometry_frozen": true,
+  "requires_atomic_selection": true,
+  "main_changes": {
+    "removed": 6,
+    "added": 6,
+    "target_nonconnection_overlaps_eliminated": 6,
+    "source_messenger_unchanged": true
+  },
+  "as_built": false,
+  "all_geometric_tests_passed": true,
+  "geometric_check_count": 77,
+  "regression_test_count": 9,
+  "public_files": [
+    {
+      "path": "README_ZH.md",
+      "bytes": 6635,
+      "sha256": "449a3a404ce3a8d80fdbc3001e1dc7991e7e2a9ae554a1d8924b3f7993ceb154"
+    },
+    {
+      "path": "clamp_fit_profile.json",
+      "bytes": 348337,
+      "sha256": "12fff9c14ea4c78815d384623458d47217a186430d5b82a815588dcf6a56f80d"
+    },
+    {
+      "path": "clamp_messenger_datum_profile.json",
+      "bytes": 359229,
+      "sha256": "e54f373e7b080df7d6958cf07aadad9e735a94e648166662112afa99eebc879e"
+    },
+    {
+      "path": "clamp_b535_review_profile.json",
+      "bytes": 258095,
+      "sha256": "35c133ee7616daf2d73e7824ff7657b61848ca867e3dd848a57f558f5ab12fe2"
+    },
+    {
+      "path": "PROFILE_SHA256SUMS",
+      "bytes": 287,
+      "sha256": "af559ea1d5046db476d529b404616ee58785ab08b270fc5d9ba971dff2f958a0"
+    },
+    {
+      "path": "profiles_manifest.json",
+      "bytes": 812,
+      "sha256": "b4b0ea919c989594ca7d16bf37d0f0ba241170f9381cc27590c569c7acf5e668"
+    },
+    {
+      "path": "clamp_fit_validation.json",
+      "bytes": 54484,
+      "sha256": "60bf9dc84310624f66f491e1babce72ee1590d0ec0d957bf40ea9fed563d1692"
+    },
+    {
+      "path": "fit_config.json",
+      "bytes": 1427,
+      "sha256": "59cc795898a063aae14fcf2a6684718e81e3c6227bd3e0887a64eb7a10262e10"
+    },
+    {
+      "path": "source_context_summary.json",
+      "bytes": 2312,
+      "sha256": "d3d8a46d1ed6ba61c6613e380ad98e6fc1a4144e924c0ce73499e4f14b9e5ed3"
+    },
+    {
+      "path": "INTERFACE_CORRECTION_CONTRACT.json",
+      "bytes": 16882,
+      "sha256": "62594e69df30f7ea02cd50737a74821dd03fb57aea95a6e0f8e03aab25eea1f7"
+    },
+    {
+      "path": "native_source_records.json",
+      "bytes": 37749,
+      "sha256": "a066859d59dd47c78e08bd73fb60c6b60f15fc4d886baa88f4aed3da76f3e7a1"
+    },
+    {
+      "path": "native_source_verification.json",
+      "bytes": 88,
+      "sha256": "c4cc58e422dae1d3d2b72907800adf0805eccb0f799441a5a2223086800c9ccd"
+    },
+    {
+      "path": "reproduction_verification.json",
+      "bytes": 219,
+      "sha256": "3e8ced647a9556f56e93cd906b8dab76e4beb9f1e73cb8164d023e8aafc54d3c"
+    },
+    {
+      "path": "build_profiles.py",
+      "bytes": 10460,
+      "sha256": "e6b864a9e78f51c9782d1f3ece49cf4768f16042d2278094ed0bbaf6b41d16de"
+    },
+    {
+      "path": "verify_profiles.py",
+      "bytes": 10669,
+      "sha256": "d45d0267ee30e2afb73cdd447202b9af5ceadae8c1b90ac2f70e6a32d48ab7fd"
+    },
+    {
+      "path": "verify_native_source.py",
+      "bytes": 824,
+      "sha256": "356ec9e02aa9c68e5d8527a80c2baa6482e2fa129d5d0eabff8cdcbd0a6e16c1"
+    },
+    {
+      "path": "test_profiles.py",
+      "bytes": 3663,
+      "sha256": "d8e68dbf10282e0e6acd6aa5c11d66f1e4efc7fc467ff1d3d2d2732191e0d148"
+    },
+    {
+      "path": "geometry.py",
+      "bytes": 11265,
+      "sha256": "4c379bb59e28fa6f655da80e7f4ef922ab46674efcdb4f05cc90166936fb0ff6"
+    },
+    {
+      "path": "geos_kernel.py",
+      "bytes": 2907,
+      "sha256": "ebfcc5a2a938fd4263b0f286b40f1be6ddcb39fbfea5e68915b41644b589115e"
+    },
+    {
+      "path": "extract_published.js",
+      "bytes": 2725,
+      "sha256": "8b4c9aef3da93b185592326898bbe16dc941ea49ba2a8d3752fada80200b87a0"
+    },
+    {
+      "path": "published_clamp_meshes.json",
+      "bytes": 5373820,
+      "sha256": "c7742000bd2465155a9fbc01d7fb4257c3ee180f822d779e5d68fcff3f422b3c"
+    },
+    {
+      "path": "published_scene_bounds.json",
+      "bytes": 346982,
+      "sha256": "942dda012471babf0c3a0e55ec26c7629f467c281cbe5dce2b2832f91c1f7b4f"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 63,
+      "sha256": "468baa0c32d84f7daae11650124e3dd8d485f0764f702fb2dfc6af66ad64ce40"
+    },
+    {
+      "path": "regression_tests.log",
+      "bytes": 107,
+      "sha256": "f55d68aeda3961853a82b559d391a699c2099574e24e08ed0d595168c2272d69"
+    }
+  ],
+  "private_machine_path_scan": {
+    "passed": true,
+    "files": []
+  },
+  "raw_source_photos_included": false,
+  "profile_hash_file": "PROFILE_SHA256SUMS",
+  "remaining_fields": [
+    "4079 measured depth",
+    "4079 upper/lower fixing",
+    "F643 actual section and fastener identity",
+    "pin axial retention",
+    "manufacturing tolerances",
+    "contact wire/messenger end connection methods"
+  ],
+  "source_variant_claim": "Explicit engineering installation and conflicting-native-version choices, not unique source correction."
+}

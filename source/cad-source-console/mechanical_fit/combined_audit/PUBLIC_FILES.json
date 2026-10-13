@@ -1,0 +1,82 @@
+{
+  "files": [
+    {
+      "path": "README_ZH.md",
+      "sha256": "70f954d8b2042df1236b3455a91c0a0bae1abf620f8e92eee5e98dd869dbd505"
+    },
+    {
+      "path": "audit_summary.json",
+      "sha256": "965195636fe0bdbf13610b9509b3ef8f74e10298703699f3bbb84ddb6cd351f2"
+    },
+    {
+      "path": "combined_interference_audit.json",
+      "sha256": "a1b910053300b47d7608939f467133651a003065e85499092dba403fcad84c10"
+    },
+    {
+      "path": "native_float32/combined_interference_audit.json",
+      "sha256": "762b3b151fe1567d7d677424a4a716440d652c87d700eb8daad82ba1dfa4cafd"
+    },
+    {
+      "path": "interface_refinement.json",
+      "sha256": "86dfe852b6356c640c959025e08fd30b35e7163d80f53dc26e3f1d6c3ea096e5"
+    },
+    {
+      "path": "numerical_boundaries_export.json",
+      "sha256": "588b51204a96f14ea922601edd6417a23845355c0682e6f076e7f4b338cf507c"
+    },
+    {
+      "path": "numerical_boundaries_float32.json",
+      "sha256": "525ebb4b3c5da8d4b5dd5aa2bb0736b535f44c7a6ba5dbd544b0e69866b966ac"
+    },
+    {
+      "path": "after_pairs.csv",
+      "sha256": "19a223e59ef35072ec5defdd70a73a33983c0957033010d703aa9e95cc530aaa"
+    },
+    {
+      "path": "before_pairs.csv",
+      "sha256": "90aae274d362dabf846c10da3bccfbcb95af80285e026fd8636684bb647999ca"
+    },
+    {
+      "path": "audit_combined.py",
+      "sha256": "8e7b1bc5403f61afc53ab1b8c338a9336c75f1990cbfb9ba3f0fee02eea95142"
+    },
+    {
+      "path": "triangle_classifier.py",
+      "sha256": "86db33060f5cbe2aa1fb9c076bae3d3f059bd5b2a30ae3b8bf7fca0253fc40d3"
+    },
+    {
+      "path": "refine_interfaces.py",
+      "sha256": "2e5b41fb2595f54024aad2cdeeed12e1e0a67cace503aa5bde8ad5ffd7162334"
+    },
+    {
+      "path": "cap_geometry.py",
+      "sha256": "4c379bb59e28fa6f655da80e7f4ef922ab46674efcdb4f05cc90166936fb0ff6"
+    },
+    {
+      "path": "geos_kernel.py",
+      "sha256": "ebfcc5a2a938fd4263b0f286b40f1be6ddcb39fbfea5e68915b41644b589115e"
+    },
+    {
+      "path": "test_audit.py",
+      "sha256": "e0982323af252688f2e7878b2b1a1f5d9b38c1d14ce6c1960d43c5bfe380bdde"
+    },
+    {
+      "path": "regression_tests.log",
+      "sha256": "dc7597c58e755d60e70d90eaf277872dfd23d7e05e5b5316c776095d74b4ddc5"
+    },
+    {
+      "path": "finalize_report.py",
+      "sha256": "de50d4a22b0e5dbd0bf056eac52337bde4d7db39d7bc7d5a34ee8a2a0eaa6bcd"
+    },
+    {
+      "path": "reproduce.py",
+      "sha256": "f02787806ab51549e007c4b9d79e02a07524696181f6b68a0f77a91d10c7a5a2"
+    },
+    {
+      "path": "reproduction_validation.json",
+      "sha256": "943dc9c5a2942ef0a1387eb1d222a095da73ac91c1b1e96e5bab538a02e4f4bf"
+    }
+  ],
+  "no_private_absolute_paths": true,
+  "no_original_photographs": true
+}

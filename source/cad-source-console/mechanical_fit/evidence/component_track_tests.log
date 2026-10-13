@@ -1,0 +1,13 @@
+test_all_solids_closed_positive (__main__.PortableTests.test_all_solids_closed_positive) ... ok
+test_atomic_apply_and_original_unchanged (__main__.PortableTests.test_atomic_apply_and_original_unchanged) ... ok
+test_collision_or_default_promotion_rejected (__main__.PortableTests.test_collision_or_default_promotion_rejected) ... ok
+test_malformed_geometry_rejected (__main__.PortableTests.test_malformed_geometry_rejected) ... ok
+test_metadata_and_group_completeness (__main__.PortableTests.test_metadata_and_group_completeness) ... ok
+test_missing_member_and_wrong_revision_rejected (__main__.PortableTests.test_missing_member_and_wrong_revision_rejected) ... ok
+test_public_only_rebuild_bit_exact_vertices_and_indices (__main__.PortableTests.test_public_only_rebuild_bit_exact_vertices_and_indices) ... ok
+test_repeated_apply_and_option_stacking_rejected (__main__.PortableTests.test_repeated_apply_and_option_stacking_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 5.558s
+
+OK

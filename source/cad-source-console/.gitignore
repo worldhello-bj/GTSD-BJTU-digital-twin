@@ -499,3 +499,25 @@ acceptance-output/
 /integration/data/source_library/shared_7f05_distal_eye_registered_source_comparison.json
 /integration/data/source_library/shared_7f05_distal_eye_source_regions.json
 /integration/data/source_library/shared_library73_model_alias_source_regions.json
+
+# Mechanical-fit candidate assets, restored automatically and byte-identically.
+/mechanical_fit/GTSD_Mechanical_Fit_Candidates.blend
+/mechanical_fit/components/balise/balise_fit_before_after.png
+/mechanical_fit/components/balise/balise_fit_profile.json
+/mechanical_fit/components/clamps/clamp_b535_review_profile.json
+/mechanical_fit/components/clamps/clamp_fit_profile.json
+/mechanical_fit/components/clamps/clamp_messenger_datum_profile.json
+/mechanical_fit/components/clamps/published_clamp_meshes.json
+/mechanical_fit/components/clamps/published_scene_bounds.json
+/mechanical_fit/components/track_support/rail_body_review/native_edge_graph.png
+/mechanical_fit/inputs/balise/balise_fit_profile.json
+/mechanical_fit/profiles.json
+/mechanical_fit/renders/balise_after.png
+/mechanical_fit/renders/balise_before.png
+/mechanical_fit/renders/lower_clamp_after.png
+/mechanical_fit/renders/lower_clamp_before.png
+/mechanical_fit/renders/track_support_after.png
+/mechanical_fit/renders/track_support_before.png
+/mechanical_fit/renders/upper_clamp_after.png
+/mechanical_fit/renders/upper_clamp_before.png
+/mechanical_fit/renders/whole_candidate.png

@@ -1,0 +1,3539 @@
+{
+  "schema": "balise-current-main-effective-scene-check-v1",
+  "numerical_contact_tolerance_m": 1e-08,
+  "input_identity": {
+    "catalog_sha256": "06290655bd929b3e531f24a7adb0b829d3423c22da29fca8e96a10e7394e32eb",
+    "extras_gzip_sha256": "36dc014d8422deca5847bb6e4184bbc43b28883ff04db48e14af90ebc5c98990",
+    "source_replacements_sha256": "fe9e6c52f5a2381394e40372147c78946b6e50c019043d381730c7593df61a73",
+    "base_glb_sha256": "fff3f9fffd83e380435eba3a0f9ba975b87557b794d671ee175ea842235bbfa9",
+    "source_display_revision": "3e1d785643dc3eca93cf989b663af29311db3c6d1ce3197d97d7758a4e9fb93e",
+    "default_scene": "20_FRONT_ROUTE_NOMINAL_FIT",
+    "scene_counts": {
+      "19_NATIVE_CLAMP_SOURCE_REVIEW": {
+        "base": 1933,
+        "source_removed": 323,
+        "source_added": 326,
+        "effective": 1936
+      },
+      "20_FRONT_ROUTE_NOMINAL_FIT": {
+        "base": 1933,
+        "source_removed": 323,
+        "source_added": 326,
+        "effective": 1936
+      },
+      "21_PLAN_ROUTE_NOMINAL_FIT": {
+        "base": 1934,
+        "source_removed": 323,
+        "source_added": 326,
+        "effective": 1937
+      },
+      "22_FRONT_ROUTE_HOLES_6P2": {
+        "base": 1933,
+        "source_removed": 323,
+        "source_added": 326,
+        "effective": 1936
+      },
+      "23_FRONT_ROUTE_UNCUT_SLOT_REVIEW": {
+        "base": 1933,
+        "source_removed": 323,
+        "source_added": 326,
+        "effective": 1936
+      }
+    }
+  },
+  "all_five_scene_results": [
+    {
+      "scene": "19_NATIVE_CLAMP_SOURCE_REVIEW",
+      "base_scene_mesh_count": 1933,
+      "source_replacement_removed_count": 323,
+      "source_replacement_added_count": 326,
+      "effective_before_count": 1936,
+      "fit_removed_count": 18,
+      "fit_added_count": 18,
+      "effective_after_count": 1936,
+      "all_18_remove_names_present": true,
+      "all_profile_remove_names_present": true,
+      "source_pending_new_names_not_duplicated": true,
+      "passes_no_new_interference_gate": true,
+      "after_positive_aabb_pairs": [
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_body_02",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_body_02",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              121.99974060058594,
+              115.99999666213989,
+              25.374929010868076
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -7.169893245697022,
+              0.0,
+              -0.06449250141978265
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.4399948120112924,
+                "positive_mm": 119.55974578857465,
+                "shared_material_chord_mm": 121.99974060058594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 8.468862807983609,
+                "positive_mm": 54.73198460098787,
+                "shared_material_chord_mm": 63.200847408971484
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5074985802173553,
+                "positive_mm": 8.149062437560033,
+                "shared_material_chord_mm": 8.656561017777388
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              115.99999666213989,
+              121.99974060058594,
+              25.374929010868076
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_yellow_lid_02",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_yellow_lid_02",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              131.99996948242188,
+              126.00000202655792,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 168,
+            "surface_crossing_count": 164,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              126.00000202655792,
+              131.99996948242188,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.008",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.008",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.009",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.009",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.010",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.010",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.011",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.011",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_12_2_1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_12_2_1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.99999791383744,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_12_2_-1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_12_2_-1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.000001639127731,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -7.026333332061768,
+              -0.021129844710230827,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.414357517705738,
+                "positive_mm": 2.414357517705738,
+                "shared_material_chord_mm": 4.828715035411476
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 2.559927532632794,
+                "positive_mm": 1.0000001639127731,
+                "shared_material_chord_mm": 3.559927696545567
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 7.180865002729011,
+                "shared_material_chord_mm": 7.500865055181095
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.000001639127731,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 55,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_body_03",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_body_03",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              121.99974060058594,
+              115.99999666213989,
+              25.374929010868076
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.239892940521241,
+              -0.04639999866485596,
+              -0.06449250141978265
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.4399948120112924,
+                "positive_mm": 119.55974578857465,
+                "shared_material_chord_mm": 121.99974060058594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 8.331985936131906,
+                "positive_mm": 19.949918158118344,
+                "shared_material_chord_mm": 28.28190409425025
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5074985802173554,
+                "positive_mm": 10.40150088441764,
+                "shared_material_chord_mm": 10.908999464634995
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              115.99999666213989,
+              121.99974060058594,
+              25.374929010868076
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_yellow_lid_03",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_yellow_lid_03",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              131.99996948242188,
+              126.00000202655792,
+              9.999997913837433
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.244693050384521,
+              -0.060480000972747805,
+              -0.03862507119774818
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 1.2690371610886297,
+                "positive_mm": 43.404452895610504,
+                "shared_material_chord_mm": 44.67349005669914
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 1.187052524139818,
+                "positive_mm": 3.837327763812444,
+                "shared_material_chord_mm": 5.024380287952262
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5860655526972882,
+                "positive_mm": 8.586064018104858,
+                "shared_material_chord_mm": 9.172129570802147
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              126.00000202655792,
+              131.99996948242188,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.012",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.012",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.013",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.013",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.014",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.014",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.015",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.015",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_17_2_1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_17_2_1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 23,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_17_2_-1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_17_2_-1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.00000536441803,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.031133441925049,
+              -0.11696364730596542,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 0.20000457763647003,
+                "positive_mm": 9.80022430419947,
+                "shared_material_chord_mm": 10.00022888183594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 0.48288613353962384,
+                "positive_mm": 0.4828861335396236,
+                "shared_material_chord_mm": 0.9657722670792475
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 6.849320906055118,
+                "shared_material_chord_mm": 7.169320958507203
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.00000536441803,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 55,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        }
+      ],
+      "new_positive_or_uncleared_interference_pairs": [],
+      "remaining_after_positive_or_uncleared_pairs": [],
+      "tolerance_m": 1e-08,
+      "claim": "Supplied triangles only; inherited overlaps are reported and not certified away.",
+      "pass": true
+    },
+    {
+      "scene": "20_FRONT_ROUTE_NOMINAL_FIT",
+      "base_scene_mesh_count": 1933,
+      "source_replacement_removed_count": 323,
+      "source_replacement_added_count": 326,
+      "effective_before_count": 1936,
+      "fit_removed_count": 18,
+      "fit_added_count": 18,
+      "effective_after_count": 1936,
+      "all_18_remove_names_present": true,
+      "all_profile_remove_names_present": true,
+      "source_pending_new_names_not_duplicated": true,
+      "passes_no_new_interference_gate": true,
+      "after_positive_aabb_pairs": [
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_body_02",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_body_02",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              121.99974060058594,
+              115.99999666213989,
+              25.374929010868076
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -7.169893245697022,
+              0.0,
+              -0.06449250141978265
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.4399948120112924,
+                "positive_mm": 119.55974578857465,
+                "shared_material_chord_mm": 121.99974060058594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 8.468862807983609,
+                "positive_mm": 54.73198460098787,
+                "shared_material_chord_mm": 63.200847408971484
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5074985802173553,
+                "positive_mm": 8.149062437560033,
+                "shared_material_chord_mm": 8.656561017777388
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              115.99999666213989,
+              121.99974060058594,
+              25.374929010868076
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_yellow_lid_02",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_yellow_lid_02",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              131.99996948242188,
+              126.00000202655792,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 168,
+            "surface_crossing_count": 164,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              126.00000202655792,
+              131.99996948242188,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.008",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.008",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.009",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.009",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.010",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.010",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.011",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.011",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_12_2_1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_12_2_1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.99999791383744,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_12_2_-1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_12_2_-1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.000001639127731,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -7.026333332061768,
+              -0.021129844710230827,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.414357517705738,
+                "positive_mm": 2.414357517705738,
+                "shared_material_chord_mm": 4.828715035411476
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 2.559927532632794,
+                "positive_mm": 1.0000001639127731,
+                "shared_material_chord_mm": 3.559927696545567
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 7.180865002729011,
+                "shared_material_chord_mm": 7.500865055181095
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.000001639127731,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 55,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_body_03",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_body_03",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              121.99974060058594,
+              115.99999666213989,
+              25.374929010868076
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.239892940521241,
+              -0.04639999866485596,
+              -0.06449250141978265
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.4399948120112924,
+                "positive_mm": 119.55974578857465,
+                "shared_material_chord_mm": 121.99974060058594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 8.331985936131906,
+                "positive_mm": 19.949918158118344,
+                "shared_material_chord_mm": 28.28190409425025
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5074985802173554,
+                "positive_mm": 10.40150088441764,
+                "shared_material_chord_mm": 10.908999464634995
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              115.99999666213989,
+              121.99974060058594,
+              25.374929010868076
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_yellow_lid_03",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_yellow_lid_03",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              131.99996948242188,
+              126.00000202655792,
+              9.999997913837433
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.244693050384521,
+              -0.060480000972747805,
+              -0.03862507119774818
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 1.2690371610886297,
+                "positive_mm": 43.404452895610504,
+                "shared_material_chord_mm": 44.67349005669914
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 1.187052524139818,
+                "positive_mm": 3.837327763812444,
+                "shared_material_chord_mm": 5.024380287952262
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5860655526972882,
+                "positive_mm": 8.586064018104858,
+                "shared_material_chord_mm": 9.172129570802147
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              126.00000202655792,
+              131.99996948242188,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.012",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.012",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.013",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.013",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.014",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.014",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.015",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.015",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_17_2_1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_17_2_1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 23,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_17_2_-1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_17_2_-1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.00000536441803,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.031133441925049,
+              -0.11696364730596542,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 0.20000457763647003,
+                "positive_mm": 9.80022430419947,
+                "shared_material_chord_mm": 10.00022888183594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 0.48288613353962384,
+                "positive_mm": 0.4828861335396236,
+                "shared_material_chord_mm": 0.9657722670792475
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 6.849320906055118,
+                "shared_material_chord_mm": 7.169320958507203
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.00000536441803,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 55,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        }
+      ],
+      "new_positive_or_uncleared_interference_pairs": [],
+      "remaining_after_positive_or_uncleared_pairs": [],
+      "tolerance_m": 1e-08,
+      "claim": "Supplied triangles only; inherited overlaps are reported and not certified away.",
+      "pass": true
+    },
+    {
+      "scene": "21_PLAN_ROUTE_NOMINAL_FIT",
+      "base_scene_mesh_count": 1934,
+      "source_replacement_removed_count": 323,
+      "source_replacement_added_count": 326,
+      "effective_before_count": 1937,
+      "fit_removed_count": 18,
+      "fit_added_count": 18,
+      "effective_after_count": 1937,
+      "all_18_remove_names_present": true,
+      "all_profile_remove_names_present": true,
+      "source_pending_new_names_not_duplicated": true,
+      "passes_no_new_interference_gate": true,
+      "after_positive_aabb_pairs": [
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_body_02",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_body_02",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              121.99974060058594,
+              115.99999666213989,
+              25.374929010868076
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -7.169893245697022,
+              0.0,
+              -0.06449250141978265
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.4399948120112924,
+                "positive_mm": 119.55974578857465,
+                "shared_material_chord_mm": 121.99974060058594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 8.468862807983609,
+                "positive_mm": 54.73198460098787,
+                "shared_material_chord_mm": 63.200847408971484
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5074985802173553,
+                "positive_mm": 8.149062437560033,
+                "shared_material_chord_mm": 8.656561017777388
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              115.99999666213989,
+              121.99974060058594,
+              25.374929010868076
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_yellow_lid_02",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_yellow_lid_02",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              131.99996948242188,
+              126.00000202655792,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 168,
+            "surface_crossing_count": 164,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              126.00000202655792,
+              131.99996948242188,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.008",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.008",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.009",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.009",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.010",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.010",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.011",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.011",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_12_2_1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_12_2_1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.99999791383744,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_12_2_-1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_12_2_-1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.000001639127731,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -7.026333332061768,
+              -0.021129844710230827,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.414357517705738,
+                "positive_mm": 2.414357517705738,
+                "shared_material_chord_mm": 4.828715035411476
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 2.559927532632794,
+                "positive_mm": 1.0000001639127731,
+                "shared_material_chord_mm": 3.559927696545567
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 7.180865002729011,
+                "shared_material_chord_mm": 7.500865055181095
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.000001639127731,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 55,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_body_03",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_body_03",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              121.99974060058594,
+              115.99999666213989,
+              25.374929010868076
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.239892940521241,
+              -0.04639999866485596,
+              -0.06449250141978265
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.4399948120112924,
+                "positive_mm": 119.55974578857465,
+                "shared_material_chord_mm": 121.99974060058594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 8.331985936131906,
+                "positive_mm": 19.949918158118344,
+                "shared_material_chord_mm": 28.28190409425025
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5074985802173554,
+                "positive_mm": 10.40150088441764,
+                "shared_material_chord_mm": 10.908999464634995
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              115.99999666213989,
+              121.99974060058594,
+              25.374929010868076
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_yellow_lid_03",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_yellow_lid_03",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              131.99996948242188,
+              126.00000202655792,
+              9.999997913837433
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.244693050384521,
+              -0.060480000972747805,
+              -0.03862507119774818
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 1.2690371610886297,
+                "positive_mm": 43.404452895610504,
+                "shared_material_chord_mm": 44.67349005669914
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 1.187052524139818,
+                "positive_mm": 3.837327763812444,
+                "shared_material_chord_mm": 5.024380287952262
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5860655526972882,
+                "positive_mm": 8.586064018104858,
+                "shared_material_chord_mm": 9.172129570802147
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              126.00000202655792,
+              131.99996948242188,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.012",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.012",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.013",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.013",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.014",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.014",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.015",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.015",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_17_2_1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_17_2_1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 23,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_17_2_-1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_17_2_-1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.00000536441803,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.031133441925049,
+              -0.11696364730596542,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 0.20000457763647003,
+                "positive_mm": 9.80022430419947,
+                "shared_material_chord_mm": 10.00022888183594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 0.48288613353962384,
+                "positive_mm": 0.4828861335396236,
+                "shared_material_chord_mm": 0.9657722670792475
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 6.849320906055118,
+                "shared_material_chord_mm": 7.169320958507203
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.00000536441803,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 55,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        }
+      ],
+      "new_positive_or_uncleared_interference_pairs": [],
+      "remaining_after_positive_or_uncleared_pairs": [],
+      "tolerance_m": 1e-08,
+      "claim": "Supplied triangles only; inherited overlaps are reported and not certified away.",
+      "pass": true
+    },
+    {
+      "scene": "22_FRONT_ROUTE_HOLES_6P2",
+      "base_scene_mesh_count": 1933,
+      "source_replacement_removed_count": 323,
+      "source_replacement_added_count": 326,
+      "effective_before_count": 1936,
+      "fit_removed_count": 18,
+      "fit_added_count": 18,
+      "effective_after_count": 1936,
+      "all_18_remove_names_present": true,
+      "all_profile_remove_names_present": true,
+      "source_pending_new_names_not_duplicated": true,
+      "passes_no_new_interference_gate": true,
+      "after_positive_aabb_pairs": [
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_body_02",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_body_02",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              121.99974060058594,
+              115.99999666213989,
+              25.374929010868076
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -7.169893245697022,
+              0.0,
+              -0.06449250141978265
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.4399948120112924,
+                "positive_mm": 119.55974578857465,
+                "shared_material_chord_mm": 121.99974060058594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 8.468862807983609,
+                "positive_mm": 54.73198460098787,
+                "shared_material_chord_mm": 63.200847408971484
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5074985802173553,
+                "positive_mm": 8.149062437560033,
+                "shared_material_chord_mm": 8.656561017777388
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              115.99999666213989,
+              121.99974060058594,
+              25.374929010868076
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_yellow_lid_02",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_yellow_lid_02",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              131.99996948242188,
+              126.00000202655792,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 168,
+            "surface_crossing_count": 164,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              126.00000202655792,
+              131.99996948242188,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.008",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.008",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.009",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.009",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.010",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.010",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.011",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.011",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_12_2_1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_12_2_1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.99999791383744,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_12_2_-1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_12_2_-1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.000001639127731,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -7.026333332061768,
+              -0.021129844710230827,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.414357517705738,
+                "positive_mm": 2.414357517705738,
+                "shared_material_chord_mm": 4.828715035411476
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 2.559927532632794,
+                "positive_mm": 1.0000001639127731,
+                "shared_material_chord_mm": 3.559927696545567
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 7.180865002729011,
+                "shared_material_chord_mm": 7.500865055181095
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.000001639127731,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 55,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_body_03",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_body_03",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              121.99974060058594,
+              115.99999666213989,
+              25.374929010868076
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.239892940521241,
+              -0.04639999866485596,
+              -0.06449250141978265
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.4399948120112924,
+                "positive_mm": 119.55974578857465,
+                "shared_material_chord_mm": 121.99974060058594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 8.331985936131906,
+                "positive_mm": 19.949918158118344,
+                "shared_material_chord_mm": 28.28190409425025
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5074985802173554,
+                "positive_mm": 10.40150088441764,
+                "shared_material_chord_mm": 10.908999464634995
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              115.99999666213989,
+              121.99974060058594,
+              25.374929010868076
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_yellow_lid_03",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_yellow_lid_03",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              131.99996948242188,
+              126.00000202655792,
+              9.999997913837433
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.244693050384521,
+              -0.060480000972747805,
+              -0.03862507119774818
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 1.2690371610886297,
+                "positive_mm": 43.404452895610504,
+                "shared_material_chord_mm": 44.67349005669914
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 1.187052524139818,
+                "positive_mm": 3.837327763812444,
+                "shared_material_chord_mm": 5.024380287952262
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5860655526972882,
+                "positive_mm": 8.586064018104858,
+                "shared_material_chord_mm": 9.172129570802147
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              126.00000202655792,
+              131.99996948242188,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.012",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.012",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.013",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.013",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.014",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.014",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.015",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.015",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_17_2_1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_17_2_1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 23,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_17_2_-1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_17_2_-1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.00000536441803,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.031133441925049,
+              -0.11696364730596542,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 0.20000457763647003,
+                "positive_mm": 9.80022430419947,
+                "shared_material_chord_mm": 10.00022888183594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 0.48288613353962384,
+                "positive_mm": 0.4828861335396236,
+                "shared_material_chord_mm": 0.9657722670792475
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 6.849320906055118,
+                "shared_material_chord_mm": 7.169320958507203
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.00000536441803,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 55,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        }
+      ],
+      "new_positive_or_uncleared_interference_pairs": [],
+      "remaining_after_positive_or_uncleared_pairs": [],
+      "tolerance_m": 1e-08,
+      "claim": "Supplied triangles only; inherited overlaps are reported and not certified away.",
+      "pass": true
+    },
+    {
+      "scene": "23_FRONT_ROUTE_UNCUT_SLOT_REVIEW",
+      "base_scene_mesh_count": 1933,
+      "source_replacement_removed_count": 323,
+      "source_replacement_added_count": 326,
+      "effective_before_count": 1936,
+      "fit_removed_count": 18,
+      "fit_added_count": 18,
+      "effective_after_count": 1936,
+      "all_18_remove_names_present": true,
+      "all_profile_remove_names_present": true,
+      "source_pending_new_names_not_duplicated": true,
+      "passes_no_new_interference_gate": true,
+      "after_positive_aabb_pairs": [
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_body_02",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_body_02",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              121.99974060058594,
+              115.99999666213989,
+              25.374929010868076
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -7.169893245697022,
+              0.0,
+              -0.06449250141978265
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.4399948120112924,
+                "positive_mm": 119.55974578857465,
+                "shared_material_chord_mm": 121.99974060058594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 8.468862807983609,
+                "positive_mm": 54.73198460098787,
+                "shared_material_chord_mm": 63.200847408971484
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5074985802173553,
+                "positive_mm": 8.149062437560033,
+                "shared_material_chord_mm": 8.656561017777388
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              115.99999666213989,
+              121.99974060058594,
+              25.374929010868076
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_yellow_lid_02",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_yellow_lid_02",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              131.99996948242188,
+              126.00000202655792,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 168,
+            "surface_crossing_count": 164,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              126.00000202655792,
+              131.99996948242188,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.008",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.008",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.009",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.009",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.010",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.010",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_02_lid_screw.011",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.011",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_12_2_1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_12_2_1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.99999791383744,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_12_2_-1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_12_2_-1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.000001639127731,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -7.026333332061768,
+              -0.021129844710230827,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.414357517705738,
+                "positive_mm": 2.414357517705738,
+                "shared_material_chord_mm": 4.828715035411476
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 2.559927532632794,
+                "positive_mm": 1.0000001639127731,
+                "shared_material_chord_mm": 3.559927696545567
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 7.180865002729011,
+                "shared_material_chord_mm": 7.500865055181095
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.000001639127731,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 55,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_body_03",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_body_03",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              121.99974060058594,
+              115.99999666213989,
+              25.374929010868076
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.239892940521241,
+              -0.04639999866485596,
+              -0.06449250141978265
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.4399948120112924,
+                "positive_mm": 119.55974578857465,
+                "shared_material_chord_mm": 121.99974060058594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 8.331985936131906,
+                "positive_mm": 19.949918158118344,
+                "shared_material_chord_mm": 28.28190409425025
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5074985802173554,
+                "positive_mm": 10.40150088441764,
+                "shared_material_chord_mm": 10.908999464634995
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              115.99999666213989,
+              121.99974060058594,
+              25.374929010868076
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_yellow_lid_03",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_yellow_lid_03",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              131.99996948242188,
+              126.00000202655792,
+              9.999997913837433
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.244693050384521,
+              -0.060480000972747805,
+              -0.03862507119774818
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 1.2690371610886297,
+                "positive_mm": 43.404452895610504,
+                "shared_material_chord_mm": 44.67349005669914
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 1.187052524139818,
+                "positive_mm": 3.837327763812444,
+                "shared_material_chord_mm": 5.024380287952262
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5860655526972882,
+                "positive_mm": 8.586064018104858,
+                "shared_material_chord_mm": 9.172129570802147
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              126.00000202655792,
+              131.99996948242188,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.012",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.012",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.013",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.013",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.014",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.014",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_03_lid_screw.015",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|ENV_balise_lid_screw.015",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              5.99999725818634,
+              5.999565124511719,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_17_2_1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_17_2_1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 23,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        },
+        {
+          "pair": "CAD_TRACK_REV_inner_right_native_xy|FIT_BALISE_SOURCE_branch_fastener_17_2_-1",
+          "before_pair": "CAD_TRACK_REV_inner_right_native_xy|DETAIL_BENCH_branch_fastener_17_2_-1",
+          "before": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.00000536441803,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.031133441925049,
+              -0.11696364730596542,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 0.20000457763647003,
+                "positive_mm": 9.80022430419947,
+                "shared_material_chord_mm": 10.00022888183594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 0.48288613353962384,
+                "positive_mm": 0.4828861335396236,
+                "shared_material_chord_mm": 0.9657722670792475
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 6.849320906055118,
+                "shared_material_chord_mm": 7.169320958507203
+              }
+            ]
+          },
+          "after": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.00000536441803,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 55,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED"
+          },
+          "new_positive_or_uncleared_interference": false
+        }
+      ],
+      "new_positive_or_uncleared_interference_pairs": [],
+      "remaining_after_positive_or_uncleared_pairs": [],
+      "tolerance_m": 1e-08,
+      "claim": "Supplied triangles only; inherited overlaps are reported and not certified away.",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "global_claim": "No new positive or uncleared interference for these changed meshes against each complete effective main resource. Existing source proxy interference remains separately reported. This is not certification of the whole scene.",
+  "selection": "Base GLB + extras, exact catalog scene, active source replacements, then atomic fit profiles. Other pending old chair/clip objects remain unchanged; no full298 double application."
+}

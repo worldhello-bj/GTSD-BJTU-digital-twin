@@ -1,0 +1,18 @@
+test_actual_mesh_transforms_and_unchanged_shape (__main__.ArtifactTests.test_actual_mesh_transforms_and_unchanged_shape) ... ok
+test_atomic_18_for_18_and_no_external_source_modification (__main__.ArtifactTests.test_atomic_18_for_18_and_no_external_source_modification) ... ok
+test_clip_seating_uses_real_source_rail_and_retains_shape (__main__.ArtifactTests.test_clip_seating_uses_real_source_rail_and_retains_shape) ... ok
+test_current_main_five_scenes_and_atomic_resource_counts (__main__.ArtifactTests.test_current_main_five_scenes_and_atomic_resource_counts) ... ok
+test_disallowed_z_lift_and_unsafe_lateral_offset_rejected (__main__.ArtifactTests.test_disallowed_z_lift_and_unsafe_lateral_offset_rejected) ... ok
+test_invalid_unrotated_body_fails_parameter_gate (__main__.ArtifactTests.test_invalid_unrotated_body_fails_parameter_gate) ... ok
+test_three_original_internal_witnesses_and_full_scene_gate (__main__.ArtifactTests.test_three_original_internal_witnesses_and_full_scene_gate) ... ok
+test_containment_is_detected (__main__.GeometryTests.test_containment_is_detected) ... ok
+test_cross_profile_interference_is_not_hidden (__main__.GeometryTests.test_cross_profile_interference_is_not_hidden) ... ok
+test_exact_contact_is_not_material_penetration (__main__.GeometryTests.test_exact_contact_is_not_material_penetration) ... ok
+test_mesh_proof_when_aabb_overlaps (__main__.GeometryTests.test_mesh_proof_when_aabb_overlaps) ... ok
+test_split_predecessor_does_not_excuse_new_overlap (__main__.GeometryTests.test_split_predecessor_does_not_excuse_new_overlap) ... ok
+test_triangle_overlap_and_ray_chord (__main__.GeometryTests.test_triangle_overlap_and_ray_chord) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 3.546s
+
+OK

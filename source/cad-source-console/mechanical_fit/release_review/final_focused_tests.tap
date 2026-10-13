@@ -1,0 +1,23 @@
+✔ explicit fit selection changes geometry, never issues native commands; original is recoverable (26.013613ms)
+✔ invalid candidate payload retains the current verified scene (4.370384ms)
+✔ candidate geometry remains static even when existing verified bodies follow (8.573788ms)
+✔ same-name alternatives show metadata from the selected geometry, not another profile (5.225002ms)
+✔ live classification counts the actual static candidate instead of its removed world mesh (3.427484ms)
+✔ real public mesh identities admit every declared profile and preserve unrelated geometry (1029.184126ms)
+✔ finite rail review keeps every source curve when highlighting either route (2.352597ms)
+✔ default is exact source; opt-in replaces atomic group without physics (2.258526ms)
+✔ geometry, mass, collision and source identities fail closed (1.11011ms)
+✔ partial scope never applies only half of an assembly group (1.149649ms)
+✔ validated candidate arrays cannot be mutated after preparation (0.304916ms)
+✔ scene admission rejects unreviewed assembly variants (0.371486ms)
+✔ a native moving body cannot silently become an unbound fit mesh (0.42154ms)
+✔ metadata scrub preserves source handles without producer paths (2.636241ms)
+✔ later reviewed frame or coil bindings cannot be removed as old unbound meshes (0.356473ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1179.645531

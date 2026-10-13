@@ -1,0 +1,374 @@
+{
+  "schema": "gtsd-fit-solver-separation-audit-v1",
+  "ok": true,
+  "candidate_display_meshes_by_profile": {
+    "track_support": 9,
+    "track_support_flat": 9,
+    "balise": 18,
+    "clamps": 6,
+    "clamps_messenger": 7,
+    "clamps_b535_review": 4,
+    "combined": 33
+  },
+  "new_mass_kg": 0,
+  "new_collision": false,
+  "solver_files_sha256": {
+    "pantograph/candidate/candidate.xml": "936cac0106e807a3eefc8cf04f08e628f6f7fbccc6793df9604df1a26fd0fd07",
+    "pantograph/candidate/candidate_binding.json": "b63e74f273b6a2e5000764a9cb617e83141124cd740a355a010fccb6fa3056f0",
+    "baseline_console/GTSD_Assembly_Console/app/data/mapping_bundle.json": "4f55aa9e56d6b9c04936c5a1162993e6f5bf2d2eaf3fcf7cc30c4beae5bbdeea",
+    "frame_track/registration.js": "29c9494243b91cbe2eaa74dad2e25f1eef5284ffe55473d9ccf8b087529c85b8",
+    "frame_track/bogie_registration.js": "2f9e1ce04f5c05753df1ae4d13625fe6212af2f48a99a6e17aed777a2ec54381",
+    "integration/plant.py": "376d9766d218d28cedbfa54dd09d0c4e695a587f486c7a28e439ab6d78a97acc",
+    "integration/seat_plant.py": "1c529289c2f9ab83c30a672c09ad0b9488f78abaafaf32b6fe7f559f217f8b66"
+  },
+  "existing_pantograph_research": {
+    "joints": [
+      {
+        "name": "cad_panto_lower_hinge",
+        "type": "hinge",
+        "axis": "0 1 0"
+      },
+      {
+        "name": "cad_panto_upper_hinge",
+        "type": "hinge",
+        "axis": "0 1 0"
+      },
+      {
+        "name": "cad_panto_lower_tie_hinge",
+        "type": "hinge",
+        "axis": "0 1 0"
+      },
+      {
+        "name": "cad_panto_head_rocker_hinge",
+        "type": "hinge",
+        "axis": "0 1 0"
+      },
+      {
+        "name": "cad_panto_upper_tie_hinge",
+        "type": "hinge",
+        "axis": "0 1 0"
+      }
+    ],
+    "joint_travel_limits": "UNSPECIFIED_NOT_HARDWARE_VALIDATED",
+    "gravity_m_s2": [
+      0,
+      0,
+      0
+    ],
+    "timestep_s": 0.0002,
+    "motor_control_range_Nm": [
+      -0.1,
+      0.1
+    ],
+    "inertials": {
+      "cad_panto_lower": {
+        "test_mass_kg": 1.0,
+        "evidence": "ARBITRARY_POSITIVE_UNIT_TEST_MASS_NOT_PHYSICAL_ESTIMATE",
+        "inertia_method": "UNIFORM_AABB_EQUIVALENT_NOT_MESH_DENSITY",
+        "com_world_m": [
+          0.16776756942272186,
+          -0.004750000312924385,
+          1.0878864526748657
+        ],
+        "diaginertia_kg_m2": [
+          0.00040885353119490006,
+          0.06236855913784237,
+          0.062454747317168255
+        ],
+        "source_meshes": [
+          "G_support_bracket",
+          "lower_A_bushing",
+          "lower_B_bushing",
+          "lower_arm_source_capsule"
+        ]
+      },
+      "cad_panto_upper": {
+        "test_mass_kg": 1.0,
+        "evidence": "ARBITRARY_POSITIVE_UNIT_TEST_MASS_NOT_PHYSICAL_ESTIMATE",
+        "inertia_method": "UNIFORM_AABB_EQUIVALENT_NOT_MESH_DENSITY",
+        "com_world_m": [
+          0.08192892372608185,
+          -7.450580596923828e-09,
+          1.1032702922821045
+        ],
+        "diaginertia_kg_m2": [
+          0.008738037581106231,
+          0.11394586648427332,
+          0.12040849567783737
+        ],
+        "source_meshes": [
+          "CAD6A54_upper_H_eye_far",
+          "CAD6A54_upper_H_eye_near",
+          "CAD6A54_upper_fork_candidate",
+          "CAD6A54_upper_main_plan_priority",
+          "upper_elbow_B_plate",
+          "upper_elbow_C_plate"
+        ]
+      },
+      "cad_panto_lower_tie": {
+        "test_mass_kg": 1.0,
+        "evidence": "ARBITRARY_POSITIVE_UNIT_TEST_MASS_NOT_PHYSICAL_ESTIMATE",
+        "inertia_method": "UNIFORM_AABB_EQUIVALENT_NOT_MESH_DENSITY",
+        "com_world_m": [
+          0.34269612934440374,
+          1.862645149230957e-09,
+          1.0423384308815002
+        ],
+        "diaginertia_kg_m2": [
+          0.0001776406638276766,
+          0.03354598501999706,
+          0.033401011033545015
+        ],
+        "source_meshes": [
+          "lower_tie_C_eye",
+          "lower_tie_D_eye",
+          "lower_tie_lock_29FF",
+          "lower_tie_lock_2A02",
+          "lower_tie_shaft",
+          "lower_tie_stem_candidate"
+        ]
+      },
+      "cad_panto_head_rocker": {
+        "test_mass_kg": 1.0,
+        "evidence": "ARBITRARY_POSITIVE_UNIT_TEST_MASS_NOT_PHYSICAL_ESTIMATE",
+        "inertia_method": "UNIFORM_AABB_EQUIVALENT_NOT_MESH_DENSITY",
+        "com_world_m": [
+          -0.4973154664039612,
+          -0.026000001467764378,
+          1.1106930375099182
+        ],
+        "diaginertia_kg_m2": [
+          0.0005932597867801308,
+          0.0006899873366729518,
+          0.00010739422502334885
+        ],
+        "source_meshes": [
+          "head_three_eye_rocker"
+        ]
+      },
+      "cad_panto_upper_tie": {
+        "test_mass_kg": 1.0,
+        "evidence": "ARBITRARY_POSITIVE_UNIT_TEST_MASS_NOT_PHYSICAL_ESTIMATE",
+        "inertia_method": "UNIFORM_AABB_EQUIVALENT_NOT_MESH_DENSITY",
+        "com_world_m": [
+          0.02022656798362732,
+          -0.03799999877810478,
+          1.082290232181549
+        ],
+        "diaginertia_kg_m2": [
+          6.012504436251712e-05,
+          0.09459017904299719,
+          0.0945360540825583
+        ],
+        "source_meshes": [
+          "upper_long_tie_shaft",
+          "upper_tie_F_eye",
+          "upper_tie_G_eye"
+        ]
+      }
+    },
+    "old_reference_geometry_comparison": {
+      "old_model_status": "OPEN_SERIAL_EQUIVALENT_WITH_UNMODELED_RODS_AND_E_AXIS",
+      "old_body_names": [
+        "panto_base",
+        "panto_lower",
+        "panto_upper",
+        "panto_head_carriage",
+        "panto_head_float",
+        "panto_wire"
+      ],
+      "old_reference_poses": {
+        "panto_base": {
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "quaternion": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "panto_lower": {
+          "position": [
+            -0.242231787197227,
+            0.0,
+            1.0878864516453508
+          ],
+          "quaternion": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "panto_upper": {
+          "position": [
+            0.574847989877525,
+            0.0,
+            1.3113737712454179
+          ],
+          "quaternion": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "panto_head_carriage": {
+          "position": [
+            -0.48885046642607777,
+            0.0,
+            1.4983111780353182
+          ],
+          "quaternion": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "panto_head_float": {
+          "position": [
+            -0.48885046642607777,
+            0.0,
+            1.4983111780353182
+          ],
+          "quaternion": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "panto_wire": {
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "quaternion": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "old_geometry": {
+        "A": [
+          -0.242231787197227,
+          0.0,
+          1.0878864516453508
+        ],
+        "E": [
+          0.559847989877525,
+          0.0,
+          1.258373771245418
+        ],
+        "U": [
+          0.5748479898775251,
+          0.0,
+          1.3113737712454179
+        ],
+        "H": [
+          -0.48885046642607766,
+          0.0,
+          1.4983111780353182
+        ],
+        "lower_length_m": 0.819998716423812,
+        "lower_length_evidence": "CAD_2D_GEOMETRY_CANDIDATE_NOT_MEASURED_LINK_IDENTITY",
+        "upper_length_m": 1.08,
+        "upper_length_evidence": "PHOTO_INFERRED_GEOMETRY",
+        "reference_lower_angle_rad": 0.20943951023931956,
+        "reference_upper_angle_rad": 0.17396635943805094,
+        "wire_z_m": 1.5688111780353182,
+        "wire_x_bounds_m": [
+          -9.046212196350098,
+          0.9011430740356445
+        ]
+      },
+      "new_source_lower_AB_length_m": 0.8199987157037677,
+      "new_source_upper_UH_length_m": 1.0919992488977002,
+      "old_lower_angle_deg": 12.000000000000002,
+      "new_lower_angle_deg": 0.0,
+      "new_upper_angle_deg": -2.3300782923974152e-14,
+      "new_U_minus_old_U_m": [
+        0.027337557474312102,
+        0.0,
+        -0.16868066888564237
+      ],
+      "new_H_minus_old_H_m": [
+        -0.0009632351197854105,
+        0.0,
+        -0.35561807567554315
+      ],
+      "new_E_minus_old_head_H_m": [
+        -0.01296324199610066,
+        0.0,
+        -0.3766180639919259
+      ],
+      "labels_are_not_equivalent": "Old E is lower-arm tip; new E is head rocker/suspension axis. New B is lower-arm tip. Never map by letter alone.",
+      "old_masses_kg": {
+        "lower_mass_kg": {
+          "value": 1.5,
+          "exploration_range_not_calibration": [
+            0.3,
+            5
+          ],
+          "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+          "note": "Whole lower assembly lumped at arm midpoint; not inferred from mesh volume."
+        },
+        "upper_mass_kg": {
+          "value": 1.2,
+          "exploration_range_not_calibration": [
+            0.2,
+            4
+          ],
+          "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+          "note": "Upper beam and fork lumped at centerline midpoint."
+        },
+        "head_carriage_mass_kg": {
+          "value": 0.2,
+          "exploration_range_not_calibration": [
+            0.05,
+            1
+          ],
+          "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+          "note": "Stationary portion of assumed head guide assembly."
+        },
+        "head_float_mass_kg": {
+          "value": 0.4,
+          "exploration_range_not_calibration": [
+            0.1,
+            2
+          ],
+          "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+          "note": "Collector, carbon strips, carriers and assumed floating pins/yokes."
+        }
+      },
+      "old_mass_transfer_allowed": false,
+      "old_motion_transfer_allowed": false,
+      "old_collision_transfer_allowed": false,
+      "old_unmodeled": [
+        "Physical E-axis motion relative to lower arm; E->U carrier is provisionally rigid with lower arm.",
+        "Both slender adjustable rods: 3D ball centers, hinge attachment ownership and mechanical closure.",
+        "Air bellows effective area, pressure chamber, hysteresis, force path, air circuit and deformation.",
+        "B32 black barrel linkage, bore, stroke, piston side, seals, friction and function.",
+        "Rigid head linkage leveling/synchronization; no ideal parallelogram or algebraic fold relation is imposed.",
+        "Actual head guide internals and which guide pieces translate; present split is a declared equivalent.",
+        "Wire tension, sag, transverse dynamics, droppers and speed-dependent catenary effects; wire is fixed here.",
+        "Carbon wear, elasticity, arcing, electric current and copper braid flexibility.",
+        "Physical masses, inertia tensors, damping, springs and true motion stops; all dynamics are uncalibrated.",
+        "Arm-roof, link-link and cover collisions; only collector/wire and numerical joint stops are solved."
+      ]
+    },
+    "reference_geometry_moved": false,
+    "C_pin_axis_source_mismatch_m": 5.871665669202781e-06,
+    "C_axis": "outer plate; not the tie-axis static circle study",
+    "D_relation": "equality closure, not a measured bearing joint"
+  },
+  "scope": "Contract consistency only. No new hardware fit, full motion-envelope, contact or load validation."
+}

@@ -1,0 +1,2662 @@
+{
+  "schema": "gtsd-track-support-rebuild-inputs-v1",
+  "source_dxf_sha256": "73f9eeb145cfbda5f01d1302d3e6e09d2d81e707ff7776187d899100f654f143",
+  "poses_from_source_native_intersections": {
+    "DETAIL_BENCH_branch_chair_03_1": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.026364949727032183
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0037663994506600407
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_handles": [
+        "4ED3A",
+        "4ECFE",
+        "4ED00"
+      ],
+      "source_anchor_world_XY_m": [
+        -8.79996809623244,
+        0.23458672630035848
+      ]
+    },
+    "ENV_rail_chair.007": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.028094003510220844
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -9.377756238215795e-09
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_handles": [
+        "4ED3A",
+        "4ED16",
+        "4ED18"
+      ],
+      "source_anchor_world_XY_m": [
+        -8.798239042449252,
+        0.2589166666667079
+      ]
+    },
+    "DETAIL_BENCH_crossing_support_plate": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_handles": [
+        "4ECFE",
+        "4ED00",
+        "4ECFA",
+        "4ECFC"
+      ],
+      "source_anchor_world_XY_m": null
+    },
+    "ENV_rail_chair.009": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.021915128303845677
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -9.377756349238098e-09
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_handles": [
+        "4ED32",
+        "4ED33",
+        "4ED16",
+        "4ED18"
+      ],
+      "source_anchor_world_XY_m": [
+        -8.60441810839049,
+        0.25891666666670776
+      ]
+    },
+    "DETAIL_BENCH_branch_chair_23_2": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.06933347695520187
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.002648758369967308
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_handles": [
+        "4ED43",
+        "4ECFA",
+        "4ECF1",
+        "4ECF5",
+        "4ED5F",
+        "4ECFC",
+        "4ECF3",
+        "4ECF7",
+        "4ED60",
+        "4ECFB",
+        "4ECF2",
+        "4ECF6",
+        "4ECFD",
+        "4ECF4",
+        "4ECF8"
+      ],
+      "source_anchor_world_XY_m": [
+        -4.8956665229146745,
+        -0.16435912497667965
+      ]
+    },
+    "ENV_rail_chair.046": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.06933347695520187
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          9.377807141941474e-09
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_handles": [
+        "4ED43",
+        "4ED12",
+        "4ED14"
+      ],
+      "source_anchor_world_XY_m": [
+        -4.8956665229146745,
+        -0.25891666666665697
+      ]
+    },
+    "DETAIL_BENCH_branch_chair_01_0": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.07942036997635427
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.011345540613869276
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_handles": [
+        "4ED3F",
+        "4ED20",
+        "4ED24",
+        "4ED28",
+        "4ED22",
+        "4ED26",
+        "4ED2A",
+        "4ED21",
+        "4ED25",
+        "4ED29",
+        "4ED23",
+        "4ED27",
+        "4ED2B"
+      ],
+      "source_anchor_world_XY_m": [
+        -9.146913248187708,
+        0.8072402128269877
+      ]
+    },
+    "DETAIL_BENCH_branch_fastener_01_0_-1": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.07942036997635427
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.011345540613869276
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_handles": [
+        "4ED3F",
+        "4ED20",
+        "4ED24",
+        "4ED28",
+        "4ED22",
+        "4ED26",
+        "4ED2A",
+        "4ED21",
+        "4ED25",
+        "4ED29",
+        "4ED23",
+        "4ED27",
+        "4ED2B"
+      ],
+      "source_anchor_world_XY_m": [
+        -9.146913248187708,
+        0.8072402128269877
+      ]
+    },
+    "DETAIL_BENCH_branch_fastener_01_0_1": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.07942036997635427
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.011345540613869276
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_handles": [
+        "4ED3F",
+        "4ED20",
+        "4ED24",
+        "4ED28",
+        "4ED22",
+        "4ED26",
+        "4ED2A",
+        "4ED21",
+        "4ED25",
+        "4ED29",
+        "4ED23",
+        "4ED27",
+        "4ED2B"
+      ],
+      "source_anchor_world_XY_m": [
+        -9.146913248187708,
+        0.8072402128269877
+      ]
+    },
+    "DETAIL_BENCH_branch_fastener_03_1_-1": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.026364949727032183
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0037663994506600407
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_handles": [
+        "4ED3A",
+        "4ECFE",
+        "4ED00"
+      ],
+      "source_anchor_world_XY_m": [
+        -8.79996809623244,
+        0.23458672630035848
+      ]
+    },
+    "DETAIL_BENCH_branch_fastener_03_1_1": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.026364949727032183
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0037663994506600407
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_handles": [
+        "4ED3A",
+        "4ECFE",
+        "4ED00"
+      ],
+      "source_anchor_world_XY_m": [
+        -8.79996809623244,
+        0.23458672630035848
+      ]
+    },
+    "DETAIL_BENCH_branch_fastener_23_2_-1": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.06933347695520187
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.002648758369967308
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_handles": [
+        "4ED43",
+        "4ECFA",
+        "4ECF1",
+        "4ECF5",
+        "4ED5F",
+        "4ECFC",
+        "4ECF3",
+        "4ECF7",
+        "4ED60",
+        "4ECFB",
+        "4ECF2",
+        "4ECF6",
+        "4ECFD",
+        "4ECF4",
+        "4ECF8"
+      ],
+      "source_anchor_world_XY_m": [
+        -4.8956665229146745,
+        -0.16435912497667965
+      ]
+    },
+    "DETAIL_BENCH_branch_fastener_23_2_1": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.06933347695520187
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.002648758369967308
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_handles": [
+        "4ED43",
+        "4ECFA",
+        "4ECF1",
+        "4ECF5",
+        "4ED5F",
+        "4ECFC",
+        "4ECF3",
+        "4ECF7",
+        "4ED60",
+        "4ECFB",
+        "4ECF2",
+        "4ECF6",
+        "4ECFD",
+        "4ECF4",
+        "4ECF8"
+      ],
+      "source_anchor_world_XY_m": [
+        -4.8956665229146745,
+        -0.16435912497667965
+      ]
+    }
+  },
+  "branch_tangents_world_XY": {
+    "DETAIL_BENCH_branch_chair_01_0": [
+      0.9899497462971045,
+      -0.14141958777445995
+    ],
+    "DETAIL_BENCH_branch_chair_23_2": [
+      0.9980672099903913,
+      -0.06214373936283665
+    ]
+  },
+  "station03_lower_offset_tangent": [
+    0.9899494936611665,
+    -0.1414213562373095
+  ],
+  "station03_lower_offset_tangent_basis": "Declared source-line-compatible 7:-1 fastening design direction; rail and sleeper axes are not changed.",
+  "parameters": {
+    "support_mode": "conforming_hull",
+    "pitch_mm": 16,
+    "normal_offset_mm": 42.5,
+    "outer_bolt_land_edge_allowance_mm": 1.0
+  },
+  "shared_support_constituents": {
+    "station03": [
+      "DETAIL_BENCH_branch_chair_03_1",
+      "ENV_rail_chair.007",
+      "DETAIL_BENCH_crossing_support_plate",
+      "ENV_rail_chair.009"
+    ],
+    "station23": [
+      "DETAIL_BENCH_branch_chair_23_2",
+      "ENV_rail_chair.046"
+    ]
+  },
+  "groups": {
+    "DETAIL_BENCH_branch_chair_01_0": [
+      "DETAIL_BENCH_branch_chair_01_0",
+      "DETAIL_BENCH_branch_fastener_01_0_-1",
+      "DETAIL_BENCH_branch_fastener_01_0_1"
+    ],
+    "DETAIL_BENCH_branch_chair_03_1": [
+      "DETAIL_BENCH_branch_chair_03_1",
+      "DETAIL_BENCH_branch_fastener_03_1_-1",
+      "DETAIL_BENCH_branch_fastener_03_1_1"
+    ],
+    "ENV_rail_chair.007": [
+      "ENV_rail_chair.007"
+    ],
+    "DETAIL_BENCH_branch_chair_23_2": [
+      "DETAIL_BENCH_branch_chair_23_2",
+      "DETAIL_BENCH_branch_fastener_23_2_-1",
+      "DETAIL_BENCH_branch_fastener_23_2_1"
+    ],
+    "ENV_rail_chair.046": [
+      "ENV_rail_chair.046"
+    ]
+  },
+  "profile_metadata_templates_without_geometry": {
+    "conforming_hull": {
+      "schema": "gtsd-fit-profile-v1",
+      "id": "track_support_conforming_hull",
+      "label_zh": "轨道共用支承与扣头外置 · 顺形包络",
+      "default_enabled": false,
+      "engineering_candidate": true,
+      "physical_fit_certified": false,
+      "remove_names": [
+        "DETAIL_BENCH_branch_chair_03_1",
+        "ENV_rail_chair.007",
+        "DETAIL_BENCH_crossing_support_plate",
+        "CAD_TRACK_REV_photo_chair_009_source_station",
+        "DETAIL_BENCH_branch_chair_23_2",
+        "ENV_rail_chair.046",
+        "DETAIL_BENCH_branch_chair_01_0",
+        "DETAIL_BENCH_branch_fastener_01_0_-1",
+        "DETAIL_BENCH_branch_fastener_01_0_1",
+        "DETAIL_BENCH_branch_fastener_03_1_-1",
+        "DETAIL_BENCH_branch_fastener_03_1_1",
+        "DETAIL_BENCH_branch_fastener_23_2_-1",
+        "DETAIL_BENCH_branch_fastener_23_2_1"
+      ],
+      "add_meshes": [
+        {
+          "name": "FIT_TRACK_station03_common_support",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_chair_03_1",
+              "ENV_rail_chair.007",
+              "DETAIL_BENCH_crossing_support_plate",
+              "ENV_rail_chair.009"
+            ],
+            "bounds_m": [
+              [
+                -8.83846792838576,
+                0.10799999535083771,
+                -0.07199999690055847
+              ],
+              [
+                -8.496498107910156,
+                0.3880000114440918,
+                -0.06499999761581421
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "424211425eb18d688118de35ee9ca630794537d50272b376a5ef2daee50446d3",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 575812.0225318671,
+            "source_refs": [
+              "4ECFE",
+              "4ED00",
+              "4ED16",
+              "4ED18",
+              "4ED32",
+              "4ED33",
+              "4ED3A"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "installation_scheme": "One continuously manufactured common support replaces overlapping independent generic plates. It is not a Boolean hiding of two still-independent parts.",
+            "material_policy": "No existing source-position support volume is removed; the common convex envelope adds joining material.",
+            "support_mode": "conforming_hull",
+            "all_original_support_vertices_contained_max_error_mm": 1.7763568394002505e-12,
+            "original_independent_volume_sum_mm3": 561737.6309604761,
+            "source_anchors_world_XY_m": {
+              "DETAIL_BENCH_branch_chair_03_1": [
+                -8.79996809623244,
+                0.23458672630035848
+              ],
+              "ENV_rail_chair.007": [
+                -8.798239042449252,
+                0.2589166666667079
+              ],
+              "ENV_rail_chair.009": [
+                -8.60441810839049,
+                0.25891666666670776
+              ]
+            },
+            "still_required": [
+              "Confirm whether common baseplate or separate chairs were intended",
+              "Dimension fixing holes and fasteners",
+              "Verify material, bearing pressure and load path",
+              "Confirm clearance under wheel flange and service movement"
+            ],
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_station23_common_support",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_chair_23_2",
+              "ENV_rail_chair.046"
+            ],
+            "bounds_m": [
+              [
+                -4.934166355067995,
+                -0.30741666809716844,
+                -0.07199999690055847
+              ],
+              [
+                -4.857166690761354,
+                -0.11585912354616817,
+                -0.06499999761581421
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "109c02d0f471032344e8bee84d42250ab0e4161cb6ff09bae41f3b7b8c8b3ba4",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 102975.22670026847,
+            "source_refs": [
+              "4ECF1",
+              "4ECF2",
+              "4ECF3",
+              "4ECF4",
+              "4ECF5",
+              "4ECF6",
+              "4ECF7",
+              "4ECF8",
+              "4ECFA",
+              "4ECFB",
+              "4ECFC",
+              "4ECFD",
+              "4ED12",
+              "4ED14",
+              "4ED43",
+              "4ED5F",
+              "4ED60"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "installation_scheme": "One continuously manufactured common support replaces overlapping independent generic plates. It is not a Boolean hiding of two still-independent parts.",
+            "material_policy": "No existing source-position support volume is removed; the common convex envelope adds joining material.",
+            "support_mode": "conforming_hull",
+            "all_original_support_vertices_contained_max_error_mm": 8.881784197001252e-13,
+            "original_independent_volume_sum_mm3": 104206.95219223562,
+            "source_anchors_world_XY_m": {
+              "DETAIL_BENCH_branch_chair_23_2": [
+                -4.8956665229146745,
+                -0.16435912497667965
+              ],
+              "ENV_rail_chair.046": [
+                -4.8956665229146745,
+                -0.25891666666665697
+              ]
+            },
+            "still_required": [
+              "Confirm whether common baseplate or separate chairs were intended",
+              "Dimension fixing holes and fasteners",
+              "Verify material, bearing pressure and load path",
+              "Confirm clearance under wheel flange and service movement"
+            ],
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_station01_source_chair",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_chair_01_0"
+            ],
+            "bounds_m": [
+              [
+                -9.185413080341029,
+                0.7587402113964762,
+                -0.07199999690055847
+              ],
+              [
+                -9.108413416034388,
+                0.8564444289784386,
+                -0.06499999761581421
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "b4b3f21b47dd68b6ed32eff293271ca2f3eaa05cec01cdc2504ed0812fe81882",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 52318.62046508939,
+            "source_refs": [
+              "4ED20",
+              "4ED21",
+              "4ED22",
+              "4ED23",
+              "4ED24",
+              "4ED25",
+              "4ED26",
+              "4ED27",
+              "4ED28",
+              "4ED29",
+              "4ED2A",
+              "4ED2B",
+              "4ED3F"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "source_shape_exactly_retained": false,
+            "all_original_support_material_preserved": true,
+            "additive_bolt_land_edge_allowance_mm": 1.0,
+            "added_land_material_mm3": 215.1283877276585,
+            "design_reason": "An exterior mounting land supplies 1 mm projected edge allowance to both relocated 10 mm heads, while retaining the original chair material and original support Z datums. It is a proposed new common mounting plate, not as-built chair evidence.",
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_clip_01_0_-1",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_fastener_01_0_-1"
+            ],
+            "bounds_m": [
+              [
+                -9.153822628118588,
+                0.8454444385151818,
+                -0.06499999761581421
+              ],
+              [
+                -9.143822399236752,
+                0.8554444289784386,
+                -0.04899999499320984
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "642c48fca18478f9edfcb660c8eb3281d16653a3c2a38feb761a1dbdb6475a8e",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 1131.337361488578,
+            "source_refs": [
+              "4ED20",
+              "4ED21",
+              "4ED22",
+              "4ED23",
+              "4ED24",
+              "4ED25",
+              "4ED26",
+              "4ED27",
+              "4ED28",
+              "4ED29",
+              "4ED2A",
+              "4ED2B",
+              "4ED3F"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "source_shape_exactly_retained": true,
+            "source_pose_to_candidate_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.0019092654899619532
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.08420422950289141
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "old_baked_world_to_new_baked_world_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.07751110448639231
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.07285868888902214
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "fastening_scheme": "Both heads on the rail outer side, separated longitudinally; mounting topology is a design candidate, not a verified complete rail clamp.",
+            "dimension_constraints": {
+              "same_head_diameter_mm": 10.000228881835938,
+              "same_head_height_mm": 16.00000262260437,
+              "outer_normal_offset_mm": 42.5,
+              "longitudinal_pitch_mm": 16
+            },
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_clip_01_0_1",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_fastener_01_0_1"
+            ],
+            "bounds_m": [
+              [
+                -9.137983432177835,
+                0.8431817251107905,
+                -0.06499999761581421
+              ],
+              [
+                -9.127983203295999,
+                0.8531817155740473,
+                -0.04899999499320984
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "bdd1843721ac28cad018019b7e3d195d84601e0e70e4f976bc1441ef19da65da",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 1131.337361488578,
+            "source_refs": [
+              "4ED20",
+              "4ED21",
+              "4ED22",
+              "4ED23",
+              "4ED24",
+              "4ED25",
+              "4ED26",
+              "4ED27",
+              "4ED28",
+              "4ED29",
+              "4ED2A",
+              "4ED2B",
+              "4ED3F"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "source_shape_exactly_retained": true,
+            "source_pose_to_candidate_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.013929930450791161
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -5.850106763760632e-05
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "old_baked_world_to_new_baked_world_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.09335030042714543
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.011404041681506882
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "fastening_scheme": "Both heads on the rail outer side, separated longitudinally; mounting topology is a design candidate, not a verified complete rail clamp.",
+            "dimension_constraints": {
+              "same_head_diameter_mm": 10.000228881835938,
+              "same_head_height_mm": 16.00000262260437,
+              "outer_normal_offset_mm": 42.5,
+              "longitudinal_pitch_mm": 16
+            },
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_clip_03_1_-1",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_fastener_03_1_-1"
+            ],
+            "bounds_m": [
+              [
+                -8.810907907635325,
+                0.18800885233496106,
+                -0.06499999761581421
+              ],
+              [
+                -8.80090767875349,
+                0.1980088427982179,
+                -0.04899999499320984
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "02d50a8bd84e9ed8e535b6412c688894af1d82ee085281ebaf03b23cec09cd65",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 1131.3421299700808,
+            "source_refs": [
+              "4ECFE",
+              "4ED00",
+              "4ED3A"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "source_shape_exactly_retained": true,
+            "source_pose_to_candidate_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.005939696961966945
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.0005778776012807518
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "old_baked_world_to_new_baked_world_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.020425252765065238
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.0043442770519407925
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "fastening_scheme": "Two full-size heads on declared 42 mm exterior support-normal mounting offsets; station03 pair flanks the combined main/branch rail envelope",
+            "dimension_constraints": {},
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_clip_03_1_1",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_fastener_03_1_1"
+            ],
+            "bounds_m": [
+              [
+                -8.80323915689017,
+                0.29591667143507944,
+                -0.06499999761581421
+              ],
+              [
+                -8.793238928008334,
+                0.3059166618983363,
+                -0.04899999499320984
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "de3f88d014dd2f3a34f7c6aab0d3c8ef56dc21425dabe641de440ef5c99fea32",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 1131.3421299700808,
+            "source_refs": [
+              "4ECFE",
+              "4ED00",
+              "4ED3A"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "source_shape_exactly_retained": true,
+            "source_pose_to_candidate_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.001729053783188661
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.025329954135022315
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "old_baked_world_to_new_baked_world_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.028094003510220844
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.021563554684362274
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "fastening_scheme": "Two full-size heads on declared 42 mm exterior support-normal mounting offsets; station03 pair flanks the combined main/branch rail envelope",
+            "dimension_constraints": {},
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_clip_23_2_-1",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_fastener_23_2_-1"
+            ],
+            "bounds_m": [
+              [
+                -4.903276674408832,
+                -0.2112779430279045,
+                -0.06499999761581421
+              ],
+              [
+                -4.893276445526996,
+                -0.20127795256464767,
+                -0.04899999499320984
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "303021d1bb372f1e19e526fe813116156646cd8e38792ffd569be022d960620f",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 1131.4184238551395,
+            "source_refs": [
+              "4ECF1",
+              "4ECF2",
+              "4ECF3",
+              "4ECF4",
+              "4ECF5",
+              "4ECF6",
+              "4ECF7",
+              "4ECF8",
+              "4ECFA",
+              "4ECFB",
+              "4ECFC",
+              "4ECFD",
+              "4ED43",
+              "4ED5F",
+              "4ED60"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "source_shape_exactly_retained": true,
+            "source_pose_to_candidate_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.002610037053239367
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.0009188291376887869
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "old_baked_world_to_new_baked_world_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.07194351400844123
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.0035675875076560948
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "fastening_scheme": "Two full-size heads on declared 42 mm exterior support-normal mounting offsets; station03 pair flanks the combined main/branch rail envelope",
+            "dimension_constraints": {},
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_clip_23_2_1",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_fastener_23_2_1"
+            ],
+            "bounds_m": [
+              [
+                -4.898056600302353,
+                -0.12744030483929222,
+                -0.06499999761581421
+              ],
+              [
+                -4.888056371420517,
+                -0.1174402994748742,
+                -0.04899999499320984
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "7924d242c3b851de4b8efffc4277b24ffb81d026e1c6f9ab43a789cdc100dde0",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 1131.4180747228036,
+            "source_refs": [
+              "4ECF1",
+              "4ECF2",
+              "4ECF3",
+              "4ECF4",
+              "4ECF5",
+              "4ECF6",
+              "4ECF7",
+              "4ECF8",
+              "4ECFA",
+              "4ECFB",
+              "4ECFC",
+              "4ECFD",
+              "4ED43",
+              "4ED5F",
+              "4ED60"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "source_shape_exactly_retained": true,
+            "source_pose_to_candidate_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.002610037053239367
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.00091882168710819
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "old_baked_world_to_new_baked_world_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.0667234399019625
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.0017299366828591178
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "fastening_scheme": "Two full-size heads on declared 42 mm exterior support-normal mounting offsets; station03 pair flanks the combined main/branch rail envelope",
+            "dimension_constraints": {},
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        }
+      ],
+      "config": {
+        "support_mode": "conforming_hull",
+        "pitch_mm": 16,
+        "normal_offset_mm": 42.5,
+        "outer_bolt_land_edge_allowance_mm": 1.0
+      },
+      "requirements": {
+        "source_replacements_applied": true,
+        "source_replacements_sha256": "fe9e6c52f5a2381394e40372147c78946b6e50c019043d381730c7593df61a73",
+        "base_glb_sha256": "fff3f9fffd83e380435eba3a0f9ba975b87557b794d671ee175ea842235bbfa9",
+        "atomic": true,
+        "no_solver_changes": true,
+        "physics_collision_mass_unchanged": true
+      },
+      "source_baseline_remove_names": [
+        "DETAIL_BENCH_branch_chair_03_1",
+        "ENV_rail_chair.007",
+        "DETAIL_BENCH_crossing_support_plate",
+        "ENV_rail_chair.009",
+        "DETAIL_BENCH_branch_chair_23_2",
+        "ENV_rail_chair.046",
+        "DETAIL_BENCH_branch_chair_01_0",
+        "DETAIL_BENCH_branch_fastener_01_0_-1",
+        "DETAIL_BENCH_branch_fastener_01_0_1",
+        "DETAIL_BENCH_branch_fastener_03_1_-1",
+        "DETAIL_BENCH_branch_fastener_03_1_1",
+        "DETAIL_BENCH_branch_fastener_23_2_-1",
+        "DETAIL_BENCH_branch_fastener_23_2_1"
+      ],
+      "other_pose_aliases_not_active_in_this_profile": [
+        "CAD_TRACK_REV_branch_chair_01_0",
+        "CAD_TRACK_REV_branch_chair_03_1",
+        "CAD_TRACK_REV_branch_chair_23_2",
+        "CAD_TRACK_REV_branch_clip_01_0_-1",
+        "CAD_TRACK_REV_branch_clip_01_0_1",
+        "CAD_TRACK_REV_branch_clip_03_1_-1",
+        "CAD_TRACK_REV_branch_clip_03_1_1",
+        "CAD_TRACK_REV_branch_clip_23_2_-1",
+        "CAD_TRACK_REV_branch_clip_23_2_1",
+        "CAD_TRACK_REV_photo_chair_007_source_station",
+        "CAD_TRACK_REV_photo_chair_009_source_station",
+        "CAD_TRACK_REV_photo_chair_046_source_station",
+        "DETAIL_BENCH_branch_chair_01_0",
+        "DETAIL_BENCH_branch_chair_03_1",
+        "DETAIL_BENCH_branch_chair_23_2",
+        "DETAIL_BENCH_branch_fastener_01_0_-1",
+        "DETAIL_BENCH_branch_fastener_01_0_1",
+        "DETAIL_BENCH_branch_fastener_03_1_-1",
+        "DETAIL_BENCH_branch_fastener_03_1_1",
+        "DETAIL_BENCH_branch_fastener_23_2_-1",
+        "DETAIL_BENCH_branch_fastener_23_2_1",
+        "DETAIL_BENCH_crossing_support_plate",
+        "ENV_rail_chair.007",
+        "ENV_rail_chair.009",
+        "ENV_rail_chair.046"
+      ],
+      "scope": {
+        "original_pending_groups": 5,
+        "original_pending_meshes": 11,
+        "additional_inherited_supports": [
+          "DETAIL_BENCH_crossing_support_plate",
+          "ENV_rail_chair.009"
+        ],
+        "actual_default_remove_count": 13,
+        "added_display_mesh_count": 9
+      }
+    },
+    "flat_top_blank": {
+      "schema": "gtsd-fit-profile-v1",
+      "id": "track_support_flat_top_blank",
+      "label_zh": "轨道共用支承与扣头外置 · 平顶坯件",
+      "default_enabled": false,
+      "engineering_candidate": true,
+      "physical_fit_certified": false,
+      "remove_names": [
+        "DETAIL_BENCH_branch_chair_03_1",
+        "ENV_rail_chair.007",
+        "DETAIL_BENCH_crossing_support_plate",
+        "CAD_TRACK_REV_photo_chair_009_source_station",
+        "DETAIL_BENCH_branch_chair_23_2",
+        "ENV_rail_chair.046",
+        "DETAIL_BENCH_branch_chair_01_0",
+        "DETAIL_BENCH_branch_fastener_01_0_-1",
+        "DETAIL_BENCH_branch_fastener_01_0_1",
+        "DETAIL_BENCH_branch_fastener_03_1_-1",
+        "DETAIL_BENCH_branch_fastener_03_1_1",
+        "DETAIL_BENCH_branch_fastener_23_2_-1",
+        "DETAIL_BENCH_branch_fastener_23_2_1"
+      ],
+      "add_meshes": [
+        {
+          "name": "FIT_TRACK_station03_common_support",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_chair_03_1",
+              "ENV_rail_chair.007",
+              "DETAIL_BENCH_crossing_support_plate",
+              "ENV_rail_chair.009"
+            ],
+            "bounds_m": [
+              [
+                -8.83846792838576,
+                0.10799999535083771,
+                -0.07199999690055847
+              ],
+              [
+                -8.496498107910156,
+                0.3880000114440918,
+                -0.06499999761581421
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "cd088eca73bcdd74a94f3b37aaba0fd30a1b066c7477c3b78dc837642831ed18",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 640239.0948461796,
+            "source_refs": [
+              "4ECFE",
+              "4ED00",
+              "4ED16",
+              "4ED18",
+              "4ED32",
+              "4ED33",
+              "4ED3A"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "installation_scheme": "One continuously manufactured common support replaces overlapping independent generic plates. It is not a Boolean hiding of two still-independent parts.",
+            "material_policy": "No existing source-position support volume is removed; the common convex envelope adds joining material.",
+            "support_mode": "flat_top_blank",
+            "all_original_support_vertices_contained_max_error_mm": 1.7763568394002505e-12,
+            "original_independent_volume_sum_mm3": 561737.6309604761,
+            "source_anchors_world_XY_m": {
+              "DETAIL_BENCH_branch_chair_03_1": [
+                -8.79996809623244,
+                0.23458672630035848
+              ],
+              "ENV_rail_chair.007": [
+                -8.798239042449252,
+                0.2589166666667079
+              ],
+              "ENV_rail_chair.009": [
+                -8.60441810839049,
+                0.25891666666670776
+              ]
+            },
+            "still_required": [
+              "Confirm whether common baseplate or separate chairs were intended",
+              "Dimension fixing holes and fasteners",
+              "Verify material, bearing pressure and load path",
+              "Confirm clearance under wheel flange and service movement"
+            ],
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_station23_common_support",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_chair_23_2",
+              "ENV_rail_chair.046"
+            ],
+            "bounds_m": [
+              [
+                -4.934166355067995,
+                -0.30741666809716844,
+                -0.07199999690055847
+              ],
+              [
+                -4.857166690761354,
+                -0.11585912354616817,
+                -0.06499999761581421
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "5327917ef0771b546d287aca9c8d42caac9cc66a695e55b2d76773f96d199512",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 103242.05669875786,
+            "source_refs": [
+              "4ECF1",
+              "4ECF2",
+              "4ECF3",
+              "4ECF4",
+              "4ECF5",
+              "4ECF6",
+              "4ECF7",
+              "4ECF8",
+              "4ECFA",
+              "4ECFB",
+              "4ECFC",
+              "4ECFD",
+              "4ED12",
+              "4ED14",
+              "4ED43",
+              "4ED5F",
+              "4ED60"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "installation_scheme": "One continuously manufactured common support replaces overlapping independent generic plates. It is not a Boolean hiding of two still-independent parts.",
+            "material_policy": "No existing source-position support volume is removed; the common convex envelope adds joining material.",
+            "support_mode": "flat_top_blank",
+            "all_original_support_vertices_contained_max_error_mm": 4.440892098500626e-13,
+            "original_independent_volume_sum_mm3": 104206.95219223562,
+            "source_anchors_world_XY_m": {
+              "DETAIL_BENCH_branch_chair_23_2": [
+                -4.8956665229146745,
+                -0.16435912497667965
+              ],
+              "ENV_rail_chair.046": [
+                -4.8956665229146745,
+                -0.25891666666665697
+              ]
+            },
+            "still_required": [
+              "Confirm whether common baseplate or separate chairs were intended",
+              "Dimension fixing holes and fasteners",
+              "Verify material, bearing pressure and load path",
+              "Confirm clearance under wheel flange and service movement"
+            ],
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_station01_source_chair",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_chair_01_0"
+            ],
+            "bounds_m": [
+              [
+                -9.185413080341029,
+                0.7587402113964762,
+                -0.07199999690055847
+              ],
+              [
+                -9.108413416034388,
+                0.8564444289784386,
+                -0.06499999761581421
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "b4b3f21b47dd68b6ed32eff293271ca2f3eaa05cec01cdc2504ed0812fe81882",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 52318.62046508939,
+            "source_refs": [
+              "4ED20",
+              "4ED21",
+              "4ED22",
+              "4ED23",
+              "4ED24",
+              "4ED25",
+              "4ED26",
+              "4ED27",
+              "4ED28",
+              "4ED29",
+              "4ED2A",
+              "4ED2B",
+              "4ED3F"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "source_shape_exactly_retained": false,
+            "all_original_support_material_preserved": true,
+            "additive_bolt_land_edge_allowance_mm": 1.0,
+            "added_land_material_mm3": 215.1283877276585,
+            "design_reason": "An exterior mounting land supplies 1 mm projected edge allowance to both relocated 10 mm heads, while retaining the original chair material and original support Z datums. It is a proposed new common mounting plate, not as-built chair evidence.",
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_clip_01_0_-1",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_fastener_01_0_-1"
+            ],
+            "bounds_m": [
+              [
+                -9.153822628118588,
+                0.8454444385151818,
+                -0.06499999761581421
+              ],
+              [
+                -9.143822399236752,
+                0.8554444289784386,
+                -0.04899999499320984
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "642c48fca18478f9edfcb660c8eb3281d16653a3c2a38feb761a1dbdb6475a8e",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 1131.337361488578,
+            "source_refs": [
+              "4ED20",
+              "4ED21",
+              "4ED22",
+              "4ED23",
+              "4ED24",
+              "4ED25",
+              "4ED26",
+              "4ED27",
+              "4ED28",
+              "4ED29",
+              "4ED2A",
+              "4ED2B",
+              "4ED3F"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "source_shape_exactly_retained": true,
+            "source_pose_to_candidate_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.0019092654899619532
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.08420422950289141
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "old_baked_world_to_new_baked_world_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.07751110448639231
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.07285868888902214
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "fastening_scheme": "Both heads on the rail outer side, separated longitudinally; mounting topology is a design candidate, not a verified complete rail clamp.",
+            "dimension_constraints": {
+              "same_head_diameter_mm": 10.000228881835938,
+              "same_head_height_mm": 16.00000262260437,
+              "outer_normal_offset_mm": 42.5,
+              "longitudinal_pitch_mm": 16
+            },
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_clip_01_0_1",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_fastener_01_0_1"
+            ],
+            "bounds_m": [
+              [
+                -9.137983432177835,
+                0.8431817251107905,
+                -0.06499999761581421
+              ],
+              [
+                -9.127983203295999,
+                0.8531817155740473,
+                -0.04899999499320984
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "bdd1843721ac28cad018019b7e3d195d84601e0e70e4f976bc1441ef19da65da",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 1131.337361488578,
+            "source_refs": [
+              "4ED20",
+              "4ED21",
+              "4ED22",
+              "4ED23",
+              "4ED24",
+              "4ED25",
+              "4ED26",
+              "4ED27",
+              "4ED28",
+              "4ED29",
+              "4ED2A",
+              "4ED2B",
+              "4ED3F"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "source_shape_exactly_retained": true,
+            "source_pose_to_candidate_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.013929930450791161
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -5.850106763760632e-05
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "old_baked_world_to_new_baked_world_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.09335030042714543
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.011404041681506882
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "fastening_scheme": "Both heads on the rail outer side, separated longitudinally; mounting topology is a design candidate, not a verified complete rail clamp.",
+            "dimension_constraints": {
+              "same_head_diameter_mm": 10.000228881835938,
+              "same_head_height_mm": 16.00000262260437,
+              "outer_normal_offset_mm": 42.5,
+              "longitudinal_pitch_mm": 16
+            },
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_clip_03_1_-1",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_fastener_03_1_-1"
+            ],
+            "bounds_m": [
+              [
+                -8.810907907635325,
+                0.18800885233496106,
+                -0.06499999761581421
+              ],
+              [
+                -8.80090767875349,
+                0.1980088427982179,
+                -0.04899999499320984
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "02d50a8bd84e9ed8e535b6412c688894af1d82ee085281ebaf03b23cec09cd65",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 1131.3421299700808,
+            "source_refs": [
+              "4ECFE",
+              "4ED00",
+              "4ED3A"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "source_shape_exactly_retained": true,
+            "source_pose_to_candidate_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.005939696961966945
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.0005778776012807518
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "old_baked_world_to_new_baked_world_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.020425252765065238
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.0043442770519407925
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "fastening_scheme": "Two full-size heads on declared 42 mm exterior support-normal mounting offsets; station03 pair flanks the combined main/branch rail envelope",
+            "dimension_constraints": {},
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_clip_03_1_1",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_fastener_03_1_1"
+            ],
+            "bounds_m": [
+              [
+                -8.80323915689017,
+                0.29591667143507944,
+                -0.06499999761581421
+              ],
+              [
+                -8.793238928008334,
+                0.3059166618983363,
+                -0.04899999499320984
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "de3f88d014dd2f3a34f7c6aab0d3c8ef56dc21425dabe641de440ef5c99fea32",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 1131.3421299700808,
+            "source_refs": [
+              "4ECFE",
+              "4ED00",
+              "4ED3A"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "source_shape_exactly_retained": true,
+            "source_pose_to_candidate_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.001729053783188661
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.025329954135022315
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "old_baked_world_to_new_baked_world_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.028094003510220844
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.021563554684362274
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "fastening_scheme": "Two full-size heads on declared 42 mm exterior support-normal mounting offsets; station03 pair flanks the combined main/branch rail envelope",
+            "dimension_constraints": {},
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_clip_23_2_-1",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_fastener_23_2_-1"
+            ],
+            "bounds_m": [
+              [
+                -4.903276674408832,
+                -0.2112779430279045,
+                -0.06499999761581421
+              ],
+              [
+                -4.893276445526996,
+                -0.20127795256464767,
+                -0.04899999499320984
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "303021d1bb372f1e19e526fe813116156646cd8e38792ffd569be022d960620f",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 1131.4184238551395,
+            "source_refs": [
+              "4ECF1",
+              "4ECF2",
+              "4ECF3",
+              "4ECF4",
+              "4ECF5",
+              "4ECF6",
+              "4ECF7",
+              "4ECF8",
+              "4ECFA",
+              "4ECFB",
+              "4ECFC",
+              "4ECFD",
+              "4ED43",
+              "4ED5F",
+              "4ED60"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "source_shape_exactly_retained": true,
+            "source_pose_to_candidate_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.002610037053239367
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.0009188291376887869
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "old_baked_world_to_new_baked_world_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.07194351400844123
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.0035675875076560948
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "fastening_scheme": "Two full-size heads on declared 42 mm exterior support-normal mounting offsets; station03 pair flanks the combined main/branch rail envelope",
+            "dimension_constraints": {},
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        },
+        {
+          "name": "FIT_TRACK_clip_23_2_1",
+          "group": "environment",
+          "color": [
+            0.12,
+            0.66,
+            0.68,
+            1.0
+          ],
+          "metadata": {
+            "replaces_mesh_names": [
+              "DETAIL_BENCH_branch_fastener_23_2_1"
+            ],
+            "bounds_m": [
+              [
+                -4.898056600302353,
+                -0.12744030483929222,
+                -0.06499999761581421
+              ],
+              [
+                -4.888056371420517,
+                -0.1174402994748742,
+                -0.04899999499320984
+              ]
+            ],
+            "candidate": true,
+            "default_enabled": false,
+            "as_built": false,
+            "physics_binding": false,
+            "collision_enabled": false,
+            "new_physical_body_count": 0,
+            "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+            "triangle_sha256": "7924d242c3b851de4b8efffc4277b24ffb81d026e1c6f9ab43a789cdc100dde0",
+            "closed_edge_two_incidence": true,
+            "volume_mm3": 1131.4180747228036,
+            "source_refs": [
+              "4ECF1",
+              "4ECF2",
+              "4ECF3",
+              "4ECF4",
+              "4ECF5",
+              "4ECF6",
+              "4ECF7",
+              "4ECF8",
+              "4ECFA",
+              "4ECFB",
+              "4ECFC",
+              "4ECFD",
+              "4ED43",
+              "4ED5F",
+              "4ED60"
+            ],
+            "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+            "source_shape_exactly_retained": true,
+            "source_pose_to_candidate_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.002610037053239367
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.00091882168710819
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "old_baked_world_to_new_baked_world_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.0667234399019625
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.0017299366828591178
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "fastening_scheme": "Two full-size heads on declared 42 mm exterior support-normal mounting offsets; station03 pair flanks the combined main/branch rail envelope",
+            "dimension_constraints": {},
+            "installed_mechanical_connection_confirmed": false,
+            "physical_binding": false,
+            "contact_enabled": false,
+            "native_solver_body": null,
+            "added_mass_kg": 0,
+            "original_collision_unchanged": true
+          },
+          "physics_binding": false,
+          "collision_enabled": false,
+          "added_mass_kg": 0
+        }
+      ],
+      "config": {
+        "support_mode": "flat_top_blank",
+        "pitch_mm": 16,
+        "normal_offset_mm": 42.5,
+        "outer_bolt_land_edge_allowance_mm": 1.0
+      },
+      "requirements": {
+        "source_replacements_applied": true,
+        "source_replacements_sha256": "fe9e6c52f5a2381394e40372147c78946b6e50c019043d381730c7593df61a73",
+        "base_glb_sha256": "fff3f9fffd83e380435eba3a0f9ba975b87557b794d671ee175ea842235bbfa9",
+        "atomic": true,
+        "no_solver_changes": true,
+        "physics_collision_mass_unchanged": true
+      },
+      "source_baseline_remove_names": [
+        "DETAIL_BENCH_branch_chair_03_1",
+        "ENV_rail_chair.007",
+        "DETAIL_BENCH_crossing_support_plate",
+        "ENV_rail_chair.009",
+        "DETAIL_BENCH_branch_chair_23_2",
+        "ENV_rail_chair.046",
+        "DETAIL_BENCH_branch_chair_01_0",
+        "DETAIL_BENCH_branch_fastener_01_0_-1",
+        "DETAIL_BENCH_branch_fastener_01_0_1",
+        "DETAIL_BENCH_branch_fastener_03_1_-1",
+        "DETAIL_BENCH_branch_fastener_03_1_1",
+        "DETAIL_BENCH_branch_fastener_23_2_-1",
+        "DETAIL_BENCH_branch_fastener_23_2_1"
+      ],
+      "other_pose_aliases_not_active_in_this_profile": [
+        "CAD_TRACK_REV_branch_chair_01_0",
+        "CAD_TRACK_REV_branch_chair_03_1",
+        "CAD_TRACK_REV_branch_chair_23_2",
+        "CAD_TRACK_REV_branch_clip_01_0_-1",
+        "CAD_TRACK_REV_branch_clip_01_0_1",
+        "CAD_TRACK_REV_branch_clip_03_1_-1",
+        "CAD_TRACK_REV_branch_clip_03_1_1",
+        "CAD_TRACK_REV_branch_clip_23_2_-1",
+        "CAD_TRACK_REV_branch_clip_23_2_1",
+        "CAD_TRACK_REV_photo_chair_007_source_station",
+        "CAD_TRACK_REV_photo_chair_009_source_station",
+        "CAD_TRACK_REV_photo_chair_046_source_station",
+        "DETAIL_BENCH_branch_chair_01_0",
+        "DETAIL_BENCH_branch_chair_03_1",
+        "DETAIL_BENCH_branch_chair_23_2",
+        "DETAIL_BENCH_branch_fastener_01_0_-1",
+        "DETAIL_BENCH_branch_fastener_01_0_1",
+        "DETAIL_BENCH_branch_fastener_03_1_-1",
+        "DETAIL_BENCH_branch_fastener_03_1_1",
+        "DETAIL_BENCH_branch_fastener_23_2_-1",
+        "DETAIL_BENCH_branch_fastener_23_2_1",
+        "DETAIL_BENCH_crossing_support_plate",
+        "ENV_rail_chair.007",
+        "ENV_rail_chair.009",
+        "ENV_rail_chair.046"
+      ],
+      "scope": {
+        "original_pending_groups": 5,
+        "original_pending_meshes": 11,
+        "additional_inherited_supports": [
+          "DETAIL_BENCH_crossing_support_plate",
+          "ENV_rail_chair.009"
+        ],
+        "actual_default_remove_count": 13,
+        "added_display_mesh_count": 9
+      }
+    }
+  }
+}

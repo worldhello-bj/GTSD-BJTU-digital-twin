@@ -1,0 +1,248 @@
+{
+  "ok": true,
+  "native_sha256": "ede3935c0b1d58be36dcf8a44a3a470b27fc6724400838e3485637dff7fcd24b",
+  "blender": "4.3.2",
+  "scenes": [
+    {
+      "profile": "source",
+      "mesh_count": 1932,
+      "all_float32_mesh_streams_equal": true
+    },
+    {
+      "profile": "track_support",
+      "mesh_count": 1928,
+      "all_float32_mesh_streams_equal": true
+    },
+    {
+      "profile": "track_support_flat",
+      "mesh_count": 1928,
+      "all_float32_mesh_streams_equal": true
+    },
+    {
+      "profile": "balise",
+      "mesh_count": 1932,
+      "all_float32_mesh_streams_equal": true
+    },
+    {
+      "profile": "clamps",
+      "mesh_count": 1932,
+      "all_float32_mesh_streams_equal": true
+    },
+    {
+      "profile": "clamps_messenger",
+      "mesh_count": 1932,
+      "all_float32_mesh_streams_equal": true
+    },
+    {
+      "profile": "clamps_b535_review",
+      "mesh_count": 1932,
+      "all_float32_mesh_streams_equal": true
+    },
+    {
+      "profile": "combined",
+      "mesh_count": 1928,
+      "all_float32_mesh_streams_equal": true
+    }
+  ],
+  "unique_mesh_streams_verified": 1970,
+  "images_embedded_in_native": 0,
+  "external_libraries": 0,
+  "embedded_texts": 0,
+  "private_machine_paths": [],
+  "new_physics": false,
+  "native_file_unchanged_after_review": true,
+  "views": [],
+  "render_sha256": {},
+  "render_proof": {
+    "rendered_native_sha256": "3568de7b65cde8e81bb6671cdac9af416aa75422dcf4c3cb0305e95c5aed0ad4",
+    "rendered_geometry_exactly_equal_to_public_native": true,
+    "reason": "Both files reopened and every scene membership and float32 vertex/index stream matched the same scene export witnesses. Only historical machine-path metadata was removed before publication.",
+    "views": [
+      {
+        "file": "whole_candidate.png",
+        "scene": "FIT_combined",
+        "eye": [
+          -7,
+          -12,
+          8
+        ],
+        "target": [
+          -4,
+          0.3,
+          0.55
+        ],
+        "ortho_scale_m": 13.0,
+        "actual_triangle_render": true,
+        "candidate_color": "orange",
+        "camera_only_no_geometry_exaggeration": true
+      },
+      {
+        "file": "track_support_before.png",
+        "scene": "SOURCE_REVIEW",
+        "eye": [
+          -8.65,
+          -0.65,
+          0.85
+        ],
+        "target": [
+          -8.65,
+          0.26,
+          -0.03
+        ],
+        "ortho_scale_m": 0.95,
+        "actual_triangle_render": true,
+        "candidate_color": "orange",
+        "camera_only_no_geometry_exaggeration": true
+      },
+      {
+        "file": "track_support_after.png",
+        "scene": "FIT_combined",
+        "eye": [
+          -8.65,
+          -0.65,
+          0.85
+        ],
+        "target": [
+          -8.65,
+          0.26,
+          -0.03
+        ],
+        "ortho_scale_m": 0.95,
+        "actual_triangle_render": true,
+        "candidate_color": "orange",
+        "camera_only_no_geometry_exaggeration": true
+      },
+      {
+        "file": "balise_before.png",
+        "scene": "SOURCE_REVIEW",
+        "eye": [
+          -6.9,
+          -0.35,
+          0.6
+        ],
+        "target": [
+          -7.1,
+          0.15,
+          -0.03
+        ],
+        "ortho_scale_m": 0.8,
+        "actual_triangle_render": true,
+        "candidate_color": "orange",
+        "camera_only_no_geometry_exaggeration": true
+      },
+      {
+        "file": "balise_after.png",
+        "scene": "FIT_combined",
+        "eye": [
+          -6.9,
+          -0.35,
+          0.6
+        ],
+        "target": [
+          -7.1,
+          0.15,
+          -0.03
+        ],
+        "ortho_scale_m": 0.8,
+        "actual_triangle_render": true,
+        "candidate_color": "orange",
+        "camera_only_no_geometry_exaggeration": true
+      },
+      {
+        "file": "lower_clamp_before.png",
+        "scene": "SOURCE_REVIEW",
+        "eye": [
+          -1.9,
+          0.46,
+          1.72
+        ],
+        "target": [
+          -2.0725,
+          0.2453,
+          1.626
+        ],
+        "ortho_scale_m": 0.15,
+        "actual_triangle_render": true,
+        "candidate_color": "orange",
+        "camera_only_no_geometry_exaggeration": true
+      },
+      {
+        "file": "lower_clamp_after.png",
+        "scene": "FIT_combined",
+        "eye": [
+          -1.9,
+          0.46,
+          1.72
+        ],
+        "target": [
+          -2.0725,
+          0.2453,
+          1.626
+        ],
+        "ortho_scale_m": 0.15,
+        "actual_triangle_render": true,
+        "candidate_color": "orange",
+        "camera_only_no_geometry_exaggeration": true
+      },
+      {
+        "file": "upper_clamp_before.png",
+        "scene": "SOURCE_REVIEW",
+        "eye": [
+          -1.85,
+          -0.45,
+          2.3
+        ],
+        "target": [
+          -2.05,
+          0.008,
+          2.08
+        ],
+        "ortho_scale_m": 0.18,
+        "actual_triangle_render": true,
+        "candidate_color": "orange",
+        "camera_only_no_geometry_exaggeration": true
+      },
+      {
+        "file": "upper_clamp_after.png",
+        "scene": "FIT_combined",
+        "eye": [
+          -1.85,
+          -0.45,
+          2.3
+        ],
+        "target": [
+          -2.05,
+          0.008,
+          2.08
+        ],
+        "ortho_scale_m": 0.18,
+        "actual_triangle_render": true,
+        "candidate_color": "orange",
+        "camera_only_no_geometry_exaggeration": true
+      }
+    ],
+    "render_sha256": {
+      "whole_candidate.png": "ad25b0527dc390c3b681c4bc5863ccaccc08661af91b1815bbd15f3876a228d7",
+      "track_support_before.png": "035f3990cdc6668f4c1c27ca7db3711c3c22267ec0575e261ad867377152b913",
+      "track_support_after.png": "fcad03170918ce7498206dc76c4e87857bfbee7be18288af0ec2664a97c3a77d",
+      "balise_before.png": "1dcce478de4b41df9eea3f9a096aa99f4d295ba10f5b3f174dd008d612f03631",
+      "balise_after.png": "6be363c3382bf5017d42ea26106697adae885ff3c2ebb7ddbe0a74af33603784",
+      "lower_clamp_before.png": "1a535b123ef5df4e22c9ede67779f2b2a141b7778c1bd72508092ec85050ff4d",
+      "lower_clamp_after.png": "1592d2d1af7ea31ca915656d8f580251007a2ed1b526e2433b7275c29c7e548c",
+      "upper_clamp_before.png": "9e1891bffd4bf754270b45112ba2728adc90c664e9d39ac5a37eff31c470afdb",
+      "upper_clamp_after.png": "989275f8336827cdf68b324ec5c8b9e114389453e15f21410fb57c7a9273a7db"
+    },
+    "all_nine_images_visually_reviewed": true,
+    "render_tool": "Blender Workbench 4.3.2, single process, 1 thread",
+    "browser_webgl_acceptance": false
+  },
+  "compressed_binary_string_scan": {
+    "uncompressed_bytes": 153245608,
+    "producer_workspace_paths_found": 0,
+    "producer_home_paths_found": 0,
+    "private_Library_identifiers_found": 0,
+    "generic_default_render_output_path": "/tmp/",
+    "generic_default_render_output_path_occurrences": 1,
+    "method": "Streaming Zstandard decompression and byte-pattern scan, in addition to reopened Blender datablock and custom metadata inspection."
+  }
+}

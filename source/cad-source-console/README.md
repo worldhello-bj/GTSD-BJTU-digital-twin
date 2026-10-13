@@ -114,3 +114,15 @@ python run_acceptance.py
 - 短步恢复验收与已保存的 20 ms 数值研究不证明长期收敛、载荷准确、实机安全或实时性能。原始长程结论不自动继承到新几何。
 
 发布范围和扫描结果见 `PUBLIC_PRIVACY_REPORT.json`；资产和原生身份见 `ASSET_MANIFEST.json`、`integration/source_assembly_native/NATIVE_MANIFEST.json`。
+
+## Mechanical fit candidates (2026-10-13)
+
+Open `/assembly` and select an explicit mechanical-fit alternative, or read
+[`mechanical_fit/README.md`](mechanical_fit/README.md). The original source
+display remains the default. Eight native Blend scenes and nine actual rendered
+views accompany quantified support, balise and clamp alternatives. Source
+version, pin-section, mounting and connection uncertainties remain explicit;
+these new display candidates add no solver mass or collision. `/mechanical-fit/rail`
+shows 57 finite rail-source curves and five confirmed plan intervals without
+silently cutting ambiguous crossing geometry. The exact verification scope and
+remaining inputs are in `mechanical_fit/report.json`.

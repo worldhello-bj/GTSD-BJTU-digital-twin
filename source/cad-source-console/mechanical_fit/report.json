@@ -1,0 +1,899 @@
+{
+  "schema": "gtsd-mechanical-fit-review-v1",
+  "base_commit": "c5dd336857fe7b573443bc6c1721e4883584acc5",
+  "status": "ENGINEERING_FIT_CANDIDATES_NOT_AS_BUILT",
+  "original_source_available": true,
+  "source_mesh_count": 1932,
+  "combined_mesh_count": 1928,
+  "combined_removed": 37,
+  "combined_added": 33,
+  "source_groups": 7,
+  "source_affected_meshes": 17,
+  "source_positive_material_pairs": 7,
+  "source_positive_material_pairs_note": "These seven pairs occur when enabling all formerly gated source-position support candidates; the conservative source default retained seventeen previous positions. They are not seventeen interference pairs.",
+  "target_pairs": {
+    "track_support": [
+      {
+        "pair": "DETAIL_BENCH_branch_chair_03_1|DETAIL_BENCH_crossing_support_plate",
+        "before_source_position_witness_world_m": [
+          -8.785998408250332,
+          0.1880267177745101,
+          -0.07149999737739562
+        ],
+        "before_shared_material_chords_mm": {
+          "X": 24.76146392691593,
+          "Y": 96.73149583056151,
+          "Z": 4.7326745562886305
+        },
+        "before_measurement_definition": "Chord through verified shared interior point, not a minimum translation distance. Actual conservative default retained old positions and did not activate these four source-position conflicts.",
+        "resolution": {
+          "kind": "REPLACE_INDEPENDENT_OVERLAPPING_PROXIES_WITH_ONE_CONTINUOUS_SUPPORT",
+          "new_object": "FIT_TRACK_station03_common_support",
+          "source_drawing_confirmation": false,
+          "independent_original_part_count_preserved": false,
+          "source_support_material_removed_mm3": 0
+        },
+        "after_profile": "track_support_conforming_hull",
+        "after_geometry_status": "PROFILE_OBJECTS_CLEAR_AGAINST_COMPLETE_ACTUAL_DEFAULT_SCENE",
+        "actual_default_validation": "conforming_hull/actual_default_validation.json",
+        "not_as_built_or_load_certified": true
+      },
+      {
+        "pair": "DETAIL_BENCH_branch_chair_23_2|ENV_rail_chair.046",
+        "before_source_position_witness_world_m": [
+          -4.932626361781862,
+          -0.2128102771837702,
+          -0.06849999725818634
+        ],
+        "before_shared_material_chords_mm": {
+          "X": 75.36488719988894,
+          "Y": 2.442461171045629,
+          "Z": 5.365143993940801
+        },
+        "before_measurement_definition": "Chord through verified shared interior point, not a minimum translation distance. Actual conservative default retained old positions and did not activate these four source-position conflicts.",
+        "resolution": {
+          "kind": "REPLACE_INDEPENDENT_OVERLAPPING_PROXIES_WITH_ONE_CONTINUOUS_SUPPORT",
+          "new_object": "FIT_TRACK_station23_common_support",
+          "source_drawing_confirmation": false,
+          "independent_original_part_count_preserved": false,
+          "source_support_material_removed_mm3": 0
+        },
+        "after_profile": "track_support_conforming_hull",
+        "after_geometry_status": "PROFILE_OBJECTS_CLEAR_AGAINST_COMPLETE_ACTUAL_DEFAULT_SCENE",
+        "actual_default_validation": "conforming_hull/actual_default_validation.json",
+        "not_as_built_or_load_certified": true
+      },
+      {
+        "pair": "DETAIL_BENCH_branch_fastener_01_0_-1|DETAIL_BENCH_guard_diverging",
+        "before_source_position_witness_world_m": [
+          -9.151713358050989,
+          0.7662402042439188,
+          -0.06467999756336212
+        ],
+        "before_shared_material_chords_mm": {
+          "X": 10.000228881835936,
+          "Y": 0.9654517844350212,
+          "Z": 16.00000262260437
+        },
+        "before_measurement_definition": "Chord through verified shared interior point, not a minimum translation distance. Actual conservative default retained old positions and did not activate these four source-position conflicts.",
+        "resolution": {
+          "kind": "FULL_GROUP_REDESIGN_WITH_TWO_EXTERNAL_HEADS_AND_ADDITIVE_MOUNTING_LAND",
+          "new_object": "FIT_TRACK_clip_01_0_-1",
+          "source_drawing_confirmation": false,
+          "full_three_mesh_group_included": true,
+          "head_shape_preserved": true,
+          "native_rail_and_sleeper_axes_unchanged": true,
+          "static_world_Y_AABB_guard_gap_mm": 65.99551206635978
+        },
+        "after_profile": "track_support_conforming_hull",
+        "after_geometry_status": "PROFILE_OBJECTS_CLEAR_AGAINST_COMPLETE_ACTUAL_DEFAULT_SCENE",
+        "actual_default_validation": "conforming_hull/actual_default_validation.json",
+        "not_as_built_or_load_certified": true
+      },
+      {
+        "pair": "DETAIL_BENCH_crossing_support_plate|ENV_rail_chair.007",
+        "before_source_position_witness_world_m": [
+          -8.785963827174669,
+          0.21235666529341685,
+          -0.07149999737739562
+        ],
+        "before_shared_material_chords_mm": {
+          "X": 26.490517710104587,
+          "Y": 96.73148098275487,
+          "Z": 4.751258162423281
+        },
+        "before_measurement_definition": "Chord through verified shared interior point, not a minimum translation distance. Actual conservative default retained old positions and did not activate these four source-position conflicts.",
+        "resolution": {
+          "kind": "REPLACE_INDEPENDENT_OVERLAPPING_PROXIES_WITH_ONE_CONTINUOUS_SUPPORT",
+          "new_object": "FIT_TRACK_station03_common_support",
+          "source_drawing_confirmation": false,
+          "independent_original_part_count_preserved": false,
+          "source_support_material_removed_mm3": 0
+        },
+        "after_profile": "track_support_conforming_hull",
+        "after_geometry_status": "PROFILE_OBJECTS_CLEAR_AGAINST_COMPLETE_ACTUAL_DEFAULT_SCENE",
+        "actual_default_validation": "conforming_hull/actual_default_validation.json",
+        "not_as_built_or_load_certified": true
+      }
+    ],
+    "balise": [
+      {
+        "pair": "DETAIL_BENCH_branch_chair_17_2|ENV_balise_body_03",
+        "before": {
+          "status": "POSITIVE_MATERIAL_OVERLAP",
+          "witness_world_m": [
+            -6.133889691861288,
+            -0.05738389610916962,
+            -0.07129999697208404
+          ],
+          "shared_material_chords": [
+            {
+              "axis": "X",
+              "negative_mm": 0.19644898134975852,
+              "positive_mm": 6.859530227127285,
+              "shared_material_chord_mm": 7.055979208477044
+            },
+            {
+              "axis": "Y",
+              "negative_mm": 0.6161022219003248,
+              "positive_mm": 29.736870151839604,
+              "shared_material_chord_mm": 30.35297237373993
+            },
+            {
+              "axis": "Z",
+              "negative_mm": 0.3424513992394802,
+              "positive_mm": 5.942450827034884,
+              "shared_material_chord_mm": 6.284902226274365
+            }
+          ]
+        },
+        "after": {
+          "aabb_signed_overlap_mm": [
+            -3.500169515609386,
+            -65.0171036654893,
+            6.999999284744263
+          ],
+          "status": "NO_POSITIVE_VOLUME_AABB",
+          "numerical_tolerance_m": 1e-08,
+          "possible_contact_within_tolerance": false
+        }
+      },
+      {
+        "pair": "DETAIL_BENCH_branch_fastener_12_2_-1|ENV_balise_body_02",
+        "before": {
+          "status": "POSITIVE_MATERIAL_OVERLAP",
+          "witness_world_m": [
+            -7.10046663277796,
+            -0.02068564759998065,
+            -0.06467999756336212
+          ],
+          "shared_material_chords": [
+            {
+              "axis": "X",
+              "negative_mm": 0.20000457763647006,
+              "positive_mm": 9.80022430419947,
+              "shared_material_chord_mm": 10.00022888183594
+            },
+            {
+              "axis": "Y",
+              "negative_mm": 0.4828863879414084,
+              "positive_mm": 0.4828863879414084,
+              "shared_material_chord_mm": 0.9657727758828168
+            },
+            {
+              "axis": "Z",
+              "negative_mm": 0.3200000524520852,
+              "positive_mm": 15.680002570152284,
+              "shared_material_chord_mm": 16.00000262260437
+            }
+          ]
+        },
+        "after": {
+          "aabb_signed_overlap_mm": [
+            -36.99988722801173,
+            -104.92628169459473,
+            16.00000262260437
+          ],
+          "status": "NO_POSITIVE_VOLUME_AABB",
+          "numerical_tolerance_m": 1e-08,
+          "possible_contact_within_tolerance": false
+        }
+      },
+      {
+        "pair": "DETAIL_BENCH_branch_fastener_12_2_1|ENV_balise_body_02",
+        "before": {
+          "status": "POSITIVE_MATERIAL_OVERLAP",
+          "witness_world_m": [
+            -7.095666522914678,
+            0.056348066735144746,
+            -0.06467999756336212
+          ],
+          "shared_material_chords": [
+            {
+              "axis": "X",
+              "negative_mm": 0.08139516243169874,
+              "positive_mm": 0.08139516243169916,
+              "shared_material_chord_mm": 0.1627903248633979
+            },
+            {
+              "axis": "Y",
+              "negative_mm": 0.03371288971276005,
+              "positive_mm": 1.6519315959252003,
+              "shared_material_chord_mm": 1.6856444856379604
+            },
+            {
+              "axis": "Z",
+              "negative_mm": 0.3200000524520852,
+              "positive_mm": 15.680002570152284,
+              "shared_material_chord_mm": 16.00000262260437
+            }
+          ]
+        },
+        "after": {
+          "aabb_signed_overlap_mm": [
+            -36.99988722801173,
+            -19.462636129787906,
+            16.00000262260437
+          ],
+          "status": "NO_POSITIVE_VOLUME_AABB",
+          "numerical_tolerance_m": 1e-08,
+          "possible_contact_within_tolerance": false
+        }
+      }
+    ],
+    "clamps": [
+      {
+        "interface": "518DF 4079 / CAD_SOURCE_518DF_C4D1_4AEC_ring_square_fit_candidate",
+        "classification": "NON_CONNECTION_CLEARANCE",
+        "before": {
+          "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+          "volume_mm3": 73.91437250721089,
+          "breakpoint_count": 73,
+          "positive_volume_witness": {
+            "point_world_m": [
+              -2.0725347995758057,
+              0.000999405350536108,
+              2.055547981075499
+            ],
+            "winding_numbers": [
+              1.0000000000000397,
+              1.0000000000000002
+            ],
+            "both_strictly_inside": true
+          }
+        },
+        "after": {
+          "method": "exact cap integration; separating projection",
+          "volume_mm3": 0.0
+        }
+      },
+      {
+        "interface": "518DF 4079 / CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate",
+        "classification": "NON_CONNECTION_CLEARANCE",
+        "before": {
+          "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+          "volume_mm3": 66.65453208042459,
+          "breakpoint_count": 33,
+          "positive_volume_witness": {
+            "point_world_m": [
+              -2.0725347995758057,
+              0.000999405350536108,
+              2.092747981075499
+            ],
+            "winding_numbers": [
+              1.0000000000000002,
+              1.0
+            ],
+            "both_strictly_inside": true
+          }
+        },
+        "after": {
+          "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+          "volume_mm3": 0.0,
+          "breakpoint_count": 2
+        }
+      },
+      {
+        "interface": "50DF4 pin / B535 (selected 8A2C hole version)",
+        "classification": "NON_CONNECTION_CLEARANCE",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 2.3120473488656432,
+          "depth_mm": 3.9999932050704956,
+          "volume_mm3": 9.248173685263826,
+          "cap_min_clearance_mm": 0.0,
+          "positive_volume_witness": {
+            "point_world_m": [
+              -2.0709950923919678,
+              0.24529466778039932,
+              1.6236971020698547
+            ],
+            "winding_numbers": [
+              1.0000000000000002,
+              0.9999999999999996
+            ],
+            "both_strictly_inside": true
+          }
+        },
+        "after": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 0.0,
+          "depth_mm": 3.9999932050704956,
+          "volume_mm3": 0.0,
+          "cap_min_clearance_mm": 0.49904008612357403
+        }
+      },
+      {
+        "interface": "518E0 4079 / CAD_SOURCE_518E0_C4D1_4AEC_ring_square_fit_candidate",
+        "classification": "NON_CONNECTION_CLEARANCE",
+        "before": {
+          "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+          "volume_mm3": 73.91402651905524,
+          "breakpoint_count": 73,
+          "positive_volume_witness": {
+            "point_world_m": [
+              -6.072535037994385,
+              0.000999405350536108,
+              2.055547981075499
+            ],
+            "winding_numbers": [
+              1.0000000000000397,
+              1.0
+            ],
+            "both_strictly_inside": true
+          }
+        },
+        "after": {
+          "method": "exact cap integration; separating projection",
+          "volume_mm3": 0.0
+        }
+      },
+      {
+        "interface": "518E0 4079 / CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate",
+        "classification": "NON_CONNECTION_CLEARANCE",
+        "before": {
+          "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+          "volume_mm3": 66.65342169164781,
+          "breakpoint_count": 33,
+          "positive_volume_witness": {
+            "point_world_m": [
+              -6.072535037994385,
+              0.000999405350536108,
+              2.092747981075499
+            ],
+            "winding_numbers": [
+              1.0000000000000002,
+              1.0
+            ],
+            "both_strictly_inside": true
+          }
+        },
+        "after": {
+          "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+          "volume_mm3": 0.0,
+          "breakpoint_count": 2
+        }
+      },
+      {
+        "interface": "51409 pin / B535 (selected 8A2C hole version)",
+        "classification": "NON_CONNECTION_CLEARANCE",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 2.311529688654696,
+          "depth_mm": 3.9999932050704956,
+          "volume_mm3": 9.246103047937503,
+          "cap_min_clearance_mm": 0.0,
+          "positive_volume_witness": {
+            "point_world_m": [
+              -6.0740745067596436,
+              -0.24529585987329483,
+              1.6236971020698547
+            ],
+            "winding_numbers": [
+              0.9999999999999942,
+              1.0000000000000004
+            ],
+            "both_strictly_inside": true
+          }
+        },
+        "after": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 0.0,
+          "depth_mm": 3.9999932050704956,
+          "volume_mm3": 0.0,
+          "cap_min_clearance_mm": 0.4989249314069073
+        }
+      }
+    ]
+  },
+  "component_check_counts": {
+    "track_portable": 8,
+    "track_development": 18,
+    "balise": 13,
+    "clamp_geometry": 77,
+    "clamp_regression": 9,
+    "clamp_native_records": 18,
+    "rail_source_review": 7
+  },
+  "candidate_admission": "All profiles require explicit selection. Known-overlap B535 alternative remains labelled review-only. Clamp and combined alternatives only support the exact default front-route source scene.",
+  "physics": {
+    "new_bodies": 0,
+    "new_mass_kg": 0,
+    "new_collision": false,
+    "source_solver_mapping_changed": false,
+    "native_solver_checks": "PASSED_BOUNDED_HTTP_STEP_RESTORE_REGRESSION",
+    "no_hardware_connected": true,
+    "full_motion_envelope_validated": false,
+    "pantograph_joint_travel_limits": "UNSPECIFIED_NOT_HARDWARE_VALIDATED"
+  },
+  "combined_interference": {
+    "schema": "gtsd-independent-combined-audit-summary-v1",
+    "counts": {
+      "before_meshes": 1932,
+      "removed": 37,
+      "added": 33,
+      "unchanged": 1895,
+      "after_meshes": 1928,
+      "after_changed_vs_all_unique_pairs": 63063,
+      "before_removed_vs_all_unique_pairs": 70781,
+      "after_positive_aabb_candidates": 34,
+      "before_positive_aabb_candidates": 54,
+      "cross_profile_changed_pairs": 324,
+      "cross_profile_positive_aabb_candidates": 0
+    },
+    "after_status_counts": {
+      "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW": 5,
+      "TRIANGULATED_MESHES_SEPARATED": 27,
+      "POSITIVE_MATERIAL_OVERLAP": 2
+    },
+    "coordinate_precision_classification_changes": [],
+    "numerical_boundary_pairs": 41,
+    "export_only_subtolerance_positive_AABB_pairs": 6,
+    "native_float32_subtolerance_positive_AABB_pairs": 0,
+    "new_positive_overlap_witness_pairs": [],
+    "worsened_geometric_overlap_proven": false,
+    "strict_whole_model_clearance_pass": false,
+    "retained_positive_interfaces": [
+      [
+        "ENV_contact_wire",
+        "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      [
+        "ENV_contact_wire",
+        "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ]
+    ],
+    "retained_boundary_review_interfaces": [
+      [
+        "CAD_50DF4_F643_profile_0",
+        "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE"
+      ],
+      [
+        "CAD_50DF4_F643_profile_3",
+        "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE"
+      ],
+      [
+        "CAD_51409_F643_profile_0",
+        "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE"
+      ],
+      [
+        "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+        "REPAIR_518DD_88AC_1_source-plan6.5"
+      ],
+      [
+        "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+        "REPAIR_518DE_88AC_1_source-plan6.5_FRONT_ROUTE_REFLECTED_CANDIDATE"
+      ]
+    ],
+    "original_seven_conflicts": {
+      "historical_source_position_candidate_positive_pairs": 7,
+      "actual_default_1932_positive_AABB_pairs_for_these_seven": 0,
+      "combined_distinct_pairs_separated": 4,
+      "combined_pairs_merged_into_single_design_body": 3
+    },
+    "six_clamp_targets": {
+      "all_targets_have_no_positive_volume_after": true,
+      "rod_ring_or_lower_jaw_pairs_aabb_separated": 4,
+      "pin_B535_pairs_triangle_separated": 2
+    },
+    "scope_exclusions": [
+      "1895 unchanged meshes versus one another, except two explicitly named messenger/lower-jaw checks",
+      "Source rail-body topology",
+      "Motion/dynamics/loading",
+      "Fixing method and installed connectivity",
+      "Manufacturing tolerance and as-built validation"
+    ],
+    "regression_tests": {
+      "count": 7,
+      "passed": 7
+    },
+    "input_hashes": {
+      "source": "751ff0ac4ecf5b2351ebdd6d576cfdf6f043e9bfe8b8eff88c51a9d328ed661e",
+      "combined": "37ea59040faf84aa975048e765fae8c28449d3c39e5ed562340ee5effeb1feb4",
+      "profiles": "06cbf71b9a38f0471f01695694a1b9adeb0a4ec599ecfd01dd8ebc0908a6da01",
+      "replacements": "fe9e6c52f5a2381394e40372147c78946b6e50c019043d381730c7593df61a73"
+    },
+    "blend_file_sha256": "ede3935c0b1d58be36dcf8a44a3a470b27fc6724400838e3485637dff7fcd24b",
+    "blend_method_note": "When a blend file was supplied, only its checksum was independently read; geometry was audited from source/combined exports and repeated after float32 quantization. This audit did not reopen Blender. Native reopened stream equality is a separate delivery verification."
+  },
+  "native": {
+    "file": "GTSD_Mechanical_Fit_Candidates.blend",
+    "sha256": "ede3935c0b1d58be36dcf8a44a3a470b27fc6724400838e3485637dff7fcd24b",
+    "scenes": 8,
+    "unique_mesh_streams": 1970,
+    "embedded_images": 0,
+    "private_machine_paths": 0
+  },
+  "render": {
+    "images": 9,
+    "actual_blender_render": true,
+    "geometry_identity_verified": true,
+    "visually_reviewed": true,
+    "browser_visual_acceptance": false
+  },
+  "remaining_fields": [
+    {
+      "component": "Turnout crossing and switch blade",
+      "fields": [
+        "which finite source curves form each physical rail",
+        "straight/diverging point state",
+        "frog and flangeway cross-section/width",
+        "z-separated or joined rail foot construction"
+      ],
+      "reason": "Native finite curves constrain five head bands and open junctions but do not identify a complete manufactured crossing. Unchanged rail-body overlaps remain separately visible."
+    },
+    {
+      "component": "Common support plates and moved clips",
+      "fields": [
+        "actual shared-base versus separate-part design",
+        "mounting hole positions",
+        "clip thread and axial retention",
+        "machining tolerances and load rating"
+      ],
+      "reason": "Candidate preserves source-position material envelopes and adds explicit continuous support material. It is a buildable geometric alternative, not a confirmed source part."
+    },
+    {
+      "component": "Balise installation",
+      "fields": [
+        "measured enclosure dimensions",
+        "actual yaw and mounting bay",
+        "fixing bracket and holes"
+      ],
+      "reason": "Unchanged photo-inferred enclosure is rigidly rotated/reseated into available deck bays; photographs support relation but not precise mounting dimensions."
+    },
+    {
+      "component": "Catenary 4079/F643/B535",
+      "fields": [
+        "4079 measured depth and end fixing",
+        "F643 round or rectangular actual section",
+        "25 versus 25.837209302mm hole-location version",
+        "pin axial retention/thread/tolerances",
+        "contact wire and messenger end interfaces"
+      ],
+      "reason": "Explicit source-version and section candidates remove target nonconnection intersections. End connection material overlap is reported separately."
+    },
+    {
+      "component": "Pantograph C/D joint",
+      "fields": [
+        "actual pin diameter/tolerance",
+        "axial stack and bearing arrangement",
+        "joint compliance/clearance under load"
+      ],
+      "reason": "Native circle offsets are accommodated nominally without moving source holes; a 7.9mm pin is a configurable study parameter only."
+    }
+  ],
+  "rail_source_review": {
+    "direct_model_entities_checked": 2738,
+    "finite_curves_disclosed": 57,
+    "paired_head_band_intervals": 5,
+    "additional_source_detail_lines": 6,
+    "new_solid_geometry": 0,
+    "topology_fields": "components/track_support/rail_body_review/topology_candidate_fields.json",
+    "scope_note": "Rail branch connectivity audit over all direct Model entities, not a new whole-CAD material-volume audit."
+  },
+  "clamps_auxiliary_review": [
+    {
+      "interface": "50DF4 pin / F643_profile_0",
+      "classification": "NOMINAL_ZERO_MARGIN_SOURCE_INTERFACE",
+      "before": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 4.000186920166016,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.0
+      },
+      "after": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 0.0,
+        "breakpoint_count": 62
+      }
+    },
+    {
+      "interface": "518DF native upper tube / native ring",
+      "classification": "UNCHANGED_ALREADY_CLEAR_NATIVE_INTERFACE",
+      "before": {
+        "method": "conservative convex projection of actual tube triangles clipped to ring Y slab against actual ring cap material",
+        "projection_overlap_area_mm2": 0.0,
+        "guaranteed_min_clearance_mm": 0.4160443675558234,
+        "positive_volume_overlap_mm3": 0.0,
+        "tube_clipped_points": 1024
+      },
+      "after": {
+        "method": "conservative convex projection of actual tube triangles clipped to ring Y slab against actual ring cap material",
+        "projection_overlap_area_mm2": 0.0,
+        "guaranteed_min_clearance_mm": 0.4160443675558234,
+        "positive_volume_overlap_mm3": 0.0,
+        "tube_clipped_points": 1024
+      }
+    },
+    {
+      "interface": "518DF messenger / CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate",
+      "classification": "MAIN_PRESERVES_SOURCE_MICRO_OVERLAP; OPTIONAL_DATUM_VARIANT_ONLY",
+      "before": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 7.636182078122518e-06,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.00010690608301814896,
+        "cap_min_clearance_mm": 0.0,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -2.0725347995758057,
+            5.54460991009087e-19,
+            2.09694766998291
+          ],
+          "winding_numbers": [
+            1.0000002126896639,
+            1.000000000000921
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 7.636182078122518e-06,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.00010690608301814896,
+        "cap_min_clearance_mm": 0.0,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -2.0725347995758057,
+            5.54460991009087e-19,
+            2.09694766998291
+          ],
+          "winding_numbers": [
+            1.0000002126896639,
+            1.000000000000921
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "optional_messenger_datum_after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.09942054748535156
+      }
+    },
+    {
+      "interface": "518DF messenger / CAD_SOURCE_518DF_C4D1_4AEC_jaw_upper_square_fit_candidate",
+      "classification": "MAIN_PRESERVES_SOURCE_MICRO_OVERLAP; OPTIONAL_DATUM_VARIANT_ONLY",
+      "before": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.14794035835953895
+      },
+      "after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.14794035835953895
+      },
+      "optional_messenger_datum_after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.09954282876861978
+      }
+    },
+    {
+      "interface": "51409 pin / F643_profile_0",
+      "classification": "NOMINAL_ZERO_MARGIN_SOURCE_INTERFACE",
+      "before": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 3.9997100830078125,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.0
+      },
+      "after": {
+        "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+        "volume_mm3": 0.0,
+        "breakpoint_count": 62
+      }
+    },
+    {
+      "interface": "518E0 native upper tube / native ring",
+      "classification": "UNCHANGED_ALREADY_CLEAR_NATIVE_INTERFACE",
+      "before": {
+        "method": "conservative convex projection of actual tube triangles clipped to ring Y slab against actual ring cap material",
+        "projection_overlap_area_mm2": 0.0,
+        "guaranteed_min_clearance_mm": 0.4160443675558234,
+        "positive_volume_overlap_mm3": 0.0,
+        "tube_clipped_points": 1024
+      },
+      "after": {
+        "method": "conservative convex projection of actual tube triangles clipped to ring Y slab against actual ring cap material",
+        "projection_overlap_area_mm2": 0.0,
+        "guaranteed_min_clearance_mm": 0.4160443675558234,
+        "positive_volume_overlap_mm3": 0.0,
+        "tube_clipped_points": 1024
+      }
+    },
+    {
+      "interface": "518E0 messenger / CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate",
+      "classification": "MAIN_PRESERVES_SOURCE_MICRO_OVERLAP; OPTIONAL_DATUM_VARIANT_ONLY",
+      "before": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 7.636182078122518e-06,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.00010690608301814896,
+        "cap_min_clearance_mm": 0.0,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -6.072535037994385,
+            5.54460991009087e-19,
+            2.09694766998291
+          ],
+          "winding_numbers": [
+            0.9999996188170508,
+            1.000000000000921
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 7.636182078122518e-06,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.00010690608301814896,
+        "cap_min_clearance_mm": 0.0,
+        "positive_volume_witness": {
+          "point_world_m": [
+            -6.072535037994385,
+            5.54460991009087e-19,
+            2.09694766998291
+          ],
+          "winding_numbers": [
+            0.9999996188170508,
+            1.000000000000921
+          ],
+          "both_strictly_inside": true
+        }
+      },
+      "optional_messenger_datum_after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.09942054748535156
+      }
+    },
+    {
+      "interface": "518E0 messenger / CAD_SOURCE_518E0_C4D1_4AEC_jaw_upper_square_fit_candidate",
+      "classification": "MAIN_PRESERVES_SOURCE_MICRO_OVERLAP; OPTIONAL_DATUM_VARIANT_ONLY",
+      "before": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.14794035835953895
+      },
+      "after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.14794035835953895
+      },
+      "optional_messenger_datum_after": {
+        "method": "intersection of actual triangulated end caps times common extrusion depth",
+        "area_mm2": 0.0,
+        "depth_mm": 13.99993896484375,
+        "volume_mm3": 0.0,
+        "cap_min_clearance_mm": 0.09954282876861978
+      }
+    }
+  ],
+  "pantograph_circular_fit": {
+    "schema": "gtsd-pantograph-circular-fit-review-v1",
+    "units": "mm",
+    "pin_diameter_mm": 7.9,
+    "pin_diameter_evidence": "EXPLICIT_REPLACEABLE_ENGINEERING_PARAMETER_NOT_MEASURED",
+    "minimum_radial_clearance_mm": 0.0,
+    "source_inputs_sha256": "85034cc3a2becdd62715be7cc255a4633003c990f41984b4bfc1eafc675dc1de",
+    "source_dxf_sha256": "73f9eeb145cfbda5f01d1302d3e6e09d2d81e707ff7776187d899100f654f143",
+    "interfaces": [
+      {
+        "interface": "C",
+        "native_center_offset_mm": 0.005876210293366559,
+        "outer_hole_diameter_mm": 8.2,
+        "tie_hole_diameter_mm": 8.0,
+        "pin_axis_choice": "NATIVE_TIE_HOLE_AXIS_RESEARCH_CHOICE",
+        "outer_radial_margin_mm": 0.14412378970663298,
+        "tie_radial_margin_mm": 0.04999999999999982,
+        "conservative_render_polygon_margin_mm": 0.04879527478481682,
+        "maximum_common_pin_diameter_mm": 8.0,
+        "outer_axis_comparison": {
+          "axis_choice": "NATIVE_OUTER_HOLE_AXIS",
+          "outer_radial_margin_mm": 0.14999999999999947,
+          "tie_radial_margin_mm": 0.04412378970663333,
+          "maximum_common_pin_diameter_mm": 7.988247579413267,
+          "nominal_circles_fit": true,
+          "mapping_note": "Existing H1 C hinge uses the outer plate axis, not the tie-axis study choice. H1 D is an equality closure. This comparison does not change either solver axis or the source meshes."
+        },
+        "nominal_circles_fit": true,
+        "polygonal_display_fit": true,
+        "source_handles": [
+          "2790",
+          "29EB"
+        ],
+        "source_paths": [
+          [
+            "2B30",
+            "2A35"
+          ],
+          [
+            "2B2E"
+          ]
+        ],
+        "source_geometry_moved_or_scaled": false,
+        "axial_stack_confirmed": false,
+        "hole_size_is_not_measured_pin_size": true
+      },
+      {
+        "interface": "D",
+        "native_center_offset_mm": 0.007678724238958496,
+        "outer_hole_diameter_mm": 8.2,
+        "tie_hole_diameter_mm": 8.0,
+        "pin_axis_choice": "NATIVE_TIE_HOLE_AXIS_RESEARCH_CHOICE",
+        "outer_radial_margin_mm": 0.1423212757610406,
+        "tie_radial_margin_mm": 0.04999999999999982,
+        "conservative_render_polygon_margin_mm": 0.04879527478481682,
+        "maximum_common_pin_diameter_mm": 8.0,
+        "outer_axis_comparison": {
+          "axis_choice": "NATIVE_OUTER_HOLE_AXIS",
+          "outer_radial_margin_mm": 0.14999999999999947,
+          "tie_radial_margin_mm": 0.04232127576104139,
+          "maximum_common_pin_diameter_mm": 7.984642551522083,
+          "nominal_circles_fit": true,
+          "mapping_note": "Existing H1 C hinge uses the outer plate axis, not the tie-axis study choice. H1 D is an equality closure. This comparison does not change either solver axis or the source meshes."
+        },
+        "nominal_circles_fit": true,
+        "polygonal_display_fit": true,
+        "source_handles": [
+          "2A06",
+          "29E2"
+        ],
+        "source_paths": [
+          [
+            "2B2F"
+          ],
+          [
+            "2B2E"
+          ]
+        ],
+        "source_geometry_moved_or_scaled": false,
+        "axial_stack_confirmed": false,
+        "hole_size_is_not_measured_pin_size": true
+      }
+    ],
+    "new_physics": false,
+    "as_built": false,
+    "conclusion": "Native C/D offsets alone are not proof of material interference. The 8.2 mm outer holes admit an 8 mm nominal pin on the 8 mm tie-hole axes in exact circle geometry; tie clearance, tolerances and axial stack remain unconfirmed."
+  }
+}

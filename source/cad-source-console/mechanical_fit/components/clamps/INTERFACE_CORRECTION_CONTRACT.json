@@ -1,0 +1,418 @@
+{
+  "schema": "gtsd-clamp-interface-readonly-audit-v1",
+  "source_dxf": {
+    "path": "evidence://gtsd-cad-1011/converted/CAD.review.dxf",
+    "sha256": "f45c517fa9a2e5059742f855b94f8eca842c97abd9b54c6b027a3ce8d18cb5e2",
+    "raw_records_read_directly": true
+  },
+  "execution_scope": {
+    "whole_model_modified": false,
+    "heavy_blender_run": false,
+    "geometric_corrections_applied": false,
+    "only_output_directory": "evidence://gtsd-clamp-interface-audit-1012"
+  },
+  "disposition": "VIEWABLE_CANDIDATE_ASSEMBLY_WITH_REAL_UNRESOLVED_SOLID_OVERLAPS; not a collision-certified assembly",
+  "4079": {
+    "identity": "Independent 525.5359480077604 mm long front projection; NOT the 30 mm C4D1/4AEC upper stem in another view.",
+    "native_geometry": {
+      "3BD17": "Open four-vertex LWPOLYLINE, flags=0, const_width=0; u=0.000000010..5.000000010, v=5.000000010..528.035948018 mm.",
+      "3BD18_3BD19": "Two radius 2.5 mm circles in that same XY drawing plane; center separation 525.5359480077604 mm. They are not 3D cross-section measurements perpendicular to the constructed Z axis.",
+      "full_projected_bounds_mm": [
+        [
+          1e-08,
+          1e-08
+        ],
+        [
+          5.00000001,
+          530.5359480177576
+        ]
+      ]
+    },
+    "native_records_reference": "raw_source_evidence.json/raw_blocks/zw$4079",
+    "instances": [
+      {
+        "station": "518DF",
+        "native_front_instance": "50DF8",
+        "actual_native_path": "50DF8 -> zw$4079 -> 3BD17,3BD18,3BD19",
+        "legacy_mesh_name": "CAD_518DF_4079_vertical_link",
+        "nominal_front_registered_center_Y_m": -5.946246783533442e-07,
+        "native_end_circle_center_Z_m": [
+          1.5689120330677395,
+          2.0944479810755
+        ],
+        "native_front_total_extent_Z_m": [
+          1.5664120330677396,
+          2.0969479810755
+        ],
+        "legacy_cylinder_centerline_Z_m": [
+          1.5689120330577424,
+          2.0944479810577423
+        ],
+        "legacy_assumed_depth_X_m": -2.072534868727,
+        "front_mapping_qualified_as": "Y and Z are source-supported within the already adopted front-view registration datum. World X equals mast station only because legacy local_front_matrix receives station; this view does not independently measure X depth.",
+        "native_to_square_stem_center_Y_difference_mm": 8.0
+      },
+      {
+        "station": "518E0",
+        "native_front_instance": "5140D",
+        "actual_native_path": "5140D -> zw$4079 -> 3BD17,3BD18,3BD19",
+        "legacy_mesh_name": "CAD_518E0_4079_vertical_link",
+        "nominal_front_registered_center_Y_m": -5.946246855697938e-07,
+        "native_end_circle_center_Z_m": [
+          1.5689120330677395,
+          2.0944479810755
+        ],
+        "native_front_total_extent_Z_m": [
+          1.5664120330677396,
+          2.0969479810755
+        ],
+        "legacy_cylinder_centerline_Z_m": [
+          1.5689120330577424,
+          2.0944479810577423
+        ],
+        "legacy_assumed_depth_X_m": -6.072534868727,
+        "front_mapping_qualified_as": "Y and Z are source-supported within the already adopted front-view registration datum. World X equals mast station only because legacy local_front_matrix receives station; this view does not independently measure X depth.",
+        "native_to_square_stem_center_Y_difference_mm": 8.0
+      }
+    ],
+    "legacy_reconstruction": {
+      "builder": "evidence://gtsd-static-cad-assembly-1012/scripts/build_assemblies.py",
+      "source_lines": "local_front_matrix lines 65-69; cylinder construction lines 202-205",
+      "assumptions": [
+        "Z-oriented constant round cylinder radius 2.5 mm",
+        "World X depth equals mast station",
+        "Cylinder endpoints at source circle centers, not full outer-circle extent"
+      ],
+      "source_registration_boundary": "No unique orthogonal 4079 component path establishing its depth or round Z-cylinder interpretation found in provided source. CC83 has no nested 4079 INSERT. Similar 5 mm lines in its complex mast view are not an identity match."
+    },
+    "comparison_to_new_stem": {
+      "source_paths": [
+        "C4D1/3A97C",
+        "4AEC/3A985"
+      ],
+      "projected_dimensions_mm": [
+        5,
+        5,
+        30
+      ],
+      "new_stem_Z_m": [
+        2.088047981075499,
+        2.118047981075499
+      ],
+      "new_stem_center_Y_m": 0.007999405375325286,
+      "not_same_member": true
+    },
+    "intersection_status": "Actual positive solid overlap with both ring and lower jaw, proved independently of AABB; see geometry_overlap_verification.json.",
+    "unique_source_correction_available": false,
+    "contract": [
+      "Keep 4079 as its own source-review candidate; do not delete/deduplicate against upper stem.",
+      "Preserve source-supported Y/Z projection and explicit existing candidate transform. Do not claim old assumed X depth/round section is native-confirmed.",
+      "Do not translate, shorten, bend, remove, or cut slots in ring/jaw merely to eliminate this collision.",
+      "Current candidate assembly may retain visible rod and real-overlap warning. Any collision-free alternative must be a separately named unresolved design candidate, with source review preserved."
+    ]
+  },
+  "F643_profile_2": {
+    "native_paths": [
+      "50DF4/zw$F643/3A9C5 -> zw$A3AD/3A9BA",
+      "51409/zw$F643/3A9C5 -> zw$A3AD/3A9BA"
+    ],
+    "native_shape": "Closed 40 by 5 mm rectangle in front-view plane; profile v=55.24596639400261..60.24596639400261 mm.",
+    "legacy_shape": "Extruded by common source_profiles() thickness 4 mm in world X; 4 by 5 mm rectangular cross section and 40 mm world Y length.",
+    "bolt_identity_confirmed": false,
+    "round_section_confirmed": false,
+    "4mm_depth_source_confirmed": false,
+    "native_hole_conflict": {
+      "front_hidden_path": "F643/3A9C3 -> 8A2C/3A99B",
+      "hidden_hole_linetype": "VERDECKT",
+      "hidden_interval_relative_to_strip_bottom_mm": [
+        22,
+        28
+      ],
+      "hidden_center_mm": 25,
+      "A3AD_bar_center_relative_to_strip_bottom_mm": 25,
+      "true_circle_path": "E778/3C772 -> B535/3A9A3",
+      "true_circle_center_relative_to_strip_bottom_mm": 25.8372093023354,
+      "true_circle_diameter_mm": 6,
+      "true_circle_axis_world": [
+        0,
+        1,
+        0
+      ],
+      "center_difference_mm": 0.8372093023354,
+      "classification": "CONFLICTING_NATIVE_ORTHOGRAPHIC_HOLE_LOCATIONS; not a Float32 or registration-rounding issue"
+    },
+    "round5_hypothesis_still_not_fit": {
+      "hypothetical_pin_radius_mm": 2.5,
+      "hole_radius_mm": 3,
+      "radial_clearance_mm": 0.5,
+      "eccentricity_mm": 0.8372093023354,
+      "excess_over_radial_clearance_mm": 0.3372093023354,
+      "this_is_not_authority_to_replace_profile": true
+    },
+    "unique_source_correction_available": false,
+    "contract": [
+      "Retain 3A9BA native rectangle, B535 native circle, and 8A2C hidden projection as separate evidence.",
+      "Do not call profile_2 a verified existing bolt or assign an inferred cylindrical section as factual geometry.",
+      "Do not move pin up0.837209302 mm, move the B535 hole, enlarge the hole, or change depth to make a visual fit without additional authority/evidence.",
+      "Retain both station source routes as candidates and label real material overlap. This audit does not resolve second-station front/plan mirror conflict."
+    ]
+  },
+  "verified_local_geometry": {
+    "method": "Original JSON vertices converted to Float32 exactly as native_validation confirms for the native readback, then promoted to Float64 for analysis. GEOS cap intersections and piecewise polynomial integration; solid-angle witnesses plus nearest-triangle distances prove positive solid overlap independently of AABBs. No Blender.",
+    "lower": [
+      {
+        "front": "50DF4",
+        "old_bar_bounds_m": [
+          [
+            -2.0745348930358887,
+            0.21729469299316406,
+            1.6231579780578613
+          ],
+          [
+            -2.0705347061157227,
+            0.2572946846485138,
+            1.6281579732894897
+          ]
+        ],
+        "hole_center_world_m": [
+          -2.072534868727,
+          0.24529466985261383,
+          1.6264952087640776
+        ],
+        "serialized_bar_center_minus_hole_Z_mm": -0.8372330904020675,
+        "intersection_area_mm2": 2.312047348865643,
+        "overlap_depth_mm": 3.9999932050704956,
+        "serialized_solid_overlap_mm3": 9.248173685263824,
+        "positive_volume_witness_world_m": [
+          -2.072534868727,
+          0.24529466985261383,
+          1.6232579780578613
+        ],
+        "witness_checks": [
+          {
+            "mesh": "REPAIR_50DF4_F643_profile_1_B535",
+            "winding_number": 0.9999999999999983,
+            "nearest_surface_mm": 0.23724309021720508
+          },
+          {
+            "mesh": "CAD_50DF4_F643_profile_2",
+            "winding_number": 0.9999999999999988,
+            "nearest_surface_mm": 0.09999999999998899
+          }
+        ]
+      },
+      {
+        "front": "51409",
+        "old_bar_bounds_m": [
+          [
+            -6.074534893035889,
+            -0.2572958469390869,
+            1.6231579780578613
+          ],
+          [
+            -6.070535182952881,
+            -0.21729585528373718,
+            1.6281579732894897
+          ]
+        ],
+        "hole_center_world_m": [
+          -6.072534868727,
+          -0.2452958591019705,
+          1.6264952087640776
+        ],
+        "serialized_bar_center_minus_hole_Z_mm": -0.8372330904020675,
+        "intersection_area_mm2": 2.3115296886546957,
+        "overlap_depth_mm": 3.9999932050704956,
+        "serialized_solid_overlap_mm3": 9.2461030479375,
+        "positive_volume_witness_world_m": [
+          -6.072534868727,
+          -0.2452958591019705,
+          1.6232579780578613
+        ],
+        "witness_checks": [
+          {
+            "mesh": "REPAIR_51409_F643_profile_1_B535",
+            "winding_number": 1.0,
+            "nearest_surface_mm": 0.2372431405233222
+          },
+          {
+            "mesh": "CAD_51409_F643_profile_2",
+            "winding_number": 1.0000000000000002,
+            "nearest_surface_mm": 0.09999999999998899
+          }
+        ]
+      }
+    ],
+    "upper": [
+      {
+        "side": "518DF",
+        "old_link_bounds_m": [
+          [
+            -2.0750348567962646,
+            -0.0025005945935845375,
+            1.568912148475647
+          ],
+          [
+            -2.0700347423553467,
+            0.0024994052946567535,
+            2.0944480895996094
+          ]
+        ],
+        "serialized_link_ring_overlap_mm3": 73.91437250721084,
+        "integration_breakpoint_count": 73,
+        "ring_volume_method": "Intersect exact serialized link XY cap with ring Y slab; integrate Y-overlap length times exact serialized ring XZ cap vertical length using piecewise 3-point Gaussian quadrature. Product is quadratic between polygon-vertex breakpoints. Crown slot and ear bores do not intersect this link Y/X interval.",
+        "positive_volume_witnesses": [
+          {
+            "other": "CAD_SOURCE_518DF_C4D1_4AEC_ring_square_fit_candidate",
+            "point_world_m": [
+              -2.0725347995758057,
+              0.000999405350536108,
+              2.055547981075499
+            ],
+            "checks": [
+              {
+                "mesh": "CAD_518DF_4079_vertical_link",
+                "winding_number": 1.0000000000000397,
+                "nearest_surface_mm": 1.4981938579559917
+              },
+              {
+                "mesh": "CAD_SOURCE_518DF_C4D1_4AEC_ring_square_fit_candidate",
+                "winding_number": 1.0000000000000002,
+                "nearest_surface_mm": 1.499442867491041
+              }
+            ]
+          },
+          {
+            "other": "CAD_SOURCE_518DF_C4D1_4AEC_ring_square_fit_candidate",
+            "point_world_m": [
+              -2.0725347995758057,
+              0.000999405350536108,
+              2.089547981075499
+            ],
+            "checks": [
+              {
+                "mesh": "CAD_518DF_4079_vertical_link",
+                "winding_number": 0.9999999999999996,
+                "nearest_surface_mm": 1.4981938579559917
+              },
+              {
+                "mesh": "CAD_SOURCE_518DF_C4D1_4AEC_ring_square_fit_candidate",
+                "winding_number": 1.0,
+                "nearest_surface_mm": 1.4995443303846834
+              }
+            ]
+          },
+          {
+            "other": "CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate",
+            "point_world_m": [
+              -2.0725347995758057,
+              0.000999405350536108,
+              2.092747981075499
+            ],
+            "checks": [
+              {
+                "mesh": "CAD_518DF_4079_vertical_link",
+                "winding_number": 1.0000000000000002,
+                "nearest_surface_mm": 1.4981938579559917
+              },
+              {
+                "mesh": "CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate",
+                "winding_number": 1.0,
+                "nearest_surface_mm": 1.6999788324572052
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "side": "518E0",
+        "old_link_bounds_m": [
+          [
+            -6.075035095214844,
+            -0.0025005945935845375,
+            1.568912148475647
+          ],
+          [
+            -6.070034980773926,
+            0.0024994052946567535,
+            2.0944480895996094
+          ]
+        ],
+        "serialized_link_ring_overlap_mm3": 73.9140265190552,
+        "integration_breakpoint_count": 73,
+        "ring_volume_method": "Intersect exact serialized link XY cap with ring Y slab; integrate Y-overlap length times exact serialized ring XZ cap vertical length using piecewise 3-point Gaussian quadrature. Product is quadratic between polygon-vertex breakpoints. Crown slot and ear bores do not intersect this link Y/X interval.",
+        "positive_volume_witnesses": [
+          {
+            "other": "CAD_SOURCE_518E0_C4D1_4AEC_ring_square_fit_candidate",
+            "point_world_m": [
+              -6.072535037994385,
+              0.000999405350536108,
+              2.055547981075499
+            ],
+            "checks": [
+              {
+                "mesh": "CAD_518E0_4079_vertical_link",
+                "winding_number": 1.0000000000000397,
+                "nearest_surface_mm": 1.4981938579559917
+              },
+              {
+                "mesh": "CAD_SOURCE_518E0_C4D1_4AEC_ring_square_fit_candidate",
+                "winding_number": 1.0,
+                "nearest_surface_mm": 1.499442867491041
+              }
+            ]
+          },
+          {
+            "other": "CAD_SOURCE_518E0_C4D1_4AEC_ring_square_fit_candidate",
+            "point_world_m": [
+              -6.072535037994385,
+              0.000999405350536108,
+              2.089547981075499
+            ],
+            "checks": [
+              {
+                "mesh": "CAD_518E0_4079_vertical_link",
+                "winding_number": 0.9999999999999999,
+                "nearest_surface_mm": 1.4981938579559917
+              },
+              {
+                "mesh": "CAD_SOURCE_518E0_C4D1_4AEC_ring_square_fit_candidate",
+                "winding_number": 1.0,
+                "nearest_surface_mm": 1.4995443303846834
+              }
+            ]
+          },
+          {
+            "other": "CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate",
+            "point_world_m": [
+              -6.072535037994385,
+              0.000999405350536108,
+              2.092747981075499
+            ],
+            "checks": [
+              {
+                "mesh": "CAD_518E0_4079_vertical_link",
+                "winding_number": 1.0000000000000002,
+                "nearest_surface_mm": 1.4981938579559917
+              },
+              {
+                "mesh": "CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate",
+                "winding_number": 1.0,
+                "nearest_surface_mm": 1.6999788324572052
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remaining_validation_boundaries": [
+    "Overlap calculations use native-compatible Float32 source vertices promoted to Float64 for analysis. These two overlap families are proved nonzero.",
+    "No conclusion about other triangle-intersection pairs is inferred from AABB extent alone. Nominal zero-gap stem/slot contacts need separate contact/tolerance interpretation.",
+    "No as-built, fastener, preload, physical collision, mass, or electrical certification."
+  ],
+  "public_copy_provenance": {
+    "original_contract_sha256": "78044f0c06ce745a6ddfb45d96efb58097d38fd7f5346d81507fa0f7407f0b59",
+    "change": "Absolute workstation paths replaced by logical evidence identifiers; all geometry numbers and source handles preserved."
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "scope": "All 2738 direct Model-space entity records, not merely the original 237-track subset",
+  "entity_type_counts": {
+    "LINE": 1464,
+    "HATCH": 10,
+    "LWPOLYLINE": 441,
+    "ARC": 230,
+    "CIRCLE": 255,
+    "TEXT": 1,
+    "INSERT": 156,
+    "DIMENSION": 6,
+    "MTEXT": 15,
+    "SPLINE": 156,
+    "MULTILEADER": 4
+  },
+  "target_world_XY_mm": {
+    "open_4ED2C": [
+      -2461.2412543540777,
+      188.37463649437268
+    ],
+    "gap_left_4ECED": [
+      -8692.372752222807,
+      239.16666666669335
+    ],
+    "gap_right_4ECEC": [
+      -8583.948356602406,
+      239.16666666669335
+    ]
+  },
+  "connections_within_0p1mm": {
+    "open_4ED2C": [
+      {
+        "handle": "4ED2C",
+        "native_record_id": 201068,
+        "type": "LINE",
+        "raw_line_range": [
+          8141635,
+          8141660
+        ],
+        "already_in_reviewed_curve_graph": true,
+        "matches": [
+          {
+            "relation": "LITERAL_POINT_OR_ENDPOINT",
+            "index": 1,
+            "distance_mm": 0.0
+          }
+        ]
+      }
+    ],
+    "gap_left_4ECED": [
+      {
+        "handle": "4ECED",
+        "native_record_id": 201005,
+        "type": "LINE",
+        "raw_line_range": [
+          8139783,
+          8139808
+        ],
+        "already_in_reviewed_curve_graph": true,
+        "matches": [
+          {
+            "relation": "LITERAL_POINT_OR_ENDPOINT",
+            "index": 0,
+            "distance_mm": 0.0
+          }
+        ]
+      },
+      {
+        "handle": "4ECFE",
+        "native_record_id": 201022,
+        "type": "LINE",
+        "raw_line_range": [
+          8140321,
+          8140346
+        ],
+        "already_in_reviewed_curve_graph": true,
+        "matches": [
+          {
+            "relation": "LITERAL_POINT_OR_ENDPOINT",
+            "index": 0,
+            "distance_mm": 2.9103830456733704e-11
+          }
+        ]
+      },
+      {
+        "handle": "4ED5E",
+        "native_record_id": 201118,
+        "type": "LINE",
+        "raw_line_range": [
+          8142805,
+          8142828
+        ],
+        "already_in_reviewed_curve_graph": true,
+        "matches": [
+          {
+            "relation": "LITERAL_POINT_OR_ENDPOINT",
+            "index": 0,
+            "distance_mm": 3.4924596548080444e-10
+          }
+        ]
+      },
+      {
+        "handle": "4ED67",
+        "native_record_id": 201127,
+        "type": "LINE",
+        "raw_line_range": [
+          8143035,
+          8143058
+        ],
+        "already_in_reviewed_curve_graph": true,
+        "matches": [
+          {
+            "relation": "LITERAL_POINT_OR_ENDPOINT",
+            "index": 0,
+            "distance_mm": 2.9103830456733704e-11
+          }
+        ]
+      }
+    ],
+    "gap_right_4ECEC": [
+      {
+        "handle": "4ECEC",
+        "native_record_id": 201004,
+        "type": "LINE",
+        "raw_line_range": [
+          8139757,
+          8139782
+        ],
+        "already_in_reviewed_curve_graph": true,
+        "matches": [
+          {
+            "relation": "LITERAL_POINT_OR_ENDPOINT",
+            "index": 1,
+            "distance_mm": 0.0
+          }
+        ]
+      },
+      {
+        "handle": "4ED02",
+        "native_record_id": 201026,
+        "type": "LINE",
+        "raw_line_range": [
+          8140425,
+          8140450
+        ],
+        "already_in_reviewed_curve_graph": true,
+        "matches": [
+          {
+            "relation": "LITERAL_POINT_OR_ENDPOINT",
+            "index": 0,
+            "distance_mm": 0.0
+          }
+        ]
+      }
+    ]
+  },
+  "limits": "Checks literal endpoints/vertices/centers and exact finite LINE interiors. It does not mistake INSERT centers or drafting marker centers for rail boundaries. Nonlinear curve interiors outside already reviewed track bands are not proven absent by this endpoint scan."
+}
