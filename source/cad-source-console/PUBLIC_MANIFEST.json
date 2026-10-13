@@ -19,8 +19,8 @@
       "sha256": "66c1af1ef337fc991440aa543277b7bf4be1c2585980e78d3a65fe0101ec8c75"
     },
     "README.md": {
-      "bytes": 6580,
-      "sha256": "33915425ab5fd5bd5149630309bc27c7fe6452a4952cb370bf3bb1860df667f2"
+      "bytes": 7048,
+      "sha256": "f7c8a51421504e25ad5fb4d772db46803c22de9d99c453450ff550e8a2b02829"
     },
     "baseline_console/GTSD_Assembly_Console/BUNDLE_MANIFEST.json": {
       "bytes": 53188,
@@ -41,6 +41,64 @@
     "baseline_console/GTSD_Assembly_Console/app/console_config.json": {
       "bytes": 678,
       "sha256": "9bdda3fe4f447fac9ce0abea08752d87866319fd221b93a3fc7e9161b3342ddc"
+    },
+    "baseline_console/GTSD_Assembly_Console/app/data/catalog.json": {
+      "bytes": 2723085,
+      "sha256": "06290655bd929b3e531f24a7adb0b829d3423c22da29fca8e96a10e7394e32eb"
+    },
+    "baseline_console/GTSD_Assembly_Console/app/data/mapping_bundle.json": {
+      "bytes": 2455376,
+      "sha256": "4f55aa9e56d6b9c04936c5a1162993e6f5bf2d2eaf3fcf7cc30c4beae5bbdeea"
+    },
+    "baseline_console/GTSD_Assembly_Console/app/data/scene_extras.json.gz": {
+      "bytes": 254273,
+      "sha256": "36dc014d8422deca5847bb6e4184bbc43b28883ff04db48e14af90ebc5c98990"
+    },
+    "baseline_console/GTSD_Assembly_Console/app/evidence/actual_checkpoint_step1.json": {
+      "bytes": 262008,
+      "sha256": "cd4a8a0a922fd5fd55ee8b64ca883e902ebfc78cbee560c84df30e25c286ef9b"
+    },
+    "baseline_console/GTSD_Assembly_Console/app/evidence/actual_checkpoint_step2.json": {
+      "bytes": 267756,
+      "sha256": "2e27205bcc29a35ecdb19d2b0847b82874c498beff5c06a609e16ca4f6575ba9"
+    },
+    "baseline_console/GTSD_Assembly_Console/app/evidence/actual_geometry_js.json": {
+      "bytes": 1202,
+      "sha256": "35fe9a668580da2511854255a52b48b53d680b90392c7759f8addafc7cd497eb"
+    },
+    "baseline_console/GTSD_Assembly_Console/app/evidence/actual_geometry_js.log": {
+      "bytes": 1202,
+      "sha256": "35fe9a668580da2511854255a52b48b53d680b90392c7759f8addafc7cd497eb"
+    },
+    "baseline_console/GTSD_Assembly_Console/app/evidence/actual_http.log": {
+      "bytes": 1805,
+      "sha256": "a99f89142614aac73d52fab246d376a0b10bed7beaeed87140ecee0710b9f4c0"
+    },
+    "baseline_console/GTSD_Assembly_Console/app/evidence/actual_http_requests.json": {
+      "bytes": 20592,
+      "sha256": "e8b8effa54eca937e44afddf5de5fd985866b48b472a7a59359333a8d66ef510"
+    },
+    "baseline_console/GTSD_Assembly_Console/app/evidence/actual_http_result.json": {
+      "bytes": 1805,
+      "sha256": "a99f89142614aac73d52fab246d376a0b10bed7beaeed87140ecee0710b9f4c0"
+    },
+    "baseline_console/GTSD_Assembly_Console/app/evidence/actual_runtime_continued.json": {
+      "bytes": 10573,
+      "sha256": "ce71958cc35b5c18b02e75a8478cb7844f4a5c5271c762f3ac31babcfe62b262"
+    },
+    "baseline_console/GTSD_Assembly_Console/app/evidence/actual_runtime_follow.json": {
+      "bytes": 2157,
+      "sha256": "1e8164ac3fac10300e96e10aca16df224efed237886b99601d11d2c8029b924d"
+    },
+    "baseline_console/GTSD_Assembly_Console/app/evidence/actual_runtime_follow.log": {
+      "bytes": 2157,
+      "sha256": "1e8164ac3fac10300e96e10aca16df224efed237886b99601d11d2c8029b924d"
+    },
+    "baseline_console/GTSD_Assembly_Console/app/evidence/actual_runtime_initial.json": {
+      "bytes": 6072,
+      "sha256": "73474fe4fe1418eb118719494355ac33273b87ce0be4de1e22bf2ee047504169"
+    },
+    "baseline_console/GTSD_Assembly_Console/app/evidence/actual_runtime_restored.    "sha256": "9bdda3fe4f447fac9ce0abea08752d87866319fd221b93a3fc7e9161b3342ddc"
     },
     "baseline_console/GTSD_Assembly_Console/app/data/catalog.json": {
       "bytes": 2723085,
@@ -2551,8 +2609,8 @@
       "sha256": "b47740143b7747607c82576353e624f25e510eebce199c8c10cffc046d1a5c0d"
     },
     "prepare_assets.py": {
-      "bytes": 4265,
-      "sha256": "b118ede47ea6a60748fddc5cd89fa0361e72809263b752c3c1cfcf2a7b6c9835"
+      "bytes": 7408,
+      "sha256": "abde397048fed03d3b665e7898f4886041fea733235cb6fb6ef575a932ed3da9"
     },
     "requirements.txt": {
       "bytes": 27,
@@ -2565,6 +2623,14 @@
     "tests/test_prepare_assets.py": {
       "bytes": 2947,
       "sha256": "d195b64ebe61f012c719eee96ad91dd5d2e552c7e2b4109ba442dea372294825"
+    },
+    "tests/test_selective_assets.py": {
+      "bytes": 13939,
+      "sha256": "2c2a03b9e044ef14eec9495a3ee9187c29c0256cbac4b37b5fd992a5f058262c"
+    },
+    "SELECTIVE_ASSET_RESTORE.md": {
+      "bytes": 3814,
+      "sha256": "6bff057dcffc3bb1fc3942f228ed5b745e2849aaa37b0bf44bef2060335ca023"
     }
   }
 }

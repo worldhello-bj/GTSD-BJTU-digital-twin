@@ -2,6 +2,8 @@
 
 All chunk paths and restored paths stay inside this directory. A modified existing
 asset is rejected, never overwritten. Missing assets are restored automatically.
+By default every manifest asset is required. --only selects exact manifest paths;
+it never declares the whole release complete. --list-assets only lists names.
 """
 from pathlib import Path, PurePosixPath
 import argparse
@@ -23,21 +25,64 @@ def sha_file(path):
     return h.hexdigest()
 
 def safe_path(root, name):
+    if not isinstance(name, str) or not name:
+        raise ValueError('Unsafe asset path: ' + repr(name))
     rel = PurePosixPath(name)
-    if rel.is_absolute() or not rel.parts or '..' in rel.parts or '\\' in name:
+    if (rel.is_absolute() or not rel.parts or '..' in rel.parts
+            or '\\' in name or ':' in name or name != rel.as_posix()
+            or any(ord(c) < 32 or ord(c) == 127 for c in name)):
         raise ValueError('Unsafe asset path: ' + name)
     path = root.joinpath(*rel.parts)
     if not path.resolve().is_relative_to(root.resolve()):
         raise ValueError('Asset path escapes release: ' + name)
     return path
 
-def ensure_assets(root=ROOT, check_only=False):
-    root = Path(root).resolve()
+def select_assets(root, only=None):
+    """Resolve all selectors and paths before any payload reads or writes."""
+    requested = None
+    if only is not None:
+        if isinstance(only, (str, bytes)):
+            raise ValueError('only must be a nonempty sequence of exact asset paths')
+        requested = list(only)
+        if not requested:
+            raise ValueError('only must be a nonempty sequence of exact asset paths')
+        for name in requested:
+            safe_path(root, name)
     manifest = json.loads((root / 'ASSET_MANIFEST.json').read_text(encoding='utf-8'))
     if manifest['schema'] != 'gtsd-public-chunked-assets-v1':
         raise ValueError('Unsupported asset manifest')
-    restored = []
+    by_name = {}
     for asset in manifest['assets']:
+        name = asset['path']
+        safe_path(root, name)
+        if name in by_name:
+            raise ValueError('Duplicate manifest asset path: ' + name)
+        by_name[name] = asset
+    if requested is None:
+        selected = manifest['assets']
+    else:
+        for name in requested:
+            if name not in by_name:
+                raise ValueError('Unknown manifest asset path: ' + name)
+        names = set(requested)
+        # Preserve manifest order and make repeated selectors idempotent.
+        selected = [asset for asset in manifest['assets'] if asset['path'] in names]
+    for asset in selected:
+        for chunk in asset['chunks']:
+            safe_path(root, chunk['path'])
+    return selected, len(manifest['assets'])
+
+def list_assets(root=ROOT, only=None):
+    """List exact asset names without reading chunks or creating any files."""
+    selected, _ = select_assets(Path(root).resolve(), only)
+    return [asset['path'] for asset in selected]
+
+def ensure_assets(root=ROOT, check_only=False, only=None):
+    """Verify/restore all assets, or an explicitly selected nonempty subset."""
+    root = Path(root).resolve()
+    selected, assets_total = select_assets(root, only)
+    restored = []
+    for asset in selected:
         target = safe_path(root, asset['path'])
         packed = bytearray()
         for chunk in asset['chunks']:
@@ -48,6 +93,8 @@ def ensure_assets(root=ROOT, check_only=False):
             packed.extend(data)
         if len(packed) != asset['packed_bytes'] or hashlib.sha256(packed).hexdigest() != asset['packed_sha256']:
             raise ValueError('Whole payload identity mismatch: ' + asset['path'])
+        if target.is_symlink():
+            raise ValueError('Existing asset is a symlink; refusing to replace: ' + asset['path'])
         if target.exists():
             if not target.is_file() or target.stat().st_size != asset['bytes'] or sha_file(target) != asset['sha256']:
                 raise ValueError('Existing asset differs; preserve your work and restore a clean copy: ' + asset['path'])
@@ -78,15 +125,31 @@ def ensure_assets(root=ROOT, check_only=False):
                 os.fsync(out.fileno())
             if temporary.stat().st_size != asset['bytes'] or sha_file(temporary) != asset['sha256']:
                 raise ValueError('Restored identity mismatch: ' + asset['path'])
-            os.replace(temporary, target)
+            # A same-directory hard link publishes the fully verified file
+            # atomically and fails if another writer has created the target.
+            # Never fall back to an overwrite or a partially visible copy.
+            os.link(temporary, target)
             restored.append(asset['path'])
         finally:
             if temporary is not None and temporary.exists():
                 temporary.unlink()
-    return {'ok': True, 'assets_checked': len(manifest['assets']), 'assets_restored': len(restored), 'network_used': False}
+    result = {'ok': True, 'assets_checked': len(selected), 'assets_restored': len(restored), 'network_used': False}
+    if only is not None:
+        result.update(scope='selected', assets_total=assets_total,
+                      selected_assets=[asset['path'] for asset in selected])
+    return result
+
+def main(argv=None, root=ROOT):
+    parser = argparse.ArgumentParser(description=__doc__)
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument('--check-only', action='store_true', help='Verify without creating any missing assets')
+    mode.add_argument('--list-assets', action='store_true', help='List exact manifest paths only; does not verify availability')
+    parser.add_argument('--only', action='append', metavar='ASSET_PATH', help='Select this exact, full manifest asset.path; repeat to select more (no globs or basenames)')
+    args = parser.parse_args(argv)
+    if args.list_assets:
+        print(json.dumps({'assets': list_assets(root, only=args.only), 'network_used': False}, indent=2))
+    else:
+        print(json.dumps(ensure_assets(root, check_only=args.check_only, only=args.only), indent=2))
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--check-only', action='store_true', help='Verify without creating any missing assets')
-    args = parser.parse_args()
-    print(json.dumps(ensure_assets(check_only=args.check_only), indent=2))
+    main()

@@ -86,3 +86,7 @@ python run_acceptance.py
 - 短步恢复验收与已保存的 20 ms 数值研究不证明长期收敛、载荷准确、实机安全或实时性能。原始长程结论不自动继承到新几何。
 
 发布范围和扫描结果见 `PUBLIC_PRIVACY_REPORT.json`；资产和原生身份见 `ASSET_MANIFEST.json`、`integration/source_assembly_native/NATIVE_MANIFEST.json`。
+
+## Selective asset recovery
+
+Use `python prepare_assets.py --list-assets` to inspect exact names and `python prepare_assets.py --only integration/source_assembly_native/GTSD_Source_Assembly_Revision.blend` to restore only the native model after all of its chunks are present. Multiple `--only` selections are supported. Partial recovery does not make the complete console runnable. Default launch and doctor still require every asset. See SELECTIVE_ASSET_RESTORE.md.

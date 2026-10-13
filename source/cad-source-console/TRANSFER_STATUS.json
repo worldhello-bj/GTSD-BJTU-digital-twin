@@ -1,18 +1,16 @@
 {
-  "schema": "gtsd-public-transfer-pending-v4",
+  "schema": "gtsd-public-transfer-pending-v5",
+  "checked_utc": "2026-10-13T08:03:58.591429+00:00",
   "remote_runnable": false,
-  "remote_stage": "partial_runtime_source_and_some_binary_assets",
-  "confirmed_console_tree_files": 431,
-  "missing_utf8_files": 0,
-  "missing_binary_files": 155,
-  "local_complete_snapshot_verified": true,
-  "local_full_snapshot_files": 430,
-  "local_full_snapshot_bytes": 89454117,
-  "local_manifest_sha256": "a4168372d16c1c22308c191b5839d8c20c533a136eb6c6f1ca7f032683261212",
+  "remote_stage": "partial_assets_with_hash_checked_reassembly",
+  "console_tree_files": 454,
+  "planned_asset_count": 57,
+  "complete_assets": 45,
+  "incomplete_assets": 12,
+  "planned_binary_files": 227,
+  "missing_binary_files": 132,
   "missing_paths": [
     "source/cad-source-console/integration/source_assembly_native/track_axis_top.png",
-    "source/cad-source-console/payloads/4650c75ed3906e275d29.000.bin",
-    "source/cad-source-console/payloads/4f55aa9e56d6b9c04936.000.bin",
     "source/cad-source-console/payloads/676ce2a14f5c9ca574e6.000.bin",
     "source/cad-source-console/payloads/676ce2a14f5c9ca574e6.001.bin",
     "source/cad-source-console/payloads/676ce2a14f5c9ca574e6.002.bin",
@@ -20,29 +18,10 @@
     "source/cad-source-console/payloads/676ce2a14f5c9ca574e6.004.bin",
     "source/cad-source-console/payloads/676ce2a14f5c9ca574e6.005.bin",
     "source/cad-source-console/payloads/fe9e6c52f5a2381394e4.000.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.000.000.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.000.001.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.000.002.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.000.003.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.000.004.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.000.005.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.000.006.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.000.007.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.000.008.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.000.009.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.000.010.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.000.011.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.000.012.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.000.013.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.001.000.bin",
     "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.001.001.bin",
     "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.001.002.bin",
     "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.001.003.bin",
     "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.001.004.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.001.005.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.001.006.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.001.007.bin",
-    "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.001.008.bin",
     "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.001.009.bin",
     "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.001.010.bin",
     "source/cad-source-console/payloads/small-300000/08b61aa81c1a3b51c544.001.011.bin",
@@ -147,7 +126,6 @@
     "source/cad-source-console/payloads/small-300000/214d8a70962d2b7363cb.png.001.bin",
     "source/cad-source-console/payloads/small-300000/214d8a70962d2b7363cb.png.002.bin",
     "source/cad-source-console/payloads/small-300000/214d8a70962d2b7363cb.png.003.bin",
-    "source/cad-source-console/payloads/small-300000/49393c81e61ee6ce66fb.000.006.bin",
     "source/cad-source-console/payloads/small-300000/4b749ed1b7e6c28e32f3.png.000.bin",
     "source/cad-source-console/payloads/small-300000/4b749ed1b7e6c28e32f3.png.001.bin",
     "source/cad-source-console/payloads/small-300000/4b749ed1b7e6c28e32f3.png.002.bin",
@@ -161,44 +139,479 @@
     "source/cad-source-console/payloads/small-300000/e496d6fb54e4b91cf88c.png.000.bin",
     "source/cad-source-console/payloads/small-300000/e496d6fb54e4b91cf88c.png.001.bin",
     "source/cad-source-console/payloads/small-300000/e496d6fb54e4b91cf88c.png.002.bin",
-    "source/cad-source-console/payloads/small-300000/ed293cdde26940ba1345.png.000.bin",
     "source/cad-source-console/payloads/small-300000/ed293cdde26940ba1345.png.001.bin",
     "source/cad-source-console/payloads/small-300000/ed293cdde26940ba1345.png.002.bin",
     "source/cad-source-console/payloads/small-300000/ed293cdde26940ba1345.png.003.bin"
   ],
-  "pending_expected_objects_not_referenced": [
-    "28d30ed68ab220e2d33eed1fcc3c4f971d95b741",
-    "c7832ca636044099a7a74940cd9a2563d52c8c22",
-    "41f484761ca82d647f2fd51c13fd69ed9f8a29e0"
-  ],
-  "local_acceptance_is_not_remote_acceptance": true,
-  "blocked_uploads": [
+  "assets": [
     {
-      "asset": "baseline_console/GTSD_Assembly_Console/app/data/mapping_bundle.json",
-      "git_blob_sha1": "b55fc5c9875be0acca0c57864353e88820e68100",
-      "state": "two_explicit_tool_rejections_after_user_authorization; stopped"
+      "path": "baseline_console/GTSD_Assembly_Console/app/data/catalog.json",
+      "bytes": 2723085,
+      "sha256": "06290655bd929b3e531f24a7adb0b829d3423c22da29fca8e96a10e7394e32eb",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
     },
     {
-      "asset": "integration/data/source_library/frame_18068_native_curves.json",
-      "git_blob_sha1": "590f9edffebb73418a0705cfb246a42492922acf",
-      "state": "two_explicit_tool_rejections_after_user_authorization; stopped"
+      "path": "baseline_console/GTSD_Assembly_Console/app/data/mapping_bundle.json",
+      "bytes": 2455376,
+      "sha256": "4f55aa9e56d6b9c04936c5a1162993e6f5bf2d2eaf3fcf7cc30c4beae5bbdeea",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/app/data/scene_extras.json.gz",
+      "bytes": 254273,
+      "sha256": "36dc014d8422deca5847bb6e4184bbc43b28883ff04db48e14af90ebc5c98990",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/app/evidence/actual_checkpoint_step1.json",
+      "bytes": 262008,
+      "sha256": "cd4a8a0a922fd5fd55ee8b64ca883e902ebfc78cbee560c84df30e25c286ef9b",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/app/evidence/actual_checkpoint_step2.json",
+      "bytes": 267756,
+      "sha256": "2e27205bcc29a35ecdb19d2b0847b82874c498beff5c06a609e16ca4f6575ba9",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/assets/whole.glb.gz",
+      "bytes": 24848917,
+      "sha256": "676ce2a14f5c9ca574e63c3f3f1f6ed7c1f5805ab4b58da889b15cac9ce58f87",
+      "chunks": 6,
+      "missing_chunks": 6,
+      "complete": false
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase5_Internal_Coupling/integrated/vendor/bogie/binding.json",
+      "bytes": 216382,
+      "sha256": "a91e0af50e6680942504a5256fd6c94e553da3067f8fcc72d8da7df0ab003b80",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase5_Internal_Coupling/internal_registry/registry.json",
+      "bytes": 6617605,
+      "sha256": "472fa87a9ab5f590f1be2c2d6e49e46a01d3177067040e2528412ad098f92a8a",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase5_Internal_Coupling/web/geometry.json",
+      "bytes": 13162114,
+      "sha256": "7d925267cbfb18d39e64041ea851fc13db2e3a13f6d403eab386235f741d8f43",
+      "chunks": 6,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/cad_body/evidence/retained_mesh_identity.json",
+      "bytes": 361924,
+      "sha256": "dd590bc3615d0980094d25c967f0c0d14cb38f552fc152aae1890fd2b700999a",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/cad_doors/evidence/fan82/retained_mesh_identity.json",
+      "bytes": 513441,
+      "sha256": "c1784dc94517c680bad4f5eb710d3fdb008f07a780a3248185bb07612c98320a",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/cad_doors/evidence/retained_mesh_identity.json",
+      "bytes": 355774,
+      "sha256": "710458616c8662fca39db951b86f9e9d0dedfc3e4a70fd8825eb8f1c7d3eb677",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/body/outputs/body_cad_candidate_meshes.json",
+      "bytes": 497689,
+      "sha256": "46f7e9723e0e510e6b076e91dd764081386cf53ad66839debd850ce686be2a5a",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/doors/outputs/door_cad_candidate_meshes.json",
+      "bytes": 1377134,
+      "sha256": "67dfd34c3e9a2f9776aa63b9acdff48051734ca4d733035660be0d49aba0cd9c",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/encoder/outputs/encoder_candidate_assembly.json",
+      "bytes": 234605,
+      "sha256": "6b0fc211d156c592e30212adc99b0bb08a9c95852ab8cea927ec0c8bd1c6f5cc",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/truth/truth_matrix_109.json",
+      "bytes": 333519,
+      "sha256": "93961c20d6440af38eab1edc5a839e9358aa485a39776133f94cae01e2a0b01d",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "final_review/environment_reference_registration.json",
+      "bytes": 1593957,
+      "sha256": "41b29c9ec3b0efe00383bf52bf0ad5030a9b8f32cb3b54c274cdb0c062273a20",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "frame_track/registration_addendum.json",
+      "bytes": 966892,
+      "sha256": "4216a7c135283db207ae58d5d8b19fde43fbe6a2c642ece3c7b799870f3f499d",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "full_source_audit/bearing_envelopes/bearing_dimension_envelopes.blend",
+      "bytes": 688428,
+      "sha256": "765b7b23aa32461d2aa05b4c17953c393e3df665e047a71a9d00ffd7ff95fbe8",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "full_source_audit/bearing_envelopes/bearing_envelopes.glb",
+      "bytes": 40132,
+      "sha256": "675c5247c96a918e4d2fc6b11e8f12fe9544e08efe571aa6065e48b14dbb7251",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "full_source_audit/semantic_triage/drive_comparison_geometry.json",
+      "bytes": 644092,
+      "sha256": "3197ba46ae5307c8b86966eee3576ade313425ada0d4e326503de020c814afb4",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "full_source_audit/semantic_triage/transformer_fixture_geometry/geometry.json",
+      "bytes": 356859,
+      "sha256": "3467b557deb8d92f54a3df8f771897cd2ae5fe1d4c1e3a7537c05c88bd737c0b",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_audit_index.json",
+      "bytes": 2636058,
+      "sha256": "339af150e5631f10fc0753ef98871fca35554a7864a8824eae40db47d922f293",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/30f0_interpretation.json",
+      "bytes": 275930,
+      "sha256": "6df0690c641bfe07bc82f5f2bb5bf7d8b96738651c84ed1d8a498e00536ebef6",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/600b_native_U_with_plate.json",
+      "bytes": 742788,
+      "sha256": "7af7f2fea77d4ec7e274b3a7c996bdfa011bc1c6ac03b79c0de5ec4be9bf2d03",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/600b_nominal_U_with_plate.json",
+      "bytes": 741239,
+      "sha256": "f7d250aa57e943e3fd3b145966ad80781c718f8512d907d8bfcddb7a610e6faa",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/electrical_flat.json",
+      "bytes": 1445286,
+      "sha256": "db032688ab6ff731b0350f9bae77cd497b267d13072d01cf89e71b1872b95498",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/electrical_fold_clean.json",
+      "bytes": 8334936,
+      "sha256": "10f6f0dec923aae02852aeaeac7e6e6f99864b4fa3a0a00b1465845bbfa96742",
+      "chunks": 6,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/electrical_fold_original.json",
+      "bytes": 8348871,
+      "sha256": "99fa902925fc4c6003d05a066731df77e71485494652b7f153e21430f69b498b",
+      "chunks": 6,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/electrical_t2_clean.json",
+      "bytes": 1227977,
+      "sha256": "01012a566c42aebdd803cb4ac2e887ce86f5591a95eff1087efa6deb71c69ace",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/electrical_t3_clean.json",
+      "bytes": 7013793,
+      "sha256": "5e31cc5ef6f687eba6c87e03e1388f9a38819f4b713491b11ac17644838936e4",
+      "chunks": 5,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/frame_18067_conditional_review.json",
+      "bytes": 955562,
+      "sha256": "1476de394132b5de70dc0d43487174d6586a8c056cf9c0dd2121d1d96407bdad",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/frame_18067_native_curves.json",
+      "bytes": 789843,
+      "sha256": "33311d6d00eabfc068880b555778770d00153c027f187c3eed0c0c81d6b138a4",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/frame_18068_native_curves.json",
+      "bytes": 1102818,
+      "sha256": "4650c75ed3906e275d2997073924404c623eaf4ecefb0bdf1b6704c2c682f830",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/frame_7458_native_curves.json",
+      "bytes": 680174,
+      "sha256": "5dcaa9140cfab9e41473f128412ae73940135b868f139e41fba947ced3f890bc",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/hatch_1_native_curves.json",
+      "bytes": 446945,
+      "sha256": "180e7b78b87752fb9cddad67d004547e95573f61238909fdb3f7e2009840dba9",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/hatch_A_C482318BE_native_curves.json",
+      "bytes": 683162,
+      "sha256": "31b3cda831db96d3a85aebb3e95b9db7fcc1e09fabe44a371eef02ff3b00434f",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/hatch_zw_21EA_native_curves.json",
+      "bytes": 387776,
+      "sha256": "8381fbf3b8970d5d74e1c9d2c5877c34276129e81ca47d2a786d7002c6b757b4",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/mast_base_rods_r15.json",
+      "bytes": 4821638,
+      "sha256": "3eb4d753ea2ef82141b8ccb7051b1dd1a86f26ce67db4e79d92d577f6dd135ef",
+      "chunks": 4,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/ubolt_native.json",
+      "bytes": 704247,
+      "sha256": "126b4725ef7ebf24e531159a31a05add88fd714c5e22853a09cec7a07ee4b61f",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_library/ubolt_nominal.json",
+      "bytes": 702707,
+      "sha256": "11b5466d26e2ce2b14d30257b6e06ad7ec74b3d3fe44957f139d6ac86c924ab6",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_overlays.json",
+      "bytes": 2044576,
+      "sha256": "6f43fae462c7e048eed74383c48aebe49f3f805998bb63805f87175017df1e4f",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/data/source_replacements.json",
+      "bytes": 9145108,
+      "sha256": "fe9e6c52f5a2381394e40372147c78946b6e50c019043d381730c7593df61a73",
+      "chunks": 1,
+      "missing_chunks": 1,
+      "complete": false
+    },
+    {
+      "path": "integration/evidence/initial_state.json",
+      "bytes": 434769,
+      "sha256": "eba62d222e7b824538fc1298eba15847e916b3baa93ff91ba04991cb1afa324d",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/evidence_seats/initial_state.json",
+      "bytes": 437863,
+      "sha256": "27d4f21c41f23a84f22de7943c33b6519fbbaa627fc4491d70bf18c20cad29ed",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "integration/source_assembly_native/GTSD_Source_Assembly_Revision.blend",
+      "bytes": 34143974,
+      "sha256": "08b61aa81c1a3b51c54488b413aaae5072013c51ca6afcd32c20168b7bb9eac2",
+      "chunks": 113,
+      "missing_chunks": 93,
+      "complete": false
+    },
+    {
+      "path": "pantograph/candidate/source_meshes.json.gz",
+      "bytes": 237751,
+      "sha256": "38fa6b6907f22d7f36dc6744b423543659062b337c702ad435369e185c66e444",
+      "chunks": 1,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "pantograph/evidence/pantograph_meshes.json",
+      "bytes": 20016233,
+      "sha256": "49393c81e61ee6ce66fb2d91db3fa5ec9b3cd382bf2bd9da55e14443d8185f68",
+      "chunks": 7,
+      "missing_chunks": 0,
+      "complete": true
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/encoder/outputs/render_candidate_rear.png",
+      "bytes": 612255,
+      "sha256": "6529092db5c931e58da8f1692378879808df9854b8d615932304ee66824bf758",
+      "chunks": 3,
+      "missing_chunks": 3,
+      "complete": false
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/encoder/outputs/render_comparison.png",
+      "bytes": 620239,
+      "sha256": "e496d6fb54e4b91cf88c806a7694283c32460bf0e7979af3ee86af9c420f45a1",
+      "chunks": 3,
+      "missing_chunks": 3,
+      "complete": false
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/encoder/outputs/render_candidate_core.png",
+      "bytes": 645424,
+      "sha256": "4b749ed1b7e6c28e32f37715f9e858bb4efc5d8ff6d254c9f7d688428daaa0d9",
+      "chunks": 3,
+      "missing_chunks": 3,
+      "complete": false
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/encoder/outputs/render_candidate_front.png",
+      "bytes": 658179,
+      "sha256": "0ff8a797b75a9e68798de254086c28958d4f4194d40ee345c8679af828635e02",
+      "chunks": 3,
+      "missing_chunks": 3,
+      "complete": false
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/encoder/outputs/render_blind_bore_section.png",
+      "bytes": 691760,
+      "sha256": "0e9a5fc847c95d1b2ecc753a633c2551bdbc4f2c3b2c8ebb5fafe63e0e643cfe",
+      "chunks": 3,
+      "missing_chunks": 3,
+      "complete": false
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/body/outputs/body_CAD_front.png",
+      "bytes": 956543,
+      "sha256": "214d8a70962d2b7363cb9f408dacb225333bed082b17155392bd8a00b26ee59e",
+      "chunks": 4,
+      "missing_chunks": 4,
+      "complete": false
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/body/outputs/body_CAD_cutaway.png",
+      "bytes": 1152383,
+      "sha256": "ed293cdde26940ba13459c3cade2df011396594005758667bf80f49c8c6e4312",
+      "chunks": 4,
+      "missing_chunks": 3,
+      "complete": false
+    },
+    {
+      "path": "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/pantograph/plan_candidate/outputs/render_plan_relief_oblique.png",
+      "bytes": 1195834,
+      "sha256": "6e4a258f935e56a2b958751ffac6a70cfccad5b5010acb3815be4a824465f3a9",
+      "chunks": 4,
+      "missing_chunks": 4,
+      "complete": false
+    },
+    {
+      "path": "integration/source_assembly_native/whole_static_revision.png",
+      "bytes": 1409881,
+      "sha256": "1986c984fc047776075b5fd673dd9233756b91555a7b45583dc31fc01557767f",
+      "chunks": 5,
+      "missing_chunks": 5,
+      "complete": false
     }
   ],
-  "missing_scope": "Includes not-yet-attempted resources, unresolved calls, and explicit rejection; not all missing paths are awaiting approval.",
-  "planned_delivery_files": 585,
-  "planned_asset_count": 57,
-  "planned_chunk_count": 225,
-  "new_chunk_size_limit_bytes": 300000,
-  "confirmed_new_small_chunks": 33,
-  "local_full_snapshot_manifest_sha256": "a4168372d16c1c22308c191b5839d8c20c533a136eb6c6f1ca7f032683261212",
-  "small_chunk_delivery_locally_verified": true,
-  "original_complete_snapshot_unchanged": true,
-  "cancelled_calls_not_retried": [
-    {
-      "asset": "pantograph/evidence/pantograph_meshes.json",
-      "git_blob_sha1": "cae864a44d342d6444c9724a32766b1ca31a6daf",
-      "path": "payloads/small-300000/49393c81e61ee6ce66fb.000.006.bin",
-      "state": "tool_returned_cancelled; cause_not_attributed_to_user; absent_on_readback; isolated"
-    }
-  ]
+  "public_scope": "Generated models, derived geometry, renderer assets, runtime code and manifests. Original drawings/photos/course PDFs excluded.",
+  "pending_unknown_assets": [
+    "baseline_console/GTSD_Assembly_Console/assets/whole.glb.gz",
+    "integration/data/source_replacements.json",
+    "integration/source_assembly_native/track_axis_top.png"
+  ],
+  "resolved_previous_blocks": [
+    "mapping_bundle.json",
+    "frame_18068_native_curves.json"
+  ],
+  "local_complete_snapshot_verified": true,
+  "browser_visual_acceptance": false,
+  "note": "Counts refer to this frozen checkpoint, not any later upload receipts. Missing parts prevent full clean-checkout startup. A partial model is not an accepted 1:1 physical twin."
 }
