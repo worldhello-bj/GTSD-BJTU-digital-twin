@@ -1,0 +1,41 @@
+{
+  "schema": "gtsd-console-phase6-source-freeze-v1",
+  "status": "FROZEN",
+  "frozen_at_utc": "2026-10-12T05:30:00Z",
+  "scope": "read-only evidence/UI/configuration adaptation over separately frozen numerical sources; not physical 1:1 certification",
+  "source_sha256": {
+    "accepted_dependencies.json": "bed73cedad4356c83fed030817d2d658f547b94bde55b34ab10b7848789d16f3",
+    "candidate_review.py": "38f0bf7dbce6dd1779f88669576c3e560281392d120f44415bcb360638bf1299",
+    "console_config.schema.json": "4e16b7fd04bfcc15f92fd034bea5794a688749bd1d872fa1c578b9a3470b5266",
+    "console_launcher.py": "906e141f2e0ff785bf93bfb34f3bf150071d0a9e23ac386069cb7736b435b935",
+    "dependency_admission.py": "68c5c1309dd6caba37d0d082299af9083496e9fc0cc894adbb9d8d1f1021dd75",
+    "mounted_display.py": "c9912822d9350969a243a5575ccec47bd011e5a02591567dcf1dc8d95c3a943d",
+    "phase6_config.portable.json": "a0491d3a4aeea7279156132b591ad476a65f38e3963fb412c2bb7ee8c722d2bf",
+    "phase6_config.schema.json": "ecf96d1788f735f8d78037898bb900ff25c09f7a275374d5a07509900302d6ef",
+    "phase6_server.py": "ba5a5e3828d97c88424141cb57067d8ed424bb3acaab336f4a5b1f67df643ac6",
+    "phase6_web/truth-evidence-client.js": "24667746e89ca03b393d7dd203896f8d8574b458b1b1cfa7f4f0cffe42af7dd0",
+    "phase6_web/truth-evidence.css": "c5b3c9fe45080b80a43fd50d969193e00e81e4e5ecec00901f15d99d35eebf7a",
+    "phase6_web/truth-evidence.js": "9d8e0c4fdbd95999ded9d221d4f075342a622020a08f72b7b79ca5f7b2e5e1ce",
+    "tests/check_cad_body_http.py": "ed18821f0888d90a6dcc23269ca5a9a6c6b484299618104ebe275edf8a1a68fb",
+    "tests/check_phase6_http.py": "84e67e4dd160612ce0215c964c203a4a8e0cd0ae8f792c931d2f483d1feff5b6",
+    "tests/check_phase6_readonly_http.py": "7389c562cb5b222c16e76632c15eedb034321b2b16e5ca245669689064d5aab1",
+    "tests/check_serving_process.py": "43956491577ac50b635dd7e39bb265a19a6b2c4829f90dafba26bc4e43b0e6d7",
+    "tests/emit_cad_geometry.py": "ae81c9438d563e5d730c8184f2ca42471dd5b90cfff6f80cda27927f11c8a858",
+    "tests/render_phase6_cpu.js": "fc77dab7e31b546adac0f7a1d275af8c7670eb84b59f509b8c9384fc6ad9c492",
+    "tests/test_console_launcher.py": "3b206c2fef1e1b43d712dfe410a6e5a319514a6015025a2b5c9e7bc33986d2a0",
+    "tests/test_truth_evidence.js": "9e4bc635d22b9bb5b5359af31c993b5a027ad54d85bafe4f2446aa9f8f2f2009",
+    "tests/test_truth_overlay.py": "7e01dc7e0943b03d858189bc236dc5e85c680dac34222eccf498a613efad3bf7",
+    "truth_overlay.py": "c9d9ad85b50f108a7bd5779fd3257555f0de18fb506e9ce7348092cac8c60928"
+  },
+  "default_variant": "internal-coupled-research",
+  "explicit_variants": [
+    "mounted-auxiliary-research",
+    "cad-body-mounted-research"
+  ],
+  "configuration_policy": "Runtime path/port/resume/explicit variant choices are local configuration; no source hash, physics dt, hardware or parameter overrides",
+  "independently_refreshable_data": [
+    "design_candidates.json",
+    "external truth matrix dataset"
+  ],
+  "physics_source_written": false
+}

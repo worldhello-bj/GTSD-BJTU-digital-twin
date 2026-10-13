@@ -1,0 +1,9 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict'),U=require('../web/lineage.js');
+const fixture=()=>({c:{baseline_registry_source_geometry_sha256:'a'.repeat(64),current_geometry_sha256:'b'.repeat(64)},m:{id:'1',registered_component_id:'part',lineage:'EXACT_BASELINE_MESH_RETAINED'},t:{source_geometry_sha256:'a'.repeat(64),rows:[{id:'part',model_mapping:{direct_mesh_ids:['1'],candidate_mesh_ids:[]}}]}});
+test('string direct selector is not split into matching characters',()=>{const{c,m,t}=fixture();t.rows[0].model_mapping.direct_mesh_ids='1353';assert.equal(U.truthLink(c,m,t).row,null);});
+test('string candidate selector is not split into matching characters',()=>{const{c,m,t}=fixture();t.rows[0].model_mapping.direct_mesh_ids=[];t.rows[0].model_mapping.candidate_mesh_ids='1353';assert.equal(U.truthLink(c,m,t).row,null);});
+test('non-array selectors fail closed without throwing',()=>{const{c,m,t}=fixture();t.rows[0].model_mapping={direct_mesh_ids:123,candidate_mesh_ids:{0:'1'}};assert.equal(U.truthLink(c,m,t).row,null);});
+test('missing or empty source hashes do not equal missing catalogue identities',()=>{const{m,t}=fixture();delete t.source_geometry_sha256;assert.equal(U.truthLink({},m,t).row,null);t.source_geometry_sha256='';assert.equal(U.truthLink({baseline_registry_source_geometry_sha256:'',current_geometry_sha256:''},m,t).row,null);});
+test('new mesh cannot use original-baseline truth even with selector; current geometry can',()=>{const{c,m,t}=fixture();m.lineage='NEW_REVIEWED_DESIGN_MESH';assert.equal(U.truthLink(c,m,t).row,null);t.source_geometry_sha256='b'.repeat(64);assert.equal(U.truthLink(c,m,t).row,t.rows[0]);});
+test('retained mesh accepts exact candidate array with verified baseline source',()=>{const{c,m,t}=fixture();t.rows[0].model_mapping={candidate_mesh_ids:['1']};assert.equal(U.truthLink(c,m,t).row,t.rows[0]);});

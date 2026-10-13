@@ -1,0 +1,9 @@
+{
+  "schema": "gtsd-phase7-reviewed-dependencies-v1",
+  "phase6_source_freeze": "c048bf545d27ff2bd25967c059714a689a243a452f1fffe249676f151d359688",
+  "legacy_registry": "472fa87a9ab5f590f1be2c2d6e49e46a01d3177067040e2528412ad098f92a8a",
+  "native_observer": "8c4ae7e22a29bafefa7cc9dc0061aeba837b2e82ff489914381caca04becbb27",
+  "cad_retained_map": "dd590bc3615d0980094d25c967f0c0d14cb38f552fc152aae1890fd2b700999a",
+  "cad_doors_source_freeze": "4a9d61522b2bd05293be8436a79bce1aa62e2ba2070437e466d73d0c76e42046",
+  "cad_doors_retained_map": "710458616c8662fca39db951b86f9e9d0dedfc3e4a70fd8825eb8f1c7d3eb677"
+}

@@ -1,0 +1,6 @@
+{
+  "schema": "gtsd-console-strict82-reviewed-dependencies-v1",
+  "fan82_console_freeze": "8d7768d39969d218976f392ad2e29164ecbd9281d74d8e40f5dad8e6502c5989",
+  "strict_physics_freeze": "8ca0b3c31aae608c08e80a9657d4da0b2cc8f9c74edd4cea2125cb8087ea4e82",
+  "trusted_rollback": "e368f4f19af2e645d1f746036cec40c83c66c1ba1c2a1bad9008124df0cb2c9f"
+}

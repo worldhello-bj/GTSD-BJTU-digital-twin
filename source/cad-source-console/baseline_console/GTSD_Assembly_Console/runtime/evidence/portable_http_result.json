@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "scope": "Relocated Python audit + real loopback HTTP short regression; Node DOM logic recorded separately, no browser/GPU or new-assembly physics certification",
+  "native_identity": "9bd3b5a7f26a40c44f1b77f5c71b9ec53488e682170ddfda651a939aa96323db",
+  "geometry_sha256": "2b6314a577bc67c5781268d797c57be6674ef16d42eed9f47731238cfc299fed",
+  "interface_identity": "f7796faf40b6ae04f69839b7df3a0c1d39c3e9f9d949c28edd7dbee40d672a30",
+  "startup_paused_steps": 0,
+  "native_integration_budget": {
+    "maximum_native_calls": 8,
+    "actual_native_calls": 5,
+    "hold_next_step_after_acceptance_s": 0.0,
+    "records": [
+      {
+        "call": 1,
+        "steps": 1,
+        "wall_s": 0.3137383929861244
+      },
+      {
+        "call": 2,
+        "steps": 2,
+        "wall_s": 0.4380642540054396
+      },
+      {
+        "call": 3,
+        "steps": 2,
+        "wall_s": 0.5497502780053765
+      },
+      {
+        "call": 4,
+        "steps": 3,
+        "wall_s": 0.4448115400155075
+      },
+      {
+        "call": 5,
+        "steps": 4,
+        "wall_s": 0.38853254599962384
+      }
+    ]
+  },
+  "run_pause_native_steps": 1,
+  "disconnect_lease_s": 5.0,
+  "disconnect_elapsed_s": 7.509629929001676,
+  "disconnect_native_steps": 1,
+  "lease_test_pacing": "Test-only 5.15s post-acceptance sleep on display instance step, default controller clock/lease untouched; native MRO and numerical methods unchanged.",
+  "duplicate_step_once": true,
+  "wrong_native_identity_resigned_rejected": true,
+  "strict_history_attacks_rejected": true,
+  "failed_restore_keeps_checkpoint_and_catalogue": true,
+  "exact_restore": true,
+  "continuation_checkpoint_and_display_exact": true,
+  "post_restore_stale_session_rejected": true,
+  "invalid_http_cases": 14,
+  "readonly_endpoints_no_lease_renewal": true,
+  "portable_file_count": 212,
+  "copied_source_files_unchanged": true,
+  "old_project_read_attempts": [],
+  "wall_s": 160.69603230501525,
+  "browser_GPU": false,
+  "new_assembly_physics": false,
+  "default75_template_unchanged": true
+}

@@ -1,0 +1,171 @@
+{
+  "schema": "gtsd-end-door-fan-coverage-v1",
+  "paired_geometry_sha256": "67dfd34c3e9a2f9776aa63b9acdff48051734ca4d733035660be0d49aba0cd9c",
+  "photo_observation": "Two different end views each show two grilles/fans, and the open-door photo confirms mounting to leaves. Four leaf-mounted fan positions are reconstructed. Exact photographic end-to-X sign registration remains inferred.",
+  "photo_visible_end_face_count": 2,
+  "visible_fans_per_end": 2,
+  "reconstructed_fan_positions_total": 4,
+  "current_native_powered_rotor_count": 1,
+  "rigid_visual_fan_positions_without_native_rotor_count": 3,
+  "geometry_deliverable_powers_no_fans": true,
+  "door_fans": [
+    {
+      "door_key": "end_neg_y_neg",
+      "photo_visible_fan_count": 1,
+      "target_shroud_mesh": "CAD_fan_shroud_end_neg_y_neg",
+      "installation_center_component_m": [
+        -0.6535,
+        -0.34450059462468935,
+        0.12706
+      ],
+      "installation_center_world_m": [
+        -0.6535,
+        -0.34450059462468935,
+        0.4909289111436339
+      ],
+      "fan_axial_direction_candidate": [
+        -1,
+        0,
+        0
+      ],
+      "source_mesh_name": "SHELL_fan_back_-1_-1",
+      "source_to_target_world_translation_m": [
+        0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "geometry_owner": "door_end_neg_y_neg",
+      "powered_native_subsystem_selected": true,
+      "native_stator_body": "bay_fan_stator",
+      "native_rotor_body": "bay_fan_rotor",
+      "rotor_degree_of_freedom": 1,
+      "dynamics_coverage": "EXISTING_ONE_NATIVE_STATOR_ROTOR_REQUIRES_NEW_MOUNT_MIGRATION",
+      "electromechanical_coverage": "Only original selected subsystem model; hardware operation and calibration unverified.",
+      "remaining_action": "Consume frozen transform in CAD door physics branch, verify native rotor and stator move with new door.",
+      "evidence_boundary": "One visible fan per leaf is photo-supported. End sign / model-key mapping, exact center, dimensions, motor type and wiring are candidates; no claim that all photographed fans are dynamically modeled."
+    },
+    {
+      "door_key": "end_neg_y_pos",
+      "photo_visible_fan_count": 1,
+      "target_shroud_mesh": "CAD_fan_shroud_end_neg_y_pos",
+      "installation_center_component_m": [
+        -0.6535,
+        0.3444994053753107,
+        0.12706
+      ],
+      "installation_center_world_m": [
+        -0.6535,
+        0.3444994053753107,
+        0.4909289111436339
+      ],
+      "fan_axial_direction_candidate": [
+        -1,
+        0,
+        0
+      ],
+      "source_mesh_name": "SHELL_fan_back_-1_1",
+      "source_to_target_world_translation_m": [
+        0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "geometry_owner": "door_end_neg_y_pos",
+      "powered_native_subsystem_selected": false,
+      "native_stator_body": null,
+      "native_rotor_body": null,
+      "rotor_degree_of_freedom": 0,
+      "dynamics_coverage": "RIGID_DOOR_VISUAL_ONLY_NO_SEPARATE_ROTOR_OR_MOTOR_DYNAMICS",
+      "electromechanical_coverage": "No independent rotor spin, motor electrical state, bearing reaction or aerodynamic fan load modeled.",
+      "remaining_action": "Measure/reconstruct rotor/stator, assign explicit mass/inertia and motor parameters, add and test separate native DOF and door reactions.",
+      "evidence_boundary": "One visible fan per leaf is photo-supported. End sign / model-key mapping, exact center, dimensions, motor type and wiring are candidates; no claim that all photographed fans are dynamically modeled."
+    },
+    {
+      "door_key": "end_pos_y_neg",
+      "photo_visible_fan_count": 1,
+      "target_shroud_mesh": "CAD_fan_shroud_end_pos_y_neg",
+      "installation_center_component_m": [
+        0.6535,
+        -0.34450059462468935,
+        0.12706
+      ],
+      "installation_center_world_m": [
+        0.6535,
+        -0.34450059462468935,
+        0.4909289111436339
+      ],
+      "fan_axial_direction_candidate": [
+        1,
+        0,
+        0
+      ],
+      "source_mesh_name": "SHELL_fan_back_1_-1",
+      "source_to_target_world_translation_m": [
+        -0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "geometry_owner": "door_end_pos_y_neg",
+      "powered_native_subsystem_selected": false,
+      "native_stator_body": null,
+      "native_rotor_body": null,
+      "rotor_degree_of_freedom": 0,
+      "dynamics_coverage": "RIGID_DOOR_VISUAL_ONLY_NO_SEPARATE_ROTOR_OR_MOTOR_DYNAMICS",
+      "electromechanical_coverage": "No independent rotor spin, motor electrical state, bearing reaction or aerodynamic fan load modeled.",
+      "remaining_action": "Measure/reconstruct rotor/stator, assign explicit mass/inertia and motor parameters, add and test separate native DOF and door reactions.",
+      "evidence_boundary": "One visible fan per leaf is photo-supported. End sign / model-key mapping, exact center, dimensions, motor type and wiring are candidates; no claim that all photographed fans are dynamically modeled."
+    },
+    {
+      "door_key": "end_pos_y_pos",
+      "photo_visible_fan_count": 1,
+      "target_shroud_mesh": "CAD_fan_shroud_end_pos_y_pos",
+      "installation_center_component_m": [
+        0.6535,
+        0.3444994053753107,
+        0.12706
+      ],
+      "installation_center_world_m": [
+        0.6535,
+        0.3444994053753107,
+        0.4909289111436339
+      ],
+      "fan_axial_direction_candidate": [
+        1,
+        0,
+        0
+      ],
+      "source_mesh_name": "SHELL_fan_back_1_1",
+      "source_to_target_world_translation_m": [
+        -0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "geometry_owner": "door_end_pos_y_pos",
+      "powered_native_subsystem_selected": false,
+      "native_stator_body": null,
+      "native_rotor_body": null,
+      "rotor_degree_of_freedom": 0,
+      "dynamics_coverage": "RIGID_DOOR_VISUAL_ONLY_NO_SEPARATE_ROTOR_OR_MOTOR_DYNAMICS",
+      "electromechanical_coverage": "No independent rotor spin, motor electrical state, bearing reaction or aerodynamic fan load modeled.",
+      "remaining_action": "Measure/reconstruct rotor/stator, assign explicit mass/inertia and motor parameters, add and test separate native DOF and door reactions.",
+      "evidence_boundary": "One visible fan per leaf is photo-supported. End sign / model-key mapping, exact center, dimensions, motor type and wiring are candidates; no claim that all photographed fans are dynamically modeled."
+    }
+  ],
+  "source_photos": [
+    {
+      "file": "/workspace/shared/gtsd-geometry-1011/inputs/图片素材/车背部.jpg",
+      "sha256": "8cee00d6f393e95147f48c09dbe2e46ff3b324505ac4a2f0c27ff215df511aa3",
+      "used": "Actually viewed: two end doors, centre seam, fans and handles; open leaf confirms vertical edge hinge candidate. No photogrammetric dimensional claim."
+    },
+    {
+      "file": "/workspace/shared/gtsd-geometry-1011/inputs/图片素材/车体侧面.jpg",
+      "sha256": "0363e58d88379214d5c00a1b7ca375f00819527d7a2b9167a96844a3836775c3",
+      "used": "Actually viewed: two end doors, centre seam, fans and handles; open leaf confirms vertical edge hinge candidate. No photogrammetric dimensional claim."
+    },
+    {
+      "file": "/workspace/shared/gtsd-geometry-1011/inputs/图片素材/图片1.png",
+      "sha256": "b6c285e46c9c64d9e3f47041492adf5080738beb9d9e460bf90ab63de4c41c0f",
+      "used": "Actually viewed: two end doors, centre seam, fans and handles; open leaf confirms vertical edge hinge candidate. No photogrammetric dimensional claim."
+    }
+  ],
+  "prohibited_summary": "Do not state all four photographed fans rotate, have individual motor dynamics, or have individually verified load/reaction coupling."
+}

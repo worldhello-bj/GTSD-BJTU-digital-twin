@@ -1,0 +1,43 @@
+{
+  "status": "NOT_ACCEPTED_ENVIRONMENT_BLOCKED",
+  "cloud_browser": "/usr/bin/chromium via installed Playwright",
+  "attempt1": {
+    "chromium_sandbox": true,
+    "error": "process_singleton_posix.cc socket() failed: Operation not permitted (1)",
+    "page_loaded": false
+  },
+  "attempt2": {
+    "route": "official exec require_escalated",
+    "chromium_sandbox": true,
+    "ignored_default_flags": [
+      "--enable-unsafe-swiftshader",
+      "--unsafely-disable-devtools-self-xss-warnings"
+    ],
+    "error": "bwrap: Can't mkdir parents for /root/.codex: Not a directory; execution environment creation failed",
+    "browser_executed": false
+  },
+  "no_browser_sandbox_disable": true,
+  "no_local_user_computer": true,
+  "screenshots_saved": 0,
+  "meaning": "No genuine browser/WebGL or UI visual acceptance claimed.",
+  "official_cloud_cdp": {
+    "available": true,
+    "existing_tab_read": {
+      "id": "44",
+      "title": "GTSD v4 · 课程系统审阅台",
+      "url": "http://127.0.0.1:8773/web/system.html"
+    },
+    "new_assembly_probe": {
+      "tab_id": "46",
+      "url": "http://127.0.0.1:8778/assembly",
+      "same_execution_process_http_status": 200,
+      "cdp_navigation_error": "net::ERR_CONNECTION_REFUSED",
+      "server_running_at_navigation": true,
+      "server_closed_after_probe": true,
+      "native_integration_steps": 0
+    },
+    "conclusion": "Official cloud browser is available; current execution loopback service is not reachable from it. No claim that CDP itself is unavailable.",
+    "no_network_or_security_settings_changed": true,
+    "old_tabs_not_modified": true
+  }
+}

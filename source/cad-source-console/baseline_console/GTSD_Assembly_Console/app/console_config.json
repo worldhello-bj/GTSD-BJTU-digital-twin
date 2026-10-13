@@ -1,0 +1,13 @@
+{
+  "schema": "gtsd-assembly-console-config-v1",
+  "strict82_root": "../runtime/portable/GTSD_Phase6/console_strict82",
+  "strict82_config": "../runtime/portable/GTSD_Phase6/console_strict82/strict82_config.portable.json",
+  "strict82_server_sha256": "19582ffdef2e3dcd422b1641be3a72fb9a6912f0c831590e38504d5de93c3b3d",
+  "assembly_gzip": "../assets/whole.glb.gz",
+  "catalog": "data/catalog.json",
+  "catalog_sha256": "06290655bd929b3e531f24a7adb0b829d3423c22da29fca8e96a10e7394e32eb",
+  "extras": "data/scene_extras.json.gz",
+  "mapping_path": "data/mapping_bundle.json",
+  "mapping_sha256": "4f55aa9e56d6b9c04936c5a1162993e6f5bf2d2eaf3fcf7cc30c4beae5bbdeea",
+  "port": 8778
+}

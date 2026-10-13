@@ -1,0 +1,34 @@
+{
+  "kind": "small-node-vm-audit-no-native-solver-no-browser-no-glb",
+  "results": [
+    {
+      "case": "stale_running_snapshot",
+      "snapshot_age_s": 3,
+      "heartbeat_sent": true,
+      "pause_disabled": true,
+      "pause_command_rejected": true
+    },
+    {
+      "case": "runtime_fetch_hangs",
+      "elapsed_without_snapshot_s": 6,
+      "run_still_enabled": true,
+      "live_still_enabled": true,
+      "no_freshness_timer": true,
+      "geometry_badge": "真实原生姿态 t=0.000000s · 1 动态可视 / 0 world静态 / 0 静态候选（琥珀）",
+      "command_guard_still_prevents_send": true
+    },
+    {
+      "case": "fresh_same_step_recovery",
+      "runtime_ready": true,
+      "stale_badge_not_cleared": true,
+      "geometry_badge": "身份/快照未就绪，停止姿态更新，未外推。"
+    },
+    {
+      "case": "invalid_pose_then_scene_switch",
+      "selected_scene": "two",
+      "rendered_scene": "one",
+      "error": "缺少有限单位四元数原生姿态",
+      "synthetic_invalid_payload": true
+    }
+  ]
+}

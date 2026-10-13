@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GTSD Phase6 independent console and truth-evidence configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "source_root", "auxiliary_root", "evidence_root", "variant", "port", "resume"],
+  "properties": {
+    "schema": {"const": "gtsd-phase6-console-config-v1"},
+    "source_root": {"type": "string", "minLength": 1},
+    "auxiliary_root": {"type": "string", "minLength": 1},
+    "evidence_root": {"type": "string", "minLength": 1},
+    "encoder_candidate_root": {"type": ["string", "null"], "minLength": 1},
+    "body_candidate_root": {"type": ["string", "null"], "minLength": 1},
+    "cad_body_root": {"type": ["string", "null"], "minLength": 1},
+    "pantograph_candidate_root": {"type": ["string", "null"], "minLength": 1},
+    "variant": {"enum": ["internal-coupled-research", "mounted-auxiliary-research", "cad-body-mounted-research"]},
+    "port": {"type": "integer", "minimum": 0, "maximum": 65535},
+    "resume": {"type": ["string", "null"], "minLength": 1}
+  },
+  "$comment": "All relative paths resolve from the configuration file. Candidate roots are optional independent read-only reviews; neither activates or replaces geometry. There are no public host, hardware, timestep or physics parameter overrides."
+}

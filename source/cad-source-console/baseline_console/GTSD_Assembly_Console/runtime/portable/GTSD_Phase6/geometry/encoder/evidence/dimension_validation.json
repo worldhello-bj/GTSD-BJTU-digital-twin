@@ -1,0 +1,261 @@
+{
+  "schema": "gtsd-candidate-independent-validation-v1",
+  "checks": {
+    "core_body_diameter_39_mm": true,
+    "core_body_length_34_mm": true,
+    "bore_in_8_01_to_8_02_mm_tolerance": true,
+    "bore_reaches_blind_floor_at_depth_10_mm": true,
+    "rear_cap_present_at_34_mm": true,
+    "two_4_by_10_4_mm_slots": true,
+    "slot_center_spacing_45_6_mm": true,
+    "bracket_sheet_thickness_0_6_mm": true,
+    "all_mesh_triangles_two_edges": true,
+    "all_meshes_positive_closed_blender": true,
+    "frozen_sources_unchanged": true,
+    "exactly_16_old_internal_and_21_cover": true,
+    "no_auto_selection_no_asbuilt_claim": true,
+    "signal_guard_present": true,
+    "setscrew_conflict_unresolved": true,
+    "one_encoder_candidate_only": true,
+    "hypothetical_cover_cavity_clearance_positive": true,
+    "no_rigid_body_dynamics_added": true,
+    "glb_valid_version_2_and_size": true,
+    "glb_exactly_candidate_meshes": true
+  },
+  "all_pass": true,
+  "measurements": {
+    "body_diameter_mm": 39.0000018453993,
+    "body_length_mm": 34.00000184774399,
+    "bore_display_diameter_mm": 8.015001192688942,
+    "bore_cylindrical_depth_mm": 9.999998793005943,
+    "tabs": [
+      {
+        "name": "CANDIDATE_slotted_tab_-1",
+        "width_mm": 4.000002942723302,
+        "length_mm": 10.39999849126977,
+        "slot_center_x_mm": -22.799999629492888,
+        "sheet_thickness_mm": 0.599999912083149
+      },
+      {
+        "name": "CANDIDATE_slotted_tab_1",
+        "width_mm": 4.000002942723302,
+        "length_mm": 10.39999849126977,
+        "slot_center_x_mm": 22.799999629492888,
+        "sheet_thickness_mm": 0.599999912083149
+      }
+    ],
+    "all_reference_candidate_only": true
+  },
+  "mesh_checks": [
+    {
+      "name": "CANDIDATE_BRT38M_body_and_blind_boss",
+      "vertex_count": 1042,
+      "triangle_count": 2080,
+      "bounds_mm": [
+        [
+          -19.5000004,
+          19.5000004
+        ],
+        [
+          -19.5000004,
+          19.5000004
+        ],
+        [
+          -6.00000005,
+          34.00000185
+        ]
+      ],
+      "non_two_incidence_edges": 0
+    },
+    {
+      "name": "CANDIDATE_front_plate",
+      "vertex_count": 800,
+      "triangle_count": 1608,
+      "bounds_mm": [
+        [
+          -19.5000004,
+          19.5000004
+        ],
+        [
+          -19.5000004,
+          19.5000004
+        ],
+        [
+          -1.3,
+          -0.69999998
+        ]
+      ],
+      "non_two_incidence_edges": 0
+    },
+    {
+      "name": "CANDIDATE_slotted_tab_-1",
+      "vertex_count": 140,
+      "triangle_count": 280,
+      "bounds_mm": [
+        [
+          -26.92580596,
+          -17.12041348
+        ],
+        [
+          -13.49077467,
+          1.68862892
+        ],
+        [
+          -11.30000036,
+          -10.70000045
+        ]
+      ],
+      "non_two_incidence_edges": 0
+    },
+    {
+      "name": "CANDIDATE_fold_return_-1",
+      "vertex_count": 8,
+      "triangle_count": 12,
+      "bounds_mm": [
+        [
+          -21.03365771,
+          -16.83063619
+        ],
+        [
+          -11.91197895,
+          1.76627468
+        ],
+        [
+          -11.30000036,
+          -0.69999998
+        ]
+      ],
+      "non_two_incidence_edges": 0
+    },
+    {
+      "name": "CANDIDATE_ring_bridge_-1",
+      "vertex_count": 8,
+      "triangle_count": 12,
+      "bounds_mm": [
+        [
+          -21.03365771,
+          -15.47833811
+        ],
+        [
+          -11.91197895,
+          2.12862156
+        ],
+        [
+          -1.3,
+          -0.69999998
+        ]
+      ],
+      "non_two_incidence_edges": 0
+    },
+    {
+      "name": "CANDIDATE_slotted_tab_1",
+      "vertex_count": 140,
+      "triangle_count": 280,
+      "bounds_mm": [
+        [
+          17.12041348,
+          26.92580596
+        ],
+        [
+          -1.68862892,
+          13.49077467
+        ],
+        [
+          -11.30000036,
+          -10.70000045
+        ]
+      ],
+      "non_two_incidence_edges": 0
+    },
+    {
+      "name": "CANDIDATE_fold_return_1",
+      "vertex_count": 8,
+      "triangle_count": 12,
+      "bounds_mm": [
+        [
+          16.83063619,
+          21.03365771
+        ],
+        [
+          -1.76627468,
+          11.91197895
+        ],
+        [
+          -11.30000036,
+          -0.69999998
+        ]
+      ],
+      "non_two_incidence_edges": 0
+    },
+    {
+      "name": "CANDIDATE_ring_bridge_1",
+      "vertex_count": 8,
+      "triangle_count": 12,
+      "bounds_mm": [
+        [
+          15.47833811,
+          21.03365771
+        ],
+        [
+          -2.12862156,
+          11.91197895
+        ],
+        [
+          -1.3,
+          -0.69999998
+        ]
+      ],
+      "non_two_incidence_edges": 0
+    },
+    {
+      "name": "CANDIDATE_label_color_band",
+      "vertex_count": 512,
+      "triangle_count": 1024,
+      "bounds_mm": [
+        [
+          -19.53000017,
+          19.53000017
+        ],
+        [
+          -19.53000017,
+          19.53000017
+        ],
+        [
+          8.99999961,
+          17.00000092
+        ]
+      ],
+      "non_two_incidence_edges": 0
+    },
+    {
+      "name": "CANDIDATE_short_side_lead",
+      "vertex_count": 64,
+      "triangle_count": 124,
+      "bounds_mm": [
+        [
+          -2.49999994,
+          2.49999994
+        ],
+        [
+          -31.11999482,
+          -18.99999939
+        ],
+        [
+          21.67500369,
+          31.50000051
+        ]
+      ],
+      "non_two_incidence_edges": 0
+    }
+  ],
+  "hypothetical_cover_check": {
+    "basis": "Existing cover dimensions are PHOTO_INFERRED display assumptions, not measured fit",
+    "radial_min_clearance_mm": 4.87999876737593,
+    "rear_min_clearance_mm": 5.700004259738607,
+    "front_plane_min_mm": -1.1126193688593133e-05,
+    "old_cover_radius_mm": 36,
+    "old_cover_internal_depth_mm": 51,
+    "hardware_fit_verified": false
+  },
+  "physical_validation_performed": false
+}

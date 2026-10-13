@@ -1,0 +1,19 @@
+✔ stale running state permits pause without renewing run lease (16.248437ms)
+✔ hanging GET visibly expires on independent freshness tick and eventually resumes polling (6.623732ms)
+✔ fresh same-step recovery replaces stale badge with verified native pose (4.39779ms)
+✔ pause remains available while run ACK is pending and stops further heartbeat (5.933817ms)
+✔ run/step ACK requires matching session and request, not HTTP 202 or unrelated event (2.759206ms)
+✔ unknown command response never resends automatically and can later match ACK (2.578273ms)
+✔ session rollover releases unresolved ACK without replay (3.172143ms)
+✔ source selection under stale live snapshot switches to selected static source (4.459219ms)
+✔ delayed transport failure must not overwrite already observed command ACK (2.901872ms)
+✔ rejected native pose labels retained scene; selecting a new source falls back to that static scene (5.255079ms)
+✔ wrong solver identity blocks following and run/step, preserves pause without heartbeat (2.412472ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 262.625556

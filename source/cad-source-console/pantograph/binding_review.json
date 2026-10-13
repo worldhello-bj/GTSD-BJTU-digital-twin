@@ -1,0 +1,4007 @@
+{
+  "schema": "gtsd-cad-pantograph-binding-review-v1",
+  "status": "RESEARCH_CANDIDATE_NOT_PRODUCTION_BINDING",
+  "as_built": false,
+  "new_physics_enabled": false,
+  "baseline_unchanged": true,
+  "source_files_sha256": {
+    "baseline_console/GTSD_Assembly_Console/app/data/catalog.json": "06290655bd929b3e531f24a7adb0b829d3423c22da29fca8e96a10e7394e32eb",
+    "baseline_console/GTSD_Assembly_Console/app/data/mapping_bundle.json": "4f55aa9e56d6b9c04936c5a1162993e6f5bf2d2eaf3fcf7cc30c4beae5bbdeea",
+    "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase5_Internal_Coupling/integrated/vendor/pantograph/parameters.json": "cdedcb1d71805a998dff703ac01060120ed00946e580e0758105f12becb9b137",
+    "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase5_Internal_Coupling/integrated/vendor/pantograph/binding.json": "ff044adf41f48e644fef563195dc2bb088fffaad54f5a8252e0cea32a31c069d",
+    "baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase5_Internal_Coupling/integrated/vendor/pantograph/pantograph.py": "de9008491150610442f2df441faf5b3f549679d1bb76622a2334bd2d1d33f0c3"
+  },
+  "source_glb_gzip_sha256": "676ce2a14f5c9ca574e63c3f3f1f6ed7c1f5805ab4b58da889b15cac9ce58f87",
+  "coordinate_system": "metres; X longitudinal Y transverse Z up; quaternions wxyz",
+  "anchors": {
+    "A": {
+      "world_m": [
+        -0.24223178667748954,
+        0,
+        1.0878864526748657
+      ],
+      "axis_world": [
+        0,
+        1,
+        0
+      ],
+      "axis_status": "TRANSVERSE_CAD_CANDIDATE_NOT_AS_BUILT",
+      "source_mesh": "lower_A_bushing",
+      "circle_radius_m": 0.004250004920010773,
+      "circle_fit_residual_m": 5.452702154205846e-08,
+      "source_refs": "[\"2638\", \"292D\"]",
+      "position_evidence": "CIRCULAR_BOUNDARY_FIT_FROM_ACCEPTED_FLOAT32_GEOMETRY",
+      "measured_hardware": false,
+      "axis_point_note": "XZ circle center; chosen Y is a point on the infinite transverse axis, not a certified bearing center."
+    },
+    "B": {
+      "world_m": [
+        0.5777669290262781,
+        0,
+        1.0878864526748657
+      ],
+      "axis_world": [
+        0,
+        1,
+        0
+      ],
+      "axis_status": "TRANSVERSE_CAD_CANDIDATE_NOT_AS_BUILT",
+      "source_mesh": "lower_B_bushing",
+      "circle_radius_m": 0.0042500084767135024,
+      "circle_fit_residual_m": 6.50080134107292e-08,
+      "source_refs": "[\"2639\", \"2633\"]",
+      "position_evidence": "CIRCULAR_BOUNDARY_FIT_FROM_ACCEPTED_FLOAT32_GEOMETRY",
+      "measured_hardware": false,
+      "axis_point_note": "XZ circle center; chosen Y is a point on the infinite transverse axis, not a certified bearing center."
+    },
+    "C_upper": {
+      "world_m": [
+        0.6516720950603404,
+        0,
+        1.0568461418151855
+      ],
+      "axis_world": [
+        0,
+        1,
+        0
+      ],
+      "axis_status": "TRANSVERSE_CAD_CANDIDATE_NOT_AS_BUILT",
+      "source_mesh": "upper_elbow_C_plate",
+      "circle_radius_m": 0.004100000535598684,
+      "circle_fit_residual_m": 5.2562500353105224e-08,
+      "source_refs": "[\"278B\", \"278C\", \"278D\", \"278E\", \"278F\", \"2791\", \"2792\", \"2793\", \"2790\"]",
+      "position_evidence": "CIRCULAR_BOUNDARY_FIT_FROM_ACCEPTED_FLOAT32_GEOMETRY",
+      "measured_hardware": false,
+      "axis_point_note": "XZ circle center; chosen Y is a point on the infinite transverse axis, not a certified bearing center."
+    },
+    "C_tie": {
+      "world_m": [
+        0.65166733503004,
+        0,
+        1.0568427040005788
+      ],
+      "axis_world": [
+        0,
+        1,
+        0
+      ],
+      "axis_status": "TRANSVERSE_CAD_CANDIDATE_NOT_AS_BUILT",
+      "source_mesh": "lower_tie_C_eye",
+      "circle_radius_m": 0.004000001586533101,
+      "circle_fit_residual_m": 6.109255772535765e-08,
+      "source_refs": "[\"29EC\", \"29EB\"]",
+      "position_evidence": "CIRCULAR_BOUNDARY_FIT_FROM_ACCEPTED_FLOAT32_GEOMETRY",
+      "measured_hardware": false,
+      "axis_point_note": "XZ circle center; chosen Y is a point on the infinite transverse axis, not a certified bearing center."
+    },
+    "D_base": {
+      "world_m": [
+        0.03374682567048295,
+        0,
+        1.0278564062932642
+      ],
+      "axis_world": [
+        0,
+        1,
+        0
+      ],
+      "axis_status": "TRANSVERSE_CAD_CANDIDATE_NOT_AS_BUILT",
+      "source_mesh": "base_tie_terminal",
+      "circle_radius_m": 0.0041000001208708545,
+      "circle_fit_residual_m": 5.936456765748277e-08,
+      "source_refs": "[\"2A07\", \"2A06\"]",
+      "position_evidence": "CIRCULAR_BOUNDARY_FIT_FROM_ACCEPTED_FLOAT32_GEOMETRY",
+      "measured_hardware": false,
+      "axis_point_note": "XZ circle center; chosen Y is a point on the infinite transverse axis, not a certified bearing center."
+    },
+    "D_tie": {
+      "world_m": [
+        0.03374646756458197,
+        0,
+        1.027864078980148
+      ],
+      "axis_world": [
+        0,
+        1,
+        0
+      ],
+      "axis_status": "TRANSVERSE_CAD_CANDIDATE_NOT_AS_BUILT",
+      "source_mesh": "lower_tie_D_eye",
+      "circle_radius_m": 0.004000002633016295,
+      "circle_fit_residual_m": 5.384075491866869e-08,
+      "source_refs": "[\"29E3\", \"29E2\"]",
+      "position_evidence": "CIRCULAR_BOUNDARY_FIT_FROM_ACCEPTED_FLOAT32_GEOMETRY",
+      "measured_hardware": false,
+      "axis_point_note": "XZ circle center; chosen Y is a point on the infinite transverse axis, not a certified bearing center."
+    },
+    "U": {
+      "world_m": [
+        0.6021855473518372,
+        0,
+        1.1426931023597755
+      ],
+      "axis_world": [
+        0,
+        1,
+        0
+      ],
+      "axis_status": "TRANSVERSE_CAD_CANDIDATE_NOT_AS_BUILT",
+      "source_mesh": "CAD6A54_upper_terminal_transverse_shaft",
+      "circle_radius_m": 0.015000001046885786,
+      "circle_fit_residual_m": 6.046423632437292e-08,
+      "source_refs": "[\"side2B30/2A21\", \"plan2B66/2AE5/277B\"]",
+      "position_evidence": "CIRCULAR_BOUNDARY_FIT_FROM_ACCEPTED_FLOAT32_GEOMETRY",
+      "measured_hardware": false,
+      "axis_point_note": "XZ circle center; chosen Y is a point on the infinite transverse axis, not a certified bearing center."
+    },
+    "H": {
+      "world_m": [
+        -0.48981370154586307,
+        0,
+        1.142693102359775
+      ],
+      "axis_world": [
+        0,
+        1,
+        0
+      ],
+      "axis_status": "TRANSVERSE_CAD_CANDIDATE_NOT_AS_BUILT",
+      "source_mesh": "CAD6A54_upper_H_eye_near",
+      "circle_radius_m": 0.00410000445759387,
+      "circle_fit_residual_m": 5.347472797380404e-08,
+      "source_refs": "[\"side2B30/2A36+2A37\", \"plan2B66/2AE7+2AED/2A0B\"]",
+      "position_evidence": "CIRCULAR_BOUNDARY_FIT_FROM_ACCEPTED_FLOAT32_GEOMETRY",
+      "measured_hardware": false,
+      "axis_point_note": "XZ circle center; chosen Y is a point on the infinite transverse axis, not a certified bearing center."
+    },
+    "E": {
+      "world_m": [
+        -0.5018137084221783,
+        0,
+        1.1216931140433923
+      ],
+      "axis_world": [
+        0,
+        1,
+        0
+      ],
+      "axis_status": "TRANSVERSE_CAD_CANDIDATE_NOT_AS_BUILT",
+      "source_mesh": "head_three_eye_rocker",
+      "circle_radius_m": 0.010000000935932373,
+      "circle_fit_residual_m": 6.257804872206174e-08,
+      "source_refs": "[\"2A1D\", \"2A1A\", \"2A1B\", \"2A1C\"]",
+      "position_evidence": "CIRCULAR_BOUNDARY_FIT_FROM_ACCEPTED_FLOAT32_GEOMETRY",
+      "measured_hardware": false,
+      "axis_point_note": "XZ circle center; chosen Y is a point on the infinite transverse axis, not a certified bearing center."
+    },
+    "F": {
+      "world_m": [
+        -0.504813716864677,
+        -0.038,
+        1.0766931069917098
+      ],
+      "axis_world": [
+        0,
+        1,
+        0
+      ],
+      "axis_status": "TRANSVERSE_CAD_CANDIDATE_NOT_AS_BUILT",
+      "source_mesh": "upper_tie_F_eye",
+      "circle_radius_m": 0.004099998892920663,
+      "circle_fit_residual_m": 6.208330484251678e-08,
+      "source_refs": "[\"2A1B\"]",
+      "position_evidence": "CIRCULAR_BOUNDARY_FIT_FROM_ACCEPTED_FLOAT32_GEOMETRY",
+      "measured_hardware": false,
+      "axis_point_note": "XZ circle center; chosen Y is a point on the infinite transverse axis, not a certified bearing center."
+    },
+    "G": {
+      "world_m": [
+        0.5452668482532318,
+        -0.038,
+        1.0878873623097036
+      ],
+      "axis_world": [
+        0,
+        1,
+        0
+      ],
+      "axis_status": "TRANSVERSE_CAD_CANDIDATE_NOT_AS_BUILT",
+      "source_mesh": "G_support_bracket",
+      "circle_radius_m": 0.004099998136512077,
+      "circle_fit_residual_m": 6.472008124130263e-08,
+      "source_refs": "[\"2B11\", \"2B12\"]",
+      "position_evidence": "CIRCULAR_BOUNDARY_FIT_FROM_ACCEPTED_FLOAT32_GEOMETRY",
+      "measured_hardware": false,
+      "axis_point_note": "XZ circle center; chosen Y is a point on the infinite transverse axis, not a certified bearing center."
+    }
+  },
+  "source_interface_gaps": {
+    "C_source_hole_axis_xz_mismatch_m": 5.871665669202781e-06,
+    "D_source_hole_axis_xz_mismatch_m": 7.681039243083856e-06,
+    "G_tie_lateral_y_m": -0.038,
+    "G_bracket_mesh_y_bounds_m": [
+      -0.03200000151991844,
+      -0.024000000208616257
+    ],
+    "head_rocker_mesh_y_bounds_m": [
+      -0.030000003054738045,
+      -0.02199999988079071
+    ],
+    "lower_A_pin_y_center_m": -0.03700000047683716,
+    "base_plan_lateral_centerline_verified": false,
+    "interpretation": "XZ alignment supports candidate transverse hinge axes; differing Y spans need shaft, spacer, clearance and attachment evidence. No whole pantograph recentering or scaling is applied."
+  },
+  "old_comparison": {
+    "old_model_status": "OPEN_SERIAL_EQUIVALENT_WITH_UNMODELED_RODS_AND_E_AXIS",
+    "old_body_names": [
+      "panto_base",
+      "panto_lower",
+      "panto_upper",
+      "panto_head_carriage",
+      "panto_head_float",
+      "panto_wire"
+    ],
+    "old_reference_poses": {
+      "panto_base": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "panto_lower": {
+        "position": [
+          -0.242231787197227,
+          0.0,
+          1.0878864516453508
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "panto_upper": {
+        "position": [
+          0.574847989877525,
+          0.0,
+          1.3113737712454179
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "panto_head_carriage": {
+        "position": [
+          -0.48885046642607777,
+          0.0,
+          1.4983111780353182
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "panto_head_float": {
+        "position": [
+          -0.48885046642607777,
+          0.0,
+          1.4983111780353182
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "panto_wire": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "old_geometry": {
+      "A": [
+        -0.242231787197227,
+        0.0,
+        1.0878864516453508
+      ],
+      "E": [
+        0.559847989877525,
+        0.0,
+        1.258373771245418
+      ],
+      "U": [
+        0.5748479898775251,
+        0.0,
+        1.3113737712454179
+      ],
+      "H": [
+        -0.48885046642607766,
+        0.0,
+        1.4983111780353182
+      ],
+      "lower_length_m": 0.819998716423812,
+      "lower_length_evidence": "CAD_2D_GEOMETRY_CANDIDATE_NOT_MEASURED_LINK_IDENTITY",
+      "upper_length_m": 1.08,
+      "upper_length_evidence": "PHOTO_INFERRED_GEOMETRY",
+      "reference_lower_angle_rad": 0.20943951023931956,
+      "reference_upper_angle_rad": 0.17396635943805094,
+      "wire_z_m": 1.5688111780353182,
+      "wire_x_bounds_m": [
+        -9.046212196350098,
+        0.9011430740356445
+      ]
+    },
+    "new_source_lower_AB_length_m": 0.8199987157037677,
+    "new_source_upper_UH_length_m": 1.0919992488977002,
+    "old_lower_angle_deg": 12.000000000000002,
+    "new_lower_angle_deg": 0.0,
+    "new_upper_angle_deg": -2.3300782923974152e-14,
+    "new_U_minus_old_U_m": [
+      0.027337557474312102,
+      0.0,
+      -0.16868066888564237
+    ],
+    "new_H_minus_old_H_m": [
+      -0.0009632351197854105,
+      0.0,
+      -0.35561807567554315
+    ],
+    "new_E_minus_old_head_H_m": [
+      -0.01296324199610066,
+      0.0,
+      -0.3766180639919259
+    ],
+    "labels_are_not_equivalent": "Old E is lower-arm tip; new E is head rocker/suspension axis. New B is lower-arm tip. Never map by letter alone.",
+    "old_masses_kg": {
+      "lower_mass_kg": {
+        "value": 1.5,
+        "exploration_range_not_calibration": [
+          0.3,
+          5
+        ],
+        "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+        "note": "Whole lower assembly lumped at arm midpoint; not inferred from mesh volume."
+      },
+      "upper_mass_kg": {
+        "value": 1.2,
+        "exploration_range_not_calibration": [
+          0.2,
+          4
+        ],
+        "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+        "note": "Upper beam and fork lumped at centerline midpoint."
+      },
+      "head_carriage_mass_kg": {
+        "value": 0.2,
+        "exploration_range_not_calibration": [
+          0.05,
+          1
+        ],
+        "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+        "note": "Stationary portion of assumed head guide assembly."
+      },
+      "head_float_mass_kg": {
+        "value": 0.4,
+        "exploration_range_not_calibration": [
+          0.1,
+          2
+        ],
+        "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+        "note": "Collector, carbon strips, carriers and assumed floating pins/yokes."
+      }
+    },
+    "old_mass_transfer_allowed": false,
+    "old_motion_transfer_allowed": false,
+    "old_collision_transfer_allowed": false,
+    "old_unmodeled": [
+      "Physical E-axis motion relative to lower arm; E->U carrier is provisionally rigid with lower arm.",
+      "Both slender adjustable rods: 3D ball centers, hinge attachment ownership and mechanical closure.",
+      "Air bellows effective area, pressure chamber, hysteresis, force path, air circuit and deformation.",
+      "B32 black barrel linkage, bore, stroke, piston side, seals, friction and function.",
+      "Rigid head linkage leveling/synchronization; no ideal parallelogram or algebraic fold relation is imposed.",
+      "Actual head guide internals and which guide pieces translate; present split is a declared equivalent.",
+      "Wire tension, sag, transverse dynamics, droppers and speed-dependent catenary effects; wire is fixed here.",
+      "Carbon wear, elasticity, arcing, electric current and copper braid flexibility.",
+      "Physical masses, inertia tensors, damping, springs and true motion stops; all dynamics are uncalibrated.",
+      "Arm-roof, link-link and cover collisions; only collector/wire and numerical joint stops are solved."
+    ]
+  },
+  "hypotheses": {
+    "H_BASE_FIXED": "New base/insulators fixed to assembly roof; no compliance calibrated.",
+    "H_LOWER_BUSHINGS_FIXED": "A/B bushings rotate with lower arm, rather than shaft-fixed bushings.",
+    "H_UPPER_COMPONENT_RIGID": "Upper main/fork/H eyes form one rigid CAD component.",
+    "H_ELBOW_FIXED_TO_UPPER": "B and C elbow plates are fixed to upper main at U. U is not an independent hinge in this candidate.",
+    "H_G_ON_LOWER": "G bracket is rigidly attached to lower arm.",
+    "H_LOWER_TIE_LOCKED": "C-D adjustment is locked; rigid tie with transverse pin ends.",
+    "H_UPPER_TIE_RIGID": "F-G shaft and eyes form a rigid tie with transverse pin ends.",
+    "H_ROCKER_FOLLOWS_H": "Single E/F/H rocker hinges to upper arm at H; E suspension is left unmodeled.",
+    "H_PLANAR_AXES": "All candidate linkage axes parallel to world Y; lateral bearing stack, spherical axes and tolerances unverified."
+  },
+  "candidate_topology": {
+    "id": "H1_DUAL_FOURBAR_PLANAR",
+    "bodies": [
+      "cad_panto_base",
+      "cad_panto_lower",
+      "cad_panto_upper",
+      "cad_panto_lower_tie",
+      "cad_panto_head_rocker",
+      "cad_panto_upper_tie"
+    ],
+    "tree_hinges": [
+      "A base/lower",
+      "B lower/upper",
+      "C upper/lower_tie",
+      "H upper/head_rocker",
+      "F head_rocker/upper_tie"
+    ],
+    "closure_constraints": [
+      "D lower_tie/base",
+      "G upper_tie/lower"
+    ],
+    "nominal_planar_mobility": 1,
+    "independent_U_hinge": "UNRESOLVED_ALTERNATIVE_REQUIRES_DIFFERENT_TOPOLOGY",
+    "head_E_pitch_and_float": "NOT_MODELED",
+    "mass_policy": "Explicit unit-test masses and analytic envelope inertias only; not old calibrated masses or mesh-density physical estimates.",
+    "force_ports": "Research root torque only; no prescribed qpos trajectory, no pneumatic actuation or collector force."
+  },
+  "summary": {
+    "total": 74,
+    "new_source_parts": 63,
+    "preserved_baseline": 11,
+    "candidate_kinematic_meshes": 20,
+    "status_counts": {
+      "SOURCE_STATIC_SUPPORT_CANDIDATE": 17,
+      "HEAD_COMPLIANCE_SPLIT_UNRESOLVED": 14,
+      "PIN_OWNERSHIP_UNRESOLVED": 6,
+      "SOURCE_COMPONENT_RIGID_GROUP": 16,
+      "ATTACHMENT_HYPOTHESIS": 3,
+      "BASELINE_RIGID_BINDING_RETAINED": 11,
+      "BELLOWS_FORCE_PATH_UNRESOLVED": 3,
+      "DEFORMABLE_VISUAL_ONLY": 3,
+      "SINGLE_SOURCE_PART": 1
+    }
+  },
+  "meshes": [
+    {
+      "mesh_name": "CAD6A54_base_frame_multiview",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "CAD6A54_base_frame_multiview",
+        "status": "plan outline with per-X side rail envelope; leftmost .595mm outside side domain explicitly extrapolated",
+        "source_refs": "[\"2B42/2977\", \"29A2\", \"2979\", \"2997\", \"2984\", \"2964\", \"297D\", \"29AD\", \"298F\", \"side2B22/28F9..2901\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_base_frame_multiview",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.4899997115135193,
+          -0.20708857476711273,
+          1.0078864097595215
+        ],
+        [
+          0.012768208049237728,
+          0.13300000131130219,
+          1.1178864240646362
+        ]
+      ],
+      "geometry_sha256": "e1ef769b3024253869e7bfd0fbcc409acb59e29fd39d0d6dd0f26e56d2d79af4",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_contact_strip_candidate",
+      "candidate_body": null,
+      "assignment_status": "HEAD_COMPLIANCE_SPLIT_UNRESOLVED",
+      "reason": "Head support, guide, carrier and strip are spatially resolved but their sliding/rocking ownership and spring force path require a distinct head model.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "CAD6A54_contact_strip_candidate",
+        "status": "Native companion planXY and matched sideXZ section; head component translation40.18042941229942mm, no scale fit",
+        "source_refs": "[\"2B67/2AFE\", \"2B67/2AF6\", \"2B21/28D3\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_contact_strip_candidate",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5603137016296387,
+          -0.38750001788139343,
+          1.1841931343078613
+        ],
+        [
+          -0.5343137383460999,
+          0.38749998807907104,
+          1.2021931409835815
+        ]
+      ],
+      "geometry_sha256": "6b382bf98b0466bd81264842b995a9379493b563bf7aa9d3a2168950a7d19d14",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_front_insulator_bent_support",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "CAD6A54_front_insulator_bent_support",
+        "status": "paired nativeX extents0..130.512579205mm, topY36mm, source5mm folded support profile; four native vertical holes; added closing segment only source duplicate endpoint",
+        "source_refs": "[\"side2B31/2A46\", \"plan2B52/2A56..2A66\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_front_insulator_bent_support",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5919997096061707,
+          -0.018004531040787697,
+          1.0605132579803467
+        ],
+        [
+          -0.4614871144294739,
+          0.017995472997426987,
+          1.1570416688919067
+        ]
+      ],
+      "geometry_sha256": "fe7d5d8c499f93c66420c5da5521266a8d506e53bb1f0080e6109fd5c6f91fb1",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_head_carrier_floor",
+      "candidate_body": null,
+      "assignment_status": "HEAD_COMPLIANCE_SPLIT_UNRESOLVED",
+      "reason": "Head support, guide, carrier and strip are spatially resolved but their sliding/rocking ownership and spring force path require a distinct head model.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "CAD6A54_head_carrier_floor",
+        "status": "Native companion planXY and matched sideXZ section; head component translation40.18042941229942mm, no scale fit",
+        "source_refs": "[\"2B67/2AFD\", \"2B21/28D5\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_head_carrier_floor",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5623137354850769,
+          -0.3908492624759674,
+          1.1821930408477783
+        ],
+        [
+          -0.5323137044906616,
+          0.3908492624759674,
+          1.1841931343078613
+        ]
+      ],
+      "geometry_sha256": "8e42c18e487943768f673cc239cc3091993a6e6d0949225f1efef6658808d1f3",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_head_carrier_side_far",
+      "candidate_body": null,
+      "assignment_status": "HEAD_COMPLIANCE_SPLIT_UNRESOLVED",
+      "reason": "Head support, guide, carrier and strip are spatially resolved but their sliding/rocking ownership and spring force path require a distinct head model.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "CAD6A54_head_carrier_side_far",
+        "status": "Native companion planXY and matched sideXZ section; head component translation40.18042941229942mm, no scale fit",
+        "source_refs": "[\"2B67/2AF6\", \"2B21/28D4\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_head_carrier_side_far",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5343137383460999,
+          -0.38750001788139343,
+          1.1841931343078613
+        ],
+        [
+          -0.5323137044906616,
+          0.38749998807907104,
+          1.1941931247711182
+        ]
+      ],
+      "geometry_sha256": "f1821ffa960635d9a7939cb072cdadeaec70ca8a8bb69a5000cbbbfa1173aa53",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_head_carrier_side_near",
+      "candidate_body": null,
+      "assignment_status": "HEAD_COMPLIANCE_SPLIT_UNRESOLVED",
+      "reason": "Head support, guide, carrier and strip are spatially resolved but their sliding/rocking ownership and spring force path require a distinct head model.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "CAD6A54_head_carrier_side_near",
+        "status": "Native companion planXY and matched sideXZ section; head component translation40.18042941229942mm, no scale fit",
+        "source_refs": "[\"2B67/2AFE\", \"2B21/28D6\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_head_carrier_side_near",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5623137354850769,
+          -0.38750001788139343,
+          1.1841931343078613
+        ],
+        [
+          -0.5603137016296387,
+          0.38749998807907104,
+          1.1941931247711182
+        ]
+      ],
+      "geometry_sha256": "f70a631b1bf1932bd7d16e5bdabcce6e65c59fd3653c89dbf3dc02d60c7621f1",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_head_end_pin_far",
+      "candidate_body": null,
+      "assignment_status": "PIN_OWNERSHIP_UNRESOLVED",
+      "reason": "Shafts cross adjacent bodies; source does not establish which body they rotate with. Candidate axis can be used without promoting shaft ownership.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "CAD6A54_head_end_pin_far",
+        "status": "native sideE eye radius visual pin; native companion end fitting transverse domain; clearance/thread unknown",
+        "source_refs": "[\"side2B21/28E3\", \"plan2B5B/2B61\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_head_end_pin_far",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5118137001991272,
+          0.2854999899864197,
+          1.1116931438446045
+        ],
+        [
+          -0.4918137192726135,
+          0.30250000953674316,
+          1.1316931247711182
+        ]
+      ],
+      "geometry_sha256": "2607d52b1e24a2bfcd09329c10bc4c95785ee548a2d803d5c1c3823592297c08",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_head_end_pin_near",
+      "candidate_body": null,
+      "assignment_status": "PIN_OWNERSHIP_UNRESOLVED",
+      "reason": "Shafts cross adjacent bodies; source does not establish which body they rotate with. Candidate axis can be used without promoting shaft ownership.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "CAD6A54_head_end_pin_near",
+        "status": "native sideE eye radius visual pin; native companion end fitting transverse domain; clearance/thread unknown",
+        "source_refs": "[\"side2B21/28E3\", \"plan2B5B/2B61\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_head_end_pin_near",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5118137001991272,
+          -0.30250000953674316,
+          1.1116931438446045
+        ],
+        [
+          -0.4918137192726135,
+          -0.2854999899864197,
+          1.1316931247711182
+        ]
+      ],
+      "geometry_sha256": "297d10ab10f609ad33a37d4d6dba538420665bf019182a95377deb1766ad3139",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_head_transverse_shaft",
+      "candidate_body": null,
+      "assignment_status": "PIN_OWNERSHIP_UNRESOLVED",
+      "reason": "Shafts cross adjacent bodies; source does not establish which body they rotate with. Candidate axis can be used without promoting shaft ownership.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "CAD6A54_head_transverse_shaft",
+        "status": "sideE native outer/hole radius; clearance and part assignment candidate",
+        "source_refs": "[\"2B21/28E3\", \"2B66/2AE9\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_head_transverse_shaft",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5118137001991272,
+          -0.2874999940395355,
+          1.1116931438446045
+        ],
+        [
+          -0.4918137192726135,
+          0.2874999940395355,
+          1.1316931247711182
+        ]
+      ],
+      "geometry_sha256": "ff3288bc80ac9c18e311420264b60dbb870163930e8df069c18f495c9e8c9ee6",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_lower_A_transverse_pin",
+      "candidate_body": null,
+      "assignment_status": "PIN_OWNERSHIP_UNRESOLVED",
+      "reason": "Shafts cross adjacent bodies; source does not establish which body they rotate with. Candidate axis can be used without promoting shaft ownership.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "CAD6A54_lower_A_transverse_pin",
+        "status": "native side eye radius as visual pin candidate, no clearance verified",
+        "source_refs": "[\"2B26/292D\", \"2B3F/276A/2723\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_lower_A_transverse_pin",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.2464817762374878,
+          -0.18199999630451202,
+          1.0836364030838013
+        ],
+        [
+          -0.23798178136348724,
+          0.10799999535083771,
+          1.0921365022659302
+        ]
+      ],
+      "geometry_sha256": "39156fb91a90befe9f0de8f2a7128af2402d9a99f365c399abf6afc6e66b48d6",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_lower_B_transverse_pin",
+      "candidate_body": null,
+      "assignment_status": "PIN_OWNERSHIP_UNRESOLVED",
+      "reason": "Shafts cross adjacent bodies; source does not establish which body they rotate with. Candidate axis can be used without promoting shaft ownership.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "CAD6A54_lower_B_transverse_pin",
+        "status": "native side eye radius as visual pin candidate, no clearance verified",
+        "source_refs": "[\"2B2B/2633\", \"2B3F/276C/2758\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_lower_B_transverse_pin",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.5735169649124146,
+          -0.05900000035762787,
+          1.0836364030838013
+        ],
+        [
+          0.5820169448852539,
+          0.05900000035762787,
+          1.0921365022659302
+        ]
+      ],
+      "geometry_sha256": "977b52c7c27c0cbe17d9d2f13bef2b0257777c5832ae8cf07f9e5d5a234224ac",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_side_insulator_strap_far_left",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "CAD6A54_side_insulator_strap_far_left",
+        "status": "native tapered twin-stripXY;5mm Z thickness and linear tilt are explicit assembly candidates, no source elevation supplied",
+        "source_refs": "[\"2B51/26AD..26B5\", \"side frame top132.373mm\", \"side insulator top145mm\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_side_insulator_strap_far_left",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.18723177909851074,
+          0.13300000131130219,
+          1.0478864908218384
+        ],
+        [
+          -0.16725964844226837,
+          0.2745000123977661,
+          1.0671799182891846
+        ]
+      ],
+      "geometry_sha256": "b4c2c9ca753b3f795759991ae30ecfc010a22f46c0e2923d5071741d029fa036",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_side_insulator_strap_far_right",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "CAD6A54_side_insulator_strap_far_right",
+        "status": "native tapered twin-stripXY;5mm Z thickness and linear tilt are explicit assembly candidates, no source elevation supplied",
+        "source_refs": "[\"2B51/26AD..26B5\", \"side frame top132.373mm\", \"side insulator top145mm\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_side_insulator_strap_far_right",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.13220392167568207,
+          0.13300000131130219,
+          1.0478864908218384
+        ],
+        [
+          -0.1122317761182785,
+          0.2745000123977661,
+          1.0671799182891846
+        ]
+      ],
+      "geometry_sha256": "2acb43048891d84e747732bfeaa3169d7213c299e5eda2139ff3fa66f5dba025",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_side_insulator_strap_near_left",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "CAD6A54_side_insulator_strap_near_left",
+        "status": "native tapered twin-stripXY;5mm Z thickness and linear tilt are explicit assembly candidates, no source elevation supplied",
+        "source_refs": "[\"2B53/26AD..26B5\", \"side frame top132.373mm\", \"side insulator top145mm\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_side_insulator_strap_near_left",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.18723177909851074,
+          -0.34850001335144043,
+          1.0478864908218384
+        ],
+        [
+          -0.16725964844226837,
+          -0.2070000022649765,
+          1.0671799182891846
+        ]
+      ],
+      "geometry_sha256": "6b83f91e5f6cf28b52620150830d132dcee56d6f3c73b44f8f6fe55a74fbfe32",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_side_insulator_strap_near_right",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "CAD6A54_side_insulator_strap_near_right",
+        "status": "native tapered twin-stripXY;5mm Z thickness and linear tilt are explicit assembly candidates, no source elevation supplied",
+        "source_refs": "[\"2B53/26AD..26B5\", \"side frame top132.373mm\", \"side insulator top145mm\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_side_insulator_strap_near_right",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.13220392167568207,
+          -0.34850001335144043,
+          1.0478864908218384
+        ],
+        [
+          -0.1122317761182785,
+          -0.2070000022649765,
+          1.0671799182891846
+        ]
+      ],
+      "geometry_sha256": "aa8bc204fdf004a16aa71be0078a830f2af6666e87356cefb0d018311d94ea29",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_upper_H_eye_far",
+      "candidate_body": "cad_panto_upper",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Paired upper plan/side component with U-H span; no old upper-body reuse.",
+      "required_hypotheses": [
+        "H_UPPER_COMPONENT_RIGID"
+      ],
+      "source_metadata": {
+        "id": "CAD6A54_upper_H_eye_far",
+        "status": "native sideR10 withR4.1 through-eye; plan paired20mm depth andY±141mm; part/material calibration unverified",
+        "source_refs": "[\"side2B30/2A36+2A37\", \"plan2B66/2AE7+2AED/2A0B\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_upper_H_eye_far",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.4998137056827545,
+          0.13099999725818634,
+          1.1326930522918701
+        ],
+        [
+          -0.47981369495391846,
+          0.1509999930858612,
+          1.1526931524276733
+        ]
+      ],
+      "geometry_sha256": "935fd625b90342aabc1c774f69b61c4b3d32c4d33854b272d073e4a538911b4f",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_upper_H_eye_near",
+      "candidate_body": "cad_panto_upper",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Paired upper plan/side component with U-H span; no old upper-body reuse.",
+      "required_hypotheses": [
+        "H_UPPER_COMPONENT_RIGID"
+      ],
+      "source_metadata": {
+        "id": "CAD6A54_upper_H_eye_near",
+        "status": "native sideR10 withR4.1 through-eye; plan paired20mm depth andY±141mm; part/material calibration unverified",
+        "source_refs": "[\"side2B30/2A36+2A37\", \"plan2B66/2AE7+2AED/2A0B\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_upper_H_eye_near",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.4998137056827545,
+          -0.1510000079870224,
+          1.1326930522918701
+        ],
+        [
+          -0.47981369495391846,
+          -0.13100001215934753,
+          1.1526931524276733
+        ]
+      ],
+      "geometry_sha256": "ce13e35b66e0462a9281d82fa5ccf78acb6f56d976ce161006043953aee16160",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_upper_fork_candidate",
+      "candidate_body": "cad_panto_upper",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Paired upper plan/side component with U-H span; no old upper-body reuse.",
+      "required_hypotheses": [
+        "H_UPPER_COMPONENT_RIGID"
+      ],
+      "source_metadata": {
+        "id": "CAD6A54_upper_fork_candidate",
+        "status": "Paired upper H/terminal axes match1091.999230834mm exactly after component INSERT translation; native plan contour with side30mm height",
+        "source_refs": "[\"2B66/2AEE\", \"2B30/upper 30mm side envelope\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_upper_fork_candidate",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.4998137056827545,
+          -0.1509999930858612,
+          1.1276930570602417
+        ],
+        [
+          -0.2998122274875641,
+          0.1509999930858612,
+          1.1576931476593018
+        ]
+      ],
+      "geometry_sha256": "1235902e1d928212278ec02e19113d2357868b92ea7c13414e499e70f778c1e7",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_upper_main_plan_priority",
+      "candidate_body": "cad_panto_upper",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Paired upper plan/side component with U-H span; no old upper-body reuse.",
+      "required_hypotheses": [
+        "H_UPPER_COMPONENT_RIGID"
+      ],
+      "source_metadata": {
+        "id": "CAD6A54_upper_main_plan_priority",
+        "status": "Paired upper H/terminal axes match1091.999230834mm exactly after component INSERT translation; native plan contour with side30mm height",
+        "source_refs": "[\"2B66/2ACC\", \"2ACF\", \"2AD1\", \"2ACE\", \"2ACD\", \"2AE3\", \"2B30/2A21\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_upper_main_plan_priority",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.31230542063713074,
+          -0.014999999664723873,
+          1.1276930570602417
+        ],
+        [
+          0.6021855473518372,
+          0.014999999664723873,
+          1.1576931476593018
+        ]
+      ],
+      "geometry_sha256": "36fdeec752f736af2b31b6b40a429780eb02e963ff4fb6fd0b66253ec6e751c6",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD6A54_upper_terminal_transverse_shaft",
+      "candidate_body": null,
+      "assignment_status": "PIN_OWNERSHIP_UNRESOLVED",
+      "reason": "Shafts cross adjacent bodies; source does not establish which body they rotate with. Candidate axis can be used without promoting shaft ownership.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "CAD6A54_upper_terminal_transverse_shaft",
+        "status": "native side2A21 R15 paired to top277B transverse rectangle30x118mm; no physical clearance certification",
+        "source_refs": "[\"side2B30/2A21\", \"plan2B66/2AE5/277B\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD6A54_upper_terminal_transverse_shaft",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.5871855616569519,
+          -0.05900000035762787,
+          1.1276930570602417
+        ],
+        [
+          0.6171855330467224,
+          0.05900000035762787,
+          1.1576931476593018
+        ]
+      ],
+      "geometry_sha256": "ff725e94dc650ab428a902cb10e1820fadc0434e7cd309bbedbe92b4042df374",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD_INS_aft_eight_sheds",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "CAD_INS_aft_eight_sheds",
+        "status": "CAD-derived rotational reconstruction supported by native plan circle; physical as-built not verified",
+        "source_refs": "[\"zw$9395/2B2D/27F8..2859\", \"zw$6A54/2B57..2B59\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_INS_aft_eight_sheds",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5524997115135193,
+          -0.032504528760910034,
+          0.9305132031440735
+        ],
+        [
+          -0.4874997138977051,
+          0.03249547258019447,
+          1.0605132579803467
+        ]
+      ],
+      "geometry_sha256": "daa13e9329b4e5b24bb5dc0d6cbaaa4d3c72cb3b443fe5e51b81fb8b7db47fe9",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD_INS_aft_foot",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "CAD_INS_aft_foot",
+        "status": "native85mm square,R4 corners,5mm thickness,4xR4.3 and centerR5.5 through holes",
+        "source_refs": "[\"2B56/2A6C..2A71\", \"zw$9395/2B38/2B18\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_INS_aft_foot",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5624997019767761,
+          -0.04250452667474747,
+          0.9155132174491882
+        ],
+        [
+          -0.47749969363212585,
+          0.042495474219322205,
+          0.9205132126808167
+        ]
+      ],
+      "geometry_sha256": "9f9d76920792dbeb5221e73537308330cb3018ec21b32a41cc9dfca7344a0a61",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD_INS_aft_stud_candidate",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "CAD_INS_aft_stud_candidate",
+        "status": "INTERVAL_CONNECTOR_CANDIDATE; diameter inferred from native 10mm center traces, hidden thread detail absent",
+        "source_refs": "[\"side2B32/2B34 mounting detail\", \"side2B2D center traces2856/2857\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_INS_aft_stud_candidate",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.524999737739563,
+          -0.005004527512937784,
+          0.9205132126808167
+        ],
+        [
+          -0.5149997472763062,
+          0.004995472263544798,
+          0.9305132031440735
+        ]
+      ],
+      "geometry_sha256": "bbcc572e52360d3f0455bdb7f1ce2af2478bceb3fcf6566f74f823c96fe38cdd",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD_INS_far_eight_sheds",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "CAD_INS_far_eight_sheds",
+        "status": "CAD-derived rotational reconstruction supported by native plan circle; physical as-built not verified",
+        "source_refs": "[\"zw$9395/2B2D/27F8..2859\", \"zw$6A54/2B57..2B59\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_INS_far_eight_sheds",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.18223178386688232,
+          0.22550000250339508,
+          0.9305132031440735
+        ],
+        [
+          -0.11723178625106812,
+          0.2904999852180481,
+          1.0605132579803467
+        ]
+      ],
+      "geometry_sha256": "ad3b210e112a67b14732014816513febed45ed17c7c22cb1f6170531f2f58a7c",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD_INS_far_foot",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "CAD_INS_far_foot",
+        "status": "native85mm square,R4 corners,5mm thickness,4xR4.3 and centerR5.5 through holes",
+        "source_refs": "[\"2B54/2A6C..2A71\", \"zw$9395/2B38/2B18\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_INS_far_foot",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.19223178923130035,
+          0.21549999713897705,
+          0.9155132174491882
+        ],
+        [
+          -0.10723178088665009,
+          0.3005000054836273,
+          0.9205132126808167
+        ]
+      ],
+      "geometry_sha256": "9c12953924c97532026c2111c10ecb0dcc56ab32265e0c6d9c9218ad71e033ea",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD_INS_far_stud_candidate",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "CAD_INS_far_stud_candidate",
+        "status": "INTERVAL_CONNECTOR_CANDIDATE; diameter inferred from native 10mm center traces, hidden thread detail absent",
+        "source_refs": "[\"side2B32/2B34 mounting detail\", \"side2B2D center traces2856/2857\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_INS_far_stud_candidate",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.15473178029060364,
+          0.2529999911785126,
+          0.9205132126808167
+        ],
+        [
+          -0.1447317749261856,
+          0.2629999816417694,
+          0.9305132031440735
+        ]
+      ],
+      "geometry_sha256": "ffceb8a119ac5982f59f8a8c47b916baa889dcfc7a81932fb702cf1deef4b862",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD_INS_near_eight_sheds",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "CAD_INS_near_eight_sheds",
+        "status": "CAD-derived rotational reconstruction supported by native plan circle; physical as-built not verified",
+        "source_refs": "[\"zw$9395/2B2D/27F8..2859\", \"zw$6A54/2B57..2B59\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_INS_near_eight_sheds",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.18223178386688232,
+          -0.3644999861717224,
+          0.9305132031440735
+        ],
+        [
+          -0.11723178625106812,
+          -0.2994999885559082,
+          1.0605132579803467
+        ]
+      ],
+      "geometry_sha256": "e95c5d48529dd14ccfa36a1314dd34ee2aaef2aadc7548d8d606bf6afbe10278",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD_INS_near_foot",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "CAD_INS_near_foot",
+        "status": "native85mm square,R4 corners,5mm thickness,4xR4.3 and centerR5.5 through holes",
+        "source_refs": "[\"2B55/2A6C..2A71\", \"zw$9395/2B38/2B18\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_INS_near_foot",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.19223178923130035,
+          -0.37450000643730164,
+          0.9155132174491882
+        ],
+        [
+          -0.10723178088665009,
+          -0.28949999809265137,
+          0.9205132126808167
+        ]
+      ],
+      "geometry_sha256": "34a310bef76505c870cff8b3820a2ca12891b8c025f7c69617c1180cb9f7c50b",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "CAD_INS_near_stud_candidate",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "CAD_INS_near_stud_candidate",
+        "status": "INTERVAL_CONNECTOR_CANDIDATE; diameter inferred from native 10mm center traces, hidden thread detail absent",
+        "source_refs": "[\"side2B32/2B34 mounting detail\", \"side2B2D center traces2856/2857\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_INS_near_stud_candidate",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.15473178029060364,
+          -0.3369999825954437,
+          0.9205132126808167
+        ],
+        [
+          -0.1447317749261856,
+          -0.3269999921321869,
+          0.9305132031440735
+        ]
+      ],
+      "geometry_sha256": "57f71e13b14d2dd0675c82b196d2427cce978c43944a72447fbf29204d85285c",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "G_support_bracket",
+      "candidate_body": "cad_panto_lower",
+      "assignment_status": "ATTACHMENT_HYPOTHESIS",
+      "reason": "G bracket lies 32.5 mm behind B on lower-arm centerline; source does not certify a weld or fastener.",
+      "required_hypotheses": [
+        "H_G_ON_LOWER"
+      ],
+      "source_metadata": {
+        "id": "G_support_bracket",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"2B11\", \"2B12\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "G_support_bracket",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.5372668504714966,
+          -0.03200000151991844,
+          1.0798873901367188
+        ],
+        [
+          0.5567371249198914,
+          -0.024000000208616257,
+          1.095887303352356
+        ]
+      ],
+      "geometry_sha256": "d1c4fe3a2a03cd166f495ef0ead45c4de5524b254fa8e567efc2f3dc6a113083",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "Panto_red_cover_back",
+      "candidate_body": "panto_base",
+      "assignment_status": "BASELINE_RIGID_BINDING_RETAINED",
+      "reason": "Unchanged baseline geometry retains old exact-preservation mapping; not attached to candidate linkage.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "dimension_status": "",
+        "display_group": "",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "pantograph",
+        "id": "1997",
+        "registered_component_id": "DTB-S04-SS01",
+        "registry_match_status": "",
+        "semantic_part_id": "PANTOGRAPH_RED_COVER",
+        "source_refs": "图片素材/受电弓.jpg;图片素材/图片2.png;图片素材/图片3.png;图片素材/图片19.png",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "Panto_red_cover_back",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.023749999701976776,
+          0.10399999469518661,
+          0.9180132746696472
+        ],
+        [
+          -0.020250000059604645,
+          0.2759999930858612,
+          1.0650132894515991
+        ]
+      ],
+      "geometry_sha256": "3350fb24702932da8a3591cfb858ce60ddc0f55613d2421920370acdaf6836b8",
+      "baseline_category": "PRESERVE_VISUAL_RIGID_MAP",
+      "baseline_body": "panto_base",
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": "panto_base",
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": true
+    },
+    {
+      "mesh_name": "Panto_red_cover_cable_grommet",
+      "candidate_body": "panto_base",
+      "assignment_status": "BASELINE_RIGID_BINDING_RETAINED",
+      "reason": "Unchanged baseline geometry retains old exact-preservation mapping; not attached to candidate linkage.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "dimension_status": "",
+        "display_group": "",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "pantograph",
+        "id": "1998",
+        "registered_component_id": "DTB-S04-SS01",
+        "registry_match_status": "",
+        "semantic_part_id": "PANTOGRAPH_RED_COVER",
+        "source_refs": "图片素材/受电弓.jpg;图片素材/图片2.png;图片素材/图片3.png;图片素材/图片19.png",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "Panto_red_cover_cable_grommet",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.21450001001358032,
+          0.22100000083446503,
+          0.9555131793022156
+        ],
+        [
+          0.21799999475479126,
+          0.23499999940395355,
+          0.9695132374763489
+        ]
+      ],
+      "geometry_sha256": "2c93e306ae5f21d61f9aa352f741305e1499b5bb8aa52b68b7928f309f96148f",
+      "baseline_category": "PRESERVE_VISUAL_RIGID_MAP",
+      "baseline_body": "panto_base",
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": "panto_base",
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": true
+    },
+    {
+      "mesh_name": "Panto_red_cover_far_sheet",
+      "candidate_body": "panto_base",
+      "assignment_status": "BASELINE_RIGID_BINDING_RETAINED",
+      "reason": "Unchanged baseline geometry retains old exact-preservation mapping; not attached to candidate linkage.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "dimension_status": "",
+        "display_group": "",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "pantograph",
+        "id": "1999",
+        "registered_component_id": "DTB-S04-SS01",
+        "registry_match_status": "",
+        "semantic_part_id": "PANTOGRAPH_RED_COVER",
+        "source_refs": "图片素材/受电弓.jpg;图片素材/图片2.png;图片素材/图片3.png;图片素材/图片19.png",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "Panto_red_cover_far_sheet",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.023920254781842232,
+          0.27425000071525574,
+          0.9195132255554199
+        ],
+        [
+          0.21400000154972076,
+          0.2777499854564667,
+          1.069513201713562
+        ]
+      ],
+      "geometry_sha256": "e7480434751bc27deca573c625b4854ff166cd3aaa44447369e07822d56ef19c",
+      "baseline_category": "PRESERVE_VISUAL_RIGID_MAP",
+      "baseline_body": "panto_base",
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": "panto_base",
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": true
+    },
+    {
+      "mesh_name": "Panto_red_cover_front_lower_lip",
+      "candidate_body": "panto_base",
+      "assignment_status": "BASELINE_RIGID_BINDING_RETAINED",
+      "reason": "Unchanged baseline geometry retains old exact-preservation mapping; not attached to candidate linkage.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "dimension_status": "",
+        "display_group": "",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "pantograph",
+        "id": "2000",
+        "registered_component_id": "DTB-S04-SS01",
+        "registry_match_status": "",
+        "semantic_part_id": "PANTOGRAPH_RED_COVER",
+        "source_refs": "图片素材/受电弓.jpg;图片素材/图片2.png;图片素材/图片3.png;图片素材/图片19.png",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "Panto_red_cover_front_lower_lip",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.21199999749660492,
+          0.10399999469518661,
+          0.9205132126808167
+        ],
+        [
+          0.2160000056028366,
+          0.2759999930858612,
+          0.9465132355690002
+        ]
+      ],
+      "geometry_sha256": "ef6f0c7feaad0bb374527225c31a7742edb8a7a7a74b165a348ad37dfdaca8ce",
+      "baseline_category": "PRESERVE_VISUAL_RIGID_MAP",
+      "baseline_body": "panto_base",
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": "panto_base",
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": true
+    },
+    {
+      "mesh_name": "Panto_red_cover_near_sheet",
+      "candidate_body": "panto_base",
+      "assignment_status": "BASELINE_RIGID_BINDING_RETAINED",
+      "reason": "Unchanged baseline geometry retains old exact-preservation mapping; not attached to candidate linkage.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "dimension_status": "",
+        "display_group": "",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "pantograph",
+        "id": "2001",
+        "registered_component_id": "DTB-S04-SS01",
+        "registry_match_status": "",
+        "semantic_part_id": "PANTOGRAPH_RED_COVER",
+        "source_refs": "图片素材/受电弓.jpg;图片素材/图片2.png;图片素材/图片3.png;图片素材/图片19.png",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "Panto_red_cover_near_sheet",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.023920254781842232,
+          0.10225000232458115,
+          0.9195132255554199
+        ],
+        [
+          0.21400000154972076,
+          0.10575000196695328,
+          1.069513201713562
+        ]
+      ],
+      "geometry_sha256": "8f7473bc82ae356831ed66079eeb8f9dc81c0cee80be49ddfb723f743546cf9b",
+      "baseline_category": "PRESERVE_VISUAL_RIGID_MAP",
+      "baseline_body": "panto_base",
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": "panto_base",
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": true
+    },
+    {
+      "mesh_name": "Panto_red_cover_open_face_shadow",
+      "candidate_body": "panto_base",
+      "assignment_status": "BASELINE_RIGID_BINDING_RETAINED",
+      "reason": "Unchanged baseline geometry retains old exact-preservation mapping; not attached to candidate linkage.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "dimension_status": "",
+        "display_group": "",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "pantograph",
+        "id": "2002",
+        "registered_component_id": "DTB-S04-SS01",
+        "registry_match_status": "",
+        "semantic_part_id": "PANTOGRAPH_RED_COVER",
+        "source_refs": "图片素材/受电弓.jpg;图片素材/图片2.png;图片素材/图片3.png;图片素材/图片19.png",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "Panto_red_cover_open_face_shadow",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.20600000023841858,
+          0.11349999904632568,
+          0.9250132441520691
+        ],
+        [
+          0.21000000834465027,
+          0.26649999618530273,
+          1.0220131874084473
+        ]
+      ],
+      "geometry_sha256": "d8178f0570a71cc948fb64a4f551789cff3d4f27192420a763269c33ba52f51b",
+      "baseline_category": "PRESERVE_VISUAL_RIGID_MAP",
+      "baseline_body": "panto_base",
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": "panto_base",
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": true
+    },
+    {
+      "mesh_name": "Panto_red_cover_top",
+      "candidate_body": "panto_base",
+      "assignment_status": "BASELINE_RIGID_BINDING_RETAINED",
+      "reason": "Unchanged baseline geometry retains old exact-preservation mapping; not attached to candidate linkage.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "dimension_status": "",
+        "display_group": "",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "pantograph",
+        "id": "2003",
+        "registered_component_id": "DTB-S04-SS01",
+        "registry_match_status": "",
+        "semantic_part_id": "PANTOGRAPH_RED_COVER",
+        "source_refs": "图片素材/受电弓.jpg;图片素材/图片2.png;图片素材/图片3.png;图片素材/图片19.png",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "Panto_red_cover_top",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.013999998569488525,
+          0.10399999469518661,
+          1.0667632818222046
+        ],
+        [
+          0.1860000044107437,
+          0.2759999930858612,
+          1.0702632665634155
+        ]
+      ],
+      "geometry_sha256": "a590c1ab40868a9cf702f009b500d762bff097de7206d3fa3fc8a5102f07c1aa",
+      "baseline_category": "PRESERVE_VISUAL_RIGID_MAP",
+      "baseline_body": "panto_base",
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": "panto_base",
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": true
+    },
+    {
+      "mesh_name": "Panto_red_cover_visible_fastener_-09_1045",
+      "candidate_body": "panto_base",
+      "assignment_status": "BASELINE_RIGID_BINDING_RETAINED",
+      "reason": "Unchanged baseline geometry retains old exact-preservation mapping; not attached to candidate linkage.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "dimension_status": "",
+        "display_group": "",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "pantograph",
+        "id": "2004",
+        "registered_component_id": "DTB-S04-SS01",
+        "registry_match_status": "",
+        "semantic_part_id": "PANTOGRAPH_RED_COVER",
+        "source_refs": "图片素材/受电弓.jpg;图片素材/图片2.png;图片素材/图片3.png;图片素材/图片19.png",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "Panto_red_cover_visible_fastener_-09_1045",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.012199999764561653,
+          0.09799999743700027,
+          1.0413131713867188
+        ],
+        [
+          -0.005799999460577965,
+          0.10100000351667404,
+          1.047713279724121
+        ]
+      ],
+      "geometry_sha256": "f08e535c33dacebc67d6f9a8824a1f8a41b801f8037579e328d195cbd8fe2b03",
+      "baseline_category": "PRESERVE_VISUAL_RIGID_MAP",
+      "baseline_body": "panto_base",
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": "panto_base",
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": true
+    },
+    {
+      "mesh_name": "Panto_red_cover_visible_fastener_-09_934",
+      "candidate_body": "panto_base",
+      "assignment_status": "BASELINE_RIGID_BINDING_RETAINED",
+      "reason": "Unchanged baseline geometry retains old exact-preservation mapping; not attached to candidate linkage.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "dimension_status": "",
+        "display_group": "",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "pantograph",
+        "id": "2005",
+        "registered_component_id": "DTB-S04-SS01",
+        "registry_match_status": "",
+        "semantic_part_id": "PANTOGRAPH_RED_COVER",
+        "source_refs": "图片素材/受电弓.jpg;图片素材/图片2.png;图片素材/图片3.png;图片素材/图片19.png",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "Panto_red_cover_visible_fastener_-09_934",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.012199999764561653,
+          0.09799999743700027,
+          0.930313229560852
+        ],
+        [
+          -0.005799999460577965,
+          0.10100000351667404,
+          0.9367132186889648
+        ]
+      ],
+      "geometry_sha256": "0c435578e9fb5c3aacdf221e6880ac11d3b59edf364880ab561908f4aa431e77",
+      "baseline_category": "PRESERVE_VISUAL_RIGID_MAP",
+      "baseline_body": "panto_base",
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": "panto_base",
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": true
+    },
+    {
+      "mesh_name": "Panto_red_cover_visible_fastener_189_1045",
+      "candidate_body": "panto_base",
+      "assignment_status": "BASELINE_RIGID_BINDING_RETAINED",
+      "reason": "Unchanged baseline geometry retains old exact-preservation mapping; not attached to candidate linkage.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "dimension_status": "",
+        "display_group": "",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "pantograph",
+        "id": "2006",
+        "registered_component_id": "DTB-S04-SS01",
+        "registry_match_status": "",
+        "semantic_part_id": "PANTOGRAPH_RED_COVER",
+        "source_refs": "图片素材/受电弓.jpg;图片素材/图片2.png;图片素材/图片3.png;图片素材/图片19.png",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "Panto_red_cover_visible_fastener_189_1045",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.1858000010251999,
+          0.09799999743700027,
+          1.0413131713867188
+        ],
+        [
+          0.19219999015331268,
+          0.10100000351667404,
+          1.047713279724121
+        ]
+      ],
+      "geometry_sha256": "c699d7623d9ae9e436d0dd4d26fe8743269145ce5f3e01b10cb626c04b774c43",
+      "baseline_category": "PRESERVE_VISUAL_RIGID_MAP",
+      "baseline_body": "panto_base",
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": "panto_base",
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": true
+    },
+    {
+      "mesh_name": "Panto_red_cover_visible_fastener_189_934",
+      "candidate_body": "panto_base",
+      "assignment_status": "BASELINE_RIGID_BINDING_RETAINED",
+      "reason": "Unchanged baseline geometry retains old exact-preservation mapping; not attached to candidate linkage.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "dimension_status": "",
+        "display_group": "",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "pantograph",
+        "id": "2007",
+        "registered_component_id": "DTB-S04-SS01",
+        "registry_match_status": "",
+        "semantic_part_id": "PANTOGRAPH_RED_COVER",
+        "source_refs": "图片素材/受电弓.jpg;图片素材/图片2.png;图片素材/图片3.png;图片素材/图片19.png",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "Panto_red_cover_visible_fastener_189_934",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.1858000010251999,
+          0.09799999743700027,
+          0.930313229560852
+        ],
+        [
+          0.19219999015331268,
+          0.10100000351667404,
+          0.9367132186889648
+        ]
+      ],
+      "geometry_sha256": "dff22840f196e2eb9f288fb0833c100efcc62984e60e9cd397625134dfd10f58",
+      "baseline_category": "PRESERVE_VISUAL_RIGID_MAP",
+      "baseline_body": "panto_base",
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": "panto_base",
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": true
+    },
+    {
+      "mesh_name": "base_carrier_plate",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "base_carrier_plate",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"2930\", \"292D\", \"292E\", \"292F\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "base_carrier_plate",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.4606208801269531,
+          -0.00400000112131238,
+          1.0078864097595215
+        ],
+        [
+          -0.20223179459571838,
+          0.004000003915280104,
+          1.1078864336013794
+        ]
+      ],
+      "geometry_sha256": "ebcd4ea0c06dd0c04728b10e1956907372f0ba4de1619dc866d8e7facb3f2011",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "base_tie_terminal",
+      "candidate_body": "cad_panto_base",
+      "assignment_status": "SOURCE_STATIC_SUPPORT_CANDIDATE",
+      "reason": "Source frame, insulators, support and base terminals; mount compliance and attachment not calibrated.",
+      "required_hypotheses": [
+        "H_BASE_FIXED"
+      ],
+      "source_metadata": {
+        "id": "base_tie_terminal",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"2A07\", \"2A06\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "base_tie_terminal",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.012768208049237728,
+          -0.003999997861683369,
+          1.0178864002227783
+        ],
+        [
+          0.043768227100372314,
+          0.004000003449618816,
+          1.0378865003585815
+        ]
+      ],
+      "geometry_sha256": "3d6aaadc7ed07aab349f2a11a678ef2a1928cf51f2f57b29ae7b88deec25622e",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "bellows_plate_28E7",
+      "candidate_body": null,
+      "assignment_status": "BELLOWS_FORCE_PATH_UNRESOLVED",
+      "reason": "Pressure-side and lower-arm-side plate ownership is not established; no pneumatic actuator claimed.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "bellows_plate_28E7",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"28E7\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "bellows_plate_28E7",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.4509991407394409,
+          -0.04000000283122063,
+          1.006360411643982
+        ],
+        [
+          -0.4050586521625519,
+          0.04000000283122063,
+          1.1514536142349243
+        ]
+      ],
+      "geometry_sha256": "945395214a2a288af417d6182f125ce2632521de9fc55d004648171c8f207766",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "bellows_plate_28E8",
+      "candidate_body": null,
+      "assignment_status": "BELLOWS_FORCE_PATH_UNRESOLVED",
+      "reason": "Pressure-side and lower-arm-side plate ownership is not established; no pneumatic actuator claimed.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "bellows_plate_28E8",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"28E8\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "bellows_plate_28E8",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.37997373938560486,
+          -0.04000000283122063,
+          0.9855904579162598
+        ],
+        [
+          -0.3340332508087158,
+          0.04000000283122063,
+          1.1306836605072021
+        ]
+      ],
+      "geometry_sha256": "4f625318ab58667dcb84fcc323ee726a42e9cb1176b85f3a11feb21dec2d4815",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "bellows_plate_28EA",
+      "candidate_body": null,
+      "assignment_status": "BELLOWS_FORCE_PATH_UNRESOLVED",
+      "reason": "Pressure-side and lower-arm-side plate ownership is not established; no pneumatic actuator claimed.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "bellows_plate_28EA",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"28EA\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "bellows_plate_28EA",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.3708016872406006,
+          -0.03999999910593033,
+          1.0027040243148804
+        ],
+        [
+          -0.33552685379981995,
+          0.04000000283122063,
+          1.111324667930603
+        ]
+      ],
+      "geometry_sha256": "af0740ba62d7f1b4bdf2f1a79879032ef3f5bf96d7b5c54ea447d5e8fdd9242d",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "head_center_guide_candidate__far",
+      "candidate_body": null,
+      "assignment_status": "HEAD_COMPLIANCE_SPLIT_UNRESOLVED",
+      "reason": "Head support, guide, carrier and strip are spatially resolved but their sliding/rocking ownership and spring force path require a distinct head model.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "head_center_guide_candidate__far",
+        "status": "head plate depth; spring turns/wire; guide round profile. These remain replaceable candidates.",
+        "source_refs": "28C5,28D7,28D8",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "head_center_guide_candidate__far",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5513136982917786,
+          0.29750001430511475,
+          1.0956931114196777
+        ],
+        [
+          -0.5433136820793152,
+          0.30550000071525574,
+          1.1821931600570679
+        ]
+      ],
+      "geometry_sha256": "93ce3fcee75fc4a9a40ef9cd32c7154f5e30c1f76952141cb31eb321910c95d5",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "head_center_guide_candidate__near",
+      "candidate_body": null,
+      "assignment_status": "HEAD_COMPLIANCE_SPLIT_UNRESOLVED",
+      "reason": "Head support, guide, carrier and strip are spatially resolved but their sliding/rocking ownership and spring force path require a distinct head model.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "head_center_guide_candidate__near",
+        "status": "head plate depth; spring turns/wire; guide round profile. These remain replaceable candidates.",
+        "source_refs": "28C5,28D7,28D8",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "head_center_guide_candidate__near",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5513136982917786,
+          -0.30550000071525574,
+          1.0956931114196777
+        ],
+        [
+          -0.5433136820793152,
+          -0.29750001430511475,
+          1.1821931600570679
+        ]
+      ],
+      "geometry_sha256": "4938e8b7153df46db402bb827029828f313a03157b0c0f69451beb1a78a97d13",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "head_component_28D7__far",
+      "candidate_body": null,
+      "assignment_status": "HEAD_COMPLIANCE_SPLIT_UNRESOLVED",
+      "reason": "Head support, guide, carrier and strip are spatially resolved but their sliding/rocking ownership and spring force path require a distinct head model.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "head_component_28D7__far",
+        "status": "head plate depth; spring turns/wire; guide round profile. These remain replaceable candidates.",
+        "source_refs": "[\"28D7\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "head_component_28D7__far",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5473136901855469,
+          0.28949999809265137,
+          1.1573526859283447
+        ],
+        [
+          -0.5393137335777283,
+          0.31349998712539673,
+          1.1821931600570679
+        ]
+      ],
+      "geometry_sha256": "69b95320ab631fd685cd468c38abe397fa9f886f23e1bab8516b156b18fb69e6",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "head_component_28D7__near",
+      "candidate_body": null,
+      "assignment_status": "HEAD_COMPLIANCE_SPLIT_UNRESOLVED",
+      "reason": "Head support, guide, carrier and strip are spatially resolved but their sliding/rocking ownership and spring force path require a distinct head model.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "head_component_28D7__near",
+        "status": "head plate depth; spring turns/wire; guide round profile. These remain replaceable candidates.",
+        "source_refs": "[\"28D7\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "head_component_28D7__near",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5473136901855469,
+          -0.3135000169277191,
+          1.1573526859283447
+        ],
+        [
+          -0.5393137335777283,
+          -0.28949999809265137,
+          1.1821931600570679
+        ]
+      ],
+      "geometry_sha256": "c8b60f401c2211f5e8f69fc3de884f4fb07d79a7d5cfac313c610f960b83d0f6",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "head_component_28D8__far",
+      "candidate_body": null,
+      "assignment_status": "HEAD_COMPLIANCE_SPLIT_UNRESOLVED",
+      "reason": "Head support, guide, carrier and strip are spatially resolved but their sliding/rocking ownership and spring force path require a distinct head model.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "head_component_28D8__far",
+        "status": "head plate depth; spring turns/wire; guide round profile. These remain replaceable candidates.",
+        "source_refs": "[\"28D8\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "head_component_28D8__far",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5553137063980103,
+          0.28949999809265137,
+          1.1573526859283447
+        ],
+        [
+          -0.5473136901855469,
+          0.31349998712539673,
+          1.1821931600570679
+        ]
+      ],
+      "geometry_sha256": "cd5b2bfb66274c2e97d4f237ffac46ffbfd12553345393865089c8036363b91f",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "head_component_28D8__near",
+      "candidate_body": null,
+      "assignment_status": "HEAD_COMPLIANCE_SPLIT_UNRESOLVED",
+      "reason": "Head support, guide, carrier and strip are spatially resolved but their sliding/rocking ownership and spring force path require a distinct head model.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "head_component_28D8__near",
+        "status": "head plate depth; spring turns/wire; guide round profile. These remain replaceable candidates.",
+        "source_refs": "[\"28D8\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "head_component_28D8__near",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5553137063980103,
+          -0.3135000169277191,
+          1.1573526859283447
+        ],
+        [
+          -0.5473136901855469,
+          -0.28949999809265137,
+          1.1821931600570679
+        ]
+      ],
+      "geometry_sha256": "0963fb853b957a35a13625e44c52d03b6fa06db8abac989180e7281dfe7ec161",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "head_component_28DC__far",
+      "candidate_body": null,
+      "assignment_status": "HEAD_COMPLIANCE_SPLIT_UNRESOLVED",
+      "reason": "Head support, guide, carrier and strip are spatially resolved but their sliding/rocking ownership and spring force path require a distinct head model.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "head_component_28DC__far",
+        "status": "head plate depth; spring turns/wire; guide round profile. These remain replaceable candidates.",
+        "source_refs": "[\"28DC\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "head_component_28DC__far",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5118137001991272,
+          0.28949999809265137,
+          1.1441930532455444
+        ],
+        [
+          -0.4918137192726135,
+          0.31349998712539673,
+          1.1521930694580078
+        ]
+      ],
+      "geometry_sha256": "0c162cda14175b44fe36b181b68952f322dc2bda63f8d95a9d7c3ce662270ba7",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "head_component_28DC__near",
+      "candidate_body": null,
+      "assignment_status": "HEAD_COMPLIANCE_SPLIT_UNRESOLVED",
+      "reason": "Head support, guide, carrier and strip are spatially resolved but their sliding/rocking ownership and spring force path require a distinct head model.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "head_component_28DC__near",
+        "status": "head plate depth; spring turns/wire; guide round profile. These remain replaceable candidates.",
+        "source_refs": "[\"28DC\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "head_component_28DC__near",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5118137001991272,
+          -0.3135000169277191,
+          1.1441930532455444
+        ],
+        [
+          -0.4918137192726135,
+          -0.28949999809265137,
+          1.1521930694580078
+        ]
+      ],
+      "geometry_sha256": "1446e5ff5c3c726c2aab045c8f397c56de0b105a6ecf4c8e218a59f85b9e8273",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "head_spring_8turn_candidate__far",
+      "candidate_body": null,
+      "assignment_status": "DEFORMABLE_VISUAL_ONLY",
+      "reason": "Bellows/spring mesh is not a rigid-body or calibrated spring law; omit from motion-only research rendering.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "head_spring_8turn_candidate__far",
+        "status": "head plate depth; spring turns/wire; guide round profile. These remain replaceable candidates.",
+        "source_refs": "",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "head_spring_8turn_candidate__far",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5583137273788452,
+          0.2905000150203705,
+          1.1024354696273804
+        ],
+        [
+          -0.5363138318061829,
+          0.3124999701976776,
+          1.1603084802627563
+        ]
+      ],
+      "geometry_sha256": "65915f3e54f1bd5237dadd76ada425c74189237af18e1044bb9f891280bde08a",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "head_spring_8turn_candidate__near",
+      "candidate_body": null,
+      "assignment_status": "DEFORMABLE_VISUAL_ONLY",
+      "reason": "Bellows/spring mesh is not a rigid-body or calibrated spring law; omit from motion-only research rendering.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "head_spring_8turn_candidate__near",
+        "status": "head plate depth; spring turns/wire; guide round profile. These remain replaceable candidates.",
+        "source_refs": "",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "head_spring_8turn_candidate__near",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5583137273788452,
+          -0.3124999701976776,
+          1.1024354696273804
+        ],
+        [
+          -0.5363138318061829,
+          -0.2905000150203705,
+          1.1603084802627563
+        ]
+      ],
+      "geometry_sha256": "30d113f1724206cae6a8106d869cc7d3d03c9d2a358f962308ab372342894417",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "head_suspension_main_plate__far",
+      "candidate_body": null,
+      "assignment_status": "HEAD_COMPLIANCE_SPLIT_UNRESOLVED",
+      "reason": "Head support, guide, carrier and strip are spatially resolved but their sliding/rocking ownership and spring force path require a distinct head model.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "head_suspension_main_plate__far",
+        "status": "head plate depth; spring turns/wire; guide round profile. These remain replaceable candidates.",
+        "source_refs": "[\"2869\", \"2865\", \"2866\", \"2867\", \"2868\", \"28E3\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "head_suspension_main_plate__far",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5633137226104736,
+          0.29749998450279236,
+          1.065773367881775
+        ],
+        [
+          -0.46684643626213074,
+          0.30550000071525574,
+          1.1341930627822876
+        ]
+      ],
+      "geometry_sha256": "6c0d39aa4d71e9b25b7883caa182e59afae4e7d612ec3cb6c5c834c51b93d49b",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "head_suspension_main_plate__near",
+      "candidate_body": null,
+      "assignment_status": "HEAD_COMPLIANCE_SPLIT_UNRESOLVED",
+      "reason": "Head support, guide, carrier and strip are spatially resolved but their sliding/rocking ownership and spring force path require a distinct head model.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "head_suspension_main_plate__near",
+        "status": "head plate depth; spring turns/wire; guide round profile. These remain replaceable candidates.",
+        "source_refs": "[\"2869\", \"2865\", \"2866\", \"2867\", \"2868\", \"28E3\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "head_suspension_main_plate__near",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5633137226104736,
+          -0.30550000071525574,
+          1.065773367881775
+        ],
+        [
+          -0.46684643626213074,
+          -0.29750001430511475,
+          1.1341930627822876
+        ]
+      ],
+      "geometry_sha256": "48838157e8281cb9e48d0802c0946b24a5c9a1269bc406e1e15878ff11a2b9a0",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "head_three_eye_rocker",
+      "candidate_body": "cad_panto_head_rocker",
+      "assignment_status": "SINGLE_SOURCE_PART",
+      "reason": "Three native circles E/F/H belong to a single rocker mesh.",
+      "required_hypotheses": [
+        "H_ROCKER_FOLLOWS_H"
+      ],
+      "source_metadata": {
+        "id": "head_three_eye_rocker",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"2A1D\", \"2A1A\", \"2A1B\", \"2A1C\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "head_three_eye_rocker",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.5148135423660278,
+          -0.030000003054738045,
+          1.0686956644058228
+        ],
+        [
+          -0.47981739044189453,
+          -0.02199999988079071,
+          1.1526904106140137
+        ]
+      ],
+      "geometry_sha256": "dd1cfb2bf132f360e0c5e0430c91494777c366995c89b8c68269c2a4dec0c215",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "lower_A_bushing",
+      "candidate_body": "cad_panto_lower",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Shared source lower component 2B2B and concentric A/B circles; geometry membership supported, bearing fixation unmeasured.",
+      "required_hypotheses": [
+        "H_LOWER_BUSHINGS_FIXED"
+      ],
+      "source_metadata": {
+        "id": "lower_A_bushing",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"2638\", \"292D\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "lower_A_bushing",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.26273179054260254,
+          -0.007000001147389412,
+          1.067388653755188
+        ],
+        [
+          -0.2217317819595337,
+          0.007000001147389412,
+          1.1083842515945435
+        ]
+      ],
+      "geometry_sha256": "6f5317902de3f0f4a1ccae23e3fcb224d20c8d832abd27ef9fb6fe0825c0792a",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "lower_B_bushing",
+      "candidate_body": "cad_panto_lower",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Shared source lower component 2B2B and concentric A/B circles; geometry membership supported, bearing fixation unmeasured.",
+      "required_hypotheses": [
+        "H_LOWER_BUSHINGS_FIXED"
+      ],
+      "source_metadata": {
+        "id": "lower_B_bushing",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"2639\", \"2633\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "lower_B_bushing",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.5572669506072998,
+          -0.007000001147389412,
+          1.067388653755188
+        ],
+        [
+          0.5982669591903687,
+          0.007000001147389412,
+          1.1083842515945435
+        ]
+      ],
+      "geometry_sha256": "577fe101883adbd9e703bc6ac13350af8926ec72334d4713ad5e5f3f2b13e1a4",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "lower_arm_source_capsule",
+      "candidate_body": "cad_panto_lower",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Shared source lower component 2B2B and concentric A/B circles; geometry membership supported, bearing fixation unmeasured.",
+      "required_hypotheses": [
+        "H_LOWER_BUSHINGS_FIXED"
+      ],
+      "source_metadata": {
+        "id": "lower_arm_source_capsule",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"2633\", \"2634\", \"2635\", \"2636\", \"2637\", \"2638\", \"2639\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "lower_arm_source_capsule",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.26422974467277527,
+          -0.02250000089406967,
+          1.0658864974975586
+        ],
+        [
+          0.599764883518219,
+          0.02250000089406967,
+          1.1098864078521729
+        ]
+      ],
+      "geometry_sha256": "905e619b4dcdb3eaad3ba50ab5aeb69a5aeecacb527400b135dd9b094eeae890",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "lower_tie_C_eye",
+      "candidate_body": "cad_panto_lower_tie",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Shared adjustable lower tie source 2B2E; assumed locked adjustment during short research test.",
+      "required_hypotheses": [
+        "H_LOWER_TIE_LOCKED"
+      ],
+      "source_metadata": {
+        "id": "lower_tie_C_eye",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"29EC\", \"29EB\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "lower_tie_C_eye",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.6441673636436462,
+          -0.003999999258667231,
+          1.0493488311767578
+        ],
+        [
+          0.6591673493385315,
+          0.0040000020526349545,
+          1.0643366575241089
+        ]
+      ],
+      "geometry_sha256": "4623e5db5ea15ce658fdc6a09b7f09fc98ea71d92c312bd57a182099bb68bff1",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "lower_tie_D_eye",
+      "candidate_body": "cad_panto_lower_tie",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Shared adjustable lower tie source 2B2E; assumed locked adjustment during short research test.",
+      "required_hypotheses": [
+        "H_LOWER_TIE_LOCKED"
+      ],
+      "source_metadata": {
+        "id": "lower_tie_D_eye",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"29E3\", \"29E2\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "lower_tie_D_eye",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.026224909350275993,
+          -0.003999997861683369,
+          1.0203402042388916
+        ],
+        [
+          0.041224926710128784,
+          0.004000002983957529,
+          1.0353280305862427
+        ]
+      ],
+      "geometry_sha256": "cdacbac21d67c8c1dacd34e7baf91cdb9d43909b878cd1f9a265d18b58706c55",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "lower_tie_lock_29FF",
+      "candidate_body": "cad_panto_lower_tie",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Shared adjustable lower tie source 2B2E; assumed locked adjustment during short research test.",
+      "required_hypotheses": [
+        "H_LOWER_TIE_LOCKED"
+      ],
+      "source_metadata": {
+        "id": "lower_tie_lock_29FF",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"29FF\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "lower_tie_lock_29FF",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.0826331377029419,
+          -0.006999997887760401,
+          1.0226030349731445
+        ],
+        [
+          0.09032833576202393,
+          0.007000003010034561,
+          1.037914514541626
+        ]
+      ],
+      "geometry_sha256": "fe791e0f5cfb0d14ca6bddbdb989cdef1ade99f57d7934019257e36f285edad0",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "lower_tie_lock_2A02",
+      "candidate_body": "cad_panto_lower_tie",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Shared adjustable lower tie source 2B2E; assumed locked adjustment during short research test.",
+      "required_hypotheses": [
+        "H_LOWER_TIE_LOCKED"
+      ],
+      "source_metadata": {
+        "id": "lower_tie_lock_2A02",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"2A02\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "lower_tie_lock_2A02",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.5950632691383362,
+          -0.006999999284744263,
+          1.0467768907546997
+        ],
+        [
+          0.6027584671974182,
+          0.0070000020787119865,
+          1.0620884895324707
+        ]
+      ],
+      "geometry_sha256": "d9b86bf04cb15f3195aa32cd2eebd0e536be32fae70d731688f70a124f666438",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "lower_tie_shaft",
+      "candidate_body": "cad_panto_lower_tie",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Shared adjustable lower tie source 2B2E; assumed locked adjustment during short research test.",
+      "required_hypotheses": [
+        "H_LOWER_TIE_LOCKED"
+      ],
+      "source_metadata": {
+        "id": "lower_tie_shaft",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"29F4\", \"29F5\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "lower_tie_shaft",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.082709401845932,
+          -0.003999998793005943,
+          1.026094675064087
+        ],
+        [
+          0.6036000847816467,
+          0.004000002983957529,
+          1.0586464405059814
+        ]
+      ],
+      "geometry_sha256": "33e3ffb7bdb6a535cb4018f5e8e728f189bb380a31104424d7a75dda94ddd976",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "lower_tie_stem_candidate",
+      "candidate_body": "cad_panto_lower_tie",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Shared adjustable lower tie source 2B2E; assumed locked adjustment during short research test.",
+      "required_hypotheses": [
+        "H_LOWER_TIE_LOCKED"
+      ],
+      "source_metadata": {
+        "id": "lower_tie_stem_candidate",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"29E2\", \"29EB\", \"29E0\", \"29E1\", \"29F2\", \"29F3\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "lower_tie_stem_candidate",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.03959935903549194,
+          -0.003000012831762433,
+          1.0251485109329224
+        ],
+        [
+          0.6458144783973694,
+          0.003000012831762433,
+          1.0595582723617554
+        ]
+      ],
+      "geometry_sha256": "3a100c742b2c3de629425e62fcce5d685c4ab51783dd963906e0368dbf560bad",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "pneumatic_bellows_candidate",
+      "candidate_body": null,
+      "assignment_status": "DEFORMABLE_VISUAL_ONLY",
+      "reason": "Bellows/spring mesh is not a rigid-body or calibrated spring law; omit from motion-only research rendering.",
+      "required_hypotheses": [],
+      "source_metadata": {
+        "id": "pneumatic_bellows_candidate",
+        "status": "PHOTO_SUPPORTED_REPLACEABLE_BELLOWS_PROFILE; radii and convolutions not measured",
+        "source_refs": "[\"28E7\", \"28E8\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "pneumatic_bellows_candidate",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.4426240026950836,
+          -0.06800000369548798,
+          0.9963052868843079
+        ],
+        [
+          -0.3424083888530731,
+          0.06800000369548798,
+          1.1407387256622314
+        ]
+      ],
+      "geometry_sha256": "6c2e4b0e5ef1bd49a70c8cff5a69b8f2eb264aa8f6ee90d2fc056ddc04abdecf",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": false,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "upper_elbow_B_plate",
+      "candidate_body": "cad_panto_upper",
+      "assignment_status": "ATTACHMENT_HYPOTHESIS",
+      "reason": "Provisional rigid elbow attachment to upper component at U; an independent U hinge would change mobility.",
+      "required_hypotheses": [
+        "H_ELBOW_FIXED_TO_UPPER"
+      ],
+      "source_metadata": {
+        "id": "upper_elbow_B_plate",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"2781\", \"2782\", \"2784\", \"2785\", \"2783\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "upper_elbow_B_plate",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.5667703151702881,
+          -0.024000003933906555,
+          1.0768866539001465
+        ],
+        [
+          0.6211844086647034,
+          -0.01599999889731407,
+          1.1616921424865723
+        ]
+      ],
+      "geometry_sha256": "35aef554910eaf9d677c035ffa585c5299d67267eeda42dc4a7415e932d2d591",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "upper_elbow_C_plate",
+      "candidate_body": "cad_panto_upper",
+      "assignment_status": "ATTACHMENT_HYPOTHESIS",
+      "reason": "Provisional rigid elbow attachment to upper component at U; an independent U hinge would change mobility.",
+      "required_hypotheses": [
+        "H_ELBOW_FIXED_TO_UPPER"
+      ],
+      "source_metadata": {
+        "id": "upper_elbow_C_plate",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"278B\", \"278C\", \"278D\", \"278E\", \"278F\", \"2791\", \"2792\", \"2793\", \"2790\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "upper_elbow_C_plate",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.5859760046005249,
+          -0.024000002071261406,
+          1.0448484420776367
+        ],
+        [
+          0.6636715531349182,
+          -0.015999997034668922,
+          1.1526024341583252
+        ]
+      ],
+      "geometry_sha256": "2bbbadfaa340a9ab89ed80d7c2cafc3b36852fd5b607f92db49c86df3c5cdb50",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "upper_long_tie_shaft",
+      "candidate_body": "cad_panto_upper_tie",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Source shaft and F/G eye correspondence; no real ball/spherical bearing type established.",
+      "required_hypotheses": [
+        "H_UPPER_TIE_RIGID"
+      ],
+      "source_metadata": {
+        "id": "upper_long_tie_shaft",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"2B35\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "upper_long_tie_shaft",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.49884605407714844,
+          -0.04100001975893974,
+          1.073757290840149
+        ],
+        [
+          0.5392992496490479,
+          -0.03499997779726982,
+          1.0908231735229492
+        ]
+      ],
+      "geometry_sha256": "18de16c7a4bae555e62680d33fd84f62f4bcbacac3141141d7b6e81dd11624a8",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "upper_tie_F_eye",
+      "candidate_body": "cad_panto_upper_tie",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Source shaft and F/G eye correspondence; no real ball/spherical bearing type established.",
+      "required_hypotheses": [
+        "H_UPPER_TIE_RIGID"
+      ],
+      "source_metadata": {
+        "id": "upper_tie_F_eye",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"2A1B\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "upper_tie_F_eye",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          -0.512313723564148,
+          -0.04099999740719795,
+          1.0691992044448853
+        ],
+        [
+          -0.4973137080669403,
+          -0.034999996423721313,
+          1.0841870307922363
+        ]
+      ],
+      "geometry_sha256": "d9e6f37018fd5b9c441874144e5d94cb6dee38c654f0284ac64a2828ed1016ff",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    },
+    {
+      "mesh_name": "upper_tie_G_eye",
+      "candidate_body": "cad_panto_upper_tie",
+      "assignment_status": "SOURCE_COMPONENT_RIGID_GROUP",
+      "reason": "Source shaft and F/G eye correspondence; no real ball/spherical bearing type established.",
+      "required_hypotheses": [
+        "H_UPPER_TIE_RIGID"
+      ],
+      "source_metadata": {
+        "id": "upper_tie_G_eye",
+        "status": "source side solid with inherited uncalibrated depth unless separately constrained",
+        "source_refs": "[\"2B12\"]",
+        "group": "pantograph",
+        "assembly_layer": "NEW_NATIVE_MULTIVIEW_PANTOGRAPH",
+        "geometry_status": "CAD_MULTIVIEW_SOURCE_WITH_EXPLICIT_CANDIDATE_DEPTHS",
+        "physical_binding": false,
+        "world_from_source_A_matrix": "[[1.0, 0.0, 0.0, -0.24223178719724092], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 1.0878864516453446], [0.0, 0.0, 0.0, 1.0]]",
+        "lateral_centerline_CAD_verified": false,
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "upper_tie_G_eye",
+        "as_built_confirmed": false
+      },
+      "bounds_world_m": [
+        [
+          0.5377668738365173,
+          -0.04099999740719795,
+          1.0803934335708618
+        ],
+        [
+          0.5527668595314026,
+          -0.03500000014901161,
+          1.095381259918213
+        ]
+      ],
+      "geometry_sha256": "5929d3f2c72be8736088fbba12855fd59e008967671d399e3b88fcc4ffed00f9",
+      "baseline_category": "UNBOUND_SOURCE_OR_CANDIDATE",
+      "baseline_body": null,
+      "candidate_included_in_kinematic_model": true,
+      "production_binding": null,
+      "physical_binding": false,
+      "as_built": false,
+      "new_collision_allowed": false,
+      "may_follow_old_native_body_pose": false
+    }
+  ],
+  "native_source_check": {
+    "source_dxf_sha256": "73f9eeb145cfbda5f01d1302d3e6e09d2d81e707ff7776187d899100f654f143",
+    "source_dwg_sha256": "9d3aedfdaed92cf73eec0bdb2239af0bb5fc64121d86763adce8c63614612552",
+    "axis_fit_max_error_m": 2.1320854194327678e-08,
+    "native_interface_gaps_mm": {
+      "C": 0.005876210293366559,
+      "D": 0.007678724238958496
+    },
+    "hypothesis_review": {
+      "H_ELBOW_FIXED_TO_UPPER": {
+        "verdict": "SOURCE_SUPPORTED_ATTACHMENT_LOCATION_BUT_RIGID_FIXATION_NOT_PROVEN",
+        "evidence": [
+          "Upper main U circle 2A21, B plate 2A34/2781 and C plate 2A35/278B are nested in source INSERT 2B30.",
+          "Their outer/seat arcs are concentric at U; C seat R15 equals U circle R15, B outline R18.999689.",
+          "The moving head rocker 2A38 is nested in the same 2B30, so common INSERT cannot imply fixed rigidity."
+        ],
+        "U_B_arc_center_gap_mm": 2.9330322825621076e-11,
+        "U_C_arc_center_gap_mm": 2.9999541770795335e-11,
+        "promote_to_actual": false,
+        "remaining": "Need keyed/welded/fastened connection or motion evidence distinguishing an independent U hinge."
+      },
+      "H_G_ON_LOWER": {
+        "verdict": "GEOMETRIC_SEAT_SUPPORTS_LOWER_B_BOSS_ATTACHMENT_BUT_FIXATION_NOT_PROVEN",
+        "source_G_support_vertices_and_arcs": [
+          {
+            "point_root_mm": [
+              1148.7368154961002,
+              164.37413824999203
+            ],
+            "bulge": 0.0
+          },
+          {
+            "point_root_mm": [
+              1131.7665563409098,
+              164.37413824999203
+            ],
+            "bulge": 0.414213562373095,
+            "arc_center_root_mm": [
+              1131.7665563409098,
+              166.87413824999203
+            ],
+            "arc_radius_root_mm": 2.500000000000001
+          },
+          {
+            "point_root_mm": [
+              1129.2665563409098,
+              166.87413824999203
+            ],
+            "bulge": 0.0
+          },
+          {
+            "point_root_mm": [
+              1129.2665563409098,
+              177.87413824999203
+            ],
+            "bulge": 0.414213562373095,
+            "arc_center_root_mm": [
+              1131.7665563409098,
+              177.87413824999203
+            ],
+            "arc_radius_root_mm": 2.500000000000001
+          },
+          {
+            "point_root_mm": [
+              1131.7665563409098,
+              180.37413824999203
+            ],
+            "bulge": 0.0
+          },
+          {
+            "point_root_mm": [
+              1148.7368154961002,
+              180.37413824999203
+            ],
+            "bulge": -0.1837823943942883,
+            "arc_center_root_mm": [
+              1169.7665563411583,
+              172.37413824997915
+            ],
+            "arc_radius_root_mm": 22.500000000233563
+          },
+          {
+            "point_root_mm": [
+              1148.7368154960275,
+              164.37413825015756
+            ],
+            "bulge": 0.0
+          }
+        ],
+        "source_parent": "2B36 is a sibling of lower arm 2B2B; it is not nested in the lower-arm INSERT.",
+        "lower_B_source_outer_circle_radius_mm": 22.0,
+        "G_seat_radius_mm": 22.500000000233563,
+        "nominal_seat_minus_lower_arm_outer_radius_mm": 0.5000000002335625,
+        "G_minus_B_root_mm": [
+          -32.50007956770446,
+          0.000910030243176152,
+          0.0
+        ],
+        "promote_to_actual": false,
+        "remaining": "Curved seat against B boss supports location, but rotation lock and lateral spacer/shaft stack are unknown."
+      },
+      "H_ROCKER_FOLLOWS_H": {
+        "verdict": "THREE_EYE_GEOMETRY_AND_H_CONCENTRICITY_SUPPORTED_ONLY",
+        "evidence": [
+          "E/F/H are the three circles 2A1A/2A1B/2A1C in the same rocker definition under 2A38.",
+          "Rocker H and upper H are concentric native R4.1 circles.",
+          "Rocker E matches separate head suspension circle 28E3 in 2B21."
+        ],
+        "upper_H_rocker_H_gap_mm": 0.0,
+        "head_E_rocker_E_gap_mm": 1.4594575466984203e-11,
+        "promote_to_actual": false,
+        "remaining": "Rocker is one source part, but actual bearing type and fixing to head shaft remain unverified."
+      }
+    },
+    "plan_upper_reconciliation": {
+      "plan_U_shaft_center_xy_mm": [
+        1234.3673888522026,
+        495.3984097078245
+      ],
+      "plan_H_eye_centers_xy_mm": [
+        [
+          142.36815801837656,
+          636.398409707821
+        ],
+        [
+          142.36815801837656,
+          354.39840970782825
+        ]
+      ],
+      "plan_longitudinal_span_mm": 1091.999230833826,
+      "side_longitudinal_span_mm": 1091.999230833797,
+      "span_mismatch_mm": 2.9103830456733704e-11,
+      "plan_minus_side_component_x_translation_mm": [
+        40.18215567244624,
+        40.18215567241714
+      ],
+      "plan_H_transverse_offsets_from_U_mm": [
+        140.99999999999648,
+        -140.99999999999625
+      ],
+      "scale_applied": false,
+      "matching_source": "zw$6A54/2B66, not earlier rejected A$C1A4175F5",
+      "physical_rigidity_proven": false
+    },
+    "all_hypotheses_remain_research_only": true
+  }
+}

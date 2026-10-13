@@ -1,0 +1,20 @@
+{
+  "schema": "gtsd-four-fan-strict-rollback-source-freeze-v1",
+  "physics_source_sha256": {
+    "bootstrap.py": "b272c017370b03814610726ec69ba0942c3c058ca4b2787e42b4a7366fa156a4",
+    "strict_four_fan.py": "cead214288657c66cc801ed0bf4542f8ab3f14d9c94e639cd1902e6f24451a70",
+    "optimized_four_fan.py": "4e28fd9972881a1e70213626f88ec6dea543ca9b7fd34ca6bea5e80577a5862e"
+  },
+  "frozen82_source_freeze_sha256": "b084492e62453f8bd8fdf8bec25c82efd547fc8cd28095aaa0ed1baf30811526",
+  "trusted_rollback_source_sha256": "e368f4f19af2e645d1f746036cec40c83c66c1ba1c2a1bad9008124df0cb2c9f",
+  "strict_factory": "strict_four_fan.StrictFourDoorFansPlant",
+  "optimized_factory": "optimized_four_fan.TrustedRollbackFourDoorFansPlant",
+  "nq": 94,
+  "nv": 82,
+  "geometry_sha256": "2b6314a577bc67c5781268d797c57be6674ef16d42eed9f47731238cfc299fed",
+  "validated_optimized_identity_sha256": {
+    "full": "9bd3b5a7f26a40c44f1b77f5c71b9ec53488e682170ddfda651a939aa96323db",
+    "half": "9b02c97569592717ed225283e919f187bdfc2fad46bfbcd37e756c155289931a"
+  },
+  "physics_equations_changed": false
+}

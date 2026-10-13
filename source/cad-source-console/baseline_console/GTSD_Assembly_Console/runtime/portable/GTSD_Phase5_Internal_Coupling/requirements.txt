@@ -1,0 +1,4 @@
+mujoco==3.3.7
+numpy==2.2.6
+# Optional only for generating response figures:
+matplotlib==3.10.8

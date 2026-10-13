@@ -1,0 +1,44 @@
+{
+  "views": [
+    {
+      "file": "whole_static_revision.png",
+      "eye": [
+        -7,
+        -12,
+        8
+      ],
+      "target": [
+        -4,
+        0.3,
+        0.55
+      ],
+      "scale": 13,
+      "all_1932_meshes_visible": true,
+      "new_physics": false,
+      "amber_replacement_meshes": 326,
+      "render_AA": 8,
+      "cavity_shading": false
+    },
+    {
+      "file": "track_axis_top.png",
+      "eye": [
+        -6.55,
+        0.5,
+        8
+      ],
+      "target": [
+        -6.55,
+        0.5,
+        0
+      ],
+      "scale": 6.6,
+      "all_1932_meshes_visible": true,
+      "new_physics": false,
+      "amber_replacement_meshes": 326,
+      "render_AA": 8,
+      "cavity_shading": false
+    }
+  ],
+  "display_revision_sha256": "3e1d785643dc3eca93cf989b663af29311db3c6d1ce3197d97d7758a4e9fb93e",
+  "model_only_source_materials_not_calibrated": true
+}

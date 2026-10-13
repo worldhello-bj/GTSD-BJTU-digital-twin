@@ -1,5 +1,7 @@
 # GTSD CAD static assembly · 2026-10-12 draft stage
 
+> This is the merged historical source-only snapshot. Continuing work is in [source/cad-source-console](../cad-source-console/README.md); its remote transfer status remains explicit. This historical directory was not silently filled with different geometry.
+
 This is a reproducible static CAD/reference reconstruction and a read-only browser viewer. It is not a dynamics model, measured hardware result, complete CAD-library reconstruction, or proof of installed part counts.
 
 ## Publication status: source-only draft

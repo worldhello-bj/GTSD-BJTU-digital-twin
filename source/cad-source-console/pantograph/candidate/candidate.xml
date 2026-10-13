@@ -1,0 +1,57 @@
+<mujoco model="gtsd_cad_pantograph_H1_RESEARCH_NOT_HARDWARE">
+  <compiler angle="radian" inertiafromgeom="false" autolimits="true" />
+  <option timestep="0.0002" gravity="0 0 0" integrator="implicitfast" solver="Newton" iterations="50" tolerance="1e-10">
+    <flag energy="enable" />
+  </option>
+  <default>
+    <geom contype="0" conaffinity="0" group="1" />
+    <joint limited="false" damping="0.02" armature="1e-05" />
+  </default>
+  <custom>
+    <text name="truth_status" data="RESEARCH_HYPOTHESIS_UNCALIBRATED_NO_PRODUCTION_BINDING" />
+    <text name="geometry_source" data="676ce2a14f5c9ca574e63c3f3f1f6ed7c1f5805ab4b58da889b15cac9ce58f87" />
+  </custom>
+  <worldbody>
+    <body name="cad_panto_base">
+      <body name="cad_panto_lower" pos="-0.24223178667748954 0 1.0878864526748657">
+        <joint name="cad_panto_lower_hinge" type="hinge" axis="0 1 0" />
+        <inertial mass="1.0" pos="0.40999935610021143 -0.0047500003129243851 0" diaginertia="0.00040885353119490006 0.062368559137842373 0.062454747317168255" />
+        <geom name="cad_panto_lower_research_envelope" type="box" pos="0.40999935610021143 -0.0047500003129243851 0" size="0.43199731409549713 0.027250001206994057 0.021999955177307129" rgba=".2 .5 .7 .2" />
+        <body name="cad_panto_upper" pos="0.8199987157037677 0 0">
+          <joint name="cad_panto_upper_hinge" type="hinge" axis="0 1 0" />
+          <inertial mass="1.0" pos="-0.49583800530019628 -7.4505805969238281e-09 0.01538383960723877" diaginertia="0.0087380375811062314 0.11394586648427332 0.12040849567783737" />
+          <geom name="cad_panto_upper_research_envelope" type="box" pos="-0.49583800530019628 -7.4505805969238281e-09 0.01538383960723877" size="0.58174262940883636 0.1510000005364418 0.058421850204467773" rgba=".2 .5 .7 .2" />
+          <body name="cad_panto_lower_tie" pos="0.073905166034062275 0 -0.031040310859680176">
+            <joint name="cad_panto_lower_tie_hinge" type="hinge" axis="0 1 0" />
+            <inertial mass="1.0" pos="-0.30897596571593666 1.862645149230957e-09 -0.014507710933685303" diaginertia="0.0001776406638276766 0.03354598501999706 0.033401011033545015" />
+            <geom name="cad_panto_lower_tie_research_envelope" type="box" pos="-0.30897596571593666 1.862645149230957e-09 -0.014507710933685303" size="0.31647121999412775 0.0070000011473894119 0.021998226642608643" rgba=".2 .5 .7 .2" />
+            <site name="D_tie_native" pos="-0.61792562749575841 0 -0.028982062835037459" size=".003" />
+            <site name="C_tie_native" pos="-4.7600303003658695e-06 0 -3.4378146067659543e-06" size=".003" />
+          </body>
+          <body name="cad_panto_head_rocker" pos="-1.0675806305721411 0 0.054806649684909337">
+            <joint name="cad_panto_head_rocker_hinge" type="hinge" axis="0 1 0" />
+            <inertial mass="1.0" pos="-0.0075017648580981144 -0.026000001467764378 -0.032000064849856846" diaginertia="0.0005932597867801308 0.00068998733667295176 0.00010739422502334885" />
+            <geom name="cad_panto_head_rocker_research_envelope" type="box" pos="-0.0075017648580981144 -0.026000001467764378 -0.032000064849856846" size="0.01749807596206665 0.0040000015869736671 0.041997373104095459" rgba=".2 .5 .7 .2" />
+            <body name="cad_panto_upper_tie" pos="-0.015000015318813953 -0.037999999999999999 -0.065999995368065223">
+              <joint name="cad_panto_upper_tie_hinge" type="hinge" axis="0 1 0" />
+              <inertial mass="1.0" pos="0.52504028484830434 1.2218952169518182e-09 0.005597125189839236" diaginertia="6.0125044362517123e-05 0.094590179042997186 0.094536054082558302" />
+              <geom name="cad_panto_upper_tie_research_envelope" type="box" pos="0.52504028484830434 1.2218952169518182e-09 0.005597125189839236" size="0.53254029154777527 0.0030000209808349609 0.013091027736663818" rgba=".2 .5 .7 .2" />
+              <site name="G_tie_native" pos="1.0500805651179088 0 0.011194255317993784" size=".003" />
+            </body>
+            <site name="E_head_axis_unmodeled" pos="-0.01200000687631525 0 -0.020999988316382723" size=".003" />
+          </body>
+          <site name="C_plate_native" pos="0.073905166034062275 0 -0.031040310859680176" size=".003" />
+        </body>
+        <site name="G_lower_candidate" pos="0.78749863493072136 -0.037999999999999999 9.0963483789785471e-07" size=".003" />
+      </body>
+      <site name="D_base_native" pos="0.033746825670482948 0 1.0278564062932642" size=".003" />
+    </body>
+  </worldbody>
+  <equality>
+    <connect name="lower_C_D_loop" site1="D_tie_native" site2="D_base_native" solref=".002 1" solimp=".95 .995 .001" />
+    <connect name="upper_F_G_loop" site1="G_tie_native" site2="G_lower_candidate" solref=".002 1" solimp=".95 .995 .001" />
+  </equality>
+  <actuator>
+    <motor name="research_root_torque" joint="cad_panto_lower_hinge" gear="1" ctrllimited="true" ctrlrange="-.1 .1" />
+  </actuator>
+</mujoco>

@@ -1,0 +1,44 @@
+{
+  "joints": {
+    "end_neg_y_pos": {
+      "joint": "door_fan_end_neg_y_pos_rotor",
+      "qpos_address": 20,
+      "dof_address": 19,
+      "angle_unit": "rad",
+      "velocity_unit": "rad/s",
+      "force_sensor": "door_fan_end_neg_y_pos_mount_site_force",
+      "torque_sensor": "door_fan_end_neg_y_pos_mount_site_torque",
+      "sensor_units": [
+        "N",
+        "N m"
+      ]
+    },
+    "end_pos_y_neg": {
+      "joint": "door_fan_end_pos_y_neg_rotor",
+      "qpos_address": 22,
+      "dof_address": 21,
+      "angle_unit": "rad",
+      "velocity_unit": "rad/s",
+      "force_sensor": "door_fan_end_pos_y_neg_mount_site_force",
+      "torque_sensor": "door_fan_end_pos_y_neg_mount_site_torque",
+      "sensor_units": [
+        "N",
+        "N m"
+      ]
+    },
+    "end_pos_y_pos": {
+      "joint": "door_fan_end_pos_y_pos_rotor",
+      "qpos_address": 24,
+      "dof_address": 23,
+      "angle_unit": "rad",
+      "velocity_unit": "rad/s",
+      "force_sensor": "door_fan_end_pos_y_pos_mount_site_force",
+      "torque_sensor": "door_fan_end_pos_y_pos_mount_site_torque",
+      "sensor_units": [
+        "N",
+        "N m"
+      ]
+    }
+  },
+  "identity_sha256": "df9da29aab2a3a5ebc406004d48ad0b15d58f9b533d847a99aa04a469bf3dd09"
+}

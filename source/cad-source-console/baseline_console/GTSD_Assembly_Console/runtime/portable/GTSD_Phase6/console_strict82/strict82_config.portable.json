@@ -1,0 +1,8 @@
+{
+  "schema": "gtsd-strict82-console-config-v1",
+  "fan82_console_root": "../console_fan82",
+  "fan82_config": "../console_fan82/console82_config.portable.json",
+  "strict_root": "../strict82",
+  "trusted_root": "../trusted_rollback",
+  "variant": "cad-doors-four-fans-strict-rollback-research"
+}

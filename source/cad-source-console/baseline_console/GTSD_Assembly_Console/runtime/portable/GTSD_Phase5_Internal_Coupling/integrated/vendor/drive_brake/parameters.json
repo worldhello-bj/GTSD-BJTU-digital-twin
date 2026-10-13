@@ -1,0 +1,441 @@
+{
+  "schema": "gtsd-drive-brake-parameters-v1",
+  "drive": {
+    "bus_voltage_V": 6.0,
+    "resistance_ohm": 2.0,
+    "inductance_H": 0.02,
+    "torque_constant_Nm_A": 0.12,
+    "back_emf_constant_V_s_rad": 0.12,
+    "gear_ratio_motor_per_axle": 3.0,
+    "rotor_inertia_kgm2": 0.0003,
+    "rotor_viscous_friction_Nms_rad": 3e-05,
+    "freewheel_diode_drop_V": 0.7
+  },
+  "brake": {
+    "reservoir_volume_m3": 0.002,
+    "reservoir_initial_gauge_pressure_Pa": 500000.0,
+    "fixed_chamber_volume_each_axle_m3": 1e-05,
+    "supply_orifice_area_m2": 5e-08,
+    "exhaust_orifice_area_m2": 1.5e-07,
+    "effective_clamp_area_each_axle_m2": 8e-05,
+    "equivalent_friction_interfaces": 2.0,
+    "friction_coefficient": 0.3,
+    "effective_friction_radius_m": 0.065,
+    "friction_regularization_speed_rad_s": 0.1,
+    "gas_substep_s": 0.0005
+  },
+  "bogie": {
+    "timestep_s": 0.0005,
+    "sample_interval_s": 0.02,
+    "settle_s": 3.0,
+    "rolling_radius_m": 0.15235,
+    "contact_tread_width_m": 0.045,
+    "contact_tread_outward_offset_m": 0.0155,
+    "frame_mass_kg": 24.0,
+    "payload_mass_kg": 30.0,
+    "carrier_mass_kg": 1.0,
+    "wheelset_mass_kg": 4.0,
+    "frame_inertia_kgm2": [
+      0.65,
+      2.35,
+      2.85
+    ],
+    "payload_inertia_kgm2": [
+      2.36,
+      4.98,
+      5.83
+    ],
+    "carrier_inertia_kgm2": [
+      0.035,
+      0.008,
+      0.035
+    ],
+    "wheelset_inertia_kgm2": [
+      0.1,
+      0.052,
+      0.1
+    ],
+    "primary_spring_stiffness_Npm": 15000.0,
+    "primary_spring_damping_Nspm": 150.0,
+    "secondary_stiffness_Npm": 40000.0,
+    "secondary_damping_Nspm": 300.0,
+    "swing_hinge_damping_Nmsprad": 0.2,
+    "wheel_bearing_damping_Nmsprad": 0.002,
+    "wheel_rail_friction": 0.35,
+    "contact_timeconst_s": 0.008,
+    "contact_dampratio": 1.0,
+    "contact_impedance": 0.98,
+    "rail_length_m": 12.0,
+    "rail_depth_m": 0.04,
+    "gravity_mps2": 9.81,
+    "traction_torque_each_axle_Nm": 0.65,
+    "brake_torque_limit_each_axle_Nm": 0.8,
+    "brake_velocity_gain_Nmsprad": 0.5,
+    "traction_observation_s": 12.0,
+    "vertical_pulse_force_N": 200.0,
+    "vertical_pulse_start_s": 0.1,
+    "vertical_pulse_end_s": 0.15
+  },
+  "source_sha256": {
+    "bogie/model.py": "1d33a8356b2b3503062715c1980819e93a05ff8b53d9048d5351f7171520dc48",
+    "bogie/run_suite.py": "bc657b0ae9d3fbb4de5174ac2e6d6bde6a7e1ea46b505ca4aaab495968ef4585",
+    "bogie/binding.json": "a91e0af50e6680942504a5256fd6c94e553da3067f8fcc72d8da7df0ab003b80",
+    "web/geometry.json": "7d925267cbfb18d39e64041ea851fc13db2e3a13f6d403eab386235f741d8f43",
+    "assembly_contract.json": "2fa2c4cef2b623a3ed2a2db0e479eaca434efc824b2494e8a1695017bab5993c"
+  },
+  "vendor_sha256": {
+    "vendor/b8/pneumatics.py": "a96d81f70e347319ad055c0fea4aa06933f762e01910522377c81a16dc6a1915",
+    "vendor/b9/valve_dynamics.py": "acd3d855c74db93793022f4f39c6acec821c1a51f168b23d4c56f0f3b4908a50"
+  },
+  "parameter_provenance": [
+    {
+      "parameter": "drive.bus_voltage_V",
+      "value": 6.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "RL permanent-magnet/DC-equivalent motor, not identified physical motor"
+    },
+    {
+      "parameter": "drive.resistance_ohm",
+      "value": 2.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "RL permanent-magnet/DC-equivalent motor, not identified physical motor"
+    },
+    {
+      "parameter": "drive.inductance_H",
+      "value": 0.02,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "RL permanent-magnet/DC-equivalent motor, not identified physical motor"
+    },
+    {
+      "parameter": "drive.torque_constant_Nm_A",
+      "value": 0.12,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "RL permanent-magnet/DC-equivalent motor, not identified physical motor"
+    },
+    {
+      "parameter": "drive.back_emf_constant_V_s_rad",
+      "value": 0.12,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "RL permanent-magnet/DC-equivalent motor, not identified physical motor"
+    },
+    {
+      "parameter": "drive.gear_ratio_motor_per_axle",
+      "value": 3.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "RL permanent-magnet/DC-equivalent motor, not identified physical motor"
+    },
+    {
+      "parameter": "drive.rotor_inertia_kgm2",
+      "value": 0.0003,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "RL permanent-magnet/DC-equivalent motor, not identified physical motor"
+    },
+    {
+      "parameter": "drive.rotor_viscous_friction_Nms_rad",
+      "value": 3e-05,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "RL permanent-magnet/DC-equivalent motor, not identified physical motor"
+    },
+    {
+      "parameter": "drive.freewheel_diode_drop_V",
+      "value": 0.7,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "RL permanent-magnet/DC-equivalent motor, not identified physical motor"
+    },
+    {
+      "parameter": "brake.reservoir_volume_m3",
+      "value": 0.002,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "Fixed-volume pneumatic clamp equivalent; no inferred cylinder stroke/area/lever geometry"
+    },
+    {
+      "parameter": "brake.reservoir_initial_gauge_pressure_Pa",
+      "value": 500000.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "Fixed-volume pneumatic clamp equivalent; no inferred cylinder stroke/area/lever geometry"
+    },
+    {
+      "parameter": "brake.fixed_chamber_volume_each_axle_m3",
+      "value": 1e-05,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "Fixed-volume pneumatic clamp equivalent; no inferred cylinder stroke/area/lever geometry"
+    },
+    {
+      "parameter": "brake.supply_orifice_area_m2",
+      "value": 5e-08,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "Fixed-volume pneumatic clamp equivalent; no inferred cylinder stroke/area/lever geometry"
+    },
+    {
+      "parameter": "brake.exhaust_orifice_area_m2",
+      "value": 1.5e-07,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "Fixed-volume pneumatic clamp equivalent; no inferred cylinder stroke/area/lever geometry"
+    },
+    {
+      "parameter": "brake.effective_clamp_area_each_axle_m2",
+      "value": 8e-05,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "Fixed-volume pneumatic clamp equivalent; no inferred cylinder stroke/area/lever geometry"
+    },
+    {
+      "parameter": "brake.equivalent_friction_interfaces",
+      "value": 2.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "Fixed-volume pneumatic clamp equivalent; no inferred cylinder stroke/area/lever geometry"
+    },
+    {
+      "parameter": "brake.friction_coefficient",
+      "value": 0.3,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "Fixed-volume pneumatic clamp equivalent; no inferred cylinder stroke/area/lever geometry"
+    },
+    {
+      "parameter": "brake.effective_friction_radius_m",
+      "value": 0.065,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "Fixed-volume pneumatic clamp equivalent; no inferred cylinder stroke/area/lever geometry"
+    },
+    {
+      "parameter": "brake.friction_regularization_speed_rad_s",
+      "value": 0.1,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "Fixed-volume pneumatic clamp equivalent; no inferred cylinder stroke/area/lever geometry"
+    },
+    {
+      "parameter": "brake.gas_substep_s",
+      "value": 0.0005,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "Fixed-volume pneumatic clamp equivalent; no inferred cylinder stroke/area/lever geometry"
+    },
+    {
+      "parameter": "bogie.timestep_s",
+      "value": 0.0005,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.sample_interval_s",
+      "value": 0.02,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.settle_s",
+      "value": 3.0,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.rolling_radius_m",
+      "value": 0.15235,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.contact_tread_width_m",
+      "value": 0.045,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.contact_tread_outward_offset_m",
+      "value": 0.0155,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.frame_mass_kg",
+      "value": 24.0,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.payload_mass_kg",
+      "value": 30.0,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.carrier_mass_kg",
+      "value": 1.0,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.wheelset_mass_kg",
+      "value": 4.0,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.frame_inertia_kgm2",
+      "value": [
+        0.65,
+        2.35,
+        2.85
+      ],
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.payload_inertia_kgm2",
+      "value": [
+        2.36,
+        4.98,
+        5.83
+      ],
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.carrier_inertia_kgm2",
+      "value": [
+        0.035,
+        0.008,
+        0.035
+      ],
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.wheelset_inertia_kgm2",
+      "value": [
+        0.1,
+        0.052,
+        0.1
+      ],
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.primary_spring_stiffness_Npm",
+      "value": 15000.0,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.primary_spring_damping_Nspm",
+      "value": 150.0,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.secondary_stiffness_Npm",
+      "value": 40000.0,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.secondary_damping_Nspm",
+      "value": 300.0,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.swing_hinge_damping_Nmsprad",
+      "value": 0.2,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.wheel_bearing_damping_Nmsprad",
+      "value": 0.002,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.wheel_rail_friction",
+      "value": 0.35,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.contact_timeconst_s",
+      "value": 0.008,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.contact_dampratio",
+      "value": 1.0,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.contact_impedance",
+      "value": 0.98,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.rail_length_m",
+      "value": 12.0,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.rail_depth_m",
+      "value": 0.04,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.gravity_mps2",
+      "value": 9.81,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.traction_torque_each_axle_Nm",
+      "value": 0.65,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.brake_torque_limit_each_axle_Nm",
+      "value": 0.8,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.brake_velocity_gain_Nmsprad",
+      "value": 0.5,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.traction_observation_s",
+      "value": 12.0,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.vertical_pulse_force_N",
+      "value": 200.0,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.vertical_pulse_start_s",
+      "value": 0.1,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    },
+    {
+      "parameter": "bogie.vertical_pulse_end_s",
+      "value": 0.15,
+      "evidence_level": "INHERITED_NEW_BOGIE_PARAMETER",
+      "source": "../bogie/PARAMETER_PROVENANCE.csv; no added calibration"
+    }
+  ],
+  "spool_parameters": {
+    "mass_kg": 0.01,
+    "spring_N_m": 1800.0,
+    "damping_N_s_m": 12.0,
+    "travel_m": 0.002,
+    "land_m": 0.0002,
+    "coil_force_N": 4.5,
+    "stop_stiffness_N_m": 100000.0
+  }
+}

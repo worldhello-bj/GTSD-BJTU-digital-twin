@@ -1,0 +1,32 @@
+{
+  "schema": "gtsd-cad-doors-dependencies-v1",
+  "dependencies": {
+    "body": {
+      "default_sibling": "gtsd-physics-cad-body-1012",
+      "source_sha256": {
+        "cad_body/__init__.py": "8fd2d60ee687a024a39678aa0d0ba612f92d00a2a5c998276621c503e2d1169a",
+        "cad_body/bootstrap.py": "79319c5a301bc248c5b3c67acbc1201d5844272aaad2b4397be9b989c0183ac8",
+        "cad_body/geometry.py": "8d54f44fa58c85dcbf6065293905721e29319bf59716c7eac6044b16ee49348f",
+        "cad_body/model.py": "da81c5d8a0f3db1197d97fa2faad3fd11919fcf0e8219c5325f778d449b65e28",
+        "cad_body/plant.py": "0e76e4e50ab216ca85375369a2a7c3caa3817b81a271959cb0435f548196b45a",
+        "READONLY_DEPENDENCIES.json": "af3d1e6b1c8abd4154e1d9f8088209a3f82353037ca4d1ebef23256c1a733e4e",
+        "replacement_manifest.json": "2d1847f9ea3b6501d11cbd1d688bca4bccce9f68757dc6ae2fc23ca2977d08f4",
+        "SOURCE_FREEZE.json": "ed33ccdb6282f7bf1418ce05eff677b665be14c5247b622468be401c7732a7da"
+      }
+    },
+    "doors": {
+      "default_sibling": "gtsd-door-cad-phase7-1012",
+      "source_sha256": {
+        "ASSEMBLY_CONTRACT.json": "bfbb91d9129dd439a1e2202529f3750f9770522e515c4a6b1eabce267f1fa4c3",
+        "END_OPENING_CONTRACT.json": "40e9ec430e71db5cf11132776e49221fcee42d804ae537c83975136cc0e9331d",
+        "outputs/door_cad_candidate_meshes.json": "67dfd34c3e9a2f9776aa63b9acdff48051734ca4d733035660be0d49aba0cd9c",
+        "replacement_manifest.json": "24f35bb9b3c45e4df41f78e8d369cbd91aa1821e33035a362d4cb18fbe4e4d2e",
+        "evidence/door_geometric_mass_properties.json": "aceb2e7e7696fd71e5a168f95dfa4199437f8206bba9933438eddfd8208b233d",
+        "evidence/validation.json": "5e818e2359271897504b4161a4fee3e885532aa0cd8b4b1e8d2132e9d8755a82",
+        "evidence/export_validation.json": "c56360959eb038b6081d3b2bf9c5b2094862144c9fed8e0b7bf026a67544ffdb",
+        "SOURCE_FREEZE.json": "87facf1c69aca4cb178e6cb3cdcd1453ded46b70de8fd05c71c0e950843470fe",
+        "FAN_COVERAGE_CONTRACT.json": "e1f30dd98a603e15163c2499e397adc76c234539fec0912e5f0adb208a7542cb"
+      }
+    }
+  }
+}

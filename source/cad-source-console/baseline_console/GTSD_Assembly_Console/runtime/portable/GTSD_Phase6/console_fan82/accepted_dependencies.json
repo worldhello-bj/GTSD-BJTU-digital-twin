@@ -1,0 +1,10 @@
+{
+  "schema": "gtsd-console-fan82-reviewed-dependencies-v1",
+  "files": {
+    "phase7_source_freeze": "0baae8ce9325423c444037823d7abdabc52beb93caaf3ff36409df26133a754e",
+    "fan82_source_freeze": "b084492e62453f8bd8fdf8bec25c82efd547fc8cd28095aaa0ed1baf30811526",
+    "fan82_retained_map": "c1784dc94517c680bad4f5eb710d3fdb008f07a780a3248185bb07612c98320a",
+    "fan82_ports": "9a28f35d7da6822e40b73d677626c44e6c4fe3d6e02c749f9079d88a33b1440f",
+    "fan82_spec": "8356a9ce386ce64a1d860aea880fb9f0abb2f0c37e5dff2805326bb2e4719485"
+  }
+}

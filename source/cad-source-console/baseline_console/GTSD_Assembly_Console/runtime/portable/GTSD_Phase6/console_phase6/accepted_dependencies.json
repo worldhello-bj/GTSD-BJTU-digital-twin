@@ -1,0 +1,34 @@
+{
+  "schema": "gtsd-console-reviewed-dependency-hashes-v1",
+  "scope": "Reviewed release bytes; consistency/admission only, not an authenticity signature or physical certification",
+  "phase5_files": {
+    "requirements.txt": "6ba8c8e8036eaf8e285b7f8daf34e65fa5c38a2e73cacc7c6d14592898bcc96f",
+    "console/server.py": "ff6f4e99f3b45804dfb3c38f6f2cec6792408421ccc6221c6708a000280d89a1",
+    "console/controller.py": "f1b47cb2f05b457c50ec55d4efa20ce151f82199be6cfcd5e52ffa8ba5b1efaf",
+    "console/phase5_controller.py": "922139cb7c604e200f5038494894956ba753dbb9c5f6ec9c4a12e55cf34fdf0b",
+    "console/live_plant.py": "8aab7b1e2b7eeb9b7090d69f349170a668d9b25408919bccd650647458e7e5d9",
+    "console/web/index.html": "0e4373141a5922ceb6e1a332e78d45110c32ac6aa2d3de149e40514b3b75e0e5",
+    "console/web/app.js": "544213e3d054e61ebfed5519e46af70c273177e136559d524ad5ec9cf5baa1f0",
+    "console/web/ui-model.js": "c9ca7cb5b8a98b72211ab756a2638017994ed44b66a02045723b093f745a7fdb",
+    "console/web/style.css": "439883635c915a799260ad21e0959d5a9e9ff63ef9dd262f820f9aef7051d747",
+    "console/web/contact-sections.js": "481397bbdd285b9aa8b6f09c2524f80dfe5d874711211a5e764f257df926945e",
+    "console/web/internal-systems.js": "c18b86d3fef86318bcf35531dc240e737d1b530c3c348a7925605f1cd06b290b",
+    "web/physics-model.js": "fb23369a8b29c2e4b16a839c51a93d98373dfe8a860f623b21b4cc2b02d37e5f",
+    "web/render-model.js": "9be3744c00a1a55c64d0ec6ece1bfd15a9a0fb53c1c4c882e05dec3fe563cf3e",
+    "web/geometry.json": "7d925267cbfb18d39e64041ea851fc13db2e3a13f6d403eab386235f741d8f43",
+    "internal_registry/registry.py": "63286381026fb222c2896934f5a048d78820e2c7dc5e3d365187788fa80e61e2",
+    "console/phase5_display.py": "b21a6ebb9c89a04864c17b5a2f5f8a644e3bbd97c09445b2a3ddf69257d06dc2",
+    "support_integrated/combined.py": "9e3ef25ca1e31cfe3ce14b7e40a506264c9090874b013d7963eb9e4e28503ec6"
+  },
+  "source_manifests": {
+    "auxiliary": "fade0b2909463c0835cc7eafd6fc9213682ebb484d868f3572d7e91d77909134",
+    "cad_body": "ed33ccdb6282f7bf1418ce05eff677b665be14c5247b622468be401c7732a7da",
+    "encoder": "f81c3bc06d9dcefaa7ba1633e9bbe50df11e40ec7ee5d953342e6734b0ace011",
+    "body": "9af03117ca5b4653398ae84b982d23a21cc6c57bf972a11a315c743af4274e9b",
+    "pantograph": "6db87b9cf320da7ee5b00a26314d415ecc8b6ad6bca93aad0841e76b9a2a4476"
+  },
+  "independently_refreshable_evidence": "109x7 truth matrix and design-candidate text are schema-checked data, never executable physics/configuration overrides",
+  "readonly_observer_files": {
+    "aux_mount/observations.py": "ea8b308f58813889272e2b840e03db6adedc5cb819a0cf297559d600c613d0f8"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "mesh_count": 1932,
+  "triangles": 1656604,
+  "each_float32_vertex_and_index_stream_equal": true,
+  "display_revision_sha256": "3e1d785643dc3eca93cf989b663af29311db3c6d1ce3197d97d7758a4e9fb93e",
+  "native_A_original_unchanged": true,
+  "all_objects_no_rigid_body_constraint_modifier_animation": true,
+  "long_source_names_preserved_in_custom_property": true,
+  "blender_ID_names_may_be_truncated_by_native_limit": true,
+  "all_materials_are_source_display_not_calibrated_physical_material": true,
+  "source_file_sha256": "08b61aa81c1a3b51c54488b413aaae5072013c51ca6afcd32c20168b7bb9eac2"
+}

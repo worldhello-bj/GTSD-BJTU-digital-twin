@@ -1,0 +1,10 @@
+{"event": "call_begin", "call": 1}
+{"event": "call_accepted", "call": 1, "steps": 1, "wall_s": 0.3137383929861244}
+{"event": "call_begin", "call": 2}
+{"event": "call_accepted", "call": 2, "steps": 2, "wall_s": 0.4380642540054396}
+{"event": "call_begin", "call": 3}
+{"event": "call_accepted", "call": 3, "steps": 2, "wall_s": 0.5497502780053765}
+{"event": "call_begin", "call": 4}
+{"event": "call_accepted", "call": 4, "steps": 3, "wall_s": 0.4448115400155075}
+{"event": "call_begin", "call": 5}
+{"event": "call_accepted", "call": 5, "steps": 4, "wall_s": 0.38853254599962384}

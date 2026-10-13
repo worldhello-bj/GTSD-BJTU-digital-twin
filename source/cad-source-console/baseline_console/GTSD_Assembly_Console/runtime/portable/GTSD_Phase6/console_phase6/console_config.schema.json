@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GTSD loopback console launch configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "source_root", "variant", "port", "resume"],
+  "properties": {
+    "schema": {"const": "gtsd-console-launch-config-v1"},
+    "source_root": {"type": "string", "minLength": 1, "description": "Project root; relative paths are resolved from this configuration file, not the shell working directory."},
+    "variant": {"enum": ["base", "extended", "extended-cables", "cover-bench", "brake-contact-bench", "cable-support-bench", "legacy-drawbar", "legacy-closed-pantograph", "contact-sections-research", "internal-brake-research", "internal-coupled-research"]},
+    "port": {"type": "integer", "minimum": 0, "maximum": 65535, "description": "127.0.0.1 only; 0 lets the operating system choose an ephemeral port."},
+    "resume": {"type": ["string", "null"], "minLength": 1, "description": "Explicit complete console checkpoint path; null always means a fresh paused model. No automatic cache lookup."}
+  },
+  "$comment": "Runtime validation also rejects duplicate keys, non-finite JSON including overflow, boolean ports, unavailable paths, wrong dependency versions, and invalid checkpoint envelopes. No JSON Schema package or schema network fetch is required."
+}

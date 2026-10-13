@@ -1,0 +1,3062 @@
+{
+  "schema": "gtsd-cad-end-door-geometric-moments-v1",
+  "geometry_sha256": "67dfd34c3e9a2f9776aa63b9acdff48051734ca4d733035660be0d49aba0cd9c",
+  "units": "SI; unit density is only mathematical normalization, never a material claim",
+  "component_to_world_translation_m": [
+    0,
+    0,
+    0.3638689111436339
+  ],
+  "parts": [
+    {
+      "name": "CAD_end_frame_-1_2B75_2B77",
+      "role": "fixed_end_frame",
+      "door_key": null,
+      "solid": true,
+      "volume_m3": 0.0005479485270945641,
+      "centroid_component_m": [
+        -0.648499995470047,
+        1.350066595239748e-06,
+        0.31108387290746875
+      ],
+      "centroid_world_m": [
+        -0.648499995470047,
+        1.350066595239748e-06,
+        0.6749527840511027
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          0.00011070839235824111,
+          -1.8249824979865058e-23,
+          -2.3095178438048764e-23
+        ],
+        [
+          -1.4630909799945562e-23,
+          2.14752596776325e-05,
+          4.34164268136893e-11
+        ],
+        [
+          -1.6891323843901056e-23,
+          4.3416426814324573e-11,
+          8.923395458223553e-05
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.20204159128825477,
+          -3.330572869067231e-20,
+          -4.214844514777395e-20
+        ],
+        [
+          -2.6701248523331796e-20,
+          0.03919211133115489,
+          7.923449861960584e-08
+        ],
+        [
+          -3.082647914661878e-20,
+          7.923449862076522e-08,
+          0.1628509799184763
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "payload_secondary"
+    },
+    {
+      "name": "CAD_end_frame_+1_2B75_2B77",
+      "role": "fixed_end_frame",
+      "door_key": null,
+      "solid": true,
+      "volume_m3": 0.0005479485270945641,
+      "centroid_component_m": [
+        0.648499995470047,
+        1.350066595239748e-06,
+        0.31108387290746875
+      ],
+      "centroid_world_m": [
+        0.648499995470047,
+        1.350066595239748e-06,
+        0.6749527840511027
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          0.00011070839235824111,
+          -1.8249824979865058e-23,
+          -2.3095178438048764e-23
+        ],
+        [
+          -1.4630909799945562e-23,
+          2.14752596776325e-05,
+          4.34164268136893e-11
+        ],
+        [
+          -1.6891323843901056e-23,
+          4.3416426814324573e-11,
+          8.923395458223553e-05
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.20204159128825477,
+          -3.330572869067231e-20,
+          -4.214844514777395e-20
+        ],
+        [
+          -2.6701248523331796e-20,
+          0.03919211133115489,
+          7.923449861960584e-08
+        ],
+        [
+          -3.082647914661878e-20,
+          7.923449862076522e-08,
+          0.1628509799184763
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "payload_secondary"
+    },
+    {
+      "name": "CAD_door_leaf_end_neg_y_neg",
+      "role": "door_leaf",
+      "door_key": "end_neg_y_neg",
+      "solid": true,
+      "volume_m3": 0.0002960018261946646,
+      "centroid_component_m": [
+        -0.6507499814033474,
+        -0.22544525033381485,
+        0.2574905869473412
+      ],
+      "centroid_world_m": [
+        -0.6507499814033474,
+        -0.22544525033381485,
+        0.6213594980909751
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          1.0159834388070518e-05,
+          1.6124967699631685e-19,
+          1.6759569832715166e-19
+        ],
+        [
+          1.61249521899952e-19,
+          4.947715566648914e-06,
+          1.7587118925032812e-07
+        ],
+        [
+          1.6759538813442196e-19,
+          1.7587118925032812e-07,
+          5.212229823659024e-06
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0343235530627738,
+          5.447590613521132e-16,
+          5.661981903345857e-16
+        ],
+        [
+          5.447585373811403e-16,
+          0.016715152167321647,
+          0.0005941557574535606
+        ],
+        [
+          5.661971423926399e-16,
+          0.0005941557574535606,
+          0.017608775900697378
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_neg"
+    },
+    {
+      "name": "CAD_fan_shroud_end_neg_y_neg",
+      "role": "fan_shroud",
+      "door_key": "end_neg_y_neg",
+      "solid": true,
+      "volume_m3": 6.594707721937435e-06,
+      "centroid_component_m": [
+        -0.6534999907016754,
+        -0.3445006201289545,
+        0.12705999968760937
+      ],
+      "centroid_world_m": [
+        -0.6534999907016754,
+        -0.3445006201289545,
+        0.49092891083124324
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          1.8210565605970428e-08,
+          -5.5504179490606895e-27,
+          -3.1429406354095132e-27
+        ],
+        [
+          -7.52257021211322e-27,
+          9.114076419057885e-09,
+          -1.950786296048327e-21
+        ],
+        [
+          8.503012908368284e-27,
+          -1.950332366550801e-21,
+          9.114075145448753e-09
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.002761390856700532,
+          -8.416473000914212e-22,
+          -4.765852813998799e-22
+        ],
+        [
+          -1.1406980459633155e-21,
+          0.0013820288636507295,
+          -2.9581088022430393e-16
+        ],
+        [
+          1.289369183122829e-21,
+          -2.957420478337469e-16,
+          0.001382028670524789
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_neg"
+    },
+    {
+      "name": "CAD_mounted_SHELL_door_handle_-1",
+      "role": "door_handle",
+      "door_key": "end_neg_y_neg",
+      "solid": true,
+      "volume_m3": 2.364871453137612e-05,
+      "centroid_component_m": [
+        -0.6604999899864197,
+        -0.026000594140883904,
+        0.2524999976158142
+      ],
+      "centroid_world_m": [
+        -0.6604999899864197,
+        -0.026000594140883904,
+        0.6163689087594482
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          2.1167369264848163e-08,
+          -1.0905213153775267e-26,
+          3.78433431937815e-18
+        ],
+        [
+          -1.3732490638087374e-26,
+          2.1380824678927594e-08,
+          9.693521638810986e-27
+        ],
+        [
+          3.784334350074306e-18,
+          1.292469590659625e-26,
+          8.914720178239318e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0008950748353262157,
+          -4.6113344297453e-22,
+          1.600228339835239e-13
+        ],
+        [
+          -5.806865578197784e-22,
+          0.0009041009248329509,
+          4.098963445116659e-22
+        ],
+        [
+          1.6002283528152917e-13,
+          5.465284757633785e-22,
+          3.7696426021006944e-05
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_neg"
+    },
+    {
+      "name": "CAD_mounted_SHELL_electrical_caution",
+      "role": "warning_decal",
+      "door_key": "end_neg_y_neg",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_-1_0.019",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_neg",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_-1_0.03",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_neg",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_-1_0.041",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_neg",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_-1_0.052",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_neg",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke",
+      "role": "fan_spoke",
+      "door_key": "end_neg_y_neg",
+      "solid": true,
+      "volume_m3": 8.501148882132107e-07,
+      "centroid_component_m": [
+        -0.659500061587575,
+        -0.3445005896014579,
+        0.12705999618723615
+      ],
+      "centroid_world_m": [
+        -0.659500061587575,
+        -0.3445005896014579,
+        0.49092890733087
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          7.667910683900838e-10,
+          3.1649926467920704e-24,
+          -1.0573428538106624e-25
+        ],
+        [
+          3.1647402113023997e-24,
+          1.1084881618344904e-12,
+          -1.0275652290680532e-16
+        ],
+        [
+          -1.0573428538106624e-25,
+          -1.0275652290657812e-16,
+          7.667910655702982e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0009019852246109245,
+          3.723017548186126e-18,
+          -1.243764658719256e-19
+        ],
+        [
+          3.722720605392663e-18,
+          1.3039274775722774e-06,
+          -1.2087368934660248e-10
+        ],
+        [
+          -1.243764658719256e-19,
+          -1.2087368934633522e-10,
+          0.0009019852212939779
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_neg"
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.001",
+      "role": "fan_spoke",
+      "door_key": "end_neg_y_neg",
+      "solid": true,
+      "volume_m3": 8.501146772884622e-07,
+      "centroid_component_m": [
+        -0.6595000630653443,
+        -0.3445005600785539,
+        0.12705999686300004
+      ],
+      "centroid_world_m": [
+        -0.6595000630653443,
+        -0.3445005600785539,
+        0.4909289080066339
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          7.667910223498245e-10,
+          6.865065554580168e-20,
+          -3.965311010545269e-20
+        ],
+        [
+          6.865065560891056e-20,
+          5.753701478437472e-10,
+          -3.3155039994304854e-10
+        ],
+        [
+          -3.965311008020914e-20,
+          -3.3155039994304854e-10,
+          1.9252935936438573e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0009019853942477408,
+          8.07545821521054e-14,
+          -4.6644424763881046e-14
+        ],
+        [
+          8.075458222634111e-14,
+          0.0006768147441930494,
+          -0.0003900066765116518
+        ],
+        [
+          -4.6644424734186763e-14,
+          -0.0003900066765116518,
+          0.00022647457396980853
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_neg"
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.002",
+      "role": "fan_spoke",
+      "door_key": "end_neg_y_neg",
+      "solid": true,
+      "volume_m3": 8.501172901910813e-07,
+      "centroid_component_m": [
+        -0.6595000621873051,
+        -0.34450062470665316,
+        0.12706004897763484
+      ],
+      "centroid_world_m": [
+        -0.6595000621873051,
+        -0.34450062470665316,
+        0.49092896012126874
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          7.667933425439436e-10,
+          -1.9669277087678972e-19,
+          -1.1353534426392082e-19
+        ],
+        [
+          -1.9669277086416794e-19,
+          5.753720988991635e-10,
+          3.315512798097792e-10
+        ],
+        [
+          -1.1353534403672888e-19,
+          3.315512798097792e-10,
+          1.9252973413608824e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0009019853511879415,
+          -2.31371333281057e-13,
+          -1.33552564538949e-13
+        ],
+        [
+          -2.313713332662099e-13,
+          0.0006768149589921138,
+          0.0003900065127898484
+        ],
+        [
+          -1.3355256427170125e-13,
+          0.0003900065127898484,
+          0.00022647431872937585
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_neg"
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_-1_-1_0.454",
+      "role": "hinge_visual",
+      "door_key": "end_neg_y_neg",
+      "solid": true,
+      "volume_m3": 5.143256537778587e-06,
+      "centroid_component_m": [
+        -0.6507499814033508,
+        -0.4590005874633789,
+        0.07500000111758709
+      ],
+      "centroid_world_m": [
+        -0.6507499814033508,
+        -0.4590005874633789,
+        0.438868912261221
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          9.526917132957553e-10,
+          3.534096855390133e-28,
+          -1.6155871338926325e-27
+        ],
+        [
+          1.7670484276950662e-28,
+          9.526911893096546e-10,
+          3.6350710512584224e-27
+        ],
+        [
+          -2.0194839173657906e-27,
+          9.22032310467829e-44,
+          9.152716898739455e-11
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.00018523122583872324,
+          6.871321368925021e-23,
+          -3.1411754829371533e-22
+        ],
+        [
+          3.4356606844625106e-23,
+          0.00018523112396044887,
+          7.067644836608594e-22
+        ],
+        [
+          -3.9264693536714416e-22,
+          1.7927013822764944e-38,
+          1.779556751935338e-05
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_neg"
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_-1_-1_0.744",
+      "role": "hinge_visual",
+      "door_key": "end_neg_y_neg",
+      "solid": true,
+      "volume_m3": 5.143256121254229e-06,
+      "centroid_component_m": [
+        -0.6507499814033508,
+        -0.4590005874633789,
+        0.42500001192092896
+      ],
+      "centroid_world_m": [
+        -0.6507499814033508,
+        -0.4590005874633789,
+        0.7888689230645629
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          9.526914892481503e-10,
+          1.0097419586828951e-28,
+          4.8467614016778965e-27
+        ],
+        [
+          -4.0948183689281775e-45,
+          9.52690965262092e-10,
+          9.087677628146061e-28
+        ],
+        [
+          4.0389678347315804e-27,
+          1.8175355256292116e-27,
+          9.152716157510715e-11
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0001852311972781608,
+          1.963234835827426e-23,
+          9.423527211971644e-22
+        ],
+        [
+          -7.961529179942178e-40,
+          0.00018523109539988643,
+          1.7669113522446845e-22
+        ],
+        [
+          7.852939343309704e-22,
+          3.5338227044893676e-22,
+          1.779556751935337e-05
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_neg"
+    },
+    {
+      "name": "CAD_mounted_SHELL_emergency_stop",
+      "role": "end_control",
+      "door_key": "end_neg_y_neg",
+      "solid": true,
+      "volume_m3": 1.971593347977885e-05,
+      "centroid_component_m": [
+        -0.6575000286102295,
+        -0.3994605839252472,
+        0.42722001671791077
+      ],
+      "centroid_world_m": [
+        -0.6575000286102295,
+        -0.3994605839252472,
+        0.7910889278615447
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          5.1556326315764795e-09,
+          -2.4233807008389475e-27,
+          -1.6155871338926325e-27
+        ],
+        [
+          -2.4233807008389475e-27,
+          2.814411654213979e-09,
+          -9.208846663188003e-26
+        ],
+        [
+          -4.0389678347315804e-27,
+          4.846761401677896e-27,
+          2.814409999408279e-09
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.00026149574083642675,
+          -1.2291483450806055e-22,
+          -8.194322300537374e-23
+        ],
+        [
+          -1.2291483450806055e-22,
+          0.00014274808023168213,
+          -4.670763711306302e-21
+        ],
+        [
+          -2.0485805751343429e-22,
+          2.458296690161211e-22,
+          0.0001427479962992778
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_neg"
+    },
+    {
+      "name": "CAD_mounted_SHELL_emergency_stop.001",
+      "role": "end_control",
+      "door_key": "end_neg_y_neg",
+      "solid": true,
+      "volume_m3": 8.385697230094068e-06,
+      "centroid_component_m": [
+        -0.6694999933242798,
+        -0.3994605839252472,
+        0.42722001671791077
+      ],
+      "centroid_world_m": [
+        -0.6694999933242798,
+        -0.3994605839252472,
+        0.7910889278615447
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          9.326741619103887e-10,
+          3.231174267785264e-27,
+          -1.2116903504194741e-27
+        ],
+        [
+          3.231174267785264e-27,
+          5.669645884570838e-10,
+          -7.472090494253424e-27
+        ],
+        [
+          -1.7165613297609217e-27,
+          -1.8175355256292112e-27,
+          5.6696512338814e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.00011122201724184195,
+          3.8531969127020556e-22,
+          -1.444948842263271e-22
+        ],
+        [
+          3.8531969127020556e-22,
+          6.761090615368232e-05,
+          -8.910517860623505e-22
+        ],
+        [
+          -2.0470108598729673e-22,
+          -2.1674232633949063e-22,
+          6.761096994456835e-05
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_neg"
+    },
+    {
+      "name": "CAD_door_leaf_end_neg_y_pos",
+      "role": "door_leaf",
+      "door_key": "end_neg_y_pos",
+      "solid": true,
+      "volume_m3": 0.0002960018244027296,
+      "centroid_component_m": [
+        -0.650749981403338,
+        0.225444059540174,
+        0.25749058690867616
+      ],
+      "centroid_world_m": [
+        -0.650749981403338,
+        0.225444059540174,
+        0.62135949805231
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          1.0159834244668201e-05,
+          -5.96543772739608e-19,
+          6.200685441209335e-19
+        ],
+        [
+          -5.96543772739608e-19,
+          4.947715537324691e-06,
+          -1.7587119417918798e-07
+        ],
+        [
+          6.200688026148749e-19,
+          -1.758711941791881e-07,
+          5.21222970958026e-06
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.034323552786097326,
+          -2.015338161997176e-15,
+          2.0948132511416218e-15
+        ],
+        [
+          -2.015338161997176e-15,
+          0.016715152169444077,
+          -0.0005941557777019099
+        ],
+        [
+          2.094814124426582e-15,
+          -0.0005941557777019102,
+          0.01760877562189848
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_pos"
+    },
+    {
+      "name": "CAD_fan_shroud_end_neg_y_pos",
+      "role": "fan_shroud",
+      "door_key": "end_neg_y_pos",
+      "solid": true,
+      "volume_m3": 6.594708871677402e-06,
+      "centroid_component_m": [
+        -0.6534999907016754,
+        0.3444994078399859,
+        0.12705999968762127
+      ],
+      "centroid_world_m": [
+        -0.6534999907016754,
+        0.3444994078399859,
+        0.49092891083125517
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          1.8210568846141708e-08,
+          -8.308282070329339e-27,
+          1.7608606795588532e-26
+        ],
+        [
+          -4.4838844018178745e-27,
+          9.114078391316736e-09,
+          2.2595671283166583e-21
+        ],
+        [
+          1.911099238958195e-26,
+          2.2596733058390574e-21,
+          9.11407641642717e-09
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.00276139086660087,
+          -1.259840613436523e-21,
+          2.6701113177585473e-21
+        ],
+        [
+          -6.799215081464806e-22,
+          0.001382028921770813,
+          3.426333401950349e-16
+        ],
+        [
+          2.897928136245529e-21,
+          3.426494406059045e-16,
+          0.0013820286223050436
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_pos"
+    },
+    {
+      "name": "CAD_mounted_SHELL_electrical_caution.001",
+      "role": "warning_decal",
+      "door_key": "end_neg_y_pos",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_1_0.019",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_pos",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_1_0.03",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_pos",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_1_0.041",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_pos",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_1_0.052",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_pos",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.003",
+      "role": "fan_spoke",
+      "door_key": "end_neg_y_pos",
+      "solid": true,
+      "volume_m3": 8.501148248481897e-07,
+      "centroid_component_m": [
+        -0.6595000615875749,
+        0.34449940138448665,
+        0.12705999605457588
+      ],
+      "centroid_world_m": [
+        -0.6595000615875749,
+        0.34449940138448665,
+        0.4909289071982098
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          7.667908970277819e-10,
+          -2.71340387196606e-25,
+          9.499991193863498e-26
+        ],
+        [
+          -2.7121416945177065e-25,
+          1.1084881010298911e-12,
+          -1.0339098956714435e-16
+        ],
+        [
+          9.500622282587675e-26,
+          -1.0339098956714435e-16,
+          7.667908941938317e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0009019850902667326,
+          -3.1918086741407077e-19,
+          1.1174950625711028e-19
+        ],
+        [
+          -3.190323960062725e-19,
+          1.3039275032379782e-06,
+          -1.2162002890092822e-10
+        ],
+        [
+          1.1175692982750018e-19,
+          -1.2162002890092822e-10,
+          0.0009019850869331238
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_pos"
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.004",
+      "role": "fan_spoke",
+      "door_key": "end_neg_y_pos",
+      "solid": true,
+      "volume_m3": 8.501147089695797e-07,
+      "centroid_component_m": [
+        -0.6595000630653443,
+        0.34449932793272786,
+        0.12705986102459815
+      ],
+      "centroid_world_m": [
+        -0.6595000630653443,
+        0.34449932793272786,
+        0.49092877216823205
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          7.667911080165643e-10,
+          -2.5621912553809937e-19,
+          1.480020071753528e-19
+        ],
+        [
+          -2.562191254371252e-19,
+          5.753702118319172e-10,
+          -3.31550437186368e-10
+        ],
+        [
+          1.4800200720059635e-19,
+          -3.31550437186368e-10,
+          1.9252938108043828e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0009019854614043656,
+          -3.013935917526488e-13,
+          1.7409651381605359e-13
+        ],
+        [
+          -3.013935916338717e-13,
+          0.0006768147942403218,
+          -0.00039000670578708
+        ],
+        [
+          1.7409651384574787e-13,
+          -0.00039000670578708,
+          0.00022647459107465897
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_pos"
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.005",
+      "role": "fan_spoke",
+      "door_key": "end_neg_y_pos",
+      "solid": true,
+      "volume_m3": 8.501172585081846e-07,
+      "centroid_component_m": [
+        -0.6595000621873047,
+        0.34449942224828173,
+        0.12705990978300577
+      ],
+      "centroid_world_m": [
+        -0.6595000621873047,
+        0.34449942224828173,
+        0.4909288209266397
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          7.667932568643943e-10,
+          -5.215862356410919e-19,
+          -3.0115901591571415e-19
+        ],
+        [
+          -5.215862355022524e-19,
+          5.753720343518557e-10,
+          3.31551242878161e-10
+        ],
+        [
+          -3.011590157390093e-19,
+          3.31551242878161e-10,
+          1.925297129663618e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0009019852840183363,
+          -6.135462260305004e-13,
+          -3.5425585459139895e-13
+        ],
+        [
+          -6.135462258671823e-13,
+          0.0006768149082886973,
+          0.0003900064838819749
+        ],
+        [
+          -3.542558543835396e-13,
+          0.0003900064838819749,
+          0.00022647430226768912
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_pos"
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_-1_1_0.454",
+      "role": "hinge_visual",
+      "door_key": "end_neg_y_pos",
+      "solid": true,
+      "volume_m3": 5.143256537778587e-06,
+      "centroid_component_m": [
+        -0.6507499814033508,
+        0.4589993953704834,
+        0.07500000111758709
+      ],
+      "centroid_world_m": [
+        -0.6507499814033508,
+        0.4589993953704834,
+        0.438868912261221
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          9.526917132957553e-10,
+          3.534096855390133e-28,
+          -1.6155871338926325e-27
+        ],
+        [
+          1.7670484276950662e-28,
+          9.526911893096546e-10,
+          3.6350710512584224e-27
+        ],
+        [
+          -2.0194839173657906e-27,
+          9.22032310467829e-44,
+          9.152716898739455e-11
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.00018523122583872324,
+          6.871321368925021e-23,
+          -3.1411754829371533e-22
+        ],
+        [
+          3.4356606844625106e-23,
+          0.00018523112396044887,
+          7.067644836608594e-22
+        ],
+        [
+          -3.9264693536714416e-22,
+          1.7927013822764944e-38,
+          1.779556751935338e-05
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_pos"
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_-1_1_0.744",
+      "role": "hinge_visual",
+      "door_key": "end_neg_y_pos",
+      "solid": true,
+      "volume_m3": 5.143256121254229e-06,
+      "centroid_component_m": [
+        -0.6507499814033508,
+        0.4589993953704834,
+        0.42500001192092896
+      ],
+      "centroid_world_m": [
+        -0.6507499814033508,
+        0.4589993953704834,
+        0.7888689230645629
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          9.526914892481503e-10,
+          1.0097419586828951e-28,
+          4.8467614016778965e-27
+        ],
+        [
+          -4.0948183689281775e-45,
+          9.52690965262092e-10,
+          9.087677628146061e-28
+        ],
+        [
+          4.0389678347315804e-27,
+          1.8175355256292116e-27,
+          9.152716157510715e-11
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0001852311972781608,
+          1.963234835827426e-23,
+          9.423527211971644e-22
+        ],
+        [
+          -7.961529179942178e-40,
+          0.00018523109539988643,
+          1.7669113522446845e-22
+        ],
+        [
+          7.852939343309704e-22,
+          3.5338227044893676e-22,
+          1.779556751935337e-05
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_pos"
+    },
+    {
+      "name": "CAD_mounted_SHELL_round_blank_cap_-1",
+      "role": "end_control",
+      "door_key": "end_neg_y_pos",
+      "solid": true,
+      "volume_m3": 2.2548451282977518e-06,
+      "centroid_component_m": [
+        -0.6545000076293945,
+        0.3994593918323517,
+        0.42722001671791077
+      ],
+      "centroid_world_m": [
+        -0.6545000076293945,
+        0.3994593918323517,
+        0.7910889278615447
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          1.348685559216543e-10,
+          -1.0097419586828953e-28,
+          2.5243548967072383e-29
+        ],
+        [
+          1.5146129380243424e-28,
+          7.419876799861726e-11,
+          2.524354896707238e-28
+        ],
+        [
+          2.145701662201152e-28,
+          7.573064690121713e-28,
+          7.419904792761927e-11
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          5.9812780145779015e-05,
+          -4.4780989435189235e-23,
+          1.1195247358797309e-23
+        ],
+        [
+          6.717148415278382e-23,
+          3.290636996192819e-05,
+          1.1195247358797306e-22
+        ],
+        [
+          9.51596025497771e-23,
+          3.358574207639192e-22,
+          3.2906494107484135e-05
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_neg_y_pos"
+    },
+    {
+      "name": "CAD_door_leaf_end_pos_y_neg",
+      "role": "door_leaf",
+      "door_key": "end_pos_y_neg",
+      "solid": true,
+      "volume_m3": 0.0002960018261946646,
+      "centroid_component_m": [
+        0.6507499814033543,
+        -0.22544525033381485,
+        0.2574905869473412
+      ],
+      "centroid_world_m": [
+        0.6507499814033543,
+        -0.22544525033381485,
+        0.6213594980909751
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          1.0159834388070518e-05,
+          1.6124967699631685e-19,
+          1.6759569832715166e-19
+        ],
+        [
+          1.61249521899952e-19,
+          4.947715566648914e-06,
+          1.7587118925032812e-07
+        ],
+        [
+          1.6759538813442196e-19,
+          1.7587118925032812e-07,
+          5.212229823659024e-06
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0343235530627738,
+          5.447590613521132e-16,
+          5.661981903345857e-16
+        ],
+        [
+          5.447585373811403e-16,
+          0.016715152167321647,
+          0.0005941557574535606
+        ],
+        [
+          5.661971423926399e-16,
+          0.0005941557574535606,
+          0.017608775900697378
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_neg"
+    },
+    {
+      "name": "CAD_fan_shroud_end_pos_y_neg",
+      "role": "fan_shroud",
+      "door_key": "end_pos_y_neg",
+      "solid": true,
+      "volume_m3": 6.594707721937435e-06,
+      "centroid_component_m": [
+        0.6534999907016754,
+        -0.3445006201289545,
+        0.12705999968760937
+      ],
+      "centroid_world_m": [
+        0.6534999907016754,
+        -0.3445006201289545,
+        0.49092891083124324
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          1.8210565605970428e-08,
+          -5.5504179490606895e-27,
+          -3.1429406354095132e-27
+        ],
+        [
+          -7.52257021211322e-27,
+          9.114076419057885e-09,
+          -1.950786296048327e-21
+        ],
+        [
+          8.503012908368284e-27,
+          -1.950332366550801e-21,
+          9.114075145448753e-09
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.002761390856700532,
+          -8.416473000914212e-22,
+          -4.765852813998799e-22
+        ],
+        [
+          -1.1406980459633155e-21,
+          0.0013820288636507295,
+          -2.9581088022430393e-16
+        ],
+        [
+          1.289369183122829e-21,
+          -2.957420478337469e-16,
+          0.001382028670524789
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_neg"
+    },
+    {
+      "name": "CAD_mounted_SHELL_electrical_caution.002",
+      "role": "warning_decal",
+      "door_key": "end_pos_y_neg",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_-1_0.019",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_neg",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_-1_0.03",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_neg",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_-1_0.041",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_neg",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_-1_0.052",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_neg",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.006",
+      "role": "fan_spoke",
+      "door_key": "end_pos_y_neg",
+      "solid": true,
+      "volume_m3": 8.501148882132107e-07,
+      "centroid_component_m": [
+        0.6595000633437604,
+        -0.3445005896014579,
+        0.12705999618723615
+      ],
+      "centroid_world_m": [
+        0.6595000633437604,
+        -0.3445005896014579,
+        0.49092890733087
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          7.667910683900838e-10,
+          3.1649926467920704e-24,
+          -1.0573428538106624e-25
+        ],
+        [
+          3.1647402113023997e-24,
+          1.1084881618344904e-12,
+          -1.0275652290680532e-16
+        ],
+        [
+          -1.0573428538106624e-25,
+          -1.0275652290657812e-16,
+          7.667910655702982e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0009019852246109245,
+          3.723017548186126e-18,
+          -1.243764658719256e-19
+        ],
+        [
+          3.722720605392663e-18,
+          1.3039274775722774e-06,
+          -1.2087368934660248e-10
+        ],
+        [
+          -1.243764658719256e-19,
+          -1.2087368934633522e-10,
+          0.0009019852212939779
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_neg"
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.007",
+      "role": "fan_spoke",
+      "door_key": "end_pos_y_neg",
+      "solid": true,
+      "volume_m3": 8.501146772884622e-07,
+      "centroid_component_m": [
+        0.6595000618659912,
+        -0.3445005600785539,
+        0.12705999686300004
+      ],
+      "centroid_world_m": [
+        0.6595000618659912,
+        -0.3445005600785539,
+        0.4909289080066339
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          7.667910223498245e-10,
+          6.865065554580168e-20,
+          -3.965311010545269e-20
+        ],
+        [
+          6.865065560891056e-20,
+          5.753701478437472e-10,
+          -3.3155039994304854e-10
+        ],
+        [
+          -3.965311008020914e-20,
+          -3.3155039994304854e-10,
+          1.9252935936438573e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0009019853942477408,
+          8.07545821521054e-14,
+          -4.6644424763881046e-14
+        ],
+        [
+          8.075458222634111e-14,
+          0.0006768147441930494,
+          -0.0003900066765116518
+        ],
+        [
+          -4.6644424734186763e-14,
+          -0.0003900066765116518,
+          0.00022647457396980853
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_neg"
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.008",
+      "role": "fan_spoke",
+      "door_key": "end_pos_y_neg",
+      "solid": true,
+      "volume_m3": 8.501172901910813e-07,
+      "centroid_component_m": [
+        0.6595000627440304,
+        -0.34450062470665316,
+        0.12706004897763484
+      ],
+      "centroid_world_m": [
+        0.6595000627440304,
+        -0.34450062470665316,
+        0.49092896012126874
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          7.667933425439436e-10,
+          -1.9669277087678972e-19,
+          -1.1353534426392082e-19
+        ],
+        [
+          -1.9669277086416794e-19,
+          5.753720988991635e-10,
+          3.315512798097792e-10
+        ],
+        [
+          -1.1353534403672888e-19,
+          3.315512798097792e-10,
+          1.9252973413608824e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0009019853511879415,
+          -2.31371333281057e-13,
+          -1.33552564538949e-13
+        ],
+        [
+          -2.313713332662099e-13,
+          0.0006768149589921138,
+          0.0003900065127898484
+        ],
+        [
+          -1.3355256427170125e-13,
+          0.0003900065127898484,
+          0.00022647431872937585
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_neg"
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_1_-1_0.454",
+      "role": "hinge_visual",
+      "door_key": "end_pos_y_neg",
+      "solid": true,
+      "volume_m3": 5.143256537778587e-06,
+      "centroid_component_m": [
+        0.6507499814033508,
+        -0.4590005874633789,
+        0.07500000111758709
+      ],
+      "centroid_world_m": [
+        0.6507499814033508,
+        -0.4590005874633789,
+        0.438868912261221
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          9.526917132957553e-10,
+          3.534096855390133e-28,
+          -1.6155871338926325e-27
+        ],
+        [
+          1.7670484276950662e-28,
+          9.526911893096546e-10,
+          3.6350710512584224e-27
+        ],
+        [
+          -2.0194839173657906e-27,
+          9.22032310467829e-44,
+          9.152716898739455e-11
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.00018523122583872324,
+          6.871321368925021e-23,
+          -3.1411754829371533e-22
+        ],
+        [
+          3.4356606844625106e-23,
+          0.00018523112396044887,
+          7.067644836608594e-22
+        ],
+        [
+          -3.9264693536714416e-22,
+          1.7927013822764944e-38,
+          1.779556751935338e-05
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_neg"
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_1_-1_0.744",
+      "role": "hinge_visual",
+      "door_key": "end_pos_y_neg",
+      "solid": true,
+      "volume_m3": 5.143256121254229e-06,
+      "centroid_component_m": [
+        0.6507499814033508,
+        -0.4590005874633789,
+        0.42500001192092896
+      ],
+      "centroid_world_m": [
+        0.6507499814033508,
+        -0.4590005874633789,
+        0.7888689230645629
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          9.526914892481503e-10,
+          1.0097419586828951e-28,
+          4.8467614016778965e-27
+        ],
+        [
+          -4.0948183689281775e-45,
+          9.52690965262092e-10,
+          9.087677628146061e-28
+        ],
+        [
+          4.0389678347315804e-27,
+          1.8175355256292116e-27,
+          9.152716157510715e-11
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0001852311972781608,
+          1.963234835827426e-23,
+          9.423527211971644e-22
+        ],
+        [
+          -7.961529179942178e-40,
+          0.00018523109539988643,
+          1.7669113522446845e-22
+        ],
+        [
+          7.852939343309704e-22,
+          3.5338227044893676e-22,
+          1.779556751935337e-05
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_neg"
+    },
+    {
+      "name": "CAD_mounted_SHELL_emergency_stop.002",
+      "role": "end_control",
+      "door_key": "end_pos_y_neg",
+      "solid": true,
+      "volume_m3": 1.971593347977885e-05,
+      "centroid_component_m": [
+        0.6575000286102295,
+        -0.3994605839252472,
+        0.42722001671791077
+      ],
+      "centroid_world_m": [
+        0.6575000286102295,
+        -0.3994605839252472,
+        0.7910889278615447
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          5.1556326315764795e-09,
+          -2.4233807008389475e-27,
+          1.6155871338926325e-27
+        ],
+        [
+          -2.4233807008389475e-27,
+          2.814411654213979e-09,
+          9.208846663188003e-26
+        ],
+        [
+          4.0389678347315804e-27,
+          -4.846761401677896e-27,
+          2.814409999408279e-09
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.00026149574083642675,
+          -1.2291483450806055e-22,
+          8.194322300537374e-23
+        ],
+        [
+          -1.2291483450806055e-22,
+          0.00014274808023168213,
+          4.670763711306302e-21
+        ],
+        [
+          2.0485805751343429e-22,
+          -2.458296690161211e-22,
+          0.0001427479962992778
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_neg"
+    },
+    {
+      "name": "CAD_mounted_SHELL_emergency_stop.003",
+      "role": "end_control",
+      "door_key": "end_pos_y_neg",
+      "solid": true,
+      "volume_m3": 8.385697230094068e-06,
+      "centroid_component_m": [
+        0.6694999933242798,
+        -0.3994605839252472,
+        0.42722001671791077
+      ],
+      "centroid_world_m": [
+        0.6694999933242798,
+        -0.3994605839252472,
+        0.7910889278615447
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          9.326741619103887e-10,
+          3.231174267785264e-27,
+          1.2116903504194741e-27
+        ],
+        [
+          3.231174267785264e-27,
+          5.669645884570838e-10,
+          7.472090494253424e-27
+        ],
+        [
+          1.7165613297609217e-27,
+          1.8175355256292112e-27,
+          5.6696512338814e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.00011122201724184195,
+          3.8531969127020556e-22,
+          1.444948842263271e-22
+        ],
+        [
+          3.8531969127020556e-22,
+          6.761090615368232e-05,
+          8.910517860623505e-22
+        ],
+        [
+          2.0470108598729673e-22,
+          2.1674232633949063e-22,
+          6.761096994456835e-05
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_neg"
+    },
+    {
+      "name": "CAD_door_leaf_end_pos_y_pos",
+      "role": "door_leaf",
+      "door_key": "end_pos_y_pos",
+      "solid": true,
+      "volume_m3": 0.0002960018244027296,
+      "centroid_component_m": [
+        0.6507499814033637,
+        0.225444059540174,
+        0.25749058690867616
+      ],
+      "centroid_world_m": [
+        0.6507499814033637,
+        0.225444059540174,
+        0.62135949805231
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          1.0159834244668201e-05,
+          -5.96543772739608e-19,
+          6.200685441209335e-19
+        ],
+        [
+          -5.96543772739608e-19,
+          4.947715537324691e-06,
+          -1.7587119417918798e-07
+        ],
+        [
+          6.200688026148749e-19,
+          -1.758711941791881e-07,
+          5.21222970958026e-06
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.034323552786097326,
+          -2.015338161997176e-15,
+          2.0948132511416218e-15
+        ],
+        [
+          -2.015338161997176e-15,
+          0.016715152169444077,
+          -0.0005941557777019099
+        ],
+        [
+          2.094814124426582e-15,
+          -0.0005941557777019102,
+          0.01760877562189848
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_pos"
+    },
+    {
+      "name": "CAD_fan_shroud_end_pos_y_pos",
+      "role": "fan_shroud",
+      "door_key": "end_pos_y_pos",
+      "solid": true,
+      "volume_m3": 6.594708871677402e-06,
+      "centroid_component_m": [
+        0.6534999907016754,
+        0.3444994078399859,
+        0.12705999968762127
+      ],
+      "centroid_world_m": [
+        0.6534999907016754,
+        0.3444994078399859,
+        0.49092891083125517
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          1.8210568846141708e-08,
+          -8.308282070329339e-27,
+          1.7608606795588532e-26
+        ],
+        [
+          -4.4838844018178745e-27,
+          9.114078391316736e-09,
+          2.2595671283166583e-21
+        ],
+        [
+          1.911099238958195e-26,
+          2.2596733058390574e-21,
+          9.11407641642717e-09
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.00276139086660087,
+          -1.259840613436523e-21,
+          2.6701113177585473e-21
+        ],
+        [
+          -6.799215081464806e-22,
+          0.001382028921770813,
+          3.426333401950349e-16
+        ],
+        [
+          2.897928136245529e-21,
+          3.426494406059045e-16,
+          0.0013820286223050436
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_pos"
+    },
+    {
+      "name": "CAD_mounted_SHELL_door_handle_1",
+      "role": "door_handle",
+      "door_key": "end_pos_y_pos",
+      "solid": true,
+      "volume_m3": 2.364871737832094e-05,
+      "centroid_component_m": [
+        0.6604999899864127,
+        0.02599940472243823,
+        0.2524999976139038
+      ],
+      "centroid_world_m": [
+        0.6604999899864127,
+        0.02599940472243823,
+        0.6163689087575377
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          2.1167371845641864e-08,
+          9.001315167550386e-21,
+          -3.862281567982622e-18
+        ],
+        [
+          9.001313551963252e-21,
+          2.138082718395602e-08,
+          -2.727002522637173e-19
+        ],
+        [
+          -3.862281567982622e-18,
+          -2.727002587260658e-19,
+          8.914722017679955e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0008950748367032474,
+          3.8062593516390866e-16,
+          -1.6331886022382007e-13
+        ],
+        [
+          3.806258668478513e-16,
+          0.0009041009219195997,
+          -1.1531291439666189e-14
+        ],
+        [
+          -1.6331886022382007e-13,
+          -1.1531291712930418e-14,
+          3.769642926111581e-05
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_pos"
+    },
+    {
+      "name": "CAD_mounted_SHELL_electrical_caution.003",
+      "role": "warning_decal",
+      "door_key": "end_pos_y_pos",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_1_0.019",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_pos",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_1_0.03",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_pos",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_1_0.041",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_pos",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_1_0.052",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_pos",
+      "solid": false,
+      "mass_policy": "MASSLESS_VISUAL_REFERENCE",
+      "volume_m3": null,
+      "centroid_component_m": null,
+      "unit_density_inertia_com_kgm2": null,
+      "status": "Source open guard surface or decal; no fabricated physical volume. Assembly budget allocated only to listed closed solids."
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.009",
+      "role": "fan_spoke",
+      "door_key": "end_pos_y_pos",
+      "solid": true,
+      "volume_m3": 8.501148248481897e-07,
+      "centroid_component_m": [
+        0.6595000633437605,
+        0.34449940138448665,
+        0.12705999605457588
+      ],
+      "centroid_world_m": [
+        0.6595000633437605,
+        0.34449940138448665,
+        0.4909289071982098
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          7.667908970277819e-10,
+          -2.71340387196606e-25,
+          9.499991193863498e-26
+        ],
+        [
+          -2.7121416945177065e-25,
+          1.1084881010298911e-12,
+          -1.0339098956714435e-16
+        ],
+        [
+          9.500622282587675e-26,
+          -1.0339098956714435e-16,
+          7.667908941938317e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0009019850902667326,
+          -3.1918086741407077e-19,
+          1.1174950625711028e-19
+        ],
+        [
+          -3.190323960062725e-19,
+          1.3039275032379782e-06,
+          -1.2162002890092822e-10
+        ],
+        [
+          1.1175692982750018e-19,
+          -1.2162002890092822e-10,
+          0.0009019850869331238
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_pos"
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.010",
+      "role": "fan_spoke",
+      "door_key": "end_pos_y_pos",
+      "solid": true,
+      "volume_m3": 8.501147089695797e-07,
+      "centroid_component_m": [
+        0.6595000618659912,
+        0.34449932793272786,
+        0.12705986102459815
+      ],
+      "centroid_world_m": [
+        0.6595000618659912,
+        0.34449932793272786,
+        0.49092877216823205
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          7.667911080165643e-10,
+          -2.5621912553809937e-19,
+          1.480020071753528e-19
+        ],
+        [
+          -2.562191254371252e-19,
+          5.753702118319172e-10,
+          -3.31550437186368e-10
+        ],
+        [
+          1.4800200720059635e-19,
+          -3.31550437186368e-10,
+          1.9252938108043828e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0009019854614043656,
+          -3.013935917526488e-13,
+          1.7409651381605359e-13
+        ],
+        [
+          -3.013935916338717e-13,
+          0.0006768147942403218,
+          -0.00039000670578708
+        ],
+        [
+          1.7409651384574787e-13,
+          -0.00039000670578708,
+          0.00022647459107465897
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_pos"
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.011",
+      "role": "fan_spoke",
+      "door_key": "end_pos_y_pos",
+      "solid": true,
+      "volume_m3": 8.501172585081846e-07,
+      "centroid_component_m": [
+        0.6595000627440307,
+        0.34449942224828173,
+        0.12705990978300577
+      ],
+      "centroid_world_m": [
+        0.6595000627440307,
+        0.34449942224828173,
+        0.4909288209266397
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          7.667932568643943e-10,
+          -5.215862356410919e-19,
+          -3.0115901591571415e-19
+        ],
+        [
+          -5.215862355022524e-19,
+          5.753720343518557e-10,
+          3.31551242878161e-10
+        ],
+        [
+          -3.011590157390093e-19,
+          3.31551242878161e-10,
+          1.925297129663618e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0009019852840183363,
+          -6.135462260305004e-13,
+          -3.5425585459139895e-13
+        ],
+        [
+          -6.135462258671823e-13,
+          0.0006768149082886973,
+          0.0003900064838819749
+        ],
+        [
+          -3.542558543835396e-13,
+          0.0003900064838819749,
+          0.00022647430226768912
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_pos"
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_1_1_0.454",
+      "role": "hinge_visual",
+      "door_key": "end_pos_y_pos",
+      "solid": true,
+      "volume_m3": 5.143256537778587e-06,
+      "centroid_component_m": [
+        0.6507499814033508,
+        0.4589993953704834,
+        0.07500000111758709
+      ],
+      "centroid_world_m": [
+        0.6507499814033508,
+        0.4589993953704834,
+        0.438868912261221
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          9.526917132957553e-10,
+          3.534096855390133e-28,
+          -1.6155871338926325e-27
+        ],
+        [
+          1.7670484276950662e-28,
+          9.526911893096546e-10,
+          3.6350710512584224e-27
+        ],
+        [
+          -2.0194839173657906e-27,
+          9.22032310467829e-44,
+          9.152716898739455e-11
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.00018523122583872324,
+          6.871321368925021e-23,
+          -3.1411754829371533e-22
+        ],
+        [
+          3.4356606844625106e-23,
+          0.00018523112396044887,
+          7.067644836608594e-22
+        ],
+        [
+          -3.9264693536714416e-22,
+          1.7927013822764944e-38,
+          1.779556751935338e-05
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_pos"
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_1_1_0.744",
+      "role": "hinge_visual",
+      "door_key": "end_pos_y_pos",
+      "solid": true,
+      "volume_m3": 5.143256121254229e-06,
+      "centroid_component_m": [
+        0.6507499814033508,
+        0.4589993953704834,
+        0.42500001192092896
+      ],
+      "centroid_world_m": [
+        0.6507499814033508,
+        0.4589993953704834,
+        0.7888689230645629
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          9.526914892481503e-10,
+          1.0097419586828951e-28,
+          4.8467614016778965e-27
+        ],
+        [
+          -4.0948183689281775e-45,
+          9.52690965262092e-10,
+          9.087677628146061e-28
+        ],
+        [
+          4.0389678347315804e-27,
+          1.8175355256292116e-27,
+          9.152716157510715e-11
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.0001852311972781608,
+          1.963234835827426e-23,
+          9.423527211971644e-22
+        ],
+        [
+          -7.961529179942178e-40,
+          0.00018523109539988643,
+          1.7669113522446845e-22
+        ],
+        [
+          7.852939343309704e-22,
+          3.5338227044893676e-22,
+          1.779556751935337e-05
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_pos"
+    },
+    {
+      "name": "CAD_mounted_SHELL_round_blank_cap_1",
+      "role": "end_control",
+      "door_key": "end_pos_y_pos",
+      "solid": true,
+      "volume_m3": 2.2548451282977518e-06,
+      "centroid_component_m": [
+        0.6545000076293945,
+        0.3994593918323517,
+        0.42722001671791077
+      ],
+      "centroid_world_m": [
+        0.6545000076293945,
+        0.3994593918323517,
+        0.7910889278615447
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          1.348685559216543e-10,
+          -1.0097419586828953e-28,
+          -2.5243548967072383e-29
+        ],
+        [
+          1.5146129380243424e-28,
+          7.419876799861726e-11,
+          -2.524354896707238e-28
+        ],
+        [
+          -2.145701662201152e-28,
+          -7.573064690121713e-28,
+          7.419904792761927e-11
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          5.9812780145779015e-05,
+          -4.4780989435189235e-23,
+          -1.1195247358797309e-23
+        ],
+        [
+          6.717148415278382e-23,
+          3.290636996192819e-05,
+          -1.1195247358797306e-22
+        ],
+        [
+          -9.51596025497771e-23,
+          -3.358574207639192e-22,
+          3.2906494107484135e-05
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_pos"
+    },
+    {
+      "name": "CAD_mounted_SHELL_supply_indicator",
+      "role": "end_control",
+      "door_key": "end_pos_y_pos",
+      "solid": true,
+      "volume_m3": 5.248843429594446e-06,
+      "centroid_component_m": [
+        0.656499981880188,
+        0.3994593918323517,
+        0.3369399905204773
+      ],
+      "centroid_world_m": [
+        0.656499981880188,
+        0.3994593918323517,
+        0.7008089016641113
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          4.3848951106764816e-10,
+          4.038967834731582e-28,
+          6.058451752097371e-28
+        ],
+        [
+          2.0194839173657906e-27,
+          2.629849640327884e-10,
+          -6.058451752097371e-28
+        ],
+        [
+          1.464125840090198e-27,
+          -1.0097419586828951e-27,
+          2.629851040052744e-10
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          8.354021546829188e-05,
+          7.694967260708812e-23,
+          1.1542450891063214e-22
+        ],
+        [
+          3.8474836303544047e-22,
+          5.0103411839264566e-05,
+          -1.1542450891063214e-22
+        ],
+        [
+          2.789425632006943e-22,
+          -1.9237418151772021e-22,
+          5.010343850656526e-05
+        ]
+      ],
+      "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+      "physical_owner_candidate": "door_end_pos_y_pos"
+    }
+  ],
+  "doors": {
+    "end_neg_y_neg": {
+      "volume_m3": 0.00036718373867257665,
+      "centroid_component_m": [
+        -0.6522787577735669,
+        -0.23542592820906522,
+        0.2667007058920009
+      ],
+      "centroid_world_m": [
+        -0.6522787577735669,
+        -0.23542592820906522,
+        0.6305696170356347
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          1.3905495351440127e-05,
+          -3.745712394368154e-09,
+          3.7678257345145426e-08
+        ],
+        [
+          -3.745712394368154e-09,
+          6.240305301182446e-06,
+          8.356489785971216e-07
+        ],
+        [
+          3.7678257345145426e-08,
+          8.356489785971216e-07,
+          7.678247391878115e-06
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.037870673145032355,
+          -1.0201193571124518e-05,
+          0.00010261417752691849
+        ],
+        [
+          -1.0201193571124518e-05,
+          0.01699504810246246,
+          0.0022758332970248514
+        ],
+        [
+          0.00010261417752691849,
+          0.0022758332970248514,
+          0.020911185826573125
+        ]
+      ],
+      "included_solid_mesh_names": [
+        "CAD_door_leaf_end_neg_y_neg",
+        "CAD_fan_shroud_end_neg_y_neg",
+        "CAD_mounted_SHELL_door_handle_-1",
+        "CAD_mounted_SHELL_fan_spoke",
+        "CAD_mounted_SHELL_fan_spoke.001",
+        "CAD_mounted_SHELL_fan_spoke.002",
+        "CAD_mounted_SHELL_hinge_-1_-1_0.454",
+        "CAD_mounted_SHELL_hinge_-1_-1_0.744",
+        "CAD_mounted_SHELL_emergency_stop",
+        "CAD_mounted_SHELL_emergency_stop.001"
+      ],
+      "uniform_effective_density_0p6kg_candidate_kg_m3": 1634.0592918659427,
+      "not_a_material_density": true,
+      "suggested_mass_allocation": "Do not subtract a 0.06kg fan tensor from a uniform thin sheet. Selected door: allocate 0.54kg to residual closed parts, then add 0.06kg native stator/rotor with its own tensor; preserve total 0.6kg and recompute aggregate COM/inertia.",
+      "residual_solid_candidates_excluding_fan_shroud": {
+        "volume_m3": 0.0003605890309506392,
+        "centroid_component_m": [
+          -0.6522564230003765,
+          -0.23343109294972395,
+          0.269254554080547
+        ],
+        "centroid_world_m": [
+          -0.6522564230003765,
+          -0.23343109294972395,
+          0.6331234652241808
+        ],
+        "unit_density_inertia_com_kgm2": [
+          [
+            1.3676445237187687e-05,
+            -2.851194606554936e-09,
+            3.882344596226634e-08
+          ],
+          [
+            -2.8511946065549425e-09,
+            6.100235716971284e-06,
+            9.379317558852405e-07
+          ],
+          [
+            3.8823445962266336e-08,
+            9.379317558852405e-07,
+            7.589229245300025e-06
+          ]
+        ],
+        "inertia_per_kg_m2": [
+          [
+            0.037928067864770536,
+            -7.907047530087609e-06,
+            0.00010766674144222888
+          ],
+          [
+            -7.907047530087626e-06,
+            0.016917418982182908,
+            0.0026011100598721023
+          ],
+          [
+            0.00010766674144222887,
+            0.0026011100598721023,
+            0.02104675570771566
+          ]
+        ],
+        "included_solid_mesh_names": [
+          "CAD_door_leaf_end_neg_y_neg",
+          "CAD_mounted_SHELL_door_handle_-1",
+          "CAD_mounted_SHELL_fan_spoke",
+          "CAD_mounted_SHELL_fan_spoke.001",
+          "CAD_mounted_SHELL_fan_spoke.002",
+          "CAD_mounted_SHELL_hinge_-1_-1_0.454",
+          "CAD_mounted_SHELL_hinge_-1_-1_0.744",
+          "CAD_mounted_SHELL_emergency_stop",
+          "CAD_mounted_SHELL_emergency_stop.001"
+        ]
+      },
+      "fan_shroud_solid": {
+        "name": "CAD_fan_shroud_end_neg_y_neg",
+        "role": "fan_shroud",
+        "door_key": "end_neg_y_neg",
+        "solid": true,
+        "volume_m3": 6.594707721937435e-06,
+        "centroid_component_m": [
+          -0.6534999907016754,
+          -0.3445006201289545,
+          0.12705999968760937
+        ],
+        "centroid_world_m": [
+          -0.6534999907016754,
+          -0.3445006201289545,
+          0.49092891083124324
+        ],
+        "unit_density_inertia_com_kgm2": [
+          [
+            1.8210565605970428e-08,
+            -5.5504179490606895e-27,
+            -3.1429406354095132e-27
+          ],
+          [
+            -7.52257021211322e-27,
+            9.114076419057885e-09,
+            -1.950786296048327e-21
+          ],
+          [
+            8.503012908368284e-27,
+            -1.950332366550801e-21,
+            9.114075145448753e-09
+          ]
+        ],
+        "inertia_per_kg_m2": [
+          [
+            0.002761390856700532,
+            -8.416473000914212e-22,
+            -4.765852813998799e-22
+          ],
+          [
+            -1.1406980459633155e-21,
+            0.0013820288636507295,
+            -2.9581088022430393e-16
+          ],
+          [
+            1.289369183122829e-21,
+            -2.957420478337469e-16,
+            0.001382028670524789
+          ]
+        ],
+        "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+        "physical_owner_candidate": "door_end_neg_y_neg"
+      }
+    },
+    "end_neg_y_pos": {
+      "volume_m3": 0.00031768823785406354,
+      "centroid_component_m": [
+        -0.6509039278639019,
+        0.23766867098702546,
+        0.254698120845809
+      ],
+      "centroid_world_m": [
+        -0.6509039278639019,
+        0.23766867098702546,
+        0.618567031989443
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          1.1427581860364872e-05,
+          5.689494846286236e-09,
+          -3.7043251668744848e-09
+        ],
+        [
+          5.689494846286236e-09,
+          5.49388946747933e-06,
+          -9.330953930339151e-08
+        ],
+        [
+          -3.7043251668744848e-09,
+          -9.330953930339161e-08,
+          5.9345595240985515e-06
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.035971057466768284,
+          1.790905097625874e-05,
+          -1.1660252806010845e-05
+        ],
+        [
+          1.790905097625874e-05,
+          0.01729333608505537,
+          -0.00029371417693548703
+        ],
+        [
+          -1.1660252806010845e-05,
+          -0.00029371417693548735,
+          0.01868045088538881
+        ]
+      ],
+      "included_solid_mesh_names": [
+        "CAD_door_leaf_end_neg_y_pos",
+        "CAD_fan_shroud_end_neg_y_pos",
+        "CAD_mounted_SHELL_fan_spoke.003",
+        "CAD_mounted_SHELL_fan_spoke.004",
+        "CAD_mounted_SHELL_fan_spoke.005",
+        "CAD_mounted_SHELL_hinge_-1_1_0.454",
+        "CAD_mounted_SHELL_hinge_-1_1_0.744",
+        "CAD_mounted_SHELL_round_blank_cap_-1"
+      ],
+      "uniform_effective_density_0p6kg_candidate_kg_m3": 1888.6440494395074,
+      "not_a_material_density": true,
+      "suggested_mass_allocation": "Do not subtract a 0.06kg fan tensor from a uniform thin sheet. Selected door: allocate 0.54kg to residual closed parts, then add 0.06kg native stator/rotor with its own tensor; preserve total 0.6kg and recompute aggregate COM/inertia.",
+      "residual_solid_candidates_excluding_fan_shroud": {
+        "volume_m3": 0.00031109352898238613,
+        "centroid_component_m": [
+          -0.6508488952867741,
+          0.2354040221195399,
+          0.2574038545610667
+        ],
+        "centroid_world_m": [
+          -0.6508488952867741,
+          0.2354040221195399,
+          0.6212727657047006
+        ],
+        "unit_density_inertia_com_kgm2": [
+          [
+            1.122279652370978e-05,
+            3.821751445756197e-09,
+            -1.4728020540330878e-09
+          ],
+          [
+            3.821751445756197e-09,
+            5.375014853988538e-06,
+            -1.851390801683311e-07
+          ],
+          [
+            -1.472802054033087e-09,
+            -1.851390801683312e-07,
+            5.848540439988304e-06
+          ]
+        ],
+        "inertia_per_kg_m2": [
+          [
+            0.0360753133002172,
+            1.228489534403842e-05,
+            -4.734274154948677e-06
+          ],
+          [
+            1.228489534403842e-05,
+            0.01727780989714147,
+            -0.0005951235333436124
+          ],
+          [
+            -4.734274154948674e-06,
+            -0.0005951235333436127,
+            0.018799942445345573
+          ]
+        ],
+        "included_solid_mesh_names": [
+          "CAD_door_leaf_end_neg_y_pos",
+          "CAD_mounted_SHELL_fan_spoke.003",
+          "CAD_mounted_SHELL_fan_spoke.004",
+          "CAD_mounted_SHELL_fan_spoke.005",
+          "CAD_mounted_SHELL_hinge_-1_1_0.454",
+          "CAD_mounted_SHELL_hinge_-1_1_0.744",
+          "CAD_mounted_SHELL_round_blank_cap_-1"
+        ]
+      },
+      "fan_shroud_solid": {
+        "name": "CAD_fan_shroud_end_neg_y_pos",
+        "role": "fan_shroud",
+        "door_key": "end_neg_y_pos",
+        "solid": true,
+        "volume_m3": 6.594708871677402e-06,
+        "centroid_component_m": [
+          -0.6534999907016754,
+          0.3444994078399859,
+          0.12705999968762127
+        ],
+        "centroid_world_m": [
+          -0.6534999907016754,
+          0.3444994078399859,
+          0.49092891083125517
+        ],
+        "unit_density_inertia_com_kgm2": [
+          [
+            1.8210568846141708e-08,
+            -8.308282070329339e-27,
+            1.7608606795588532e-26
+          ],
+          [
+            -4.4838844018178745e-27,
+            9.114078391316736e-09,
+            2.2595671283166583e-21
+          ],
+          [
+            1.911099238958195e-26,
+            2.2596733058390574e-21,
+            9.11407641642717e-09
+          ]
+        ],
+        "inertia_per_kg_m2": [
+          [
+            0.00276139086660087,
+            -1.259840613436523e-21,
+            2.6701113177585473e-21
+          ],
+          [
+            -6.799215081464806e-22,
+            0.001382028921770813,
+            3.426333401950349e-16
+          ],
+          [
+            2.897928136245529e-21,
+            3.426494406059045e-16,
+            0.0013820286223050436
+          ]
+        ],
+        "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+        "physical_owner_candidate": "door_end_neg_y_pos"
+      }
+    },
+    "end_pos_y_neg": {
+      "volume_m3": 0.00034353502414120055,
+      "centroid_component_m": [
+        0.651712813811273,
+        -0.24984262401292842,
+        0.2676782728722714
+      ],
+      "centroid_world_m": [
+        0.651712813811273,
+        -0.24984262401292842,
+        0.6315471840159053
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          1.2770621707199e-05,
+          4.726543219144992e-08,
+          -4.0629241369575146e-08
+        ],
+        [
+          4.726543219144992e-08,
+          6.212118762543606e-06,
+          7.604764463262494e-07
+        ],
+        [
+          -4.0629241369575146e-08,
+          7.604764463262494e-07,
+          6.567038525631665e-06
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.03717414764076571,
+          0.00013758548290558804,
+          -0.00011826811973871876
+        ],
+        [
+          0.00013758548290558804,
+          0.0180829269972493,
+          0.002213679517037182
+        ],
+        [
+          -0.00011826811973871876,
+          0.002213679517037182,
+          0.019116066963036835
+        ]
+      ],
+      "included_solid_mesh_names": [
+        "CAD_door_leaf_end_pos_y_neg",
+        "CAD_fan_shroud_end_pos_y_neg",
+        "CAD_mounted_SHELL_fan_spoke.006",
+        "CAD_mounted_SHELL_fan_spoke.007",
+        "CAD_mounted_SHELL_fan_spoke.008",
+        "CAD_mounted_SHELL_hinge_1_-1_0.454",
+        "CAD_mounted_SHELL_hinge_1_-1_0.744",
+        "CAD_mounted_SHELL_emergency_stop.002",
+        "CAD_mounted_SHELL_emergency_stop.003"
+      ],
+      "uniform_effective_density_0p6kg_candidate_kg_m3": 1746.5468084365878,
+      "not_a_material_density": true,
+      "suggested_mass_allocation": "Do not subtract a 0.06kg fan tensor from a uniform thin sheet. Selected door: allocate 0.54kg to residual closed parts, then add 0.06kg native stator/rotor with its own tensor; preserve total 0.6kg and recompute aggregate COM/inertia.",
+      "residual_solid_candidates_excluding_fan_shroud": {
+        "volume_m3": 0.0003369403164192631,
+        "centroid_component_m": [
+          0.651677834591912,
+          -0.2479899462907626,
+          0.2704305003939625
+        ],
+        "centroid_world_m": [
+          0.651677834591912,
+          -0.2479899462907626,
+          0.6342994115375964
+        ],
+        "unit_density_inertia_com_kgm2": [
+          [
+            1.2559212457392653e-05,
+            4.612796614893991e-08,
+            -4.231899307853688e-08
+          ],
+          [
+            4.612796614893991e-08,
+            6.070030524643992e-06,
+            8.499743083246451e-07
+          ],
+          [
+            -4.231899307853688e-08,
+            8.499743083246451e-07,
+            6.497656976233334e-06
+          ]
+        ],
+        "inertia_per_kg_m2": [
+          [
+            0.03727429412681181,
+            0.00013690248361832055,
+            -0.00012559789083203186
+          ],
+          [
+            0.00013690248361832055,
+            0.01801515054402366,
+            0.0025226257200607633
+          ],
+          [
+            -0.00012559789083203186,
+            0.0025226257200607633,
+            0.019284296534428785
+          ]
+        ],
+        "included_solid_mesh_names": [
+          "CAD_door_leaf_end_pos_y_neg",
+          "CAD_mounted_SHELL_fan_spoke.006",
+          "CAD_mounted_SHELL_fan_spoke.007",
+          "CAD_mounted_SHELL_fan_spoke.008",
+          "CAD_mounted_SHELL_hinge_1_-1_0.454",
+          "CAD_mounted_SHELL_hinge_1_-1_0.744",
+          "CAD_mounted_SHELL_emergency_stop.002",
+          "CAD_mounted_SHELL_emergency_stop.003"
+        ]
+      },
+      "fan_shroud_solid": {
+        "name": "CAD_fan_shroud_end_pos_y_neg",
+        "role": "fan_shroud",
+        "door_key": "end_pos_y_neg",
+        "solid": true,
+        "volume_m3": 6.594707721937435e-06,
+        "centroid_component_m": [
+          0.6534999907016754,
+          -0.3445006201289545,
+          0.12705999968760937
+        ],
+        "centroid_world_m": [
+          0.6534999907016754,
+          -0.3445006201289545,
+          0.49092891083124324
+        ],
+        "unit_density_inertia_com_kgm2": [
+          [
+            1.8210565605970428e-08,
+            -5.5504179490606895e-27,
+            -3.1429406354095132e-27
+          ],
+          [
+            -7.52257021211322e-27,
+            9.114076419057885e-09,
+            -1.950786296048327e-21
+          ],
+          [
+            8.503012908368284e-27,
+            -1.950332366550801e-21,
+            9.114075145448753e-09
+          ]
+        ],
+        "inertia_per_kg_m2": [
+          [
+            0.002761390856700532,
+            -8.416473000914212e-22,
+            -4.765852813998799e-22
+          ],
+          [
+            -1.1406980459633155e-21,
+            0.0013820288636507295,
+            -2.9581088022430393e-16
+          ],
+          [
+            1.289369183122829e-21,
+            -2.957420478337469e-16,
+            0.001382028670524789
+          ]
+        ],
+        "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+        "physical_owner_candidate": "door_end_pos_y_neg"
+      }
+    },
+    "end_pos_y_pos": {
+      "volume_m3": 0.00034658579866197895,
+      "centroid_component_m": [
+        0.651643448566651,
+        0.22567599122479656,
+        0.2557936415038142
+      ],
+      "centroid_world_m": [
+        0.651643448566651,
+        0.22567599122479656,
+        0.6196625526474481
+      ],
+      "unit_density_inertia_com_kgm2": [
+        [
+          1.2631489503130038e-05,
+          3.4519516511686746e-08,
+          2.068270514493521e-09
+        ],
+        [
+          3.4519516511686746e-08,
+          5.552885823482001e-06,
+          -1.787071832303605e-07
+        ],
+        [
+          2.068270514493521e-09,
+          -1.787071832303606e-07,
+          7.084968229742513e-06
+        ]
+      ],
+      "inertia_per_kg_m2": [
+        [
+          0.03644549070358587,
+          9.959876211013835e-05,
+          5.967557016121947e-06
+        ],
+        [
+          9.959876211013835e-05,
+          0.016021677301607112,
+          -0.0005156217707715471
+        ],
+        [
+          5.967557016121947e-06,
+          -0.0005156217707715475,
+          0.020442176964822496
+        ]
+      ],
+      "included_solid_mesh_names": [
+        "CAD_door_leaf_end_pos_y_pos",
+        "CAD_fan_shroud_end_pos_y_pos",
+        "CAD_mounted_SHELL_door_handle_1",
+        "CAD_mounted_SHELL_fan_spoke.009",
+        "CAD_mounted_SHELL_fan_spoke.010",
+        "CAD_mounted_SHELL_fan_spoke.011",
+        "CAD_mounted_SHELL_hinge_1_1_0.454",
+        "CAD_mounted_SHELL_hinge_1_1_0.744",
+        "CAD_mounted_SHELL_round_blank_cap_1",
+        "CAD_mounted_SHELL_supply_indicator"
+      ],
+      "uniform_effective_density_0p6kg_candidate_kg_m3": 1731.173066860633,
+      "not_a_material_density": true,
+      "suggested_mass_allocation": "Do not subtract a 0.06kg fan tensor from a uniform thin sheet. Selected door: allocate 0.54kg to residual closed parts, then add 0.06kg native stator/rotor with its own tensor; preserve total 0.6kg and recompute aggregate COM/inertia.",
+      "residual_solid_candidates_excluding_fan_shroud": {
+        "volume_m3": 0.00033999108979030154,
+        "centroid_component_m": [
+          0.6516074377556147,
+          0.22337120776650501,
+          0.25829065073512136
+        ],
+        "centroid_world_m": [
+          0.6516074377556147,
+          0.22337120776650501,
+          0.6221595618787552
+        ],
+        "unit_density_inertia_com_kgm2": [
+          [
+            1.2406952479073929e-05,
+            3.600253205219008e-08,
+            4.615670814717275e-10
+          ],
+          [
+            3.600253205219008e-08,
+            5.432338883615124e-06,
+            -2.815402877408126e-07
+          ],
+          [
+            4.615670814717275e-10,
+            -2.815402877408127e-07,
+            6.980914217196949e-06
+          ]
+        ],
+        "inertia_per_kg_m2": [
+          [
+            0.036491993030541604,
+            0.00010589257522717901,
+            1.3575858171942423e-06
+          ],
+          [
+            0.00010589257522717901,
+            0.01597788602920642,
+            -0.0008280813709396325
+          ],
+          [
+            1.3575858171942423e-06,
+            -0.0008280813709396328,
+            0.020532638727393155
+          ]
+        ],
+        "included_solid_mesh_names": [
+          "CAD_door_leaf_end_pos_y_pos",
+          "CAD_mounted_SHELL_door_handle_1",
+          "CAD_mounted_SHELL_fan_spoke.009",
+          "CAD_mounted_SHELL_fan_spoke.010",
+          "CAD_mounted_SHELL_fan_spoke.011",
+          "CAD_mounted_SHELL_hinge_1_1_0.454",
+          "CAD_mounted_SHELL_hinge_1_1_0.744",
+          "CAD_mounted_SHELL_round_blank_cap_1",
+          "CAD_mounted_SHELL_supply_indicator"
+        ]
+      },
+      "fan_shroud_solid": {
+        "name": "CAD_fan_shroud_end_pos_y_pos",
+        "role": "fan_shroud",
+        "door_key": "end_pos_y_pos",
+        "solid": true,
+        "volume_m3": 6.594708871677402e-06,
+        "centroid_component_m": [
+          0.6534999907016754,
+          0.3444994078399859,
+          0.12705999968762127
+        ],
+        "centroid_world_m": [
+          0.6534999907016754,
+          0.3444994078399859,
+          0.49092891083125517
+        ],
+        "unit_density_inertia_com_kgm2": [
+          [
+            1.8210568846141708e-08,
+            -8.308282070329339e-27,
+            1.7608606795588532e-26
+          ],
+          [
+            -4.4838844018178745e-27,
+            9.114078391316736e-09,
+            2.2595671283166583e-21
+          ],
+          [
+            1.911099238958195e-26,
+            2.2596733058390574e-21,
+            9.11407641642717e-09
+          ]
+        ],
+        "inertia_per_kg_m2": [
+          [
+            0.00276139086660087,
+            -1.259840613436523e-21,
+            2.6701113177585473e-21
+          ],
+          [
+            -6.799215081464806e-22,
+            0.001382028921770813,
+            3.426333401950349e-16
+          ],
+          [
+            2.897928136245529e-21,
+            3.426494406059045e-16,
+            0.0013820286223050436
+          ]
+        ],
+        "mass_policy": "No measured density; allocate chosen assembly budget explicitly.",
+        "physical_owner_candidate": "door_end_pos_y_pos"
+      }
+    }
+  },
+  "frames": {
+    "volume_m3": 0.0010958970541891282,
+    "centroid_component_m": [
+      0.0,
+      1.350066595239748e-06,
+      0.31108387290746875
+    ],
+    "centroid_world_m": [
+      0.0,
+      1.350066595239748e-06,
+      0.6749527840511027
+    ],
+    "unit_density_inertia_com_kgm2": [
+      [
+        0.00022141678471648222,
+        -3.6499649959730116e-23,
+        -4.619035687609753e-23
+      ],
+      [
+        -2.9261819599891123e-23,
+        0.0005038324848240972,
+        8.68328536273786e-11
+      ],
+      [
+        -3.3782647687802113e-23,
+        8.683285362864915e-11,
+        0.0006393498746333032
+      ]
+    ],
+    "inertia_per_kg_m2": [
+      [
+        0.20204159128825477,
+        -3.330572869067231e-20,
+        -4.214844514777395e-20
+      ],
+      [
+        -2.6701248523331796e-20,
+        0.45974435545580594,
+        7.923449861960584e-08
+      ],
+      [
+        -3.082647914661878e-20,
+        7.923449862076522e-08,
+        0.5834032240431273
+      ]
+    ],
+    "included_solid_mesh_names": [
+      "CAD_end_frame_-1_2B75_2B77",
+      "CAD_end_frame_+1_2B75_2B77"
+    ]
+  },
+  "massless_visual_references": [
+    "CAD_mounted_SHELL_electrical_caution",
+    "CAD_mounted_SHELL_fan_grille_-1_-1_0.019",
+    "CAD_mounted_SHELL_fan_grille_-1_-1_0.03",
+    "CAD_mounted_SHELL_fan_grille_-1_-1_0.041",
+    "CAD_mounted_SHELL_fan_grille_-1_-1_0.052",
+    "CAD_mounted_SHELL_electrical_caution.001",
+    "CAD_mounted_SHELL_fan_grille_-1_1_0.019",
+    "CAD_mounted_SHELL_fan_grille_-1_1_0.03",
+    "CAD_mounted_SHELL_fan_grille_-1_1_0.041",
+    "CAD_mounted_SHELL_fan_grille_-1_1_0.052",
+    "CAD_mounted_SHELL_electrical_caution.002",
+    "CAD_mounted_SHELL_fan_grille_1_-1_0.019",
+    "CAD_mounted_SHELL_fan_grille_1_-1_0.03",
+    "CAD_mounted_SHELL_fan_grille_1_-1_0.041",
+    "CAD_mounted_SHELL_fan_grille_1_-1_0.052",
+    "CAD_mounted_SHELL_electrical_caution.003",
+    "CAD_mounted_SHELL_fan_grille_1_1_0.019",
+    "CAD_mounted_SHELL_fan_grille_1_1_0.03",
+    "CAD_mounted_SHELL_fan_grille_1_1_0.041",
+    "CAD_mounted_SHELL_fan_grille_1_1_0.052"
+  ],
+  "physics_bound": false,
+  "assembly_mass_semantics": "Each door full assembly retains 0.6kg candidate total; only selected first door contains explicit 0.06kg powered fan subassembly."
+}

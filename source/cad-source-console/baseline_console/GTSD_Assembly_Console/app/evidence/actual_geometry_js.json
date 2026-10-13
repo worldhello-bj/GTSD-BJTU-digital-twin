@@ -1,0 +1,41 @@
+{
+  "pass": true,
+  "glb_sha256": "fff3f9fffd83e380435eba3a0f9ba975b87557b794d671ee175ea842235bbfa9",
+  "union_meshes": 1950,
+  "scenes": {
+    "19_NATIVE_CLAMP_SOURCE_REVIEW": {
+      "meshes": 1933,
+      "triangles": 1631188
+    },
+    "20_FRONT_ROUTE_NOMINAL_FIT": {
+      "meshes": 1933,
+      "triangles": 1631316
+    },
+    "21_PLAN_ROUTE_NOMINAL_FIT": {
+      "meshes": 1934,
+      "triangles": 1631976
+    },
+    "22_FRONT_ROUTE_HOLES_6P2": {
+      "meshes": 1933,
+      "triangles": 1631316
+    },
+    "23_FRONT_ROUTE_UNCUT_SLOT_REVIEW": {
+      "meshes": 1933,
+      "triangles": 1631276
+    }
+  },
+  "default_initial_pose_summary": {
+    "dynamic_visual_meshes": 466,
+    "world_static_meshes": 764,
+    "unbound_or_static_reference_meshes": 703,
+    "new_collision_meshes": 0,
+    "sample_time_s": 0,
+    "steps": 0
+  },
+  "all_output_vertices_finite": true,
+  "unbound_vertices_same_array": true,
+  "source_vertices_witness_sha256": "a53b573e42a979e9fcd0d3b3f947ab3ca6f44dd7c63a4e0926cfe4d949a9763b",
+  "new_native_step_calls": 0,
+  "source_geometry_unmodified": true,
+  "meaning": "Actual asset parsing and verified initial native poses only; not browser or new collision acceptance."
+}

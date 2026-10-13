@@ -1,0 +1,40 @@
+{
+  "schema": "gtsd-independent-design-candidates-v1",
+  "candidates": [
+    {
+      "id": "ENCODER-BRT38M-DESIGN-CANDIDATE",
+      "label": "BRT38M盲孔编码器厂家系列候选",
+      "status": "FROZEN_CANDIDATE_NOT_AS_BUILT",
+      "current_solver_binding": false,
+      "enabled_by_default": false,
+      "changes_mass_inertia_collision": false,
+      "geometry_asset": "outputs/encoder_candidate_assembly.json",
+      "geometry_sha256": null,
+      "source_directory": "../gtsd-geometry-phase6-1012",
+      "limits": ["实装型号、轴号和安装位未确认", "独立审阅不替换当前求解器源网格", "3000RPM是速度款线索，不允许默认模拟量角度换算"]
+    },
+    {
+      "id": "BODY-CAD-CROSS-SECTION-CANDIDATE",
+      "label": "新CAD车体截面与空心型材设计候选",
+      "status": "DESIGN_REBUILD_IN_PROGRESS_AWAITING_FROZEN_ASSET",
+      "current_solver_binding": false,
+      "enabled_by_default": false,
+      "changes_mass_inertia_collision": false,
+      "geometry_sha256": null,
+      "source_directory": "../gtsd-body-cad-phase6-1012",
+      "reported_design_width_m": 1.120046933,
+      "width_evidence_stage": "Reported by independent CAD reconstruction task; consumer awaits its frozen artifact and validation",
+      "limits": ["当前75/79DOF仍使用原冻结几何和物理身份", "新设计宽度不能只替换图形就宣称质量、惯量、碰撞或装配已一致", "冻结候选须另行重绑定与数值验收"]
+    },
+    {
+      "id": "PANTOGRAPH-LATERAL-CAD-CANDIDATE",
+      "label": "受电弓横向几何重建候选",
+      "status": "DESIGN_REBUILD_IN_PROGRESS_AWAITING_FROZEN_ASSET",
+      "current_solver_binding": false,
+      "enabled_by_default": false,
+      "changes_mass_inertia_collision": false,
+      "geometry_sha256": null,
+      "limits": ["独立CAD设计候选，尚未接入当前75/79DOF", "不从外观变化推定真实惯量、碰撞、运动轴或气缸力路"]
+    }
+  ]
+}

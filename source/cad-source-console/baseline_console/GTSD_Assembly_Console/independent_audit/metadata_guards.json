@@ -1,0 +1,15 @@
+{
+  "catalog_config_sha_match": true,
+  "mapping_config_sha_match": true,
+  "default_mesh_names_match_mapping_identity": true,
+  "full_union_names_match_mapping": true,
+  "per_scene_row_membership_matches": true,
+  "all_new_collision_forbidden": true,
+  "all_follow_rows_rigid_exact_and_nonworld": true,
+  "follow_body_reference_poses_complete": true,
+  "geometry_hashes_match_for_all_follow_rows": true,
+  "catalog_new_physics_enabled": false,
+  "catalog_as_built": false,
+  "new_collision_allowed_in_policy": false,
+  "evidence_boundary": "Small JSON metadata only. This audit did not reload or independently re-hash GLB payloads, start MuJoCo, Blender or Chromium."
+}

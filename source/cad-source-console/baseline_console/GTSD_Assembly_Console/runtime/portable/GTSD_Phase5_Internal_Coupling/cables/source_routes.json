@@ -1,0 +1,259 @@
+{
+  "schema": "gtsd-v5-cable-new-source-v1",
+  "source_blend": "/workspace/shared/gtsd-rebuild-v3-1011/outputs/GTSD_CAD_photo_rebuild_v3.blend",
+  "source_blend_sha256": "f80556b02f0472b29fc070f5c979beaebec5278f833b3ac668011e2d4b821d9d",
+  "source_geometry_sha256": "7d925267cbfb18d39e64041ea851fc13db2e3a13f6d403eab386235f741d8f43",
+  "coordinate_mapping": "identity; new source metres; no translation or scale",
+  "records": [
+    {
+      "source_object": "BAY_routed_wire",
+      "points_world_m": [
+        [
+          -0.47999998927116394,
+          -0.05999999865889549,
+          0.6098688840866089
+        ],
+        [
+          -0.11999999731779099,
+          -0.05999999865889549,
+          0.4038689136505127
+        ],
+        [
+          0.10000000149011612,
+          -0.05999999865889549,
+          0.4088689088821411
+        ],
+        [
+          0.17000000178813934,
+          -0.05999999865889549,
+          0.6638689041137695
+        ]
+      ],
+      "radius_m": 0.003000000026077032,
+      "source_refs": "1011 photos 图片1/4/5/6/车体侧面/车背部; CAD 3978F envelope",
+      "geometry_status": "PHOTO_INFERRED_GEOMETRY_WITH_CAD_ENVELOPE",
+      "source_properties": {
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY_WITH_CAD_ENVELOPE",
+        "source_refs": "1011 photos 图片1/4/5/6/车体侧面/车背部; CAD 3978F envelope",
+        "build_component": "body"
+      },
+      "termination_status": "CANDIDATE_END_BINDINGS_UNVERIFIED_DEVICE_IDENTITY",
+      "source_length_m": 0.8992623664532657
+    },
+    {
+      "source_object": "BAY_routed_wire.001",
+      "points_world_m": [
+        [
+          -0.47999998927116394,
+          -0.019999999552965164,
+          0.6098688840866089
+        ],
+        [
+          -0.11999999731779099,
+          -0.019999999552965164,
+          0.4038689136505127
+        ],
+        [
+          0.10000000149011612,
+          -0.019999999552965164,
+          0.4088689088821411
+        ],
+        [
+          0.17000000178813934,
+          -0.019999999552965164,
+          0.6638689041137695
+        ]
+      ],
+      "radius_m": 0.003000000026077032,
+      "source_refs": "1011 photos 图片1/4/5/6/车体侧面/车背部; CAD 3978F envelope",
+      "geometry_status": "PHOTO_INFERRED_GEOMETRY_WITH_CAD_ENVELOPE",
+      "source_properties": {
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY_WITH_CAD_ENVELOPE",
+        "source_refs": "1011 photos 图片1/4/5/6/车体侧面/车背部; CAD 3978F envelope",
+        "build_component": "body"
+      },
+      "termination_status": "CANDIDATE_END_BINDINGS_UNVERIFIED_DEVICE_IDENTITY",
+      "source_length_m": 0.8992623664532657
+    },
+    {
+      "source_object": "BAY_routed_wire.002",
+      "points_world_m": [
+        [
+          -0.47999998927116394,
+          0.019999999552965164,
+          0.6098688840866089
+        ],
+        [
+          -0.11999999731779099,
+          0.019999999552965164,
+          0.4038689136505127
+        ],
+        [
+          0.10000000149011612,
+          0.019999999552965164,
+          0.4088689088821411
+        ],
+        [
+          0.17000000178813934,
+          0.019999999552965164,
+          0.6638689041137695
+        ]
+      ],
+      "radius_m": 0.003000000026077032,
+      "source_refs": "1011 photos 图片1/4/5/6/车体侧面/车背部; CAD 3978F envelope",
+      "geometry_status": "PHOTO_INFERRED_GEOMETRY_WITH_CAD_ENVELOPE",
+      "source_properties": {
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY_WITH_CAD_ENVELOPE",
+        "source_refs": "1011 photos 图片1/4/5/6/车体侧面/车背部; CAD 3978F envelope",
+        "build_component": "body"
+      },
+      "termination_status": "CANDIDATE_END_BINDINGS_UNVERIFIED_DEVICE_IDENTITY",
+      "source_length_m": 0.8992623664532657
+    },
+    {
+      "source_object": "BAY_routed_wire.003",
+      "points_world_m": [
+        [
+          -0.47999998927116394,
+          0.05999999865889549,
+          0.6098688840866089
+        ],
+        [
+          -0.11999999731779099,
+          0.05999999865889549,
+          0.4038689136505127
+        ],
+        [
+          0.10000000149011612,
+          0.05999999865889549,
+          0.4088689088821411
+        ],
+        [
+          0.17000000178813934,
+          0.05999999865889549,
+          0.6638689041137695
+        ]
+      ],
+      "radius_m": 0.003000000026077032,
+      "source_refs": "1011 photos 图片1/4/5/6/车体侧面/车背部; CAD 3978F envelope",
+      "geometry_status": "PHOTO_INFERRED_GEOMETRY_WITH_CAD_ENVELOPE",
+      "source_properties": {
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY_WITH_CAD_ENVELOPE",
+        "source_refs": "1011 photos 图片1/4/5/6/车体侧面/车背部; CAD 3978F envelope",
+        "build_component": "body"
+      },
+      "termination_status": "CANDIDATE_END_BINDINGS_UNVERIFIED_DEVICE_IDENTITY",
+      "source_length_m": 0.8992623664532657
+    },
+    {
+      "source_object": "BAY_pneumatic_pipe",
+      "points_world_m": [
+        [
+          -0.4399999976158142,
+          -0.23999999463558197,
+          0.4738689064979553
+        ],
+        [
+          -0.49000000953674316,
+          -0.3199999928474426,
+          0.5938689112663269
+        ],
+        [
+          -0.10000000149011612,
+          -0.3199999928474426,
+          0.6438689231872559
+        ]
+      ],
+      "radius_m": 0.004999999888241291,
+      "source_refs": "图片素材/图片5.png;图片6.png visible air hardware; pressure gauge is not total-pressure transmitter",
+      "geometry_status": "PHOTO_INFERRED_GEOMETRY_WITH_CAD_ENVELOPE",
+      "source_properties": {
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY_WITH_CAD_ENVELOPE",
+        "source_refs": "图片素材/图片5.png;图片6.png visible air hardware; pressure gauge is not total-pressure transmitter",
+        "build_component": "body"
+      },
+      "termination_status": "CANDIDATE_END_BINDINGS_UNVERIFIED_DEVICE_IDENTITY",
+      "source_length_m": 0.5458354564650144
+    },
+    {
+      "source_object": "Panto_bellows_visible_air_hose",
+      "points_world_m": [
+        [
+          -0.5120000243186951,
+          -0.05299999937415123,
+          1.0865132808685303
+        ],
+        [
+          -0.546999990940094,
+          -0.06800000369548798,
+          1.06851327419281
+        ],
+        [
+          -0.5640000104904175,
+          -0.07699999958276749,
+          1.0275132656097412
+        ],
+        [
+          -0.5550000071525574,
+          -0.07800000160932541,
+          0.9725131988525391
+        ],
+        [
+          -0.5460000038146973,
+          -0.07400000095367432,
+          0.9275132417678833
+        ]
+      ],
+      "radius_m": 0.002899999963119626,
+      "source_refs": "图片素材/受电弓.jpg;图片素材/图片2.png;图片素材/图片3.png;图片素材/图片19.png",
+      "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+      "source_properties": {
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "source_refs": "图片素材/受电弓.jpg;图片素材/图片2.png;图片素材/图片3.png;图片素材/图片19.png",
+        "registered_component_id": "DTB-S04-SS01",
+        "component_family": "pantograph",
+        "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+        "physics_status": "GEOMETRY_ONLY_UNCALIBRATED",
+        "pose_status": "DISPLAY_POSE_ONLY_NOT_VALIDATED_KINEMATICS",
+        "pose_name": "display_contact_alignment",
+        "mass_inertia_status": "NOT_ASSIGNED",
+        "build_component": "pantograph",
+        "semantic_part_id": "PANTOGRAPH_BELLOWS_UNRESOLVED"
+      },
+      "termination_status": "CANDIDATE_END_BINDINGS_UNVERIFIED_DEVICE_IDENTITY",
+      "source_length_m": 0.18921250431530692
+    },
+    {
+      "source_object": "BODY_reader_local_lead",
+      "points_world_m": [
+        [
+          -0.559333324432373,
+          0.041999999433755875,
+          0.010375071316957474
+        ],
+        [
+          -0.5433333516120911,
+          0.05999999865889549,
+          0.035375069826841354
+        ],
+        [
+          -0.5433333516120911,
+          0.05999999865889549,
+          0.36786890029907227
+        ]
+      ],
+      "radius_m": 0.003000000026077032,
+      "source_refs": "9e0c09ce7cc723e999f66c34099e2710.jpg (same bytes as 车体侧面.jpg); 车背部.jpg; one shared reader candidate",
+      "geometry_status": "PHOTO_INFERRED_GEOMETRY_WITH_CAD_ENVELOPE",
+      "source_properties": {
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY_WITH_CAD_ENVELOPE",
+        "source_refs": "9e0c09ce7cc723e999f66c34099e2710.jpg (same bytes as 车体侧面.jpg); 车背部.jpg; one shared reader candidate",
+        "registered_component_id": "DTB-C0062",
+        "geometry_assumptions": "Photo-visible long folded bracket and tray; one reader only; 25mm display balise gap, X station and sheet depth inferred; no measured clearance or RFID coupling claimed",
+        "build_component": "body"
+      },
+      "termination_status": "CANDIDATE_END_BINDINGS_UNVERIFIED_DEVICE_IDENTITY",
+      "source_length_m": 0.36720692638499824
+    }
+  ]
+}

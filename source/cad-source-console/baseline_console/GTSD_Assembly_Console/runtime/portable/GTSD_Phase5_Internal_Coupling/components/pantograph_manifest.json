@@ -1,0 +1,451 @@
+{
+  "schema": "gtsd-photo-led-pantograph-v1",
+  "component": "pantograph",
+  "module": "scripts/component_pantograph.py",
+  "interface": "build(cfg) -> list of newly created Blender objects; parameters(cfg) -> explicit static pose parameters",
+  "status": "STATIC_GEOMETRY_RECONSTRUCTION_NOT_A_PHYSICS_MODEL",
+  "coordinate_system": "metres, X longitudinal, Y transverse, Z up; common assembly_contract.json roof_top_z_m",
+  "registry_mapping": [
+    {
+      "worksheet_cell": "B29",
+      "id": "DTB-C0017",
+      "name": "受电弓下臂",
+      "geometry": "Box-section lower main arm, lower knee axis, visible lower narrow rod",
+      "correspondence": "PHOTO_IDENTIFIED; dimensions inferred except separate CAD 2D candidate length"
+    },
+    {
+      "worksheet_cell": "B30",
+      "id": "DTB-C0018",
+      "name": "受电弓上臂",
+      "geometry": "Upper box arm with transverse two-branch fork, separate knee axis and narrow rod",
+      "correspondence": "PHOTO_IDENTIFIED; dimensions inferred"
+    },
+    {
+      "worksheet_cell": "B31",
+      "id": "DTB-C0019",
+      "name": "受电弓弓头（含碳滑板）",
+      "geometry": "Twin transverse graphite-like strips with downturned horns, carriers, head guide cylinders and hanger plates",
+      "correspondence": "PHOTO_IDENTIFIED; material identities at horn ends and guide internals unknown"
+    },
+    {
+      "worksheet_cell": "B32",
+      "id": "DTB-C0020",
+      "name": "受电弓气缸",
+      "geometry": "Distinct black base barrel and visible small shaft, separate from convoluted bellows",
+      "correspondence": "TENTATIVE_VISUAL_CORRESPONDENCE; list label does not uniquely identify pneumatic force path"
+    }
+  ],
+  "sources_actually_viewed": [
+    {
+      "ref": "图片素材/受电弓.jpg",
+      "evidence": "Original full-resolution image inspected with view_image; no generative transformation",
+      "observations": [
+        "Single-arm Z silhouette",
+        "Two visibly separate narrow silver rods",
+        "Upper arm transverse fork near head",
+        "Flexible copper braid bridging joints",
+        "Ribbed brown support insulators",
+        "Convoluted black body beside independent compact barrel",
+        "Red sheet-metal cover"
+      ]
+    },
+    {
+      "ref": "图片素材/图片2.png",
+      "evidence": "Original image inspected with view_image",
+      "observations": [
+        "Top-oblique base layout",
+        "Black barrel distinct from bellows",
+        "Soft copper loops at base and knee",
+        "Three-point support inferred from complementary view; full support topology unmeasured"
+      ]
+    },
+    {
+      "ref": "图片素材/图片3.png",
+      "evidence": "Original image inspected with view_image",
+      "observations": [
+        "Paired head strip silhouettes with downturned horns",
+        "Small cylindrical head guide",
+        "Insulator supports and open red cover",
+        "Unextended tape measure is not a length reference"
+      ]
+    },
+    {
+      "ref": "图片素材/图片19.png",
+      "evidence": "Original image inspected with view_image",
+      "observations": [
+        "Folded low-profile state exists",
+        "Cannot recover motion law or operating limits from a still image"
+      ]
+    },
+    {
+      "ref": "crops/pantograph_mechanisms_crop.png",
+      "evidence": "Derived non-generative crop inspected with view_image"
+    },
+    {
+      "ref": "crops/pantograph_bellows_crop.png",
+      "evidence": "Derived non-generative crop inspected with view_image",
+      "observations": [
+        "Three large convolutions retained as visible envelope",
+        "No conversion to a decorative retracted piston cylinder"
+      ]
+    },
+    {
+      "ref": "renders/05_pantograph_folded_side.png",
+      "evidence": "CAD folded side projection inspected with view_image",
+      "observations": [
+        "Two separate knee-axis circles",
+        "Diagonal bellows envelope and support positions",
+        "Drawing plane does not supply physical depth"
+      ]
+    },
+    {
+      "ref": "renders/10_pantograph_main_link_local.png",
+      "evidence": "CAD local block inspected with view_image",
+      "observations": [
+        "Two end circle groups; source-local span must be halved by INSERT scale"
+      ]
+    },
+    {
+      "ref": "contact_sheet.jpg",
+      "evidence": "Contact sheet inspected with view_image for cross-view context"
+    }
+  ],
+  "cad_length_consumption": {
+    "candidate_id": "folded_pantograph_main_link_pair",
+    "source_block": "A$C3AFB251B",
+    "circle_handles": [
+      "2635",
+      "2634"
+    ],
+    "insert_path": [
+      "51ACA",
+      "2B2B"
+    ],
+    "source_local_center_distance_mm": 1639.9974328476237,
+    "source_to_Model_scale_xyz": [
+      -0.5,
+      0.5,
+      0.5
+    ],
+    "Model_projected_distance_mm": 819.9987164238119,
+    "assigned_visual_lower_arm_center_distance_m": 0.819998716423812,
+    "evidence_level": "CAD_2D_GEOMETRY_CANDIDATE",
+    "interpretation": "Candidate controls only one visual lower main arm span. Physical link identity, installation transform and 3D joint assignment are not calibrated.",
+    "scale_warning": "Candidate relative_length_scale=1.0 is Model-mm context, not accumulated source-block scale. No double scaling and no unscaled 1.64m link.",
+    "source_files": [
+      "inputs/cad_motion_candidates_v1.json",
+      "inputs/cad_motion_candidates_v1_scale_clarification.json"
+    ]
+  },
+  "parameters": {
+    "base_joint_x": {
+      "value": -0.242231787197227,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "2D candidate point A minus CAD body midpoint, transferred as a visual installation anchor; 3D calibration unknown"
+    },
+    "base_joint_height_over_roof": {
+      "value": 0.172373228219755,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "2D candidate point A minus CAD roof ordinate, transferred into a visual assembly frame; 3D calibration unknown"
+    },
+    "lower_main_center_length": {
+      "value": 0.819998716423812,
+      "unit": "m",
+      "evidence_level": "CAD_2D_GEOMETRY_CANDIDATE",
+      "basis": "Source 1639.9974328476237mm multiplied by 0.5, converted mm to m"
+    },
+    "lower_box_section_base_width_height": {
+      "value": [
+        0.048,
+        0.045
+      ],
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "lower_box_section_tip_width_height": {
+      "value": [
+        0.036,
+        0.036
+      ],
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "lower_box_section_wall": {
+      "value": 0.0035,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "upper_visual_axis_to_axis_length": {
+      "value": 1.08,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "upper_central_section_width_height": {
+      "value": [
+        0.03,
+        0.036
+      ],
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "upper_fork_start_fraction_from_knee": {
+      "value": 0.74,
+      "unit": "ratio",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "upper_fork_half_width_at_head": {
+      "value": 0.125,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "knee_upper_axis_offset_from_lower_xyz": {
+      "value": [
+        0.015,
+        0,
+        0.053
+      ],
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "narrow_rod_radius": {
+      "value": 0.0045,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "support_positions_xy": {
+      "value": [
+        [
+          -0.52,
+          0
+        ],
+        [
+          -0.15,
+          -0.225
+        ],
+        [
+          -0.15,
+          0.225
+        ]
+      ],
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Three-support topology and lateral spread inferred from oblique photographs; not a verified mounting plan"
+    },
+    "insulator_visual_height_over_foot": {
+      "value": 0.13,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "insulator_shed_count": {
+      "value": 9,
+      "unit": "count",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "insulator_peak_radius": {
+      "value": 0.036,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "bellows_axis_start_relative_roof_xyz": {
+      "value": [
+        -0.494,
+        0,
+        0.197
+      ],
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "bellows_axis_end_relative_roof_xyz": {
+      "value": [
+        -0.336,
+        0,
+        0.139
+      ],
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "bellows_axis_length": {
+      "value": 0.16830923919975396,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "bellows_visual_convolutions": {
+      "value": 3,
+      "unit": "count",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Three large external lobes visibly supported by photo crop and CAD silhouette; internal chambers unspecified"
+    },
+    "bellows_peak_radius": {
+      "value": 0.081,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "bellows_valley_radius": {
+      "value": 0.054,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "separate_barrel_axis_length": {
+      "value": 0.17890779748239033,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "separate_barrel_radius": {
+      "value": 0.0175,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "carbon_strip_count": {
+      "value": 2,
+      "unit": "count",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "carbon_strip_full_transverse_span": {
+      "value": 0.64,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "carbon_strip_flat_middle_span": {
+      "value": 0.47,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "carbon_strip_longitudinal_separation": {
+      "value": 0.112,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "carbon_strip_section_width_height": {
+      "value": [
+        0.031,
+        0.0085
+      ],
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "horn_vertical_drop": {
+      "value": 0.063,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "copper_braid_visual_width": {
+      "value": 0.011,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "red_cover_length_width_height": {
+      "value": [
+        0.238,
+        0.172,
+        0.154
+      ],
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "red_cover_center_xy": {
+      "value": [
+        0.095,
+        0.19
+      ],
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    },
+    "red_cover_sheet_thickness": {
+      "value": 0.0035,
+      "unit": "m",
+      "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+      "basis": "Visual proportion from the inspected photographs, not a measurement"
+    }
+  },
+  "default_pose": {
+    "name": "photo_raised",
+    "lower_angle_deg": 12.0,
+    "upper_angle_deg": 11.0,
+    "evidence_level": "PHOTO_INFERRED_GEOMETRY",
+    "pose_status": "DISPLAY_POSE_ONLY_NOT_VALIDATED_KINEMATICS",
+    "choice": "Moderate raised attitude matching the photographed Z silhouette; selected for part recognition.",
+    "no_physics_claim": "The two slender rods and small barrel are individually placed from visible geometry. Their centre positions are not a solved closed-loop mechanism."
+  },
+  "optional_folded_display": {
+    "cfg": {
+      "pantograph": {
+        "pose": "folded_visual"
+      }
+    },
+    "meaning": "Alternate static zero-angle display parameters; provided only for silhouette comparisons with CAD/photo19.",
+    "limitations": "Not an animation, not a trajectory, not a verified stowed lock or collision-free mechanical state. Do not interpolate poses as physical motion."
+  },
+  "geometry_scope": {
+    "included": [
+      "Fabricated hollow rectangular main members",
+      "Separate fork branches",
+      "Individual knee and base shafts",
+      "Two narrow adjustable rods with locknuts and eyes",
+      "Twin collector strips and downturned horns",
+      "Head guide/carriage external envelopes",
+      "Ribbed base insulators and fasteners",
+      "Multi-convolution flexible bellows envelope",
+      "Separate base barrel and shaft",
+      "Bent open base support frame",
+      "Braided flexible copper loops",
+      "Air fitting and visible hose",
+      "External red removable cover"
+    ],
+    "excluded": [
+      "Mass/inertia assignment",
+      "Force law or air-bellows effective area",
+      "Mechanism closure and real travel stops",
+      "Contact force/compliance",
+      "Electrical current model",
+      "Hidden cylinder internals",
+      "Hidden red-cover contents",
+      "Rigid-body constraints",
+      "Animation",
+      "Camera/light creation",
+      "Rendering/export in component build"
+    ]
+  },
+  "unresolved_before_physics": [
+    "Actual joint topology and axial directions",
+    "Air-bellows versus B32 cylinder registration and force path",
+    "Pneumatic pressure-area/friction law",
+    "Measured 3D installation and transverse spacing",
+    "Full lower/upper arm dimensions and cross sections",
+    "Mass/inertia/stiffness/damping",
+    "Head vertical compliance and carbon geometry/material calibration",
+    "Operating range and stow/latch collision clearances"
+  ],
+  "validation_ref": "evidence/pantograph_build_validation.json",
+  "source_module_sha256": "5c12a82d7a72f9e68fed934657208044ba27138d1a3db794ddb99048345c9e54",
+  "runtime_source_dependencies": "None. Geometry is parameterized from the evidence ledger; no absolute cloud path, external mesh, camera, export, or runtime source download is used."
+}

@@ -1,0 +1,11 @@
+test_assets_gzip_fixed_paths (test_readonly_routes.Routes.test_assets_gzip_fixed_paths) ... ok
+test_catalog_mapping_no_solver_read (test_readonly_routes.Routes.test_catalog_mapping_no_solver_read) ... ok
+test_observation_no_lease_or_state_mutation (test_readonly_routes.Routes.test_observation_no_lease_or_state_mutation) ... ok
+test_old_page_and_handler_preserved (test_readonly_routes.Routes.test_old_page_and_handler_preserved) ... ok
+test_page_is_explicit_candidate_and_no_import (test_readonly_routes.Routes.test_page_is_explicit_candidate_and_no_import) ... ok
+test_unknown_paths_fail_closed (test_readonly_routes.Routes.test_unknown_paths_fail_closed) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.031s
+
+OK

@@ -1,0 +1,81 @@
+{
+  "schema": "gtsd-cad-body-delivery-v1",
+  "files": {
+    "run_cloud.sh": {
+      "bytes": 273,
+      "sha256": "9d2e4ba9bbd593a1225bda2d8ac50a0fbf18067c86e401862661c582d2f67fc3"
+    },
+    "README_ZH.md": {
+      "bytes": 2933,
+      "sha256": "310715d545ebeed878c3922deb0f39d3cd3693e69ac639cd648bd2d122d5e4cb"
+    },
+    "outputs/body_CAD_cutaway.png": {
+      "bytes": 1152383,
+      "sha256": "ed293cdde26940ba13459c3cade2df011396594005758667bf80f49c8c6e4312"
+    },
+    "outputs/body_cad_candidate_meshes.json": {
+      "bytes": 497689,
+      "sha256": "46f7e9723e0e510e6b076e91dd764081386cf53ad66839debd850ce686be2a5a"
+    },
+    "outputs/GTSD_body_CAD_candidate.blend": {
+      "bytes": 150343,
+      "sha256": "4d67415c591cf837eb7e37f640ab296b70984a588d8118bc8068b2bb4fcd3930"
+    },
+    "outputs/GTSD_body_CAD_candidate.glb": {
+      "bytes": 505812,
+      "sha256": "28950ad59f6f8a90687c59ce5975a5a9a96e3017c17f07275f68d9b107f6ed42"
+    },
+    "outputs/body_CAD_front.png": {
+      "bytes": 956543,
+      "sha256": "214d8a70962d2b7363cb9f408dacb225333bed082b17155392bd8a00b26ee59e"
+    },
+    "inputs/vectors_zw_3E1B.json": {
+      "bytes": 13689,
+      "sha256": "29185ca3b299b60935ccfa990419d51c3aa41393cea9ce23d209a64307f71343"
+    },
+    "inputs/cad_geometry_verified_v1.json": {
+      "bytes": 12390,
+      "sha256": "701e7e61bb0877d0e55ab93407005484ac428bd691773cce07d8d79482ab4b05"
+    },
+    "inputs/vectors_zw_DD04.json": {
+      "bytes": 8338,
+      "sha256": "10ac7d5338db01fc5988c94fe0bbc53d1d6d2f146e07c37cdfd8964c7860360b"
+    },
+    "evidence/build_float32_tolerance_initial.log": {
+      "bytes": 816,
+      "sha256": "75bde4c0c64d7043e066f1b946e56f3085864b7f6f07875c7a56dda857895d32"
+    },
+    "evidence/validation.json": {
+      "bytes": 12553,
+      "sha256": "0728cd0edeeeadf894294673978e8a50fea30dae39f7395119bf4169db56f5bf"
+    },
+    "evidence/body_geometric_mass_properties.json": {
+      "bytes": 34742,
+      "sha256": "068df59deb4fbe938a1f56c11f64ddbc50001c84d642164b1098c440693f1cc2"
+    },
+    "evidence/build.log": {
+      "bytes": 4743,
+      "sha256": "ec0f3912be4466536cd9280a484d03c5060452743f2a8deafe6589b1991fd504"
+    },
+    "evidence/body_geometry_validation.json": {
+      "bytes": 20896,
+      "sha256": "3d51c2963fafcd9c1b8c391d8d55d0f5616b2b3d078dc8f4b6788404102d08a8"
+    },
+    "scripts/validate_body.py": {
+      "bytes": 4620,
+      "sha256": "cb178d10c18d8762a5fe19d76fa7b8f728475a776aeb37af49d702d3630ba23a"
+    },
+    "scripts/build_body.py": {
+      "bytes": 11038,
+      "sha256": "4e05fb26ddb59ba27ed5169728086c92b4df3c842683cab99620b30f65e874a3"
+    },
+    "scripts/cad_profiles.py": {
+      "bytes": 1344,
+      "sha256": "3d55e95ef25946d49116623210ddc42e30b98b64bb8ad2e7e2a1ceb86c568089"
+    },
+    "evidence/NUMERICAL_TOLERANCE_NOTES.md": {
+      "bytes": 865,
+      "sha256": "e62c82f09ce75bf90bfa7df59619b257d4d7c70120ec4f2e3a677ed9d867b4bc"
+    }
+  }
+}

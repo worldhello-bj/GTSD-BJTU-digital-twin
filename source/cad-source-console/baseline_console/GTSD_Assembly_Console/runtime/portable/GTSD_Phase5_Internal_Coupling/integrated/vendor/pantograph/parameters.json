@@ -1,0 +1,313 @@
+{
+  "schema": "gtsd-pantograph-parameter-ledger-v1",
+  "geometry": {
+    "A": [
+      -0.242231787197227,
+      0.0,
+      1.0878864516453508
+    ],
+    "E": [
+      0.559847989877525,
+      0.0,
+      1.258373771245418
+    ],
+    "U": [
+      0.5748479898775251,
+      0.0,
+      1.3113737712454179
+    ],
+    "H": [
+      -0.48885046642607766,
+      0.0,
+      1.4983111780353182
+    ],
+    "lower_length_m": 0.819998716423812,
+    "lower_length_evidence": "CAD_2D_GEOMETRY_CANDIDATE_NOT_MEASURED_LINK_IDENTITY",
+    "upper_length_m": 1.08,
+    "upper_length_evidence": "PHOTO_INFERRED_GEOMETRY",
+    "reference_lower_angle_rad": 0.20943951023931956,
+    "reference_upper_angle_rad": 0.17396635943805094,
+    "wire_z_m": 1.5688111780353182,
+    "wire_x_bounds_m": [
+      -9.046212196350098,
+      0.9011430740356445
+    ]
+  },
+  "parameters": {
+    "timestep_s": {
+      "value": 0.0002,
+      "exploration_range_not_calibration": [
+        0.0002,
+        0.0002
+      ],
+      "evidence": "NUMERICAL_CONFIGURATION",
+      "note": "Numerical configuration, not a measured physical property."
+    },
+    "gravity_mps2": {
+      "value": 9.81,
+      "exploration_range_not_calibration": [
+        9.81,
+        9.81
+      ],
+      "evidence": "NUMERICAL_CONFIGURATION",
+      "note": "Numerical configuration, not a measured physical property."
+    },
+    "lower_mass_kg": {
+      "value": 1.5,
+      "exploration_range_not_calibration": [
+        0.3,
+        5
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Whole lower assembly lumped at arm midpoint; not inferred from mesh volume."
+    },
+    "upper_mass_kg": {
+      "value": 1.2,
+      "exploration_range_not_calibration": [
+        0.2,
+        4
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Upper beam and fork lumped at centerline midpoint."
+    },
+    "head_carriage_mass_kg": {
+      "value": 0.2,
+      "exploration_range_not_calibration": [
+        0.05,
+        1
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Stationary portion of assumed head guide assembly."
+    },
+    "head_float_mass_kg": {
+      "value": 0.4,
+      "exploration_range_not_calibration": [
+        0.1,
+        2
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Collector, carbon strips, carriers and assumed floating pins/yokes."
+    },
+    "lower_inertia_scale": {
+      "value": 1.0,
+      "exploration_range_not_calibration": [
+        0.2,
+        5
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Scales all principal moments of analytic lower-arm inertia, independently of mass."
+    },
+    "upper_inertia_scale": {
+      "value": 1.0,
+      "exploration_range_not_calibration": [
+        0.2,
+        5
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Scales all principal moments of analytic upper-arm inertia, independently of mass."
+    },
+    "head_carriage_inertia_scale": {
+      "value": 1.0,
+      "exploration_range_not_calibration": [
+        0.2,
+        5
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Scales analytic head carriage moments independently of mass."
+    },
+    "head_float_inertia_scale": {
+      "value": 1.0,
+      "exploration_range_not_calibration": [
+        0.2,
+        5
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Scales analytic collector moments independently of mass."
+    },
+    "lower_stiffness_Nm_per_rad": {
+      "value": 60.0,
+      "exploration_range_not_calibration": [
+        0,
+        200
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Passive joint spring about source reference pose; not a measured real return spring."
+    },
+    "upper_stiffness_Nm_per_rad": {
+      "value": 60.0,
+      "exploration_range_not_calibration": [
+        0,
+        200
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Passive joint spring, not an inter-stage transmission or closure."
+    },
+    "head_pitch_stiffness_Nm_per_rad": {
+      "value": 1.0,
+      "exploration_range_not_calibration": [
+        0,
+        20
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Relative pitch compliance at U->H endpoint, no world-leveling law."
+    },
+    "head_slide_stiffness_N_per_m": {
+      "value": 1500.0,
+      "exploration_range_not_calibration": [
+        200,
+        20000
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Assumed vertical guide spring, no measured spring internals."
+    },
+    "lower_damping_Nms_per_rad": {
+      "value": 1.0,
+      "exploration_range_not_calibration": [
+        0.02,
+        10
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Linear viscous hinge damping."
+    },
+    "upper_damping_Nms_per_rad": {
+      "value": 1.0,
+      "exploration_range_not_calibration": [
+        0.02,
+        10
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Linear viscous hinge damping."
+    },
+    "head_pitch_damping_Nms_per_rad": {
+      "value": 0.08,
+      "exploration_range_not_calibration": [
+        0.001,
+        1
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Linear viscous hinge damping."
+    },
+    "head_slide_damping_Ns_per_m": {
+      "value": 4.0,
+      "exploration_range_not_calibration": [
+        0.1,
+        100
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Linear viscous guide damping."
+    },
+    "joint_armature_kg_m2": {
+      "value": 1e-05,
+      "exploration_range_not_calibration": [
+        1e-05,
+        1e-05
+      ],
+      "evidence": "NUMERICAL_CONFIGURATION",
+      "note": "Numerical configuration, not a measured physical property."
+    },
+    "head_slide_armature_kg": {
+      "value": 1e-05,
+      "exploration_range_not_calibration": [
+        1e-05,
+        1e-05
+      ],
+      "evidence": "NUMERICAL_CONFIGURATION",
+      "note": "Numerical configuration, not a measured physical property."
+    },
+    "contact_friction": {
+      "value": 0.12,
+      "exploration_range_not_calibration": [
+        0,
+        0.5
+      ],
+      "evidence": "ENGINEERING_EQUIVALENT_UNMEASURED",
+      "note": "Solver friction coefficient; carbon/copper materials are not calibrated."
+    },
+    "contact_timeconst_s": {
+      "value": 0.004,
+      "exploration_range_not_calibration": [
+        0.001,
+        0.02
+      ],
+      "evidence": "NUMERICAL_CONTACT_PARAMETER",
+      "note": "MuJoCo positive solref time constant; not directly a measured material stiffness."
+    },
+    "contact_dampratio": {
+      "value": 1.0,
+      "exploration_range_not_calibration": [
+        0.5,
+        2
+      ],
+      "evidence": "NUMERICAL_CONTACT_PARAMETER",
+      "note": "MuJoCo positive solref damping ratio."
+    },
+    "contact_impedance_min": {
+      "value": 0.95,
+      "exploration_range_not_calibration": [
+        0.95,
+        0.95
+      ],
+      "evidence": "NUMERICAL_CONFIGURATION",
+      "note": "Numerical configuration, not a measured physical property."
+    },
+    "contact_impedance_max": {
+      "value": 0.995,
+      "exploration_range_not_calibration": [
+        0.995,
+        0.995
+      ],
+      "evidence": "NUMERICAL_CONFIGURATION",
+      "note": "Numerical configuration, not a measured physical property."
+    },
+    "contact_impedance_width_m": {
+      "value": 0.001,
+      "exploration_range_not_calibration": [
+        0.001,
+        0.001
+      ],
+      "evidence": "NUMERICAL_CONFIGURATION",
+      "note": "Numerical configuration, not a measured physical property."
+    },
+    "wire_radius_m": {
+      "value": 0.0025,
+      "exploration_range_not_calibration": [
+        0.0025,
+        0.0025
+      ],
+      "evidence": "CAD_2D_LAYOUT_CANDIDATE",
+      "note": "CAD design diameter 5 mm, not a physical measurement."
+    },
+    "torque_limit_Nm": {
+      "value": 100.0,
+      "exploration_range_not_calibration": [
+        1,
+        100
+      ],
+      "evidence": "ENGINEERING_TEST_PORT_LIMIT",
+      "note": "Safety envelope for direct numerical joint torque experiments."
+    },
+    "head_load_limit_N": {
+      "value": 100.0,
+      "exploration_range_not_calibration": [
+        1,
+        100
+      ],
+      "evidence": "ENGINEERING_TEST_PORT_LIMIT",
+      "note": "Safety envelope for external laboratory-equivalent head load."
+    }
+  },
+  "unmodeled": [
+    "Physical E-axis motion relative to lower arm; E->U carrier is provisionally rigid with lower arm.",
+    "Both slender adjustable rods: 3D ball centers, hinge attachment ownership and mechanical closure.",
+    "Air bellows effective area, pressure chamber, hysteresis, force path, air circuit and deformation.",
+    "B32 black barrel linkage, bore, stroke, piston side, seals, friction and function.",
+    "Rigid head linkage leveling/synchronization; no ideal parallelogram or algebraic fold relation is imposed.",
+    "Actual head guide internals and which guide pieces translate; present split is a declared equivalent.",
+    "Wire tension, sag, transverse dynamics, droppers and speed-dependent catenary effects; wire is fixed here.",
+    "Carbon wear, elasticity, arcing, electric current and copper braid flexibility.",
+    "Physical masses, inertia tensors, damping, springs and true motion stops; all dynamics are uncalibrated.",
+    "Arm-roof, link-link and cover collisions; only collector/wire and numerical joint stops are solved."
+  ],
+  "inertia_model": "Analytic slender-beam / box tensors from declared masses and equivalent envelopes. Independent positive inertia scales are configurable; tensors are not mesh-derived measurements.",
+  "calibration_status": "NUMERICAL_DEMONSTRATION_ONLY_NOT_VALIDATED_HARDWARE"
+}

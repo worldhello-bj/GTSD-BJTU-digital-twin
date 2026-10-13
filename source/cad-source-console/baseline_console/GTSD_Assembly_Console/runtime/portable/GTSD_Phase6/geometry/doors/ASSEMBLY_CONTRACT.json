@@ -1,0 +1,3468 @@
+{
+  "schema": "gtsd-cad-end-door-assembly-v1",
+  "units": "SI",
+  "source_identity": {
+    "/workspace/shared/gtsd-door-cad-phase7-1012/END_OPENING_CONTRACT.json": "40e9ec430e71db5cf11132776e49221fcee42d804ae537c83975136cc0e9331d",
+    "/workspace/shared/gtsd-door-cad-phase7-1012/inputs/vectors_zw_1F51.json": "4d474c986fca855dc898ef62b8f33c3d230f36ec4bdb5e1d698472b394c69551",
+    "/workspace/shared/gtsd-door-cad-phase7-1012/inputs/vectors_zw_3E1B.json": "29185ca3b299b60935ccfa990419d51c3aa41393cea9ce23d209a64307f71343",
+    "/workspace/shared/gtsd-physics-phase5-1012/web/geometry.json": "7d925267cbfb18d39e64041ea851fc13db2e3a13f6d403eab386235f741d8f43",
+    "/workspace/shared/gtsd-physics-phase5-1012/doors/source_geometry_evidence.json": "3d0b9609a1ebf3c9bb56bc6e1795f9b2111cfe3cc29e96e000b6359758ceafe0",
+    "/workspace/shared/gtsd-body-cad-phase6-1012/outputs/body_cad_candidate_meshes.json": "46f7e9723e0e510e6b076e91dd764081386cf53ad66839debd850ce686be2a5a",
+    "/workspace/shared/gtsd-body-cad-phase6-1012/scripts/cad_profiles.py": "3d55e95ef25946d49116623210ddc42e30b98b64bb8ad2e7e2a1ceb86c568089"
+  },
+  "mesh_sha256": "67dfd34c3e9a2f9776aa63b9acdff48051734ca4d733035660be0d49aba0cd9c",
+  "coordinate_system": "X longitudinal, Y transverse, Z up; geometry component Z=0 CAD bottom, reference world Z offset below",
+  "component_to_reference_world_translation_m": [
+    0,
+    0,
+    0.3638689111436339
+  ],
+  "CAD_main_opening_mm": {
+    "width": 920.0,
+    "height": 450.0,
+    "Y_min": -460.00059462468937,
+    "Y_max": 459.99940537531074,
+    "Z_min": 27.5,
+    "Z_max": 477.5,
+    "center_notch_depth": 3.0
+  },
+  "assembly_assumptions": {
+    "peripheral_gap_m": 0.001,
+    "total_center_gap_m": 0.002,
+    "leaf_sheet_thickness_m": 0.0015,
+    "frame_axial_thickness_m": 0.003,
+    "hinge_axial_offset_from_endplane_m": 0.00075,
+    "fan_bore_radius_m": 0.05,
+    "leaf_assembly_mass_kg": 0.6,
+    "opening_limit_rad": 1.7453292519943295
+  },
+  "doors": {
+    "end_neg_y_neg": {
+      "body_name": "door_end_neg_y_neg",
+      "source_leaf": "SHELL_access_door_-1_-1",
+      "leaf_mesh_name": "CAD_door_leaf_end_neg_y_neg",
+      "mesh_names": [
+        "CAD_door_leaf_end_neg_y_neg",
+        "CAD_fan_shroud_end_neg_y_neg",
+        "CAD_mounted_SHELL_door_handle_-1",
+        "CAD_mounted_SHELL_electrical_caution",
+        "CAD_mounted_SHELL_fan_grille_-1_-1_0.019",
+        "CAD_mounted_SHELL_fan_grille_-1_-1_0.03",
+        "CAD_mounted_SHELL_fan_grille_-1_-1_0.041",
+        "CAD_mounted_SHELL_fan_grille_-1_-1_0.052",
+        "CAD_mounted_SHELL_fan_spoke",
+        "CAD_mounted_SHELL_fan_spoke.001",
+        "CAD_mounted_SHELL_fan_spoke.002",
+        "CAD_mounted_SHELL_hinge_-1_-1_0.454",
+        "CAD_mounted_SHELL_hinge_-1_-1_0.744",
+        "CAD_mounted_SHELL_emergency_stop",
+        "CAD_mounted_SHELL_emergency_stop.001"
+      ],
+      "closed_reference_pose_component": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "quaternion_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "closed_reference_pose_world": {
+        "position": [
+          0,
+          0,
+          0.3638689111436339
+        ],
+        "quaternion_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "hinge_component_m": [
+        -0.65075,
+        -0.4590005946246894,
+        0.2525
+      ],
+      "hinge_world_m": [
+        -0.65075,
+        -0.4590005946246894,
+        0.6163689111436339
+      ],
+      "hinge_axis_unit": [
+        0,
+        0,
+        1
+      ],
+      "opening_sign": 1,
+      "opening_limit_rad": 1.7453292519943295,
+      "leaf_bounds_component_m": [
+        [
+          -0.6515,
+          -0.65
+        ],
+        [
+          -0.4590005946246894,
+          -0.0010005946246893131
+        ],
+        [
+          0.0285,
+          0.4765
+        ]
+      ],
+      "closed_width_m": 0.4580000000000001,
+      "closed_height_m": 0.448,
+      "leaf_sheet_thickness_m": 0.0015,
+      "latch_point_component_m": [
+        -0.65075,
+        -0.0010005946246893131,
+        0.2525
+      ],
+      "latch_point_world_m": [
+        -0.65075,
+        -0.0010005946246893131,
+        0.6163689111436339
+      ],
+      "fan_center_world_m": [
+        -0.6535,
+        -0.34450059462468935,
+        0.4909289111436339
+      ],
+      "fan_source_mesh_name": "SHELL_fan_back_-1_-1",
+      "fan_target_mesh_name": "CAD_fan_shroud_end_neg_y_neg",
+      "fan_source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "assembly_mass_candidate_kg": 0.6,
+      "mass_budget_includes_fan_kg": 0.06,
+      "mass_note": "0.6 kg is the full leaf assembly allocation, not a measured sheet mass. For selected powered fan only, subtract its 0.06 kg once from this total. All densities/material grades unmeasured.",
+      "hinge_evidence": "Outward vertical outer-edge hinge seen in photos; exact axis depth, thickness, gap and travel are candidates."
+    },
+    "end_neg_y_pos": {
+      "body_name": "door_end_neg_y_pos",
+      "source_leaf": "SHELL_access_door_-1_1",
+      "leaf_mesh_name": "CAD_door_leaf_end_neg_y_pos",
+      "mesh_names": [
+        "CAD_door_leaf_end_neg_y_pos",
+        "CAD_fan_shroud_end_neg_y_pos",
+        "CAD_mounted_SHELL_electrical_caution.001",
+        "CAD_mounted_SHELL_fan_grille_-1_1_0.019",
+        "CAD_mounted_SHELL_fan_grille_-1_1_0.03",
+        "CAD_mounted_SHELL_fan_grille_-1_1_0.041",
+        "CAD_mounted_SHELL_fan_grille_-1_1_0.052",
+        "CAD_mounted_SHELL_fan_spoke.003",
+        "CAD_mounted_SHELL_fan_spoke.004",
+        "CAD_mounted_SHELL_fan_spoke.005",
+        "CAD_mounted_SHELL_hinge_-1_1_0.454",
+        "CAD_mounted_SHELL_hinge_-1_1_0.744",
+        "CAD_mounted_SHELL_round_blank_cap_-1"
+      ],
+      "closed_reference_pose_component": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "quaternion_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "closed_reference_pose_world": {
+        "position": [
+          0,
+          0,
+          0.3638689111436339
+        ],
+        "quaternion_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "hinge_component_m": [
+        -0.65075,
+        0.45899940537531075,
+        0.2525
+      ],
+      "hinge_world_m": [
+        -0.65075,
+        0.45899940537531075,
+        0.6163689111436339
+      ],
+      "hinge_axis_unit": [
+        0,
+        0,
+        1
+      ],
+      "opening_sign": -1,
+      "opening_limit_rad": 1.7453292519943295,
+      "leaf_bounds_component_m": [
+        [
+          -0.6515,
+          -0.65
+        ],
+        [
+          0.000999405375310687,
+          0.45899940537531075
+        ],
+        [
+          0.0285,
+          0.4765
+        ]
+      ],
+      "closed_width_m": 0.4580000000000001,
+      "closed_height_m": 0.448,
+      "leaf_sheet_thickness_m": 0.0015,
+      "latch_point_component_m": [
+        -0.65075,
+        0.000999405375310687,
+        0.2525
+      ],
+      "latch_point_world_m": [
+        -0.65075,
+        0.000999405375310687,
+        0.6163689111436339
+      ],
+      "fan_center_world_m": [
+        -0.6535,
+        0.3444994053753107,
+        0.4909289111436339
+      ],
+      "fan_source_mesh_name": "SHELL_fan_back_-1_1",
+      "fan_target_mesh_name": "CAD_fan_shroud_end_neg_y_pos",
+      "fan_source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "assembly_mass_candidate_kg": 0.6,
+      "mass_budget_includes_fan_kg": 0,
+      "mass_note": "0.6 kg is the full leaf assembly allocation, not a measured sheet mass. For selected powered fan only, subtract its 0.06 kg once from this total. All densities/material grades unmeasured.",
+      "hinge_evidence": "Outward vertical outer-edge hinge seen in photos; exact axis depth, thickness, gap and travel are candidates."
+    },
+    "end_pos_y_neg": {
+      "body_name": "door_end_pos_y_neg",
+      "source_leaf": "SHELL_access_door_1_-1",
+      "leaf_mesh_name": "CAD_door_leaf_end_pos_y_neg",
+      "mesh_names": [
+        "CAD_door_leaf_end_pos_y_neg",
+        "CAD_fan_shroud_end_pos_y_neg",
+        "CAD_mounted_SHELL_electrical_caution.002",
+        "CAD_mounted_SHELL_fan_grille_1_-1_0.019",
+        "CAD_mounted_SHELL_fan_grille_1_-1_0.03",
+        "CAD_mounted_SHELL_fan_grille_1_-1_0.041",
+        "CAD_mounted_SHELL_fan_grille_1_-1_0.052",
+        "CAD_mounted_SHELL_fan_spoke.006",
+        "CAD_mounted_SHELL_fan_spoke.007",
+        "CAD_mounted_SHELL_fan_spoke.008",
+        "CAD_mounted_SHELL_hinge_1_-1_0.454",
+        "CAD_mounted_SHELL_hinge_1_-1_0.744",
+        "CAD_mounted_SHELL_emergency_stop.002",
+        "CAD_mounted_SHELL_emergency_stop.003"
+      ],
+      "closed_reference_pose_component": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "quaternion_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "closed_reference_pose_world": {
+        "position": [
+          0,
+          0,
+          0.3638689111436339
+        ],
+        "quaternion_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "hinge_component_m": [
+        0.65075,
+        -0.4590005946246894,
+        0.2525
+      ],
+      "hinge_world_m": [
+        0.65075,
+        -0.4590005946246894,
+        0.6163689111436339
+      ],
+      "hinge_axis_unit": [
+        0,
+        0,
+        1
+      ],
+      "opening_sign": -1,
+      "opening_limit_rad": 1.7453292519943295,
+      "leaf_bounds_component_m": [
+        [
+          0.65,
+          0.6515
+        ],
+        [
+          -0.4590005946246894,
+          -0.0010005946246893131
+        ],
+        [
+          0.0285,
+          0.4765
+        ]
+      ],
+      "closed_width_m": 0.4580000000000001,
+      "closed_height_m": 0.448,
+      "leaf_sheet_thickness_m": 0.0015,
+      "latch_point_component_m": [
+        0.65075,
+        -0.0010005946246893131,
+        0.2525
+      ],
+      "latch_point_world_m": [
+        0.65075,
+        -0.0010005946246893131,
+        0.6163689111436339
+      ],
+      "fan_center_world_m": [
+        0.6535,
+        -0.34450059462468935,
+        0.4909289111436339
+      ],
+      "fan_source_mesh_name": "SHELL_fan_back_1_-1",
+      "fan_target_mesh_name": "CAD_fan_shroud_end_pos_y_neg",
+      "fan_source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "assembly_mass_candidate_kg": 0.6,
+      "mass_budget_includes_fan_kg": 0,
+      "mass_note": "0.6 kg is the full leaf assembly allocation, not a measured sheet mass. For selected powered fan only, subtract its 0.06 kg once from this total. All densities/material grades unmeasured.",
+      "hinge_evidence": "Outward vertical outer-edge hinge seen in photos; exact axis depth, thickness, gap and travel are candidates."
+    },
+    "end_pos_y_pos": {
+      "body_name": "door_end_pos_y_pos",
+      "source_leaf": "SHELL_access_door_1_1",
+      "leaf_mesh_name": "CAD_door_leaf_end_pos_y_pos",
+      "mesh_names": [
+        "CAD_door_leaf_end_pos_y_pos",
+        "CAD_fan_shroud_end_pos_y_pos",
+        "CAD_mounted_SHELL_door_handle_1",
+        "CAD_mounted_SHELL_electrical_caution.003",
+        "CAD_mounted_SHELL_fan_grille_1_1_0.019",
+        "CAD_mounted_SHELL_fan_grille_1_1_0.03",
+        "CAD_mounted_SHELL_fan_grille_1_1_0.041",
+        "CAD_mounted_SHELL_fan_grille_1_1_0.052",
+        "CAD_mounted_SHELL_fan_spoke.009",
+        "CAD_mounted_SHELL_fan_spoke.010",
+        "CAD_mounted_SHELL_fan_spoke.011",
+        "CAD_mounted_SHELL_hinge_1_1_0.454",
+        "CAD_mounted_SHELL_hinge_1_1_0.744",
+        "CAD_mounted_SHELL_round_blank_cap_1",
+        "CAD_mounted_SHELL_supply_indicator"
+      ],
+      "closed_reference_pose_component": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "quaternion_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "closed_reference_pose_world": {
+        "position": [
+          0,
+          0,
+          0.3638689111436339
+        ],
+        "quaternion_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "hinge_component_m": [
+        0.65075,
+        0.45899940537531075,
+        0.2525
+      ],
+      "hinge_world_m": [
+        0.65075,
+        0.45899940537531075,
+        0.6163689111436339
+      ],
+      "hinge_axis_unit": [
+        0,
+        0,
+        1
+      ],
+      "opening_sign": 1,
+      "opening_limit_rad": 1.7453292519943295,
+      "leaf_bounds_component_m": [
+        [
+          0.65,
+          0.6515
+        ],
+        [
+          0.000999405375310687,
+          0.45899940537531075
+        ],
+        [
+          0.0285,
+          0.4765
+        ]
+      ],
+      "closed_width_m": 0.4580000000000001,
+      "closed_height_m": 0.448,
+      "leaf_sheet_thickness_m": 0.0015,
+      "latch_point_component_m": [
+        0.65075,
+        0.000999405375310687,
+        0.2525
+      ],
+      "latch_point_world_m": [
+        0.65075,
+        0.000999405375310687,
+        0.6163689111436339
+      ],
+      "fan_center_world_m": [
+        0.6535,
+        0.3444994053753107,
+        0.4909289111436339
+      ],
+      "fan_source_mesh_name": "SHELL_fan_back_1_1",
+      "fan_target_mesh_name": "CAD_fan_shroud_end_pos_y_pos",
+      "fan_source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "assembly_mass_candidate_kg": 0.6,
+      "mass_budget_includes_fan_kg": 0,
+      "mass_note": "0.6 kg is the full leaf assembly allocation, not a measured sheet mass. For selected powered fan only, subtract its 0.06 kg once from this total. All densities/material grades unmeasured.",
+      "hinge_evidence": "Outward vertical outer-edge hinge seen in photos; exact axis depth, thickness, gap and travel are candidates."
+    }
+  },
+  "frame_parts": [
+    "CAD_end_frame_-1_2B75_2B77",
+    "CAD_end_frame_+1_2B75_2B77"
+  ],
+  "mounting_candidates": [
+    {
+      "source_mesh_name": "SHELL_fan_back_-1_-1",
+      "target_mesh_name": "CAD_fan_shroud_end_neg_y_neg",
+      "door_key": "end_neg_y_neg",
+      "transformation": "replaced_opaque_disk_with_open_annulus",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.656999945640564,
+        -0.22300000488758087,
+        0.4848689138889313
+      ],
+      "target_center_world_m": [
+        -0.6535,
+        -0.34450059462468935,
+        0.4909289111436339
+      ],
+      "position_evidence": "25% leaf width from outer edge; 22% leaf height from bottom, estimated from photos; not photogrammetry.",
+      "radii_m": [
+        0.05,
+        0.055
+      ],
+      "axial_thickness_m": 0.004,
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_door_handle_-1",
+      "target_mesh_name": "CAD_mounted_SHELL_door_handle_-1",
+      "door_key": "end_neg_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.003499974727630639,
+        0.0029994045408456606,
+        0.0025000189507933257
+      ],
+      "source_center_world_m": [
+        -0.6639999747276306,
+        -0.028999999165534973,
+        0.6138688921928406
+      ],
+      "target_center_world_m": [
+        -0.6605,
+        -0.026000594624689313,
+        0.6163689111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_electrical_caution",
+      "target_mesh_name": "CAD_mounted_SHELL_electrical_caution",
+      "door_key": "end_neg_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.005400005245208783,
+        -0.030000599095037717,
+        -0.01900000584473882
+      ],
+      "source_center_world_m": [
+        -0.6570000052452087,
+        -0.19999999552965164,
+        0.6628689169883728
+      ],
+      "target_center_world_m": [
+        -0.6516,
+        -0.23000059462468936,
+        0.643868911143634
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_-1_-1_0.019",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_-1_-1_0.019",
+      "door_key": "end_neg_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.6610000133514404,
+        -0.2230009138584137,
+        0.48486894369125366
+      ],
+      "target_center_world_m": [
+        -0.6575000677108764,
+        -0.3445015035955222,
+        0.4909289409459563
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_-1_-1_0.03",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_-1_-1_0.03",
+      "door_key": "end_neg_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.6610000133514404,
+        -0.2230009064078331,
+        0.48486892879009247
+      ],
+      "target_center_world_m": [
+        -0.6575000677108764,
+        -0.3445014961449416,
+        0.4909289260447951
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_-1_-1_0.041",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_-1_-1_0.041",
+      "door_key": "end_neg_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.6610000133514404,
+        -0.2230009064078331,
+        0.4848689138889313
+      ],
+      "target_center_world_m": [
+        -0.6575000677108764,
+        -0.3445014961449416,
+        0.4909289111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_-1_-1_0.052",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_-1_-1_0.052",
+      "door_key": "end_neg_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.6610000133514404,
+        -0.2230009138584137,
+        0.48486892879009247
+      ],
+      "target_center_world_m": [
+        -0.6575000677108764,
+        -0.3445015035955222,
+        0.4909289260447951
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_spoke",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_spoke",
+      "door_key": "end_neg_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.6629999876022339,
+        -0.22300000488758087,
+        0.4848689138889313
+      ],
+      "target_center_world_m": [
+        -0.6595000419616699,
+        -0.34450059462468935,
+        0.4909289111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_fan_spoke.001",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_spoke.001",
+      "door_key": "end_neg_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.6629999876022339,
+        -0.22299998998641968,
+        0.4848688691854477
+      ],
+      "target_center_world_m": [
+        -0.6595000419616699,
+        -0.34450057972352816,
+        0.4909288664401503
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_fan_spoke.002",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_spoke.002",
+      "door_key": "end_neg_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.6629999876022339,
+        -0.22299999743700027,
+        0.4848688691854477
+      ],
+      "target_center_world_m": [
+        -0.6595000419616699,
+        -0.34450058717410875,
+        0.4909288664401503
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_hinge_-1_-1_0.454",
+      "target_mesh_name": "CAD_mounted_SHELL_hinge_-1_-1_0.454",
+      "door_key": "end_neg_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.007249992370605418,
+        -0.09700060606878119,
+        -0.01500001442780774
+      ],
+      "source_center_world_m": [
+        -0.6579999923706055,
+        -0.3619999885559082,
+        0.45386892557144165
+      ],
+      "target_center_world_m": [
+        -0.65075,
+        -0.4590005946246894,
+        0.4388689111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_hinge_-1_-1_0.744",
+      "target_mesh_name": "CAD_mounted_SHELL_hinge_-1_-1_0.744",
+      "door_key": "end_neg_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.007249992370605418,
+        -0.09700060606878119,
+        0.045000023719164894
+      ],
+      "source_center_world_m": [
+        -0.6579999923706055,
+        -0.3619999885559082,
+        0.743868887424469
+      ],
+      "target_center_world_m": [
+        -0.65075,
+        -0.4590005946246894,
+        0.7888689111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_emergency_stop",
+      "target_mesh_name": "CAD_mounted_SHELL_emergency_stop",
+      "door_key": "end_neg_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.006500000000000061,
+        -0.0994605827037604,
+        -0.01978000000000002
+      ],
+      "source_center_world_m": [
+        -0.6640000343322754,
+        -0.30000001192092896,
+        0.8108689188957214
+      ],
+      "target_center_world_m": [
+        -0.6575000343322753,
+        -0.39946059462468936,
+        0.7910889188957214
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_emergency_stop.001",
+      "target_mesh_name": "CAD_mounted_SHELL_emergency_stop.001",
+      "door_key": "end_neg_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.006500000000000061,
+        -0.0994605827037604,
+        -0.01978000000000002
+      ],
+      "source_center_world_m": [
+        -0.6759999990463257,
+        -0.30000001192092896,
+        0.8108689188957214
+      ],
+      "target_center_world_m": [
+        -0.6694999990463256,
+        -0.39946059462468936,
+        0.7910889188957214
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_fan_back_-1_1",
+      "target_mesh_name": "CAD_fan_shroud_end_neg_y_pos",
+      "door_key": "end_neg_y_pos",
+      "transformation": "replaced_opaque_disk_with_open_annulus",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.656999945640564,
+        0.22300000488758087,
+        0.4848689138889313
+      ],
+      "target_center_world_m": [
+        -0.6535,
+        0.3444994053753107,
+        0.4909289111436339
+      ],
+      "position_evidence": "25% leaf width from outer edge; 22% leaf height from bottom, estimated from photos; not photogrammetry.",
+      "radii_m": [
+        0.05,
+        0.055
+      ],
+      "axial_thickness_m": 0.004,
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_electrical_caution.001",
+      "target_mesh_name": "CAD_mounted_SHELL_electrical_caution.001",
+      "door_key": "end_neg_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.005400005245208783,
+        0.029999409845659075,
+        -0.01900000584473882
+      ],
+      "source_center_world_m": [
+        -0.6570000052452087,
+        0.19999999552965164,
+        0.6628689169883728
+      ],
+      "target_center_world_m": [
+        -0.6516,
+        0.22999940537531072,
+        0.643868911143634
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_-1_1_0.019",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_-1_1_0.019",
+      "door_key": "end_neg_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.6610000133514404,
+        0.22299908101558685,
+        0.48486894369125366
+      ],
+      "target_center_world_m": [
+        -0.6575000677108764,
+        0.3444984815033167,
+        0.4909289409459563
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_-1_1_0.03",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_-1_1_0.03",
+      "door_key": "end_neg_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.6610000133514404,
+        0.22299908101558685,
+        0.48486892879009247
+      ],
+      "target_center_world_m": [
+        -0.6575000677108764,
+        0.3444984815033167,
+        0.4909289260447951
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_-1_1_0.041",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_-1_1_0.041",
+      "door_key": "end_neg_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.6610000133514404,
+        0.22299908101558685,
+        0.4848689138889313
+      ],
+      "target_center_world_m": [
+        -0.6575000677108764,
+        0.3444984815033167,
+        0.4909289111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_-1_1_0.052",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_-1_1_0.052",
+      "door_key": "end_neg_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.6610000133514404,
+        0.22299908846616745,
+        0.48486892879009247
+      ],
+      "target_center_world_m": [
+        -0.6575000677108764,
+        0.3444984889538973,
+        0.4909289260447951
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_spoke.003",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_spoke.003",
+      "door_key": "end_neg_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.6629999876022339,
+        0.22300000488758087,
+        0.4848689138889313
+      ],
+      "target_center_world_m": [
+        -0.6595000419616699,
+        0.3444994053753107,
+        0.4909289111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_fan_spoke.004",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_spoke.004",
+      "door_key": "end_neg_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.6629999876022339,
+        0.22299998998641968,
+        0.4848688691854477
+      ],
+      "target_center_world_m": [
+        -0.6595000419616699,
+        0.3444993904741495,
+        0.4909288664401503
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_fan_spoke.005",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_spoke.005",
+      "door_key": "end_neg_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        -0.6629999876022339,
+        0.22299999743700027,
+        0.4848688691854477
+      ],
+      "target_center_world_m": [
+        -0.6595000419616699,
+        0.3444993979247301,
+        0.4909288664401503
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_hinge_-1_1_0.454",
+      "target_mesh_name": "CAD_mounted_SHELL_hinge_-1_1_0.454",
+      "door_key": "end_neg_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.007249992370605418,
+        0.09699941681940255,
+        -0.01500001442780774
+      ],
+      "source_center_world_m": [
+        -0.6579999923706055,
+        0.3619999885559082,
+        0.45386892557144165
+      ],
+      "target_center_world_m": [
+        -0.65075,
+        0.45899940537531075,
+        0.4388689111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_hinge_-1_1_0.744",
+      "target_mesh_name": "CAD_mounted_SHELL_hinge_-1_1_0.744",
+      "door_key": "end_neg_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.007249992370605418,
+        0.09699941681940255,
+        0.045000023719164894
+      ],
+      "source_center_world_m": [
+        -0.6579999923706055,
+        0.3619999885559082,
+        0.743868887424469
+      ],
+      "target_center_world_m": [
+        -0.65075,
+        0.45899940537531075,
+        0.7888689111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_round_blank_cap_-1",
+      "target_mesh_name": "CAD_mounted_SHELL_round_blank_cap_-1",
+      "door_key": "end_neg_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        0.006500000000000061,
+        0.09945939345438176,
+        -0.01978000000000002
+      ],
+      "source_center_world_m": [
+        -0.6610000133514404,
+        0.30000001192092896,
+        0.8108689188957214
+      ],
+      "target_center_world_m": [
+        -0.6545000133514404,
+        0.3994594053753107,
+        0.7910889188957214
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_fan_back_1_-1",
+      "target_mesh_name": "CAD_fan_shroud_end_pos_y_neg",
+      "door_key": "end_pos_y_neg",
+      "transformation": "replaced_opaque_disk_with_open_annulus",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.656999945640564,
+        -0.22300000488758087,
+        0.4848689138889313
+      ],
+      "target_center_world_m": [
+        0.6535,
+        -0.34450059462468935,
+        0.4909289111436339
+      ],
+      "position_evidence": "25% leaf width from outer edge; 22% leaf height from bottom, estimated from photos; not photogrammetry.",
+      "radii_m": [
+        0.05,
+        0.055
+      ],
+      "axial_thickness_m": 0.004,
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_electrical_caution.002",
+      "target_mesh_name": "CAD_mounted_SHELL_electrical_caution.002",
+      "door_key": "end_pos_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.005400005245208783,
+        -0.030000599095037717,
+        -0.01900000584473882
+      ],
+      "source_center_world_m": [
+        0.6570000052452087,
+        -0.19999999552965164,
+        0.6628689169883728
+      ],
+      "target_center_world_m": [
+        0.6516,
+        -0.23000059462468936,
+        0.643868911143634
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_1_-1_0.019",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_1_-1_0.019",
+      "door_key": "end_pos_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.6610000133514404,
+        -0.2230009138584137,
+        0.48486894369125366
+      ],
+      "target_center_world_m": [
+        0.6575000677108764,
+        -0.3445015035955222,
+        0.4909289409459563
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_1_-1_0.03",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_1_-1_0.03",
+      "door_key": "end_pos_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.6610000133514404,
+        -0.2230009064078331,
+        0.48486892879009247
+      ],
+      "target_center_world_m": [
+        0.6575000677108764,
+        -0.3445014961449416,
+        0.4909289260447951
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_1_-1_0.041",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_1_-1_0.041",
+      "door_key": "end_pos_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.6610000133514404,
+        -0.2230009064078331,
+        0.4848689138889313
+      ],
+      "target_center_world_m": [
+        0.6575000677108764,
+        -0.3445014961449416,
+        0.4909289111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_1_-1_0.052",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_1_-1_0.052",
+      "door_key": "end_pos_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.6610000133514404,
+        -0.2230009138584137,
+        0.48486892879009247
+      ],
+      "target_center_world_m": [
+        0.6575000677108764,
+        -0.3445015035955222,
+        0.4909289260447951
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_spoke.006",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_spoke.006",
+      "door_key": "end_pos_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.6629999876022339,
+        -0.22300000488758087,
+        0.4848689138889313
+      ],
+      "target_center_world_m": [
+        0.6595000419616699,
+        -0.34450059462468935,
+        0.4909289111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_fan_spoke.007",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_spoke.007",
+      "door_key": "end_pos_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.6629999876022339,
+        -0.22299998998641968,
+        0.4848688691854477
+      ],
+      "target_center_world_m": [
+        0.6595000419616699,
+        -0.34450057972352816,
+        0.4909288664401503
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_fan_spoke.008",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_spoke.008",
+      "door_key": "end_pos_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        -0.12150058973710848,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.6629999876022339,
+        -0.22299999743700027,
+        0.4848688691854477
+      ],
+      "target_center_world_m": [
+        0.6595000419616699,
+        -0.34450058717410875,
+        0.4909288664401503
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_hinge_1_-1_0.454",
+      "target_mesh_name": "CAD_mounted_SHELL_hinge_1_-1_0.454",
+      "door_key": "end_pos_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.007249992370605418,
+        -0.09700060606878119,
+        -0.01500001442780774
+      ],
+      "source_center_world_m": [
+        0.6579999923706055,
+        -0.3619999885559082,
+        0.45386892557144165
+      ],
+      "target_center_world_m": [
+        0.65075,
+        -0.4590005946246894,
+        0.4388689111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_hinge_1_-1_0.744",
+      "target_mesh_name": "CAD_mounted_SHELL_hinge_1_-1_0.744",
+      "door_key": "end_pos_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.007249992370605418,
+        -0.09700060606878119,
+        0.045000023719164894
+      ],
+      "source_center_world_m": [
+        0.6579999923706055,
+        -0.3619999885559082,
+        0.743868887424469
+      ],
+      "target_center_world_m": [
+        0.65075,
+        -0.4590005946246894,
+        0.7888689111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_emergency_stop.002",
+      "target_mesh_name": "CAD_mounted_SHELL_emergency_stop.002",
+      "door_key": "end_pos_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.006500000000000061,
+        -0.0994605827037604,
+        -0.01978000000000002
+      ],
+      "source_center_world_m": [
+        0.6640000343322754,
+        -0.30000001192092896,
+        0.8108689188957214
+      ],
+      "target_center_world_m": [
+        0.6575000343322753,
+        -0.39946059462468936,
+        0.7910889188957214
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_emergency_stop.003",
+      "target_mesh_name": "CAD_mounted_SHELL_emergency_stop.003",
+      "door_key": "end_pos_y_neg",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.006500000000000061,
+        -0.0994605827037604,
+        -0.01978000000000002
+      ],
+      "source_center_world_m": [
+        0.6759999990463257,
+        -0.30000001192092896,
+        0.8108689188957214
+      ],
+      "target_center_world_m": [
+        0.6694999990463256,
+        -0.39946059462468936,
+        0.7910889188957214
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_fan_back_1_1",
+      "target_mesh_name": "CAD_fan_shroud_end_pos_y_pos",
+      "door_key": "end_pos_y_pos",
+      "transformation": "replaced_opaque_disk_with_open_annulus",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.656999945640564,
+        0.22300000488758087,
+        0.4848689138889313
+      ],
+      "target_center_world_m": [
+        0.6535,
+        0.3444994053753107,
+        0.4909289111436339
+      ],
+      "position_evidence": "25% leaf width from outer edge; 22% leaf height from bottom, estimated from photos; not photogrammetry.",
+      "radii_m": [
+        0.05,
+        0.055
+      ],
+      "axial_thickness_m": 0.004,
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_door_handle_1",
+      "target_mesh_name": "CAD_mounted_SHELL_door_handle_1",
+      "door_key": "end_pos_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.003499974727630639,
+        -0.003000593790224288,
+        0.0025000189507933257
+      ],
+      "source_center_world_m": [
+        0.6639999747276306,
+        0.028999999165534973,
+        0.6138688921928406
+      ],
+      "target_center_world_m": [
+        0.6605,
+        0.025999405375310685,
+        0.6163689111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_electrical_caution.003",
+      "target_mesh_name": "CAD_mounted_SHELL_electrical_caution.003",
+      "door_key": "end_pos_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.005400005245208783,
+        0.029999409845659075,
+        -0.01900000584473882
+      ],
+      "source_center_world_m": [
+        0.6570000052452087,
+        0.19999999552965164,
+        0.6628689169883728
+      ],
+      "target_center_world_m": [
+        0.6516,
+        0.22999940537531072,
+        0.643868911143634
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_1_1_0.019",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_1_1_0.019",
+      "door_key": "end_pos_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.6610000133514404,
+        0.22299908101558685,
+        0.48486894369125366
+      ],
+      "target_center_world_m": [
+        0.6575000677108764,
+        0.3444984815033167,
+        0.4909289409459563
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_1_1_0.03",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_1_1_0.03",
+      "door_key": "end_pos_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.6610000133514404,
+        0.22299908101558685,
+        0.48486892879009247
+      ],
+      "target_center_world_m": [
+        0.6575000677108764,
+        0.3444984815033167,
+        0.4909289260447951
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_1_1_0.041",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_1_1_0.041",
+      "door_key": "end_pos_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.6610000133514404,
+        0.22299908101558685,
+        0.4848689138889313
+      ],
+      "target_center_world_m": [
+        0.6575000677108764,
+        0.3444984815033167,
+        0.4909289111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_grille_1_1_0.052",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_grille_1_1_0.052",
+      "door_key": "end_pos_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.6610000133514404,
+        0.22299908846616745,
+        0.48486892879009247
+      ],
+      "target_center_world_m": [
+        0.6575000677108764,
+        0.3444984889538973,
+        0.4909289260447951
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": false
+    },
+    {
+      "source_mesh_name": "SHELL_fan_spoke.009",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_spoke.009",
+      "door_key": "end_pos_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.6629999876022339,
+        0.22300000488758087,
+        0.4848689138889313
+      ],
+      "target_center_world_m": [
+        0.6595000419616699,
+        0.3444994053753107,
+        0.4909289111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_fan_spoke.010",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_spoke.010",
+      "door_key": "end_pos_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.6629999876022339,
+        0.22299998998641968,
+        0.4848688691854477
+      ],
+      "target_center_world_m": [
+        0.6595000419616699,
+        0.3444993904741495,
+        0.4909288664401503
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_fan_spoke.011",
+      "target_mesh_name": "CAD_mounted_SHELL_fan_spoke.011",
+      "door_key": "end_pos_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.003499945640563995,
+        0.12149940048772984,
+        0.0060599972547026315
+      ],
+      "source_center_world_m": [
+        0.6629999876022339,
+        0.22299999743700027,
+        0.4848688691854477
+      ],
+      "target_center_world_m": [
+        0.6595000419616699,
+        0.3444993979247301,
+        0.4909288664401503
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_hinge_1_1_0.454",
+      "target_mesh_name": "CAD_mounted_SHELL_hinge_1_1_0.454",
+      "door_key": "end_pos_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.007249992370605418,
+        0.09699941681940255,
+        -0.01500001442780774
+      ],
+      "source_center_world_m": [
+        0.6579999923706055,
+        0.3619999885559082,
+        0.45386892557144165
+      ],
+      "target_center_world_m": [
+        0.65075,
+        0.45899940537531075,
+        0.4388689111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_hinge_1_1_0.744",
+      "target_mesh_name": "CAD_mounted_SHELL_hinge_1_1_0.744",
+      "door_key": "end_pos_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.007249992370605418,
+        0.09699941681940255,
+        0.045000023719164894
+      ],
+      "source_center_world_m": [
+        0.6579999923706055,
+        0.3619999885559082,
+        0.743868887424469
+      ],
+      "target_center_world_m": [
+        0.65075,
+        0.45899940537531075,
+        0.7888689111436339
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_round_blank_cap_1",
+      "target_mesh_name": "CAD_mounted_SHELL_round_blank_cap_1",
+      "door_key": "end_pos_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.006500000000000061,
+        0.09945939345438176,
+        -0.01978000000000002
+      ],
+      "source_center_world_m": [
+        0.6610000133514404,
+        0.30000001192092896,
+        0.8108689188957214
+      ],
+      "target_center_world_m": [
+        0.6545000133514404,
+        0.3994594053753107,
+        0.7910889188957214
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    },
+    {
+      "source_mesh_name": "SHELL_supply_indicator",
+      "target_mesh_name": "CAD_mounted_SHELL_supply_indicator",
+      "door_key": "end_pos_y_pos",
+      "transformation": "rigid_translation_no_scaling",
+      "source_world_to_target_world_translation_m": [
+        -0.006500000000000061,
+        0.09945939345438176,
+        -0.06906000000000001
+      ],
+      "source_center_world_m": [
+        0.6629999876022339,
+        0.30000001192092896,
+        0.7698689103126526
+      ],
+      "target_center_world_m": [
+        0.6564999876022338,
+        0.3994594053753107,
+        0.7008089103126526
+      ],
+      "vertex_weld_tolerance_m": 2e-07,
+      "position_evidence": "Photo-derived topology; attachment position is replaceable engineering estimate.",
+      "solid": true
+    }
+  ],
+  "replacement_manifest": {
+    "schema": "gtsd-cad-door-replacement-manifest-v1",
+    "replaced_source_door_mesh_names": [
+      "SHELL_access_door_-1_-1",
+      "SHELL_fan_back_-1_-1",
+      "SHELL_door_handle_-1",
+      "SHELL_electrical_caution",
+      "SHELL_fan_grille_-1_-1_0.019",
+      "SHELL_fan_grille_-1_-1_0.03",
+      "SHELL_fan_grille_-1_-1_0.041",
+      "SHELL_fan_grille_-1_-1_0.052",
+      "SHELL_fan_spoke",
+      "SHELL_fan_spoke.001",
+      "SHELL_fan_spoke.002",
+      "SHELL_hinge_-1_-1_0.454",
+      "SHELL_hinge_-1_-1_0.744",
+      "SHELL_emergency_stop",
+      "SHELL_emergency_stop.001",
+      "SHELL_access_door_-1_1",
+      "SHELL_fan_back_-1_1",
+      "SHELL_electrical_caution.001",
+      "SHELL_fan_grille_-1_1_0.019",
+      "SHELL_fan_grille_-1_1_0.03",
+      "SHELL_fan_grille_-1_1_0.041",
+      "SHELL_fan_grille_-1_1_0.052",
+      "SHELL_fan_spoke.003",
+      "SHELL_fan_spoke.004",
+      "SHELL_fan_spoke.005",
+      "SHELL_hinge_-1_1_0.454",
+      "SHELL_hinge_-1_1_0.744",
+      "SHELL_round_blank_cap_-1",
+      "SHELL_access_door_1_-1",
+      "SHELL_fan_back_1_-1",
+      "SHELL_electrical_caution.002",
+      "SHELL_fan_grille_1_-1_0.019",
+      "SHELL_fan_grille_1_-1_0.03",
+      "SHELL_fan_grille_1_-1_0.041",
+      "SHELL_fan_grille_1_-1_0.052",
+      "SHELL_fan_spoke.006",
+      "SHELL_fan_spoke.007",
+      "SHELL_fan_spoke.008",
+      "SHELL_hinge_1_-1_0.454",
+      "SHELL_hinge_1_-1_0.744",
+      "SHELL_emergency_stop.002",
+      "SHELL_emergency_stop.003",
+      "SHELL_access_door_1_1",
+      "SHELL_fan_back_1_1",
+      "SHELL_door_handle_1",
+      "SHELL_electrical_caution.003",
+      "SHELL_fan_grille_1_1_0.019",
+      "SHELL_fan_grille_1_1_0.03",
+      "SHELL_fan_grille_1_1_0.041",
+      "SHELL_fan_grille_1_1_0.052",
+      "SHELL_fan_spoke.009",
+      "SHELL_fan_spoke.010",
+      "SHELL_fan_spoke.011",
+      "SHELL_hinge_1_1_0.454",
+      "SHELL_hinge_1_1_0.744",
+      "SHELL_round_blank_cap_1",
+      "SHELL_supply_indicator"
+    ],
+    "replaced_cad_body_mesh_names": [
+      "CAD_body_end_rib_-1_3977E",
+      "CAD_body_end_rib_-1_3977F",
+      "CAD_body_end_rib_-1_39781",
+      "CAD_body_end_rib_-1_39783",
+      "CAD_body_end_rib_-1_39784",
+      "CAD_body_end_rib_+1_3977E",
+      "CAD_body_end_rib_+1_3977F",
+      "CAD_body_end_rib_+1_39781",
+      "CAD_body_end_rib_+1_39783",
+      "CAD_body_end_rib_+1_39784"
+    ],
+    "added_frame_mesh_names": [
+      "CAD_end_frame_-1_2B75_2B77",
+      "CAD_end_frame_+1_2B75_2B77"
+    ],
+    "added_door_mesh_names": [
+      "CAD_door_leaf_end_neg_y_neg",
+      "CAD_fan_shroud_end_neg_y_neg",
+      "CAD_mounted_SHELL_door_handle_-1",
+      "CAD_mounted_SHELL_electrical_caution",
+      "CAD_mounted_SHELL_fan_grille_-1_-1_0.019",
+      "CAD_mounted_SHELL_fan_grille_-1_-1_0.03",
+      "CAD_mounted_SHELL_fan_grille_-1_-1_0.041",
+      "CAD_mounted_SHELL_fan_grille_-1_-1_0.052",
+      "CAD_mounted_SHELL_fan_spoke",
+      "CAD_mounted_SHELL_fan_spoke.001",
+      "CAD_mounted_SHELL_fan_spoke.002",
+      "CAD_mounted_SHELL_hinge_-1_-1_0.454",
+      "CAD_mounted_SHELL_hinge_-1_-1_0.744",
+      "CAD_mounted_SHELL_emergency_stop",
+      "CAD_mounted_SHELL_emergency_stop.001",
+      "CAD_door_leaf_end_neg_y_pos",
+      "CAD_fan_shroud_end_neg_y_pos",
+      "CAD_mounted_SHELL_electrical_caution.001",
+      "CAD_mounted_SHELL_fan_grille_-1_1_0.019",
+      "CAD_mounted_SHELL_fan_grille_-1_1_0.03",
+      "CAD_mounted_SHELL_fan_grille_-1_1_0.041",
+      "CAD_mounted_SHELL_fan_grille_-1_1_0.052",
+      "CAD_mounted_SHELL_fan_spoke.003",
+      "CAD_mounted_SHELL_fan_spoke.004",
+      "CAD_mounted_SHELL_fan_spoke.005",
+      "CAD_mounted_SHELL_hinge_-1_1_0.454",
+      "CAD_mounted_SHELL_hinge_-1_1_0.744",
+      "CAD_mounted_SHELL_round_blank_cap_-1",
+      "CAD_door_leaf_end_pos_y_neg",
+      "CAD_fan_shroud_end_pos_y_neg",
+      "CAD_mounted_SHELL_electrical_caution.002",
+      "CAD_mounted_SHELL_fan_grille_1_-1_0.019",
+      "CAD_mounted_SHELL_fan_grille_1_-1_0.03",
+      "CAD_mounted_SHELL_fan_grille_1_-1_0.041",
+      "CAD_mounted_SHELL_fan_grille_1_-1_0.052",
+      "CAD_mounted_SHELL_fan_spoke.006",
+      "CAD_mounted_SHELL_fan_spoke.007",
+      "CAD_mounted_SHELL_fan_spoke.008",
+      "CAD_mounted_SHELL_hinge_1_-1_0.454",
+      "CAD_mounted_SHELL_hinge_1_-1_0.744",
+      "CAD_mounted_SHELL_emergency_stop.002",
+      "CAD_mounted_SHELL_emergency_stop.003",
+      "CAD_door_leaf_end_pos_y_pos",
+      "CAD_fan_shroud_end_pos_y_pos",
+      "CAD_mounted_SHELL_door_handle_1",
+      "CAD_mounted_SHELL_electrical_caution.003",
+      "CAD_mounted_SHELL_fan_grille_1_1_0.019",
+      "CAD_mounted_SHELL_fan_grille_1_1_0.03",
+      "CAD_mounted_SHELL_fan_grille_1_1_0.041",
+      "CAD_mounted_SHELL_fan_grille_1_1_0.052",
+      "CAD_mounted_SHELL_fan_spoke.009",
+      "CAD_mounted_SHELL_fan_spoke.010",
+      "CAD_mounted_SHELL_fan_spoke.011",
+      "CAD_mounted_SHELL_hinge_1_1_0.454",
+      "CAD_mounted_SHELL_hinge_1_1_0.744",
+      "CAD_mounted_SHELL_round_blank_cap_1",
+      "CAD_mounted_SHELL_supply_indicator"
+    ],
+    "precondition": "Apply after CAD body replacement. Old frame jamb and old roof-cap meshes were already removed there; never add them again.",
+    "mass_reallocation": "Remove volume and moments of the ten end ribs, add the two CAD end frames, then recompute remaining payload allocation; four door assembly 0.6 kg budgets remain independent. No new endpoint solid may duplicate a retained rib mass.",
+    "source_geometry_sha256": "7d925267cbfb18d39e64041ea851fc13db2e3a13f6d403eab386235f741d8f43",
+    "new_geometry_sha256": "67dfd34c3e9a2f9776aa63b9acdff48051734ca4d733035660be0d49aba0cd9c"
+  },
+  "records": [
+    {
+      "name": "CAD_end_frame_-1_2B75_2B77",
+      "role": "fixed_end_frame",
+      "door_key": null,
+      "source_refs": [
+        "zw$3E1B/39782",
+        "zw$1F51/2B75",
+        "zw$1F51/2B76",
+        "zw$1F51/2B77",
+        "zw$1F51/2B78"
+      ],
+      "geometry_status": "CAD_PROFILE_WITH_ASSUMED_3MM_AXIAL_EXTRUSION",
+      "solid": true,
+      "volume_m3": 0.0005479485270945648,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.6499999761581421,
+          -0.6470000147819519
+        ],
+        [
+          -0.558522641658783,
+          0.558522641658783
+        ],
+        [
+          6.207788828760386e-05,
+          0.5501443147659302
+        ]
+      ]
+    },
+    {
+      "name": "CAD_end_frame_+1_2B75_2B77",
+      "role": "fixed_end_frame",
+      "door_key": null,
+      "source_refs": [
+        "zw$3E1B/39782",
+        "zw$1F51/2B75",
+        "zw$1F51/2B76",
+        "zw$1F51/2B77",
+        "zw$1F51/2B78"
+      ],
+      "geometry_status": "CAD_PROFILE_WITH_ASSUMED_3MM_AXIAL_EXTRUSION",
+      "solid": true,
+      "volume_m3": 0.0005479485270945528,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6470000147819519,
+          0.6499999761581421
+        ],
+        [
+          -0.558522641658783,
+          0.558522641658783
+        ],
+        [
+          6.207788828760386e-05,
+          0.5501443147659302
+        ]
+      ]
+    },
+    {
+      "name": "CAD_door_leaf_end_neg_y_neg",
+      "role": "door_leaf",
+      "door_key": "end_neg_y_neg",
+      "source_refs": [
+        "zw$1F51/2B77",
+        "photos"
+      ],
+      "geometry_status": "CAD_OPENING_DERIVED_LEAF_WITH_ASSUMED_GAPS_AND_FAN_BORE",
+      "solid": true,
+      "volume_m3": 0.0002960018261946714,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.6514999866485596,
+          -0.6499999761581421
+        ],
+        [
+          -0.4590005874633789,
+          -0.0010005945805460215
+        ],
+        [
+          0.02850000001490116,
+          0.476500004529953
+        ]
+      ]
+    },
+    {
+      "name": "CAD_fan_shroud_end_neg_y_neg",
+      "role": "fan_shroud",
+      "door_key": "end_neg_y_neg",
+      "source_refs": [
+        "SHELL_fan_back_-1_-1",
+        "photo fan visible"
+      ],
+      "geometry_status": "NEW_OPEN_FAN_SHROUD_DIMENSIONS_UNMEASURED",
+      "solid": true,
+      "volume_m3": 6.594707721937369e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.6554999947547913,
+          -0.6514999866485596
+        ],
+        [
+          -0.39950060844421387,
+          -0.2895005941390991
+        ],
+        [
+          0.0720599964261055,
+          0.18206000328063965
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_door_handle_-1",
+      "role": "door_handle",
+      "door_key": "end_neg_y_neg",
+      "source_refs": [
+        "SHELL_door_handle_-1"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 2.3648714531376044e-05,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.6694999933242798,
+          -0.6514999866485596
+        ],
+        [
+          -0.03300059214234352,
+          -0.019000595435500145
+        ],
+        [
+          0.19999998807907104,
+          0.3050000071525574
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_electrical_caution",
+      "role": "warning_decal",
+      "door_key": "end_neg_y_neg",
+      "source_refs": [
+        "SHELL_electrical_caution"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 3,
+      "bounds_component_m": [
+        [
+          -0.6516000032424927,
+          -0.6516000032424927
+        ],
+        [
+          -0.25500059127807617,
+          -0.2050005942583084
+        ],
+        [
+          0.257999986410141,
+          0.3020000159740448
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_-1_0.019",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_neg",
+      "source_refs": [
+        "SHELL_fan_grille_-1_-1_0.019"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          -0.6591001152992249,
+          -0.6559000611305237
+        ],
+        [
+          -0.3650222718715668,
+          -0.3239807188510895
+        ],
+        [
+          0.1065383329987526,
+          0.14758172631263733
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_-1_0.03",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_neg",
+      "source_refs": [
+        "SHELL_fan_grille_-1_-1_0.03"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          -0.6591001152992249,
+          -0.6559000611305237
+        ],
+        [
+          -0.37602224946022034,
+          -0.3129807412624359
+        ],
+        [
+          0.09553832560777664,
+          0.1585817039012909
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_-1_0.041",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_neg",
+      "source_refs": [
+        "SHELL_fan_grille_-1_-1_0.041"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          -0.6591001152992249,
+          -0.6559000611305237
+        ],
+        [
+          -0.3870222568511963,
+          -0.30198073387145996
+        ],
+        [
+          0.08453831821680069,
+          0.16958168148994446
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_-1_0.052",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_neg",
+      "source_refs": [
+        "SHELL_fan_grille_-1_-1_0.052"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          -0.6591001152992249,
+          -0.6559000611305237
+        ],
+        [
+          -0.39802226424217224,
+          -0.290980726480484
+        ],
+        [
+          0.07353831082582474,
+          0.1805817186832428
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke",
+      "role": "fan_spoke",
+      "door_key": "end_neg_y_neg",
+      "source_refs": [
+        "SHELL_fan_spoke"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 8.501148882131913e-07,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.6612000465393066,
+          -0.6578000783920288
+        ],
+        [
+          -0.3965005874633789,
+          -0.2925005853176117
+        ],
+        [
+          0.12535998225212097,
+          0.12876001000404358
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.001",
+      "role": "fan_spoke",
+      "door_key": "end_neg_y_neg",
+      "source_refs": [
+        "SHELL_fan_spoke.001"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 8.501146772880602e-07,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.6612000465393066,
+          -0.6578000783920288
+        ],
+        [
+          -0.37197282910346985,
+          -0.31702831387519836
+        ],
+        [
+          0.08117664605379105,
+          0.17294326424598694
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.002",
+      "role": "fan_spoke",
+      "door_key": "end_neg_y_neg",
+      "source_refs": [
+        "SHELL_fan_spoke.002"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 8.501172901909923e-07,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.6612000465393066,
+          -0.6578000783920288
+        ],
+        [
+          -0.37197282910346985,
+          -0.31702834367752075
+        ],
+        [
+          0.08117664605379105,
+          0.17294326424598694
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_-1_-1_0.454",
+      "role": "hinge_visual",
+      "door_key": "end_neg_y_neg",
+      "source_refs": [
+        "SHELL_hinge_-1_-1_0.454"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 5.143256537778387e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.656749963760376,
+          -0.6447499990463257
+        ],
+        [
+          -0.46500059962272644,
+          -0.45300057530403137
+        ],
+        [
+          0.05199999734759331,
+          0.09800000488758087
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_-1_-1_0.744",
+      "role": "hinge_visual",
+      "door_key": "end_neg_y_neg",
+      "source_refs": [
+        "SHELL_hinge_-1_-1_0.744"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 5.143256121254462e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.656749963760376,
+          -0.6447499990463257
+        ],
+        [
+          -0.46500059962272644,
+          -0.45300057530403137
+        ],
+        [
+          0.4020000100135803,
+          0.4480000138282776
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_emergency_stop",
+      "role": "end_control",
+      "door_key": "end_neg_y_neg",
+      "source_refs": [
+        "SHELL_emergency_stop"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 1.9715933479779108e-05,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.6635000705718994,
+          -0.6514999866485596
+        ],
+        [
+          -0.4224605858325958,
+          -0.37646058201789856
+        ],
+        [
+          0.40422001481056213,
+          0.4502200186252594
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_emergency_stop.001",
+      "role": "end_control",
+      "door_key": "end_neg_y_neg",
+      "source_refs": [
+        "SHELL_emergency_stop.001"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 8.385697230093968e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.6754999756813049,
+          -0.6635000109672546
+        ],
+        [
+          -0.41446056962013245,
+          -0.38446059823036194
+        ],
+        [
+          0.4122200310230255,
+          0.442220002412796
+        ]
+      ]
+    },
+    {
+      "name": "CAD_door_leaf_end_neg_y_pos",
+      "role": "door_leaf",
+      "door_key": "end_neg_y_pos",
+      "source_refs": [
+        "zw$1F51/2B77",
+        "photos"
+      ],
+      "geometry_status": "CAD_OPENING_DERIVED_LEAF_WITH_ASSUMED_GAPS_AND_FAN_BORE",
+      "solid": true,
+      "volume_m3": 0.0002960018244027581,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.6514999866485596,
+          -0.6499999761581421
+        ],
+        [
+          0.0009994053980335593,
+          0.4589993953704834
+        ],
+        [
+          0.02850000001490116,
+          0.476500004529953
+        ]
+      ]
+    },
+    {
+      "name": "CAD_fan_shroud_end_neg_y_pos",
+      "role": "fan_shroud",
+      "door_key": "end_neg_y_pos",
+      "source_refs": [
+        "SHELL_fan_back_-1_1",
+        "photo fan visible"
+      ],
+      "geometry_status": "NEW_OPEN_FAN_SHROUD_DIMENSIONS_UNMEASURED",
+      "solid": true,
+      "volume_m3": 6.594708871677413e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.6554999947547913,
+          -0.6514999866485596
+        ],
+        [
+          0.2894994020462036,
+          0.39949941635131836
+        ],
+        [
+          0.0720599964261055,
+          0.18206000328063965
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_electrical_caution.001",
+      "role": "warning_decal",
+      "door_key": "end_neg_y_pos",
+      "source_refs": [
+        "SHELL_electrical_caution.001"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 3,
+      "bounds_component_m": [
+        [
+          -0.6516000032424927,
+          -0.6516000032424927
+        ],
+        [
+          0.2049994021654129,
+          0.25499939918518066
+        ],
+        [
+          0.257999986410141,
+          0.3020000159740448
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_1_0.019",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_pos",
+      "source_refs": [
+        "SHELL_fan_grille_-1_1_0.019"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          -0.6591001152992249,
+          -0.6559000611305237
+        ],
+        [
+          0.3239777088165283,
+          0.3650192618370056
+        ],
+        [
+          0.1065383329987526,
+          0.14758172631263733
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_1_0.03",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_pos",
+      "source_refs": [
+        "SHELL_fan_grille_-1_1_0.03"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          -0.6591001152992249,
+          -0.6559000611305237
+        ],
+        [
+          0.31297770142555237,
+          0.3760192394256592
+        ],
+        [
+          0.09553832560777664,
+          0.1585817039012909
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_1_0.041",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_pos",
+      "source_refs": [
+        "SHELL_fan_grille_-1_1_0.041"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          -0.6591001152992249,
+          -0.6559000611305237
+        ],
+        [
+          0.3019776940345764,
+          0.38701924681663513
+        ],
+        [
+          0.08453831821680069,
+          0.16958168148994446
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_-1_1_0.052",
+      "role": "fan_grille",
+      "door_key": "end_neg_y_pos",
+      "source_refs": [
+        "SHELL_fan_grille_-1_1_0.052"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          -0.6591001152992249,
+          -0.6559000611305237
+        ],
+        [
+          0.29097771644592285,
+          0.3980192542076111
+        ],
+        [
+          0.07353831082582474,
+          0.1805817186832428
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.003",
+      "role": "fan_spoke",
+      "door_key": "end_neg_y_pos",
+      "source_refs": [
+        "SHELL_fan_spoke.003"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 8.501148248485988e-07,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.6612000465393066,
+          -0.6578000783920288
+        ],
+        [
+          0.2924993932247162,
+          0.3964993953704834
+        ],
+        [
+          0.12535998225212097,
+          0.12876001000404358
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.004",
+      "role": "fan_spoke",
+      "door_key": "end_neg_y_pos",
+      "source_refs": [
+        "SHELL_fan_spoke.004"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 8.501147089691642e-07,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.6612000465393066,
+          -0.6578000783920288
+        ],
+        [
+          0.31702712178230286,
+          0.37197163701057434
+        ],
+        [
+          0.08117664605379105,
+          0.17294326424598694
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.005",
+      "role": "fan_spoke",
+      "door_key": "end_neg_y_pos",
+      "source_refs": [
+        "SHELL_fan_spoke.005"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 8.501172585087311e-07,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.6612000465393066,
+          -0.6578000783920288
+        ],
+        [
+          0.31702715158462524,
+          0.37197163701057434
+        ],
+        [
+          0.08117664605379105,
+          0.17294326424598694
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_-1_1_0.454",
+      "role": "hinge_visual",
+      "door_key": "end_neg_y_pos",
+      "source_refs": [
+        "SHELL_hinge_-1_1_0.454"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 5.143256537778351e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.656749963760376,
+          -0.6447499990463257
+        ],
+        [
+          0.45299938321113586,
+          0.46499940752983093
+        ],
+        [
+          0.05199999734759331,
+          0.09800000488758087
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_-1_1_0.744",
+      "role": "hinge_visual",
+      "door_key": "end_neg_y_pos",
+      "source_refs": [
+        "SHELL_hinge_-1_1_0.744"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 5.143256121253957e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.656749963760376,
+          -0.6447499990463257
+        ],
+        [
+          0.45299938321113586,
+          0.46499940752983093
+        ],
+        [
+          0.4020000100135803,
+          0.4480000138282776
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_round_blank_cap_-1",
+      "role": "end_control",
+      "door_key": "end_neg_y_pos",
+      "source_refs": [
+        "SHELL_round_blank_cap_-1"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 2.254845128297811e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          -0.6575000286102295,
+          -0.6514999866485596
+        ],
+        [
+          0.38845938444137573,
+          0.41045939922332764
+        ],
+        [
+          0.4162200391292572,
+          0.43821999430656433
+        ]
+      ]
+    },
+    {
+      "name": "CAD_door_leaf_end_pos_y_neg",
+      "role": "door_leaf",
+      "door_key": "end_pos_y_neg",
+      "source_refs": [
+        "zw$1F51/2B77",
+        "photos"
+      ],
+      "geometry_status": "CAD_OPENING_DERIVED_LEAF_WITH_ASSUMED_GAPS_AND_FAN_BORE",
+      "solid": true,
+      "volume_m3": 0.00029600182619470797,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6499999761581421,
+          0.6514999866485596
+        ],
+        [
+          -0.4590005874633789,
+          -0.0010005945805460215
+        ],
+        [
+          0.02850000001490116,
+          0.476500004529953
+        ]
+      ]
+    },
+    {
+      "name": "CAD_fan_shroud_end_pos_y_neg",
+      "role": "fan_shroud",
+      "door_key": "end_pos_y_neg",
+      "source_refs": [
+        "SHELL_fan_back_1_-1",
+        "photo fan visible"
+      ],
+      "geometry_status": "NEW_OPEN_FAN_SHROUD_DIMENSIONS_UNMEASURED",
+      "solid": true,
+      "volume_m3": 6.594707721937355e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6514999866485596,
+          0.6554999947547913
+        ],
+        [
+          -0.39950060844421387,
+          -0.2895005941390991
+        ],
+        [
+          0.0720599964261055,
+          0.18206000328063965
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_electrical_caution.002",
+      "role": "warning_decal",
+      "door_key": "end_pos_y_neg",
+      "source_refs": [
+        "SHELL_electrical_caution.002"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 3,
+      "bounds_component_m": [
+        [
+          0.6516000032424927,
+          0.6516000032424927
+        ],
+        [
+          -0.25500059127807617,
+          -0.2050005942583084
+        ],
+        [
+          0.257999986410141,
+          0.3020000159740448
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_-1_0.019",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_neg",
+      "source_refs": [
+        "SHELL_fan_grille_1_-1_0.019"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          0.6559000611305237,
+          0.6591001152992249
+        ],
+        [
+          -0.3650222718715668,
+          -0.3239807188510895
+        ],
+        [
+          0.1065383329987526,
+          0.14758172631263733
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_-1_0.03",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_neg",
+      "source_refs": [
+        "SHELL_fan_grille_1_-1_0.03"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          0.6559000611305237,
+          0.6591001152992249
+        ],
+        [
+          -0.37602224946022034,
+          -0.3129807412624359
+        ],
+        [
+          0.09553832560777664,
+          0.1585817039012909
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_-1_0.041",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_neg",
+      "source_refs": [
+        "SHELL_fan_grille_1_-1_0.041"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          0.6559000611305237,
+          0.6591001152992249
+        ],
+        [
+          -0.3870222568511963,
+          -0.30198073387145996
+        ],
+        [
+          0.08453831821680069,
+          0.16958168148994446
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_-1_0.052",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_neg",
+      "source_refs": [
+        "SHELL_fan_grille_1_-1_0.052"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          0.6559000611305237,
+          0.6591001152992249
+        ],
+        [
+          -0.39802226424217224,
+          -0.290980726480484
+        ],
+        [
+          0.07353831082582474,
+          0.1805817186832428
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.006",
+      "role": "fan_spoke",
+      "door_key": "end_pos_y_neg",
+      "source_refs": [
+        "SHELL_fan_spoke.006"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 8.501148882136262e-07,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6578000783920288,
+          0.6612000465393066
+        ],
+        [
+          -0.3965005874633789,
+          -0.2925005853176117
+        ],
+        [
+          0.12535998225212097,
+          0.12876001000404358
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.007",
+      "role": "fan_spoke",
+      "door_key": "end_pos_y_neg",
+      "source_refs": [
+        "SHELL_fan_spoke.007"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 8.501146772891605e-07,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6578000783920288,
+          0.6612000465393066
+        ],
+        [
+          -0.37197282910346985,
+          -0.31702831387519836
+        ],
+        [
+          0.08117664605379105,
+          0.17294326424598694
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.008",
+      "role": "fan_spoke",
+      "door_key": "end_pos_y_neg",
+      "source_refs": [
+        "SHELL_fan_spoke.008"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 8.501172901904719e-07,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6578000783920288,
+          0.6612000465393066
+        ],
+        [
+          -0.37197282910346985,
+          -0.31702834367752075
+        ],
+        [
+          0.08117664605379105,
+          0.17294326424598694
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_1_-1_0.454",
+      "role": "hinge_visual",
+      "door_key": "end_pos_y_neg",
+      "source_refs": [
+        "SHELL_hinge_1_-1_0.454"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 5.143256537778318e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6447499990463257,
+          0.656749963760376
+        ],
+        [
+          -0.46500059962272644,
+          -0.45300057530403137
+        ],
+        [
+          0.05199999734759331,
+          0.09800000488758087
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_1_-1_0.744",
+      "role": "hinge_visual",
+      "door_key": "end_pos_y_neg",
+      "source_refs": [
+        "SHELL_hinge_1_-1_0.744"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 5.1432561212543165e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6447499990463257,
+          0.656749963760376
+        ],
+        [
+          -0.46500059962272644,
+          -0.45300057530403137
+        ],
+        [
+          0.4020000100135803,
+          0.4480000138282776
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_emergency_stop.002",
+      "role": "end_control",
+      "door_key": "end_pos_y_neg",
+      "source_refs": [
+        "SHELL_emergency_stop.002"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 1.971593347977946e-05,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6514999866485596,
+          0.6635000705718994
+        ],
+        [
+          -0.4224605858325958,
+          -0.37646058201789856
+        ],
+        [
+          0.40422001481056213,
+          0.4502200186252594
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_emergency_stop.003",
+      "role": "end_control",
+      "door_key": "end_pos_y_neg",
+      "source_refs": [
+        "SHELL_emergency_stop.003"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 8.385697230093981e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6635000109672546,
+          0.6754999756813049
+        ],
+        [
+          -0.41446056962013245,
+          -0.38446059823036194
+        ],
+        [
+          0.4122200310230255,
+          0.442220002412796
+        ]
+      ]
+    },
+    {
+      "name": "CAD_door_leaf_end_pos_y_pos",
+      "role": "door_leaf",
+      "door_key": "end_pos_y_pos",
+      "source_refs": [
+        "zw$1F51/2B77",
+        "photos"
+      ],
+      "geometry_status": "CAD_OPENING_DERIVED_LEAF_WITH_ASSUMED_GAPS_AND_FAN_BORE",
+      "solid": true,
+      "volume_m3": 0.00029600182440272447,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6499999761581421,
+          0.6514999866485596
+        ],
+        [
+          0.0009994053980335593,
+          0.4589993953704834
+        ],
+        [
+          0.02850000001490116,
+          0.476500004529953
+        ]
+      ]
+    },
+    {
+      "name": "CAD_fan_shroud_end_pos_y_pos",
+      "role": "fan_shroud",
+      "door_key": "end_pos_y_pos",
+      "source_refs": [
+        "SHELL_fan_back_1_1",
+        "photo fan visible"
+      ],
+      "geometry_status": "NEW_OPEN_FAN_SHROUD_DIMENSIONS_UNMEASURED",
+      "solid": true,
+      "volume_m3": 6.594708871677384e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6514999866485596,
+          0.6554999947547913
+        ],
+        [
+          0.2894994020462036,
+          0.39949941635131836
+        ],
+        [
+          0.0720599964261055,
+          0.18206000328063965
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_door_handle_1",
+      "role": "door_handle",
+      "door_key": "end_pos_y_pos",
+      "source_refs": [
+        "SHELL_door_handle_1"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 2.3648717378320872e-05,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6514999866485596,
+          0.6694999933242798
+        ],
+        [
+          0.018999405205249786,
+          0.03299940377473831
+        ],
+        [
+          0.19999998807907104,
+          0.3050000071525574
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_electrical_caution.003",
+      "role": "warning_decal",
+      "door_key": "end_pos_y_pos",
+      "source_refs": [
+        "SHELL_electrical_caution.003"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 3,
+      "bounds_component_m": [
+        [
+          0.6516000032424927,
+          0.6516000032424927
+        ],
+        [
+          0.2049994021654129,
+          0.25499939918518066
+        ],
+        [
+          0.257999986410141,
+          0.3020000159740448
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_1_0.019",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_pos",
+      "source_refs": [
+        "SHELL_fan_grille_1_1_0.019"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          0.6559000611305237,
+          0.6591001152992249
+        ],
+        [
+          0.3239777088165283,
+          0.3650192618370056
+        ],
+        [
+          0.1065383329987526,
+          0.14758172631263733
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_1_0.03",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_pos",
+      "source_refs": [
+        "SHELL_fan_grille_1_1_0.03"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          0.6559000611305237,
+          0.6591001152992249
+        ],
+        [
+          0.31297770142555237,
+          0.3760192394256592
+        ],
+        [
+          0.09553832560777664,
+          0.1585817039012909
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_1_0.041",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_pos",
+      "source_refs": [
+        "SHELL_fan_grille_1_1_0.041"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          0.6559000611305237,
+          0.6591001152992249
+        ],
+        [
+          0.3019776940345764,
+          0.38701924681663513
+        ],
+        [
+          0.08453831821680069,
+          0.16958168148994446
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_grille_1_1_0.052",
+      "role": "fan_grille",
+      "door_key": "end_pos_y_pos",
+      "source_refs": [
+        "SHELL_fan_grille_1_1_0.052"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": false,
+      "volume_m3": 0,
+      "nonmanifold_edges": 20,
+      "bounds_component_m": [
+        [
+          0.6559000611305237,
+          0.6591001152992249
+        ],
+        [
+          0.29097771644592285,
+          0.3980192542076111
+        ],
+        [
+          0.07353831082582474,
+          0.1805817186832428
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.009",
+      "role": "fan_spoke",
+      "door_key": "end_pos_y_pos",
+      "source_refs": [
+        "SHELL_fan_spoke.009"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 8.501148248478563e-07,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6578000783920288,
+          0.6612000465393066
+        ],
+        [
+          0.2924993932247162,
+          0.3964993953704834
+        ],
+        [
+          0.12535998225212097,
+          0.12876001000404358
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.010",
+      "role": "fan_spoke",
+      "door_key": "end_pos_y_pos",
+      "source_refs": [
+        "SHELL_fan_spoke.010"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 8.501147089692572e-07,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6578000783920288,
+          0.6612000465393066
+        ],
+        [
+          0.31702712178230286,
+          0.37197163701057434
+        ],
+        [
+          0.08117664605379105,
+          0.17294326424598694
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_fan_spoke.011",
+      "role": "fan_spoke",
+      "door_key": "end_pos_y_pos",
+      "source_refs": [
+        "SHELL_fan_spoke.011"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 8.501172585084369e-07,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6578000783920288,
+          0.6612000465393066
+        ],
+        [
+          0.31702715158462524,
+          0.37197163701057434
+        ],
+        [
+          0.08117664605379105,
+          0.17294326424598694
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_1_1_0.454",
+      "role": "hinge_visual",
+      "door_key": "end_pos_y_pos",
+      "source_refs": [
+        "SHELL_hinge_1_1_0.454"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 5.1432565377783646e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6447499990463257,
+          0.656749963760376
+        ],
+        [
+          0.45299938321113586,
+          0.46499940752983093
+        ],
+        [
+          0.05199999734759331,
+          0.09800000488758087
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_hinge_1_1_0.744",
+      "role": "hinge_visual",
+      "door_key": "end_pos_y_pos",
+      "source_refs": [
+        "SHELL_hinge_1_1_0.744"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 5.143256121253876e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6447499990463257,
+          0.656749963760376
+        ],
+        [
+          0.45299938321113586,
+          0.46499940752983093
+        ],
+        [
+          0.4020000100135803,
+          0.4480000138282776
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_round_blank_cap_1",
+      "role": "end_control",
+      "door_key": "end_pos_y_pos",
+      "source_refs": [
+        "SHELL_round_blank_cap_1"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 2.254845128297899e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6514999866485596,
+          0.6575000286102295
+        ],
+        [
+          0.38845938444137573,
+          0.41045939922332764
+        ],
+        [
+          0.4162200391292572,
+          0.43821999430656433
+        ]
+      ]
+    },
+    {
+      "name": "CAD_mounted_SHELL_supply_indicator",
+      "role": "end_control",
+      "door_key": "end_pos_y_pos",
+      "source_refs": [
+        "SHELL_supply_indicator"
+      ],
+      "geometry_status": "SOURCE_MESH_RIGID_RELOCATED_CANDIDATE",
+      "solid": true,
+      "volume_m3": 5.248843429594315e-06,
+      "nonmanifold_edges": 0,
+      "bounds_component_m": [
+        [
+          0.6514999866485596,
+          0.6614999771118164
+        ],
+        [
+          0.3864593803882599,
+          0.4124594032764435
+        ],
+        [
+          0.3239399790763855,
+          0.3499400019645691
+        ]
+      ]
+    }
+  ],
+  "tolerances": {
+    "CAD_profile_maximum_chord_sag_mm": 0.001,
+    "Blender_vertex_storage": "float32; source CAD dimensions and contract are double precision",
+    "mesh_coordinate_validation_tolerance_m": 2e-07
+  },
+  "promotion_gate": [
+    "CAD design revision and photo/as-built correspondence unknown",
+    "Hinge depth, gaps, sheet thickness, actual attachment dimensions/placement and all masses require measurement",
+    "Shell/door hinge sweep collision is not certified by geometry-only deliverable",
+    "Powered fan rigid-body model must be relocated and its budget deducted exactly once"
+  ]
+}

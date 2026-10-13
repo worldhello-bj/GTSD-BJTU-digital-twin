@@ -1,0 +1,4227 @@
+[
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1163,
+    "wall_s": 0.01292655899305828
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.6367652830085717
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.0038743219920434058
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.35464644100284204
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.0050700349966064095
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.004743510013213381
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.005801577994134277
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.0019541239889804274
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.01572828899952583
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.008631288015749305
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.001770898001268506
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.008076267986325547
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.005914420005865395
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.02153941398137249
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.015355044015450403
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.009684845979791135
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.03801303400541656
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.025749052001629025
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.022304906975477934
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.0021926769986748695
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.001775186014128849
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.013413745997240767
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1159,
+    "wall_s": 0.0015053290117066354
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.016156726982444525
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1159,
+    "wall_s": 0.030506290000630543
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.01974046099348925
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.0011636450071819127
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.001436917984392494
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.001006626000162214
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.0013510349963326007
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.016418487997725606
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.005175653001060709
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.004318292019888759
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.01816777599742636
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.07413979599368758
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.02850599100929685
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.05819870700361207
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.050230873021064326
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1159,
+    "wall_s": 0.055615362973185256
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.0298091130098328
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.056344469980103895
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.033444905013311654
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.034785114985425025
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.027326653013005853
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.04370619900873862
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.011088480008766055
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.3924679330084473
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.045848194014979526
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.057285340008093044
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.05498589400667697
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.048608709999825805
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.05879995200666599
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.04242225698544644
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.03245528499246575
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.020221590995788574
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.6668603529979009
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.11003052399610169
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.04789123198133893
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1159,
+    "wall_s": 0.05699661999824457
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.06349776501883753
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.04355061400565319
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.030023528990568593
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1159,
+    "wall_s": 0.3309199399955105
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.04309968100278638
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.023795291024725884
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.01794468698790297
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.03175738200661726
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.07360223200521432
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1159,
+    "wall_s": 0.061240698996698484
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.03062263102037832
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.008386915986193344
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.014938050997443497
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.11337697898852639
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.04919257599976845
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.05527502900804393
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.03263079698081128
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.06360908100032248
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1159,
+    "wall_s": 0.05536658500204794
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.012239739997312427
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.02837044498301111
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.05831518999184482
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.03713506698841229
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.05903040201519616
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.05951082200044766
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.3900113000127021
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.0934990829846356
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.041660760005470365
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.017528805998153985
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.06382108500110917
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.01604362699436024
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.09677099200780503
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.006755103007890284
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.021066442015580833
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.0025966910179704428
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.03912120798486285
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.055641020997427404
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.07845885399729013
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.04615517699858174
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.03414189800969325
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.034624932013684884
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.027385118999518454
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.06997789198067039
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.022044120996724814
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.025702705985167995
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.031862426025327295
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.03713244601385668
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.04294437600765377
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.0731907110020984
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.0030321509984787554
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.06379146699327976
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.03999165300047025
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.07862511998973787
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.0443801999790594
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.0668224369874224
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.07196652502170764
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.014062948990613222
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.010194909991696477
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.01836393802659586
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.017122321005444974
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.0020615460234694183
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.07503840498975478
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.04867049501626752
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.04692180498386733
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.023801752016879618
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.6337491259910166
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.027960620005615056
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1158,
+    "wall_s": 0.019840706983814016
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.028267643006984144
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.05222199598210864
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.07111825002357364
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.031254675006493926
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.03739832199062221
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.0404843209835235
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.02485345900640823
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.011869020003359765
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.0247888510057237
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.0368428009969648
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.022572164016310126
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.03235105299972929
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.056080991023918614
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.03550307301338762
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.0019948490080423653
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.07087431498803198
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.06405826300033368
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.0621862779953517
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.018168772978242487
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.07456277901655994
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.039729019976221025
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.042248236015439034
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.022593232977669686
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.04963895899709314
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1160,
+    "wall_s": 0.23510786800761707
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.04672491498058662
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.047187677992042154
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.031925504008540884
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1161,
+    "wall_s": 0.07766638198518194
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514249,
+    "wall_s": 0.19421552700805478
+  },
+  {
+    "method": "GET",
+    "path": "/api/binding",
+    "status": 200,
+    "bytes": 890895,
+    "wall_s": 0.0939779230102431
+  },
+  {
+    "method": "GET",
+    "path": "/geometry.json",
+    "status": 200,
+    "bytes": 13478293,
+    "wall_s": 0.046221505996072665
+  },
+  {
+    "method": "GET",
+    "path": "/",
+    "status": 200,
+    "bytes": 7179,
+    "wall_s": 0.002250955003546551
+  },
+  {
+    "method": "GET",
+    "path": "/app.js",
+    "status": 200,
+    "bytes": 18230,
+    "wall_s": 0.0011791469878517091
+  },
+  {
+    "method": "GET",
+    "path": "/ui-model.js",
+    "status": 200,
+    "bytes": 7663,
+    "wall_s": 0.0009902240126393735
+  },
+  {
+    "method": "GET",
+    "path": "/contact-sections.js",
+    "status": 200,
+    "bytes": 5599,
+    "wall_s": 0.0011278239835519344
+  },
+  {
+    "method": "GET",
+    "path": "/internal-systems.js",
+    "status": 200,
+    "bytes": 8202,
+    "wall_s": 0.0008437760116066784
+  },
+  {
+    "method": "GET",
+    "path": "/style.css",
+    "status": 200,
+    "bytes": 3888,
+    "wall_s": 0.0014428419817704707
+  },
+  {
+    "method": "GET",
+    "path": "/physics-model.js",
+    "status": 200,
+    "bytes": 4280,
+    "wall_s": 0.0018313789914827794
+  },
+  {
+    "method": "GET",
+    "path": "/render-model.js",
+    "status": 200,
+    "bytes": 26462,
+    "wall_s": 0.0011780149943660945
+  },
+  {
+    "method": "GET",
+    "path": "/fan82.js",
+    "status": 200,
+    "bytes": 4243,
+    "wall_s": 0.0009153290011454374
+  },
+  {
+    "method": "GET",
+    "path": "/fan82.css",
+    "status": 200,
+    "bytes": 449,
+    "wall_s": 0.0007936230103950948
+  },
+  {
+    "method": "GET",
+    "path": "/truth-evidence.js",
+    "status": 200,
+    "bytes": 11126,
+    "wall_s": 0.0007915199967101216
+  },
+  {
+    "method": "GET",
+    "path": "/truth-evidence.css",
+    "status": 200,
+    "bytes": 1079,
+    "wall_s": 0.0006610930140595883
+  },
+  {
+    "method": "GET",
+    "path": "/truth-evidence-client.js",
+    "status": 200,
+    "bytes": 1682,
+    "wall_s": 0.0007293630042113364
+  },
+  {
+    "method": "GET",
+    "path": "/api/truth-evidence",
+    "status": 200,
+    "bytes": 417266,
+    "wall_s": 0.36522232499555685
+  },
+  {
+    "method": "GET",
+    "path": "/api/internal-registry",
+    "status": 200,
+    "bytes": 5124028,
+    "wall_s": 0.371381108998321
+  },
+  {
+    "method": "GET",
+    "path": "/api/four-door-fans",
+    "status": 200,
+    "bytes": 30490,
+    "wall_s": 0.2934197439753916
+  },
+  {
+    "method": "GET",
+    "path": "/api/lineage-registry",
+    "status": 200,
+    "bytes": 4134331,
+    "wall_s": 0.5314347519888543
+  },
+  {
+    "method": "GET",
+    "path": "/api/checkpoint",
+    "status": 200,
+    "bytes": 240589,
+    "wall_s": 0.22700606400030665
+  },
+  {
+    "method": "GET",
+    "path": "/api/four-door-fans",
+    "status": 200,
+    "bytes": 30491,
+    "wall_s": 0.4183078649803065
+  },
+  {
+    "method": "GET",
+    "path": "/api/phase6-observations",
+    "status": 200,
+    "bytes": 12602,
+    "wall_s": 0.35445530599099584
+  },
+  {
+    "method": "GET",
+    "path": "/api/lineage-observation",
+    "status": 200,
+    "bytes": 532819,
+    "wall_s": 0.11109574398142286
+  },
+  {
+    "method": "GET",
+    "path": "/api/four-door-fans",
+    "status": 200,
+    "bytes": 30491,
+    "wall_s": 0.22763212901190855
+  },
+  {
+    "method": "GET",
+    "path": "/api/phase6-observations",
+    "status": 200,
+    "bytes": 12602,
+    "wall_s": 0.1789204440137837
+  },
+  {
+    "method": "GET",
+    "path": "/api/lineage-observation",
+    "status": 200,
+    "bytes": 532819,
+    "wall_s": 0.09688091298448853
+  },
+  {
+    "method": "GET",
+    "path": "/api/checkpoint",
+    "status": 200,
+    "bytes": 240589,
+    "wall_s": 0.25185451802099124
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514250,
+    "wall_s": 0.1419748900225386
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 202,
+    "bytes": 70,
+    "wall_s": 0.03886083798715845,
+    "action": "four_door_fan",
+    "request_id": "d83de7e99d4a490ba1d05c30b31e61fa"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514249,
+    "wall_s": 0.3343113139853813
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514249,
+    "wall_s": 0.31406240799697116
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514427,
+    "wall_s": 0.09399773902259767
+  },
+  {
+    "method": "GET",
+    "path": "/api/checkpoint",
+    "status": 200,
+    "bytes": 240589,
+    "wall_s": 0.17716940099489875
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514428,
+    "wall_s": 0.07648743799654767
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 400,
+    "bytes": 55,
+    "wall_s": 0.030327887972816825,
+    "action": "unknown",
+    "request_id": "104e62083b35439695257a4dd16ad062",
+    "response": "{\"error\": \"unsupported action or unexpected arguments\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514428,
+    "wall_s": 0.19016250999993645
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 400,
+    "bytes": 32,
+    "wall_s": 0.01712204798241146,
+    "action": "step",
+    "request_id": "948466c2cc244fd5bb88790ee11103e6",
+    "response": "{\"error\": \"steps below minimum\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514429,
+    "wall_s": 0.07193359200027771
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 400,
+    "bytes": 37,
+    "wall_s": 0.0013419579772744328,
+    "action": "step",
+    "request_id": "e1645a5d335f433dbe8441043189aebf",
+    "response": "{\"error\": \"steps must be an integer\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514427,
+    "wall_s": 0.08896090398775414
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 400,
+    "bytes": 32,
+    "wall_s": 0.08881708400440402,
+    "action": "step",
+    "request_id": "9ba3da07831545979683c14184e29d00",
+    "response": "{\"error\": \"steps above maximum\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514427,
+    "wall_s": 0.18861837100121193
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 400,
+    "bytes": 55,
+    "wall_s": 0.0016996080230455846,
+    "action": "pause",
+    "request_id": "3ed2d6e2a55f490db26ea0f9b7958079",
+    "response": "{\"error\": \"unsupported action or unexpected arguments\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514427,
+    "wall_s": 0.09436892397934571
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 400,
+    "bytes": 40,
+    "wall_s": 0.02207791098044254,
+    "action": "four_door_fan",
+    "request_id": "f6e02be3a8824b4383b667f7d6242dc9",
+    "response": "{\"error\": \"key is not an accepted mode\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514428,
+    "wall_s": 0.14894774902495556
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 400,
+    "bytes": 43,
+    "wall_s": 0.06472979602403939,
+    "action": "four_door_fan",
+    "request_id": "a40a2fa0e1a7427fb7ede5cec13b63ca",
+    "response": "{\"error\": \"voltage_fraction above maximum\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 400,
+    "bytes": 53,
+    "wall_s": 0.0011127670004498214,
+    "action": "pause",
+    "request_id": "823e66d780c14304bc2bd0fe2efccfb5",
+    "response": "{\"error\": \"stale session; refresh before commanding\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 400,
+    "bytes": 31,
+    "wall_s": 0.0009457270207349211,
+    "response": "{\"error\": \"duplicate JSON key\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 400,
+    "bytes": 41,
+    "wall_s": 0.0011252019903622568,
+    "response": "{\"error\": \"nonfinite JSON constant: NaN\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 415,
+    "bytes": 38,
+    "wall_s": 0.0009101430187001824,
+    "response": "{\"error\": \"application/json required\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 403,
+    "bytes": 56,
+    "wall_s": 0.0011282199993729591,
+    "response": "{\"error\": \"only same-origin loopback requests accepted\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/checkpoint",
+    "status": 200,
+    "bytes": 240589,
+    "wall_s": 0.07713209601934068
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514428,
+    "wall_s": 0.09902288400917314
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 202,
+    "bytes": 70,
+    "wall_s": 0.011216042010346428,
+    "action": "step",
+    "request_id": "8326d81407244a928950a4dcabc5a267"
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 202,
+    "bytes": 115,
+    "wall_s": 0.07922788200085051,
+    "action": "step",
+    "request_id": "8326d81407244a928950a4dcabc5a267"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514427,
+    "wall_s": 0.18113750399788842
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514428,
+    "wall_s": 0.20030193598358892
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514598,
+    "wall_s": 0.0906235669972375
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514597,
+    "wall_s": 0.08950698102125898
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1514597,
+    "wall_s": 0.13176273499266244
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604042,
+    "wall_s": 0.11591010299162008
+  },
+  {
+    "method": "GET",
+    "path": "/api/checkpoint",
+    "status": 200,
+    "bytes": 277389,
+    "wall_s": 0.0969878550095018
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 202,
+    "bytes": 116,
+    "wall_s": 0.020691490994067863,
+    "action": "step",
+    "request_id": "8326d81407244a928950a4dcabc5a267"
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 400,
+    "bytes": 58,
+    "wall_s": 0.015635482996003702,
+    "action": "step",
+    "request_id": "8326d81407244a928950a4dcabc5a267",
+    "response": "{\"error\": \"request_id already used for different content\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/checkpoint",
+    "status": 200,
+    "bytes": 277389,
+    "wall_s": 0.25279329501790926
+  },
+  {
+    "method": "GET",
+    "path": "/api/four-door-fans",
+    "status": 200,
+    "bytes": 33027,
+    "wall_s": 0.25242780498228967
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604042,
+    "wall_s": 0.09605292501510121
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 202,
+    "bytes": 70,
+    "wall_s": 0.06384777199127711,
+    "action": "restore_checkpoint",
+    "request_id": "5d46cf29b5e94e0f893407d9dc2b8aba"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.1068057200172916
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604042,
+    "wall_s": 0.22785503399791196
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.11480840301373973
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.4701893079909496
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.10374391402001493
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.44290571499732323
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.11731760599650443
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.16343790999962948
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.1495932889811229
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.2330770639819093
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.08198009998886846
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.12276213098084554
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.07962535801925696
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.09287007397506386
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.18531670898664743
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.12860365601954982
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.3114042940142099
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.3129676439857576
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.34399600900360383
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.8457470560097136
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.30169407499488443
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.2038186179997865
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.33499708701856434
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.2371224369853735
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.4499800000048708
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.2377782340045087
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.2759770609845873
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.23375379500794224
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604039,
+    "wall_s": 0.2043726410192903
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.19950307099497877
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.9840782750106882
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.339389297994785
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.17323722201399505
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.1705109569884371
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.17546314300852828
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.25707630097167566
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.26964357000542805
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.26125311601208523
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.25106168998172507
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.3470480249961838
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.13866253901505843
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.15134297899203375
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.1459965700050816
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.1418135020066984
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.19492596801137552
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.1641364179959055
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.17937468600575812
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.12397916000918485
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.22287041301024146
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.21588080600486137
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.7790114659874234
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.4116208839986939
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.1661662489932496
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.22365880198776722
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.2674637059972156
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.14279587598866783
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.14871430999482982
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.19903501501539722
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.44741149101173505
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.44789265500730835
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.12827418101369403
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.4411087569897063
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.39103409700328484
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.24997574399458244
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.148572501988383
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.1385217249917332
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.225019778998103
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.14161449001403525
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604039,
+    "wall_s": 0.17277495699818246
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.0985896399943158
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.08745160701801069
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604040,
+    "wall_s": 0.09636334399692714
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.14173684699926525
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604041,
+    "wall_s": 0.16804228801629506
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604257,
+    "wall_s": 0.23631285200826824
+  },
+  {
+    "method": "GET",
+    "path": "/api/checkpoint",
+    "status": 200,
+    "bytes": 277389,
+    "wall_s": 0.2391055710031651
+  },
+  {
+    "method": "GET",
+    "path": "/api/lineage-registry",
+    "status": 200,
+    "bytes": 4134331,
+    "wall_s": 0.36521539799286984
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.09260877300403081
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 202,
+    "bytes": 70,
+    "wall_s": 0.14248639898141846,
+    "action": "restore_checkpoint",
+    "request_id": "c3fae4758d4f467fac45f540aa88c105"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.19991871999809518
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.43697302899090573
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.434203760989476
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.4458285069849808
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.11955736999516375
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.14157738001085818
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.15028198398067616
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.12792256000102498
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.43311760399956256
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.15383635699981824
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.15236277700751089
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.5918293519935105
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.2511257700098213
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.31017657098709606
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.39094667200697586
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.25405090500134975
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.588702053995803
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.31241984901134856
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 1.893549306987552
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.9467502440093085
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.40500851901015267
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.5809249840094708
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.49485666400869377
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.35391901998082176
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.3287772350013256
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.4472597410203889
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.2932267499854788
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.23347050399752334
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.33016373100690544
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.18182607300695963
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.26504309399751946
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.2985489319835324
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.22200679100933485
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.26396596600534394
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.2717411690100562
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.26960887300083414
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.1306944800016936
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.1594885609811172
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.1881745470163878
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.16318616797798313
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.2787679409957491
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.15987160900840536
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.3018742919957731
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.7133260839909781
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.1627787809993606
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.1428083690116182
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.1252046599984169
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.3397055289824493
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.20032898397766985
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.16302017599809915
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.27623180899536237
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.14760673601995222
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.44110307199298404
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.6196103009860963
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.5925325210264418
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.1315274559892714
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.188989310991019
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.1390079699922353
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.1639751130132936
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.1613755809958093
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.14745886501623318
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.10839148401282728
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.09400530098355375
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604255,
+    "wall_s": 0.13353365700459108
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.1739689540117979
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604256,
+    "wall_s": 0.17384232699987479
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604497,
+    "wall_s": 0.10515486900112592
+  },
+  {
+    "method": "GET",
+    "path": "/api/checkpoint",
+    "status": 200,
+    "bytes": 277389,
+    "wall_s": 0.23036079099983908
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.14343769301194698
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 202,
+    "bytes": 70,
+    "wall_s": 0.13383368399809115,
+    "action": "restore_checkpoint",
+    "request_id": "679cd76b005b4d4e9ba56202b2230dbf"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604497,
+    "wall_s": 0.4297660889860708
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.4782337490178179
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.5585457209963351
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.8238367309968453
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.3000470210099593
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.26888171897735447
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.1884940259915311
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.2068876970151905
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.14054542500525713
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.3380891130072996
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.10983357901568525
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.08805305699934252
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.11032138401060365
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.3000677590025589
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.2770237550139427
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.8977253680059221
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.18828812698484398
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604494,
+    "wall_s": 0.30332435498712584
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.2951360470033251
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.2961721669998951
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.28839447899372317
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.3122590320126619
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.2978499469754752
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.3602562489977572
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.6726220290001947
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.27829417600878514
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.25453660200582817
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.2012596639979165
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.2486579339893069
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.35472635299083777
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.2910976040002424
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.43989603099180385
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.27246068499516696
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.258532459003618
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.59681894100504
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604494,
+    "wall_s": 0.14404666499467567
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.40147741002147086
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.8205080360057764
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.1781601730035618
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.154812877997756
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.11904243699973449
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.2159823979891371
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.4676270109775942
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.18503857299219817
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.15428784099640325
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.19122464998508804
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.1204482939792797
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.6148794179898687
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.4035552249988541
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.49739360701642
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.1246526820177678
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.10206974900211208
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604494,
+    "wall_s": 0.12064898599055596
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.1411787609977182
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.13756472399109043
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.13848445902112871
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.09074889498879202
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.25719707997632213
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604496,
+    "wall_s": 0.08584160701138899
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.12929597299080342
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.13241764201666228
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604495,
+    "wall_s": 0.15543599499505945
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604744,
+    "wall_s": 0.24044858399429359
+  },
+  {
+    "method": "GET",
+    "path": "/api/checkpoint",
+    "status": 200,
+    "bytes": 277389,
+    "wall_s": 0.24996629400993697
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604744,
+    "wall_s": 0.16232056700391695
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 202,
+    "bytes": 70,
+    "wall_s": 0.0019756700203288347,
+    "action": "step",
+    "request_id": "233f74eebd414956879cbca8d24596bf"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604743,
+    "wall_s": 0.16465867700753734
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604744,
+    "wall_s": 0.2500456149864476
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604915,
+    "wall_s": 0.22788064400083385
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604915,
+    "wall_s": 0.11698839897871949
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604914,
+    "wall_s": 0.09925319300964475
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1604914,
+    "wall_s": 0.22260333801386878
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.09473236001213081
+  },
+  {
+    "method": "GET",
+    "path": "/api/checkpoint",
+    "status": 200,
+    "bytes": 282929,
+    "wall_s": 0.31058962299721316
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610451,
+    "wall_s": 0.0890845009998884
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 202,
+    "bytes": 70,
+    "wall_s": 0.09570133901434019,
+    "action": "restore_checkpoint",
+    "request_id": "0959c57458274afbbd5d82ccd1abdbdf"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.1891675190126989
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610451,
+    "wall_s": 0.5299747819954064
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.4849599059962202
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.36763515797792934
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.5164344419899862
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.1289840140088927
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.1500011690077372
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.15977753800689243
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.14583634000155143
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.1477612529997714
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.08805547200608999
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.2421632879995741
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.08181018600589596
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.12749222898855805
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.24381611900753342
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610448,
+    "wall_s": 0.4385937790211756
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.3324499750160612
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.2655957009992562
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.9907036639924627
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.25473979499656707
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610448,
+    "wall_s": 1.011137556983158
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.3042434700182639
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610448,
+    "wall_s": 0.6941597679979168
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.3058372719970066
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.11818804798531346
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.559647819987731
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.4862556640000548
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.5755802850180771
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.2602853429852985
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.43400216702139005
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.7435030289925635
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.9704430070123635
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.8585788389900699
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.7758272960199974
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 1.7748307430010755
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 1.2121034900192171
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.613579644006677
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.29862116000731476
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.12827174802077934
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.1535798519907985
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.6108163789904211
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.3213490789930802
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.23904924301314168
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.23715740599436685
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 1.0382337870250922
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.26940497997566126
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.3327664620010182
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.32181206898530945
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.15547432101448067
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.21964934500283562
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.2313360820116941
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.42641581399948336
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.6675655510043725
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.4100096510082949
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.31722445398918353
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.25985501398099586
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.17737701701116748
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.13306033902335912
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.19112790501094423
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.31602984300116077
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.10357861599186435
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.13436585699673742
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.12077255401527509
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.22732586599886417
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.16832880600122735
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.14135499400435947
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.2147698089829646
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.13777445300365798
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.14198813898838125
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.1274661399947945
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.28079062499455176
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610450,
+    "wall_s": 0.3322066149848979
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.30744740800582804
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.23997211101232097
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.27889524202328175
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610449,
+    "wall_s": 0.3112126239866484
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1605080,
+    "wall_s": 0.16915403099847026
+  },
+  {
+    "method": "GET",
+    "path": "/api/checkpoint",
+    "status": 200,
+    "bytes": 277389,
+    "wall_s": 0.4601628200034611
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 400,
+    "bytes": 53,
+    "wall_s": 0.032818445994053036,
+    "action": "pause",
+    "request_id": "e8c38aac86f7481b9a23009e59b01773",
+    "response": "{\"error\": \"stale session; refresh before commanding\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1605080,
+    "wall_s": 0.1946425889909733
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 202,
+    "bytes": 70,
+    "wall_s": 0.19742144597694278,
+    "action": "step",
+    "request_id": "81459fded6c34fb7a49af78bc7b81544"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1605081,
+    "wall_s": 0.18764624497271143
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1605081,
+    "wall_s": 0.2882967519981321
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1605250,
+    "wall_s": 0.1627452560060192
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1605251,
+    "wall_s": 0.10354630197980441
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1605250,
+    "wall_s": 0.12886220999644138
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1605250,
+    "wall_s": 0.1272671529732179
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1605250,
+    "wall_s": 0.21809815798769705
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610806,
+    "wall_s": 0.14543973200488836
+  },
+  {
+    "method": "GET",
+    "path": "/api/checkpoint",
+    "status": 200,
+    "bytes": 282929,
+    "wall_s": 0.13949878001585603
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610805,
+    "wall_s": 0.3023693829891272
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 202,
+    "bytes": 70,
+    "wall_s": 0.0017136499809566885,
+    "action": "run",
+    "request_id": "e6fa6d8f23314d519d3be9c654e17600"
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 202,
+    "bytes": 70,
+    "wall_s": 0.0026595199888106436,
+    "action": "pause",
+    "request_id": "2a6cb615207d460cbf795fd7e6a5db43"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610805,
+    "wall_s": 0.249792175978655
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610807,
+    "wall_s": 0.18181546399137005
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610977,
+    "wall_s": 0.2619123169861268
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610978,
+    "wall_s": 0.09180253199883737
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610977,
+    "wall_s": 0.09357962201465853
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610977,
+    "wall_s": 0.15462727498379536
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1610977,
+    "wall_s": 0.16622496998752467
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1688752,
+    "wall_s": 0.15316199298831634
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1688752,
+    "wall_s": 0.3069992559903767
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1688925,
+    "wall_s": 0.3105264120094944
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1688926,
+    "wall_s": 0.17228289300692268
+  },
+  {
+    "method": "POST",
+    "path": "/api/command",
+    "status": 202,
+    "bytes": 70,
+    "wall_s": 0.06344206799985841,
+    "action": "run",
+    "request_id": "a32eb107751949038c52001fa7a787e7"
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1688925,
+    "wall_s": 0.15005951200146228
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689097,
+    "wall_s": 0.23729725999874063
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.08729613400646485
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.09422347802319564
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.09310551098315045
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.09409550699638203
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.12120974299614318
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.10047618899261579
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.07794085101340897
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.09811017999891192
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.14999744400847703
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.2688209049811121
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.10316752301878296
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.09765663501457311
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.13581088298815303
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.0853582429990638
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689095,
+    "wall_s": 0.08481953400769271
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.10582651599543169
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.09536472600302659
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.08434126901556738
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689095,
+    "wall_s": 0.1000545019924175
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689095,
+    "wall_s": 0.08690386801026762
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.12718194400076754
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689095,
+    "wall_s": 0.15176737299771048
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689095,
+    "wall_s": 0.1124814829963725
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689095,
+    "wall_s": 0.07995109798503108
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689095,
+    "wall_s": 0.11869706798461266
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689095,
+    "wall_s": 0.11060903000179678
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689095,
+    "wall_s": 0.15285729899187572
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689096,
+    "wall_s": 0.087642030994175
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689095,
+    "wall_s": 0.22266103001311421
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1689094,
+    "wall_s": 0.14066876299330033
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1611568,
+    "wall_s": 0.26133255899185315
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1611566,
+    "wall_s": 0.29812048899475485
+  },
+  {
+    "method": "GET",
+    "path": "/api/observation",
+    "status": 200,
+    "bytes": 1611725,
+    "wall_s": 0.23060491398791783
+  },
+  {
+    "method": "GET",
+    "path": "/api/checkpoint",
+    "status": 200,
+    "bytes": 283209,
+    "wall_s": 0.2515512740064878
+  },
+  {
+    "method": "GET",
+    "path": "/api/four-door-fans",
+    "status": 200,
+    "bytes": 33122,
+    "wall_s": 0.1525212550186552
+  },
+  {
+    "method": "GET",
+    "path": "/api/phase6-observations",
+    "status": 200,
+    "bytes": 21828,
+    "wall_s": 0.21556567499646917
+  },
+  {
+    "method": "GET",
+    "path": "/api/checkpoint",
+    "status": 200,
+    "bytes": 283209,
+    "wall_s": 0.10047437998582609
+  }
+]

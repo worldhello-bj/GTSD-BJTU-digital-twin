@@ -1,0 +1,26 @@
+{
+  "schema": "gtsd-cad-doors-source-freeze-v1",
+  "physics_source_sha256": {
+    "cad_doors/__init__.py": "cbb5e9c78b8237cf81dfe3873a178dd066618cbbe3e2142cd6035ded30848b2e",
+    "cad_doors/bootstrap.py": "870df3c0d4e142066c251a02a507e2fe6fd95f7f19ef68cee42ed32ef64c42b5",
+    "cad_doors/geometry.py": "c1c6bb23e257810e02c9e8bcff2babdb580e888d1897613ac983594650b2a602",
+    "cad_doors/moments.py": "c1959b25505889d122fa25da1af0b2a29ee8d8e3e6998540c596a93b18eb9893",
+    "cad_doors/model.py": "8f52acff75035bedeca1990c60d5e79f089279255287c1bfd54bee5e5d780ef2",
+    "cad_doors/plant.py": "4a30255fe0c5d7170900085236cb26e750bdcd0abd11871e8985da1e6d1b7713",
+    "READONLY_DEPENDENCIES.json": "faffb86dc8609e1f1380584d54a497b578c19e9c760a43ec5bd7defd2e0457a7",
+    "PHYSICAL_INTERFACE_CONTRACT.json": "1c2eacefb601016d029282c75833077569196cdd89dd4dffe1c17bf086dcc253"
+  },
+  "factory": "cad_doors.plant.CadDoorsPlant",
+  "variant": "cad_doors_mounted",
+  "state_schema": "gtsd-v5-live-plant-state-v1",
+  "checkpoint_schema": "gtsd-cad-doors-assembly-checkpoint-v1",
+  "visual_resource_interface": "plant.visual_resource_bytes() callable returns deterministic bytes",
+  "composed_geometry_sha256": "b35ad745e7558a31afea5ad45087985fe36d747d9424bd8dc28e1ca885a5acdc",
+  "validated_identity_sha256": {
+    "full": "d74ea534b0635b33f0665c30fda60d46135b49351d36f20bd61c2e6c56578979",
+    "half": "8d9227a0bedc305bb474bf11553a402e0b4451a65c6707e14600e27689a4fdce"
+  },
+  "nq": 91,
+  "nv": 79,
+  "scope": "CAD_OPENING_DERIVED_CANDIDATE_DOORS_IDEAL_SPATIAL_CATCHES_PARTIAL_CONTACT_ONE_NATIVE_FAN"
+}

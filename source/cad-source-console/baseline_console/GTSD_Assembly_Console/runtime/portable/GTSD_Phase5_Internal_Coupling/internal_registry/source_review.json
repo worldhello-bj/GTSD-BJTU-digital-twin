@@ -1,0 +1,119 @@
+{
+  "schema": "gtsd-phase5-internal-source-review-v1",
+  "reviewed_images": [
+    {
+      "id": "photo.图片4",
+      "path": "/workspace/shared/gtsd-geometry-1011/inputs/图片素材/图片4.png",
+      "sha256": "68f585ae0908d505d38fe467c5b135943b0e05671cb36372342527cb41ce6f09",
+      "review_method": "view_image original image pixels",
+      "review_date_utc": "2026-10-12",
+      "confirmed_visible": "空压机、蓝色逆变器、车载变压器相对顺序及两处标注温探可见。",
+      "unresolved": "照片数字显示是拍摄瞬间，未作为当前软件遥测；未确定额定输出和安装尺寸。"
+    },
+    {
+      "id": "photo.图片5",
+      "path": "/workspace/shared/gtsd-geometry-1011/inputs/图片素材/图片5.png",
+      "sha256": "e5607f7a12311c631769dec3821dfbd7781ff69030da2eb46858b46db4c7b842",
+      "review_method": "view_image original image pixels",
+      "review_date_utc": "2026-10-12",
+      "confirmed_visible": "银色总压力变送器与圆表为不同物件；白色T形接头、透明管和比例调压阀可见。",
+      "unresolved": "管路隐藏端点、三通连到哪个压力腔、表压/绝压及传感器量程未知。"
+    },
+    {
+      "id": "photo.图片6",
+      "path": "/workspace/shared/gtsd-geometry-1011/inputs/图片素材/图片6.png",
+      "sha256": "1c36b8803b25a5307317b9553692d3526f9b65134e3ac48df1bbd2f8444fcf38",
+      "review_method": "view_image original image pixels",
+      "review_date_utc": "2026-10-12",
+      "confirmed_visible": "标注振动传感器的银色筒体位于车内底板、储气罐旁。",
+      "unresolved": "不得直接认定该实物就是清单转向架振动变送器C0070；是否测结构传递振动未知。"
+    },
+    {
+      "id": "photo.图片12",
+      "path": "/workspace/shared/gtsd-geometry-1011/inputs/图片素材/图片12.png",
+      "sha256": "9e3d5b51a3b6ea2477f63288bf7c84c3d8884638289e493139ff74ae1a9d2a5e",
+      "review_method": "view_image original image pixels",
+      "review_date_utc": "2026-10-12",
+      "confirmed_visible": "编码器本体、轴端装配与拆下杯形罩可见；铭牌可读ABSOLUTE及4–20mA、485接线标记。",
+      "unresolved": "不从标签推定实际启用接口、通信协议、量程、脉冲/分辨率、轴1/轴2归属或正负方向。"
+    },
+    {
+      "id": "photo.图片14",
+      "path": "/workspace/shared/gtsd-geometry-1011/inputs/图片素材/图片14.png",
+      "sha256": "c735b4328ec460fdea79bea84721470cd30b0244c5bc5e8a42d427dc044db126",
+      "review_method": "view_image original image pixels",
+      "review_date_utc": "2026-10-12",
+      "confirmed_visible": "散热片控制器上可见小风扇、金属护网及标注控制器温度传感器的探头。",
+      "unresolved": "登记清单没有独立控制器温探ID；不合并到电机温探或柜体热节点。"
+    },
+    {
+      "id": "course.topology14",
+      "path": "/workspace/shared/gtsd-rebuild-v4-course-1011/course/reference_images/topology-14.png",
+      "sha256": "95db9179cad9f6be8bdbc1eb9b4da2455a174c7792ff7ba9a9c8197145265011",
+      "review_method": "view_image rendered PDF page pixels",
+      "confirmed_visible": "课程第14物理页给A1/A2输入、网络逻辑关系；DNB2连接A2。",
+      "unresolved": "课程连线不能证明1011照片设备实接；无UDP字段编码、传感器量程或校准。"
+    }
+  ],
+  "contact_sheet_review": {
+    "path": "/workspace/shared/gtsd-parts-images-1011/contact_sheet.jpg",
+    "method": "view_image",
+    "count": 26,
+    "scope": "用于定位材料；只有上列原图做本次细节确认。"
+  },
+  "legacy_review": [
+    {
+      "path": "/workspace/shared/gtsd-bjtu-digital-twin/source/vehicle-physics/b8/PNEUMATICS.md",
+      "finding": "有限质量气路与孔口正向约定可沿用解释，旧整车26腔/实物拓扑不能移植到新单架模型。"
+    },
+    {
+      "path": "/workspace/shared/gtsd-bjtu-digital-twin/source/vehicle-physics/b10/README.md",
+      "finding": "旧B10自己明确Scotch-yoke、两个风机、两个热容是固定试验台等效，不是原Blender可恢复的真实内部机构。"
+    },
+    {
+      "path": "pneumatic_aux/plant.py",
+      "finding": "旧扩展变体7腔19边11阀芯；Phase5联合体为9腔25边15阀芯。新旧拓扑分别从实际configuration读取，不同时积分。"
+    }
+  ],
+  "incremental_findings": [
+    {
+      "id": "P5-I01",
+      "finding": "独立圆压力表设备加入可选条目；不能把C0047传感器读数自动填在表上。",
+      "status": "PHOTO_CONFIRMED_OBJECT_TO_EXISTING_GEOMETRY"
+    },
+    {
+      "id": "P5-I02",
+      "finding": "控制器温探做独立照片设备条目，归属C0041仅为组件上下文，温度实时值保持不可用。",
+      "status": "PHOTO_CONFIRMED_OBJECT_WITHOUT_REGISTRY_ID"
+    },
+    {
+      "id": "P5-I03",
+      "finding": "编码器铭牌展示候选输出标识4–20mA/485；保留实际接口和轴号未知。",
+      "status": "PHOTO_CONFIRMED_LABEL_NOT_CONNECTION"
+    },
+    {
+      "id": "P5-I04",
+      "finding": "车内底板振动传感器只作为C0070候选，不把body运动替代它的振动输出。",
+      "status": "VISIBLE_LOCATION_WITH_IDENTITY_CONFLICT"
+    },
+    {
+      "id": "P5-I05",
+      "finding": "19条旧孔口与25条Phase5孔口并列按真实快照字段判定可用；每条记录端点/方向/原生路径，无照片软管冒充实接。",
+      "status": "CODE_CONFIRMED_MODEL_TOPOLOGY"
+    }
+  ],
+  "phase5_native_review": {
+    "source": "support_integrated.combined.CoupledInternalPlant",
+    "scope": "一次冷态构造和一个接受步的schema复核，非性能/稳定性验收",
+    "gas_nodes": 9,
+    "orifices": 25,
+    "dynamic_spools": 15,
+    "piston_names": [
+      "brake_axle_1_minus",
+      "brake_axle_1_plus",
+      "brake_axle_2_minus",
+      "brake_axle_2_plus"
+    ],
+    "unverified": "安装/尺寸/摩擦/传感器标定与真实管路连接均未确认。"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "pass": true,
+  "scope": "Actual saved HTTP native poses -> complete mesh transform; independent matrix formula, no browser or new contacts.",
+  "samples": [
+    {
+      "sample": "initial",
+      "time_s": 0,
+      "steps": 0,
+      "session_id": "5b8d8488c70f7a879d8f84c539624fa4",
+      "dynamic_meshes": 466,
+      "changed_source_meshes": 0,
+      "checked_dynamic_vertices": 222783,
+      "maximum_independent_matrix_error_m": 0,
+      "unbound_and_world_source_arrays_unchanged": true
+    },
+    {
+      "sample": "step1",
+      "time_s": 0.0002,
+      "steps": 1,
+      "session_id": "5b8d8488c70f7a879d8f84c539624fa4",
+      "dynamic_meshes": 466,
+      "changed_source_meshes": 465,
+      "checked_dynamic_vertices": 222783,
+      "maximum_independent_matrix_error_m": 2.220446049250313e-16,
+      "unbound_and_world_source_arrays_unchanged": true
+    },
+    {
+      "sample": "step2",
+      "time_s": 0.0004,
+      "steps": 2,
+      "session_id": "5b8d8488c70f7a879d8f84c539624fa4",
+      "dynamic_meshes": 466,
+      "changed_source_meshes": 465,
+      "checked_dynamic_vertices": 222783,
+      "maximum_independent_matrix_error_m": 2.220446049250313e-16,
+      "unbound_and_world_source_arrays_unchanged": true
+    },
+    {
+      "sample": "restored",
+      "time_s": 0.0002,
+      "steps": 1,
+      "session_id": "296e2a535692e23e54b48aca3fba6e19",
+      "dynamic_meshes": 466,
+      "changed_source_meshes": 465,
+      "checked_dynamic_vertices": 222783,
+      "maximum_independent_matrix_error_m": 2.220446049250313e-16,
+      "unbound_and_world_source_arrays_unchanged": true
+    },
+    {
+      "sample": "continued",
+      "time_s": 0.0004,
+      "steps": 2,
+      "session_id": "296e2a535692e23e54b48aca3fba6e19",
+      "dynamic_meshes": 466,
+      "changed_source_meshes": 465,
+      "checked_dynamic_vertices": 222783,
+      "maximum_independent_matrix_error_m": 2.220446049250313e-16,
+      "unbound_and_world_source_arrays_unchanged": true
+    }
+  ],
+  "replay_age_note": "Recorded transport ages retained in source evidence, set to zero only for explicit offline transform verification; production freshness checks unchanged."
+}

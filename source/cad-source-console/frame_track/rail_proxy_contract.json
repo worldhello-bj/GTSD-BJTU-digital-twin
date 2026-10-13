@@ -1,0 +1,103 @@
+{
+  "schema": "gtsd-source-aligned-rail-proxy-contract-v1",
+  "baseline_glb_sha256": "fff3f9fffd83e380435eba3a0f9ba975b87557b794d671ee175ea842235bbfa9",
+  "baseline_catalog_sha256": "06290655bd929b3e531f24a7adb0b829d3423c22da29fca8e96a10e7394e32eb",
+  "source_parameters_sha256": "504b2917b10deddb8357d20a58224b865cd39479e02ec99557b261896bb438ee",
+  "source_bogie_model_sha256": "1d33a8356b2b3503062715c1980819e93a05ff8b53d9048d5351f7171520dc48",
+  "status": "NEW_PHYSICAL_VARIANT_CANDIDATE_REQUIRES_PARENT_NATIVE_ACCEPTANCE",
+  "old_checkpoint_compatible": false,
+  "new_physics_identity_required": true,
+  "frozen_baseline_modified": false,
+  "changes": "Only the two existing world rail proxy pos/size attributes change. Collision mask, friction, solver/contact settings, masses and DOFs stay unchanged.",
+  "collision_claim": "Wheel support top faces match the two complete GLB main-rail top rectangles. No fastener, sleeper, pier, flank or derailment contact acceptance.",
+  "rows": [
+    {
+      "geom_name": "rail_-1",
+      "source_mesh_name": "ENV_main_rail_-1",
+      "source_triangle_sha256": "4f5292b83d764a38c56642b649104ae03ccf8fbc9b1ac1c163ad9f6ebe8619c9",
+      "source_refs": "Model LINE 4ED11/13 and 4ED15/17; centers 33448.399280 / 33966.232614 mm; 39.5/73 mm plan bands; section assignment inferred",
+      "old_pos_m": [
+        0.0,
+        -0.25891666666666,
+        -0.02
+      ],
+      "old_half_size_m": [
+        6.0,
+        0.01975,
+        0.02
+      ],
+      "new_pos_m": [
+        -4.025674641132355,
+        -0.2589166760444641,
+        -0.02
+      ],
+      "new_half_size_m": [
+        5.44565886259079,
+        0.019749999046325684,
+        0.02
+      ],
+      "new_x_endpoints_m": [
+        -9.471333503723145,
+        1.419984221458435
+      ],
+      "new_y_top_bounds_m": [
+        -0.2786666750907898,
+        -0.23916667699813843
+      ],
+      "new_top_z_m": 0.0,
+      "exact_top_face_triangle_count": 2,
+      "exact_top_face_area_m2": 0.4302070293711324,
+      "source_extraction_method": "Complete GLB mesh after glTF-to-solver axis inversion. Select all maximum-Z vertices (Z=0); assert exactly two coplanar triangles cover rectangular XY bounds.",
+      "z_proxy_depth_m": 0.04,
+      "z_proxy_depth_status": "PRESERVED_UNCALIBRATED_NUMERICAL_SUPPORT_DEPTH_NOT_VISUAL_FULL_SECTION",
+      "physical_source_limit": "CAD_LAYOUT_WITH_INFERRED_3D_SECTION. Geometry-aligned surrogate only; no measured wheel/rail profile, pad stiffness or physical validation.",
+      "preserve_contact_parameters": true,
+      "added_mass_kg": 0.0,
+      "added_dof": 0
+    },
+    {
+      "geom_name": "rail_1",
+      "source_mesh_name": "ENV_main_rail_1",
+      "source_triangle_sha256": "dc218e0cb236bf07fe24e2716816f92b0c648f194d638dfb678cbecfb218d181",
+      "source_refs": "Model LINE 4ED11/13 and 4ED15/17; centers 33448.399280 / 33966.232614 mm; 39.5/73 mm plan bands; section assignment inferred",
+      "old_pos_m": [
+        0.0,
+        0.25891666666666,
+        -0.02
+      ],
+      "old_half_size_m": [
+        6.0,
+        0.01975,
+        0.02
+      ],
+      "new_pos_m": [
+        -4.025674641132355,
+        0.2589166760444641,
+        -0.02
+      ],
+      "new_half_size_m": [
+        5.44565886259079,
+        0.019749999046325684,
+        0.02
+      ],
+      "new_x_endpoints_m": [
+        -9.471333503723145,
+        1.419984221458435
+      ],
+      "new_y_top_bounds_m": [
+        0.23916667699813843,
+        0.2786666750907898
+      ],
+      "new_top_z_m": 0.0,
+      "exact_top_face_triangle_count": 2,
+      "exact_top_face_area_m2": 0.4302070293711324,
+      "source_extraction_method": "Complete GLB mesh after glTF-to-solver axis inversion. Select all maximum-Z vertices (Z=0); assert exactly two coplanar triangles cover rectangular XY bounds.",
+      "z_proxy_depth_m": 0.04,
+      "z_proxy_depth_status": "PRESERVED_UNCALIBRATED_NUMERICAL_SUPPORT_DEPTH_NOT_VISUAL_FULL_SECTION",
+      "physical_source_limit": "CAD_LAYOUT_WITH_INFERRED_3D_SECTION. Geometry-aligned surrogate only; no measured wheel/rail profile, pad stiffness or physical validation.",
+      "preserve_contact_parameters": true,
+      "added_mass_kg": 0.0,
+      "added_dof": 0
+    }
+  ]
+}

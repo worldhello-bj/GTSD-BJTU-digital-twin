@@ -1,0 +1,398 @@
+{
+  "schema": "gtsd-cad-panto-research-binding-v1",
+  "hypothesis": "H1_DUAL_FOURBAR_PLANAR",
+  "status": "ISOLATED_RESEARCH_ONLY",
+  "production_allowed": false,
+  "as_built": false,
+  "contact_enabled": false,
+  "old_body_pose_reuse": false,
+  "physical_mass_calibration": false,
+  "reference_poses": {
+    "cad_panto_base": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "cad_panto_lower": {
+      "position": [
+        -0.24223178667748954,
+        0.0,
+        1.0878864526748657
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "cad_panto_upper": {
+      "position": [
+        0.5777669290262781,
+        0.0,
+        1.0878864526748657
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "cad_panto_lower_tie": {
+      "position": [
+        0.6516720950603404,
+        0.0,
+        1.0568461418151855
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "cad_panto_head_rocker": {
+      "position": [
+        -0.48981370154586307,
+        0.0,
+        1.142693102359775
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "cad_panto_upper_tie": {
+      "position": [
+        -0.504813716864677,
+        -0.038,
+        1.0766931069917098
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "transform_contract": "v_dynamic_world = R(candidate_body.xquat) @ (v_source_world-reference.position) + candidate_body.xpos",
+  "meshes": [
+    {
+      "mesh_name": "CAD6A54_upper_H_eye_far",
+      "body_name": "cad_panto_upper",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "935fd625b90342aabc1c774f69b61c4b3d32c4d33854b272d073e4a538911b4f",
+      "required_hypotheses": [
+        "H_UPPER_COMPONENT_RIGID"
+      ]
+    },
+    {
+      "mesh_name": "CAD6A54_upper_H_eye_near",
+      "body_name": "cad_panto_upper",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "ce13e35b66e0462a9281d82fa5ccf78acb6f56d976ce161006043953aee16160",
+      "required_hypotheses": [
+        "H_UPPER_COMPONENT_RIGID"
+      ]
+    },
+    {
+      "mesh_name": "CAD6A54_upper_fork_candidate",
+      "body_name": "cad_panto_upper",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "1235902e1d928212278ec02e19113d2357868b92ea7c13414e499e70f778c1e7",
+      "required_hypotheses": [
+        "H_UPPER_COMPONENT_RIGID"
+      ]
+    },
+    {
+      "mesh_name": "CAD6A54_upper_main_plan_priority",
+      "body_name": "cad_panto_upper",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "36fdeec752f736af2b31b6b40a429780eb02e963ff4fb6fd0b66253ec6e751c6",
+      "required_hypotheses": [
+        "H_UPPER_COMPONENT_RIGID"
+      ]
+    },
+    {
+      "mesh_name": "G_support_bracket",
+      "body_name": "cad_panto_lower",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "d1c4fe3a2a03cd166f495ef0ead45c4de5524b254fa8e567efc2f3dc6a113083",
+      "required_hypotheses": [
+        "H_G_ON_LOWER"
+      ]
+    },
+    {
+      "mesh_name": "head_three_eye_rocker",
+      "body_name": "cad_panto_head_rocker",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "dd1cfb2bf132f360e0c5e0430c91494777c366995c89b8c68269c2a4dec0c215",
+      "required_hypotheses": [
+        "H_ROCKER_FOLLOWS_H"
+      ]
+    },
+    {
+      "mesh_name": "lower_A_bushing",
+      "body_name": "cad_panto_lower",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "6f5317902de3f0f4a1ccae23e3fcb224d20c8d832abd27ef9fb6fe0825c0792a",
+      "required_hypotheses": [
+        "H_LOWER_BUSHINGS_FIXED"
+      ]
+    },
+    {
+      "mesh_name": "lower_B_bushing",
+      "body_name": "cad_panto_lower",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "577fe101883adbd9e703bc6ac13350af8926ec72334d4713ad5e5f3f2b13e1a4",
+      "required_hypotheses": [
+        "H_LOWER_BUSHINGS_FIXED"
+      ]
+    },
+    {
+      "mesh_name": "lower_arm_source_capsule",
+      "body_name": "cad_panto_lower",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "905e619b4dcdb3eaad3ba50ab5aeb69a5aeecacb527400b135dd9b094eeae890",
+      "required_hypotheses": [
+        "H_LOWER_BUSHINGS_FIXED"
+      ]
+    },
+    {
+      "mesh_name": "lower_tie_C_eye",
+      "body_name": "cad_panto_lower_tie",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "4623e5db5ea15ce658fdc6a09b7f09fc98ea71d92c312bd57a182099bb68bff1",
+      "required_hypotheses": [
+        "H_LOWER_TIE_LOCKED"
+      ]
+    },
+    {
+      "mesh_name": "lower_tie_D_eye",
+      "body_name": "cad_panto_lower_tie",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "cdacbac21d67c8c1dacd34e7baf91cdb9d43909b878cd1f9a265d18b58706c55",
+      "required_hypotheses": [
+        "H_LOWER_TIE_LOCKED"
+      ]
+    },
+    {
+      "mesh_name": "lower_tie_lock_29FF",
+      "body_name": "cad_panto_lower_tie",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "fe791e0f5cfb0d14ca6bddbdb989cdef1ade99f57d7934019257e36f285edad0",
+      "required_hypotheses": [
+        "H_LOWER_TIE_LOCKED"
+      ]
+    },
+    {
+      "mesh_name": "lower_tie_lock_2A02",
+      "body_name": "cad_panto_lower_tie",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "d9b86bf04cb15f3195aa32cd2eebd0e536be32fae70d731688f70a124f666438",
+      "required_hypotheses": [
+        "H_LOWER_TIE_LOCKED"
+      ]
+    },
+    {
+      "mesh_name": "lower_tie_shaft",
+      "body_name": "cad_panto_lower_tie",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "33e3ffb7bdb6a535cb4018f5e8e728f189bb380a31104424d7a75dda94ddd976",
+      "required_hypotheses": [
+        "H_LOWER_TIE_LOCKED"
+      ]
+    },
+    {
+      "mesh_name": "lower_tie_stem_candidate",
+      "body_name": "cad_panto_lower_tie",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "3a100c742b2c3de629425e62fcce5d685c4ab51783dd963906e0368dbf560bad",
+      "required_hypotheses": [
+        "H_LOWER_TIE_LOCKED"
+      ]
+    },
+    {
+      "mesh_name": "upper_elbow_B_plate",
+      "body_name": "cad_panto_upper",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "35aef554910eaf9d677c035ffa585c5299d67267eeda42dc4a7415e932d2d591",
+      "required_hypotheses": [
+        "H_ELBOW_FIXED_TO_UPPER"
+      ]
+    },
+    {
+      "mesh_name": "upper_elbow_C_plate",
+      "body_name": "cad_panto_upper",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "2bbbadfaa340a9ab89ed80d7c2cafc3b36852fd5b607f92db49c86df3c5cdb50",
+      "required_hypotheses": [
+        "H_ELBOW_FIXED_TO_UPPER"
+      ]
+    },
+    {
+      "mesh_name": "upper_long_tie_shaft",
+      "body_name": "cad_panto_upper_tie",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "18de16c7a4bae555e62680d33fd84f62f4bcbacac3141141d7b6e81dd11624a8",
+      "required_hypotheses": [
+        "H_UPPER_TIE_RIGID"
+      ]
+    },
+    {
+      "mesh_name": "upper_tie_F_eye",
+      "body_name": "cad_panto_upper_tie",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "d9e6f37018fd5b9c441874144e5d94cb6dee38c654f0284ac64a2828ed1016ff",
+      "required_hypotheses": [
+        "H_UPPER_TIE_RIGID"
+      ]
+    },
+    {
+      "mesh_name": "upper_tie_G_eye",
+      "body_name": "cad_panto_upper_tie",
+      "mode": "candidate_rigid",
+      "geometry_sha256": "5929d3f2c72be8736088fbba12855fd59e008967671d399e3b88fcc4ffed00f9",
+      "required_hypotheses": [
+        "H_UPPER_TIE_RIGID"
+      ]
+    }
+  ],
+  "test_inertials": {
+    "cad_panto_lower": {
+      "test_mass_kg": 1.0,
+      "evidence": "ARBITRARY_POSITIVE_UNIT_TEST_MASS_NOT_PHYSICAL_ESTIMATE",
+      "inertia_method": "UNIFORM_AABB_EQUIVALENT_NOT_MESH_DENSITY",
+      "com_world_m": [
+        0.16776756942272186,
+        -0.004750000312924385,
+        1.0878864526748657
+      ],
+      "diaginertia_kg_m2": [
+        0.00040885353119490006,
+        0.06236855913784237,
+        0.062454747317168255
+      ],
+      "source_meshes": [
+        "G_support_bracket",
+        "lower_A_bushing",
+        "lower_B_bushing",
+        "lower_arm_source_capsule"
+      ]
+    },
+    "cad_panto_upper": {
+      "test_mass_kg": 1.0,
+      "evidence": "ARBITRARY_POSITIVE_UNIT_TEST_MASS_NOT_PHYSICAL_ESTIMATE",
+      "inertia_method": "UNIFORM_AABB_EQUIVALENT_NOT_MESH_DENSITY",
+      "com_world_m": [
+        0.08192892372608185,
+        -7.450580596923828e-09,
+        1.1032702922821045
+      ],
+      "diaginertia_kg_m2": [
+        0.008738037581106231,
+        0.11394586648427332,
+        0.12040849567783737
+      ],
+      "source_meshes": [
+        "CAD6A54_upper_H_eye_far",
+        "CAD6A54_upper_H_eye_near",
+        "CAD6A54_upper_fork_candidate",
+        "CAD6A54_upper_main_plan_priority",
+        "upper_elbow_B_plate",
+        "upper_elbow_C_plate"
+      ]
+    },
+    "cad_panto_lower_tie": {
+      "test_mass_kg": 1.0,
+      "evidence": "ARBITRARY_POSITIVE_UNIT_TEST_MASS_NOT_PHYSICAL_ESTIMATE",
+      "inertia_method": "UNIFORM_AABB_EQUIVALENT_NOT_MESH_DENSITY",
+      "com_world_m": [
+        0.34269612934440374,
+        1.862645149230957e-09,
+        1.0423384308815002
+      ],
+      "diaginertia_kg_m2": [
+        0.0001776406638276766,
+        0.03354598501999706,
+        0.033401011033545015
+      ],
+      "source_meshes": [
+        "lower_tie_C_eye",
+        "lower_tie_D_eye",
+        "lower_tie_lock_29FF",
+        "lower_tie_lock_2A02",
+        "lower_tie_shaft",
+        "lower_tie_stem_candidate"
+      ]
+    },
+    "cad_panto_head_rocker": {
+      "test_mass_kg": 1.0,
+      "evidence": "ARBITRARY_POSITIVE_UNIT_TEST_MASS_NOT_PHYSICAL_ESTIMATE",
+      "inertia_method": "UNIFORM_AABB_EQUIVALENT_NOT_MESH_DENSITY",
+      "com_world_m": [
+        -0.4973154664039612,
+        -0.026000001467764378,
+        1.1106930375099182
+      ],
+      "diaginertia_kg_m2": [
+        0.0005932597867801308,
+        0.0006899873366729518,
+        0.00010739422502334885
+      ],
+      "source_meshes": [
+        "head_three_eye_rocker"
+      ]
+    },
+    "cad_panto_upper_tie": {
+      "test_mass_kg": 1.0,
+      "evidence": "ARBITRARY_POSITIVE_UNIT_TEST_MASS_NOT_PHYSICAL_ESTIMATE",
+      "inertia_method": "UNIFORM_AABB_EQUIVALENT_NOT_MESH_DENSITY",
+      "com_world_m": [
+        0.02022656798362732,
+        -0.03799999877810478,
+        1.082290232181549
+      ],
+      "diaginertia_kg_m2": [
+        6.012504436251712e-05,
+        0.09459017904299719,
+        0.0945360540825583
+      ],
+      "source_meshes": [
+        "upper_long_tie_shaft",
+        "upper_tie_F_eye",
+        "upper_tie_G_eye"
+      ]
+    }
+  },
+  "initial_closure_residual_m": [
+    -3.5810590095358696e-07,
+    0.0,
+    7.672686883841706e-06,
+    1.1102230246251565e-16,
+    0.0,
+    0.0
+  ],
+  "C_pin_axis_source_mismatch_m": 5.871665669202781e-06,
+  "reference_geometry_moved": false,
+  "caveats": [
+    "Closure D starts with the recorded native hole mismatch and may settle under constraints.",
+    "C hinge uses upper-plate hole; tie-eye source mismatch is retained in mesh and diagnostic sites.",
+    "All hinges parallel Y is a candidate; lateral spacers and bushings not solved.",
+    "Neither an independent U hinge nor head E/guide compliance is solved.",
+    "Research envelope geoms are diagnostics only; source mesh render binding carries actual CAD geometry."
+  ],
+  "mujoco_reference": "https://mujoco.readthedocs.io/en/stable/XMLreference.html#equality-connect"
+}

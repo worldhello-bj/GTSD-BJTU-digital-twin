@@ -1,0 +1,24 @@
+{
+  "status": "FROZEN_CANDIDATE_DELIVERABLE",
+  "frozen_utc": "2026-10-12T05:00:00Z",
+  "as_built_verified": false,
+  "all_validation_checks_pass": true,
+  "checks_count": 20,
+  "candidate_mesh_count": 10,
+  "body_mm": [
+    39,
+    34
+  ],
+  "core_asset": "outputs/BRT38M_blind_bore_candidate.glb",
+  "console_asset": "outputs/encoder_candidate_assembly.json",
+  "selection_contract": "candidate_selection_contract.json",
+  "review": "review.html",
+  "render_comparison": "outputs/render_comparison.png",
+  "directory_bytes": 5139715,
+  "budget_bytes": 30000000,
+  "original_frozen_sources_changed": false,
+  "hardware_or_user_local_computer_used": false,
+  "revision": "1.0.1-launcher-error-propagation-only",
+  "revision_utc": "2026-10-12T05:10:00Z",
+  "revision_note": "Add --python-exit-code 1 to both Blender calls. Frozen geometry output bytes unchanged."
+}

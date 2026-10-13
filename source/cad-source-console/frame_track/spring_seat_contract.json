@@ -1,0 +1,206 @@
+{
+  "schema": "gtsd-near-side-cad-spring-seat-contract-v1",
+  "baseline": {
+    "catalog_sha256": "06290655bd929b3e531f24a7adb0b829d3423c22da29fca8e96a10e7394e32eb",
+    "mapping_bundle_sha256": "4f55aa9e56d6b9c04936c5a1162993e6f5bf2d2eaf3fcf7cc30c4beae5bbdeea",
+    "glb_sha256": "fff3f9fffd83e380435eba3a0f9ba975b87557b794d671ee175ea842235bbfa9",
+    "native_sha256": "4c27733cca3d1296afa28fde4f496647e8f6c153a61645a639f515c9c0b0868c",
+    "accepted_solver_identity": {
+      "variant": "cad_doors_four_fans_scoped_rollback",
+      "model_identity_sha256": "9bd3b5a7f26a40c44f1b77f5c71b9ec53488e682170ddfda651a939aa96323db",
+      "source_geometry_sha256": "2b6314a577bc67c5781268d797c57be6674ef16d42eed9f47731238cfc299fed",
+      "nq": 94,
+      "nv": 82,
+      "time_s": 0.0,
+      "steps": 0,
+      "source_state_path": "/workspace/shared/gtsd-strict82-portable-acceptance-1012/evidence/relocated_initial_state.json",
+      "source_geometry_path": "/workspace/shared/gtsd-strict82-portable-acceptance-1012/evidence/relocated_initial_geometry.json",
+      "source_binding_path": "/workspace/shared/gtsd-strict82-portable-acceptance-1012/evidence/relocated_initial_binding.json"
+    },
+    "frame_reference_pose": {
+      "position": [
+        0.0,
+        0.0,
+        0.2301
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "source_profiles_sha256": "c6a40ce828a6438b615734f3343e19c98f324c95fa7ab80fc27d98e712870039",
+  "raw_dxf_sha256": "73f9eeb145cfbda5f01d1302d3e6e09d2d81e707ff7776187d899100f654f143",
+  "source_addendum_sha256": "b862f188dfa1f0919fb78a7cb0213ec72042afc07240b895f554b1e3f4527094",
+  "uncalibrated_research_opt_in_required": true,
+  "new_physics_identity_required": true,
+  "old_checkpoint_compatible": false,
+  "added_dof": 0,
+  "added_mass_kg": 0.0,
+  "rows": [
+    {
+      "station": "negative_X",
+      "mesh_name": "CADFIT_bogie_primary_helical_spring_1_-1",
+      "body_lower": "arm_carrier_1",
+      "body_upper": "frame",
+      "tendon_name": "primary_1_-1",
+      "site_lower": "primary_lower_1_-1",
+      "site_upper": "primary_upper_1_-1",
+      "lower_source_mesh": "CAD_lower_stack_D41_negative_X",
+      "upper_source_mesh": "CAD_upper_seat_3A44_negative_X",
+      "source_triangle_sha256": "0feb048100790d3032a4e8d39a7c35f991c7687dc4ec3b99a3fdd7f0809f6321",
+      "geometry_witness_sha256": "2f16fce376262c8b5f3d3ebd0b09af0f81eabd5237f9295d2c25b8483eae03a4",
+      "old_lower_world_m": [
+        -0.41666728288563204,
+        -0.30641666666666,
+        0.2126
+      ],
+      "old_upper_world_m": [
+        -0.41666728288563204,
+        -0.30641666666666,
+        0.2961
+      ],
+      "new_lower_world_m": [
+        -0.41666728288563204,
+        -0.30641666666666,
+        0.22501757740974426
+      ],
+      "new_upper_world_m": [
+        -0.41666728288563204,
+        -0.30641666666666,
+        0.3052022457122803
+      ],
+      "old_lower_local_m": [
+        -0.16000031999186504,
+        -0.30641666666666,
+        0.05891666400054962
+      ],
+      "old_upper_local_m": [
+        -0.41666728288563204,
+        -0.30641666666666,
+        0.06599999999999998
+      ],
+      "new_lower_local_m": [
+        -0.16000031999186504,
+        -0.30641666666666,
+        0.07133424141029387
+      ],
+      "new_upper_local_m": [
+        -0.41666728288563204,
+        -0.30641666666666,
+        0.07510224571228027
+      ],
+      "lower_position_delta_m": [
+        0.0,
+        0.0,
+        0.012417577409744252
+      ],
+      "upper_position_delta_m": [
+        0.0,
+        0.0,
+        0.009102245712280299
+      ],
+      "old_initial_length_m": 0.08349999999999996,
+      "new_initial_length_m": 0.08018466830253601,
+      "required_restlength_delta_m": -0.0033153316974639524,
+      "coil_source_z_bounds_m": [
+        0.22501757740974426,
+        0.3052022457122803
+      ],
+      "new_initial_coil_plane_residual_m": 0.0,
+      "mode": "two_native_site_endpoint_deformable_visual_only",
+      "rigid_body_binding_forbidden": true,
+      "uncalibrated_cad_seat_fit_opt_in_required": true,
+      "near_side_only": true,
+      "far_side_unchanged": true,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "new_collision_allowed": false,
+      "force_policy": "Translate both sites to reviewed source seat planes; shift explicit springlength by delta initial length to preserve initial axial preload. Existing stiffness/damping stay unchanged. Force direction and moment arms away from reference can change.",
+      "placement_policy": "X and Y force line retain existing spring axis. Source seat planes constrain Z only; Y=-0.306416... remains unmeasured research placement. No automatic far-side duplication."
+    },
+    {
+      "station": "positive_X",
+      "mesh_name": "CADFIT_bogie_primary_helical_spring_2_-1",
+      "body_lower": "arm_carrier_2",
+      "body_upper": "frame",
+      "tendon_name": "primary_2_-1",
+      "site_lower": "primary_lower_2_-1",
+      "site_upper": "primary_upper_2_-1",
+      "lower_source_mesh": "CAD_lower_stack_D41_positive_X",
+      "upper_source_mesh": "CAD_upper_seat_3A31_positive_X",
+      "source_triangle_sha256": "0ca3bfc28934ac8449725cf2c91082ef318f14a9a08f2d961fd1d28746d00886",
+      "geometry_witness_sha256": "e44c2fda0ec1b9d37e2ecf3aae1a113de980e6a60b03330aa44a56ec63eda9d9",
+      "old_lower_world_m": [
+        0.41666728288563204,
+        -0.30641666666666,
+        0.2126
+      ],
+      "old_upper_world_m": [
+        0.41666728288563204,
+        -0.30641666666666,
+        0.2961
+      ],
+      "new_lower_world_m": [
+        0.41666728288563204,
+        -0.30641666666666,
+        0.22501757740974426
+      ],
+      "new_upper_world_m": [
+        0.41666728288563204,
+        -0.30641666666666,
+        0.3048689067363739
+      ],
+      "old_lower_local_m": [
+        0.16000031999186504,
+        -0.30641666666666,
+        0.05891666400054962
+      ],
+      "old_upper_local_m": [
+        0.41666728288563204,
+        -0.30641666666666,
+        0.06599999999999998
+      ],
+      "new_lower_local_m": [
+        0.16000031999186504,
+        -0.30641666666666,
+        0.07133424141029387
+      ],
+      "new_upper_local_m": [
+        0.41666728288563204,
+        -0.30641666666666,
+        0.0747689067363739
+      ],
+      "lower_position_delta_m": [
+        0.0,
+        0.0,
+        0.012417577409744252
+      ],
+      "upper_position_delta_m": [
+        0.0,
+        0.0,
+        0.008768906736373927
+      ],
+      "old_initial_length_m": 0.08349999999999996,
+      "new_initial_length_m": 0.07985132932662964,
+      "required_restlength_delta_m": -0.0036486706733703245,
+      "coil_source_z_bounds_m": [
+        0.22501757740974426,
+        0.3048689067363739
+      ],
+      "new_initial_coil_plane_residual_m": 0.0,
+      "mode": "two_native_site_endpoint_deformable_visual_only",
+      "rigid_body_binding_forbidden": true,
+      "uncalibrated_cad_seat_fit_opt_in_required": true,
+      "near_side_only": true,
+      "far_side_unchanged": true,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "new_collision_allowed": false,
+      "force_policy": "Translate both sites to reviewed source seat planes; shift explicit springlength by delta initial length to preserve initial axial preload. Existing stiffness/damping stay unchanged. Force direction and moment arms away from reference can change.",
+      "placement_policy": "X and Y force line retain existing spring axis. Source seat planes constrain Z only; Y=-0.306416... remains unmeasured research placement. No automatic far-side duplication."
+    }
+  ]
+}

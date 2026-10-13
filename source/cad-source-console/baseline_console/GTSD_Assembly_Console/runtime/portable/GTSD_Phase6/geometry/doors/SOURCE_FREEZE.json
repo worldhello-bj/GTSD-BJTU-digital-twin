@@ -1,0 +1,19 @@
+{
+  "schema": "gtsd-cad-door-source-freeze-v1",
+  "status": "FROZEN_GEOMETRY_INTERFACE_FOR_PHYSICS_CONSUMPTION",
+  "sha256": {
+    "ASSEMBLY_CONTRACT.json": "bfbb91d9129dd439a1e2202529f3750f9770522e515c4a6b1eabce267f1fa4c3",
+    "replacement_manifest.json": "24f35bb9b3c45e4df41f78e8d369cbd91aa1821e33035a362d4cb18fbe4e4d2e",
+    "outputs/door_cad_candidate_meshes.json": "67dfd34c3e9a2f9776aa63b9acdff48051734ca4d733035660be0d49aba0cd9c",
+    "evidence/door_geometric_mass_properties.json": "aceb2e7e7696fd71e5a168f95dfa4199437f8206bba9933438eddfd8208b233d",
+    "evidence/validation.json": "5e818e2359271897504b4161a4fee3e885532aa0cd8b4b1e8d2132e9d8755a82",
+    "evidence/export_validation.json": "c56360959eb038b6081d3b2bf9c5b2094862144c9fed8e0b7bf026a67544ffdb",
+    "scripts/build_doors.py": "7d329d55c624c2a65d04dc3dce2c16de296c3197ca963e899d7c422fbf4556cd",
+    "scripts/validate_doors.py": "e23f61d497b650ca196f1406a387b59d49f1c8b96b974bcb15117a487447ca07",
+    "scripts/validate_exports.py": "4798ead5b8dd0a6e2f0b3c44a390986e024f083c80de37bd25bba18d7a5b3106",
+    "run_cloud.sh": "4f1086a7f31c90e186b441c45aa340de00976714a3bade914782fc4020cbe6e2"
+  },
+  "source_readonly": true,
+  "as_built_certified": false,
+  "physics_bound": false
+}

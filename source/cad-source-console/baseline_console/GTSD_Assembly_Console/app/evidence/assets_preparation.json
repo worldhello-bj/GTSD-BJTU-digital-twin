@@ -1,0 +1,12 @@
+{
+  "all_declared_meshes_found": true,
+  "default_meshes": 1933,
+  "union_meshes": 1950,
+  "extra_meshes": 17,
+  "extra_json_bytes": 1345659,
+  "extra_gzip_bytes": 254273,
+  "source_native_unchanged": true,
+  "full_glb_copied": false,
+  "catalog_sha256": "06290655bd929b3e531f24a7adb0b829d3423c22da29fca8e96a10e7394e32eb",
+  "extra_source": "OriginalacceptedGLB or exactsourceFloat32; only explicitcontractreflection/translation applied."
+}
