@@ -1,0 +1,527 @@
+{
+  "schema": "gtsd-cad-body-validation-v1",
+  "passed": true,
+  "checks": [
+    {
+      "name": "analytic_unit_circle_vertices",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "circle_area_tessellation_tolerance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "negative_bulge_orientation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mirrored_rotated_insert",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_model_instances_unit_scale",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_identity_vectors_zw_3E1B.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_identity_cad_geometry_verified_v1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_identity_vectors_zw_DD04.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_skin_39775",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_skin_39775",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_skin_39775",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_skin_39777",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_skin_39777",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_skin_39777",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_skin_39778",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_skin_39778",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_skin_39778",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_skin_39779",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_skin_39779",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_skin_39779",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_skin_3977A",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_skin_3977A",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_skin_3977A",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_floor_39780",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_floor_39780",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_floor_39780",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_longitudinal_tube_3976C",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_longitudinal_tube_3976C",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_longitudinal_tube_3976C",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_longitudinal_tube_3976D",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_longitudinal_tube_3976D",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_longitudinal_tube_3976D",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_longitudinal_tube_39770",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_longitudinal_tube_39770",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_longitudinal_tube_39770",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_longitudinal_tube_39771",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_longitudinal_tube_39771",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_longitudinal_tube_39771",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_longitudinal_tube_39772",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_longitudinal_tube_39772",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_longitudinal_tube_39772",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_longitudinal_tube_39773",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_longitudinal_tube_39773",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_longitudinal_tube_39773",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_longitudinal_tube_39774",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_longitudinal_tube_39774",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_longitudinal_tube_39774",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_longitudinal_tube_3977B",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_longitudinal_tube_3977B",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_longitudinal_tube_3977B",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_longitudinal_tube_3977C",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_longitudinal_tube_3977C",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_longitudinal_tube_3977C",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_longitudinal_tube_3977D",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_longitudinal_tube_3977D",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_longitudinal_tube_3977D",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_end_rib_-1_3977E",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_end_rib_-1_3977E",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_end_rib_-1_3977E",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_end_rib_-1_3977F",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_end_rib_-1_3977F",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_end_rib_-1_3977F",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_end_rib_-1_39781",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_end_rib_-1_39781",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_end_rib_-1_39781",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_end_rib_-1_39783",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_end_rib_-1_39783",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_end_rib_-1_39783",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_end_rib_-1_39784",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_end_rib_-1_39784",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_end_rib_-1_39784",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_end_rib_+1_3977E",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_end_rib_+1_3977E",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_end_rib_+1_3977E",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_end_rib_+1_3977F",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_end_rib_+1_3977F",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_end_rib_+1_3977F",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_end_rib_+1_39781",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_end_rib_+1_39781",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_end_rib_+1_39781",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_end_rib_+1_39783",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_end_rib_+1_39783",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_end_rib_+1_39783",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_mesh_CAD_body_end_rib_+1_39784",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_body_end_rib_+1_39784",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_inertia_CAD_body_end_rib_+1_39784",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "hollow_volume_CAD_body_longitudinal_tube_3976C",
+      "passed": true,
+      "details": {
+        "measured_m3": 0.00019239892762606343,
+        "expected_m3": 0.00019240000000000004
+      }
+    },
+    {
+      "name": "hollow_volume_CAD_body_longitudinal_tube_3976D",
+      "passed": true,
+      "details": {
+        "measured_m3": 0.00019239910681281348,
+        "expected_m3": 0.00019240000000000004
+      }
+    },
+    {
+      "name": "hollow_volume_CAD_body_longitudinal_tube_39770",
+      "passed": true,
+      "details": {
+        "measured_m3": 0.00019239910681281304,
+        "expected_m3": 0.00019240000000000004
+      }
+    },
+    {
+      "name": "hollow_volume_CAD_body_longitudinal_tube_39771",
+      "passed": true,
+      "details": {
+        "measured_m3": 0.00019240012839764415,
+        "expected_m3": 0.00019240000000000004
+      }
+    },
+    {
+      "name": "hollow_volume_CAD_body_longitudinal_tube_39772",
+      "passed": true,
+      "details": {
+        "measured_m3": 0.0001924002547606208,
+        "expected_m3": 0.00019240000000000004
+      }
+    },
+    {
+      "name": "hollow_volume_CAD_body_longitudinal_tube_39773",
+      "passed": true,
+      "details": {
+        "measured_m3": 0.0001923990171579471,
+        "expected_m3": 0.00019240000000000004
+      }
+    },
+    {
+      "name": "hollow_volume_CAD_body_longitudinal_tube_39774",
+      "passed": true,
+      "details": {
+        "measured_m3": 0.00019239839006583042,
+        "expected_m3": 0.00019240000000000004
+      }
+    },
+    {
+      "name": "hollow_volume_CAD_body_longitudinal_tube_3977B",
+      "passed": true,
+      "details": {
+        "measured_m3": 0.0001924001283976441,
+        "expected_m3": 0.00019240000000000004
+      }
+    },
+    {
+      "name": "hollow_volume_CAD_body_longitudinal_tube_3977C",
+      "passed": true,
+      "details": {
+        "measured_m3": 0.00019240025476062122,
+        "expected_m3": 0.00019240000000000004
+      }
+    },
+    {
+      "name": "hollow_volume_CAD_body_longitudinal_tube_3977D",
+      "passed": true,
+      "details": {
+        "measured_m3": 0.00019239901715794732,
+        "expected_m3": 0.00019240000000000004
+      }
+    }
+  ],
+  "checked": 96,
+  "source_exact_width_mm": 1120.0469331125144,
+  "source_exact_height_mm": 551.6443122819765,
+  "float32_mesh_bounds_m": [
+    1.2999999523162842,
+    1.1200478076934814,
+    0.5516443252563477
+  ],
+  "maximum_profile_chord_sag_mm": 0.001,
+  "mass_calibration": "NOT_ASSIGNED",
+  "physical_binding": "PENDING_NEW_MODEL_IDENTITY"
+}

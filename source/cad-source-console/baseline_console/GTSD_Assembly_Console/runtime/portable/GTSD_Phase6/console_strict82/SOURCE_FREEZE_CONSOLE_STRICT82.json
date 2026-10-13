@@ -1,0 +1,21 @@
+{
+  "schema": "gtsd-console-strict82-source-freeze-v1",
+  "status": "FROZEN_MINIMAL_ACCEPTANCE_CAD_GEOMETRY_PRIORITY",
+  "frozen_at_utc": "2026-10-12T07:02:00Z",
+  "source_sha256": {
+    "accepted_dependencies.json": "74739173a31664a8370c238e89626f2f9451a9f650de3d7c45fef83af1e7fee6",
+    "console_config.portable.json": "16f1e318b4832ebd482b8129f4816d1eaca0b57043dadbb07f6e54988c6f3284",
+    "evidence/adapted_fan82.js": "0ac1aaa702ca31009ed6445d21680ca66e3443fe7a2349456f4eefb6e089db54",
+    "strict82_config.portable.json": "c63e2aeb2de260f47fb6033dd39b235242ceb1a451f68e5a797e52c67dfe0336",
+    "strict82_server.py": "19582ffdef2e3dcd422b1641be3a72fb9a6912f0c831590e38504d5de93c3b3d",
+    "tests/check_display_guards.py": "f3978b2f857f0e4b903fbcfdc90e14c1a087bb4925d2ad2994b931fbcbe668b3",
+    "tests/check_dom.js": "66614f01e29de4b59dcffa45c6648d43848eac8f7822bb1e881d331cd46c0b69",
+    "tests/check_minimal_http.py": "16b2cb5f2a59fd5732ab644d54750863cb49cc9ca4b89863085cd4b9d4ff4171",
+    "tests/paired_native.py": "6b2f3ed52d589518ad7e9cda4a22d53f63fbd43872e990e80af5bb7148187c02"
+  },
+  "native_numerical_sources_modified": false,
+  "native_MRO_modified": false,
+  "portable_template_supplied": true,
+  "portable_clean_extraction_tested": false,
+  "browser_GPU_tested": false
+}

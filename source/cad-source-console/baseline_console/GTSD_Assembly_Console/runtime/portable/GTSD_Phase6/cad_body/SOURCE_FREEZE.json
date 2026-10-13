@@ -1,0 +1,21 @@
+{
+  "schema": "gtsd-cad-body-source-freeze-v1",
+  "physics_source_sha256": {
+    "cad_body/__init__.py": "8fd2d60ee687a024a39678aa0d0ba612f92d00a2a5c998276621c503e2d1169a",
+    "cad_body/bootstrap.py": "79319c5a301bc248c5b3c67acbc1201d5844272aaad2b4397be9b989c0183ac8",
+    "cad_body/geometry.py": "8d54f44fa58c85dcbf6065293905721e29319bf59716c7eac6044b16ee49348f",
+    "cad_body/model.py": "da81c5d8a0f3db1197d97fa2faad3fd11919fcf0e8219c5325f778d449b65e28",
+    "cad_body/plant.py": "0e76e4e50ab216ca85375369a2a7c3caa3817b81a271959cb0435f548196b45a",
+    "READONLY_DEPENDENCIES.json": "af3d1e6b1c8abd4154e1d9f8088209a3f82353037ca4d1ebef23256c1a733e4e",
+    "replacement_manifest.json": "2d1847f9ea3b6501d11cbd1d688bca4bccce9f68757dc6ae2fc23ca2977d08f4"
+  },
+  "factory": "cad_body.plant.CadBodyPlant",
+  "variant": "cad_body_mounted",
+  "visual_resource_interface": "callable plant.visual_resource_bytes() -> deterministic bytes; no persisted full geometry duplicate",
+  "composed_geometry_sha256": "dd755228cb86d2e9a48fb1fb4dcce5dbb7dfeb7456ea99af9fd7541ef7f1299b",
+  "validated_identity_sha256": {
+    "full": "9f08e7d4cd94594e8279e466bc93b452a9a207f5640e7d2e802b08b84388f7af",
+    "half": "36822f08aaa10cdeee61ae35122b142736879cc405cb27367ba505540e518570"
+  },
+  "scope": "CAD_SECTION_PARTIAL_MOUNTING_MIGRATION_RESEARCH_ONLY"
+}

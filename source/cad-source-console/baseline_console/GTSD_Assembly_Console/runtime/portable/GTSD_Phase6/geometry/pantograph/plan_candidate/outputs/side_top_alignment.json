@@ -1,0 +1,644 @@
+{
+  "schema": "gtsd-pantograph-multiview-registration-v1",
+  "status": "CANDIDATE_CORRESPONDENCE_NOT_REGISTERED",
+  "side_root": "zw$9395",
+  "plan_root": "A$C1A4175F5",
+  "raw_source_sha256": "8efd235bba816861022f7ee40c79c514d37961cf53ea0ee71ad196781b5149c2",
+  "raw_to_dxf_replay": [
+    {
+      "handle": "285F",
+      "path": [
+        "2B21",
+        "28DA"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 1.4210854715202004e-14,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2860",
+      "path": [
+        "2B21",
+        "28DA"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 1.4210854715202004e-14,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "28DB",
+      "path": [
+        "2B21"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2865",
+      "path": [
+        "2B21",
+        "28DD"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2866",
+      "path": [
+        "2B21",
+        "28DD"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2867",
+      "path": [
+        "2B21",
+        "28DD"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2868",
+      "path": [
+        "2B21",
+        "28DD"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "28BB",
+      "path": [
+        "2B21",
+        "28E1"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "28BC",
+      "path": [
+        "2B21",
+        "28E1"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "28C5",
+      "path": [
+        "2B21",
+        "28E1"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "28E2",
+      "path": [
+        "2B21"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "28E3",
+      "path": [
+        "2B21"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "27A8",
+      "path": [
+        "2B23",
+        "28F1"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 2.842170943040401e-14,
+      "radius_error_mm": 2.708944180085382e-14
+    },
+    {
+      "handle": "27B3",
+      "path": [
+        "2B23",
+        "28F2"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 2.842170943040401e-14,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "279D",
+      "path": [
+        "2B23",
+        "28F3"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 2.842170943040401e-14,
+      "radius_error_mm": 2.708944180085382e-14
+    },
+    {
+      "handle": "27A8",
+      "path": [
+        "2B23",
+        "28F4"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "27BD",
+      "path": [
+        "2B23",
+        "28F5"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "27BE",
+      "path": [
+        "2B23",
+        "28F5"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 2.708944180085382e-14
+    },
+    {
+      "handle": "292D",
+      "path": [
+        "2B26"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "292E",
+      "path": [
+        "2B26"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "292F",
+      "path": [
+        "2B26"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2941",
+      "path": [
+        "2B28"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2942",
+      "path": [
+        "2B28"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2951",
+      "path": [
+        "2B2A"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2952",
+      "path": [
+        "2B2A"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2633",
+      "path": [
+        "2B2B"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2634",
+      "path": [
+        "2B2B"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2635",
+      "path": [
+        "2B2B"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2638",
+      "path": [
+        "2B2B"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2639",
+      "path": [
+        "2B2B"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "29E2",
+      "path": [
+        "2B2E"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "29EB",
+      "path": [
+        "2B2E"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2A06",
+      "path": [
+        "2B2F"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2A21",
+      "path": [
+        "2B30"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2A31",
+      "path": [
+        "2B30"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2A32",
+      "path": [
+        "2B30"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 5.684341886080802e-14,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2783",
+      "path": [
+        "2B30",
+        "2A34"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2790",
+      "path": [
+        "2B30",
+        "2A35"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2A36",
+      "path": [
+        "2B30"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2A37",
+      "path": [
+        "2B30"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2A1A",
+      "path": [
+        "2B30",
+        "2A38"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    },
+    {
+      "handle": "2A1B",
+      "path": [
+        "2B30",
+        "2A38"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 1.4210854715202004e-14
+    },
+    {
+      "handle": "2A1C",
+      "path": [
+        "2B30",
+        "2A38"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 1.4210854715202004e-14
+    },
+    {
+      "handle": "2B12",
+      "path": [
+        "2B36"
+      ],
+      "match_found": true,
+      "center_max_error_mm": 0.0,
+      "radius_error_mm": 0.0
+    }
+  ],
+  "side_native_circle_definitions": 43,
+  "side_circle_instances_replayed": 44,
+  "plan_Model_instances": [
+    {
+      "insert_handles": [
+        "4EE30"
+      ],
+      "block_path": [
+        "A$C1A4175F5"
+      ],
+      "matrix_Model_from_block_column_vectors": [
+        [
+          1.8369701987210297e-16,
+          1.0,
+          0.0,
+          48914.94493618868
+        ],
+        [
+          1.0,
+          -1.8369701987210297e-16,
+          0.0,
+          35776.93335061304
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "drawing_space": "Model XY (not physical vehicle XYZ)"
+    },
+    {
+      "insert_handles": [
+        "4EE32",
+        "39091"
+      ],
+      "block_path": [
+        "zw$50CE",
+        "A$C1A4175F5"
+      ],
+      "matrix_Model_from_block_column_vectors": [
+        [
+          -1.0,
+          2.4492935982947064e-16,
+          0.0,
+          39594.481312060874
+        ],
+        [
+          2.4492935982947064e-16,
+          1.0,
+          0.0,
+          33204.3475587232
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "drawing_space": "Model XY (not physical vehicle XYZ)"
+    }
+  ],
+  "side_Model_instances": [
+    [
+      {
+        "space": "Model",
+        "space_kind": "layout",
+        "handle": "4F844",
+        "type": "INSERT",
+        "layer": "0",
+        "name": "zw$9395",
+        "insert": [
+          50518.60275753301,
+          39384.05195711626,
+          0.0
+        ],
+        "xscale": 1,
+        "yscale": 1,
+        "zscale": 1,
+        "rotation": 0,
+        "extrusion": [
+          0,
+          0,
+          1
+        ],
+        "attributes": []
+      }
+    ],
+    [
+      {
+        "space": "Model",
+        "space_kind": "layout",
+        "handle": "4F9C1",
+        "type": "INSERT",
+        "layer": "0",
+        "name": "zw$9395",
+        "insert": [
+          38662.29716142743,
+          39388.37618840858,
+          0.0
+        ],
+        "xscale": 1,
+        "yscale": 1,
+        "zscale": 1,
+        "rotation": 0,
+        "extrusion": [
+          0,
+          0,
+          1
+        ],
+        "attributes": []
+      }
+    ],
+    [
+      {
+        "space": "Model",
+        "space_kind": "layout",
+        "handle": "51ACA",
+        "type": "INSERT",
+        "layer": "0",
+        "name": "zw$9395",
+        "insert": [
+          30374.76229270043,
+          39388.37618840858,
+          0.0
+        ],
+        "xscale": 1,
+        "yscale": 1,
+        "zscale": 1,
+        "rotation": 0,
+        "extrusion": [
+          0,
+          0,
+          1
+        ],
+        "attributes": []
+      }
+    ]
+  ],
+  "drawing_placement_handling": "Each view is first restored to its own block frame through its source INSERT chain; Model XY layout coordinates are never used as physical XYZ. Plan block X and side block X are tested as longitudinal directions, both signs.",
+  "tested_correspondence": {
+    "plan": [
+      "ECC0/EC2B X cluster",
+      "10FBE/DC40 X cluster"
+    ],
+    "side": [
+      "29E2 via 2B2E",
+      "29EB via 2B2E"
+    ],
+    "side_dx_mm": 617.9208681793971,
+    "plan_dx_mm": 623.7760162302968,
+    "dx_mismatch_mm": -5.855148050899743,
+    "plan_eye_fitted_radii_mm": [
+      2.4800461998020253,
+      2.4626868226515986,
+      2.4800459548036073,
+      2.4626868226503653
+    ],
+    "side_eye_radii_mm": [
+      4.0,
+      4.0
+    ],
+    "side_projection_y_mm": [
+      112.35085383481051,
+      141.3294793096174
+    ],
+    "those_y_values_transferred_to_real_z": false
+  },
+  "rigid_1d_registration_hypotheses": [
+    {
+      "long_axis_direction": 1,
+      "translation_mm": 378.0533065234839,
+      "scale_fixed_by_sources": 1.0,
+      "residuals_mm": [
+        -2.9275740254497578,
+        2.9275740254497578
+      ],
+      "rms_mm": 2.9275740254497578,
+      "max_error_mm": 2.9275740254497578,
+      "promoted": false
+    },
+    {
+      "long_axis_direction": -1,
+      "translation_mm": 1491.3599076375622,
+      "scale_fixed_by_sources": 1.0,
+      "residuals_mm": [
+        2.9275740254497578,
+        -2.927574025449985
+      ],
+      "rms_mm": 2.9275740254498714,
+      "max_error_mm": 2.927574025449985,
+      "promoted": false
+    }
+  ],
+  "unapproved_scale_that_would_force_two_x_clusters": 0.9906133806068972,
+  "scale_applied": false,
+  "rejection_reason": "The nearest source native-circle pair still differs by about 5.855 mm in longitudinal separation and has different eye size. Two X clusters cannot establish identity/version or independently validate a fitted scale.",
+  "scope": "This rejects promotion of this particular attractive correspondence; it does not prove no other part matching or configuration exists.",
+  "next_required_evidence": [
+    "Confirm that plan and side show the same pantograph variant and pose",
+    "At least one additional uniquely identified common longitudinal feature",
+    "Identify which projected end eyes belong to each side-view part",
+    "Then recover out-of-plane height/axis using matched orthographic views"
+  ],
+  "z_field_remains_unresolved_after_actual_attempt": true
+}

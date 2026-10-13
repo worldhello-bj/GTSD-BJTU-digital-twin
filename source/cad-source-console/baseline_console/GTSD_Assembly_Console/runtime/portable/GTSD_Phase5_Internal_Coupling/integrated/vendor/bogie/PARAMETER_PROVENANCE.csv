@@ -1,0 +1,46 @@
+parameter,value,evidence_level,source
+timestep_s,0.0005,NUMERICAL_SETTING,"Solver/sample choice, not physical calibration"
+sample_interval_s,0.02,NUMERICAL_SETTING,"Solver/sample choice, not physical calibration"
+settle_s,3.0,NUMERICAL_SETTING,"Solver/sample choice, not physical calibration"
+rolling_radius_m,0.15235,DISPLAY_CONTOUR_SELECTED_AS_UNCALIBRATED_ROLLING_SURROGATE,assembly_contract.json wheel_visual_inner_ring_radius_m; contour does NOT identify true rolling circle
+contact_tread_width_m,0.045,PHOTO_DISPLAY_GEOMETRY_SURROGATE,"component_bogie.py section flat band [-0.007,0.038] m, not measured wheel section"
+contact_tread_outward_offset_m,0.0155,PHOTO_DISPLAY_GEOMETRY_SURROGATE,"component_bogie.py section flat band [-0.007,0.038] m, not measured wheel section"
+frame_mass_kg,24.0,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+payload_mass_kg,30.0,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+carrier_mass_kg,1.0,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+wheelset_mass_kg,4.0,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+frame_inertia_kgm2,"[0.65, 2.35, 2.85]",EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+payload_inertia_kgm2,"[2.36, 4.98, 5.83]",EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+carrier_inertia_kgm2,"[0.035, 0.008, 0.035]",EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+wheelset_inertia_kgm2,"[0.1, 0.052, 0.1]",EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+primary_spring_stiffness_Npm,15000.0,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+primary_spring_damping_Nspm,150.0,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+secondary_stiffness_Npm,40000.0,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+secondary_damping_Nspm,300.0,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+swing_hinge_damping_Nmsprad,0.2,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+wheel_bearing_damping_Nmsprad,0.002,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+wheel_rail_friction,0.35,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+contact_timeconst_s,0.008,NUMERICAL_SETTING,"Solver/sample choice, not physical calibration"
+contact_dampratio,1.0,NUMERICAL_SETTING,"Solver/sample choice, not physical calibration"
+contact_impedance,0.98,NUMERICAL_SETTING,"Solver/sample choice, not physical calibration"
+rail_length_m,12.0,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+rail_depth_m,0.04,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+gravity_mps2,9.81,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+traction_torque_each_axle_Nm,0.65,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+brake_torque_limit_each_axle_Nm,0.8,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+brake_velocity_gain_Nmsprad,0.5,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+traction_observation_s,12.0,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+vertical_pulse_force_N,200.0,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+vertical_pulse_start_s,0.1,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+vertical_pulse_end_s,0.15,EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION,No physical measurement supplied; editable numerical demonstration parameter
+axle_distance_m,0.8333345657712634,CAD_VERIFIED_2D,"assembly_contract.json; CAD verified CIRCLE 4AF7C via 526A4 / 4AF90,4AF91"
+body_length_m,1.3,CAD_VERIFIED_2D,assembly_contract.json; CAD verified LWPOLYLINE 3978F via INSERT 51ACB
+wheel_axis_height_m,0.15235,DISPLAY_ALIGNMENT_OR_SECTION_ASSUMPTION,assembly_contract.json; DISPLAY_CONTACT_ALIGNMENT:152.35mm CAD inner contour chosen as display tread; physical rolling circle still unconfirmed
+wheel_center_y_m,0.24341666666666,DISPLAY_ALIGNMENT_OR_SECTION_ASSUMPTION,assembly_contract.json; DISPLAY_CONTACT_ALIGNMENT: wheel reference plane at rail-centre minus15.5mm; inferred45mm flat visual tread covers inferred39.5mm rail head
+environment_rail_half_center_m,0.25891666666666,DISPLAY_ALIGNMENT_OR_SECTION_ASSUMPTION,assembly_contract.json; new geometry shared datum
+display_rail_head_width_m,0.0395,DISPLAY_ALIGNMENT_OR_SECTION_ASSUMPTION,"assembly_contract.json; DISPLAY_SECTION_INTERPRETATION:39.5mm inner contour assumed head,73mm outer assumed base; source plane alone does not certify section roles"
+bogie_vertical_datum_shift_m,-0.0099,DISPLAY_ALIGNMENT_OR_SECTION_ASSUMPTION,assembly_contract.json; new geometry shared datum
+bogie_transverse_shift_m,-0.05658333333333998,DISPLAY_ALIGNMENT_OR_SECTION_ASSUMPTION,"assembly_contract.json; New component placements adjusted by side; frame cross-member spans regenerated, not whole vehicle scaling"
+arm_projected_delta_x_m,0.16000031999186468,CAD_2D_MOTION_CANDIDATE_NOT_VERIFIED_HINGE,component_bogie.py PARAMETERS / cad_motion_candidates_v1_scale_clarification.json
+arm_projected_delta_z_m,0.0013333359994503553,CAD_2D_MOTION_CANDIDATE_NOT_VERIFIED_HINGE,component_bogie.py PARAMETERS / cad_motion_candidates_v1_scale_clarification.json
+arm_projected_center_distance_m,0.1600058754620796,CAD_2D_MOTION_CANDIDATE_NOT_VERIFIED_HINGE,component_bogie.py PARAMETERS / cad_motion_candidates_v1_scale_clarification.json

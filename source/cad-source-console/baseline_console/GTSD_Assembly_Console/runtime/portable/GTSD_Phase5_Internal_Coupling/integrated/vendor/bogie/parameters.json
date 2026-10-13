@@ -1,0 +1,404 @@
+{
+  "schema": "gtsd-bogie-parameters-v1",
+  "parameters": {
+    "timestep_s": 0.0005,
+    "sample_interval_s": 0.02,
+    "settle_s": 3.0,
+    "rolling_radius_m": 0.15235,
+    "contact_tread_width_m": 0.045,
+    "contact_tread_outward_offset_m": 0.0155,
+    "frame_mass_kg": 24.0,
+    "payload_mass_kg": 30.0,
+    "carrier_mass_kg": 1.0,
+    "wheelset_mass_kg": 4.0,
+    "frame_inertia_kgm2": [
+      0.65,
+      2.35,
+      2.85
+    ],
+    "payload_inertia_kgm2": [
+      2.36,
+      4.98,
+      5.83
+    ],
+    "carrier_inertia_kgm2": [
+      0.035,
+      0.008,
+      0.035
+    ],
+    "wheelset_inertia_kgm2": [
+      0.1,
+      0.052,
+      0.1
+    ],
+    "primary_spring_stiffness_Npm": 15000.0,
+    "primary_spring_damping_Nspm": 150.0,
+    "secondary_stiffness_Npm": 40000.0,
+    "secondary_damping_Nspm": 300.0,
+    "swing_hinge_damping_Nmsprad": 0.2,
+    "wheel_bearing_damping_Nmsprad": 0.002,
+    "wheel_rail_friction": 0.35,
+    "contact_timeconst_s": 0.008,
+    "contact_dampratio": 1.0,
+    "contact_impedance": 0.98,
+    "rail_length_m": 12.0,
+    "rail_depth_m": 0.04,
+    "gravity_mps2": 9.81,
+    "traction_torque_each_axle_Nm": 0.65,
+    "brake_torque_limit_each_axle_Nm": 0.8,
+    "brake_velocity_gain_Nmsprad": 0.5,
+    "traction_observation_s": 12.0,
+    "vertical_pulse_force_N": 200.0,
+    "vertical_pulse_start_s": 0.1,
+    "vertical_pulse_end_s": 0.15
+  },
+  "source_geometry_contract": {
+    "schema": "gtsd-cad-photo-detail-reconstruction-v3",
+    "coordinate_system": "metres; X along car, Y transverse, Z up; X=0 at body side-frame midpoint, Y=0 assumed symmetry plane, Z=0 illustrative railhead",
+    "source_commit": "d78e0e4616f9a491e46a5c03637755971a9ec92c",
+    "body_length_m": 1.3,
+    "body_height_m": 0.5516443122819619,
+    "axle_distance_m": 0.8333345657712634,
+    "body_width_m": 0.8,
+    "wheel_visual_outer_radius_m": 0.16225,
+    "wheel_visual_inner_ring_radius_m": 0.15235,
+    "wheel_axis_height_m": 0.15235,
+    "wheel_center_y_m": 0.24341666666666,
+    "body_bottom_z_m": 0.3638689111436339,
+    "roof_top_z_m": 0.9155132234255958,
+    "evidence": {
+      "body_length_m": "CAD verified LWPOLYLINE 3978F via INSERT 51ACB",
+      "body_height_m": "CAD verified same side-frame rectangle; bounds include rounded visual corners within rectangle",
+      "axle_distance_m": "CAD verified CIRCLE 4AF7C via 526A4 / 4AF90,4AF91",
+      "body_bottom_z_minus_axle_height_m": "CAD drawing side-projection difference 0.2115189111436339m; no calibrated 3D axis claim",
+      "body_width_m": "PHOTO_INFERRED_GEOMETRY: 0.8m provisional front-panel aspect, images 01/23/24; no orthographic measurement",
+      "wheel_visual_outer_radius_m": "CAD concentric outer circle radius 162.25mm; visual outline only, rolling role unconfirmed",
+      "wheel_visual_inner_ring_radius_m": "CAD concentric ring radius 152.35mm; visual contour only",
+      "wheel_axis_height_m": "DISPLAY_CONTACT_ALIGNMENT:152.35mm CAD inner contour chosen as display tread; physical rolling circle still unconfirmed",
+      "wheel_center_y_m": "DISPLAY_CONTACT_ALIGNMENT: wheel reference plane at rail-centre minus15.5mm; inferred45mm flat visual tread covers inferred39.5mm rail head",
+      "rail_contour_center_distance_m": "CAD_2D_LAYOUT_CANDIDATE: Model LINE4ED11/13 and4ED15/17 centreline; not standard track gauge",
+      "display_rail_head_width_m": "DISPLAY_SECTION_INTERPRETATION:39.5mm inner contour assumed head,73mm outer assumed base; source plane alone does not certify section roles",
+      "bogie_transverse_shift_m": "New component placements adjusted by side; frame cross-member spans regenerated, not whole vehicle scaling",
+      "pantograph": "Static display pose puts carbon top at lower surface of CAD-design Ø5mm contact wire; layout/reference geometry only, no contact force or full closed-chain validation",
+      "reader": "Photo-visible single candidate reader with folded support; quantity not doubled from opposite end photos;25mm balise gap is display assumption",
+      "substation_display_center_xy_m": "ENGINEERING_REVIEW_PLACEMENT: photo10 shows rail-side rack; CAD label4EE0A locates general left region only. Exact X/Y adjusted within existing front worktop to remove rail/sleeper/console overlap; not measured installation or safety clearance."
+    },
+    "component_interface": "Each scripts/component_*.py exports build(cfg) -> list of Blender objects; import geom_helpers. Use common world coords. Do not reset scene, add cameras, run render, or export in build(). Object names own prefix. Custom properties evidence_level/source_refs/registered_component_id where supported. No physics constraints or arbitrary animation.",
+    "include_environment": true,
+    "rail_contour_center_distance_m": 0.51783333333332,
+    "environment_rail_half_center_m": 0.25891666666666,
+    "display_rail_head_width_m": 0.0395,
+    "display_rail_base_width_m": 0.073,
+    "cad_railhead_elevation_mm": 38472.86296498299,
+    "bogie_transverse_shift_m": -0.05658333333333998,
+    "bogie_vertical_datum_shift_m": -0.0099,
+    "pantograph": {
+      "pose": "display_contact_alignment",
+      "lower_angle_deg": 12,
+      "upper_angle_deg": 9.967538173056194
+    },
+    "display_contact_wire_center_z_m": 1.5688111780353182,
+    "display_contact_carbon_top_z_m": 1.5663111780353183,
+    "reader_display_x_m": -0.6013333333333,
+    "reader_display_balise_top_z_m": -0.02962492880494,
+    "reader_display_gap_m": 0.025,
+    "substation_display_center_xy_m": [
+      -8.9,
+      -0.826
+    ]
+  },
+  "parameter_provenance": [
+    {
+      "parameter": "timestep_s",
+      "value": 0.0005,
+      "evidence_level": "NUMERICAL_SETTING",
+      "source": "Solver/sample choice, not physical calibration"
+    },
+    {
+      "parameter": "sample_interval_s",
+      "value": 0.02,
+      "evidence_level": "NUMERICAL_SETTING",
+      "source": "Solver/sample choice, not physical calibration"
+    },
+    {
+      "parameter": "settle_s",
+      "value": 3.0,
+      "evidence_level": "NUMERICAL_SETTING",
+      "source": "Solver/sample choice, not physical calibration"
+    },
+    {
+      "parameter": "rolling_radius_m",
+      "value": 0.15235,
+      "evidence_level": "DISPLAY_CONTOUR_SELECTED_AS_UNCALIBRATED_ROLLING_SURROGATE",
+      "source": "assembly_contract.json wheel_visual_inner_ring_radius_m; contour does NOT identify true rolling circle"
+    },
+    {
+      "parameter": "contact_tread_width_m",
+      "value": 0.045,
+      "evidence_level": "PHOTO_DISPLAY_GEOMETRY_SURROGATE",
+      "source": "component_bogie.py section flat band [-0.007,0.038] m, not measured wheel section"
+    },
+    {
+      "parameter": "contact_tread_outward_offset_m",
+      "value": 0.0155,
+      "evidence_level": "PHOTO_DISPLAY_GEOMETRY_SURROGATE",
+      "source": "component_bogie.py section flat band [-0.007,0.038] m, not measured wheel section"
+    },
+    {
+      "parameter": "frame_mass_kg",
+      "value": 24.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "payload_mass_kg",
+      "value": 30.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "carrier_mass_kg",
+      "value": 1.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "wheelset_mass_kg",
+      "value": 4.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "frame_inertia_kgm2",
+      "value": [
+        0.65,
+        2.35,
+        2.85
+      ],
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "payload_inertia_kgm2",
+      "value": [
+        2.36,
+        4.98,
+        5.83
+      ],
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "carrier_inertia_kgm2",
+      "value": [
+        0.035,
+        0.008,
+        0.035
+      ],
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "wheelset_inertia_kgm2",
+      "value": [
+        0.1,
+        0.052,
+        0.1
+      ],
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "primary_spring_stiffness_Npm",
+      "value": 15000.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "primary_spring_damping_Nspm",
+      "value": 150.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "secondary_stiffness_Npm",
+      "value": 40000.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "secondary_damping_Nspm",
+      "value": 300.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "swing_hinge_damping_Nmsprad",
+      "value": 0.2,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "wheel_bearing_damping_Nmsprad",
+      "value": 0.002,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "wheel_rail_friction",
+      "value": 0.35,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "contact_timeconst_s",
+      "value": 0.008,
+      "evidence_level": "NUMERICAL_SETTING",
+      "source": "Solver/sample choice, not physical calibration"
+    },
+    {
+      "parameter": "contact_dampratio",
+      "value": 1.0,
+      "evidence_level": "NUMERICAL_SETTING",
+      "source": "Solver/sample choice, not physical calibration"
+    },
+    {
+      "parameter": "contact_impedance",
+      "value": 0.98,
+      "evidence_level": "NUMERICAL_SETTING",
+      "source": "Solver/sample choice, not physical calibration"
+    },
+    {
+      "parameter": "rail_length_m",
+      "value": 12.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "rail_depth_m",
+      "value": 0.04,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "gravity_mps2",
+      "value": 9.81,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "traction_torque_each_axle_Nm",
+      "value": 0.65,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "brake_torque_limit_each_axle_Nm",
+      "value": 0.8,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "brake_velocity_gain_Nmsprad",
+      "value": 0.5,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "traction_observation_s",
+      "value": 12.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "vertical_pulse_force_N",
+      "value": 200.0,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "vertical_pulse_start_s",
+      "value": 0.1,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "vertical_pulse_end_s",
+      "value": 0.15,
+      "evidence_level": "EXPLICIT_UNCALIBRATED_ENGINEERING_ASSUMPTION",
+      "source": "No physical measurement supplied; editable numerical demonstration parameter"
+    },
+    {
+      "parameter": "axle_distance_m",
+      "value": 0.8333345657712634,
+      "evidence_level": "CAD_VERIFIED_2D",
+      "source": "assembly_contract.json; CAD verified CIRCLE 4AF7C via 526A4 / 4AF90,4AF91"
+    },
+    {
+      "parameter": "body_length_m",
+      "value": 1.3,
+      "evidence_level": "CAD_VERIFIED_2D",
+      "source": "assembly_contract.json; CAD verified LWPOLYLINE 3978F via INSERT 51ACB"
+    },
+    {
+      "parameter": "wheel_axis_height_m",
+      "value": 0.15235,
+      "evidence_level": "DISPLAY_ALIGNMENT_OR_SECTION_ASSUMPTION",
+      "source": "assembly_contract.json; DISPLAY_CONTACT_ALIGNMENT:152.35mm CAD inner contour chosen as display tread; physical rolling circle still unconfirmed"
+    },
+    {
+      "parameter": "wheel_center_y_m",
+      "value": 0.24341666666666,
+      "evidence_level": "DISPLAY_ALIGNMENT_OR_SECTION_ASSUMPTION",
+      "source": "assembly_contract.json; DISPLAY_CONTACT_ALIGNMENT: wheel reference plane at rail-centre minus15.5mm; inferred45mm flat visual tread covers inferred39.5mm rail head"
+    },
+    {
+      "parameter": "environment_rail_half_center_m",
+      "value": 0.25891666666666,
+      "evidence_level": "DISPLAY_ALIGNMENT_OR_SECTION_ASSUMPTION",
+      "source": "assembly_contract.json; new geometry shared datum"
+    },
+    {
+      "parameter": "display_rail_head_width_m",
+      "value": 0.0395,
+      "evidence_level": "DISPLAY_ALIGNMENT_OR_SECTION_ASSUMPTION",
+      "source": "assembly_contract.json; DISPLAY_SECTION_INTERPRETATION:39.5mm inner contour assumed head,73mm outer assumed base; source plane alone does not certify section roles"
+    },
+    {
+      "parameter": "bogie_vertical_datum_shift_m",
+      "value": -0.0099,
+      "evidence_level": "DISPLAY_ALIGNMENT_OR_SECTION_ASSUMPTION",
+      "source": "assembly_contract.json; new geometry shared datum"
+    },
+    {
+      "parameter": "bogie_transverse_shift_m",
+      "value": -0.05658333333333998,
+      "evidence_level": "DISPLAY_ALIGNMENT_OR_SECTION_ASSUMPTION",
+      "source": "assembly_contract.json; New component placements adjusted by side; frame cross-member spans regenerated, not whole vehicle scaling"
+    },
+    {
+      "parameter": "arm_projected_delta_x_m",
+      "value": 0.16000031999186468,
+      "evidence_level": "CAD_2D_MOTION_CANDIDATE_NOT_VERIFIED_HINGE",
+      "source": "component_bogie.py PARAMETERS / cad_motion_candidates_v1_scale_clarification.json"
+    },
+    {
+      "parameter": "arm_projected_delta_z_m",
+      "value": 0.0013333359994503553,
+      "evidence_level": "CAD_2D_MOTION_CANDIDATE_NOT_VERIFIED_HINGE",
+      "source": "component_bogie.py PARAMETERS / cad_motion_candidates_v1_scale_clarification.json"
+    },
+    {
+      "parameter": "arm_projected_center_distance_m",
+      "value": 0.1600058754620796,
+      "evidence_level": "CAD_2D_MOTION_CANDIDATE_NOT_VERIFIED_HINGE",
+      "source": "component_bogie.py PARAMETERS / cad_motion_candidates_v1_scale_clarification.json"
+    }
+  ],
+  "geometry_source_sha256": {
+    "assembly_contract.json": "2fa2c4cef2b623a3ed2a2db0e479eaca434efc824b2494e8a1695017bab5993c",
+    "scripts/component_bogie.py": "74d3c03b8dbc7da14ee27afa8e2c496ea58498b51c63da5917fc3ee58d66d6f6",
+    "web/geometry.json": "7d925267cbfb18d39e64041ea851fc13db2e3a13f6d403eab386235f741d8f43"
+  },
+  "mechanism_level": "candidate planar paired swing arms; inferred common transverse hinge, synchronized left/right arms, no established 3D topology"
+}

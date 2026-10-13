@@ -1,0 +1,218 @@
+{
+  "schema": "gtsd-candidate-selection-contract-v1",
+  "asset_id": "brt38m_blind_bore_family_candidate_v1",
+  "label_zh": "BRT38M厂家图候选（实装型号/轴号/安装位未确认）",
+  "enabled_by_default": false,
+  "candidate_only": true,
+  "candidate_mesh_file": "outputs/encoder_candidate_assembly.json",
+  "glb_file": "outputs/BRT38M_blind_bore_candidate.glb",
+  "local_glb_axes": "glTF uses Y-up: glTF x=local x, y=local z, z=-local y; metre units",
+  "hide_only_when_candidate_selected": [
+    {
+      "id": "963",
+      "name": "DETAIL_DRIVE_encoder_body"
+    },
+    {
+      "id": "964",
+      "name": "DETAIL_DRIVE_encoder_cable_gland"
+    },
+    {
+      "id": "986",
+      "name": "DETAIL_DRIVE_encoder_ear_fastener_0"
+    },
+    {
+      "id": "987",
+      "name": "DETAIL_DRIVE_encoder_ear_fastener_1"
+    },
+    {
+      "id": "988",
+      "name": "DETAIL_DRIVE_encoder_ear_fastener_2"
+    },
+    {
+      "id": "989",
+      "name": "DETAIL_DRIVE_encoder_ear_standoff_0"
+    },
+    {
+      "id": "990",
+      "name": "DETAIL_DRIVE_encoder_ear_standoff_1"
+    },
+    {
+      "id": "991",
+      "name": "DETAIL_DRIVE_encoder_ear_standoff_2"
+    },
+    {
+      "id": "992",
+      "name": "DETAIL_DRIVE_encoder_identifier_band"
+    },
+    {
+      "id": "993",
+      "name": "DETAIL_DRIVE_encoder_lead"
+    },
+    {
+      "id": "994",
+      "name": "DETAIL_DRIVE_encoder_mount_ear_0"
+    },
+    {
+      "id": "995",
+      "name": "DETAIL_DRIVE_encoder_mount_ear_1"
+    },
+    {
+      "id": "996",
+      "name": "DETAIL_DRIVE_encoder_mount_ear_2"
+    },
+    {
+      "id": "997",
+      "name": "DETAIL_DRIVE_encoder_mount_flange"
+    },
+    {
+      "id": "998",
+      "name": "DETAIL_DRIVE_encoder_rear_rim"
+    },
+    {
+      "id": "999",
+      "name": "DETAIL_DRIVE_encoder_shaft_candidate"
+    }
+  ],
+  "preserve_independent_cover": [
+    {
+      "id": "965",
+      "name": "DETAIL_DRIVE_encoder_cover_bolt_0"
+    },
+    {
+      "id": "966",
+      "name": "DETAIL_DRIVE_encoder_cover_bolt_1"
+    },
+    {
+      "id": "967",
+      "name": "DETAIL_DRIVE_encoder_cover_bolt_2"
+    },
+    {
+      "id": "968",
+      "name": "DETAIL_DRIVE_encoder_cover_bolt_3"
+    },
+    {
+      "id": "969",
+      "name": "DETAIL_DRIVE_encoder_cover_bolt_4"
+    },
+    {
+      "id": "970",
+      "name": "DETAIL_DRIVE_encoder_cover_bolt_5"
+    },
+    {
+      "id": "971",
+      "name": "DETAIL_DRIVE_encoder_cover_cast_rib_0"
+    },
+    {
+      "id": "972",
+      "name": "DETAIL_DRIVE_encoder_cover_cast_rib_1"
+    },
+    {
+      "id": "973",
+      "name": "DETAIL_DRIVE_encoder_cover_cast_rib_2"
+    },
+    {
+      "id": "974",
+      "name": "DETAIL_DRIVE_encoder_cover_cast_rib_3"
+    },
+    {
+      "id": "975",
+      "name": "DETAIL_DRIVE_encoder_cover_cast_rib_4"
+    },
+    {
+      "id": "976",
+      "name": "DETAIL_DRIVE_encoder_cover_cast_rib_5"
+    },
+    {
+      "id": "977",
+      "name": "DETAIL_DRIVE_encoder_cover_closed_end"
+    },
+    {
+      "id": "978",
+      "name": "DETAIL_DRIVE_encoder_cover_hollow_barrel"
+    },
+    {
+      "id": "979",
+      "name": "DETAIL_DRIVE_encoder_cover_mount_flange"
+    },
+    {
+      "id": "980",
+      "name": "DETAIL_DRIVE_encoder_cover_washer_0"
+    },
+    {
+      "id": "981",
+      "name": "DETAIL_DRIVE_encoder_cover_washer_1"
+    },
+    {
+      "id": "982",
+      "name": "DETAIL_DRIVE_encoder_cover_washer_2"
+    },
+    {
+      "id": "983",
+      "name": "DETAIL_DRIVE_encoder_cover_washer_3"
+    },
+    {
+      "id": "984",
+      "name": "DETAIL_DRIVE_encoder_cover_washer_4"
+    },
+    {
+      "id": "985",
+      "name": "DETAIL_DRIVE_encoder_cover_washer_5"
+    }
+  ],
+  "frozen_source_sha256": "7d925267cbfb18d39e64041ea851fc13db2e3a13f6d403eab386235f741d8f43",
+  "candidate_component_ids": [
+    "DTB-C0073",
+    "DTB-C0074"
+  ],
+  "candidate_instance_count": 1,
+  "set_screw_selection": null,
+  "mass_kg": null,
+  "inertia_kg_m2": null,
+  "signal_mode": "UNCONFIRMED_POSSIBLE_ANALOG_SPEED",
+  "label_observation": "3000RPM",
+  "analog_angle_mapping_allowed": false,
+  "hardware_transport_allowed": false,
+  "promotion_gates": [
+    "Confirm installed model/variant and source revision",
+    "Resolve physical axle number and placement",
+    "Measure mating shaft and cover clearances",
+    "Resolve M2 versus M3 set-screw conflict",
+    "Confirm signal mode, range and calibration separately"
+  ],
+  "placement": {
+    "status": "INHERITED_CANDIDATE_INSTALLATION_DATUM_ONLY",
+    "matrix_row_major": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -0.41666728258132935
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        -0.3667166531085968
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.15234999358654022
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "datum": "front ear plane aligns with old hypothetical outer housing mount plane",
+    "unverified_boss_projection_mm": 6.0,
+    "mating_shaft_not_generated": true
+  },
+  "optional_visual_layers": [
+    "inferred_mount_shape",
+    "photo_visual_optional"
+  ]
+}

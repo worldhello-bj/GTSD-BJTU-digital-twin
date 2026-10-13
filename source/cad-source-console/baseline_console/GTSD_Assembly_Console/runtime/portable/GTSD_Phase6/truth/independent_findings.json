@@ -1,0 +1,55 @@
+{
+  "schema": "gtsd-independent-source-findings-v1",
+  "findings": [
+    {
+      "id": "VENDOR-ENCODER-SETSCREW-CONFLICT",
+      "field": "encoder_set_screw_thread",
+      "evidence_level": "SOURCE_VERSION_CONFLICT",
+      "installed_value": null,
+      "sources": [
+        {
+          "url": "https://www.buruiter.com/wp-content/uploads/2023/08/07-编码器-IP54-BRT38m-8mm盲孔.pdf",
+          "physical_page_1based": 1,
+          "drawing_revision": "A",
+          "value": "2 x M2",
+          "verified_image": "brt38m_ip54_drawing_p1.png"
+        },
+        {
+          "url": "https://www.buruiter.com/wp-content/uploads/2025/10/009-模拟量数字量双输出-单圈绝对式编码器说明书-V2.6.pdf",
+          "physical_page_1based": 9,
+          "printed_page": 7,
+          "figure": "尺寸型号图2：输出轴8mm盲孔IP54",
+          "value": "2 x M3",
+          "verified_image": "brt_dual_output_single_turn_v26_p9.png"
+        }
+      ],
+      "resolution": "不选边默认为实装。先核设备版本/配合件/原厂专用图。"
+    },
+    {
+      "id": "PHOTO-ENCODER-SPEED-MODE-CANDIDATE",
+      "evidence_level": "PHOTO_LABEL_CONFIRMED_VENDOR_INTERPRETATION_CANDIDATE",
+      "photo": "图片12.png",
+      "photo_index": 6,
+      "crop_original": "/workspace/shared/gtsd-parts-images-1011/crops/encoder_label_rotated.png",
+      "observed_red_label": "3000RPM",
+      "observed_model_candidate": "BRT38M-R0&A0M4096-RT1",
+      "manufacturer_manual": {
+        "url": "https://www.buruiter.com/wp-content/uploads/2025/10/009-模拟量数字量双输出-单圈绝对式编码器说明书-V2.6.pdf",
+        "physical_page_1based": 4,
+        "printed_page": 2,
+        "note": 3,
+        "meaning": "模拟量速度款在型号后备注最大转速RPM",
+        "verified_image": "brt_dual_output_single_turn_v26_p4.png"
+      },
+      "inference": "实装可能为模拟量速度输出变型；ABSOLUTE及4096不证明4–20mA输出的是绝对角度。",
+      "not_confirmed": [
+        "实际4–20mA用途及端点",
+        "速度/角度模式与标定",
+        "轴号/方向",
+        "RS485地址/波特率/寄存器",
+        "实际分辨率与精度"
+      ],
+      "hardware_action_authorized": false
+    }
+  ]
+}

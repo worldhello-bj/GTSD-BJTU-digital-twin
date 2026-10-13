@@ -1,0 +1,34 @@
+{
+  "schema": "gtsd-cad-body-dependencies-v1",
+  "dependencies": {
+    "phase6": {
+      "default_sibling": "gtsd-physics-phase6-aux-1012",
+      "source_sha256": {
+        "PHASE6_SOURCE_FREEZE.json": "fade0b2909463c0835cc7eafd6fc9213682ebb484d868f3572d7e91d77909134",
+        "PHASE6_READONLY_BASELINE.json": "d7312c027f7b09bd2d1416219354f2b675a8eef10dbe89610e591bc940a06cb0",
+        "aux_mount/__init__.py": "66217be79bc31930c57f9877e284602993b37560f318581381cc745d62e95751",
+        "aux_mount/bootstrap.py": "d8f194f6551ac83e22b3e52fe7cd04f6bb47128a6603051961a21155dca0af9e",
+        "aux_mount/model.py": "1611b5d0871d2fe37737d8b416dad6768bdf8387f56905bfd540ebc77cf310a5",
+        "aux_mount/plant.py": "47b6dde8c54590c5713fbf995e74493595dab9d59b7cfba1fe24f311a527d8eb",
+        "aux_mount/pneumatics.py": "0fc64be74b11ad4051cbf28de6ff814bfad6f67bf6e8603edd57b94d39136bc4",
+        "aux_mount/runtime.py": "aad8141fcc9ce9449eb67d238b084fa87e9ea7ac1b1ae5643d498255166865af"
+      }
+    },
+    "cad": {
+      "default_sibling": "gtsd-body-cad-phase6-1012",
+      "source_sha256": {
+        "outputs/body_cad_candidate_meshes.json": "46f7e9723e0e510e6b076e91dd764081386cf53ad66839debd850ce686be2a5a",
+        "evidence/body_geometry_validation.json": "3d51c2963fafcd9c1b8c391d8d55d0f5616b2b3d078dc8f4b6788404102d08a8",
+        "evidence/body_geometric_mass_properties.json": "068df59deb4fbe938a1f56c11f64ddbc50001c84d642164b1098c440693f1cc2",
+        "evidence/validation.json": "0728cd0edeeeadf894294673978e8a50fea30dae39f7395119bf4169db56f5bf"
+      }
+    },
+    "phase5": {
+      "default_sibling": "gtsd-physics-phase5-1012",
+      "source_sha256": {
+        "assembly_contract.json": "2fa2c4cef2b623a3ed2a2db0e479eaca434efc824b2494e8a1695017bab5993c",
+        "web/geometry.json": "7d925267cbfb18d39e64041ea851fc13db2e3a13f6d403eab386235f741d8f43"
+      }
+    }
+  }
+}

@@ -1,0 +1,765 @@
+{
+  "passed": true,
+  "checked": 127,
+  "checks": [
+    {
+      "name": "glb_header",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_exact_candidate_mesh_count",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_exact_candidate_node_names",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_no_legacy_body_context_exported",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_door_leaf_end_neg_y_neg",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_door_leaf_end_neg_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_door_leaf_end_neg_y_pos",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_door_leaf_end_neg_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_door_leaf_end_pos_y_neg",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_door_leaf_end_pos_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_door_leaf_end_pos_y_pos",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_door_leaf_end_pos_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_end_frame_+1_2B75_2B77",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_end_frame_+1_2B75_2B77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_end_frame_-1_2B75_2B77",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_end_frame_-1_2B75_2B77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_fan_shroud_end_neg_y_neg",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_fan_shroud_end_neg_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_fan_shroud_end_neg_y_pos",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_fan_shroud_end_neg_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_fan_shroud_end_pos_y_neg",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_fan_shroud_end_pos_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_fan_shroud_end_pos_y_pos",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_fan_shroud_end_pos_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_door_handle_1",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_door_handle_1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_door_handle_-1",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_door_handle_-1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_electrical_caution",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_electrical_caution",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_electrical_caution.001",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_electrical_caution.001",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_electrical_caution.002",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_electrical_caution.002",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_electrical_caution.003",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_electrical_caution.003",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_emergency_stop",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_emergency_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_emergency_stop.001",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_emergency_stop.001",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_emergency_stop.002",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_emergency_stop.002",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_emergency_stop.003",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_emergency_stop.003",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_1_1_0.03",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_1_1_0.03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_1_1_0.019",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_1_1_0.019",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_1_1_0.041",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_1_1_0.041",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_1_1_0.052",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_1_1_0.052",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_1_-1_0.03",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_1_-1_0.03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_1_-1_0.019",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_1_-1_0.019",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_1_-1_0.041",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_1_-1_0.041",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_1_-1_0.052",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_1_-1_0.052",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_-1_1_0.03",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_-1_1_0.03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_-1_1_0.019",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_-1_1_0.019",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_-1_1_0.041",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_-1_1_0.041",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_-1_1_0.052",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_-1_1_0.052",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_-1_-1_0.03",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_-1_-1_0.03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_-1_-1_0.019",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_-1_-1_0.019",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_-1_-1_0.041",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_-1_-1_0.041",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_grille_-1_-1_0.052",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_grille_-1_-1_0.052",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_spoke",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_spoke",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_spoke.001",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_spoke.001",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_spoke.002",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_spoke.002",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_spoke.003",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_spoke.003",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_spoke.004",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_spoke.004",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_spoke.005",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_spoke.005",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_spoke.006",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_spoke.006",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_spoke.007",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_spoke.007",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_spoke.008",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_spoke.008",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_spoke.009",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_spoke.009",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_spoke.010",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_spoke.010",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_fan_spoke.011",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_fan_spoke.011",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_hinge_1_1_0.454",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_hinge_1_1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_hinge_1_1_0.744",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_hinge_1_1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_hinge_1_-1_0.454",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_hinge_1_-1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_hinge_1_-1_0.744",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_hinge_1_-1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_hinge_-1_1_0.454",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_hinge_-1_1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_hinge_-1_1_0.744",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_hinge_-1_1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_hinge_-1_-1_0.454",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_hinge_-1_-1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_hinge_-1_-1_0.744",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_hinge_-1_-1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_round_blank_cap_1",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_round_blank_cap_1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_round_blank_cap_-1",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_round_blank_cap_-1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "glb_preserved_bounds_CAD_mounted_SHELL_supply_indicator",
+      "passed": true,
+      "details": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "glb_preserved_source_status_CAD_mounted_SHELL_supply_indicator",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "real_png_end_doors_CAD_front.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "real_png_end_doors_CAD_closed.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "real_png_end_doors_CAD_open.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "blend_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "under_50mb",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "GLB_coordinate_transform": "native XYZ z-up -> glTF (X,Z,-Y) y-up",
+  "renders_visually_reviewed": [
+    "end_doors_CAD_front.png",
+    "end_doors_CAD_open.png"
+  ],
+  "scope": "Export dimensions and identities; geometry validation in validation.json"
+}

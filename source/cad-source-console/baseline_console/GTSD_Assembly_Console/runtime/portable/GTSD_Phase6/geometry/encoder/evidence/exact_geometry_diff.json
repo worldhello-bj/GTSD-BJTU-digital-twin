@@ -1,0 +1,85 @@
+{
+  "schema": "gtsd-frozen-to-family-candidate-diff-v1",
+  "changes_applied_to_frozen": false,
+  "target_confirmed_as_built": false,
+  "frozen_source_sha256": "7d925267cbfb18d39e64041ea851fc13db2e3a13f6d403eab386235f741d8f43",
+  "differences": [
+    {
+      "feature": "body_outer_diameter_mm",
+      "old_mesh_measured": 37.99998760223389,
+      "candidate_mesh_measured": 39.0000018453993,
+      "delta_mm": 1.0000142431654098,
+      "source_status": "VENDOR_FAMILY_DIMENSION_TARGET_MATCH_PENDING"
+    },
+    {
+      "feature": "body_axial_length_mm",
+      "old_mesh_measured": 32.00000524520874,
+      "candidate_mesh_measured": 34.00000184774399,
+      "delta_mm": 1.9999966025352478,
+      "source_status": "VENDOR_FAMILY_DIMENSION_TARGET_MATCH_PENDING"
+    },
+    {
+      "feature": "shaft_interface",
+      "old": "6 mm solid external shaft, length 12 mm",
+      "candidate": "8.015 mm cylindrical blind bore, in 8.01–8.02 family tolerance band; 10 mm cylindrical depth",
+      "delta_type": "TOPOLOGY_REPLACEMENT_NOT_SHAFT_DIAMETER_INCREMENT",
+      "notes": "Mating shaft is absent; hub projection 6 mm and flat blind floor are explicit approximations."
+    },
+    {
+      "feature": "mount_ears",
+      "old": "3 square ears/3 standoffs/3 fasteners",
+      "candidate": "2 slotted tabs with 4 x 10.4 mm slots, 45.6 mm centers; simplified formed bracket",
+      "notes": "Source family picture supports two tabs. Real mount positions and fold geometry remain unverified."
+    },
+    {
+      "feature": "setscrews",
+      "old": "not reliably represented",
+      "candidate": "not generated",
+      "notes": "2023 drawing 2xM2 conflicts with 2025 manual 2xM3; installed value null."
+    },
+    {
+      "feature": "mount_holes",
+      "old": "not vendor-based",
+      "candidate": "2 nominal-diameter unthreaded previews on 30 mm pitch circle, 6 mm depth",
+      "notes": "M3 callout retained as metadata; actual thread pitch/minor diameter not fabricated."
+    },
+    {
+      "feature": "candidate_body_front_abs_y_mm",
+      "old": 370.41667103767395,
+      "candidate": 366.71666666666,
+      "delta_mm": -3.7000043710139763,
+      "notes": "Ear plane preserved at former candidate mount datum; no surveyed pose claim."
+    },
+    {
+      "feature": "candidate_body_rear_abs_y_mm",
+      "old": 402.4166762828827,
+      "candidate": 400.71666666666,
+      "delta_mm": -1.7000096162226863
+    },
+    {
+      "feature": "protective_cover",
+      "old_meshes": 21,
+      "candidate_changed_meshes": 0,
+      "notes": "Independent old cup not rebuilt; cavity check is only against old assumed envelope."
+    }
+  ],
+  "cavity_check": {
+    "basis": "Existing cover dimensions are PHOTO_INFERRED display assumptions, not measured fit",
+    "radial_min_clearance_mm": 4.87999876737593,
+    "rear_min_clearance_mm": 5.700004259738607,
+    "front_plane_min_mm": -1.1126193688593133e-05,
+    "old_cover_radius_mm": 36,
+    "old_cover_internal_depth_mm": 51,
+    "hardware_fit_verified": false
+  },
+  "preserved_unknowns": [
+    "Installed exact model/variant",
+    "Axle number",
+    "Surveyed installation pose",
+    "Actual mating shaft/cup sizes",
+    "Set-screw version",
+    "Mass/center of mass/inertia",
+    "Signal mode/range/calibration",
+    "Real internal encoder construction"
+  ]
+}

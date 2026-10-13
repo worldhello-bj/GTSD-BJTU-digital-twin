@@ -1,0 +1,169 @@
+{
+  "schema": "gtsd-cad-end-opening-contract-v1",
+  "units": "mm",
+  "source_block": "zw$1F51",
+  "opening_handle": "2B77",
+  "source_INSERT": "zw$3E1B/39782",
+  "original_instances": [
+    {
+      "insert_handles": [
+        "4F9BF"
+      ],
+      "block_path": [
+        "zw$3E1B"
+      ],
+      "matrix_Model_from_block_column_vectors": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          48857.88866866489
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          38832.40764483428
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "drawing_space": "Model XY (not physical vehicle XYZ)"
+    },
+    {
+      "insert_handles": [
+        "51033"
+      ],
+      "block_path": [
+        "zw$3E1B"
+      ],
+      "matrix_Model_from_block_column_vectors": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          46078.51161193906
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          38832.40764483428
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "drawing_space": "Model XY (not physical vehicle XYZ)"
+    }
+  ],
+  "source_insert": {
+    "handle": "39782",
+    "type": "INSERT",
+    "layer": "0",
+    "block": "zw$1F51",
+    "insert": [
+      1.501189249367599,
+      0.06207788821484428,
+      0.0
+    ],
+    "xscale": 1,
+    "yscale": 1,
+    "zscale": 1,
+    "rotation": 0
+  },
+  "vehicle_section_Y_center_local_CAD_x_mm": 560.0246558018408,
+  "opening_polygon_transverse_Y_Z_mm": [
+    [
+      -460.00059462468937,
+      27.500000000014555
+    ],
+    [
+      -10.00059462468937,
+      27.500000000014555
+    ],
+    [
+      -10.00059462468937,
+      24.500000000014555
+    ],
+    [
+      9.99940537531063,
+      24.500000000014555
+    ],
+    [
+      9.99940537531063,
+      27.500000000014555
+    ],
+    [
+      459.99940537531074,
+      27.500000000014555
+    ],
+    [
+      459.99940537531074,
+      477.50000000001455
+    ],
+    [
+      -460.00059462468937,
+      477.50000000001455
+    ]
+  ],
+  "opening_Y_range_mm": [
+    -460.00059462468937,
+    459.99940537531074
+  ],
+  "main_opening_Z_range_mm": [
+    27.5,
+    477.5
+  ],
+  "main_opening_width_mm": 920.0000000000001,
+  "main_opening_height_mm": 450.0,
+  "bottom_center_notch_depth_mm": 3.0,
+  "photos": [
+    {
+      "file": "/workspace/shared/gtsd-geometry-1011/inputs/图片素材/车背部.jpg",
+      "sha256": "8cee00d6f393e95147f48c09dbe2e46ff3b324505ac4a2f0c27ff215df511aa3",
+      "used": "Actually viewed: two end doors, centre seam, fans and handles; open leaf confirms vertical edge hinge candidate. No photogrammetric dimensional claim."
+    },
+    {
+      "file": "/workspace/shared/gtsd-geometry-1011/inputs/图片素材/车体侧面.jpg",
+      "sha256": "0363e58d88379214d5c00a1b7ca375f00819527d7a2b9167a96844a3836775c3",
+      "used": "Actually viewed: two end doors, centre seam, fans and handles; open leaf confirms vertical edge hinge candidate. No photogrammetric dimensional claim."
+    },
+    {
+      "file": "/workspace/shared/gtsd-geometry-1011/inputs/图片素材/图片1.png",
+      "sha256": "b6c285e46c9c64d9e3f47041492adf5080738beb9d9e460bf90ab63de4c41c0f",
+      "used": "Actually viewed: two end doors, centre seam, fans and handles; open leaf confirms vertical edge hinge candidate. No photogrammetric dimensional claim."
+    }
+  ],
+  "proposed_research_choices": {
+    "peripheral_gap_mm": 1.0,
+    "centre_total_gap_mm": 2.0,
+    "leaf_thickness_mm": 1.5,
+    "frame_axial_thickness_mm": 3.0,
+    "vertical_hinge_at_outer_leaf_edge": true,
+    "leaf_mass_kg": 0.6,
+    "number_of_leaves": 4,
+    "number_of_ends": 2
+  },
+  "choice_evidence": "Main opening is CAD-derived; leaf partition is visible-photo candidate; clearances, hinge axis depth, plate thickness and mass remain replaceable engineering assumptions. Do not present exact installed hinge geometry.",
+  "promotion_gate": "CAD/photo revision correspondence and actual hinge/leaf details not yet verified."
+}

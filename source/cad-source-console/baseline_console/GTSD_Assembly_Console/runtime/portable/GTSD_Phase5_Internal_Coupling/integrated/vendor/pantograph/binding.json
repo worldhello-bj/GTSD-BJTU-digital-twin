@@ -1,0 +1,1306 @@
+{
+  "schema": "gtsd-physics-binding-v1",
+  "subsystem": "pantograph",
+  "source_geometry_sha256": "7d925267cbfb18d39e64041ea851fc13db2e3a13f6d403eab386235f741d8f43",
+  "reference_poses": {
+    "panto_base": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "panto_lower": {
+      "position": [
+        -0.242231787197227,
+        0.0,
+        1.0878864516453508
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "panto_upper": {
+      "position": [
+        0.574847989877525,
+        0.0,
+        1.3113737712454179
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "panto_head_carriage": {
+      "position": [
+        -0.48885046642607777,
+        0.0,
+        1.4983111780353182
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "panto_head_float": {
+      "position": [
+        -0.48885046642607777,
+        0.0,
+        1.4983111780353182
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "panto_wire": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "mesh_name": "DETAIL_SENSOR_panto_position_hex_locknut",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "DETAIL_SENSOR_panto_position_L_foot",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "DETAIL_SENSOR_panto_position_L_upright",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "DETAIL_SENSOR_panto_position_lead_0",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "DETAIL_SENSOR_panto_position_lead_1",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "DETAIL_SENSOR_panto_position_orange_face",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "DETAIL_SENSOR_panto_position_silver_cylinder",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "DETAIL_SENSOR_panto_position_wire_entry",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "ENV_contact_wire",
+      "body_name": "panto_wire",
+      "mode": "rigid",
+      "evidence": "CAD_2D_LAYOUT_CANDIDATE",
+      "note": "Fixed rigid 5 mm wire surrogate; tension and sag omitted."
+    },
+    {
+      "mesh_name": "Panto_B29_lower_main_box_arm",
+      "body_name": "panto_lower",
+      "mode": "rigid",
+      "evidence": "CAD_2D_GEOMETRY_CANDIDATE_WITH_UNVALIDATED_BODY_ASSIGNMENT",
+      "note": "Lower arm + E/U knee carrier rigid equivalent. The physical E-axis motion is unresolved and not simulated."
+    },
+    {
+      "mesh_name": "Panto_B30_fork_underbrace_+1",
+      "body_name": "panto_upper",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Upper arm pivots at distinct U; shaft attachment to rotating upper is provisional."
+    },
+    {
+      "mesh_name": "Panto_B30_fork_underbrace_-1",
+      "body_name": "panto_upper",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Upper arm pivots at distinct U; shaft attachment to rotating upper is provisional."
+    },
+    {
+      "mesh_name": "Panto_B30_head_cross_shaft",
+      "body_name": "panto_upper",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Upper arm pivots at distinct U; shaft attachment to rotating upper is provisional."
+    },
+    {
+      "mesh_name": "Panto_B30_upper_central_tapered_box",
+      "body_name": "panto_upper",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Upper arm pivots at distinct U; shaft attachment to rotating upper is provisional."
+    },
+    {
+      "mesh_name": "Panto_B30_upper_fork_branch_+1",
+      "body_name": "panto_upper",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Upper arm pivots at distinct U; shaft attachment to rotating upper is provisional."
+    },
+    {
+      "mesh_name": "Panto_B30_upper_fork_branch_-1",
+      "body_name": "panto_upper",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Upper arm pivots at distinct U; shaft attachment to rotating upper is provisional."
+    },
+    {
+      "mesh_name": "Panto_B31_carbon_contact_strip_1",
+      "body_name": "panto_head_float",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed floating collector/pins/yokes"
+    },
+    {
+      "mesh_name": "Panto_B31_carbon_contact_strip_2",
+      "body_name": "panto_head_float",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed floating collector/pins/yokes"
+    },
+    {
+      "mesh_name": "Panto_B31_collector_metal_carrier_1",
+      "body_name": "panto_head_float",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed floating collector/pins/yokes"
+    },
+    {
+      "mesh_name": "Panto_B31_collector_metal_carrier_2",
+      "body_name": "panto_head_float",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed floating collector/pins/yokes"
+    },
+    {
+      "mesh_name": "Panto_B31_head_carriage",
+      "body_name": "panto_head_carriage",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed pitched carriage/hangers/outer guides/collars/pivot washers"
+    },
+    {
+      "mesh_name": "Panto_B31_head_guide_collar_+1",
+      "body_name": "panto_head_carriage",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed pitched carriage/hangers/outer guides/collars/pivot washers"
+    },
+    {
+      "mesh_name": "Panto_B31_head_guide_collar_-1",
+      "body_name": "panto_head_carriage",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed pitched carriage/hangers/outer guides/collars/pivot washers"
+    },
+    {
+      "mesh_name": "Panto_B31_head_guide_outer_+1",
+      "body_name": "panto_head_carriage",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed pitched carriage/hangers/outer guides/collars/pivot washers"
+    },
+    {
+      "mesh_name": "Panto_B31_head_guide_outer_-1",
+      "body_name": "panto_head_carriage",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed pitched carriage/hangers/outer guides/collars/pivot washers"
+    },
+    {
+      "mesh_name": "Panto_B31_head_guide_pin_+1",
+      "body_name": "panto_head_float",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed floating collector/pins/yokes"
+    },
+    {
+      "mesh_name": "Panto_B31_head_guide_pin_-1",
+      "body_name": "panto_head_float",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed floating collector/pins/yokes"
+    },
+    {
+      "mesh_name": "Panto_B31_head_hanger_+1",
+      "body_name": "panto_head_carriage",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed pitched carriage/hangers/outer guides/collars/pivot washers"
+    },
+    {
+      "mesh_name": "Panto_B31_head_hanger_-1",
+      "body_name": "panto_head_carriage",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed pitched carriage/hangers/outer guides/collars/pivot washers"
+    },
+    {
+      "mesh_name": "Panto_B31_head_pivot_washer_+1",
+      "body_name": "panto_head_carriage",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed pitched carriage/hangers/outer guides/collars/pivot washers"
+    },
+    {
+      "mesh_name": "Panto_B31_head_pivot_washer_-1",
+      "body_name": "panto_head_carriage",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed pitched carriage/hangers/outer guides/collars/pivot washers"
+    },
+    {
+      "mesh_name": "Panto_B31_head_top_yoke_+1",
+      "body_name": "panto_head_float",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed floating collector/pins/yokes"
+    },
+    {
+      "mesh_name": "Panto_B31_head_top_yoke_-1",
+      "body_name": "panto_head_float",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed floating collector/pins/yokes"
+    },
+    {
+      "mesh_name": "Panto_B31_strip_mount_bolt_1_+1",
+      "body_name": "panto_head_float",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed floating collector/pins/yokes"
+    },
+    {
+      "mesh_name": "Panto_B31_strip_mount_bolt_1_-1",
+      "body_name": "panto_head_float",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed floating collector/pins/yokes"
+    },
+    {
+      "mesh_name": "Panto_B31_strip_mount_bolt_2_+1",
+      "body_name": "panto_head_float",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed floating collector/pins/yokes"
+    },
+    {
+      "mesh_name": "Panto_B31_strip_mount_bolt_2_-1",
+      "body_name": "panto_head_float",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_GUIDE_PART_SPLIT",
+      "note": "Assumed floating collector/pins/yokes"
+    },
+    {
+      "mesh_name": "Panto_B32_barrel_end_collar",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_B32_exposed_small_shaft",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_B32_mount_bolt_aft",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_B32_mount_bolt_front",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_B32_mount_eye_aft",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_B32_mount_eye_front",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_B32_separate_black_barrel",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_base_aft_bridge",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_base_bent_side_rail_+1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_base_bent_side_rail_-1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_base_forward_bridge",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_base_pivot_bearing_+1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_base_pivot_bearing_-1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_base_pivot_cheek_+1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_base_pivot_cheek_-1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_base_pivot_hex_+1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_base_pivot_hex_-1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_base_splayed_support_+1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_base_splayed_support_-1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_base_three_convolution_bellows",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_bellows_aft_end_flange",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_bellows_aft_flange_bolt_0",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_bellows_aft_flange_bolt_1",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_bellows_aft_flange_bolt_2",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_bellows_aft_flange_bolt_3",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_bellows_aft_mount_strap_+1",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_bellows_aft_mount_strap_-1",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_bellows_air_elbow",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_bellows_front_end_flange",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_bellows_front_flange_bolt_0",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_bellows_front_flange_bolt_1",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_bellows_front_flange_bolt_2",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_bellows_front_flange_bolt_3",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Actuator force path/attachment ownership unknown. Static reference only, never driven by the equivalent head load."
+    },
+    {
+      "mesh_name": "Panto_bellows_visible_air_hose",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_base_bridge_+1_flat_braid",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_base_bridge_+1_weave_+1_0",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_base_bridge_+1_weave_+1_1",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_base_bridge_+1_weave_+1_2",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_base_bridge_+1_weave_-1_0",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_base_bridge_+1_weave_-1_1",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_base_bridge_+1_weave_-1_2",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_base_bridge_-1_flat_braid",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_base_bridge_-1_weave_+1_0",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_base_bridge_-1_weave_+1_1",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_base_bridge_-1_weave_+1_2",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_base_bridge_-1_weave_-1_0",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_base_bridge_-1_weave_-1_1",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_base_bridge_-1_weave_-1_2",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_head_bridge_+1_flat_braid",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_head_bridge_+1_weave_+1_0",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_head_bridge_+1_weave_+1_1",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_head_bridge_+1_weave_+1_2",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_head_bridge_+1_weave_-1_0",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_head_bridge_+1_weave_-1_1",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_head_bridge_+1_weave_-1_2",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_head_bridge_-1_flat_braid",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_head_bridge_-1_weave_+1_0",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_head_bridge_-1_weave_+1_1",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_head_bridge_-1_weave_+1_2",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_head_bridge_-1_weave_-1_0",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_head_bridge_-1_weave_-1_1",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_head_bridge_-1_weave_-1_2",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_knee_bridge_+1_flat_braid",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_knee_bridge_+1_weave_+1_0",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_knee_bridge_+1_weave_+1_1",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_knee_bridge_+1_weave_+1_2",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_knee_bridge_+1_weave_-1_0",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_knee_bridge_+1_weave_-1_1",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_knee_bridge_+1_weave_-1_2",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_knee_bridge_-1_flat_braid",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_knee_bridge_-1_weave_+1_0",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_knee_bridge_-1_weave_+1_1",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_knee_bridge_-1_weave_+1_2",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_knee_bridge_-1_weave_-1_0",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_knee_bridge_-1_weave_-1_1",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_copper_knee_bridge_-1_weave_-1_2",
+      "body_name": "panto_base",
+      "mode": "excluded_deformable",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Flexible geometry omitted from moving physics view. No rigid deformation mapping is asserted."
+    },
+    {
+      "mesh_name": "Panto_insulator_aft_foot",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_aft_foot_bolt_-1_-1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_aft_foot_bolt_-1_1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_aft_foot_bolt_1_-1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_aft_foot_bolt_1_1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_aft_nine_sheds",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_aft_top_stud",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_far_foot",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_far_foot_bolt_-1_-1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_far_foot_bolt_-1_1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_far_foot_bolt_1_-1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_far_foot_bolt_1_1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_far_nine_sheds",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_far_top_stud",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_near_foot",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_near_foot_bolt_-1_-1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_near_foot_bolt_-1_1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_near_foot_bolt_1_-1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_near_foot_bolt_1_1",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_near_nine_sheds",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_insulator_near_top_stud",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_knee_link_cheek_+1",
+      "body_name": "panto_lower",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Lower arm + E/U knee carrier rigid equivalent. The physical E-axis motion is unresolved and not simulated."
+    },
+    {
+      "mesh_name": "Panto_knee_link_cheek_-1",
+      "body_name": "panto_lower",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Lower arm + E/U knee carrier rigid equivalent. The physical E-axis motion is unresolved and not simulated."
+    },
+    {
+      "mesh_name": "Panto_knee_lower_hex_+1",
+      "body_name": "panto_lower",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Lower arm + E/U knee carrier rigid equivalent. The physical E-axis motion is unresolved and not simulated."
+    },
+    {
+      "mesh_name": "Panto_knee_lower_hex_-1",
+      "body_name": "panto_lower",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Lower arm + E/U knee carrier rigid equivalent. The physical E-axis motion is unresolved and not simulated."
+    },
+    {
+      "mesh_name": "Panto_knee_lower_shaft",
+      "body_name": "panto_lower",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Lower arm + E/U knee carrier rigid equivalent. The physical E-axis motion is unresolved and not simulated."
+    },
+    {
+      "mesh_name": "Panto_knee_lower_washer_+1",
+      "body_name": "panto_lower",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Lower arm + E/U knee carrier rigid equivalent. The physical E-axis motion is unresolved and not simulated."
+    },
+    {
+      "mesh_name": "Panto_knee_lower_washer_-1",
+      "body_name": "panto_lower",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Lower arm + E/U knee carrier rigid equivalent. The physical E-axis motion is unresolved and not simulated."
+    },
+    {
+      "mesh_name": "Panto_knee_upper_hex_+1",
+      "body_name": "panto_lower",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Lower arm + E/U knee carrier rigid equivalent. The physical E-axis motion is unresolved and not simulated."
+    },
+    {
+      "mesh_name": "Panto_knee_upper_hex_-1",
+      "body_name": "panto_lower",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Lower arm + E/U knee carrier rigid equivalent. The physical E-axis motion is unresolved and not simulated."
+    },
+    {
+      "mesh_name": "Panto_knee_upper_shaft",
+      "body_name": "panto_upper",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Upper arm pivots at distinct U; shaft attachment to rotating upper is provisional."
+    },
+    {
+      "mesh_name": "Panto_knee_upper_washer_+1",
+      "body_name": "panto_lower",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Lower arm + E/U knee carrier rigid equivalent. The physical E-axis motion is unresolved and not simulated."
+    },
+    {
+      "mesh_name": "Panto_knee_upper_washer_-1",
+      "body_name": "panto_lower",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Lower arm + E/U knee carrier rigid equivalent. The physical E-axis motion is unresolved and not simulated."
+    },
+    {
+      "mesh_name": "Panto_lower_arm_transverse_pivot",
+      "body_name": "panto_lower",
+      "mode": "rigid",
+      "evidence": "ENGINEERING_EQUIVALENT_BODY_ATTACHMENT",
+      "note": "Lower arm + E/U knee carrier rigid equivalent. The physical E-axis motion is unresolved and not simulated."
+    },
+    {
+      "mesh_name": "Panto_lower_link_eye_base",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Unclosed slender-link geometry. Static reference only; hide during dynamic replay to avoid suggesting a solved loop."
+    },
+    {
+      "mesh_name": "Panto_lower_link_eye_tip",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Unclosed slender-link geometry. Static reference only; hide during dynamic replay to avoid suggesting a solved loop."
+    },
+    {
+      "mesh_name": "Panto_lower_link_locknut_base",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Unclosed slender-link geometry. Static reference only; hide during dynamic replay to avoid suggesting a solved loop."
+    },
+    {
+      "mesh_name": "Panto_lower_link_locknut_tip",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Unclosed slender-link geometry. Static reference only; hide during dynamic replay to avoid suggesting a solved loop."
+    },
+    {
+      "mesh_name": "Panto_lower_link_pin_base",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Unclosed slender-link geometry. Static reference only; hide during dynamic replay to avoid suggesting a solved loop."
+    },
+    {
+      "mesh_name": "Panto_lower_link_pin_tip",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Unclosed slender-link geometry. Static reference only; hide during dynamic replay to avoid suggesting a solved loop."
+    },
+    {
+      "mesh_name": "Panto_lower_slender_adjustable_link",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Unclosed slender-link geometry. Static reference only; hide during dynamic replay to avoid suggesting a solved loop."
+    },
+    {
+      "mesh_name": "Panto_red_cover_back",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_red_cover_cable_grommet",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_red_cover_far_sheet",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_red_cover_front_lower_lip",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_red_cover_near_sheet",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_red_cover_open_face_shadow",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_red_cover_top",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_red_cover_visible_fastener_-09_1045",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_red_cover_visible_fastener_-09_934",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_red_cover_visible_fastener_189_1045",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_red_cover_visible_fastener_189_934",
+      "body_name": "panto_base",
+      "mode": "rigid",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Fixed support/detail object in partial subsystem; reference mounting is uncalibrated."
+    },
+    {
+      "mesh_name": "Panto_upper_link_eye_base",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Unclosed slender-link geometry. Static reference only; hide during dynamic replay to avoid suggesting a solved loop."
+    },
+    {
+      "mesh_name": "Panto_upper_link_eye_tip",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Unclosed slender-link geometry. Static reference only; hide during dynamic replay to avoid suggesting a solved loop."
+    },
+    {
+      "mesh_name": "Panto_upper_link_locknut_base",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Unclosed slender-link geometry. Static reference only; hide during dynamic replay to avoid suggesting a solved loop."
+    },
+    {
+      "mesh_name": "Panto_upper_link_locknut_tip",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Unclosed slender-link geometry. Static reference only; hide during dynamic replay to avoid suggesting a solved loop."
+    },
+    {
+      "mesh_name": "Panto_upper_link_pin_base",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Unclosed slender-link geometry. Static reference only; hide during dynamic replay to avoid suggesting a solved loop."
+    },
+    {
+      "mesh_name": "Panto_upper_link_pin_tip",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Unclosed slender-link geometry. Static reference only; hide during dynamic replay to avoid suggesting a solved loop."
+    },
+    {
+      "mesh_name": "Panto_upper_slender_adjustable_link",
+      "body_name": "panto_base",
+      "mode": "static_reference",
+      "evidence": "PHOTO_INFERRED_GEOMETRY",
+      "note": "Unclosed slender-link geometry. Static reference only; hide during dynamic replay to avoid suggesting a solved loop."
+    }
+  ],
+  "coordinate_system": "metres; X longitudinal, Y transverse, Z up; quaternion wxyz",
+  "transform_contract": "v_dynamic_world = R(body.xquat) @ inv(R(reference.quaternion)) @ (v_source_world - reference.position) + body.xpos",
+  "classification_note": "Every source Panto_ mesh plus 8 position-sensor meshes and ENV_contact_wire is explicitly classified. No prefix-based runtime rebinding. static_reference and excluded_deformable should be hidden in motion-only view unless clearly labeled.",
+  "unmodeled": [
+    "Physical E-axis motion relative to lower arm; E->U carrier is provisionally rigid with lower arm.",
+    "Both slender adjustable rods: 3D ball centers, hinge attachment ownership and mechanical closure.",
+    "Air bellows effective area, pressure chamber, hysteresis, force path, air circuit and deformation.",
+    "B32 black barrel linkage, bore, stroke, piston side, seals, friction and function.",
+    "Rigid head linkage leveling/synchronization; no ideal parallelogram or algebraic fold relation is imposed.",
+    "Actual head guide internals and which guide pieces translate; present split is a declared equivalent.",
+    "Wire tension, sag, transverse dynamics, droppers and speed-dependent catenary effects; wire is fixed here.",
+    "Carbon wear, elasticity, arcing, electric current and copper braid flexibility.",
+    "Physical masses, inertia tensors, damping, springs and true motion stops; all dynamics are uncalibrated.",
+    "Arm-roof, link-link and cover collisions; only collector/wire and numerical joint stops are solved."
+  ]
+}

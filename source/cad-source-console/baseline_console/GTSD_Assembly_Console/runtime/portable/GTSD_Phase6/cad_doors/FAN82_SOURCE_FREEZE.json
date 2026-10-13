@@ -1,0 +1,23 @@
+{
+  "schema": "gtsd-fan82-source-freeze-v1",
+  "physics_source_sha256": {
+    "fan82/__init__.py": "f718f4da672d235c9d935b70360104b0bb03cdfaa34422c99a81f2e66556c27a",
+    "fan82/bootstrap.py": "745a9546dd333c302d239a5b7a39a0c66b01d2584cb3126ed1cf25f75d73907f",
+    "fan82/model.py": "56685007965717b1ccc701eedfad5a59741377d8413a3c2cf2d0236dafbac759",
+    "fan82/geometry.py": "2ef316af43ed12ba290bc4fd54b8be7693221d7b82f7e4a1f05f866ea57e4da3",
+    "fan82/runtime.py": "7fbb4ee18e91566bae832a10c192beea663cc64f94369703ebacd0b7b77e37ff",
+    "fan82/plant.py": "b21a53fe2cced3ca8c621415474629aed2ab30a7ca0d0042e433a9df7843d41a",
+    "FAN82_INTERFACE_CONTRACT.json": "b56b541f62e2b4dd94e42e42cf6cf3c1cd802327aad749cd5c24cf4692ab6115"
+  },
+  "frozen79_source_freeze_sha256": "4a9d61522b2bd05293be8436a79bce1aa62e2ba2070437e466d73d0c76e42046",
+  "factory": "fan82.plant.FourDoorFansPlant",
+  "variant": "cad_doors_four_fans",
+  "nq": 94,
+  "nv": 82,
+  "geometry_sha256": "2b6314a577bc67c5781268d797c57be6674ef16d42eed9f47731238cfc299fed",
+  "validated_identity_sha256": {
+    "full": "df9da29aab2a3a5ebc406004d48ad0b15d58f9b533d847a99aa04a469bf3dd09",
+    "half": "2e9c1de2fe0407521d19c3efa4564c5c678a745513d26e9ccd7d3901b9fd131f"
+  },
+  "thermal_boundary": "Additional three copper/bearing heats standalone diagnostics, no old cabinet feedback"
+}

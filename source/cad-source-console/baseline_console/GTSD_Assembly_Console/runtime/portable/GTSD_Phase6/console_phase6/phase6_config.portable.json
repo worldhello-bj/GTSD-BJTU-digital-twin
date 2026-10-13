@@ -1,0 +1,13 @@
+{
+  "schema": "gtsd-phase6-console-config-v1",
+  "source_root": "../../GTSD_Phase5_Internal_Coupling",
+  "auxiliary_root": "../auxiliary",
+  "cad_body_root": "../cad_body",
+  "evidence_root": "../truth",
+  "encoder_candidate_root": "../geometry/encoder",
+  "body_candidate_root": "../geometry/body",
+  "pantograph_candidate_root": "../geometry/pantograph/plan_candidate",
+  "variant": "internal-coupled-research",
+  "port": 8767,
+  "resume": null
+}

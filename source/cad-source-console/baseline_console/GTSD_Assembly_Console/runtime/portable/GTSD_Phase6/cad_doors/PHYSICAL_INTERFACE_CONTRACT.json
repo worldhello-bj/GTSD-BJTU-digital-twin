@@ -1,0 +1,86 @@
+{
+  "schema": "gtsd-cad-door-physics-implementation-contract-v1",
+  "status": "IMPLEMENTED_FROZEN_GEOMETRY_CONSUMED",
+  "readonly_predecessor": "/workspace/shared/gtsd-physics-cad-body-1012/SOURCE_FREEZE.json",
+  "geometry_supplier": "/workspace/shared/gtsd-door-cad-phase7-1012",
+  "native_state_owner": "MuJoCo qpos/qvel only; no door pose prescription or motor animation",
+  "expected_nq": 91,
+  "expected_nv": 79,
+  "coordinate_frame": "X longitudinal, Y transverse, Z up; supplier component Z=0 adds declared body-bottom translation to reference world",
+  "door_keys": [
+    "end_neg_y_neg",
+    "end_neg_y_pos",
+    "end_pos_y_neg",
+    "end_pos_y_pos"
+  ],
+  "source_geometry": {
+    "opening": "zw$1F51/2B77, actual INSERT zw$3E1B/39782",
+    "main_opening_mm": [
+      920.0,
+      450.0
+    ],
+    "bottom_central_notch_depth_mm": 3.0,
+    "notch_is_not_extra_door_height": true,
+    "frame_outline": "2B75; holes 2B76, 2B77, 2B78",
+    "replacement": "Remove all ten previous CAD end-rib meshes and their volume moments before adding two new end-frame solids",
+    "consumed_geometry_sha256": "67dfd34c3e9a2f9776aa63b9acdff48051734ca4d733035660be0d49aba0cd9c"
+  },
+  "mass_balance": {
+    "retained_whole_vehicle_mass_kg": 69.7365102272218,
+    "payload_residual_mass_kg": 26.6,
+    "payload_distribution": "Recompute from 16 retained CAD-body solids plus two new end frames, with additive full spatial moments. The mass includes unitemized fixed equipment and is not a material density claim.",
+    "door_total_budget_each_kg": 0.6,
+    "selected_fan_door": "end_neg_y_neg",
+    "selected_door_residual_kg": 0.54,
+    "selected_door_native_fan_kg": 0.06,
+    "other_three_door_residual_each_kg": 0.6,
+    "other_native_auxiliary_mass_kg": 1.0,
+    "original_payload_allocation_identity": "26.6 + 0.54 + 0.06 + 3 * 0.6 + 1.0 = 30 kg",
+    "method": "Compute new residual-door moments from new solid geometry; add native fan stator/rotor mass and full tensors with parallel-axis terms. Do not subtract a thick offset fan from a fictitious uniformly dense 0.6 kg thin plate.",
+    "validation": "Every massive body must be SPD and satisfy principal inertia triangle inequalities; independently sum mass, first moment and full origin inertia after compilation."
+  },
+  "mounting_parameters": {
+    "hinge_axial_depth": "Explicit adjustable research parameter relative to each end plane; default from frozen supplier",
+    "hinge_axis": "Supplier candidate vertical unit axis; actual native hinge and all child mounts follow it",
+    "gaps": "Supplier peripheral and center gaps are candidate dimensions; geometry identity must change if changed",
+    "native_bay_fan": "Move existing bay_fan_stator and bay_fan_rotor under door_end_neg_y_neg; retain native joint names, axes, masses and motor ports. Update mount-site reference and sensor metadata.",
+    "latch": "Implemented native site-to-site connect at the explicit free-edge and frame reference points. Preserved names and capture gates. Ideal spatial constraint, not physical lock hardware."
+  },
+  "contact_boundary": {
+    "default": "New door/frame contact disabled unless a safe explicit configuration is chosen; no default squeeze or unverified friction load",
+    "geometry": "Implemented three inner-jamb/top strips per end and four leaf-perimeter strips per leaf; exact triangle clipping verifies every proxy lies in true solid material. No complete bottom-frame, door-interior or external-equipment contact coverage.",
+    "audit": "Evaluate actual native pair distances/contacts for closed and sampled opening states, and an intentional contact fixture. Account for native contact work once through the existing solver-constraint work column.",
+    "switch": "Optional explicit door_contact command with persisted state; changing settings must not bypass checkpoint identity or restore validation."
+  },
+  "render_binding": {
+    "resources": "Deterministic composition from frozen body resource and supplier meshes; new real-byte geometry SHA in snapshot, binding and identity",
+    "poses": "Use actual native body reference and current poses, including fan and all leaf-mounted controls",
+    "registry": "Do not rewrite an old expected hash to accept unreviewed arrays or physical sensor mappings"
+  },
+  "verification": [
+    "Frozen-source hashes and exact geometry replacement identities",
+    "Independent triangle volume, first and full second moments",
+    "Native mass budget and full tensor reconstruction",
+    "Closed-position native pair-distance/contact checks",
+    "Single accepted step and atomic failure rollback",
+    "Real opening, closing, rejected premature latch and accepted captured latch",
+    "Door-carried fan mount forces and torque reference point",
+    "Full and half timesteps with energy remainder disclosure",
+    "Independent nonzero checkpoint restore and continuation",
+    "Compiled native and browser-bound mesh positions at actual solved poses"
+  ],
+  "unverified": [
+    "As-built CAD/photo revision agreement",
+    "Measured masses and material densities",
+    "Actual hinge axial depth and latch mechanism",
+    "Installation clearances and fasteners",
+    "Real fan geometry and performance",
+    "Full-system energy closure"
+  ],
+  "authoritative_solver_reference": "https://mujoco.readthedocs.io/en/3.3.7/XMLreference.html#equality-connect",
+  "fan_coverage": {
+    "photo_visible_mounts": 4,
+    "native_independent_door_fans": 1,
+    "other_three_status": "Rigid door-attached visuals with residual mass allocation; no independent motor or rotor dynamics."
+  }
+}

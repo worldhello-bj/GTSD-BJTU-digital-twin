@@ -1,0 +1,7 @@
+{
+  "schema": "gtsd-console-fan82-config-v1",
+  "phase7_console_root": "../console_phase7",
+  "phase7_config": "../console_phase7/phase7_doors_config.portable.json",
+  "fan82_root": "../cad_doors",
+  "variant": "internal-coupled-research"
+}

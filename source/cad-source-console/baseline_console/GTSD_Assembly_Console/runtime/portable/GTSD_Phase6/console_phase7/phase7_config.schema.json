@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GTSD explicit Phase7 software-only console configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "phase6_console_root",
+    "phase6_config",
+    "variant",
+    "cad_doors_root",
+    "door_candidate_root"
+  ],
+  "properties": {
+    "schema": {
+      "const": "gtsd-phase7-console-config-v1"
+    },
+    "phase6_console_root": {
+      "type": "string",
+      "minLength": 1
+    },
+    "phase6_config": {
+      "type": "string",
+      "minLength": 1
+    },
+    "variant": {
+      "enum": [
+        "internal-coupled-research",
+        "mounted-auxiliary-research",
+        "cad-body-mounted-research",
+        "cad-doors-mounted-research"
+      ]
+    },
+    "cad_doors_root": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "door_candidate_root": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "variant": {
+            "const": "cad-doors-mounted-research"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cad_doors_root": {
+            "type": "string",
+            "minLength": 1
+          },
+          "door_candidate_root": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  ]
+}

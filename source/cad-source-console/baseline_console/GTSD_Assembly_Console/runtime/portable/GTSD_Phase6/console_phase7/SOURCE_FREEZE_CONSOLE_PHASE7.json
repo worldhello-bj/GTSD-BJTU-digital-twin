@@ -1,0 +1,39 @@
+{
+  "schema": "gtsd-console-phase7-source-freeze-v1",
+  "status": "FROZEN_CAD_DOORS79_AND_SEMANTIC_LINEAGE",
+  "frozen_at_utc": "2026-10-12T06:03:00Z",
+  "source_sha256": {
+    "accepted_dependencies.json": "e6f01889e18f106c7489e202938ed7c92b848859c3d6a09b450c73a99b99e21a",
+    "check_http_latency.py": "3bbd11f263efeb076817327e2834479efe315b94a259252b4c9633d23070063f",
+    "lineage_registry.py": "86ac33beb5bc6fd91c501b71a3d02767b877025c12ff025aef29501fab4eaa10",
+    "phase7_config.portable.json": "9206e90b3c302064e1276dd5e7be82f1bba0fb6fa7feac0e9f26828dade5f1a9",
+    "phase7_config.schema.json": "713ebbc09e805c0d4e40c8deb561803639ba2c0417797be8c6506bc720a4d267",
+    "phase7_doors_config.portable.json": "d5285a5f1efb356e04a86d542f3b6f213a31be03e6cc8913a2d1e7e54bd2cb13",
+    "phase7_server.py": "3671c3633940bc2fe0267885574f0ad133262cc5be607402ebfe1368ed2a9495",
+    "review/test_lineage_client_recovery.js": "3c6129dc48ace1880eecd923fe02fa9b7c44ba68c89c5e59702d4f7ffe71a7e2",
+    "review/test_truth_link_guards.js": "5926f3cdc6f5884a89e949c32b2c09191a1cccfde084910444b28f2588a8b1d9",
+    "tests/check_geometry_pick.js": "7a0386da10de2f339eebf4f7bd6e550605ddadd2e093eba1267ee7af4d14f072",
+    "tests/check_lineage_http.py": "00c677c81227c9a040e2b34d6ac8a0fec2e119b980ff6b7b0def60f5e970cabd",
+    "tests/check_readonly_startup.py": "eb777034ae45ebbb09d09c48d5afbf353be67ef749ac65ab1dd53d7f45fe9d2a",
+    "tests/emit_geometry.py": "6312b1d6297aaff40b03bb746c1efe23eaedbd8f636a5c09244d202915bb4fbd",
+    "tests/fixture.py": "a086ab3b44891e2fceed472a92fda51fe05fcbbbf1bbe2fd27129a0eee6fb2ef",
+    "tests/test_lineage_dom.js": "6aa3a8647dbfe2366f72ddd9ea7b46b7e0b59474e0d17e3886a86b73de96209c",
+    "tests/test_lineage_registry.py": "9cbf9422a3f07951fda0bf13e3b3ef8e6515d4757fb912fde66f575332d4b1a6",
+    "web/lineage-client.js": "0dd8b246b228c481185d4a51ace07e7989b42fa4165583d3537d40bbe22b086a",
+    "web/lineage.css": "54213042b0b3df8a73e1edfcb32c76a2e9bf370ac581780a20bf58376d7a07ea",
+    "web/lineage.js": "e1cf3abb5617bae85941c90136836d976af70a4a24910a75e9f37aa8ebad63e0"
+  },
+  "default_variant": "internal-coupled-research",
+  "explicit_variants": [
+    "mounted-auxiliary-research",
+    "cad-body-mounted-research",
+    "cad-doors-mounted-research"
+  ],
+  "previous_release_files_modified": false,
+  "old_registry_expected_sha_modified": false,
+  "runtime_configuration_policy": "Only explicit local dependency paths, variant and inherited phase6 port/checkpoint options; no physics, hardware or unknown-hash override",
+  "not_included": [
+    "82DOF four independently driven door fans",
+    "new whole-vehicle pantograph assembly"
+  ]
+}

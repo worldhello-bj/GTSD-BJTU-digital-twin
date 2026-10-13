@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "model_identity_sha256": "ebd3eeb9048c66800ff3bd53788adeba4f53c11189284142151910a75a1b488b",
+  "variant": "cad_assembly_1013_source_rails_near_seats_research",
+  "new_xml_sha256": "f1aa625e5eded3d6f087c2f03cdb26b11cf6f99178dac205d3585100d07e4491",
+  "native_reference_pose_max_error": 0.0,
+  "native_reference_pose_count": 16,
+  "initial_restore_native_and_snapshot_equal": true,
+  "steps_integrated": 0,
+  "nq": 94,
+  "nv": 82,
+  "wall_s": 7.676895282002079,
+  "old_source_geom_is_not_whole_new_assembly": true
+}

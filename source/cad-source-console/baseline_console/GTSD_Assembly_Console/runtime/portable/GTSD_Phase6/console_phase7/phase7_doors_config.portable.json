@@ -1,0 +1,8 @@
+{
+  "schema": "gtsd-phase7-console-config-v1",
+  "phase6_console_root": "../console_phase6",
+  "phase6_config": "../console_phase6/phase6_config.portable.json",
+  "variant": "cad-doors-mounted-research",
+  "cad_doors_root": "../cad_doors",
+  "door_candidate_root": "../geometry/doors"
+}

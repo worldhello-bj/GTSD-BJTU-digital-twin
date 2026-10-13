@@ -1,0 +1,18 @@
+{
+  "schema": "gtsd-local-candidate-selection-v1",
+  "candidate_id": "pantograph_cad_plan_partial_v1",
+  "label_zh": "受电弓CAD俯视局部候选：XY可核，Z和铰轴未确认",
+  "enabled_by_default": false,
+  "mode": "LOCAL_INSPECTION_ONLY",
+  "mesh_file": "outputs/pantograph_plan_candidate.json",
+  "glb_file": "outputs/pantograph_plan_candidate.glb",
+  "source_profile": "outputs/plan_profiles.json",
+  "projected_connections": "outputs/projected_joint_candidates.json",
+  "automatic_vehicle_placement": null,
+  "hide_frozen_meshes": [],
+  "frozen_171_meshes_changed": false,
+  "apply_old_body_width_scale": false,
+  "allow_dynamics": false,
+  "as_built_verified": false,
+  "not_ready_for_frozen_geometry_promotion": true
+}

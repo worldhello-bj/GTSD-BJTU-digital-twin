@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "model_identity_sha256": "be4261ece5c8b374bf679ff7e5339ac0770ac6ccfc48c54a93e31a23f9e8828e",
+  "variant": "cad_assembly_1013_source_rails_strict82",
+  "new_xml_sha256": "45d1eec1f1cb06affaac438948839a12786e2cd050cd976df6b5a90a38e3e48b",
+  "native_reference_pose_max_error": 0.0,
+  "native_reference_pose_count": 16,
+  "initial_restore_native_and_snapshot_equal": true,
+  "steps_integrated": 0,
+  "nq": 94,
+  "nv": 82,
+  "wall_s": 7.658541085998877,
+  "old_source_geom_is_not_whole_new_assembly": true
+}

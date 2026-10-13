@@ -1,0 +1,29 @@
+{
+  "schema": "gtsd-console-fan82-source-freeze-v1",
+  "status": "FROZEN_EXPLICIT82_WITH_DISCLOSED_DIAGNOSTIC_RESTORE_GAP",
+  "frozen_at_utc": "2026-10-12T06:24:00Z",
+  "source_sha256": {
+    "accepted_dependencies.json": "f6c23c89471e617c4f1d55a0ae76ac74517b28a01122af2b54d302fb564cd1ba",
+    "console82_config.portable.json": "56cbf8a64abbd4ee7c43277bdefa397d778a805a24fb7c6010062a691497b44c",
+    "console_config.portable.json": "a0bd7104d25fa08e844c6b230301b7ae231d9a3ef91b78c31e1142fc4878e9d3",
+    "console_config.schema.json": "10f5b4eb0cb8fa53b9c466d09288e401a5b303aa29293a8b55e0cdc61b8592a6",
+    "fan82_server.py": "2e0959b00a0f1fe40ead620d82fcfd2ee86eb669083b55e8996a2f345bb9d69b",
+    "fan82_view.py": "1ece7d22e584708f0776393760323a1604001f2eb66329ff437beba2e4d82e31",
+    "tests/check_default.py": "a31cbecbb67a57e2a3757935d84d783ffd1be01fca7f98b238f73dd57163c6e3",
+    "tests/check_geometry_pick.js": "47da14502b688448eea0a09018e6efec2f6b8076f68a96a5d44e17eb7e68279d",
+    "tests/check_http.py": "fa26f0f0b31cc35560d83fd939d9749595c13f659dbd7c8e1f2b6e816d337fa5",
+    "tests/emit_geometry.py": "f202c894665962136bdec1974474feb3bf7eeaae4fb09adf71856a15f153c9f6",
+    "tests/test_fan82.py": "1cd108abfd7a5ad7b0b4fa52005ece56b596e8d167960a9cfd654dbbe05725db",
+    "tests/test_fan82_dom.js": "879594498c428cb286fb46411cbc6197d077a27c35bf7b6fa2822a30d7c25ee0",
+    "web/fan82.css": "4bc23c2312c7f815be8f8c75c6145674fab8799b5b411f4fd1c87686c905bd37",
+    "web/fan82.js": "c51e5d09a659cfda997f46fef87991a288edd8c0a2b467a550a0ac0bd99397b7"
+  },
+  "default_variant": "internal-coupled-research",
+  "explicit_variant": "cad-doors-four-fans-research",
+  "native_variant": "cad_doors_four_fans",
+  "numeric_source_modified": false,
+  "older_console_sources_modified": false,
+  "known_restore_gap": "Re-signed historical extra_fans.last.air_speed_rad_s/relative_speed_rad_s are not independently checked by frozen82 restore; current observer does not trust them.",
+  "hardware_asbuilt_certified": false,
+  "browser_GPU_accepted": false
+}

@@ -1,0 +1,802 @@
+{
+  "schema": "gtsd-cad-body-profile-candidate-v1",
+  "source_dwg_sha256": "9d3aedfdaed92cf73eec0bdb2239af0bb5fc64121d86763adce8c63614612552",
+  "source_block": "zw$3E1B",
+  "instances": [
+    {
+      "insert_handles": [
+        "4F9BF"
+      ],
+      "block_path": [
+        "zw$3E1B"
+      ],
+      "matrix_Model_from_block_column_vectors": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          48857.88866866489
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          38832.40764483428
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "drawing_space": "Model XY (not physical vehicle XYZ)"
+    },
+    {
+      "insert_handles": [
+        "51033"
+      ],
+      "block_path": [
+        "zw$3E1B"
+      ],
+      "matrix_Model_from_block_column_vectors": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          46078.51161193906
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          38832.40764483428
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "drawing_space": "Model XY (not physical vehicle XYZ)"
+    }
+  ],
+  "units": "m",
+  "coordinate_map": "local CAD x -> model transverse Y after subtracting exact outer contour midline; local CAD y -> Z; model longitudinal X from +/-0.65 m CAD side length",
+  "source_datum_status": "Local component frame; absolute installation height not inferred here",
+  "source_outer_width_mm": 1120.0469331125144,
+  "source_outer_height_mm": 551.6443122819765,
+  "CAD_side_length_mm": 1300.0,
+  "arc_sag_tolerance_mm": 0.001,
+  "new_dimensions_m": [
+    1.2999999523162842,
+    1.1200478076934814,
+    0.5516443252563477
+  ],
+  "old_photo_assumed_width_m": 0.8,
+  "width_change_m": 0.3200478076934814,
+  "source_inputs": {
+    "vectors_zw_3E1B.json": "29185ca3b299b60935ccfa990419d51c3aa41393cea9ce23d209a64307f71343",
+    "cad_geometry_verified_v1.json": "701e7e61bb0877d0e55ab93407005484ac428bd691773cce07d8d79482ab4b05",
+    "vectors_zw_DD04.json": "10ac7d5338db01fc5988c94fe0bbc53d1d6d2f146e07c37cdfd8964c7860360b"
+  },
+  "objects": [
+    {
+      "name": "CAD_body_skin_39775",
+      "source_handles": [
+        "39775"
+      ],
+      "role": "removable_skin",
+      "assembly_assumptions": "CAD cross-section swept along CAD side-frame length. Cutouts/seams are not inferred from this view.",
+      "vertices": 8,
+      "faces": 6,
+      "volume_m3": 0.0014400850166436027,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          -0.36924999952316284,
+          0.36924999952316284
+        ],
+        [
+          0.5501443147659302,
+          0.5516443252563477
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_skin_39777",
+      "source_handles": [
+        "39777"
+      ],
+      "role": "removable_skin",
+      "assembly_assumptions": "CAD cross-section swept along CAD side-frame length. Cutouts/seams are not inferred from this view.",
+      "vertices": 982,
+      "faces": 493,
+      "volume_m3": 0.0007951331736237464,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          0.36924999952316284,
+          0.560023307800293
+        ],
+        [
+          0.2544343173503876,
+          0.5516443252563477
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_skin_39778",
+      "source_handles": [
+        "39778"
+      ],
+      "role": "removable_skin",
+      "assembly_assumptions": "CAD cross-section swept along CAD side-frame length. Cutouts/seams are not inferred from this view.",
+      "vertices": 34,
+      "faces": 19,
+      "volume_m3": 0.000496498700911342,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          0.5479968786239624,
+          0.5599583387374878
+        ],
+        [
+          0.0,
+          0.25446397066116333
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_skin_39779",
+      "source_handles": [
+        "39779"
+      ],
+      "role": "removable_skin",
+      "assembly_assumptions": "CAD cross-section swept along CAD side-frame length. Cutouts/seams are not inferred from this view.",
+      "vertices": 982,
+      "faces": 493,
+      "volume_m3": 0.0007951334172673595,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          -0.5600244998931885,
+          -0.36925119161605835
+        ],
+        [
+          0.2544343173503876,
+          0.5516443252563477
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_skin_3977A",
+      "source_handles": [
+        "3977A"
+      ],
+      "role": "removable_skin",
+      "assembly_assumptions": "CAD cross-section swept along CAD side-frame length. Cutouts/seams are not inferred from this view.",
+      "vertices": 34,
+      "faces": 19,
+      "volume_m3": 0.0004964987004131038,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          -0.5599595308303833,
+          -0.5479980707168579
+        ],
+        [
+          0.0,
+          0.25446397066116333
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_floor_39780",
+      "source_handles": [
+        "39780"
+      ],
+      "role": "floor",
+      "assembly_assumptions": "Floor transverse width/thickness 1098.0158825 x 3 mm source-derived; constant full-length sweep inferred.",
+      "vertices": 8,
+      "faces": 6,
+      "volume_m3": 0.0042822625721086255,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          -0.5490085482597351,
+          0.5490073561668396
+        ],
+        [
+          0.02449999935925007,
+          0.027499999850988388
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_longitudinal_tube_3976C",
+      "source_handles": [
+        "3976C",
+        "2B6E",
+        "2B6F"
+      ],
+      "role": "longitudinal_square_tube",
+      "assembly_assumptions": "Longitudinal continuation for full CAD side length 1.3 m is a replaceable assembly inference; cross-section and transverse insert transform are source vectors.",
+      "vertices": 16,
+      "faces": 16,
+      "volume_m3": 0.00019239892762606435,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          -0.010250000283122063,
+          0.010250000283122063
+        ],
+        [
+          0.5296443104743958,
+          0.5501443147659302
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_longitudinal_tube_3976D",
+      "source_handles": [
+        "3976D",
+        "2B6E",
+        "2B6F"
+      ],
+      "role": "longitudinal_square_tube",
+      "assembly_assumptions": "Longitudinal continuation for full CAD side length 1.3 m is a replaceable assembly inference; cross-section and transverse insert transform are source vectors.",
+      "vertices": 16,
+      "faces": 16,
+      "volume_m3": 0.00019239910681281098,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          0.35899999737739563,
+          0.37950000166893005
+        ],
+        [
+          0.5296443104743958,
+          0.5501443147659302
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_longitudinal_tube_39770",
+      "source_handles": [
+        "39770",
+        "2B6E",
+        "2B6F"
+      ],
+      "role": "longitudinal_square_tube",
+      "assembly_assumptions": "Longitudinal continuation for full CAD side length 1.3 m is a replaceable assembly inference; cross-section and transverse insert transform are source vectors.",
+      "vertices": 16,
+      "faces": 16,
+      "volume_m3": 0.00019239910681281098,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          -0.37950000166893005,
+          -0.35899999737739563
+        ],
+        [
+          0.5296443104743958,
+          0.5501443147659302
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_longitudinal_tube_39771",
+      "source_handles": [
+        "39771",
+        "2B6E",
+        "2B6F"
+      ],
+      "role": "longitudinal_square_tube",
+      "assembly_assumptions": "Longitudinal continuation for full CAD side length 1.3 m is a replaceable assembly inference; cross-section and transverse insert transform are source vectors.",
+      "vertices": 16,
+      "faces": 16,
+      "volume_m3": 0.00019240012839763512,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          0.5033572316169739,
+          0.5316241979598999
+        ],
+        [
+          0.45159420371055603,
+          0.47986117005348206
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_longitudinal_tube_39772",
+      "source_handles": [
+        "39772",
+        "2B6E",
+        "2B6F"
+      ],
+      "role": "longitudinal_square_tube",
+      "assembly_assumptions": "Longitudinal continuation for full CAD side length 1.3 m is a replaceable assembly inference; cross-section and transverse insert transform are source vectors.",
+      "vertices": 16,
+      "faces": 16,
+      "volume_m3": 0.00019240025476062076,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          0.5286492109298706,
+          0.5499800443649292
+        ],
+        [
+          0.027500247582793236,
+          0.048831094056367874
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_longitudinal_tube_39773",
+      "source_handles": [
+        "39773",
+        "2B6E",
+        "2B6F"
+      ],
+      "role": "longitudinal_square_tube",
+      "assembly_assumptions": "Longitudinal continuation for full CAD side length 1.3 m is a replaceable assembly inference; cross-section and transverse insert transform are source vectors.",
+      "vertices": 16,
+      "faces": 16,
+      "volume_m3": 0.00019239901715795173,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          0.5376120805740356,
+          0.5585031509399414
+        ],
+        [
+          0.2442188858985901,
+          0.26510998606681824
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_longitudinal_tube_39774",
+      "source_handles": [
+        "39774",
+        "2B6E",
+        "2B6F"
+      ],
+      "role": "longitudinal_square_tube",
+      "assembly_assumptions": "Longitudinal continuation for full CAD side length 1.3 m is a replaceable assembly inference; cross-section and transverse insert transform are source vectors.",
+      "vertices": 16,
+      "faces": 16,
+      "volume_m3": 0.0001923983900658192,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          -0.2682499885559082,
+          -0.24774999916553497
+        ],
+        [
+          0.5296443104743958,
+          0.5501443147659302
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_longitudinal_tube_3977B",
+      "source_handles": [
+        "3977B",
+        "2B6E",
+        "2B6F"
+      ],
+      "role": "longitudinal_square_tube",
+      "assembly_assumptions": "Longitudinal continuation for full CAD side length 1.3 m is a replaceable assembly inference; cross-section and transverse insert transform are source vectors.",
+      "vertices": 16,
+      "faces": 16,
+      "volume_m3": 0.00019240012839763534,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          -0.5316241979598999,
+          -0.5033572316169739
+        ],
+        [
+          0.45159420371055603,
+          0.47986117005348206
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_longitudinal_tube_3977C",
+      "source_handles": [
+        "3977C",
+        "2B6E",
+        "2B6F"
+      ],
+      "role": "longitudinal_square_tube",
+      "assembly_assumptions": "Longitudinal continuation for full CAD side length 1.3 m is a replaceable assembly inference; cross-section and transverse insert transform are source vectors.",
+      "vertices": 16,
+      "faces": 16,
+      "volume_m3": 0.0001924002547606199,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          -0.5499800443649292,
+          -0.5286492109298706
+        ],
+        [
+          0.027500247582793236,
+          0.048831094056367874
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_longitudinal_tube_3977D",
+      "source_handles": [
+        "3977D",
+        "2B6E",
+        "2B6F"
+      ],
+      "role": "longitudinal_square_tube",
+      "assembly_assumptions": "Longitudinal continuation for full CAD side length 1.3 m is a replaceable assembly inference; cross-section and transverse insert transform are source vectors.",
+      "vertices": 16,
+      "faces": 16,
+      "volume_m3": 0.0001923990171579513,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          0.6499999761581421
+        ],
+        [
+          -0.5585031509399414,
+          -0.5376120805740356
+        ],
+        [
+          0.2442188858985901,
+          0.26510998606681824
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_end_rib_-1_3977E",
+      "source_handles": [
+        "3977E"
+      ],
+      "role": "end_rib",
+      "assembly_assumptions": "Two end stations and 3 mm axial rib thickness are assembly assumptions; XY profile and tube reliefs source-exact.",
+      "vertices": 152,
+      "faces": 78,
+      "volume_m3": 7.858393732007619e-05,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          -0.6470000147819519
+        ],
+        [
+          -0.40678316354751587,
+          0.40678316354751587
+        ],
+        [
+          0.5145110487937927,
+          0.5501443147659302
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_end_rib_-1_3977F",
+      "source_handles": [
+        "3977F"
+      ],
+      "role": "end_rib",
+      "assembly_assumptions": "Two end stations and 3 mm axial rib thickness are assembly assumptions; XY profile and tube reliefs source-exact.",
+      "vertices": 862,
+      "faces": 433,
+      "volume_m3": 5.6856136360559365e-05,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          -0.6470000147819519
+        ],
+        [
+          0.39678317308425903,
+          0.5585029125213623
+        ],
+        [
+          0.024500912055373192,
+          0.5496430397033691
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_end_rib_-1_39781",
+      "source_handles": [
+        "39781"
+      ],
+      "role": "end_rib",
+      "assembly_assumptions": "Two end stations and 3 mm axial rib thickness are assembly assumptions; XY profile and tube reliefs source-exact.",
+      "vertices": 862,
+      "faces": 433,
+      "volume_m3": 5.683816470798439e-05,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          -0.6470000147819519
+        ],
+        [
+          -0.5585029125213623,
+          -0.39678317308425903
+        ],
+        [
+          0.02449999935925007,
+          0.5496430397033691
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_end_rib_-1_39783",
+      "source_handles": [
+        "39783"
+      ],
+      "role": "end_rib",
+      "assembly_assumptions": "Two end stations and 3 mm axial rib thickness are assembly assumptions; XY profile and tube reliefs source-exact.",
+      "vertices": 8,
+      "faces": 6,
+      "volume_m3": 2.1995433788747566e-07,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          -0.6470000147819519
+        ],
+        [
+          -0.5479950904846191,
+          -0.544995129108429
+        ],
+        [
+          6.207788828760386e-05,
+          0.02450207807123661
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_end_rib_-1_39784",
+      "source_handles": [
+        "39784"
+      ],
+      "role": "end_rib",
+      "assembly_assumptions": "Two end stations and 3 mm axial rib thickness are assembly assumptions; XY profile and tube reliefs source-exact.",
+      "vertices": 8,
+      "faces": 6,
+      "volume_m3": 2.1995433788747566e-07,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          -0.6499999761581421,
+          -0.6470000147819519
+        ],
+        [
+          0.544995129108429,
+          0.5479950904846191
+        ],
+        [
+          6.207788828760386e-05,
+          0.02450207807123661
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_end_rib_+1_3977E",
+      "source_handles": [
+        "3977E"
+      ],
+      "role": "end_rib",
+      "assembly_assumptions": "Two end stations and 3 mm axial rib thickness are assembly assumptions; XY profile and tube reliefs source-exact.",
+      "vertices": 152,
+      "faces": 78,
+      "volume_m3": 7.858393732010845e-05,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          0.6470000147819519,
+          0.6499999761581421
+        ],
+        [
+          -0.40678316354751587,
+          0.40678316354751587
+        ],
+        [
+          0.5145110487937927,
+          0.5501443147659302
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_end_rib_+1_3977F",
+      "source_handles": [
+        "3977F"
+      ],
+      "role": "end_rib",
+      "assembly_assumptions": "Two end stations and 3 mm axial rib thickness are assembly assumptions; XY profile and tube reliefs source-exact.",
+      "vertices": 862,
+      "faces": 433,
+      "volume_m3": 5.685613636056934e-05,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          0.6470000147819519,
+          0.6499999761581421
+        ],
+        [
+          0.39678317308425903,
+          0.5585029125213623
+        ],
+        [
+          0.024500912055373192,
+          0.5496430397033691
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_end_rib_+1_39781",
+      "source_handles": [
+        "39781"
+      ],
+      "role": "end_rib",
+      "assembly_assumptions": "Two end stations and 3 mm axial rib thickness are assembly assumptions; XY profile and tube reliefs source-exact.",
+      "vertices": 862,
+      "faces": 433,
+      "volume_m3": 5.683816470798427e-05,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          0.6470000147819519,
+          0.6499999761581421
+        ],
+        [
+          -0.5585029125213623,
+          -0.39678317308425903
+        ],
+        [
+          0.02449999935925007,
+          0.5496430397033691
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_end_rib_+1_39783",
+      "source_handles": [
+        "39783"
+      ],
+      "role": "end_rib",
+      "assembly_assumptions": "Two end stations and 3 mm axial rib thickness are assembly assumptions; XY profile and tube reliefs source-exact.",
+      "vertices": 8,
+      "faces": 6,
+      "volume_m3": 2.1995433788747566e-07,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          0.6470000147819519,
+          0.6499999761581421
+        ],
+        [
+          -0.5479950904846191,
+          -0.544995129108429
+        ],
+        [
+          6.207788828760386e-05,
+          0.02450207807123661
+        ]
+      ]
+    },
+    {
+      "name": "CAD_body_end_rib_+1_39784",
+      "source_handles": [
+        "39784"
+      ],
+      "role": "end_rib",
+      "assembly_assumptions": "Two end stations and 3 mm axial rib thickness are assembly assumptions; XY profile and tube reliefs source-exact.",
+      "vertices": 8,
+      "faces": 6,
+      "volume_m3": 2.1995433788747566e-07,
+      "nonmanifold_edges": 0,
+      "bounds_m": [
+        [
+          0.6470000147819519,
+          0.6499999761581421
+        ],
+        [
+          0.544995129108429,
+          0.5479950904846191
+        ],
+        [
+          6.207788828760386e-05,
+          0.02450207807123661
+        ]
+      ]
+    }
+  ],
+  "physical_binding": null,
+  "hardware_certified": false,
+  "unknowns": [
+    "Cross-section source designs versus final built version",
+    "Longitudinal section variation, openings, seam layout and end-rib number/thickness",
+    "Material grades, mass/inertia, fastener and weld specifications",
+    "Absolute component placement and equipment clearances require matching remaining CAD views and photos"
+  ]
+}

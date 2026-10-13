@@ -1,0 +1,35 @@
+{
+  "schema": "gtsd-source-assembly-native-v1",
+  "source_scene_mesh_count": 1932,
+  "source_scene_triangles": 1656604,
+  "display_revision_sha256": "3e1d785643dc3eca93cf989b663af29311db3c6d1ce3197d97d7758a4e9fb93e",
+  "physical_model_changes": false,
+  "render_pixels_reviewed": true,
+  "render_AA": 8,
+  "render_cavity": false,
+  "source_names": "custom property source_name because native Blender ID names truncate",
+  "files": {
+    "GTSD_Source_Assembly_Revision.blend": {
+      "bytes": 34143974,
+      "sha256": "08b61aa81c1a3b51c54488b413aaae5072013c51ca6afcd32c20168b7bb9eac2"
+    },
+    "native_reopen_verification.json": {
+      "bytes": 607,
+      "sha256": "92b6c0463794d725d051c7e026c4483f2017448a98fac9495aa7bb3789793f27"
+    },
+    "whole_static_revision.png": {
+      "bytes": 1409881,
+      "sha256": "1986c984fc047776075b5fd673dd9233756b91555a7b45583dc31fc01557767f"
+    },
+    "track_axis_top.png": {
+      "bytes": 1300620,
+      "sha256": "9cbf5903ea07436a478de748eecbe83be28b4f8a8d48696c2eef566ab314adac"
+    },
+    "render_manifest.json": {
+      "bytes": 881,
+      "sha256": "64dc71127deb2d205efaae769cc37be0a56bdb2909bf7a92f46ba727cf7638e0"
+    }
+  },
+  "upstream_artifact_manifest_sha256": "a03361ba284d9f62c74758c1c4dde69dac79e49a026b36c6abf40bfbed07e3b6",
+  "scope": "Public subset: completed native model, corresponding actual renders, saved identity verification. Private-input rebuild scripts omitted."
+}
