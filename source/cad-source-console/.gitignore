@@ -51,3 +51,14 @@ acceptance-output/
 /integration/source_assembly_native/GTSD_Source_Assembly_Revision.blend
 /pantograph/candidate/source_meshes.json.gz
 /pantograph/evidence/pantograph_meshes.json
+
+# PNG assets restored automatically from byte-identical delivery chunks
+/baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/encoder/outputs/render_candidate_rear.png
+/baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/encoder/outputs/render_comparison.png
+/baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/encoder/outputs/render_candidate_core.png
+/baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/encoder/outputs/render_candidate_front.png
+/baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/encoder/outputs/render_blind_bore_section.png
+/baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/body/outputs/body_CAD_front.png
+/baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/body/outputs/body_CAD_cutaway.png
+/baseline_console/GTSD_Assembly_Console/runtime/portable/GTSD_Phase6/geometry/pantograph/plan_candidate/outputs/render_plan_relief_oblique.png
+/integration/source_assembly_native/whole_static_revision.png
