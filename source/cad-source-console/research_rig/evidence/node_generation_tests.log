@@ -1,0 +1,31 @@
+✔ boot and navigation are read-only, no implicit initialize (8.57498ms)
+✔ initialization requires checkbox and repeated clicks submit once (3.875616ms)
+✔ double step while pending sends one bounded command (3.972834ms)
+✔ uncertain command response only reads status, never retries command (4.27696ms)
+✔ run disables state changes and pause remains available (2.409169ms)
+✔ contact preset is visible and explicit, edits issue no commands (2.267878ms)
+✔ saved checkpoint export is read-only and restores only selected ID (6.041126ms)
+✔ visibility interruption stops polling without auto-resume commands (2.354728ms)
+✔ Refresh adopts a restarted server and permits explicit new initialization (3.127883ms)
+✔ delayed old status cannot replace a refreshed server generation (2.676949ms)
+✔ delayed old geometry bundle cannot overwrite a newer generation (2.137303ms)
+✔ a rejected old-generation command recovers by reads without automatic replay (1.872367ms)
+✔ native wxyz transform maps exact source vertices and keeps indices (2.306505ms)
+✔ unbound background is unchanged and explicitly classified (0.271305ms)
+✔ reference rotation is inverted before current pose (0.228191ms)
+✔ no default physics when disabled (0.289783ms)
+✔ identity mismatch and missing pose fail closed (0.483743ms)
+✔ bad quaternions are rejected instead of animated (0.148522ms)
+✔ branch filter uses real source branch without scene substitutes (0.233199ms)
+✔ bounded commands carry current session and revision (0.351305ms)
+✔ initialization requires explicit acknowledgment and mode (0.238536ms)
+✔ older observations cannot replace current revision (0.417865ms)
+✔ server generations require explicit latest-observation adoption (0.163804ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 137.364145

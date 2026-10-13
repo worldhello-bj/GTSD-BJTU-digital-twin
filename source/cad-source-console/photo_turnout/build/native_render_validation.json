@@ -1,0 +1,803 @@
+{
+  "schema": "gtsd-photo-turnout-native-render-check-v1",
+  "native_reopened": true,
+  "mesh_membership_and_indices_verified": true,
+  "mesh_count": 130,
+  "candidate_count": 14,
+  "maximum_world_vertex_error_mm": 0.001430511474609375,
+  "tolerance_mm": 0.0015,
+  "single_small_render": true,
+  "resolution": [
+    1200,
+    780
+  ],
+  "samples": 20,
+  "threads": 1,
+  "rendered_conflicting_retained_objects_red": true,
+  "original_images_embedded": false,
+  "external_libraries": 0,
+  "text_blocks": 0,
+  "rigid_bodies": 0,
+  "records": [
+    {
+      "name": "CAD_track_fastener_4EDF5_baseplate_197p2x70_candidate",
+      "vertices": 2085,
+      "triangles": 1044,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDF5_left_flat_projection_candidate",
+      "vertices": 11615,
+      "triangles": 5900,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDF5_right_flat_projection_candidate",
+      "vertices": 11722,
+      "triangles": 5900,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDF6_baseplate_197p2x70_candidate",
+      "vertices": 2085,
+      "triangles": 1044,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDF6_left_flat_projection_candidate",
+      "vertices": 11560,
+      "triangles": 5900,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDF6_right_flat_projection_candidate",
+      "vertices": 11669,
+      "triangles": 5900,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDF7_baseplate_197p2x70_candidate",
+      "vertices": 2077,
+      "triangles": 1044,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDF7_left_flat_projection_candidate",
+      "vertices": 11622,
+      "triangles": 5900,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDF7_right_flat_projection_candidate",
+      "vertices": 11725,
+      "triangles": 5900,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDF8_baseplate_197p2x70_candidate",
+      "vertices": 2061,
+      "triangles": 1044,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDF8_left_flat_projection_candidate",
+      "vertices": 11541,
+      "triangles": 5900,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDF8_right_flat_projection_candidate",
+      "vertices": 11648,
+      "triangles": 5900,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDF9_baseplate_197p2x70_candidate",
+      "vertices": 1949,
+      "triangles": 1044,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDF9_left_flat_projection_candidate",
+      "vertices": 11670,
+      "triangles": 5900,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDF9_right_flat_projection_candidate",
+      "vertices": 11777,
+      "triangles": 5900,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDFA_baseplate_197p2x70_candidate",
+      "vertices": 1965,
+      "triangles": 1044,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDFA_left_flat_projection_candidate",
+      "vertices": 11575,
+      "triangles": 5900,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_track_fastener_4EDFA_right_flat_projection_candidate",
+      "vertices": 11685,
+      "triangles": 5900,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "DETAIL_BENCH_guard_diverging",
+      "vertices": 133,
+      "triangles": 68,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "DETAIL_BENCH_guard_straight",
+      "vertices": 134,
+      "triangles": 68,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_balise_body_00",
+      "vertices": 500,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_balise_lid_screw",
+      "vertices": 48,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_balise_lid_screw.001",
+      "vertices": 48,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_balise_lid_screw.002",
+      "vertices": 52,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_balise_lid_screw.003",
+      "vertices": 52,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_balise_yellow_lid_00",
+      "vertices": 508,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_deck_equipment_footprint",
+      "vertices": 504,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_fastener.002",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_fastener.003",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "ENV_fastener.006",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "ENV_fastener.007",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "ENV_fastener.010",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "ENV_fastener.011",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "ENV_fastener.014",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "ENV_fastener.015",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "ENV_fastener.018",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "ENV_fastener.019",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "ENV_fastener.022",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_fastener.023",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_fastener.026",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_fastener.027",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_main_rail_-1",
+      "vertices": 75,
+      "triangles": 44,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_main_rail_top_-1",
+      "vertices": 508,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_substation_base",
+      "vertices": 508,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "ENV_substation_rack_upright.001",
+      "vertices": 516,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_outer_branch_native_xy",
+      "vertices": 1044,
+      "triangles": 2076,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_long_sleeper_00_native_axis",
+      "vertices": 510,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_long_sleeper_01_native_axis",
+      "vertices": 510,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_long_sleeper_02_native_axis",
+      "vertices": 520,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_long_sleeper_03_native_axis",
+      "vertices": 516,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_long_sleeper_04_native_axis",
+      "vertices": 520,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_long_sleeper_05_native_axis",
+      "vertices": 528,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_long_sleeper_06_native_axis",
+      "vertices": 522,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_photo_chair_001_source_station",
+      "vertices": 524,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_photo_chair_013_source_station",
+      "vertices": 524,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_00_1",
+      "vertices": 536,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_00_1_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_00_1_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_01_1_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_01_1_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_01_3",
+      "vertices": 516,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_01_3_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_01_3_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_02_0",
+      "vertices": 532,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_0_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_0_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_1_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_1_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_02_3",
+      "vertices": 520,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_3_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_3_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_02_4",
+      "vertices": 536,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_4_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_4_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_03_0",
+      "vertices": 532,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_03_0_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_03_0_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_03_3",
+      "vertices": 516,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_03_3_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_03_3_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_03_4",
+      "vertices": 532,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_03_4_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_03_4_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_04_0",
+      "vertices": 536,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_04_0_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_04_0_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_04_3",
+      "vertices": 520,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_04_3_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_04_3_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_04_4",
+      "vertices": 536,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_04_4_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_04_4_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_05_0",
+      "vertices": 536,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_0_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_0_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_2_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_2_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_05_3",
+      "vertices": 532,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_3_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_3_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_05_4",
+      "vertices": 536,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_4_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_4_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_06_0",
+      "vertices": 532,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_06_2",
+      "vertices": 520,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_06_2_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_06_2_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_06_3",
+      "vertices": 522,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_06_3_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_06_3_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_06_4",
+      "vertices": 536,
+      "triangles": 188,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "FIT_TRACK_station01_source_chair",
+      "vertices": 224,
+      "triangles": 196,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "FIT_TRACK_clip_01_0_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "FIT_TRACK_clip_01_0_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "FIT_TRACK_clip_03_1_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "FIT_TRACK_clip_03_1_1",
+      "vertices": 60,
+      "triangles": 28,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "PHOTO_FROG_source_finite_V",
+      "vertices": 110,
+      "triangles": 216,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "PHOTO_WING_lower_source_chain",
+      "vertices": 84,
+      "triangles": 164,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "PHOTO_WING_upper_source_chain",
+      "vertices": 79,
+      "triangles": 154,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "PHOTO_SUPPORT_separate_long_plate",
+      "vertices": 28,
+      "triangles": 52,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "PHOTO_SUPPORT_pad_01",
+      "vertices": 8,
+      "triangles": 12,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "PHOTO_SUPPORT_pad_02",
+      "vertices": 8,
+      "triangles": 12,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "PHOTO_SUPPORT_pad_03",
+      "vertices": 8,
+      "triangles": 12,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "PHOTO_SUPPORT_pad_04",
+      "vertices": 8,
+      "triangles": 12,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "PHOTO_SUPPORT_pad_05",
+      "vertices": 8,
+      "triangles": 12,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "PHOTO_RETAIN_right_ENV_main_rail_1",
+      "vertices": 36,
+      "triangles": 68,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "PHOTO_RETAIN_right_ENV_main_rail_top_1",
+      "vertices": 80,
+      "triangles": 156,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "PHOTO_RETAIN_right_CAD_TRACK_REV_inner_right_native_xy",
+      "vertices": 1092,
+      "triangles": 2172,
+      "highlighted_retained_interference": false
+    },
+    {
+      "name": "PHOTO_RETAIN_left_ENV_main_rail_1",
+      "vertices": 36,
+      "triangles": 68,
+      "highlighted_retained_interference": true
+    },
+    {
+      "name": "PHOTO_RETAIN_left_ENV_main_rail_top_1",
+      "vertices": 80,
+      "triangles": 156,
+      "highlighted_retained_interference": false
+    }
+  ]
+}

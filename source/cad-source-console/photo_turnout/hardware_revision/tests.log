@@ -1,0 +1,10 @@
+test_audit_scope (__main__.Tests.test_audit_scope) ... ok
+test_deterministic (__main__.Tests.test_deterministic) ... BUILT 111 meshes; removed 33 new assemblies 12
+ok
+test_meshes_and_datums (__main__.Tests.test_meshes_and_datums) ... ok
+test_rail_core_unchanged (__main__.Tests.test_rail_core_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 2.200s
+
+OK

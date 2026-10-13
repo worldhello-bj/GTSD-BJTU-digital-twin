@@ -1,0 +1,44 @@
+test_all_output_closed_positive_and_unique (__main__.CandidateTests.test_all_output_closed_positive_and_unique) ... ok
+test_configuration_changes_only_explicit_unknown_section (__main__.CandidateTests.test_configuration_changes_only_explicit_unknown_section) ... photo_turnout/build_candidate.py:131: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  branchwidth=abs(np.cross((fe[1]-fe[0])/np.linalg.norm(fe[1]-fe[0]),curves['4ED00'][0]-fe[0]));assert abs(branchwidth-width)<1e-7
+photo_turnout/build_candidate.py:35: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  a,b,inside=map(lambda p:np.asarray(p,float),[a,b,inside]);sgn=np.sign(np.cross(b-a,inside-a));q=[np.array(p)for p in [[left,bottom],[right,bottom],[right,top],[left,top]]];out=[]
+photo_turnout/build_candidate.py:36: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  def side(p):return sgn*np.cross(b-a,p-a)
+photo_turnout/cap_geometry.py:87: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  q=np.array(t[0][:-1]);area=np.cross(q[1]-q[0],q[2]-q[0]);
+photo_turnout/cap_geometry.py:87: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  q=np.array(t[0][:-1]);area=np.cross(q[1]-q[0],q[2]-q[0]);
+photo_turnout/build_candidate.py:25: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  def signedarea(q):return float(np.cross(q,np.roll(q,-1,axis=0)).sum()/2)
+photo_turnout/build_candidate.py:185: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  facts={'nose_world_mm':nose.tolist(),'horizontal_band_width_mm':width,'diverging_perpendicular_band_width_mm':branchwidth,'lower_slot_horizontal_mm':ed[0,1]-curves['4ECEE'][0,1],'upper_slot_perpendicular_mm':abs(np.cross((fe[1]-fe[0])/np.linalg.norm(fe[1]-fe[0]),curves['4ED02'][0]-fe[0])),'source_boundaries_are_finite':True,'photo_metric_dimensions':[],'all_57_source_curves_retained_in_overlay':True,'photo_to_cad_registration':'REGION_LEVEL_CANDIDATE_NOT_CALIBRATED','section_choice':cfg['cross_section_mode'],'rail_z_mm':[bottom,top],'long_plate_z_mm':[platebottom,platetop],'pad_z_mm':[padbottom,platebottom],'new_physics':False,'source_track_axes_changed':False}
+ok
+test_deterministic_rebuild_byte_identity (__main__.CandidateTests.test_deterministic_rebuild_byte_identity) ... photo_turnout/build_candidate.py:131: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  branchwidth=abs(np.cross((fe[1]-fe[0])/np.linalg.norm(fe[1]-fe[0]),curves['4ED00'][0]-fe[0]));assert abs(branchwidth-width)<1e-7
+photo_turnout/build_candidate.py:35: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  a,b,inside=map(lambda p:np.asarray(p,float),[a,b,inside]);sgn=np.sign(np.cross(b-a,inside-a));q=[np.array(p)for p in [[left,bottom],[right,bottom],[right,top],[left,top]]];out=[]
+photo_turnout/build_candidate.py:36: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  def side(p):return sgn*np.cross(b-a,p-a)
+photo_turnout/cap_geometry.py:87: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  q=np.array(t[0][:-1]);area=np.cross(q[1]-q[0],q[2]-q[0]);
+photo_turnout/build_candidate.py:25: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  def signedarea(q):return float(np.cross(q,np.roll(q,-1,axis=0)).sum()/2)
+photo_turnout/build_candidate.py:185: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  facts={'nose_world_mm':nose.tolist(),'horizontal_band_width_mm':width,'diverging_perpendicular_band_width_mm':branchwidth,'lower_slot_horizontal_mm':ed[0,1]-curves['4ECEE'][0,1],'upper_slot_perpendicular_mm':abs(np.cross((fe[1]-fe[0])/np.linalg.norm(fe[1]-fe[0]),curves['4ED02'][0]-fe[0])),'source_boundaries_are_finite':True,'photo_metric_dimensions':[],'all_57_source_curves_retained_in_overlay':True,'photo_to_cad_registration':'REGION_LEVEL_CANDIDATE_NOT_CALIBRATED','section_choice':cfg['cross_section_mode'],'rail_z_mm':[bottom,top],'long_plate_z_mm':[platebottom,platetop],'pad_z_mm':[padbottom,platebottom],'new_physics':False,'source_track_axes_changed':False}
+ok
+test_frog_points_right_and_stays_between_finite_faces (__main__.CandidateTests.test_frog_points_right_and_stays_between_finite_faces) ... ok
+test_full_scene_material_audit_reports_blockers_honestly (__main__.CandidateTests.test_full_scene_material_audit_reports_blockers_honestly) ... ok
+test_independent_rail_faces_have_zero_material_overlap (__main__.CandidateTests.test_independent_rail_faces_have_zero_material_overlap) ... ok
+test_inherited_I_section_retains_all_source_Z_events_and_widths (__main__.CandidateTests.test_inherited_I_section_retains_all_source_Z_events_and_widths) ... ok
+test_invalid_or_hidden_section_modes_rejected (__main__.CandidateTests.test_invalid_or_hidden_section_modes_rejected) ... ok
+test_native_identity_and_finite_endpoint_chains (__main__.CandidateTests.test_native_identity_and_finite_endpoint_chains) ... ok
+test_no_new_physics_or_as_built_claim (__main__.CandidateTests.test_no_new_physics_or_as_built_claim) ... ok
+test_parallel_slot_widths_are_source_association_not_photo_measurements (__main__.CandidateTests.test_parallel_slot_widths_are_source_association_not_photo_measurements) ... ok
+test_remainder_vertices_and_far_sections_preserved (__main__.CandidateTests.test_remainder_vertices_and_far_sections_preserved) ... ok
+test_separate_stack_and_source_sleepers_unchanged (__main__.CandidateTests.test_separate_stack_and_source_sleepers_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 4.256s
+
+OK

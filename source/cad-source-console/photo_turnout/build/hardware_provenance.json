@@ -1,0 +1,1790 @@
+{
+  "schema": "gtsd-photo-turnout-hardware-provenance-v1",
+  "hardware_mesh_pairs": 17,
+  "exact_native_3D_clip_solids_among_conflicts": 0,
+  "counts": {
+    "PHOTO_INFERRED_GENERIC_BOLT_HEAD_PROXY": 9,
+    "NATIVE_STATION_XY_WITH_INHERITED_GUESSED_BOLT_HEAD": 6,
+    "ENGINEERING_INSTALLATION_OF_INHERITED_BOLT_HEAD_PROXY": 2
+  },
+  "physical_hardware_conflicts_confirmed": 0,
+  "model_intersections_are_still_real_for_the_supplied_meshes": true,
+  "rows": [
+    {
+      "name": "ENV_fastener.003",
+      "intersects_candidate": "PHOTO_FROG_source_finite_V",
+      "modeled_material_overlap_mm3": 344.12648104862217,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "PHOTO_INFERRED_GENERIC_BOLT_HEAD_PROXY",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Legacy photo-proxy pose. Source-station chair relocation is separate; the fastener itself has no native fastening datum.",
+      "source_handles": [
+        "4ED40",
+        "4ED16",
+        "4ED18"
+      ],
+      "parent_clip_seat_assembly": {
+        "original_chair": "ENV_rail_chair.001",
+        "source_association_method": "numbered two-fastener/one-chair hypothesis, verified by original chair inverse-transform X where available",
+        "revised_chair": "CAD_TRACK_REV_photo_chair_001_source_station",
+        "original_centerline_X_difference_mm": 0.0,
+        "old_pair_side_offset_Y_mm": 42.999982833862305,
+        "chair_source_relocation_delta_mm": [
+          46.63158280368407,
+          -9.377756238215795e-06,
+          0.0
+        ]
+      },
+      "source_geometry_status": "PHOTO_INFERRED_GEOMETRY",
+      "source_metadata_witness": {
+        "dimension_status": "",
+        "display_group": "track",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "environment",
+        "id": "1366",
+        "registered_component_id": "DTB-C0013",
+        "registry_match_status": "",
+        "semantic_part_id": "",
+        "source_refs": "private photo observation visible fastener, inferred dimensions",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "ENV_fastener.003",
+        "as_built_confirmed": false
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "ENV_fastener.007",
+      "intersects_candidate": "PHOTO_FROG_source_finite_V",
+      "modeled_material_overlap_mm3": 804.6747760505712,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "PHOTO_INFERRED_GENERIC_BOLT_HEAD_PROXY",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Legacy photo-proxy pose. Source-station chair relocation is separate; the fastener itself has no native fastening datum.",
+      "source_handles": [
+        "4ED3F",
+        "4ED16",
+        "4ED18"
+      ],
+      "parent_clip_seat_assembly": {
+        "original_chair": "ENV_rail_chair.003",
+        "source_association_method": "numbered two-fastener/one-chair hypothesis, verified by original chair inverse-transform X where available",
+        "revised_chair": "CAD_TRACK_REV_photo_chair_003_source_station",
+        "original_centerline_X_difference_mm": 0.0,
+        "old_pair_side_offset_Y_mm": 42.999982833862305,
+        "chair_source_relocation_delta_mm": [
+          40.45270759729647,
+          -9.377756238215795e-06,
+          0.0
+        ]
+      },
+      "source_geometry_status": "PHOTO_INFERRED_GEOMETRY",
+      "source_metadata_witness": {
+        "dimension_status": "",
+        "display_group": "track",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "environment",
+        "id": "1370",
+        "registered_component_id": "DTB-C0013",
+        "registry_match_status": "",
+        "semantic_part_id": "",
+        "source_refs": "private photo observation visible fastener, inferred dimensions",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "ENV_fastener.007",
+        "as_built_confirmed": false
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_00_1_-1",
+      "intersects_candidate": "PHOTO_FROG_source_finite_V",
+      "modeled_material_overlap_mm3": 767.592649746201,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "NATIVE_STATION_XY_WITH_INHERITED_GUESSED_BOLT_HEAD",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Native sleeper-axis / rail-band intersection is sourced; individual clip offset, section, yaw and Z are inherited guessed geometry.",
+      "source_handles": [
+        "4ED40",
+        "4ECFE",
+        "4ED00"
+      ],
+      "parent_clip_seat_assembly": {
+        "original_chair": "DETAIL_BENCH_branch_chair_00_1",
+        "source_station_index": 0,
+        "revised_chair": "CAD_TRACK_REV_branch_chair_00_1",
+        "source_association_method": "explicit full three-mesh group in original source metadata"
+      },
+      "source_geometry_status": "OLD_INFERRED_CHAIR_AND_CLIP_SHAPES_AT_NATIVE_AXIS_INTERSECTION",
+      "source_metadata_witness": {
+        "name": "CAD_TRACK_REV_branch_clip_00_1_-1",
+        "replaces_mesh_name": "DETAIL_BENCH_branch_fastener_00_1_-1",
+        "color": [
+          0.3,
+          0.3,
+          0.32,
+          1
+        ],
+        "group": "existing_branch_chair_group_source_station_relocation",
+        "candidate": true,
+        "default_enabled": true,
+        "geometry_status": "OLD_INFERRED_CHAIR_AND_CLIP_SHAPES_AT_NATIVE_AXIS_INTERSECTION",
+        "as_built": false,
+        "physics_binding": false,
+        "collision_enabled": false,
+        "old_physics_identity_reused": false,
+        "new_physical_body_count": 0,
+        "source_handles": [
+          "4ED40",
+          "4ECFE",
+          "4ED00"
+        ],
+        "source_ref": [
+          "Model/4ED40",
+          "Model/4ECFE",
+          "Model/4ED00"
+        ],
+        "old_shape_source_metadata": {
+          "dimension_status": "CAD_PLAN_ONLY_SECTION_ASSUMED",
+          "display_group": "",
+          "geometry_assumptions": "",
+          "geometry_status": "CAD_LAYOUT_WITH_INFERRED_3D_SECTION",
+          "group": "environment",
+          "id": "571",
+          "registered_component_id": "DTB-C0014",
+          "registry_match_status": "EXISTING_ENVIRONMENT_ASSEMBLY_CORRESPONDENCE",
+          "semantic_part_id": "",
+          "source_refs": "New CAD Model exact contour handles in bench_details_source_vectors.json; private photo observation; section and operating state unverified; private photo observation",
+          "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+          "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+          "native_pose_bound_in_this_scene": false,
+          "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+          "source_name": "DETAIL_BENCH_branch_fastener_00_1_-1",
+          "as_built_confirmed": false
+        },
+        "source_station_index": 0,
+        "source_rail_family": "DETAIL_BENCH_turnout_inner_left_segment",
+        "unique_native_axis_rail_intersection_world_XY_m": [
+          -9.375587049728034,
+          0.31681695609031113
+        ],
+        "source_mm_to_world_XY_matrix": [
+          [
+            0.001,
+            0,
+            -39.254296868109456
+          ],
+          [
+            0,
+            0.001,
+            -33.70731594700124
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "old_baked_world_to_new_baked_world_matrix": [
+          [
+            1,
+            0,
+            0,
+            0.05074637770116475
+          ],
+          [
+            0,
+            1,
+            0,
+            -0.007249355030675808
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "source_shape_is_not_fully_dimensioned": true,
+        "inherited_geometry": "Frozen old mesh translated as a complete3mesh chair group. Count,section,yaw,Z and chair-to-clips offsets retained; not new nativefastenergeometry.",
+        "triangle_sha256": "9d7c420e3a1a5aca09f64d23f2a8a1569b88ae7b4cae57ad881c2544f3692804",
+        "old_triangle_sha256": "6c8434da5b0fcd739fc75a60e9c2f3d305ea6e00f1a6e9c1c72321d1e91e7938",
+        "bounds_m": [
+          [
+            -9.380587164168952,
+            0.27081695227561386,
+            -0.06499999761581421
+          ],
+          [
+            -9.370586935287117,
+            0.2808169427388707,
+            -0.04899999499320984
+          ]
+        ],
+        "replaces": "DETAIL_BENCH_branch_fastener_00_1_-1",
+        "physics_enabled": false,
+        "physical_binding": false,
+        "contact_enabled": false,
+        "native_solver_body": null,
+        "source_contract": "full_source_audit/census/track237_revision/assembly_fit/default_pending_selection_contract.json",
+        "source_dxf_sha256": "73f9eeb145cfbda5f01d1302d3e6e09d2d81e707ff7776187d899100f654f143",
+        "source_display_material": [
+          0.4000000059604645,
+          0.44999998807907104,
+          0.4699999988079071,
+          1
+        ],
+        "installed_mechanical_connection_confirmed": false
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_01_1_-1",
+      "intersects_candidate": "PHOTO_FROG_source_finite_V",
+      "modeled_material_overlap_mm3": 858.2059473400824,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "NATIVE_STATION_XY_WITH_INHERITED_GUESSED_BOLT_HEAD",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Native sleeper-axis / rail-band intersection is sourced; individual clip offset, section, yaw and Z are inherited guessed geometry.",
+      "source_handles": [
+        "4ED3F",
+        "4ECFE",
+        "4ED00"
+      ],
+      "parent_clip_seat_assembly": {
+        "original_chair": "DETAIL_BENCH_branch_chair_01_1",
+        "source_station_index": 1,
+        "revised_chair": "CAD_TRACK_REV_branch_chair_01_1",
+        "source_association_method": "explicit full three-mesh group in original source metadata"
+      },
+      "source_geometry_status": "OLD_INFERRED_CHAIR_AND_CLIP_SHAPES_AT_NATIVE_AXIS_INTERSECTION",
+      "source_metadata_witness": {
+        "name": "CAD_TRACK_REV_branch_clip_01_1_-1",
+        "replaces_mesh_name": "DETAIL_BENCH_branch_fastener_01_1_-1",
+        "color": [
+          0.3,
+          0.3,
+          0.32,
+          1
+        ],
+        "group": "existing_branch_chair_group_source_station_relocation",
+        "candidate": true,
+        "default_enabled": true,
+        "geometry_status": "OLD_INFERRED_CHAIR_AND_CLIP_SHAPES_AT_NATIVE_AXIS_INTERSECTION",
+        "as_built": false,
+        "physics_binding": false,
+        "collision_enabled": false,
+        "old_physics_identity_reused": false,
+        "new_physical_body_count": 0,
+        "source_handles": [
+          "4ED3F",
+          "4ECFE",
+          "4ED00"
+        ],
+        "source_ref": [
+          "Model/4ED3F",
+          "Model/4ECFE",
+          "Model/4ED00"
+        ],
+        "old_shape_source_metadata": {
+          "dimension_status": "CAD_PLAN_ONLY_SECTION_ASSUMED",
+          "display_group": "",
+          "geometry_assumptions": "",
+          "geometry_status": "CAD_LAYOUT_WITH_INFERRED_3D_SECTION",
+          "group": "environment",
+          "id": "575",
+          "registered_component_id": "DTB-C0014",
+          "registry_match_status": "EXISTING_ENVIRONMENT_ASSEMBLY_CORRESPONDENCE",
+          "semantic_part_id": "",
+          "source_refs": "New CAD Model exact contour handles in bench_details_source_vectors.json; private photo observation; section and operating state unverified; private photo observation",
+          "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+          "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+          "native_pose_bound_in_this_scene": false,
+          "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+          "source_name": "DETAIL_BENCH_branch_fastener_01_1_-1",
+          "as_built_confirmed": false
+        },
+        "source_station_index": 1,
+        "source_rail_family": "DETAIL_BENCH_turnout_inner_left_segment",
+        "unique_native_axis_rail_intersection_world_XY_m": [
+          -9.183714065229507,
+          0.28940687949366106
+        ],
+        "source_mm_to_world_XY_matrix": [
+          [
+            0.001,
+            0,
+            -39.254296868109456
+          ],
+          [
+            0,
+            0.001,
+            -33.70731594700124
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "old_baked_world_to_new_baked_world_matrix": [
+          [
+            1,
+            0,
+            0,
+            0.042619552934555216
+          ],
+          [
+            0,
+            1,
+            0,
+            -0.006088362386755808
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "source_shape_is_not_fully_dimensioned": true,
+        "inherited_geometry": "Frozen old mesh translated as a complete3mesh chair group. Count,section,yaw,Z and chair-to-clips offsets retained; not new nativefastenergeometry.",
+        "triangle_sha256": "258d842e5de22249b4d489a4d2dc2d78883eec91e03d6b66c0c4a745a77ef53f",
+        "old_triangle_sha256": "96ca76394c6bd83f4205902bcb18eb656f442bc35f2d5a91a832624c250c04ca",
+        "bounds_m": [
+          [
+            -9.188714179670425,
+            0.2434068756789638,
+            -0.06499999761581421
+          ],
+          [
+            -9.17871395078859,
+            0.25340686614222063,
+            -0.04899999499320984
+          ]
+        ],
+        "replaces": "DETAIL_BENCH_branch_fastener_01_1_-1",
+        "physics_enabled": false,
+        "physical_binding": false,
+        "contact_enabled": false,
+        "native_solver_body": null,
+        "source_contract": "full_source_audit/census/track237_revision/assembly_fit/default_pending_selection_contract.json",
+        "source_dxf_sha256": "73f9eeb145cfbda5f01d1302d3e6e09d2d81e707ff7776187d899100f654f143",
+        "source_display_material": [
+          0.4000000059604645,
+          0.44999998807907104,
+          0.4699999988079071,
+          1
+        ],
+        "installed_mechanical_connection_confirmed": false
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "ENV_fastener.006",
+      "intersects_candidate": "PHOTO_WING_lower_source_chain",
+      "modeled_material_overlap_mm3": 484.52992197643556,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "PHOTO_INFERRED_GENERIC_BOLT_HEAD_PROXY",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Legacy photo-proxy pose. Source-station chair relocation is separate; the fastener itself has no native fastening datum.",
+      "source_handles": [
+        "4ED3F",
+        "4ED16",
+        "4ED18"
+      ],
+      "parent_clip_seat_assembly": {
+        "original_chair": "ENV_rail_chair.003",
+        "source_association_method": "numbered two-fastener/one-chair hypothesis, verified by original chair inverse-transform X where available",
+        "revised_chair": "CAD_TRACK_REV_photo_chair_003_source_station",
+        "original_centerline_X_difference_mm": 0.0,
+        "old_pair_side_offset_Y_mm": -43.00001263618469,
+        "chair_source_relocation_delta_mm": [
+          40.45270759729647,
+          -9.377756238215795e-06,
+          0.0
+        ]
+      },
+      "source_geometry_status": "PHOTO_INFERRED_GEOMETRY",
+      "source_metadata_witness": {
+        "dimension_status": "",
+        "display_group": "track",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "environment",
+        "id": "1369",
+        "registered_component_id": "DTB-C0013",
+        "registry_match_status": "",
+        "semantic_part_id": "",
+        "source_refs": "private photo observation visible fastener, inferred dimensions",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "ENV_fastener.006",
+        "as_built_confirmed": false
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "ENV_fastener.010",
+      "intersects_candidate": "PHOTO_WING_lower_source_chain",
+      "modeled_material_overlap_mm3": 484.52992197643556,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "PHOTO_INFERRED_GENERIC_BOLT_HEAD_PROXY",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Legacy photo-proxy pose. Source-station chair relocation is separate; the fastener itself has no native fastening datum.",
+      "source_handles": [
+        "4ED3B",
+        "4ED3C",
+        "4ED3D",
+        "4ED3E",
+        "4ED16",
+        "4ED18"
+      ],
+      "parent_clip_seat_assembly": {
+        "original_chair": "ENV_rail_chair.005",
+        "source_association_method": "numbered two-fastener/one-chair hypothesis, verified by original chair inverse-transform X where available",
+        "revised_chair": "CAD_TRACK_REV_photo_chair_005_source_station",
+        "original_centerline_X_difference_mm": 0.0,
+        "old_pair_side_offset_Y_mm": -43.00001263618469,
+        "chair_source_relocation_delta_mm": [
+          34.27287871660134,
+          -9.377756349238098e-06,
+          0.0
+        ]
+      },
+      "source_geometry_status": "PHOTO_INFERRED_GEOMETRY",
+      "source_metadata_witness": {
+        "dimension_status": "",
+        "display_group": "track",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "environment",
+        "id": "1373",
+        "registered_component_id": "DTB-C0013",
+        "registry_match_status": "",
+        "semantic_part_id": "",
+        "source_refs": "private photo observation visible fastener, inferred dimensions",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "ENV_fastener.010",
+        "as_built_confirmed": false
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "ENV_fastener.014",
+      "intersects_candidate": "PHOTO_WING_lower_source_chain",
+      "modeled_material_overlap_mm3": 484.52992197643556,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "PHOTO_INFERRED_GENERIC_BOLT_HEAD_PROXY",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Legacy photo-proxy pose. Source-station chair relocation is separate; the fastener itself has no native fastening datum.",
+      "source_handles": [],
+      "parent_clip_seat_assembly": {
+        "original_chair": "ENV_rail_chair.007",
+        "source_association_method": "numbered two-fastener/one-chair hypothesis, verified by original chair inverse-transform X where available",
+        "revised_chair": "FIT_TRACK_station03_common_support"
+      },
+      "source_geometry_status": "PHOTO_INFERRED_GEOMETRY",
+      "source_metadata_witness": {
+        "dimension_status": "",
+        "display_group": "track",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "environment",
+        "id": "1377",
+        "registered_component_id": "DTB-C0013",
+        "registry_match_status": "",
+        "semantic_part_id": "",
+        "source_refs": "private photo observation visible fastener, inferred dimensions",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "ENV_fastener.014",
+        "as_built_confirmed": false
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "ENV_fastener.018",
+      "intersects_candidate": "PHOTO_WING_lower_source_chain",
+      "modeled_material_overlap_mm3": 484.52992197643556,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "PHOTO_INFERRED_GENERIC_BOLT_HEAD_PROXY",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Legacy photo-proxy pose. Source-station chair relocation is separate; the fastener itself has no native fastening datum.",
+      "source_handles": [],
+      "parent_clip_seat_assembly": {
+        "original_chair": "ENV_rail_chair.009",
+        "source_association_method": "numbered two-fastener/one-chair hypothesis, verified by original chair inverse-transform X where available",
+        "revised_chair": "FIT_TRACK_station03_common_support"
+      },
+      "source_geometry_status": "PHOTO_INFERRED_GEOMETRY",
+      "source_metadata_witness": {
+        "dimension_status": "",
+        "display_group": "track",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "environment",
+        "id": "1381",
+        "registered_component_id": "DTB-C0013",
+        "registry_match_status": "",
+        "semantic_part_id": "",
+        "source_refs": "private photo observation visible fastener, inferred dimensions",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "ENV_fastener.018",
+        "as_built_confirmed": false
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_1_-1",
+      "intersects_candidate": "PHOTO_WING_lower_source_chain",
+      "modeled_material_overlap_mm3": 662.7006736655119,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "NATIVE_STATION_XY_WITH_INHERITED_GUESSED_BOLT_HEAD",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Native sleeper-axis / rail-band intersection is sourced; individual clip offset, section, yaw and Z are inherited guessed geometry.",
+      "source_handles": [
+        "4ED3B",
+        "4ED3C",
+        "4ED3D",
+        "4ED3E",
+        "4ECFE",
+        "4ED00"
+      ],
+      "parent_clip_seat_assembly": {
+        "original_chair": "DETAIL_BENCH_branch_chair_02_1",
+        "source_station_index": 2,
+        "revised_chair": "CAD_TRACK_REV_branch_chair_02_1",
+        "source_association_method": "explicit full three-mesh group in original source metadata"
+      },
+      "source_geometry_status": "OLD_INFERRED_CHAIR_AND_CLIP_SHAPES_AT_NATIVE_AXIS_INTERSECTION",
+      "source_metadata_witness": {
+        "name": "CAD_TRACK_REV_branch_clip_02_1_-1",
+        "replaces_mesh_name": "DETAIL_BENCH_branch_fastener_02_1_-1",
+        "color": [
+          0.3,
+          0.3,
+          0.32,
+          1
+        ],
+        "group": "existing_branch_chair_group_source_station_relocation",
+        "candidate": true,
+        "default_enabled": true,
+        "geometry_status": "OLD_INFERRED_CHAIR_AND_CLIP_SHAPES_AT_NATIVE_AXIS_INTERSECTION",
+        "as_built": false,
+        "physics_binding": false,
+        "collision_enabled": false,
+        "old_physics_identity_reused": false,
+        "new_physical_body_count": 0,
+        "source_handles": [
+          "4ED3B",
+          "4ED3C",
+          "4ED3D",
+          "4ED3E",
+          "4ECFE",
+          "4ED00"
+        ],
+        "source_ref": [
+          "Model/4ED3B",
+          "Model/4ED3C",
+          "Model/4ED3D",
+          "Model/4ED3E",
+          "Model/4ECFE",
+          "Model/4ED00"
+        ],
+        "old_shape_source_metadata": {
+          "dimension_status": "CAD_PLAN_ONLY_SECTION_ASSUMED",
+          "display_group": "",
+          "geometry_assumptions": "",
+          "geometry_status": "CAD_LAYOUT_WITH_INFERRED_3D_SECTION",
+          "group": "environment",
+          "id": "581",
+          "registered_component_id": "DTB-C0014",
+          "registry_match_status": "EXISTING_ENVIRONMENT_ASSEMBLY_CORRESPONDENCE",
+          "semantic_part_id": "",
+          "source_refs": "New CAD Model exact contour handles in bench_details_source_vectors.json; private photo observation; section and operating state unverified; private photo observation",
+          "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+          "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+          "native_pose_bound_in_this_scene": false,
+          "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+          "source_name": "DETAIL_BENCH_branch_fastener_02_1_-1",
+          "as_built_confirmed": false
+        },
+        "source_station_index": 2,
+        "source_rail_family": "DETAIL_BENCH_turnout_inner_left_segment",
+        "unique_native_axis_rail_intersection_world_XY_m": [
+          -8.991841080730971,
+          0.26199680289700966
+        ],
+        "source_mm_to_world_XY_matrix": [
+          [
+            0.001,
+            0,
+            -39.254296868109456
+          ],
+          [
+            0,
+            0.001,
+            -33.70731594700124
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "old_baked_world_to_new_baked_world_matrix": [
+          [
+            1,
+            0,
+            0,
+            0.03449177449363816
+          ],
+          [
+            0,
+            1,
+            0,
+            -0.00492736974283714
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "source_shape_is_not_fully_dimensioned": true,
+        "inherited_geometry": "Frozen old mesh translated as a complete3mesh chair group. Count,section,yaw,Z and chair-to-clips offsets retained; not new nativefastenergeometry.",
+        "triangle_sha256": "9acc10486f9cec455ed1918dfc5fa139030d9dc1c421a4b7fe5505cad2abd143",
+        "old_triangle_sha256": "10ad7adb8ad89e09b34d3cbb30371f348b74766b903fe64b691077d9770ef342",
+        "bounds_m": [
+          [
+            -8.99684119517189,
+            0.2159968139834736,
+            -0.06499999761581421
+          ],
+          [
+            -8.986840966290053,
+            0.22599680444673043,
+            -0.04899999499320984
+          ]
+        ],
+        "replaces": "DETAIL_BENCH_branch_fastener_02_1_-1",
+        "physics_enabled": false,
+        "physical_binding": false,
+        "contact_enabled": false,
+        "native_solver_body": null,
+        "source_contract": "full_source_audit/census/track237_revision/assembly_fit/default_pending_selection_contract.json",
+        "source_dxf_sha256": "73f9eeb145cfbda5f01d1302d3e6e09d2d81e707ff7776187d899100f654f143",
+        "source_display_material": [
+          0.4000000059604645,
+          0.44999998807907104,
+          0.4699999988079071,
+          1
+        ],
+        "installed_mechanical_connection_confirmed": false
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_2_-1",
+      "intersects_candidate": "PHOTO_WING_lower_source_chain",
+      "modeled_material_overlap_mm3": 14.652556858547516,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "NATIVE_STATION_XY_WITH_INHERITED_GUESSED_BOLT_HEAD",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Native sleeper-axis / rail-band intersection is sourced; individual clip offset, section, yaw and Z are inherited guessed geometry.",
+      "source_handles": [
+        "4ED34",
+        "4ED35",
+        "4ED36",
+        "4ED37",
+        "4ECFA",
+        "4ECF1",
+        "4ECF5",
+        "4ED5F",
+        "4ECFC",
+        "4ECF3",
+        "4ECF7",
+        "4ED60",
+        "4ECFB",
+        "4ECF2",
+        "4ECF6",
+        "4ECFD",
+        "4ECF4",
+        "4ECF8"
+      ],
+      "parent_clip_seat_assembly": {
+        "original_chair": "DETAIL_BENCH_branch_chair_05_2",
+        "source_station_index": 5,
+        "revised_chair": "CAD_TRACK_REV_branch_chair_05_2",
+        "source_association_method": "explicit full three-mesh group in original source metadata"
+      },
+      "source_geometry_status": "OLD_INFERRED_CHAIR_AND_CLIP_SHAPES_AT_NATIVE_AXIS_INTERSECTION",
+      "source_metadata_witness": {
+        "name": "CAD_TRACK_REV_branch_clip_05_2_-1",
+        "replaces_mesh_name": "DETAIL_BENCH_branch_fastener_05_2_-1",
+        "color": [
+          0.3,
+          0.3,
+          0.32,
+          1
+        ],
+        "group": "existing_branch_chair_group_source_station_relocation",
+        "candidate": true,
+        "default_enabled": true,
+        "geometry_status": "OLD_INFERRED_CHAIR_AND_CLIP_SHAPES_AT_NATIVE_AXIS_INTERSECTION",
+        "as_built": false,
+        "physics_binding": false,
+        "collision_enabled": false,
+        "old_physics_identity_reused": false,
+        "new_physical_body_count": 0,
+        "source_handles": [
+          "4ED34",
+          "4ED35",
+          "4ED36",
+          "4ED37",
+          "4ECFA",
+          "4ECF1",
+          "4ECF5",
+          "4ED5F",
+          "4ECFC",
+          "4ECF3",
+          "4ECF7",
+          "4ED60",
+          "4ECFB",
+          "4ECF2",
+          "4ECF6",
+          "4ECFD",
+          "4ECF4",
+          "4ECF8"
+        ],
+        "source_ref": [
+          "Model/4ED34",
+          "Model/4ED35",
+          "Model/4ED36",
+          "Model/4ED37",
+          "Model/4ECFA",
+          "Model/4ECF1",
+          "Model/4ECF5",
+          "Model/4ED5F",
+          "Model/4ECFC",
+          "Model/4ECF3",
+          "Model/4ECF7",
+          "Model/4ED60",
+          "Model/4ECFB",
+          "Model/4ECF2",
+          "Model/4ECF6",
+          "Model/4ECFD",
+          "Model/4ECF4",
+          "Model/4ECF8"
+        ],
+        "old_shape_source_metadata": {
+          "dimension_status": "CAD_PLAN_ONLY_SECTION_ASSUMED",
+          "display_group": "",
+          "geometry_assumptions": "",
+          "geometry_status": "CAD_LAYOUT_WITH_INFERRED_3D_SECTION",
+          "group": "environment",
+          "id": "603",
+          "registered_component_id": "DTB-C0014",
+          "registry_match_status": "EXISTING_ENVIRONMENT_ASSEMBLY_CORRESPONDENCE",
+          "semantic_part_id": "",
+          "source_refs": "New CAD Model exact contour handles in bench_details_source_vectors.json; private photo observation; section and operating state unverified; private photo observation",
+          "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+          "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+          "native_pose_bound_in_this_scene": false,
+          "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+          "source_name": "DETAIL_BENCH_branch_fastener_05_2_-1",
+          "as_built_confirmed": false
+        },
+        "source_station_index": 5,
+        "source_rail_family": "DETAIL_BENCH_turnout_inner_right_segment",
+        "unique_native_axis_rail_intersection_world_XY_m": [
+          -8.416222127235374,
+          0.1797665731070584
+        ],
+        "source_mm_to_world_XY_matrix": [
+          [
+            0.001,
+            0,
+            -39.254296868109456
+          ],
+          [
+            0,
+            0.001,
+            -33.70731594700124
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "old_baked_world_to_new_baked_world_matrix": [
+          [
+            1,
+            0,
+            0,
+            0.010111300193825556
+          ],
+          [
+            0,
+            1,
+            0,
+            -0.0014444216134005816
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "source_shape_is_not_fully_dimensioned": true,
+        "inherited_geometry": "Frozen old mesh translated as a complete3mesh chair group. Count,section,yaw,Z and chair-to-clips offsets retained; not new nativefastenergeometry.",
+        "triangle_sha256": "ab70e1c895922744908220bfb99f48b9551c8357bf3674dd6f49e69f16b28da8",
+        "old_triangle_sha256": "37d5a580e28e7d866c6538a3fa3033c4e05f1f3d45c533aba9fbf23a4a3cf446",
+        "bounds_m": [
+          [
+            -8.421222241676292,
+            0.13376656929236114,
+            -0.06499999761581421
+          ],
+          [
+            -8.411222012794456,
+            0.14376655975561797,
+            -0.04899999499320984
+          ]
+        ],
+        "replaces": "DETAIL_BENCH_branch_fastener_05_2_-1",
+        "physics_enabled": false,
+        "physical_binding": false,
+        "contact_enabled": false,
+        "native_solver_body": null,
+        "source_contract": "full_source_audit/census/track237_revision/assembly_fit/default_pending_selection_contract.json",
+        "source_dxf_sha256": "73f9eeb145cfbda5f01d1302d3e6e09d2d81e707ff7776187d899100f654f143",
+        "source_display_material": [
+          0.4000000059604645,
+          0.44999998807907104,
+          0.4699999988079071,
+          1
+        ],
+        "installed_mechanical_connection_confirmed": false
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "FIT_TRACK_clip_03_1_-1",
+      "intersects_candidate": "PHOTO_WING_lower_source_chain",
+      "modeled_material_overlap_mm3": 848.6294396850495,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "ENGINEERING_INSTALLATION_OF_INHERITED_BOLT_HEAD_PROXY",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Declared 42 mm exterior support-normal mounting offsets; station03 XY uses native rail/station data, final individual fastener pose is an engineering design.",
+      "source_handles": [
+        "4ECFE",
+        "4ED00",
+        "4ED3A"
+      ],
+      "parent_clip_seat_assembly": {
+        "original_chair": "DETAIL_BENCH_branch_chair_03_1",
+        "revised_chair": "FIT_TRACK_station03_common_support",
+        "source_association_method": "explicit station03 fit group and retained proxy shape"
+      },
+      "source_geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+      "source_metadata_witness": {
+        "replaces_mesh_names": [
+          "DETAIL_BENCH_branch_fastener_03_1_-1"
+        ],
+        "bounds_m": [
+          [
+            -8.810907907635325,
+            0.18800885233496106,
+            -0.06499999761581421
+          ],
+          [
+            -8.80090767875349,
+            0.1980088427982179,
+            -0.04899999499320984
+          ]
+        ],
+        "candidate": true,
+        "default_enabled": false,
+        "as_built": false,
+        "physics_binding": false,
+        "collision_enabled": false,
+        "new_physical_body_count": 0,
+        "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+        "triangle_sha256": "02d50a8bd84e9ed8e535b6412c688894af1d82ee085281ebaf03b23cec09cd65",
+        "closed_edge_two_incidence": true,
+        "volume_mm3": 1131.3421299700808,
+        "source_refs": [
+          "4ECFE",
+          "4ED00",
+          "4ED3A"
+        ],
+        "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+        "source_shape_exactly_retained": true,
+        "source_pose_to_candidate_matrix": [
+          [
+            1,
+            0,
+            0,
+            -0.005939696961966945
+          ],
+          [
+            0,
+            1,
+            0,
+            -0.0005778776012807518
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "old_baked_world_to_new_baked_world_matrix": [
+          [
+            1,
+            0,
+            0,
+            0.020425252765065238
+          ],
+          [
+            0,
+            1,
+            0,
+            -0.0043442770519407925
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "fastening_scheme": "Two full-size heads on declared 42 mm exterior support-normal mounting offsets; station03 pair flanks the combined main/branch rail envelope",
+        "dimension_constraints": {},
+        "installed_mechanical_connection_confirmed": false,
+        "physical_binding": false,
+        "contact_enabled": false,
+        "native_solver_body": null,
+        "added_mass_kg": 0,
+        "original_collision_unchanged": true
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "ENV_fastener.011",
+      "intersects_candidate": "PHOTO_WING_upper_source_chain",
+      "modeled_material_overlap_mm3": 175.97256601712402,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "PHOTO_INFERRED_GENERIC_BOLT_HEAD_PROXY",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Legacy photo-proxy pose. Source-station chair relocation is separate; the fastener itself has no native fastening datum.",
+      "source_handles": [
+        "4ED3B",
+        "4ED3C",
+        "4ED3D",
+        "4ED3E",
+        "4ED16",
+        "4ED18"
+      ],
+      "parent_clip_seat_assembly": {
+        "original_chair": "ENV_rail_chair.005",
+        "source_association_method": "numbered two-fastener/one-chair hypothesis, verified by original chair inverse-transform X where available",
+        "revised_chair": "CAD_TRACK_REV_photo_chair_005_source_station",
+        "original_centerline_X_difference_mm": 0.0,
+        "old_pair_side_offset_Y_mm": 42.999982833862305,
+        "chair_source_relocation_delta_mm": [
+          34.27287871660134,
+          -9.377756349238098e-06,
+          0.0
+        ]
+      },
+      "source_geometry_status": "PHOTO_INFERRED_GEOMETRY",
+      "source_metadata_witness": {
+        "dimension_status": "",
+        "display_group": "track",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "environment",
+        "id": "1374",
+        "registered_component_id": "DTB-C0013",
+        "registry_match_status": "",
+        "semantic_part_id": "",
+        "source_refs": "private photo observation visible fastener, inferred dimensions",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "ENV_fastener.011",
+        "as_built_confirmed": false
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "ENV_fastener.015",
+      "intersects_candidate": "PHOTO_WING_upper_source_chain",
+      "modeled_material_overlap_mm3": 662.8590363470128,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "PHOTO_INFERRED_GENERIC_BOLT_HEAD_PROXY",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Legacy photo-proxy pose. Source-station chair relocation is separate; the fastener itself has no native fastening datum.",
+      "source_handles": [],
+      "parent_clip_seat_assembly": {
+        "original_chair": "ENV_rail_chair.007",
+        "source_association_method": "numbered two-fastener/one-chair hypothesis, verified by original chair inverse-transform X where available",
+        "revised_chair": "FIT_TRACK_station03_common_support"
+      },
+      "source_geometry_status": "PHOTO_INFERRED_GEOMETRY",
+      "source_metadata_witness": {
+        "dimension_status": "",
+        "display_group": "track",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "environment",
+        "id": "1378",
+        "registered_component_id": "DTB-C0013",
+        "registry_match_status": "",
+        "semantic_part_id": "",
+        "source_refs": "private photo observation visible fastener, inferred dimensions",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "ENV_fastener.015",
+        "as_built_confirmed": false
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "ENV_fastener.019",
+      "intersects_candidate": "PHOTO_WING_upper_source_chain",
+      "modeled_material_overlap_mm3": 87.97781124907404,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "PHOTO_INFERRED_GENERIC_BOLT_HEAD_PROXY",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Legacy photo-proxy pose. Source-station chair relocation is separate; the fastener itself has no native fastening datum.",
+      "source_handles": [],
+      "parent_clip_seat_assembly": {
+        "original_chair": "ENV_rail_chair.009",
+        "source_association_method": "numbered two-fastener/one-chair hypothesis, verified by original chair inverse-transform X where available",
+        "revised_chair": "FIT_TRACK_station03_common_support"
+      },
+      "source_geometry_status": "PHOTO_INFERRED_GEOMETRY",
+      "source_metadata_witness": {
+        "dimension_status": "",
+        "display_group": "track",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "environment",
+        "id": "1382",
+        "registered_component_id": "DTB-C0013",
+        "registry_match_status": "",
+        "semantic_part_id": "",
+        "source_refs": "private photo observation visible fastener, inferred dimensions",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "ENV_fastener.019",
+        "as_built_confirmed": false
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_01_1_1",
+      "intersects_candidate": "PHOTO_WING_upper_source_chain",
+      "modeled_material_overlap_mm3": 804.5224029567197,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "NATIVE_STATION_XY_WITH_INHERITED_GUESSED_BOLT_HEAD",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Native sleeper-axis / rail-band intersection is sourced; individual clip offset, section, yaw and Z are inherited guessed geometry.",
+      "source_handles": [
+        "4ED3F",
+        "4ECFE",
+        "4ED00"
+      ],
+      "parent_clip_seat_assembly": {
+        "original_chair": "DETAIL_BENCH_branch_chair_01_1",
+        "source_station_index": 1,
+        "revised_chair": "CAD_TRACK_REV_branch_chair_01_1",
+        "source_association_method": "explicit full three-mesh group in original source metadata"
+      },
+      "source_geometry_status": "OLD_INFERRED_CHAIR_AND_CLIP_SHAPES_AT_NATIVE_AXIS_INTERSECTION",
+      "source_metadata_witness": {
+        "name": "CAD_TRACK_REV_branch_clip_01_1_1",
+        "replaces_mesh_name": "DETAIL_BENCH_branch_fastener_01_1_1",
+        "color": [
+          0.3,
+          0.3,
+          0.32,
+          1
+        ],
+        "group": "existing_branch_chair_group_source_station_relocation",
+        "candidate": true,
+        "default_enabled": true,
+        "geometry_status": "OLD_INFERRED_CHAIR_AND_CLIP_SHAPES_AT_NATIVE_AXIS_INTERSECTION",
+        "as_built": false,
+        "physics_binding": false,
+        "collision_enabled": false,
+        "old_physics_identity_reused": false,
+        "new_physical_body_count": 0,
+        "source_handles": [
+          "4ED3F",
+          "4ECFE",
+          "4ED00"
+        ],
+        "source_ref": [
+          "Model/4ED3F",
+          "Model/4ECFE",
+          "Model/4ED00"
+        ],
+        "old_shape_source_metadata": {
+          "dimension_status": "CAD_PLAN_ONLY_SECTION_ASSUMED",
+          "display_group": "",
+          "geometry_assumptions": "",
+          "geometry_status": "CAD_LAYOUT_WITH_INFERRED_3D_SECTION",
+          "group": "environment",
+          "id": "576",
+          "registered_component_id": "DTB-C0014",
+          "registry_match_status": "EXISTING_ENVIRONMENT_ASSEMBLY_CORRESPONDENCE",
+          "semantic_part_id": "",
+          "source_refs": "New CAD Model exact contour handles in bench_details_source_vectors.json; private photo observation; section and operating state unverified; private photo observation",
+          "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+          "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+          "native_pose_bound_in_this_scene": false,
+          "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+          "source_name": "DETAIL_BENCH_branch_fastener_01_1_1",
+          "as_built_confirmed": false
+        },
+        "source_station_index": 1,
+        "source_rail_family": "DETAIL_BENCH_turnout_inner_left_segment",
+        "unique_native_axis_rail_intersection_world_XY_m": [
+          -9.183714065229507,
+          0.28940687949366106
+        ],
+        "source_mm_to_world_XY_matrix": [
+          [
+            0.001,
+            0,
+            -39.254296868109456
+          ],
+          [
+            0,
+            0.001,
+            -33.70731594700124
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "old_baked_world_to_new_baked_world_matrix": [
+          [
+            1,
+            0,
+            0,
+            0.042619552934555216
+          ],
+          [
+            0,
+            1,
+            0,
+            -0.006088362386755808
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "source_shape_is_not_fully_dimensioned": true,
+        "inherited_geometry": "Frozen old mesh translated as a complete3mesh chair group. Count,section,yaw,Z and chair-to-clips offsets retained; not new nativefastenergeometry.",
+        "triangle_sha256": "92519505833aa883d745d8c380fbec677467a2ccfe50ef19f3c68eeea546ac77",
+        "old_triangle_sha256": "7f3a4432b0a4bc821bae7a241c34336083a0671e0e3e964b62b1214b4d6e9b76",
+        "bounds_m": [
+          [
+            -9.188714179670425,
+            0.3254068928451015,
+            -0.06499999761581421
+          ],
+          [
+            -9.17871395078859,
+            0.33540688330835833,
+            -0.04899999499320984
+          ]
+        ],
+        "replaces": "DETAIL_BENCH_branch_fastener_01_1_1",
+        "physics_enabled": false,
+        "physical_binding": false,
+        "contact_enabled": false,
+        "native_solver_body": null,
+        "source_contract": "full_source_audit/census/track237_revision/assembly_fit/default_pending_selection_contract.json",
+        "source_dxf_sha256": "73f9eeb145cfbda5f01d1302d3e6e09d2d81e707ff7776187d899100f654f143",
+        "source_display_material": [
+          0.4000000059604645,
+          0.44999998807907104,
+          0.4699999988079071,
+          1
+        ],
+        "installed_mechanical_connection_confirmed": false
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_1_1",
+      "intersects_candidate": "PHOTO_WING_upper_source_chain",
+      "modeled_material_overlap_mm3": 804.5224106283408,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "NATIVE_STATION_XY_WITH_INHERITED_GUESSED_BOLT_HEAD",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Native sleeper-axis / rail-band intersection is sourced; individual clip offset, section, yaw and Z are inherited guessed geometry.",
+      "source_handles": [
+        "4ED3B",
+        "4ED3C",
+        "4ED3D",
+        "4ED3E",
+        "4ECFE",
+        "4ED00"
+      ],
+      "parent_clip_seat_assembly": {
+        "original_chair": "DETAIL_BENCH_branch_chair_02_1",
+        "source_station_index": 2,
+        "revised_chair": "CAD_TRACK_REV_branch_chair_02_1",
+        "source_association_method": "explicit full three-mesh group in original source metadata"
+      },
+      "source_geometry_status": "OLD_INFERRED_CHAIR_AND_CLIP_SHAPES_AT_NATIVE_AXIS_INTERSECTION",
+      "source_metadata_witness": {
+        "name": "CAD_TRACK_REV_branch_clip_02_1_1",
+        "replaces_mesh_name": "DETAIL_BENCH_branch_fastener_02_1_1",
+        "color": [
+          0.3,
+          0.3,
+          0.32,
+          1
+        ],
+        "group": "existing_branch_chair_group_source_station_relocation",
+        "candidate": true,
+        "default_enabled": true,
+        "geometry_status": "OLD_INFERRED_CHAIR_AND_CLIP_SHAPES_AT_NATIVE_AXIS_INTERSECTION",
+        "as_built": false,
+        "physics_binding": false,
+        "collision_enabled": false,
+        "old_physics_identity_reused": false,
+        "new_physical_body_count": 0,
+        "source_handles": [
+          "4ED3B",
+          "4ED3C",
+          "4ED3D",
+          "4ED3E",
+          "4ECFE",
+          "4ED00"
+        ],
+        "source_ref": [
+          "Model/4ED3B",
+          "Model/4ED3C",
+          "Model/4ED3D",
+          "Model/4ED3E",
+          "Model/4ECFE",
+          "Model/4ED00"
+        ],
+        "old_shape_source_metadata": {
+          "dimension_status": "CAD_PLAN_ONLY_SECTION_ASSUMED",
+          "display_group": "",
+          "geometry_assumptions": "",
+          "geometry_status": "CAD_LAYOUT_WITH_INFERRED_3D_SECTION",
+          "group": "environment",
+          "id": "582",
+          "registered_component_id": "DTB-C0014",
+          "registry_match_status": "EXISTING_ENVIRONMENT_ASSEMBLY_CORRESPONDENCE",
+          "semantic_part_id": "",
+          "source_refs": "New CAD Model exact contour handles in bench_details_source_vectors.json; private photo observation; section and operating state unverified; private photo observation",
+          "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+          "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+          "native_pose_bound_in_this_scene": false,
+          "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+          "source_name": "DETAIL_BENCH_branch_fastener_02_1_1",
+          "as_built_confirmed": false
+        },
+        "source_station_index": 2,
+        "source_rail_family": "DETAIL_BENCH_turnout_inner_left_segment",
+        "unique_native_axis_rail_intersection_world_XY_m": [
+          -8.991841080730971,
+          0.26199680289700966
+        ],
+        "source_mm_to_world_XY_matrix": [
+          [
+            0.001,
+            0,
+            -39.254296868109456
+          ],
+          [
+            0,
+            0.001,
+            -33.70731594700124
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "old_baked_world_to_new_baked_world_matrix": [
+          [
+            1,
+            0,
+            0,
+            0.03449177449363816
+          ],
+          [
+            0,
+            1,
+            0,
+            -0.00492736974283714
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "source_shape_is_not_fully_dimensioned": true,
+        "inherited_geometry": "Frozen old mesh translated as a complete3mesh chair group. Count,section,yaw,Z and chair-to-clips offsets retained; not new nativefastenergeometry.",
+        "triangle_sha256": "d48825d3102ef293df48fb55f756474dec813cdce3a6c95ac3d5c82c3ec75333",
+        "old_triangle_sha256": "28ad3f78c60db927739734d3c34ddba8cd7ff1bba44cea8f614bc8cc61d3754e",
+        "bounds_m": [
+          [
+            -8.99684119517189,
+            0.2979968162484501,
+            -0.06499999761581421
+          ],
+          [
+            -8.986840966290053,
+            0.3079968067117069,
+            -0.04899999499320984
+          ]
+        ],
+        "replaces": "DETAIL_BENCH_branch_fastener_02_1_1",
+        "physics_enabled": false,
+        "physical_binding": false,
+        "contact_enabled": false,
+        "native_solver_body": null,
+        "source_contract": "full_source_audit/census/track237_revision/assembly_fit/default_pending_selection_contract.json",
+        "source_dxf_sha256": "73f9eeb145cfbda5f01d1302d3e6e09d2d81e707ff7776187d899100f654f143",
+        "source_display_material": [
+          0.4000000059604645,
+          0.44999998807907104,
+          0.4699999988079071,
+          1
+        ],
+        "installed_mechanical_connection_confirmed": false
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    },
+    {
+      "name": "FIT_TRACK_clip_03_1_1",
+      "intersects_candidate": "PHOTO_WING_upper_source_chain",
+      "modeled_material_overlap_mm3": 848.629316322973,
+      "physical_hardware_conflict_confirmed": false,
+      "category": "ENGINEERING_INSTALLATION_OF_INHERITED_BOLT_HEAD_PROXY",
+      "mesh_shape": "eight-sided vertical circular-head proxy; no spring clip, shank, toe, nut/washer stack or seating detail",
+      "dimensions_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        16.00000262260437
+      ],
+      "unique_vertices": 16,
+      "triangle_count": 28,
+      "source_exact_clip_solid": false,
+      "source_position_evidence": "Declared 42 mm exterior support-normal mounting offsets; station03 XY uses native rail/station data, final individual fastener pose is an engineering design.",
+      "source_handles": [
+        "4ECFE",
+        "4ED00",
+        "4ED3A"
+      ],
+      "parent_clip_seat_assembly": {
+        "original_chair": "DETAIL_BENCH_branch_chair_03_1",
+        "revised_chair": "FIT_TRACK_station03_common_support",
+        "source_association_method": "explicit station03 fit group and retained proxy shape"
+      },
+      "source_geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+      "source_metadata_witness": {
+        "replaces_mesh_names": [
+          "DETAIL_BENCH_branch_fastener_03_1_1"
+        ],
+        "bounds_m": [
+          [
+            -8.80323915689017,
+            0.29591667143507944,
+            -0.06499999761581421
+          ],
+          [
+            -8.793238928008334,
+            0.3059166618983363,
+            -0.04899999499320984
+          ]
+        ],
+        "candidate": true,
+        "default_enabled": false,
+        "as_built": false,
+        "physics_binding": false,
+        "collision_enabled": false,
+        "new_physical_body_count": 0,
+        "geometry_status": "ENGINEERING_INSTALLATION_CANDIDATE_NOT_SOURCE_CONFIRMED",
+        "triangle_sha256": "de3f88d014dd2f3a34f7c6aab0d3c8ef56dc21425dabe641de440ef5c99fea32",
+        "closed_edge_two_incidence": true,
+        "volume_mm3": 1131.3421299700808,
+        "source_refs": [
+          "4ECFE",
+          "4ED00",
+          "4ED3A"
+        ],
+        "dimensions_source": "Native station and rail XY retained; shared support perimeter/Z inherited from displayed proxies; fastening layout is a declared design parameter.",
+        "source_shape_exactly_retained": true,
+        "source_pose_to_candidate_matrix": [
+          [
+            1,
+            0,
+            0,
+            0.001729053783188661
+          ],
+          [
+            0,
+            1,
+            0,
+            0.025329954135022315
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "old_baked_world_to_new_baked_world_matrix": [
+          [
+            1,
+            0,
+            0,
+            0.028094003510220844
+          ],
+          [
+            0,
+            1,
+            0,
+            0.021563554684362274
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "fastening_scheme": "Two full-size heads on declared 42 mm exterior support-normal mounting offsets; station03 pair flanks the combined main/branch rail envelope",
+        "dimension_constraints": {},
+        "installed_mechanical_connection_confirmed": false,
+        "physical_binding": false,
+        "contact_enabled": false,
+        "native_solver_body": null,
+        "added_mass_kg": 0,
+        "original_collision_unchanged": true
+      },
+      "next_action": "Reconstruct complete clip/seat/head/shank/foot-contact family and register its mounting datum as one assembly. Do not translate this head proxy alone, shrink it, or use its overlap as proof of a real collision."
+    }
+  ],
+  "separate_native_plan_references": [
+    {
+      "name": "CAD_track_fastener_4EDF8_baseplate_197p2x70_candidate",
+      "metadata": {
+        "id": "CAD_track_fastener_4EDF8_baseplate_197p2x70_candidate",
+        "group": "environment",
+        "display_group": "cad_track_fastener_candidate",
+        "source_refs": "A$C6E4F4F8B; Model INSERT 4EDF8; 16980,16982,16981,16984,16983,16985",
+        "source_insert_handle": "4EDF8",
+        "source_handles": "[\"16980\",\"16982\",\"16981\",\"16984\",\"16983\",\"16985\"]",
+        "geometry_status": "SOURCE_CAD_PLAN_EXACT_EXPLICIT_THICKNESS_Z_CANDIDATE",
+        "source_geometry_status": "SOURCE_CAD_PLAN_EXACT_EXPLICIT_THICKNESS_Z_CANDIDATE",
+        "world_matrix_applied": true,
+        "mirror_winding_corrected": false,
+        "native_solver_bound": false,
+        "candidate_physical_body": "world",
+        "notes": "Pads/support references not filled; actual3D spring clip form not certified.",
+        "registered_component_id": "SOURCE_INSERT_4EDF8",
+        "physics_status": "STATIC_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "as_built_confirmed": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_track_fastener_4EDF8_baseplate_197p2x70_candidate"
+      },
+      "use_limit": "Exact CAD plan reference with explicit extrusion/Z hypothesis, not a verified 3D spring clip. Its INSERT belongs to the other rail context; do not transplant or relabel as one of these 17 without mounting association."
+    },
+    {
+      "name": "CAD_track_fastener_4EDF8_left_flat_projection_candidate",
+      "metadata": {
+        "id": "CAD_track_fastener_4EDF8_left_flat_projection_candidate",
+        "group": "environment",
+        "display_group": "cad_track_fastener_candidate",
+        "source_refs": "A$C6E4F4F8B; Model INSERT 4EDF8; 169A9,169AB,169AD,169AE,169B0,169B2,169B1,169AF,169B4,169AC,169AA,169C4,169B9,169BB,169C2,169BE,169C0,169C1,169BF,169BD,169BC,169BA,169B8,169C3",
+        "source_insert_handle": "4EDF8",
+        "source_handles": "[\"169A9\",\"169AB\",\"169AD\",\"169AE\",\"169B0\",\"169B2\",\"169B1\",\"169AF\",\"169B4\",\"169AC\",\"169AA\",\"169C4\",\"169B9\",\"169BB\",\"169C2\",\"169BE\",\"169C0\",\"169C1\",\"169BF\",\"169BD\",\"169BC\",\"169BA\",\"169B8\",\"169C3\"]",
+        "geometry_status": "SOURCE_CAD_PLAN_EXACT_EXPLICIT_THICKNESS_Z_CANDIDATE",
+        "source_geometry_status": "SOURCE_CAD_PLAN_EXACT_EXPLICIT_THICKNESS_Z_CANDIDATE",
+        "world_matrix_applied": true,
+        "mirror_winding_corrected": false,
+        "native_solver_bound": false,
+        "candidate_physical_body": "world",
+        "notes": "Pads/support references not filled; actual3D spring clip form not certified.",
+        "registered_component_id": "SOURCE_INSERT_4EDF8",
+        "physics_status": "STATIC_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "as_built_confirmed": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_track_fastener_4EDF8_left_flat_projection_candidate"
+      },
+      "use_limit": "Exact CAD plan reference with explicit extrusion/Z hypothesis, not a verified 3D spring clip. Its INSERT belongs to the other rail context; do not transplant or relabel as one of these 17 without mounting association."
+    },
+    {
+      "name": "CAD_track_fastener_4EDF8_right_flat_projection_candidate",
+      "metadata": {
+        "id": "CAD_track_fastener_4EDF8_right_flat_projection_candidate",
+        "group": "environment",
+        "display_group": "cad_track_fastener_candidate",
+        "source_refs": "A$C6E4F4F8B; Model INSERT 4EDF8; 16986,16988,1698A,1698B,1698D,1698F,1698E,1698C,16992,16989,16987,169A2,16997,16999,169A0,1699C,1699E,1699F,1699D,1699B,1699A,16998,16996,169A1",
+        "source_insert_handle": "4EDF8",
+        "source_handles": "[\"16986\",\"16988\",\"1698A\",\"1698B\",\"1698D\",\"1698F\",\"1698E\",\"1698C\",\"16992\",\"16989\",\"16987\",\"169A2\",\"16997\",\"16999\",\"169A0\",\"1699C\",\"1699E\",\"1699F\",\"1699D\",\"1699B\",\"1699A\",\"16998\",\"16996\",\"169A1\"]",
+        "geometry_status": "SOURCE_CAD_PLAN_EXACT_EXPLICIT_THICKNESS_Z_CANDIDATE",
+        "source_geometry_status": "SOURCE_CAD_PLAN_EXACT_EXPLICIT_THICKNESS_Z_CANDIDATE",
+        "world_matrix_applied": true,
+        "mirror_winding_corrected": false,
+        "native_solver_bound": false,
+        "candidate_physical_body": "world",
+        "notes": "Pads/support references not filled; actual3D spring clip form not certified.",
+        "registered_component_id": "SOURCE_INSERT_4EDF8",
+        "physics_status": "STATIC_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "as_built_confirmed": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_track_fastener_4EDF8_right_flat_projection_candidate"
+      },
+      "use_limit": "Exact CAD plan reference with explicit extrusion/Z hypothesis, not a verified 3D spring clip. Its INSERT belongs to the other rail context; do not transplant or relabel as one of these 17 without mounting association."
+    }
+  ],
+  "photo7_qualitative_guidance": [
+    "Foreground outer-rail fasteners show looped/spring-like shapes and separate seats; a solid head alone is not that assembly.",
+    "The frog long-plate area shows distinct small rectangular seating/clamping pieces and bolt heads. Their exact identity and Z/axis cannot be assigned to all proxies from this single oblique photo.",
+    "Rail-web-side heads and vertical seat fasteners must be distinguished before choosing an axis.",
+    "No photo-derived dimensions or uniquely identified station/serial numbers are available."
+  ]
+}

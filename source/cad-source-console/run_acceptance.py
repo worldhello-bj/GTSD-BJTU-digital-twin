@@ -7,6 +7,7 @@ import os
 import subprocess
 import sys
 import time
+from datetime import datetime, timezone, timedelta
 sys.dont_write_bytecode = True
 from prepare_assets import ensure_assets
 
@@ -22,6 +23,8 @@ def main():
     env = {**os.environ, 'PYTHONDONTWRITEBYTECODE': '1'}
     commands = [('asset_unit', [sys.executable, '-m', 'unittest', 'discover', '-s', 'tests']),
                 ('fit_unit', [sys.executable, '-m', 'unittest', 'discover', '-s', 'mechanical_fit', '-p', 'test_*.py']),
+                ('research_unit', [sys.executable, '-m', 'unittest', 'discover', '-s', 'research_rig/tests']),
+                ('research_node', ['node', '--test', '--test-reporter=tap', *[str(p.relative_to(ROOT)) for p in sorted((ROOT / 'research_rig/tests').glob('test_ui_*.js'))]]),
                 ('doctor', [sys.executable, 'doctor.py']),
                 ('node', ['node', '--test', '--test-reporter=tap', *[str(p.relative_to(ROOT)) for p in sorted([*(ROOT / 'integration/tests').glob('test_*.js'), *(ROOT / 'mechanical_fit').glob('test_*.js')])]]),
                 ('source_http', [sys.executable, 'integration/check_source_review_routes.py']),
@@ -40,7 +43,8 @@ def main():
         print(json.dumps(row), flush=True)
         if run.returncode:
             raise SystemExit('Failed: ' + str(args.out / (name + '.log')))
-    result = {'ok': True, 'checks': checks, 'browser_visual_acceptance': False, 'node_test_count': int(re.search(r'^# tests (\d+)$', (args.out / 'node.log').read_text(), re.M).group(1)), 'hardware_connected': False}
+    ended=datetime.now(timezone.utc)
+    result = {'completed_utc':ended.isoformat(),'completed_beijing':ended.astimezone(timezone(timedelta(hours=8))).isoformat(),'ok': True, 'checks': checks, 'browser_visual_acceptance': False, 'node_test_count': int(re.search(r'^# tests (\d+)$', (args.out / 'node.log').read_text(), re.M).group(1)), 'research_node_test_count': int(re.search(r'^# tests (\d+)$', (args.out / 'research_node.log').read_text(), re.M).group(1)), 'hardware_connected': False}
     (args.out / 'result.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
     return result
 

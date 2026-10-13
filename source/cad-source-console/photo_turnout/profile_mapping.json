@@ -1,0 +1,780 @@
+{
+  "schema": "gtsd-photo-source-profile-mapping-v1",
+  "base_native_sha256": "4c27733cca3d1296afa28fde4f496647e8f6c153a61645a639f515c9c0b0868c",
+  "base_glb_sha256": "fff3f9fffd83e380435eba3a0f9ba975b87557b794d671ee175ea842235bbfa9",
+  "source_display_revision_sha256": "3e1d785643dc3eca93cf989b663af29311db3c6d1ce3197d97d7758a4e9fb93e",
+  "integration": "Append these two profiles to existing profiles array. Do not apply on top of combined or mutate old profiles. Both are already flattened source-based alternatives.",
+  "profiles": [
+    {
+      "id": "photo_frog_proxy_review",
+      "remove": [
+        {
+          "name": "DETAIL_BENCH_branch_chair_03_1",
+          "geometry_witness_sha256": "8e4f05c371c79a7333e7d61dd03ee28dc552d137c7c48866370c7065a19d25b5",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_rail_chair.007",
+          "geometry_witness_sha256": "cf8ae97106182a243258171ac2d979c87027c20264adf99ffeca19bd2117e3f2",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_crossing_support_plate",
+          "geometry_witness_sha256": "e097f31e51504c8ac7b12bc341f5ad01020f987f5d08c57c873aeb1710a25ee3",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_photo_chair_009_source_station",
+          "geometry_witness_sha256": "7ce34af68aad8bfd0de57d3a853835b4b5b9b0d48d9085efc443e7fad50197d6",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_chair_23_2",
+          "geometry_witness_sha256": "b548e96cf6eea1190611c47abb221bb7f4cf33d35aa73d0185944aa06749e7b5",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_rail_chair.046",
+          "geometry_witness_sha256": "5a94aebbcacd03ef33787a661daceec5dbc8168f7b1aecb5ac24c03e61670215",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_chair_01_0",
+          "geometry_witness_sha256": "87b348c042c758b2545a70f8bfe236b1a616a8c29501cbc82150abb4ac619fe2",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_01_0_-1",
+          "geometry_witness_sha256": "be6a54779120a1572b12a573adda8e58d547ff687c520213783fc3561329aa7f",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_01_0_1",
+          "geometry_witness_sha256": "80f108cfc08ac5154010195653ca7bd2e0e78a89a3abc8badab6e79b7f981e19",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_03_1_-1",
+          "geometry_witness_sha256": "c5db751a0b1692c7c73a32a27a5075dec976c4b5b84aa0d03d9d913bd39718c2",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_03_1_1",
+          "geometry_witness_sha256": "02bb90c1014b0c2201f8848e34752b9a23927c76eabbeec10dafd8dfe410d406",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_23_2_-1",
+          "geometry_witness_sha256": "8ea961522cde4039c75a4be43546dab653b44c9acdaba60b991f44f956c4520c",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_23_2_1",
+          "geometry_witness_sha256": "cc2fbc9a953e4e1105a25017b8dfff17cb4b021d5ba242ed959bea2a8a1f81e4",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_body_02",
+          "geometry_witness_sha256": "9f4e24417f58e1b7815177d66423c25a7ae0b75142bb6b79c6174df60b3fcd9f",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_yellow_lid_02",
+          "geometry_witness_sha256": "87a77520ed6df71f83f9ed286933cf7b013fcf3d90ffebc26d099c9697cd999f",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.008",
+          "geometry_witness_sha256": "02f7b51b1173bae71f086a19b2c40c4f9c3268d9659b0c3d932156c84fcc47f9",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.009",
+          "geometry_witness_sha256": "d0d9329d5237d3d0420867e5931c73d11b455605451f090b5d3716e7339f97d3",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.010",
+          "geometry_witness_sha256": "06bfbf4a608bf1ba8790958356205c2d0a99ef1f6fca9b9ce1d8e6473b076f32",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.011",
+          "geometry_witness_sha256": "b25c3538c79172429791f9fb2ba47627c6d9b46406ada67451fd4475db7ad69c",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_chair_12_2",
+          "geometry_witness_sha256": "4da0676a769e6c43f002663c7d22495d1dd823ad6814efeed7a104e38eba0bff",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_12_2_1",
+          "geometry_witness_sha256": "85d93b5f06f65862d329c58b4580d8791e9373b4ec77076b7531f8c9cac8bf37",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_12_2_-1",
+          "geometry_witness_sha256": "e34d9eacbba03b8c36d3a04d13c5c4cbaa36832cd952ff9797ff44192a130f9e",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_body_03",
+          "geometry_witness_sha256": "2c9959854d456000742bebfa1bee10e740a0dfc0d63333a55a662e0af04d5669",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_yellow_lid_03",
+          "geometry_witness_sha256": "2a8e9452b3eebff5efcfc41d986269db4fd699fd8f066f7265603a0ce76e3640",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.012",
+          "geometry_witness_sha256": "8f8d51f8ef8731258563420033806ebb3838e20f468fe38d1e0309a242545ad8",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.013",
+          "geometry_witness_sha256": "65149bee2836182df2775f10e559c42da72c5d53a7a1a169170108aace3e41aa",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.014",
+          "geometry_witness_sha256": "f4391ae44cadef4df12ff356add3bbee952f85024031383b2ebc9c3ff42e24ac",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.015",
+          "geometry_witness_sha256": "a0b8d358d554dd187cb98c6d90fbb7715d3172e94043f1c1e035fb78861bbca7",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_chair_17_2",
+          "geometry_witness_sha256": "01719f989b9ebde700915eeaa767a08116383ca2f3b292c07fd480b48f029c6e",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_17_2_1",
+          "geometry_witness_sha256": "37f046e03a72d3e5c5eca8f7408b4c718abbdb1c409c70743dd77ef865f8ee7f",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_17_2_-1",
+          "geometry_witness_sha256": "f59eeeb0c14305e2a0377ccb929f59ffb066a7e61ebf23caf2293c1497439890",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_518DF_4079_vertical_link",
+          "geometry_witness_sha256": "3501108259d2e64f2d95594dc8655a8dbb2a26df098cc5d4ba9d23df5bdf0de2",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_50DF4_F643_profile_2",
+          "geometry_witness_sha256": "af5e5cd4207ef8ebadc8dbbb20bb6a913fac282bfeb43c1b45f2f9009f8c8ee6",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "REPAIR_50DF4_F643_profile_1_B535",
+          "geometry_witness_sha256": "bec8ed33ba803e36d20a43b1775645de7a0faa5df8fe50690adc4af9f546f852",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_518E0_4079_vertical_link",
+          "geometry_witness_sha256": "09417a7eb1c8497451c31f8c42bb00d904811161791ab0b16b461115058ef849",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_51409_F643_profile_2",
+          "geometry_witness_sha256": "367ccc94758bd729fe0cb3368e5ba562771c41c39e7704e6c069992947a5077f",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "REPAIR_51409_F643_profile_1_B535",
+          "geometry_witness_sha256": "45392bc5e2c77c42485e0dbf00bd9853e741a3a8fcd2780d5108a3b7218f68e4",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_turnout_inner_left_segment",
+          "geometry_witness_sha256": "2d3970c6ac3aa9d3b47f211b224ad20978a2e738ec40ce3b1ade65ad74b76831",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_main_rail_1",
+          "geometry_witness_sha256": "6f1b4aa295a5906ea3ce9c9124e4436bbf563bbb3df5f1c3cc40d04158a51552",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_main_rail_top_1",
+          "geometry_witness_sha256": "fe68b567629734dfe39e80ffdc499fdba6d67fd36544f527bf32391a51ddef46",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_inner_right_native_xy",
+          "geometry_witness_sha256": "25ddc2d414adb9d294487b2de85979745023862ef6c84de4e8833b2b436afbbc",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_photo_chair_003_source_station",
+          "geometry_witness_sha256": "09e8113e99dca8ffbefb70c3d07e577dbdfae3d9c59e68358fe19f0a6228609c",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_photo_chair_005_source_station",
+          "geometry_witness_sha256": "e5ca56a2f4cb1ebd9eb8065500067c5bc4201c80b085d9fa58470e98132a9607",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_photo_chair_011_source_station",
+          "geometry_witness_sha256": "fbf1d62601c99251aa14404729f61604a8588b64be8944dcf8ff8f7380ec3c09",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_branch_chair_01_1",
+          "geometry_witness_sha256": "986f7416f76916ac80bc1482485803b2f522f5ce0b3cd4c26ce29c2e38e47eac",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_branch_chair_02_1",
+          "geometry_witness_sha256": "445bdc82245224da36d5d3f0a15a9cf878039636e7426a4e7163cac92b56b68f",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_branch_chair_05_2",
+          "geometry_witness_sha256": "e34978cca126ebd036dc32acb6abcfe67429df0e435a70fd209b10e05de1970e",
+          "physics_binding_changed": false
+        }
+      ],
+      "add_ids": [
+        "FIT_TRACK_station23_common_support",
+        "FIT_TRACK_station01_source_chair",
+        "FIT_TRACK_clip_01_0_-1",
+        "FIT_TRACK_clip_01_0_1",
+        "FIT_TRACK_clip_03_1_-1",
+        "FIT_TRACK_clip_03_1_1",
+        "FIT_TRACK_clip_23_2_-1",
+        "FIT_TRACK_clip_23_2_1",
+        "FIT_BALISE_02_body_02",
+        "FIT_BALISE_02_yellow_lid_02",
+        "FIT_BALISE_02_lid_screw.008",
+        "FIT_BALISE_02_lid_screw.009",
+        "FIT_BALISE_02_lid_screw.010",
+        "FIT_BALISE_02_lid_screw.011",
+        "FIT_BALISE_SOURCE_branch_chair_12_2",
+        "FIT_BALISE_SOURCE_branch_fastener_12_2_1",
+        "FIT_BALISE_SOURCE_branch_fastener_12_2_-1",
+        "FIT_BALISE_03_body_03",
+        "FIT_BALISE_03_yellow_lid_03",
+        "FIT_BALISE_03_lid_screw.012",
+        "FIT_BALISE_03_lid_screw.013",
+        "FIT_BALISE_03_lid_screw.014",
+        "FIT_BALISE_03_lid_screw.015",
+        "FIT_BALISE_SOURCE_branch_chair_17_2",
+        "FIT_BALISE_SOURCE_branch_fastener_17_2_1",
+        "FIT_BALISE_SOURCE_branch_fastener_17_2_-1",
+        "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+        "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+        "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+        "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+        "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+        "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_SUPPORT_separate_long_plate",
+        "PHOTO_SUPPORT_pad_01",
+        "PHOTO_SUPPORT_pad_02",
+        "PHOTO_SUPPORT_pad_03",
+        "PHOTO_SUPPORT_pad_04",
+        "PHOTO_SUPPORT_pad_05",
+        "PHOTO_RETAIN_right_ENV_main_rail_1",
+        "PHOTO_RETAIN_right_ENV_main_rail_top_1",
+        "PHOTO_RETAIN_right_CAD_TRACK_REV_inner_right_native_xy",
+        "PHOTO_RETAIN_left_ENV_main_rail_1",
+        "PHOTO_RETAIN_left_ENV_main_rail_top_1"
+      ]
+    },
+    {
+      "id": "photo_frog_hold_down_research",
+      "remove": [
+        {
+          "name": "DETAIL_BENCH_branch_chair_03_1",
+          "geometry_witness_sha256": "8e4f05c371c79a7333e7d61dd03ee28dc552d137c7c48866370c7065a19d25b5",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_rail_chair.007",
+          "geometry_witness_sha256": "cf8ae97106182a243258171ac2d979c87027c20264adf99ffeca19bd2117e3f2",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_crossing_support_plate",
+          "geometry_witness_sha256": "e097f31e51504c8ac7b12bc341f5ad01020f987f5d08c57c873aeb1710a25ee3",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_photo_chair_009_source_station",
+          "geometry_witness_sha256": "7ce34af68aad8bfd0de57d3a853835b4b5b9b0d48d9085efc443e7fad50197d6",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_chair_23_2",
+          "geometry_witness_sha256": "b548e96cf6eea1190611c47abb221bb7f4cf33d35aa73d0185944aa06749e7b5",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_rail_chair.046",
+          "geometry_witness_sha256": "5a94aebbcacd03ef33787a661daceec5dbc8168f7b1aecb5ac24c03e61670215",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_chair_01_0",
+          "geometry_witness_sha256": "87b348c042c758b2545a70f8bfe236b1a616a8c29501cbc82150abb4ac619fe2",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_01_0_-1",
+          "geometry_witness_sha256": "be6a54779120a1572b12a573adda8e58d547ff687c520213783fc3561329aa7f",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_01_0_1",
+          "geometry_witness_sha256": "80f108cfc08ac5154010195653ca7bd2e0e78a89a3abc8badab6e79b7f981e19",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_03_1_-1",
+          "geometry_witness_sha256": "c5db751a0b1692c7c73a32a27a5075dec976c4b5b84aa0d03d9d913bd39718c2",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_03_1_1",
+          "geometry_witness_sha256": "02bb90c1014b0c2201f8848e34752b9a23927c76eabbeec10dafd8dfe410d406",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_23_2_-1",
+          "geometry_witness_sha256": "8ea961522cde4039c75a4be43546dab653b44c9acdaba60b991f44f956c4520c",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_23_2_1",
+          "geometry_witness_sha256": "cc2fbc9a953e4e1105a25017b8dfff17cb4b021d5ba242ed959bea2a8a1f81e4",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_body_02",
+          "geometry_witness_sha256": "9f4e24417f58e1b7815177d66423c25a7ae0b75142bb6b79c6174df60b3fcd9f",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_yellow_lid_02",
+          "geometry_witness_sha256": "87a77520ed6df71f83f9ed286933cf7b013fcf3d90ffebc26d099c9697cd999f",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.008",
+          "geometry_witness_sha256": "02f7b51b1173bae71f086a19b2c40c4f9c3268d9659b0c3d932156c84fcc47f9",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.009",
+          "geometry_witness_sha256": "d0d9329d5237d3d0420867e5931c73d11b455605451f090b5d3716e7339f97d3",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.010",
+          "geometry_witness_sha256": "06bfbf4a608bf1ba8790958356205c2d0a99ef1f6fca9b9ce1d8e6473b076f32",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.011",
+          "geometry_witness_sha256": "b25c3538c79172429791f9fb2ba47627c6d9b46406ada67451fd4475db7ad69c",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_chair_12_2",
+          "geometry_witness_sha256": "4da0676a769e6c43f002663c7d22495d1dd823ad6814efeed7a104e38eba0bff",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_12_2_1",
+          "geometry_witness_sha256": "85d93b5f06f65862d329c58b4580d8791e9373b4ec77076b7531f8c9cac8bf37",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_12_2_-1",
+          "geometry_witness_sha256": "e34d9eacbba03b8c36d3a04d13c5c4cbaa36832cd952ff9797ff44192a130f9e",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_body_03",
+          "geometry_witness_sha256": "2c9959854d456000742bebfa1bee10e740a0dfc0d63333a55a662e0af04d5669",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_yellow_lid_03",
+          "geometry_witness_sha256": "2a8e9452b3eebff5efcfc41d986269db4fd699fd8f066f7265603a0ce76e3640",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.012",
+          "geometry_witness_sha256": "8f8d51f8ef8731258563420033806ebb3838e20f468fe38d1e0309a242545ad8",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.013",
+          "geometry_witness_sha256": "65149bee2836182df2775f10e559c42da72c5d53a7a1a169170108aace3e41aa",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.014",
+          "geometry_witness_sha256": "f4391ae44cadef4df12ff356add3bbee952f85024031383b2ebc9c3ff42e24ac",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_balise_lid_screw.015",
+          "geometry_witness_sha256": "a0b8d358d554dd187cb98c6d90fbb7715d3172e94043f1c1e035fb78861bbca7",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_chair_17_2",
+          "geometry_witness_sha256": "01719f989b9ebde700915eeaa767a08116383ca2f3b292c07fd480b48f029c6e",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_17_2_1",
+          "geometry_witness_sha256": "37f046e03a72d3e5c5eca8f7408b4c718abbdb1c409c70743dd77ef865f8ee7f",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_17_2_-1",
+          "geometry_witness_sha256": "f59eeeb0c14305e2a0377ccb929f59ffb066a7e61ebf23caf2293c1497439890",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_518DF_4079_vertical_link",
+          "geometry_witness_sha256": "3501108259d2e64f2d95594dc8655a8dbb2a26df098cc5d4ba9d23df5bdf0de2",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_50DF4_F643_profile_2",
+          "geometry_witness_sha256": "af5e5cd4207ef8ebadc8dbbb20bb6a913fac282bfeb43c1b45f2f9009f8c8ee6",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "REPAIR_50DF4_F643_profile_1_B535",
+          "geometry_witness_sha256": "bec8ed33ba803e36d20a43b1775645de7a0faa5df8fe50690adc4af9f546f852",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_518E0_4079_vertical_link",
+          "geometry_witness_sha256": "09417a7eb1c8497451c31f8c42bb00d904811161791ab0b16b461115058ef849",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_51409_F643_profile_2",
+          "geometry_witness_sha256": "367ccc94758bd729fe0cb3368e5ba562771c41c39e7704e6c069992947a5077f",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "REPAIR_51409_F643_profile_1_B535",
+          "geometry_witness_sha256": "45392bc5e2c77c42485e0dbf00bd9853e741a3a8fcd2780d5108a3b7218f68e4",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "DETAIL_BENCH_turnout_inner_left_segment",
+          "geometry_witness_sha256": "2d3970c6ac3aa9d3b47f211b224ad20978a2e738ec40ce3b1ade65ad74b76831",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_main_rail_1",
+          "geometry_witness_sha256": "6f1b4aa295a5906ea3ce9c9124e4436bbf563bbb3df5f1c3cc40d04158a51552",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_main_rail_top_1",
+          "geometry_witness_sha256": "fe68b567629734dfe39e80ffdc499fdba6d67fd36544f527bf32391a51ddef46",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_inner_right_native_xy",
+          "geometry_witness_sha256": "25ddc2d414adb9d294487b2de85979745023862ef6c84de4e8833b2b436afbbc",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_photo_chair_003_source_station",
+          "geometry_witness_sha256": "09e8113e99dca8ffbefb70c3d07e577dbdfae3d9c59e68358fe19f0a6228609c",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_photo_chair_005_source_station",
+          "geometry_witness_sha256": "e5ca56a2f4cb1ebd9eb8065500067c5bc4201c80b085d9fa58470e98132a9607",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_photo_chair_011_source_station",
+          "geometry_witness_sha256": "fbf1d62601c99251aa14404729f61604a8588b64be8944dcf8ff8f7380ec3c09",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_branch_chair_01_1",
+          "geometry_witness_sha256": "986f7416f76916ac80bc1482485803b2f522f5ce0b3cd4c26ce29c2e38e47eac",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_branch_chair_02_1",
+          "geometry_witness_sha256": "445bdc82245224da36d5d3f0a15a9cf878039636e7426a4e7163cac92b56b68f",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_branch_chair_05_2",
+          "geometry_witness_sha256": "e34978cca126ebd036dc32acb6abcfe67429df0e435a70fd209b10e05de1970e",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_fastener.002",
+          "geometry_witness_sha256": "d33bc3443df5677e0cce3c57d32e527817909e1cde50ac85aed3fe752d8b6936",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_fastener.003",
+          "geometry_witness_sha256": "50c98aa560b1d331e91bf3a12229a1c94d7e25ea50f733009169d32f9236fe82",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_fastener.006",
+          "geometry_witness_sha256": "daee7b99f8fc49e5634ef5deeb037fbb9a6175c947318aa460578a1eea0779ba",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_fastener.007",
+          "geometry_witness_sha256": "3ca73756552c525f4c2904f4179d578cda8a6894fd12b330a2f4f72ee5c919e5",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_fastener.010",
+          "geometry_witness_sha256": "5045ba65e820a3672b64915e51209fe02757eb4672fcb51419b1219d414513d1",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_fastener.011",
+          "geometry_witness_sha256": "f61d99168e3aca0325fc273c2abd0236997c369e5ef33c734bec13beb200f13f",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_fastener.014",
+          "geometry_witness_sha256": "f77d4385019fab2beda62fe6555326e8aacfd4ec37c018980737b52e5692ea7d",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_fastener.015",
+          "geometry_witness_sha256": "be96890986c02d10b97c7e49c4fd7a3e9553e44ba8eff1d873f7dce23104eec2",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_fastener.018",
+          "geometry_witness_sha256": "593c259dc974d1b506e968abc62b7fdc516c47ec0a01f6ebacd88792e961d07e",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "ENV_fastener.019",
+          "geometry_witness_sha256": "d0c73abf5a70f54fdcf27508ee83a6e64ad2202bf44025a46658e49cd8d2c6b5",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_branch_clip_00_1_-1",
+          "geometry_witness_sha256": "8c683a45e8ddbcee4c4a1cff65e9c6c42db503e6e2334d7d9df80d12416badf8",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_branch_clip_00_1_1",
+          "geometry_witness_sha256": "200e2adf84a119f57458481e0bfa5f96b96996e9810427460d6798da057e5741",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_branch_clip_01_1_-1",
+          "geometry_witness_sha256": "cdc1d04fd67962b75bc2223499555410d317ae8556f15c4654eb6d61dbaa6832",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_branch_clip_01_1_1",
+          "geometry_witness_sha256": "53ec34fd393f97dd47096f51f10645589ffc2b217c8e5d45eb1888011afe6753",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_branch_clip_02_1_-1",
+          "geometry_witness_sha256": "63d2618233d84419010c685a287c6884336ca4ee4e35e8ee5ec42585fbf76053",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_branch_clip_02_1_1",
+          "geometry_witness_sha256": "93a84847fa362dc6793b44fa42032224ebe36af5a05c813903aaddc467407e6b",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_branch_clip_05_2_-1",
+          "geometry_witness_sha256": "b050513b475b311083493069ee7a3c6617230107103323b268eecb66303bbf89",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_branch_clip_05_2_1",
+          "geometry_witness_sha256": "a647be5a7a801857c3d6a387bd4aacd469a1f82d1d76e2d7fb923487c593ffbf",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_photo_chair_001_source_station",
+          "geometry_witness_sha256": "4a0fc6faa7782335d78aa4d41341325b653d374102c9df1f9e35cb6344593f93",
+          "physics_binding_changed": false
+        },
+        {
+          "name": "CAD_TRACK_REV_branch_chair_00_1",
+          "geometry_witness_sha256": "4230d04f390be0775eafee2b2c03641c96cea9ae0688b9331ed2888015a3929f",
+          "physics_binding_changed": false
+        }
+      ],
+      "add_ids": [
+        "FIT_TRACK_station23_common_support",
+        "FIT_TRACK_station01_source_chair",
+        "FIT_TRACK_clip_01_0_-1",
+        "FIT_TRACK_clip_01_0_1",
+        "FIT_TRACK_clip_23_2_-1",
+        "FIT_TRACK_clip_23_2_1",
+        "FIT_BALISE_02_body_02",
+        "FIT_BALISE_02_yellow_lid_02",
+        "FIT_BALISE_02_lid_screw.008",
+        "FIT_BALISE_02_lid_screw.009",
+        "FIT_BALISE_02_lid_screw.010",
+        "FIT_BALISE_02_lid_screw.011",
+        "FIT_BALISE_SOURCE_branch_chair_12_2",
+        "FIT_BALISE_SOURCE_branch_fastener_12_2_1",
+        "FIT_BALISE_SOURCE_branch_fastener_12_2_-1",
+        "FIT_BALISE_03_body_03",
+        "FIT_BALISE_03_yellow_lid_03",
+        "FIT_BALISE_03_lid_screw.012",
+        "FIT_BALISE_03_lid_screw.013",
+        "FIT_BALISE_03_lid_screw.014",
+        "FIT_BALISE_03_lid_screw.015",
+        "FIT_BALISE_SOURCE_branch_chair_17_2",
+        "FIT_BALISE_SOURCE_branch_fastener_17_2_1",
+        "FIT_BALISE_SOURCE_branch_fastener_17_2_-1",
+        "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+        "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+        "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+        "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+        "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+        "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_RETAIN_right_ENV_main_rail_1",
+        "PHOTO_RETAIN_right_ENV_main_rail_top_1",
+        "PHOTO_RETAIN_right_CAD_TRACK_REV_inner_right_native_xy",
+        "PHOTO_RETAIN_left_ENV_main_rail_1",
+        "PHOTO_RETAIN_left_ENV_main_rail_top_1",
+        "PHOTO_CLAMP_00_lower_seat_base",
+        "PHOTO_CLAMP_00_lower_seat_pocket",
+        "PHOTO_CLAMP_00_lower_seat_upper",
+        "PHOTO_CLAMP_00_lower_toe_clamp",
+        "PHOTO_CLAMP_00_lower_captive_nut",
+        "PHOTO_CLAMP_00_lower_bolt_shank",
+        "PHOTO_CLAMP_00_lower_washer",
+        "PHOTO_CLAMP_00_lower_bolt_head",
+        "PHOTO_CLAMP_00_upper_seat_base",
+        "PHOTO_CLAMP_00_upper_seat_pocket",
+        "PHOTO_CLAMP_00_upper_seat_upper",
+        "PHOTO_CLAMP_00_upper_toe_clamp",
+        "PHOTO_CLAMP_00_upper_captive_nut",
+        "PHOTO_CLAMP_00_upper_bolt_shank",
+        "PHOTO_CLAMP_00_upper_washer",
+        "PHOTO_CLAMP_00_upper_bolt_head",
+        "PHOTO_CLAMP_01_lower_seat_base",
+        "PHOTO_CLAMP_01_lower_seat_pocket",
+        "PHOTO_CLAMP_01_lower_seat_upper",
+        "PHOTO_CLAMP_01_lower_toe_clamp",
+        "PHOTO_CLAMP_01_lower_captive_nut",
+        "PHOTO_CLAMP_01_lower_bolt_shank",
+        "PHOTO_CLAMP_01_lower_washer",
+        "PHOTO_CLAMP_01_lower_bolt_head",
+        "PHOTO_CLAMP_01_upper_seat_base",
+        "PHOTO_CLAMP_01_upper_seat_pocket",
+        "PHOTO_CLAMP_01_upper_seat_upper",
+        "PHOTO_CLAMP_01_upper_toe_clamp",
+        "PHOTO_CLAMP_01_upper_captive_nut",
+        "PHOTO_CLAMP_01_upper_bolt_shank",
+        "PHOTO_CLAMP_01_upper_washer",
+        "PHOTO_CLAMP_01_upper_bolt_head",
+        "PHOTO_CLAMP_02_lower_seat_base",
+        "PHOTO_CLAMP_02_lower_seat_pocket",
+        "PHOTO_CLAMP_02_lower_seat_upper",
+        "PHOTO_CLAMP_02_lower_toe_clamp",
+        "PHOTO_CLAMP_02_lower_captive_nut",
+        "PHOTO_CLAMP_02_lower_bolt_shank",
+        "PHOTO_CLAMP_02_lower_washer",
+        "PHOTO_CLAMP_02_lower_bolt_head",
+        "PHOTO_CLAMP_02_upper_seat_base",
+        "PHOTO_CLAMP_02_upper_seat_pocket",
+        "PHOTO_CLAMP_02_upper_seat_upper",
+        "PHOTO_CLAMP_02_upper_toe_clamp",
+        "PHOTO_CLAMP_02_upper_captive_nut",
+        "PHOTO_CLAMP_02_upper_bolt_shank",
+        "PHOTO_CLAMP_02_upper_washer",
+        "PHOTO_CLAMP_02_upper_bolt_head",
+        "PHOTO_CLAMP_03_lower_seat_base",
+        "PHOTO_CLAMP_03_lower_seat_pocket",
+        "PHOTO_CLAMP_03_lower_seat_upper",
+        "PHOTO_CLAMP_03_lower_toe_clamp",
+        "PHOTO_CLAMP_03_lower_captive_nut",
+        "PHOTO_CLAMP_03_lower_bolt_shank",
+        "PHOTO_CLAMP_03_lower_washer",
+        "PHOTO_CLAMP_03_lower_bolt_head",
+        "PHOTO_CLAMP_03_upper_seat_base",
+        "PHOTO_CLAMP_03_upper_seat_pocket",
+        "PHOTO_CLAMP_03_upper_seat_upper",
+        "PHOTO_CLAMP_03_upper_toe_clamp",
+        "PHOTO_CLAMP_03_upper_captive_nut",
+        "PHOTO_CLAMP_03_upper_bolt_shank",
+        "PHOTO_CLAMP_03_upper_washer",
+        "PHOTO_CLAMP_03_upper_bolt_head",
+        "PHOTO_CLAMP_04_lower_seat_base",
+        "PHOTO_CLAMP_04_lower_seat_pocket",
+        "PHOTO_CLAMP_04_lower_seat_upper",
+        "PHOTO_CLAMP_04_lower_toe_clamp",
+        "PHOTO_CLAMP_04_lower_captive_nut",
+        "PHOTO_CLAMP_04_lower_bolt_shank",
+        "PHOTO_CLAMP_04_lower_washer",
+        "PHOTO_CLAMP_04_lower_bolt_head",
+        "PHOTO_CLAMP_04_upper_seat_base",
+        "PHOTO_CLAMP_04_upper_seat_pocket",
+        "PHOTO_CLAMP_04_upper_seat_upper",
+        "PHOTO_CLAMP_04_upper_toe_clamp",
+        "PHOTO_CLAMP_04_upper_captive_nut",
+        "PHOTO_CLAMP_04_upper_bolt_shank",
+        "PHOTO_CLAMP_04_upper_washer",
+        "PHOTO_CLAMP_04_upper_bolt_head",
+        "PHOTO_CLAMP_05_lower_seat_base",
+        "PHOTO_CLAMP_05_lower_seat_pocket",
+        "PHOTO_CLAMP_05_lower_seat_upper",
+        "PHOTO_CLAMP_05_lower_toe_clamp",
+        "PHOTO_CLAMP_05_lower_captive_nut",
+        "PHOTO_CLAMP_05_lower_bolt_shank",
+        "PHOTO_CLAMP_05_lower_washer",
+        "PHOTO_CLAMP_05_lower_bolt_head",
+        "PHOTO_CLAMP_05_upper_seat_base",
+        "PHOTO_CLAMP_05_upper_seat_pocket",
+        "PHOTO_CLAMP_05_upper_seat_upper",
+        "PHOTO_CLAMP_05_upper_toe_clamp",
+        "PHOTO_CLAMP_05_upper_captive_nut",
+        "PHOTO_CLAMP_05_upper_bolt_shank",
+        "PHOTO_CLAMP_05_upper_washer",
+        "PHOTO_CLAMP_05_upper_bolt_head",
+        "PHOTO_HARDWARE_SUPPORT_long_plate",
+        "PHOTO_HARDWARE_SUPPORT_pad_00",
+        "PHOTO_HARDWARE_SUPPORT_pad_01",
+        "PHOTO_HARDWARE_SUPPORT_pad_02",
+        "PHOTO_HARDWARE_SUPPORT_pad_03",
+        "PHOTO_HARDWARE_SUPPORT_pad_04",
+        "PHOTO_HARDWARE_SUPPORT_pad_05"
+      ]
+    }
+  ]
+}

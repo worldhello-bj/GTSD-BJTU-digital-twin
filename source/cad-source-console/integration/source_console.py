@@ -109,6 +109,7 @@ def make_server(port=8778,mode='source_rails'):
                 return self.file(local if local.exists()else BASE/'app/web'/name,mime)
             if path=='/assembly/mechanical-fit.js':return self.file(PROJECT/'mechanical_fit/static_profiles.js','text/javascript; charset=utf-8')
             if path=='/api/mechanical-fit/profiles':return self.file(PROJECT/'mechanical_fit/profiles.json','application/json; charset=utf-8')
+            if path=='/api/mechanical-fit/photo-profiles':return self.file(PROJECT/'photo_turnout/photo_source_profiles.json','application/json; charset=utf-8')
             if path=='/api/mechanical-fit/report':return self.file(PROJECT/'mechanical_fit/report.json','application/json; charset=utf-8')
             if path=='/mechanical-fit/report':return self.file(PROJECT/'mechanical_fit/report.html','text/html; charset=utf-8')
             if path=='/mechanical-fit/style.css':return self.file(PROJECT/'mechanical_fit/style.css','text/css; charset=utf-8')

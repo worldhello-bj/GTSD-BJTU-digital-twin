@@ -1,3 +1,22 @@
+## New photo-supported turnout variants
+
+The assembly viewer offers two additional explicit choices: a photo-supported
+frog/wing/flangeway/base-plate reconstruction retaining old bolt proxies for
+review, and a complete outside-foot hold-down research alternative. Both keep
+the historical source and PR5 profiles selectable. See [geometry and evidence](photo_turnout/INTEGRATION.md).
+The latter uses 12 complete assemblies at six source axes; its 235 modeled-material
+checks leave one 0.4882476853 mm³ finite rail-foot/end-joint issue. Attachment
+family, dimensional hypotheses and wheel passage are not physically certified.
+
+## New bounded research console
+
+`python launch.py --research-rig --port 8175` starts the independent finite-mount /
+two-pin-contact console after restoring its source assets. Open
+`http://127.0.0.1:8175/research-rig` on the same machine.
+See [research rig](research_rig/README.md), [controls](research_rig/CONSOLE.md) and
+[specific data boundaries](research_rig/DATA_BOUNDARY.md). Its source geometry,
+engineering hypotheses and checkpoint identity are separate from strict82/H1.
+
 # GTSD 来源整机与虚拟研究控制台
 
 ## 交付状态：资源已齐备，真实远端验收通过

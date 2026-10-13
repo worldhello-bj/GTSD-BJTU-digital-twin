@@ -32,5 +32,12 @@ async function prepare(data,catalog,available,witness,mapping,sourceRevision,pro
  }
  return Object.freeze({profiles,apply});
 }
-return {prepare};
+function merge(base,extra){
+ for(const k of ['schema','units','base_native_sha256','base_glb_sha256','source_display_revision_sha256','solver_mapping_unchanged'])if(base?.[k]!==extra?.[k])throw Error('Additional profile source identity mismatch '+k);
+ if(!Array.isArray(base.profiles)||!Array.isArray(extra.profiles))throw Error('Additional profile array required');
+ const ids=new Set(base.profiles.map(p=>p.id));
+ for(const p of extra.profiles){if(ids.has(p.id)||!p.id.startsWith('photo_frog_'))throw Error('Unexpected additional photo profile');ids.add(p.id);}
+ return {...base,profiles:[...base.profiles,...extra.profiles]};
+}
+return {prepare,merge};
 });

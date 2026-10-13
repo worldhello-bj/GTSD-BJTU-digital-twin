@@ -1,0 +1,1513 @@
+{
+  "schema": "gtsd-photo-turnout-material-audit-v1",
+  "geometry_validation_pass": true,
+  "all_candidate_pairs_material_separated": true,
+  "all_candidate_vs_retained_clearance_pass": false,
+  "strict_whole_scene_clearance_pass": false,
+  "no_solver_executed": true,
+  "source_mesh_count": 1928,
+  "unchanged_meshes": 1917,
+  "new_core_mesh_count": 9,
+  "source_remainder_count": 5,
+  "all_scene_aabb_checked_pairs": 17253,
+  "positive_aabb_core_vs_original_retained_count": 30,
+  "missing_from_material_check": [],
+  "candidate_mesh_topology": {
+    "PHOTO_FROG_source_finite_V": {
+      "welded_vertices": 110,
+      "triangles": 216,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 8.907638405007993e-05,
+      "volume_mm3": 1666882.2636141127,
+      "closed": true,
+      "positive_volume": true
+    },
+    "PHOTO_WING_lower_source_chain": {
+      "welded_vertices": 84,
+      "triangles": 164,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.08475640318396084,
+      "volume_mm3": 1677151.2378516758,
+      "closed": true,
+      "positive_volume": true
+    },
+    "PHOTO_WING_upper_source_chain": {
+      "welded_vertices": 79,
+      "triangles": 154,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.07729843585693509,
+      "volume_mm3": 1677151.4748781696,
+      "closed": true,
+      "positive_volume": true
+    },
+    "PHOTO_SUPPORT_separate_long_plate": {
+      "welded_vertices": 28,
+      "triangles": 52,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 1.4186551008771144,
+      "volume_mm3": 874129.0891014377,
+      "closed": true,
+      "positive_volume": true
+    },
+    "PHOTO_SUPPORT_pad_01": {
+      "welded_vertices": 8,
+      "triangles": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 117.06087444803633,
+      "volume_mm3": 56290.13008492142,
+      "closed": true,
+      "positive_volume": true
+    },
+    "PHOTO_SUPPORT_pad_02": {
+      "welded_vertices": 8,
+      "triangles": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 117.06087444804166,
+      "volume_mm3": 53339.38321979589,
+      "closed": true,
+      "positive_volume": true
+    },
+    "PHOTO_SUPPORT_pad_03": {
+      "welded_vertices": 8,
+      "triangles": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 117.06087444804,
+      "volume_mm3": 50388.63635466789,
+      "closed": true,
+      "positive_volume": true
+    },
+    "PHOTO_SUPPORT_pad_04": {
+      "welded_vertices": 8,
+      "triangles": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 117.06087444804002,
+      "volume_mm3": 47437.889489540896,
+      "closed": true,
+      "positive_volume": true
+    },
+    "PHOTO_SUPPORT_pad_05": {
+      "welded_vertices": 8,
+      "triangles": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 117.06087444804166,
+      "volume_mm3": 44487.14262441357,
+      "closed": true,
+      "positive_volume": true
+    },
+    "PHOTO_RETAIN_right_ENV_main_rail_1": {
+      "welded_vertices": 36,
+      "triangles": 68,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 1.186624100684472,
+      "volume_mm3": 17829740.536017694,
+      "closed": true,
+      "positive_volume": true
+    },
+    "PHOTO_RETAIN_right_ENV_main_rail_top_1": {
+      "welded_vertices": 80,
+      "triangles": 156,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.0007415438778267366,
+      "volume_mm3": 1071713.3654639816,
+      "closed": true,
+      "positive_volume": true
+    },
+    "PHOTO_RETAIN_right_CAD_TRACK_REV_inner_right_native_xy": {
+      "welded_vertices": 1092,
+      "triangles": 2172,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 35.99999999999985,
+      "volume_mm3": 10758773.868494853,
+      "closed": true,
+      "positive_volume": true
+    },
+    "PHOTO_RETAIN_left_ENV_main_rail_1": {
+      "welded_vertices": 36,
+      "triangles": 68,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 0.0005381620477223609,
+      "volume_mm3": 2368.1762117241246,
+      "closed": true,
+      "positive_volume": true
+    },
+    "PHOTO_RETAIN_left_ENV_main_rail_top_1": {
+      "welded_vertices": 80,
+      "triangles": 156,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "min_area_mm2": 4.858898215860721e-11,
+      "volume_mm3": 123.11532907670394,
+      "closed": true,
+      "positive_volume": true
+    }
+  },
+  "baseline_rail_crossing_actual_material": {
+    "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+    "volume_mm3": 529169.4430796169,
+    "estimated_error_mm3": 0.00321377882991302,
+    "slice_evaluations": 483,
+    "positive_volume_witness": {
+      "point_world_m": [
+        -9.080090999603271,
+        0.2746038138865447,
+        -0.06149999797344208
+      ],
+      "winding_numbers": [
+        0.9999999999999976,
+        1.0000000000000036
+      ]
+    }
+  },
+  "core_pairs_full_triangle_projection_bound": [
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_WING_lower_source_chain"
+      ],
+      "method": "union of every actual projected surface triangle; intersection area times common Z depth is a conservative material-volume upper bound",
+      "projected_overlap_area_mm2": 0.0,
+      "common_z_depth_mm": 64.99999761581421,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_WING_upper_source_chain"
+      ],
+      "method": "union of every actual projected surface triangle; intersection area times common Z depth is a conservative material-volume upper bound",
+      "projected_overlap_area_mm2": 2.0328669443943773e-10,
+      "common_z_depth_mm": 64.99999761581421,
+      "volume_mm3_upper_bound": 1.3213634653890204e-08
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_SUPPORT_separate_long_plate"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_SUPPORT_pad_01"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_SUPPORT_pad_02"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_SUPPORT_pad_03"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_SUPPORT_pad_04"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_SUPPORT_pad_05"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_WING_upper_source_chain"
+      ],
+      "method": "union of every actual projected surface triangle; intersection area times common Z depth is a conservative material-volume upper bound",
+      "projected_overlap_area_mm2": 0.0,
+      "common_z_depth_mm": 64.99999761581421,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_SUPPORT_separate_long_plate"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_SUPPORT_pad_01"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_SUPPORT_pad_02"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_SUPPORT_pad_03"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_SUPPORT_pad_04"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_SUPPORT_pad_05"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_SUPPORT_separate_long_plate"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_SUPPORT_pad_01"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_SUPPORT_pad_02"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_SUPPORT_pad_03"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_SUPPORT_pad_04"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_SUPPORT_pad_05"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_SUPPORT_separate_long_plate",
+        "PHOTO_SUPPORT_pad_01"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_SUPPORT_separate_long_plate",
+        "PHOTO_SUPPORT_pad_02"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_SUPPORT_separate_long_plate",
+        "PHOTO_SUPPORT_pad_03"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_SUPPORT_separate_long_plate",
+        "PHOTO_SUPPORT_pad_04"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_SUPPORT_separate_long_plate",
+        "PHOTO_SUPPORT_pad_05"
+      ],
+      "method": "disjoint actual Z intervals or numerical boundary contact",
+      "common_z_depth_mm": 0.0,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_SUPPORT_pad_01",
+        "PHOTO_SUPPORT_pad_02"
+      ],
+      "method": "union of every actual projected surface triangle; intersection area times common Z depth is a conservative material-volume upper bound",
+      "projected_overlap_area_mm2": 0.0,
+      "common_z_depth_mm": 2.999999999999989,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_SUPPORT_pad_01",
+        "PHOTO_SUPPORT_pad_03"
+      ],
+      "method": "union of every actual projected surface triangle; intersection area times common Z depth is a conservative material-volume upper bound",
+      "projected_overlap_area_mm2": 0.0,
+      "common_z_depth_mm": 2.999999999999989,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_SUPPORT_pad_01",
+        "PHOTO_SUPPORT_pad_04"
+      ],
+      "method": "union of every actual projected surface triangle; intersection area times common Z depth is a conservative material-volume upper bound",
+      "projected_overlap_area_mm2": 0.0,
+      "common_z_depth_mm": 2.999999999999989,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_SUPPORT_pad_01",
+        "PHOTO_SUPPORT_pad_05"
+      ],
+      "method": "union of every actual projected surface triangle; intersection area times common Z depth is a conservative material-volume upper bound",
+      "projected_overlap_area_mm2": 0.0,
+      "common_z_depth_mm": 2.999999999999989,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_SUPPORT_pad_02",
+        "PHOTO_SUPPORT_pad_03"
+      ],
+      "method": "union of every actual projected surface triangle; intersection area times common Z depth is a conservative material-volume upper bound",
+      "projected_overlap_area_mm2": 0.0,
+      "common_z_depth_mm": 2.999999999999989,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_SUPPORT_pad_02",
+        "PHOTO_SUPPORT_pad_04"
+      ],
+      "method": "union of every actual projected surface triangle; intersection area times common Z depth is a conservative material-volume upper bound",
+      "projected_overlap_area_mm2": 0.0,
+      "common_z_depth_mm": 2.999999999999989,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_SUPPORT_pad_02",
+        "PHOTO_SUPPORT_pad_05"
+      ],
+      "method": "union of every actual projected surface triangle; intersection area times common Z depth is a conservative material-volume upper bound",
+      "projected_overlap_area_mm2": 0.0,
+      "common_z_depth_mm": 2.999999999999989,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_SUPPORT_pad_03",
+        "PHOTO_SUPPORT_pad_04"
+      ],
+      "method": "union of every actual projected surface triangle; intersection area times common Z depth is a conservative material-volume upper bound",
+      "projected_overlap_area_mm2": 0.0,
+      "common_z_depth_mm": 2.999999999999989,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_SUPPORT_pad_03",
+        "PHOTO_SUPPORT_pad_05"
+      ],
+      "method": "union of every actual projected surface triangle; intersection area times common Z depth is a conservative material-volume upper bound",
+      "projected_overlap_area_mm2": 0.0,
+      "common_z_depth_mm": 2.999999999999989,
+      "volume_mm3_upper_bound": 0.0
+    },
+    {
+      "pair": [
+        "PHOTO_SUPPORT_pad_04",
+        "PHOTO_SUPPORT_pad_05"
+      ],
+      "method": "union of every actual projected surface triangle; intersection area times common Z depth is a conservative material-volume upper bound",
+      "projected_overlap_area_mm2": 0.0,
+      "common_z_depth_mm": 2.999999999999989,
+      "volume_mm3_upper_bound": 0.0
+    }
+  ],
+  "positive_aabb_actual_triangle_checks": [
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_WING_upper_source_chain"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 4.1393523542409936e-09,
+      "estimated_error_mm3": 1.2320158082778836e-11,
+      "slice_evaluations": 1239,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.305324833097943,
+          0.32673013108320315,
+          -0.06479036211967468
+        ],
+        "winding_numbers": [
+          1.0000000000000067,
+          1.0000000000003662
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "ENV_fastener.003"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 344.12648104862217,
+      "estimated_error_mm3": 1.3207758811902077e-05,
+      "slice_evaluations": 1449,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.42633342742911,
+          0.3019234830148264,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          0.9999999999999997,
+          0.9999999999999981
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "ENV_fastener.007"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 804.6747760505712,
+      "estimated_error_mm3": 6.60660417961482e-06,
+      "slice_evaluations": 1071,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.226333618163974,
+          0.3019234830148264,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          1.0000000000000009,
+          0.9999999999999981
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "ENV_fastener.011"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 273,
+      "positive_volume_witness": null
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "ENV_fastener.015"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 273,
+      "positive_volume_witness": null
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 714,
+      "positive_volume_witness": null
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "CAD_TRACK_REV_branch_clip_00_1_-1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 767.592649746201,
+      "estimated_error_mm3": 4.312764381874952e-06,
+      "slice_evaluations": 1365,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.375587049727994,
+          0.27584010920524227,
+          -0.06479036211967468
+        ],
+        "winding_numbers": [
+          0.9999999999999996,
+          1.0000000000000004
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "CAD_TRACK_REV_branch_clip_01_1_1"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 315,
+      "positive_volume_witness": null
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "CAD_TRACK_REV_branch_clip_01_1_-1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 858.2059473400824,
+      "estimated_error_mm3": 7.364336431301407e-06,
+      "slice_evaluations": 1407,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.183714065229466,
+          0.24843003260859223,
+          -0.06479036211967468
+        ],
+        "winding_numbers": [
+          1.0000000000000033,
+          1.0000000000000002
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "CAD_TRACK_REV_branch_clip_02_1_1"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 315,
+      "positive_volume_witness": null
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "FIT_TRACK_clip_03_1_1"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 315,
+      "positive_volume_witness": null
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_RETAIN_left_ENV_main_rail_1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.48824768531221413,
+      "estimated_error_mm3": 3.3032904975075508e-09,
+      "slice_evaluations": 1134,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.470074164258815,
+          0.2939466219146484,
+          -0.06499958175277824
+        ],
+        "winding_numbers": [
+          1.0000000000000009,
+          1.0000000000000009
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_RETAIN_left_ENV_main_rail_top_1"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 924,
+      "positive_volume_witness": null
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "ENV_fastener.006"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 484.52992197643556,
+      "estimated_error_mm3": 8.352535682865752e-06,
+      "slice_evaluations": 1260,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.226333618163974,
+          0.2159234875447794,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          0.9999999999999997,
+          0.9999999999999981
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "ENV_fastener.010"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 484.52992197643556,
+      "estimated_error_mm3": 8.352535682865318e-06,
+      "slice_evaluations": 1260,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.02633285522452,
+          0.2159234875447794,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          1.0000000000000007,
+          0.9999999999999981
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "ENV_fastener.014"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 484.52992197643556,
+      "estimated_error_mm3": 8.352535682865752e-06,
+      "slice_evaluations": 1260,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.826333045959384,
+          0.2159234875447794,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          0.9999999999999993,
+          0.9999999999999981
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "ENV_fastener.018"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 484.52992197643556,
+      "estimated_error_mm3": 8.352535682865318e-06,
+      "slice_evaluations": 1260,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.626333236694247,
+          0.2159234875447794,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          1.0000000000000007,
+          0.9999999999999981
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "ENV_fastener.022"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 252,
+      "positive_volume_witness": null
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 441,
+      "positive_volume_witness": null
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "CAD_TRACK_REV_branch_clip_02_1_-1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 662.7006736655119,
+      "estimated_error_mm3": 2.633842405962269e-06,
+      "slice_evaluations": 1050,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.991841080731085,
+          0.21922903975910202,
+          -0.06495709490776062
+        ],
+        "winding_numbers": [
+          0.9999999999999809,
+          1.0
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "CAD_TRACK_REV_branch_clip_05_2_1"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 252,
+      "positive_volume_witness": null
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "CAD_TRACK_REV_branch_clip_05_2_-1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 14.652556858547516,
+      "estimated_error_mm3": 9.19169724557389e-09,
+      "slice_evaluations": 588,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.414618230986354,
+          0.1427785005567802,
+          -0.06495709490776062
+        ],
+        "winding_numbers": [
+          0.9999999999990762,
+          0.9999999999999999
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "FIT_TRACK_clip_03_1_-1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 848.6294396850495,
+      "estimated_error_mm3": 2.83608322849151e-06,
+      "slice_evaluations": 1260,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.80590779319435,
+          0.19301358769708948,
+          -0.06495709490776062
+        ],
+        "winding_numbers": [
+          0.9999999999999973,
+          1.000000000000001
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_RETAIN_right_CAD_TRACK_REV_inner_right_native_xy"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 441,
+      "positive_volume_witness": null
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "ENV_fastener.007"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 168,
+      "positive_volume_witness": null
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "ENV_fastener.011"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 175.97256601712402,
+      "estimated_error_mm3": 1.204216158271406e-06,
+      "slice_evaluations": 756,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.02633285522443,
+          0.30422579606957095,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          0.9999999999999396,
+          1.0
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "ENV_fastener.015"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 662.8590363470128,
+      "estimated_error_mm3": 1.1607517543610321e-05,
+      "slice_evaluations": 966,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.826333045959384,
+          0.3019234830148264,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          1.0000000000000007,
+          0.9999999999999981
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "ENV_fastener.019"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 87.97781124907404,
+      "estimated_error_mm3": 4.7535811999492955e-07,
+      "slice_evaluations": 840,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.626333236694515,
+          0.29987799830002626,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          1.000000000000028,
+          1.0000000000000002
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "ENV_fastener.023"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 168,
+      "positive_volume_witness": null
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 399,
+      "positive_volume_witness": null
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "CAD_TRACK_REV_branch_clip_01_1_1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 804.5224029567197,
+      "estimated_error_mm3": 4.233317259629239e-06,
+      "slice_evaluations": 1302,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.183714065229491,
+          0.3306899258822299,
+          -0.06243823504447937
+        ],
+        "winding_numbers": [
+          0.9999999999999974,
+          1.0000000000000002
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "CAD_TRACK_REV_branch_clip_01_1_-1"
+      ],
+      "status": "NO_POSITIVE_VOLUME_FROM_ACTUAL_TRIANGLE_INTEGRATION",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 168,
+      "positive_volume_witness": null
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "CAD_TRACK_REV_branch_clip_02_1_1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 804.5224106283408,
+      "estimated_error_mm3": 4.232088886346319e-06,
+      "slice_evaluations": 1302,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.991841080730955,
+          0.3032798492855785,
+          -0.06243823504447937
+        ],
+        "winding_numbers": [
+          0.9999999999999901,
+          1.0000000000000002
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "FIT_TRACK_clip_03_1_1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 848.629316322973,
+      "estimated_error_mm3": 8.26893382844631e-06,
+      "slice_evaluations": 1218,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.798239042449236,
+          0.30119970447220784,
+          -0.06243823504447937
+        ],
+        "winding_numbers": [
+          0.9999999999999981,
+          1.0000000000000002
+        ]
+      }
+    }
+  ],
+  "positive_material_pairs": [
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "ENV_fastener.003"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 344.12648104862217,
+      "estimated_error_mm3": 1.3207758811902077e-05,
+      "slice_evaluations": 1449,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.42633342742911,
+          0.3019234830148264,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          0.9999999999999997,
+          0.9999999999999981
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "ENV_fastener.007"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 804.6747760505712,
+      "estimated_error_mm3": 6.60660417961482e-06,
+      "slice_evaluations": 1071,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.226333618163974,
+          0.3019234830148264,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          1.0000000000000009,
+          0.9999999999999981
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "CAD_TRACK_REV_branch_clip_00_1_-1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 767.592649746201,
+      "estimated_error_mm3": 4.312764381874952e-06,
+      "slice_evaluations": 1365,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.375587049727994,
+          0.27584010920524227,
+          -0.06479036211967468
+        ],
+        "winding_numbers": [
+          0.9999999999999996,
+          1.0000000000000004
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "CAD_TRACK_REV_branch_clip_01_1_-1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 858.2059473400824,
+      "estimated_error_mm3": 7.364336431301407e-06,
+      "slice_evaluations": 1407,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.183714065229466,
+          0.24843003260859223,
+          -0.06479036211967468
+        ],
+        "winding_numbers": [
+          1.0000000000000033,
+          1.0000000000000002
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_RETAIN_left_ENV_main_rail_1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.48824768531221413,
+      "estimated_error_mm3": 3.3032904975075508e-09,
+      "slice_evaluations": 1134,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.470074164258815,
+          0.2939466219146484,
+          -0.06499958175277824
+        ],
+        "winding_numbers": [
+          1.0000000000000009,
+          1.0000000000000009
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "ENV_fastener.006"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 484.52992197643556,
+      "estimated_error_mm3": 8.352535682865752e-06,
+      "slice_evaluations": 1260,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.226333618163974,
+          0.2159234875447794,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          0.9999999999999997,
+          0.9999999999999981
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "ENV_fastener.010"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 484.52992197643556,
+      "estimated_error_mm3": 8.352535682865318e-06,
+      "slice_evaluations": 1260,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.02633285522452,
+          0.2159234875447794,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          1.0000000000000007,
+          0.9999999999999981
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "ENV_fastener.014"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 484.52992197643556,
+      "estimated_error_mm3": 8.352535682865752e-06,
+      "slice_evaluations": 1260,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.826333045959384,
+          0.2159234875447794,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          0.9999999999999993,
+          0.9999999999999981
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "ENV_fastener.018"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 484.52992197643556,
+      "estimated_error_mm3": 8.352535682865318e-06,
+      "slice_evaluations": 1260,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.626333236694247,
+          0.2159234875447794,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          1.0000000000000007,
+          0.9999999999999981
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "CAD_TRACK_REV_branch_clip_02_1_-1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 662.7006736655119,
+      "estimated_error_mm3": 2.633842405962269e-06,
+      "slice_evaluations": 1050,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.991841080731085,
+          0.21922903975910202,
+          -0.06495709490776062
+        ],
+        "winding_numbers": [
+          0.9999999999999809,
+          1.0
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "CAD_TRACK_REV_branch_clip_05_2_-1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 14.652556858547516,
+      "estimated_error_mm3": 9.19169724557389e-09,
+      "slice_evaluations": 588,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.414618230986354,
+          0.1427785005567802,
+          -0.06495709490776062
+        ],
+        "winding_numbers": [
+          0.9999999999990762,
+          0.9999999999999999
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "FIT_TRACK_clip_03_1_-1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 848.6294396850495,
+      "estimated_error_mm3": 2.83608322849151e-06,
+      "slice_evaluations": 1260,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.80590779319435,
+          0.19301358769708948,
+          -0.06495709490776062
+        ],
+        "winding_numbers": [
+          0.9999999999999973,
+          1.000000000000001
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "ENV_fastener.011"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 175.97256601712402,
+      "estimated_error_mm3": 1.204216158271406e-06,
+      "slice_evaluations": 756,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.02633285522443,
+          0.30422579606957095,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          0.9999999999999396,
+          1.0
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "ENV_fastener.015"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 662.8590363470128,
+      "estimated_error_mm3": 1.1607517543610321e-05,
+      "slice_evaluations": 966,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.826333045959384,
+          0.3019234830148264,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          1.0000000000000007,
+          0.9999999999999981
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "ENV_fastener.019"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 87.97781124907404,
+      "estimated_error_mm3": 4.7535811999492955e-07,
+      "slice_evaluations": 840,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.626333236694515,
+          0.29987799830002626,
+          -0.059938237428665164
+        ],
+        "winding_numbers": [
+          1.000000000000028,
+          1.0000000000000002
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "CAD_TRACK_REV_branch_clip_01_1_1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 804.5224029567197,
+      "estimated_error_mm3": 4.233317259629239e-06,
+      "slice_evaluations": 1302,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.183714065229491,
+          0.3306899258822299,
+          -0.06243823504447937
+        ],
+        "winding_numbers": [
+          0.9999999999999974,
+          1.0000000000000002
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "CAD_TRACK_REV_branch_clip_02_1_1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 804.5224106283408,
+      "estimated_error_mm3": 4.232088886346319e-06,
+      "slice_evaluations": 1302,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.991841080730955,
+          0.3032798492855785,
+          -0.06243823504447937
+        ],
+        "winding_numbers": [
+          0.9999999999999901,
+          1.0000000000000002
+        ]
+      }
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "FIT_TRACK_clip_03_1_1"
+      ],
+      "status": "POSITIVE_MATERIAL_OVERLAP",
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 848.629316322973,
+      "estimated_error_mm3": 8.26893382844631e-06,
+      "slice_evaluations": 1218,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -8.798239042449236,
+          0.30119970447220784,
+          -0.06243823504447937
+        ],
+        "winding_numbers": [
+          0.9999999999999981,
+          1.0000000000000002
+        ]
+      }
+    }
+  ],
+  "scope": "All nine newly designed core meshes versus every retained combined-scene object, with full-scene broadphase and actual triangle integration on positive AABBs. Five unchanged rail remainders are checked against core meshes only. Unchanged-versus-unchanged pairs, wheel sweep, source guard conflict and whole-scene completeness are not certified.",
+  "caution": "The inherited source I-section and explicit full-depth slot are engineering choices, not as-built measurements. Existing fasteners are deliberately retained; positive material conflicts block assembly acceptance and must not be removed merely to make this audit green."
+}
