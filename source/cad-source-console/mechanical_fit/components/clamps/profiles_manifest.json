@@ -1,0 +1,29 @@
+{
+  "schema": "gtsd-catenary-profile-manifest-v1",
+  "profiles": [
+    {
+      "id": "catenary_8a2c_pin5_depth_candidate",
+      "file": "clamp_fit_profile.json",
+      "mesh_count": 6,
+      "recommended_for_geometric_review": true,
+      "has_known_interference": false
+    },
+    {
+      "id": "clamp_messenger_datum",
+      "file": "clamp_messenger_datum_profile.json",
+      "mesh_count": 7,
+      "recommended_for_geometric_review": false,
+      "optional_full_wire_datum_change": true
+    },
+    {
+      "id": "catenary_b535_pin5_depth_review",
+      "file": "clamp_b535_review_profile.json",
+      "mesh_count": 4,
+      "recommended_for_geometric_review": false,
+      "has_known_interference": true
+    }
+  ],
+  "default": "source_review_unchanged",
+  "mutually_exclusive": true,
+  "as_built": false
+}

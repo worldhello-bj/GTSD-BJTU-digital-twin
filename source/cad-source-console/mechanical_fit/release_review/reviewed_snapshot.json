@@ -1,0 +1,23 @@
+{
+  "reviewed_at_utc": "2026-10-13T14:01:01.587961+00:00",
+  "remaining_code_blockers": [],
+  "final_focused_tests": {
+    "count": 15,
+    "passed": 15
+  },
+  "browser_visual_acceptance": false,
+  "reviewed_files": {
+    "mechanical_fit/static_profiles.js": "28bddf1773594b5a22edf4a559e1d05fddfb1acf7b93d7c8995a247c6185fb81",
+    "mechanical_fit/build_profiles.js": "e602c9d970ad32e0fd214a12fcb2da095f2958180389670e8832e215494750e6",
+    "mechanical_fit/export_scene.js": "3cd259168b6f3fad2d0408e36fd027301962895ecf3b13251b81baf12ca14635",
+    "mechanical_fit/profiles.json": "06cbf71b9a38f0471f01695694a1b9adeb0a4ec599ecfd01dd8ebc0908a6da01",
+    "mechanical_fit/report.json": "18abd38c1068328b6cc057280e025dc77c1b6e0ddbc9fe02c473eb909de9f80d",
+    "mechanical_fit/README.md": "a9a26fb0d1732c9e5e9082f98b07084f34d37f6a38ad03a475654db244501794",
+    "integration/web/app.js": "8e891ffdff702ff21e634dea456c1f8ecf34c5d152c32ce6f7913e6e6e1440d4",
+    "integration/web/index.html": "24d846c6fe4c5ceb32372c7be85e0e3015695ce10a77fa330ba60cd2b5f28608",
+    "integration/source_console.py": "1e2a20295f0624b04747e4560d8fbb6097714d7fbc24c064b0e6e5eff770d491",
+    "integration/tests/test_fit_profile_app.js": "a0e500d3c4405cd2a1102604874fe6ddb5e497d6de847f4e6180dfbb8a4e5b9f",
+    "mechanical_fit/test_static_profiles.js": "8afc172cf48664e94f610253ea1d427b69c329384a45c9eecf1df2adcd6dee48",
+    "ASSET_MANIFEST.json": "ae9a8aaa99e143b7c6dfa5ed47b1c9cb3707a8f27479ca023855ff6c882b9d53"
+  }
+}

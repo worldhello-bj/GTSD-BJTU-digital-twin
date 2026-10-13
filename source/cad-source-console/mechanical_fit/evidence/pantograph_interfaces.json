@@ -1,0 +1,122 @@
+{
+  "schema": "gtsd-native-pantograph-fit-inputs-v1",
+  "units": "mm",
+  "source_dwg_sha256": "9d3aedfdaed92cf73eec0bdb2239af0bb5fc64121d86763adce8c63614612552",
+  "source_dxf_sha256": "73f9eeb145cfbda5f01d1302d3e6e09d2d81e707ff7776187d899100f654f143",
+  "source_root": "zw$9395",
+  "world_from_source_A_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      -0.24223178719724092
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      1.0878864516453446
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "interfaces": [
+    {
+      "id": "C",
+      "outer_hole": {
+        "source_root": "zw$9395",
+        "source_path": [
+          "2B30",
+          "2A35"
+        ],
+        "source_handle": "2790",
+        "source_type": "CIRCLE",
+        "source_center_root_mm": [
+          1243.6718018102838,
+          141.33292403799717,
+          0.0
+        ],
+        "source_radius_mm": 4.1,
+        "world_xz_from_native_mm_to_m": [
+          0.6516720951282551,
+          1.0568461474635928
+        ]
+      },
+      "tie_hole": {
+        "source_root": "zw$9395",
+        "source_path": [
+          "2B2E"
+        ],
+        "source_handle": "29EB",
+        "source_type": "CIRCLE",
+        "source_center_root_mm": [
+          1243.6670411702216,
+          141.3294793096174,
+          0.0
+        ],
+        "source_radius_mm": 4.0,
+        "world_xz_from_native_mm_to_m": [
+          0.6516673344881929,
+          1.0568427027352132
+        ]
+      },
+      "source_axis_offset_mm": 0.005876210293366559,
+      "native_geometry_altered": false,
+      "axial_stack_confirmed": false
+    },
+    {
+      "id": "D",
+      "outer_hole": {
+        "source_root": "zw$9395",
+        "source_path": [
+          "2B2F"
+        ],
+        "source_handle": "2A06",
+        "source_type": "CIRCLE",
+        "source_center_root_mm": [
+          625.7465328052203,
+          112.34318354540667,
+          0.0
+        ],
+        "source_radius_mm": 4.1,
+        "world_xz_from_native_mm_to_m": [
+          0.033746826123191576,
+          1.0278564069710023
+        ]
+      },
+      "tie_hole": {
+        "source_root": "zw$9395",
+        "source_path": [
+          "2B2E"
+        ],
+        "source_handle": "29E2",
+        "source_type": "CIRCLE",
+        "source_center_root_mm": [
+          625.7461729908246,
+          112.35085383481051,
+          0.0
+        ],
+        "source_radius_mm": 4.0,
+        "world_xz_from_native_mm_to_m": [
+          0.0337464663087958,
+          1.0278640772604062
+        ]
+      },
+      "source_axis_offset_mm": 0.007678724238958496,
+      "native_geometry_altered": false,
+      "axial_stack_confirmed": false
+    }
+  ],
+  "as_built": false,
+  "pin_diameter_measured": false
+}

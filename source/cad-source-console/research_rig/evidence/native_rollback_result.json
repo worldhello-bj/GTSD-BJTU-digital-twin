@@ -1,0 +1,7 @@
+{
+  "exact_native_checkpoint_restoration": true,
+  "phase": "error",
+  "outcome": "rolled_back",
+  "restored_steps": 0,
+  "failure": "Run rolled back: injected after native state and ledger mutation"
+}

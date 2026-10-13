@@ -1,0 +1,2043 @@
+{
+  "source": "native_records.sqlite read-only",
+  "source_dxf_sha256": "f45c517fa9a2e5059742f855b94f8eca842c97abd9b54c6b027a3ce8d18cb5e2",
+  "record_count": 18,
+  "records": [
+    {
+      "handle": "4EE17",
+      "type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "metadata": {
+        "record_id": 201298,
+        "handle": "4EE17",
+        "section": "ENTITIES",
+        "entity_type": "LWPOLYLINE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8148061,
+        "source_end_line": 8148088,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     6",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "native_tags": [
+        [
+          "0",
+          "LWPOLYLINE"
+        ],
+        [
+          "5",
+          "4EE17"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     6"
+        ],
+        [
+          "100",
+          "AcDbPolyline"
+        ],
+        [
+          "90",
+          "        2"
+        ],
+        [
+          "70",
+          "     0"
+        ],
+        [
+          "43",
+          "0.0"
+        ],
+        [
+          "10",
+          "40155.43975652942"
+        ],
+        [
+          "20",
+          "40569.81009102589"
+        ],
+        [
+          "10",
+          "30208.08424223549"
+        ],
+        [
+          "20",
+          "40569.81009102605"
+        ]
+      ]
+    },
+    {
+      "handle": "4EE18",
+      "type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "metadata": {
+        "record_id": 201299,
+        "handle": "4EE18",
+        "section": "ENTITIES",
+        "entity_type": "LWPOLYLINE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8148089,
+        "source_end_line": 8148116,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     6",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "native_tags": [
+        [
+          "0",
+          "LWPOLYLINE"
+        ],
+        [
+          "5",
+          "4EE18"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     6"
+        ],
+        [
+          "100",
+          "AcDbPolyline"
+        ],
+        [
+          "90",
+          "        2"
+        ],
+        [
+          "70",
+          "     0"
+        ],
+        [
+          "43",
+          "0.0"
+        ],
+        [
+          "10",
+          "30208.08424223549"
+        ],
+        [
+          "20",
+          "40574.81009102605"
+        ],
+        [
+          "10",
+          "40155.43975652942"
+        ],
+        [
+          "20",
+          "40574.81009102589"
+        ]
+      ]
+    },
+    {
+      "handle": "3A9A3",
+      "type": "CIRCLE",
+      "definition_block": "zw$B535",
+      "metadata": {
+        "record_id": 188965,
+        "handle": "3A9A3",
+        "section": "BLOCKS",
+        "entity_type": "CIRCLE",
+        "definition_block": "zw$B535",
+        "owner_handle": "3A99E",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 7537989,
+        "source_end_line": 7538010,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     3",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "native_tags": [
+        [
+          "0",
+          "CIRCLE"
+        ],
+        [
+          "5",
+          "3A9A3"
+        ],
+        [
+          "330",
+          "3A99E"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     3"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "9.0"
+        ],
+        [
+          "20",
+          "25.8372093023354"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "3.0"
+        ]
+      ]
+    },
+    {
+      "handle": "3A9A2",
+      "type": "LWPOLYLINE",
+      "definition_block": "zw$B535",
+      "metadata": {
+        "record_id": 188964,
+        "handle": "3A9A2",
+        "section": "BLOCKS",
+        "entity_type": "LWPOLYLINE",
+        "definition_block": "zw$B535",
+        "owner_handle": "3A99E",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 7537937,
+        "source_end_line": 7537988,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     3",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "native_tags": [
+        [
+          "0",
+          "LWPOLYLINE"
+        ],
+        [
+          "5",
+          "3A9A2"
+        ],
+        [
+          "330",
+          "3A99E"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     3"
+        ],
+        [
+          "100",
+          "AcDbPolyline"
+        ],
+        [
+          "90",
+          "        8"
+        ],
+        [
+          "70",
+          "     1"
+        ],
+        [
+          "43",
+          "0.0"
+        ],
+        [
+          "10",
+          "12.0"
+        ],
+        [
+          "20",
+          "50.0"
+        ],
+        [
+          "10",
+          "16.5"
+        ],
+        [
+          "20",
+          "50.0"
+        ],
+        [
+          "10",
+          "16.5"
+        ],
+        [
+          "20",
+          "0.0"
+        ],
+        [
+          "10",
+          "1.5"
+        ],
+        [
+          "20",
+          "0.0"
+        ],
+        [
+          "10",
+          "1.5"
+        ],
+        [
+          "20",
+          "50.0"
+        ],
+        [
+          "10",
+          "6.0"
+        ],
+        [
+          "20",
+          "50.0"
+        ],
+        [
+          "10",
+          "6.0"
+        ],
+        [
+          "20",
+          "54.0"
+        ],
+        [
+          "10",
+          "12.0"
+        ],
+        [
+          "20",
+          "54.0"
+        ]
+      ]
+    },
+    {
+      "handle": "3A99A",
+      "type": "LWPOLYLINE",
+      "definition_block": "zw$8A2C",
+      "metadata": {
+        "record_id": 188959,
+        "handle": "3A99A",
+        "section": "BLOCKS",
+        "entity_type": "LWPOLYLINE",
+        "definition_block": "zw$8A2C",
+        "owner_handle": "3A995",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 7537783,
+        "source_end_line": 7537818,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     3",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "native_tags": [
+        [
+          "0",
+          "LWPOLYLINE"
+        ],
+        [
+          "5",
+          "3A99A"
+        ],
+        [
+          "330",
+          "3A995"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     3"
+        ],
+        [
+          "100",
+          "AcDbPolyline"
+        ],
+        [
+          "90",
+          "        4"
+        ],
+        [
+          "70",
+          "     1"
+        ],
+        [
+          "43",
+          "0.0"
+        ],
+        [
+          "10",
+          "4.0"
+        ],
+        [
+          "20",
+          "0.0"
+        ],
+        [
+          "10",
+          "22.0"
+        ],
+        [
+          "20",
+          "0.0"
+        ],
+        [
+          "10",
+          "22.0"
+        ],
+        [
+          "20",
+          "4.0"
+        ],
+        [
+          "10",
+          "4.0"
+        ],
+        [
+          "20",
+          "4.0"
+        ]
+      ]
+    },
+    {
+      "handle": "3A99B",
+      "type": "LWPOLYLINE",
+      "definition_block": "zw$8A2C",
+      "metadata": {
+        "record_id": 188960,
+        "handle": "3A99B",
+        "section": "BLOCKS",
+        "entity_type": "LWPOLYLINE",
+        "definition_block": "zw$8A2C",
+        "owner_handle": "3A995",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 7537819,
+        "source_end_line": 7537856,
+        "raw_layer": "0",
+        "raw_linetype": "VERDECKT",
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     3",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "native_tags": [
+        [
+          "0",
+          "LWPOLYLINE"
+        ],
+        [
+          "5",
+          "3A99B"
+        ],
+        [
+          "330",
+          "3A995"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "6",
+          "VERDECKT"
+        ],
+        [
+          "62",
+          "     3"
+        ],
+        [
+          "100",
+          "AcDbPolyline"
+        ],
+        [
+          "90",
+          "        4"
+        ],
+        [
+          "70",
+          "     1"
+        ],
+        [
+          "43",
+          "0.0"
+        ],
+        [
+          "10",
+          "0.0"
+        ],
+        [
+          "20",
+          "28.0"
+        ],
+        [
+          "10",
+          "4.0"
+        ],
+        [
+          "20",
+          "28.0"
+        ],
+        [
+          "10",
+          "4.0"
+        ],
+        [
+          "20",
+          "22.0"
+        ],
+        [
+          "10",
+          "0.0"
+        ],
+        [
+          "20",
+          "22.0"
+        ]
+      ]
+    },
+    {
+      "handle": "3A9BA",
+      "type": "LWPOLYLINE",
+      "definition_block": "zw$A3AD",
+      "metadata": {
+        "record_id": 188979,
+        "handle": "3A9BA",
+        "section": "BLOCKS",
+        "entity_type": "LWPOLYLINE",
+        "definition_block": "zw$A3AD",
+        "owner_handle": "3A9B6",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 7538459,
+        "source_end_line": 7538494,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     2",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "native_tags": [
+        [
+          "0",
+          "LWPOLYLINE"
+        ],
+        [
+          "5",
+          "3A9BA"
+        ],
+        [
+          "330",
+          "3A9B6"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     2"
+        ],
+        [
+          "100",
+          "AcDbPolyline"
+        ],
+        [
+          "90",
+          "        4"
+        ],
+        [
+          "70",
+          "     1"
+        ],
+        [
+          "43",
+          "0.0"
+        ],
+        [
+          "10",
+          "0.0"
+        ],
+        [
+          "20",
+          "60.24596639400261"
+        ],
+        [
+          "10",
+          "40.0"
+        ],
+        [
+          "20",
+          "60.24596639400261"
+        ],
+        [
+          "10",
+          "40.0"
+        ],
+        [
+          "20",
+          "55.24596639400261"
+        ],
+        [
+          "10",
+          "0.0"
+        ],
+        [
+          "20",
+          "55.24596639400261"
+        ]
+      ]
+    },
+    {
+      "handle": "3A9B1",
+      "type": "LWPOLYLINE",
+      "definition_block": "zw$7557",
+      "metadata": {
+        "record_id": 188973,
+        "handle": "3A9B1",
+        "section": "BLOCKS",
+        "entity_type": "LWPOLYLINE",
+        "definition_block": "zw$7557",
+        "owner_handle": "3A9AD",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 7538175,
+        "source_end_line": 7538350,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "native_tags": [
+        [
+          "0",
+          "LWPOLYLINE"
+        ],
+        [
+          "5",
+          "3A9B1"
+        ],
+        [
+          "330",
+          "3A9AD"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbPolyline"
+        ],
+        [
+          "90",
+          "       26"
+        ],
+        [
+          "70",
+          "     1"
+        ],
+        [
+          "43",
+          "0.0"
+        ],
+        [
+          "10",
+          "234.9817489580964"
+        ],
+        [
+          "20",
+          "7.275957614183426E-12"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "229.8817489580979"
+        ],
+        [
+          "20",
+          "7.275957614183426E-12"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "229.8817489580979"
+        ],
+        [
+          "20",
+          "19.31067254325171"
+        ],
+        [
+          "42",
+          "0.3768888546082999"
+        ],
+        [
+          "10",
+          "225.5254268079552"
+        ],
+        [
+          "20",
+          "24.26906732640782"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "36.12281359369808"
+        ],
+        [
+          "20",
+          "48.85651390203566"
+        ],
+        [
+          "42",
+          "0.204238490054556"
+        ],
+        [
+          "10",
+          "28.57262203559731"
+        ],
+        [
+          "20",
+          "46.73567758154968"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "18.95253373942614"
+        ],
+        [
+          "20",
+          "39.00743293434061"
+        ],
+        [
+          "42",
+          "-0.3775615493645431"
+        ],
+        [
+          "10",
+          "16.31160501205159"
+        ],
+        [
+          "20",
+          "39.12702218358754"
+        ],
+        [
+          "42",
+          "0.6865383430435088"
+        ],
+        [
+          "10",
+          "6.014256870108511"
+        ],
+        [
+          "20",
+          "34.32961896828056"
+        ],
+        [
+          "42",
+          "0.6865383430435088"
+        ],
+        [
+          "10",
+          "16.87003436914165"
+        ],
+        [
+          "20",
+          "30.98259771676385"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "16.87003436913801"
+        ],
+        [
+          "20",
+          "30.98259771676385"
+        ],
+        [
+          "42",
+          "-0.2299802578752413"
+        ],
+        [
+          "10",
+          "18.44189408666352"
+        ],
+        [
+          "20",
+          "31.74596639400261"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "20.84645989066848"
+        ],
+        [
+          "20",
+          "31.74596639400261"
+        ],
+        [
+          "42",
+          "-0.5757036643135683"
+        ],
+        [
+          "10",
+          "22.58343285216688"
+        ],
+        [
+          "20",
+          "28.75454068774707"
+        ],
+        [
+          "42",
+          "-1.133248989436901"
+        ],
+        [
+          "10",
+          "3.394194626969693"
+        ],
+        [
+          "20",
+          "43.14401403625379"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "15.08648448080567"
+        ],
+        [
+          "20",
+          "55.24596639400261"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "20.08648448080567"
+        ],
+        [
+          "20",
+          "55.24596639400261"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "20.08648448080567"
+        ],
+        [
+          "20",
+          "60.24596639400261"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "15.08648448080567"
+        ],
+        [
+          "20",
+          "60.24596639400261"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "15.08648448080567"
+        ],
+        [
+          "20",
+          "65.24596639400261"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "25.74273308474949"
+        ],
+        [
+          "20",
+          "65.24596639400261"
+        ],
+        [
+          "42",
+          "-0.0322846682895989"
+        ],
+        [
+          "10",
+          "27.03008878448236"
+        ],
+        [
+          "20",
+          "65.16275596030755"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "231.8127825076917"
+        ],
+        [
+          "20",
+          "38.57873235004081"
+        ],
+        [
+          "42",
+          "-0.3768888546083542"
+        ],
+        [
+          "10",
+          "244.8817489581088"
+        ],
+        [
+          "20",
+          "23.70354800057248"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "244.8817489580979"
+        ],
+        [
+          "20",
+          "0.0"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "239.7817489580993"
+        ],
+        [
+          "20",
+          "0.0"
+        ],
+        [
+          "42",
+          "1.499999999997551"
+        ]
+      ]
+    },
+    {
+      "handle": "3BD17",
+      "type": "LWPOLYLINE",
+      "definition_block": "zw$4079",
+      "metadata": {
+        "record_id": 193912,
+        "handle": "3BD17",
+        "section": "BLOCKS",
+        "entity_type": "LWPOLYLINE",
+        "definition_block": "zw$4079",
+        "owner_handle": "3BD13",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 7854339,
+        "source_end_line": 7854374,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     7",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "native_tags": [
+        [
+          "0",
+          "LWPOLYLINE"
+        ],
+        [
+          "5",
+          "3BD17"
+        ],
+        [
+          "330",
+          "3BD13"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     7"
+        ],
+        [
+          "100",
+          "AcDbPolyline"
+        ],
+        [
+          "90",
+          "        4"
+        ],
+        [
+          "70",
+          "     0"
+        ],
+        [
+          "43",
+          "0.0"
+        ],
+        [
+          "10",
+          "1.000080374069512E-08"
+        ],
+        [
+          "20",
+          "528.0359480177576"
+        ],
+        [
+          "10",
+          "1.000080374069512E-08"
+        ],
+        [
+          "20",
+          "5.000000009997166"
+        ],
+        [
+          "10",
+          "5.000000010000804"
+        ],
+        [
+          "20",
+          "5.000000009997166"
+        ],
+        [
+          "10",
+          "5.000000010000804"
+        ],
+        [
+          "20",
+          "528.0359480177576"
+        ]
+      ]
+    },
+    {
+      "handle": "3BD18",
+      "type": "CIRCLE",
+      "definition_block": "zw$4079",
+      "metadata": {
+        "record_id": 193913,
+        "handle": "3BD18",
+        "section": "BLOCKS",
+        "entity_type": "CIRCLE",
+        "definition_block": "zw$4079",
+        "owner_handle": "3BD13",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 7854375,
+        "source_end_line": 7854396,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     7",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "native_tags": [
+        [
+          "0",
+          "CIRCLE"
+        ],
+        [
+          "5",
+          "3BD18"
+        ],
+        [
+          "330",
+          "3BD13"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     7"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "2.500000010000804"
+        ],
+        [
+          "20",
+          "528.0359480177576"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "2.5"
+        ]
+      ]
+    },
+    {
+      "handle": "3BD19",
+      "type": "CIRCLE",
+      "definition_block": "zw$4079",
+      "metadata": {
+        "record_id": 193914,
+        "handle": "3BD19",
+        "section": "BLOCKS",
+        "entity_type": "CIRCLE",
+        "definition_block": "zw$4079",
+        "owner_handle": "3BD13",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 7854397,
+        "source_end_line": 7854418,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     7",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "native_tags": [
+        [
+          "0",
+          "CIRCLE"
+        ],
+        [
+          "5",
+          "3BD19"
+        ],
+        [
+          "330",
+          "3BD13"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     7"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "2.500000010000804"
+        ],
+        [
+          "20",
+          "2.500000009997166"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "2.5"
+        ]
+      ]
+    },
+    {
+      "handle": "50DF8",
+      "type": "INSERT",
+      "definition_block": "*Model_Space",
+      "metadata": {
+        "record_id": 202301,
+        "handle": "50DF8",
+        "section": "ENTITIES",
+        "entity_type": "INSERT",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8213503,
+        "source_end_line": 8213524,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null,
+        "child_block": "zw$4079",
+        "row_count": 1,
+        "column_count": 1,
+        "row_spacing_mm": 0.0,
+        "column_spacing_mm": 0.0,
+        "native_insert_mm": [
+          49415.41332445672,
+          40039.27499804073,
+          0.0
+        ],
+        "scale_xyz": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_degrees": 0.0,
+        "extrusion": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "native_tags": [
+        [
+          "0",
+          "INSERT"
+        ],
+        [
+          "5",
+          "50DF8"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbBlockReference"
+        ],
+        [
+          "2",
+          "zw$4079"
+        ],
+        [
+          "10",
+          "49415.41332445672"
+        ],
+        [
+          "20",
+          "40039.27499804073"
+        ],
+        [
+          "30",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "5140D",
+      "type": "INSERT",
+      "definition_block": "*Model_Space",
+      "metadata": {
+        "record_id": 203451,
+        "handle": "5140D",
+        "section": "ENTITIES",
+        "entity_type": "INSERT",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8283075,
+        "source_end_line": 8283096,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null,
+        "child_block": "zw$4079",
+        "row_count": 1,
+        "column_count": 1,
+        "row_spacing_mm": 0.0,
+        "column_spacing_mm": 0.0,
+        "native_insert_mm": [
+          46636.0362677309,
+          40039.27499804073,
+          0.0
+        ],
+        "scale_xyz": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_degrees": 0.0,
+        "extrusion": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "native_tags": [
+        [
+          "0",
+          "INSERT"
+        ],
+        [
+          "5",
+          "5140D"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbBlockReference"
+        ],
+        [
+          "2",
+          "zw$4079"
+        ],
+        [
+          "10",
+          "46636.0362677309"
+        ],
+        [
+          "20",
+          "40039.27499804073"
+        ],
+        [
+          "30",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "50DF4",
+      "type": "INSERT",
+      "definition_block": "*Model_Space",
+      "metadata": {
+        "record_id": 202297,
+        "handle": "50DF4",
+        "section": "ENTITIES",
+        "entity_type": "INSERT",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8213411,
+        "source_end_line": 8213432,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null,
+        "child_block": "zw$F643",
+        "row_count": 1,
+        "column_count": 1,
+        "row_spacing_mm": 0.0,
+        "column_spacing_mm": 0.0,
+        "native_insert_mm": [
+          49160.61805998943,
+          40040.77499805073,
+          0.0
+        ],
+        "scale_xyz": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_degrees": 0.0,
+        "extrusion": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "native_tags": [
+        [
+          "0",
+          "INSERT"
+        ],
+        [
+          "5",
+          "50DF4"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbBlockReference"
+        ],
+        [
+          "2",
+          "zw$F643"
+        ],
+        [
+          "10",
+          "49160.61805998943"
+        ],
+        [
+          "20",
+          "40040.77499805073"
+        ],
+        [
+          "30",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "51409",
+      "type": "INSERT",
+      "definition_block": "*Model_Space",
+      "metadata": {
+        "record_id": 203447,
+        "handle": "51409",
+        "section": "ENTITIES",
+        "entity_type": "INSERT",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8282977,
+        "source_end_line": 8283004,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null,
+        "child_block": "zw$F643",
+        "row_count": 1,
+        "column_count": 1,
+        "row_spacing_mm": 0.0,
+        "column_spacing_mm": 0.0,
+        "native_insert_mm": [
+          46895.83153221819,
+          40040.77499805073,
+          0.0
+        ],
+        "scale_xyz": [
+          -1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_degrees": 0.0,
+        "extrusion": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "native_tags": [
+        [
+          "0",
+          "INSERT"
+        ],
+        [
+          "5",
+          "51409"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbBlockReference"
+        ],
+        [
+          "2",
+          "zw$F643"
+        ],
+        [
+          "10",
+          "46895.83153221819"
+        ],
+        [
+          "20",
+          "40040.77499805073"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "41",
+          "-1.0"
+        ],
+        [
+          "42",
+          "1.0"
+        ],
+        [
+          "43",
+          "1.0"
+        ]
+      ]
+    },
+    {
+      "handle": "3A92C",
+      "type": "LWPOLYLINE",
+      "definition_block": "zw$9389",
+      "metadata": {
+        "record_id": 188873,
+        "handle": "3A92C",
+        "section": "BLOCKS",
+        "entity_type": "LWPOLYLINE",
+        "definition_block": "zw$9389",
+        "owner_handle": "3A928",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 7535231,
+        "source_end_line": 7535310,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     3",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "native_tags": [
+        [
+          "0",
+          "LWPOLYLINE"
+        ],
+        [
+          "5",
+          "3A92C"
+        ],
+        [
+          "330",
+          "3A928"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     3"
+        ],
+        [
+          "100",
+          "AcDbPolyline"
+        ],
+        [
+          "90",
+          "       10"
+        ],
+        [
+          "70",
+          "     1"
+        ],
+        [
+          "43",
+          "0.0"
+        ],
+        [
+          "10",
+          "0.0"
+        ],
+        [
+          "20",
+          "0.0"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "0.0"
+        ],
+        [
+          "20",
+          "3.0"
+        ],
+        [
+          "42",
+          "-0.4142135623724558"
+        ],
+        [
+          "10",
+          "5.0"
+        ],
+        [
+          "20",
+          "8.0"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "31.0"
+        ],
+        [
+          "20",
+          "8.0"
+        ],
+        [
+          "42",
+          "-0.4142135623724557"
+        ],
+        [
+          "10",
+          "36.0"
+        ],
+        [
+          "20",
+          "3.0"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "36.0"
+        ],
+        [
+          "20",
+          "0.0"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "28.55147016443516"
+        ],
+        [
+          "20",
+          "0.0"
+        ],
+        [
+          "42",
+          "0.8230548917531353"
+        ],
+        [
+          "10",
+          "23.44852983556484"
+        ],
+        [
+          "20",
+          "0.0"
+        ],
+        [
+          "42",
+          "0.0"
+        ],
+        [
+          "10",
+          "12.55147016443516"
+        ],
+        [
+          "20",
+          "0.0"
+        ],
+        [
+          "42",
+          "0.8230548917531353"
+        ],
+        [
+          "10",
+          "7.448529835564841"
+        ],
+        [
+          "20",
+          "0.0"
+        ],
+        [
+          "42",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "3A97C",
+      "type": "LWPOLYLINE",
+      "definition_block": "zw$C4D1",
+      "metadata": {
+        "record_id": 188941,
+        "handle": "3A97C",
+        "section": "BLOCKS",
+        "entity_type": "LWPOLYLINE",
+        "definition_block": "zw$C4D1",
+        "owner_handle": "3A94A",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 7537307,
+        "source_end_line": 7537342,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "native_tags": [
+        [
+          "0",
+          "LWPOLYLINE"
+        ],
+        [
+          "5",
+          "3A97C"
+        ],
+        [
+          "330",
+          "3A94A"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbPolyline"
+        ],
+        [
+          "90",
+          "        4"
+        ],
+        [
+          "70",
+          "     1"
+        ],
+        [
+          "43",
+          "0.0"
+        ],
+        [
+          "10",
+          "29.59999999999854"
+        ],
+        [
+          "20",
+          "64.0"
+        ],
+        [
+          "10",
+          "34.59999999999854"
+        ],
+        [
+          "20",
+          "64.0"
+        ],
+        [
+          "10",
+          "34.59999999999854"
+        ],
+        [
+          "20",
+          "34.0"
+        ],
+        [
+          "10",
+          "29.59999999999854"
+        ],
+        [
+          "20",
+          "34.0"
+        ]
+      ]
+    },
+    {
+      "handle": "3A985",
+      "type": "LWPOLYLINE",
+      "definition_block": "zw$4AEC",
+      "metadata": {
+        "record_id": 188947,
+        "handle": "3A985",
+        "section": "BLOCKS",
+        "entity_type": "LWPOLYLINE",
+        "definition_block": "zw$4AEC",
+        "owner_handle": "3A97F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 7537453,
+        "source_end_line": 7537488,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "native_tags": [
+        [
+          "0",
+          "LWPOLYLINE"
+        ],
+        [
+          "5",
+          "3A985"
+        ],
+        [
+          "330",
+          "3A97F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbPolyline"
+        ],
+        [
+          "90",
+          "        4"
+        ],
+        [
+          "70",
+          "     1"
+        ],
+        [
+          "43",
+          "0.0"
+        ],
+        [
+          "10",
+          "15.5"
+        ],
+        [
+          "20",
+          "64.0"
+        ],
+        [
+          "10",
+          "20.5"
+        ],
+        [
+          "20",
+          "64.0"
+        ],
+        [
+          "10",
+          "20.5"
+        ],
+        [
+          "20",
+          "34.0"
+        ],
+        [
+          "10",
+          "15.5"
+        ],
+        [
+          "20",
+          "34.0"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "runtime": {
+    "mujoco": "3.3.7",
+    "numpy": "2.2.6"
+  },
+  "audited_sha256": {
+    "plant.py": "d25ec02993e81e0598bd88dbd5fe456be069fa35c73b266d2ce0332bf41a9d63",
+    "session.py": "b3c2bddbc233eaa2dfeb87447cdced602e4bdbcb00c0dff22e299300b7bbedc1",
+    "server.py": "c1d8900a777953b24e8c40fc1f0dd48f247a82a37e6b3a3cb2c5582918539651",
+    "build_rig.py": "0dada720438f2ac199a8ed3a1fe4bb8b184ebcc2bf8a6ccebf1d0079fade57e0",
+    "build_contact_rig.py": "6ff380084c7f3f0aa60e1576b234c1f3f699d8ffc8186c2d52134a8b1a9ec10d",
+    "mass_properties.py": "e4c99fac7b363f6342321c710c41b886697c4bdff28392c77abfea4b1eabc913",
+    "contact_adapter.py": "b1b6df9357ef472314c97eff38488ce065bd1d9515792e83d5b8b282fcf1b42f",
+    "web/core.js": "8957d558a93fb228dc162341e5b4ee362e2e009bcc0b4964be7b83b14b466724",
+    "web/app.js": "f6c271affa5ddd82501794b00981eaf8a670ee15641fa96e6316a70163233998"
+  },
+  "modes": {
+    "mount_only": {
+      "identity": "d51bccc4a9dafea3a4922679fd75ec341c2832d70d711448b2fa5c228cb04810",
+      "native_body_count": 15,
+      "bindings": 33,
+      "source_mass_owners": 33,
+      "native_geom_count": 0,
+      "total_mass_kg": 108.06692787530325,
+      "max_native_source_mass_error_kg": 0.0,
+      "max_native_source_inertia_error_kg_m2": 4.9823279143872135e-09,
+      "max_relative_inertia_error": 4.059747080665465e-07,
+      "collision_mass_ownership": "all explicit zero; compiler inertiafromgeom false"
+    },
+    "nominal_d5": {
+      "identity": "44951770fc48fb7c831ab6c80b9349fdf0a4c508d08c96cbb6d50e003d99c2e8",
+      "native_body_count": 17,
+      "bindings": 35,
+      "source_mass_owners": 35,
+      "native_geom_count": 950,
+      "total_mass_kg": 108.32500257046988,
+      "max_native_source_mass_error_kg": 0.0,
+      "max_native_source_inertia_error_kg_m2": 4.9823279143872135e-09,
+      "max_relative_inertia_error": 4.059747080665465e-07,
+      "collision_mass_ownership": "all explicit zero; compiler inertiafromgeom false"
+    },
+    "research_d4p98": {
+      "identity": "19d7d7d9c23e5b602abddd5f416cec46dbe014a06bfdf78a47ae550965002bf4",
+      "native_body_count": 17,
+      "bindings": 35,
+      "source_mass_owners": 35,
+      "native_geom_count": 950,
+      "total_mass_kg": 108.32490414008291,
+      "max_native_source_mass_error_kg": 0.0,
+      "max_native_source_inertia_error_kg_m2": 4.9823279143872135e-09,
+      "max_relative_inertia_error": 4.059747080665465e-07,
+      "collision_mass_ownership": "all explicit zero; compiler inertiafromgeom false"
+    }
+  },
+  "findings": [],
+  "complete_D4p98_geometry": [
+    {
+      "mesh": "RESEARCH_D4p98_FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+      "source_to_native_vertex_hausdorff_m": 1.9499983280821215e-10,
+      "mass_ratio_to_nominal": 0.9920159999999788,
+      "expected_circular_area_ratio": 0.9920160000000002
+    },
+    {
+      "mesh": "RESEARCH_D4p98_FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+      "source_to_native_vertex_hausdorff_m": 3.585257133840432e-10,
+      "mass_ratio_to_nominal": 0.992015999999995,
+      "expected_circular_area_ratio": 0.9920160000000002
+    }
+  ],
+  "contact_accounting": {
+    "native_steps": 60,
+    "max_generalized_force_closure_N_or_Nm": 3.3306690738754696e-16,
+    "max_contacts": 8,
+    "checkpoint_full_native_exact": true,
+    "replay_full_native_exact": true,
+    "replay_snapshot_and_ledgers_exact": true
+  },
+  "existing_gravity_evidence": {
+    "path": "external_diagnostic_record/checkpoint_and_samples.json.gz",
+    "stored_identity": "f38420323578c835048a8fa02447c7fc5bfeadeab678cf5ea7e24ccf357309c6",
+    "current_identity": "f38420323578c835048a8fa02447c7fc5bfeadeab678cf5ea7e24ccf357309c6",
+    "identity_matches": true,
+    "full_native_checkpoint_exact": true
+  },
+  "source_body_transform": {
+    "fixtures": 35,
+    "max_abs_vertex_error_m": 4.440892098500626e-16
+  },
+  "native_async_console": {
+    "completed_steps_before_pause": 2,
+    "outcome": "paused",
+    "repeated_run_exact_cached": true,
+    "no_steps_after_pause": true,
+    "stale_revision_rejected": true,
+    "changed_id_payload_rejected": true
+  },
+  "audited_sha256_after": {
+    "plant.py": "d25ec02993e81e0598bd88dbd5fe456be069fa35c73b266d2ce0332bf41a9d63",
+    "session.py": "b3c2bddbc233eaa2dfeb87447cdced602e4bdbcb00c0dff22e299300b7bbedc1",
+    "server.py": "c1d8900a777953b24e8c40fc1f0dd48f247a82a37e6b3a3cb2c5582918539651",
+    "build_rig.py": "0dada720438f2ac199a8ed3a1fe4bb8b184ebcc2bf8a6ccebf1d0079fade57e0",
+    "build_contact_rig.py": "6ff380084c7f3f0aa60e1576b234c1f3f699d8ffc8186c2d52134a8b1a9ec10d",
+    "mass_properties.py": "e4c99fac7b363f6342321c710c41b886697c4bdff28392c77abfea4b1eabc913",
+    "contact_adapter.py": "b1b6df9357ef472314c97eff38488ce065bd1d9515792e83d5b8b282fcf1b42f",
+    "web/core.js": "8957d558a93fb228dc162341e5b4ee362e2e009bcc0b4964be7b83b14b466724",
+    "web/app.js": "f6c271affa5ddd82501794b00981eaf8a670ee15641fa96e6316a70163233998"
+  }
+}

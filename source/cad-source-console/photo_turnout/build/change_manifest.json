@@ -1,0 +1,318 @@
+{
+  "schema": "gtsd-photo-turnout-change-manifest-v1",
+  "candidate_id": "photo7_finite_frog_layered_support_v1",
+  "base_commit": "ae463b951f831fb552bcd46f3528b4c10c1cf355",
+  "source_scene_mesh_count": 1928,
+  "remove": [
+    {
+      "name": "DETAIL_BENCH_turnout_inner_left_segment",
+      "expected_geometry_witness_sha256": "2d3970c6ac3aa9d3b47f211b224ad20978a2e738ec40ce3b1ade65ad74b76831"
+    },
+    {
+      "name": "ENV_main_rail_1",
+      "expected_geometry_witness_sha256": "6f1b4aa295a5906ea3ce9c9124e4436bbf563bbb3df5f1c3cc40d04158a51552"
+    },
+    {
+      "name": "ENV_main_rail_top_1",
+      "expected_geometry_witness_sha256": "fe68b567629734dfe39e80ffdc499fdba6d67fd36544f527bf32391a51ddef46"
+    },
+    {
+      "name": "CAD_TRACK_REV_inner_right_native_xy",
+      "expected_geometry_witness_sha256": "25ddc2d414adb9d294487b2de85979745023862ef6c84de4e8833b2b436afbbc"
+    },
+    {
+      "name": "CAD_TRACK_REV_photo_chair_003_source_station",
+      "expected_geometry_witness_sha256": "09e8113e99dca8ffbefb70c3d07e577dbdfae3d9c59e68358fe19f0a6228609c"
+    },
+    {
+      "name": "CAD_TRACK_REV_photo_chair_005_source_station",
+      "expected_geometry_witness_sha256": "e5ca56a2f4cb1ebd9eb8065500067c5bc4201c80b085d9fa58470e98132a9607"
+    },
+    {
+      "name": "CAD_TRACK_REV_photo_chair_011_source_station",
+      "expected_geometry_witness_sha256": "fbf1d62601c99251aa14404729f61604a8588b64be8944dcf8ff8f7380ec3c09"
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_01_1",
+      "expected_geometry_witness_sha256": "986f7416f76916ac80bc1482485803b2f522f5ce0b3cd4c26ce29c2e38e47eac"
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_02_1",
+      "expected_geometry_witness_sha256": "445bdc82245224da36d5d3f0a15a9cf878039636e7426a4e7163cac92b56b68f"
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_05_2",
+      "expected_geometry_witness_sha256": "e34978cca126ebd036dc32acb6abcfe67429df0e435a70fd209b10e05de1970e"
+    },
+    {
+      "name": "FIT_TRACK_station03_common_support",
+      "expected_geometry_witness_sha256": "c599c935095294f86866c3ad408d3738ec511388bb23e0bbd2a666e9dfaba2a3"
+    }
+  ],
+  "add": [
+    {
+      "name": "PHOTO_FROG_source_finite_V",
+      "geometry_content_sha256": "a0d88bf89800ff092f7e732b5d55ea7648c99773c3e9c49193f902d7da7dbe91",
+      "role": "frog"
+    },
+    {
+      "name": "PHOTO_WING_lower_source_chain",
+      "geometry_content_sha256": "fcd9ee2641805d4c91e5af886291e1203d3c1e945167dff7f80b08df2daf802e",
+      "role": "wing"
+    },
+    {
+      "name": "PHOTO_WING_upper_source_chain",
+      "geometry_content_sha256": "a66710513b016f2bc2669c24007b210e61449280d4ee5b263739b7de1a5dd3ac",
+      "role": "wing"
+    },
+    {
+      "name": "PHOTO_SUPPORT_separate_long_plate",
+      "geometry_content_sha256": "4401994b5e5f960e888a346945c88d45541cbbb65c698efdd371eaa7cf58999a",
+      "role": "long_plate"
+    },
+    {
+      "name": "PHOTO_SUPPORT_pad_01",
+      "geometry_content_sha256": "79e1a587bba0efcff1f05dc9e5db3dfb48c052c32b44cfd7986d10e7c766df54",
+      "role": "pad"
+    },
+    {
+      "name": "PHOTO_SUPPORT_pad_02",
+      "geometry_content_sha256": "ece3418b251e9094e6730949fd59ba88f64adddda8b14e8413b6d932eccf3433",
+      "role": "pad"
+    },
+    {
+      "name": "PHOTO_SUPPORT_pad_03",
+      "geometry_content_sha256": "8edd0e8ad798ad5976eb96944271886b1ebd170f3f18105a10ea8d386936c915",
+      "role": "pad"
+    },
+    {
+      "name": "PHOTO_SUPPORT_pad_04",
+      "geometry_content_sha256": "e99614b6666e870bc2688a55b3b658c6e709da9ef5563bddf2c266b401a75918",
+      "role": "pad"
+    },
+    {
+      "name": "PHOTO_SUPPORT_pad_05",
+      "geometry_content_sha256": "e4527c79d0595f9c8e064d0c4ac83de4853f2e84b61e2f71d48258f7104851c5",
+      "role": "pad"
+    },
+    {
+      "name": "PHOTO_RETAIN_right_ENV_main_rail_1",
+      "geometry_content_sha256": "c6feff3dc2cc897a8ca276cc4f47115ac2d7d9887caf239ce1228fd59f77c333",
+      "role": "unchanged_source_remainder"
+    },
+    {
+      "name": "PHOTO_RETAIN_right_ENV_main_rail_top_1",
+      "geometry_content_sha256": "9468337f3708143c79c973a65eef1f5c8a2e7b27e7ec9e5c514a13ede27ddc00",
+      "role": "unchanged_source_remainder"
+    },
+    {
+      "name": "PHOTO_RETAIN_right_CAD_TRACK_REV_inner_right_native_xy",
+      "geometry_content_sha256": "a6573bd1813ff05e96f87d71da7e0006a57ede34a22589b80087956a9e28d16d",
+      "role": "unchanged_source_remainder"
+    },
+    {
+      "name": "PHOTO_RETAIN_left_ENV_main_rail_1",
+      "geometry_content_sha256": "c74b939559027eeaab6adb4f2e1efc4b562518fc371766f10ab0f9f19ecaa9e9",
+      "role": "unchanged_source_remainder"
+    },
+    {
+      "name": "PHOTO_RETAIN_left_ENV_main_rail_top_1",
+      "geometry_content_sha256": "e58dae2418252b927529fc0c6ecb75ec23d19986fd603158ee99d201a1e2fe55",
+      "role": "unchanged_source_remainder"
+    }
+  ],
+  "after_scene_mesh_count": 1931,
+  "support_replacements": [
+    {
+      "name": "CAD_TRACK_REV_photo_chair_003_source_station",
+      "plate_overlap_area_mm2": 7125.07350743863,
+      "disposition": "replaced_by_separate_plate_and_one_pad_per_retained_sleeper",
+      "original_bounds_m": [
+        [
+          -9.224380742720086,
+          0.2104166652361964,
+          -0.07199999690055847
+        ],
+        [
+          -9.147381078413446,
+          0.30741666809721935,
+          -0.06499999761581421
+        ]
+      ]
+    },
+    {
+      "name": "CAD_TRACK_REV_photo_chair_005_source_station",
+      "plate_overlap_area_mm2": 7125.07350743863,
+      "disposition": "replaced_by_separate_plate_and_one_pad_per_retained_sleeper",
+      "original_bounds_m": [
+        [
+          -9.030559808661328,
+          0.2104166652361963,
+          -0.07199999690055847
+        ],
+        [
+          -8.953560144354688,
+          0.30741666809721924,
+          -0.06499999761581421
+        ]
+      ]
+    },
+    {
+      "name": "CAD_TRACK_REV_photo_chair_011_source_station",
+      "plate_overlap_area_mm2": 7125.07350743863,
+      "disposition": "replaced_by_separate_plate_and_one_pad_per_retained_sleeper",
+      "original_bounds_m": [
+        [
+          -8.449097006485061,
+          0.21041666523619634,
+          -0.07199999690055847
+        ],
+        [
+          -8.37209734217842,
+          0.3074166680972193,
+          -0.06499999761581421
+        ]
+      ]
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_01_1",
+      "plate_overlap_area_mm2": 7125.073507438628,
+      "disposition": "replaced_by_separate_plate_and_one_pad_per_retained_sleeper",
+      "original_bounds_m": [
+        [
+          -9.222213897382828,
+          0.2409068780631496,
+          -0.07199999690055847
+        ],
+        [
+          -9.145214233076187,
+          0.33790688092417254,
+          -0.06499999761581421
+        ]
+      ]
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_02_1",
+      "plate_overlap_area_mm2": 7125.073507438628,
+      "disposition": "replaced_by_separate_plate_and_one_pad_per_retained_sleeper",
+      "original_bounds_m": [
+        [
+          -9.030340912884292,
+          0.2134968014664982,
+          -0.07199999690055847
+        ],
+        [
+          -8.953341248577651,
+          0.31049680432752114,
+          -0.06499999761581421
+        ]
+      ]
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_05_2",
+      "plate_overlap_area_mm2": 7125.07238984017,
+      "disposition": "replaced_by_separate_plate_and_one_pad_per_retained_sleeper",
+      "original_bounds_m": [
+        [
+          -8.454721959388694,
+          0.13126657167654693,
+          -0.07199999690055847
+        ],
+        [
+          -8.377722295082053,
+          0.22826657453756988,
+          -0.06499999761581421
+        ]
+      ]
+    },
+    {
+      "name": "FIT_TRACK_station03_common_support",
+      "plate_overlap_area_mm2": 29884.91627463559,
+      "disposition": "replaced_by_separate_plate_and_one_pad_per_retained_sleeper",
+      "original_bounds_m": [
+        [
+          -8.83846792838576,
+          0.10799999535083771,
+          -0.07199999690055847
+        ],
+        [
+          -8.496498107910156,
+          0.3880000114440918,
+          -0.06499999761581421
+        ]
+      ]
+    }
+  ],
+  "separate_pads": [
+    {
+      "name": "PHOTO_SUPPORT_pad_01",
+      "retained_sleeper": "CAD_TRACK_REV_long_sleeper_01_native_axis",
+      "contact_area_mm2": 18763.376694973853
+    },
+    {
+      "name": "PHOTO_SUPPORT_pad_02",
+      "retained_sleeper": "CAD_TRACK_REV_long_sleeper_02_native_axis",
+      "contact_area_mm2": 17779.794406598478
+    },
+    {
+      "name": "PHOTO_SUPPORT_pad_03",
+      "retained_sleeper": "CAD_TRACK_REV_long_sleeper_03_native_axis",
+      "contact_area_mm2": 16796.212118222684
+    },
+    {
+      "name": "PHOTO_SUPPORT_pad_04",
+      "retained_sleeper": "CAD_TRACK_REV_long_sleeper_04_native_axis",
+      "contact_area_mm2": 15812.629829847012
+    },
+    {
+      "name": "PHOTO_SUPPORT_pad_05",
+      "retained_sleeper": "CAD_TRACK_REV_long_sleeper_05_native_axis",
+      "contact_area_mm2": 14829.047541471067
+    }
+  ],
+  "facts": {
+    "nose_world_mm": [
+      -8692.372752222807,
+      239.16666666669335
+    ],
+    "horizontal_band_width_mm": 39.50000000001455,
+    "diverging_perpendicular_band_width_mm": 39.499999999997414,
+    "lower_slot_horizontal_mm": 15.333333333335759,
+    "upper_slot_perpendicular_mm": 15.33333333333724,
+    "source_boundaries_are_finite": true,
+    "photo_metric_dimensions": [],
+    "all_57_source_curves_retained_in_overlay": true,
+    "photo_to_cad_registration": "REGION_LEVEL_CANDIDATE_NOT_CALIBRATED",
+    "section_choice": "inherited_source_I_section_with_explicit_nose_and_slot_cuts",
+    "rail_z_mm": [
+      -64.99999761581421,
+      0.0
+    ],
+    "long_plate_z_mm": [
+      -69.0,
+      -65.0
+    ],
+    "pad_z_mm": [
+      -72.0,
+      -69.0
+    ],
+    "new_physics": false,
+    "source_track_axes_changed": false
+  },
+  "config_sha256": "9b94e8064e6f00a658432e81d59844cf97c59c705fec221a577c5291fd6c4808",
+  "native_edge_graph_sha256": "b467a648acc949e80eef1fa2638dbd9efaf80a97bbbcfb61f36c0bbbc73e167e",
+  "source_seed_sha256": "b9780aa6addeb126314a1855c6a28e11e777659bd1bc005bc7fe4acfaa4dfe73",
+  "explicit_join_planes_mm": {
+    "main_right": -8323.039418889508,
+    "branch_right": -8326.751312590426,
+    "main_left": -9470.039418889508
+  },
+  "unresolved": [
+    "Photo/world registration, mirror and manufacturing ownership remain candidate-level.",
+    "Wing outer edges, miter/square end caps and all Z sections are engineering choices.",
+    "Source 15.333 mm association is not a photo measurement or certified operational flangeway.",
+    "Source fasteners remain; attachment holes, fastening, end transitions, and conflicts are not auto-resolved.",
+    "Outer guard/base rail overlap is unchanged and still unresolved.",
+    "No load capacity, wheel passage, switch state, as-built or solver certification."
+  ]
+}

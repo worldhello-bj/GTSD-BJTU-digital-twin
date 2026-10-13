@@ -1,0 +1,2666 @@
+{
+  "schema": "gtsd-full-hold-down-actual-material-audit-v1",
+  "completed_utc": "2026-10-13T15:33:56.036458+00:00",
+  "completed_beijing": "2026-10-13T23:33:56.036458+08:00",
+  "full_scene_original_count": 1928,
+  "result_scene_count": 2006,
+  "source_retained_count": 1895,
+  "added_mesh_count": 111,
+  "full_scene_broadphase_pairs": 200870,
+  "missing_from_exact_check": [],
+  "actual_positive_aabb_checks": 235,
+  "positive_material_pairs": [
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_RETAIN_left_ENV_main_rail_1"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.48824768531221413,
+      "estimated_error_mm3": 3.3032904975075508e-09,
+      "slice_evaluations": 1134,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.470074164258815,
+          0.2939466219146484,
+          -0.06499958175277824
+        ],
+        "winding_numbers": [
+          1.0000000000000009,
+          1.0000000000000009
+        ]
+      },
+      "positive": true
+    }
+  ],
+  "actual_mesh_checks": [
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_WING_upper_source_chain"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 4.1393523542409936e-09,
+      "estimated_error_mm3": 1.2320158082778836e-11,
+      "slice_evaluations": 1239,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.305324833097943,
+          0.32673013108320315,
+          -0.06479036211967468
+        ],
+        "winding_numbers": [
+          1.0000000000000067,
+          1.0000000000003662
+        ]
+      },
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_RETAIN_left_ENV_main_rail_1"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.48824768531221413,
+      "estimated_error_mm3": 3.3032904975075508e-09,
+      "slice_evaluations": 1134,
+      "positive_volume_witness": {
+        "point_world_m": [
+          -9.470074164258815,
+          0.2939466219146484,
+          -0.06499958175277824
+        ],
+        "winding_numbers": [
+          1.0000000000000009,
+          1.0000000000000009
+        ]
+      },
+      "positive": true
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_RETAIN_left_ENV_main_rail_top_1"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 924,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_00_lower_toe_clamp"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 105,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_00_upper_seat_base"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_00_upper_seat_pocket"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_00_upper_seat_upper"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 147,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_00_upper_toe_clamp"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 105,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_00_upper_captive_nut"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_00_upper_bolt_shank"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 273,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_00_upper_washer"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_00_upper_bolt_head"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_02_upper_toe_clamp"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 84,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_03_upper_seat_base"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_03_upper_seat_pocket"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_03_upper_seat_upper"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 105,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_03_upper_toe_clamp"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 84,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_03_upper_captive_nut"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_03_upper_bolt_shank"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 273,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_03_upper_washer"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 84,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "PHOTO_CLAMP_03_upper_bolt_head"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_RETAIN_right_CAD_TRACK_REV_inner_right_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 441,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_01_lower_seat_base"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_01_lower_seat_pocket"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_01_lower_seat_upper"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 105,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_01_lower_toe_clamp"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_01_lower_captive_nut"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_01_lower_bolt_shank"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 210,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_01_lower_washer"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_01_lower_bolt_head"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_02_lower_seat_base"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_02_lower_seat_pocket"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_02_lower_seat_upper"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 105,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_02_lower_toe_clamp"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_02_lower_captive_nut"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_02_lower_bolt_shank"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 210,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_02_lower_washer"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_02_lower_bolt_head"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_03_lower_seat_base"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_03_lower_seat_pocket"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_03_lower_seat_upper"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 105,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_03_lower_toe_clamp"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_03_lower_captive_nut"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_03_lower_bolt_shank"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 210,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_03_lower_washer"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_03_lower_bolt_head"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_04_lower_seat_base"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_04_lower_seat_pocket"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_04_lower_seat_upper"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 105,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_04_lower_toe_clamp"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_04_lower_captive_nut"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_04_lower_bolt_shank"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 210,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_04_lower_washer"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_04_lower_bolt_head"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_05_lower_seat_base"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_05_lower_seat_pocket"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_05_lower_seat_upper"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 105,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_05_lower_toe_clamp"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_05_lower_captive_nut"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_05_lower_bolt_shank"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 210,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_05_lower_washer"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "PHOTO_CLAMP_05_lower_bolt_head"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_01_upper_seat_base"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_01_upper_seat_pocket"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_01_upper_seat_upper"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_01_upper_toe_clamp"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_01_upper_captive_nut"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_01_upper_bolt_shank"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 147,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_01_upper_washer"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_01_upper_bolt_head"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_02_upper_seat_base"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_02_upper_seat_pocket"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_02_upper_seat_upper"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_02_upper_toe_clamp"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_02_upper_captive_nut"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_02_upper_bolt_shank"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 147,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_02_upper_washer"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_02_upper_bolt_head"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_03_upper_seat_base"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_03_upper_seat_pocket"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_03_upper_seat_upper"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_03_upper_toe_clamp"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_03_upper_captive_nut"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_03_upper_bolt_shank"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 147,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_03_upper_washer"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_03_upper_bolt_head"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_04_upper_seat_base"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_04_upper_seat_pocket"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_04_upper_seat_upper"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_04_upper_toe_clamp"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_04_upper_captive_nut"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_04_upper_bolt_shank"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 147,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_04_upper_washer"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_04_upper_bolt_head"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_05_upper_seat_base"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_05_upper_seat_pocket"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_05_upper_seat_upper"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_05_upper_toe_clamp"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_05_upper_captive_nut"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_05_upper_bolt_shank"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 147,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_05_upper_washer"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "PHOTO_CLAMP_05_upper_bolt_head"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_lower_seat_pocket",
+        "PHOTO_CLAMP_00_lower_captive_nut"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_lower_seat_pocket",
+        "PHOTO_CLAMP_00_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_lower_seat_upper",
+        "PHOTO_CLAMP_00_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_lower_toe_clamp",
+        "PHOTO_CLAMP_00_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_lower_captive_nut",
+        "PHOTO_CLAMP_00_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_lower_bolt_shank",
+        "PHOTO_CLAMP_00_lower_washer"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_upper_seat_pocket",
+        "PHOTO_CLAMP_00_upper_captive_nut"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_upper_seat_pocket",
+        "PHOTO_CLAMP_00_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_upper_seat_upper",
+        "PHOTO_CLAMP_00_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_upper_toe_clamp",
+        "PHOTO_CLAMP_00_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_upper_captive_nut",
+        "PHOTO_CLAMP_00_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_upper_bolt_shank",
+        "PHOTO_CLAMP_00_upper_washer"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_lower_seat_pocket",
+        "PHOTO_CLAMP_01_lower_captive_nut"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_lower_seat_pocket",
+        "PHOTO_CLAMP_01_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_lower_seat_upper",
+        "PHOTO_CLAMP_01_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_lower_toe_clamp",
+        "PHOTO_CLAMP_01_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_lower_captive_nut",
+        "PHOTO_CLAMP_01_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_lower_bolt_shank",
+        "PHOTO_CLAMP_01_lower_washer"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_upper_seat_pocket",
+        "PHOTO_CLAMP_01_upper_captive_nut"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_upper_seat_pocket",
+        "PHOTO_CLAMP_01_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_upper_seat_upper",
+        "PHOTO_CLAMP_01_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_upper_toe_clamp",
+        "PHOTO_CLAMP_01_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_upper_captive_nut",
+        "PHOTO_CLAMP_01_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_upper_bolt_shank",
+        "PHOTO_CLAMP_01_upper_washer"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_lower_seat_pocket",
+        "PHOTO_CLAMP_02_lower_captive_nut"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_lower_seat_pocket",
+        "PHOTO_CLAMP_02_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_lower_seat_upper",
+        "PHOTO_CLAMP_02_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_lower_toe_clamp",
+        "PHOTO_CLAMP_02_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_lower_captive_nut",
+        "PHOTO_CLAMP_02_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_lower_bolt_shank",
+        "PHOTO_CLAMP_02_lower_washer"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_upper_seat_pocket",
+        "PHOTO_CLAMP_02_upper_captive_nut"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_upper_seat_pocket",
+        "PHOTO_CLAMP_02_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_upper_seat_upper",
+        "PHOTO_CLAMP_02_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_upper_toe_clamp",
+        "PHOTO_CLAMP_02_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_upper_captive_nut",
+        "PHOTO_CLAMP_02_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_upper_bolt_shank",
+        "PHOTO_CLAMP_02_upper_washer"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_lower_seat_pocket",
+        "PHOTO_CLAMP_03_lower_captive_nut"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_lower_seat_pocket",
+        "PHOTO_CLAMP_03_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_lower_seat_upper",
+        "PHOTO_CLAMP_03_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_lower_toe_clamp",
+        "PHOTO_CLAMP_03_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_lower_captive_nut",
+        "PHOTO_CLAMP_03_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_lower_bolt_shank",
+        "PHOTO_CLAMP_03_lower_washer"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_upper_seat_pocket",
+        "PHOTO_CLAMP_03_upper_captive_nut"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_upper_seat_pocket",
+        "PHOTO_CLAMP_03_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_upper_seat_upper",
+        "PHOTO_CLAMP_03_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_upper_toe_clamp",
+        "PHOTO_CLAMP_03_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_upper_captive_nut",
+        "PHOTO_CLAMP_03_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_upper_bolt_shank",
+        "PHOTO_CLAMP_03_upper_washer"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_lower_seat_pocket",
+        "PHOTO_CLAMP_04_lower_captive_nut"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_lower_seat_pocket",
+        "PHOTO_CLAMP_04_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_lower_seat_upper",
+        "PHOTO_CLAMP_04_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_lower_toe_clamp",
+        "PHOTO_CLAMP_04_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_lower_captive_nut",
+        "PHOTO_CLAMP_04_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_lower_bolt_shank",
+        "PHOTO_CLAMP_04_lower_washer"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_upper_seat_pocket",
+        "PHOTO_CLAMP_04_upper_captive_nut"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_upper_seat_pocket",
+        "PHOTO_CLAMP_04_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_upper_seat_upper",
+        "PHOTO_CLAMP_04_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_upper_toe_clamp",
+        "PHOTO_CLAMP_04_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_upper_captive_nut",
+        "PHOTO_CLAMP_04_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_upper_bolt_shank",
+        "PHOTO_CLAMP_04_upper_washer"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_lower_seat_pocket",
+        "PHOTO_CLAMP_05_lower_captive_nut"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_lower_seat_pocket",
+        "PHOTO_CLAMP_05_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_lower_seat_upper",
+        "PHOTO_CLAMP_05_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_lower_toe_clamp",
+        "PHOTO_CLAMP_05_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_lower_captive_nut",
+        "PHOTO_CLAMP_05_lower_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_lower_bolt_shank",
+        "PHOTO_CLAMP_05_lower_washer"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_upper_seat_pocket",
+        "PHOTO_CLAMP_05_upper_captive_nut"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_upper_seat_pocket",
+        "PHOTO_CLAMP_05_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_upper_seat_upper",
+        "PHOTO_CLAMP_05_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_upper_toe_clamp",
+        "PHOTO_CLAMP_05_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_upper_captive_nut",
+        "PHOTO_CLAMP_05_upper_bolt_shank"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_upper_bolt_shank",
+        "PHOTO_CLAMP_05_upper_washer"
+      ],
+      "method": "actual triangulated cap material intersection times common Z, certified uniform extrusions",
+      "volume_mm3": 0.0,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_FROG_source_finite_V",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 714,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "ENV_fastener.022"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 252,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_lower_source_chain",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 441,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "ENV_fastener.023"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 168,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_WING_upper_source_chain",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 399,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_lower_seat_base",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_lower_seat_pocket",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_lower_seat_upper",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_lower_toe_clamp",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_lower_captive_nut",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_lower_bolt_shank",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_lower_washer",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_lower_bolt_head",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_upper_seat_base",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_upper_seat_pocket",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_upper_seat_upper",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_upper_toe_clamp",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_upper_captive_nut",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_upper_bolt_shank",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_upper_washer",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_00_upper_bolt_head",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_upper_seat_base",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_upper_seat_pocket",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_upper_seat_upper",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_upper_toe_clamp",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_upper_captive_nut",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_upper_bolt_shank",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_upper_washer",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_01_upper_bolt_head",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_upper_seat_base",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_upper_seat_pocket",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_upper_seat_upper",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_upper_toe_clamp",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_upper_captive_nut",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_upper_bolt_shank",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_upper_washer",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_02_upper_bolt_head",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_upper_seat_base",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_upper_seat_pocket",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_upper_seat_upper",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_upper_toe_clamp",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_upper_captive_nut",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_upper_bolt_shank",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_upper_washer",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_03_upper_bolt_head",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_upper_seat_base",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_upper_seat_pocket",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_upper_seat_upper",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_upper_toe_clamp",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_upper_captive_nut",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_upper_bolt_shank",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_upper_washer",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_04_upper_bolt_head",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_upper_seat_base",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_upper_seat_pocket",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_upper_seat_upper",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_upper_toe_clamp",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_upper_captive_nut",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_upper_bolt_shank",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 63,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_upper_washer",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 42,
+      "positive_volume_witness": null,
+      "positive": false
+    },
+    {
+      "pair": [
+        "PHOTO_CLAMP_05_upper_bolt_head",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "method": "adaptive integration of actual triangle sections, solid-angle region selection; coordinates snapped at 1e-9 mm",
+      "volume_mm3": 0.0,
+      "estimated_error_mm3": 0.0,
+      "slice_evaluations": 21,
+      "positive_volume_witness": null,
+      "positive": false
+    }
+  ],
+  "all_new_hardware_meshes_closed_positive": true,
+  "strict_whole_scene_clearance_pass": false,
+  "no_solver_executed": true,
+  "caution": "Actual-model material proof only. Outer-envelope assembly count, cross sections, fixation and thread abstraction remain research choices. Historical 17 proxy overlaps are preserved in the separate v1 review; source guards and unchanged-versus-unchanged pairs are not certified."
+}

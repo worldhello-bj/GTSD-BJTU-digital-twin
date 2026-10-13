@@ -1,0 +1,430 @@
+{
+  "schema": "balise-installation-contract-v1",
+  "config": {
+    "schema": "balise-installation-candidate-config-v1",
+    "profile_id": "balise_deck_bays_yaw90",
+    "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+    "as_built_confirmed": false,
+    "default_enabled": false,
+    "minimum_sleepers_side_clearance_mm": 1.0,
+    "minimum_rail_side_clearance_mm": 5.0,
+    "clearance_values_are_engineering_review_parameters_not_standards": true,
+    "body_dimension_changes_allowed": false,
+    "deck_z_offset_mm": 0.0,
+    "assemblies": [
+      {
+        "balise_index": 2,
+        "between_source_stations": [
+          11,
+          12
+        ],
+        "yaw_deg": 90,
+        "lateral_center_m": null,
+        "linked_source_chair_station": 12
+      },
+      {
+        "balise_index": 3,
+        "between_source_stations": [
+          16,
+          17
+        ],
+        "yaw_deg": 90,
+        "lateral_center_m": null,
+        "linked_source_chair_station": 17
+      }
+    ],
+    "minimum_clip_rail_side_clearance_mm": 0.5,
+    "minimum_clip_chair_edge_margin_mm": 0.5,
+    "clip_installation_status": "SOURCE_CHAIR_POSITION_PLUS_INFERRED_OUTBOARD_CLIP_SEATING_CANDIDATE"
+  },
+  "assemblies": [
+    {
+      "balise_index": 2,
+      "clip_seating_candidates": [
+        {
+          "name": "DETAIL_BENCH_branch_fastener_12_2_1",
+          "side": 1,
+          "world_Y_delta_from_source_group_mm": 1.731813939409098,
+          "rail_triangle_slab_Y_bounds_m": [
+            -0.016917479866128304,
+            0.05754616778484108
+          ],
+          "actual_rail_side_gap_mm": 0.5000000000000004,
+          "minimum_chair_plan_AABB_edge_margin_mm": 0.7681874016954027,
+          "every_clip_XY_vertex_inside_actual_chair_material_midsection": true,
+          "as_built_confirmed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_12_2_-1",
+          "side": -1,
+          "world_Y_delta_from_source_group_mm": -1.7318330857115198,
+          "rail_triangle_slab_Y_bounds_m": [
+            -0.016917479866128304,
+            0.05754616778484108
+          ],
+          "actual_rail_side_gap_mm": 0.5000000000000004,
+          "minimum_chair_plan_AABB_edge_margin_mm": 0.7681682553929876,
+          "every_clip_XY_vertex_inside_actual_chair_material_midsection": true,
+          "as_built_confirmed": false
+        }
+      ],
+      "names": [
+        "ENV_balise_body_02",
+        "ENV_balise_yellow_lid_02",
+        "ENV_balise_lid_screw.008",
+        "ENV_balise_lid_screw.009",
+        "ENV_balise_lid_screw.010",
+        "ENV_balise_lid_screw.011"
+      ],
+      "linked_chair_names": [
+        "DETAIL_BENCH_branch_chair_12_2",
+        "DETAIL_BENCH_branch_fastener_12_2_1",
+        "DETAIL_BENCH_branch_fastener_12_2_-1"
+      ],
+      "source_station_handles": [
+        "4ED50",
+        "4ED51"
+      ],
+      "source_rail_handles": [
+        "4ECFA",
+        "4ECF1",
+        "4ECF5",
+        "4ED5F",
+        "4ECFC",
+        "4ECF3",
+        "4ECF7",
+        "4ED60",
+        "4ECFB",
+        "4ECF2",
+        "4ECF6",
+        "4ECFD",
+        "4ECF4",
+        "4ECF8"
+      ],
+      "between_source_sleepers": [
+        "DETAIL_BENCH_long_sleeper_11",
+        "DETAIL_BENCH_long_sleeper_12"
+      ],
+      "body_dimensions_before_mm": [
+        121.99974060058594,
+        115.99999666213989,
+        60.00000238418579
+      ],
+      "body_dimensions_after_mm": [
+        115.99999666213989,
+        121.99974060058594,
+        60.00000238418579
+      ],
+      "source_bay_open_bounds_X_m": [
+        -7.255666561061651,
+        -7.135666484767706
+      ],
+      "body_each_side_geometric_gap_mm": 2.000039815902799,
+      "yaw_deg": 90.0,
+      "center_before_m": [
+        -7.11133337020874,
+        0.0,
+        -0.06962507218122482
+      ],
+      "center_after_m": [
+        -7.195666522914678,
+        0.14850867212875973,
+        -0.06962507218122482
+      ],
+      "center_delta_mm": [
+        -84.33315270593766,
+        148.50867212875974,
+        0.0
+      ],
+      "rail_corridor_center_Y_bounds_m": [
+        0.14560064496724393,
+        0.15141669929027557
+      ],
+      "rail_constraints_meshes": [
+        "DETAIL_BENCH_turnout_inner_right_segment",
+        "ENV_main_rail_1"
+      ],
+      "finite_triangle_slab_X_m": [
+        -7.258666523927957,
+        -7.132666521901399
+      ],
+      "actual_assembly_branch_rail_Y_gap_mm": 7.908027161515813,
+      "actual_assembly_main_rail_Y_gap_mm": 7.90802716151584,
+      "deck_Z_unchanged": true,
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -7.195666522914678
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.2598420423375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "as_built_confirmed": false
+    },
+    {
+      "balise_index": 3,
+      "clip_seating_candidates": [
+        {
+          "name": "DETAIL_BENCH_branch_fastener_17_2_1",
+          "side": 1,
+          "world_Y_delta_from_source_group_mm": 1.5613767434993833,
+          "rail_triangle_slab_Y_bounds_m": [
+            -0.11275626386034349,
+            -0.038633513472786644
+          ],
+          "actual_rail_side_gap_mm": 0.5000000000000004,
+          "minimum_chair_plan_AABB_edge_margin_mm": 0.9386283228954226,
+          "every_clip_XY_vertex_inside_actual_chair_material_midsection": true,
+          "as_built_confirmed": false
+        },
+        {
+          "name": "DETAIL_BENCH_branch_fastener_17_2_-1",
+          "side": -1,
+          "world_Y_delta_from_source_group_mm": -1.5613767434989878,
+          "rail_triangle_slab_Y_bounds_m": [
+            -0.11275626386034349,
+            -0.038633513472786644
+          ],
+          "actual_rail_side_gap_mm": 0.5000000000000004,
+          "minimum_chair_plan_AABB_edge_margin_mm": 0.9386208723152212,
+          "every_clip_XY_vertex_inside_actual_chair_material_midsection": true,
+          "as_built_confirmed": false
+        }
+      ],
+      "names": [
+        "ENV_balise_body_03",
+        "ENV_balise_yellow_lid_03",
+        "ENV_balise_lid_screw.012",
+        "ENV_balise_lid_screw.013",
+        "ENV_balise_lid_screw.014",
+        "ENV_balise_lid_screw.015"
+      ],
+      "linked_chair_names": [
+        "DETAIL_BENCH_branch_chair_17_2",
+        "DETAIL_BENCH_branch_fastener_17_2_1",
+        "DETAIL_BENCH_branch_fastener_17_2_-1"
+      ],
+      "source_station_handles": [
+        "4ED49",
+        "4ED4A",
+        "4ED4B"
+      ],
+      "source_rail_handles": [
+        "4ECFA",
+        "4ECF1",
+        "4ECF5",
+        "4ED5F",
+        "4ECFC",
+        "4ECF3",
+        "4ECF7",
+        "4ED60",
+        "4ECFB",
+        "4ECF2",
+        "4ECF6",
+        "4ECFD",
+        "4ECF4",
+        "4ECF8"
+      ],
+      "between_source_sleepers": [
+        "DETAIL_BENCH_long_sleeper_16",
+        "DETAIL_BENCH_long_sleeper_17"
+      ],
+      "body_dimensions_before_mm": [
+        121.99974060058594,
+        115.99999666213989,
+        60.00000238418579
+      ],
+      "body_dimensions_after_mm": [
+        115.99999666213989,
+        121.99974060058594,
+        60.00000238418579
+      ],
+      "source_bay_open_bounds_X_m": [
+        -6.2556665610616475,
+        -6.135666484767702
+      ],
+      "body_each_side_geometric_gap_mm": 2.000039815902799,
+      "yaw_deg": 90.0,
+      "center_before_m": [
+        -6.181333065032959,
+        0.0,
+        -0.06962507218122482
+      ],
+      "center_after_m": [
+        -6.195666522914674,
+        0.09882208672972832,
+        -0.06962507218122482
+      ],
+      "center_delta_mm": [
+        -14.333457881715361,
+        98.82208672972833,
+        0.0
+      ],
+      "rail_corridor_center_Y_bounds_m": [
+        0.04622747416918107,
+        0.15141669929027557
+      ],
+      "rail_constraints_meshes": [
+        "DETAIL_BENCH_turnout_inner_right_segment",
+        "ENV_main_rail_1"
+      ],
+      "finite_triangle_slab_X_m": [
+        -6.258666523927953,
+        -6.132666521901395
+      ],
+      "actual_assembly_branch_rail_Y_gap_mm": 57.59461256054725,
+      "actual_assembly_main_rail_Y_gap_mm": 57.59461256054725,
+      "deck_Z_unchanged": true,
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -6.195666522914674
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.2801551517626875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "as_built_confirmed": false
+    }
+  ],
+  "source_relocation_dependency": "38 track/sleeper revisions; chair groups 12_2 and 17_2 source positions",
+  "remove_names": [
+    "ENV_balise_body_02",
+    "ENV_balise_yellow_lid_02",
+    "ENV_balise_lid_screw.008",
+    "ENV_balise_lid_screw.009",
+    "ENV_balise_lid_screw.010",
+    "ENV_balise_lid_screw.011",
+    "DETAIL_BENCH_branch_chair_12_2",
+    "DETAIL_BENCH_branch_fastener_12_2_1",
+    "DETAIL_BENCH_branch_fastener_12_2_-1",
+    "ENV_balise_body_03",
+    "ENV_balise_yellow_lid_03",
+    "ENV_balise_lid_screw.012",
+    "ENV_balise_lid_screw.013",
+    "ENV_balise_lid_screw.014",
+    "ENV_balise_lid_screw.015",
+    "DETAIL_BENCH_branch_chair_17_2",
+    "DETAIL_BENCH_branch_fastener_17_2_1",
+    "DETAIL_BENCH_branch_fastener_17_2_-1"
+  ],
+  "replacements": [
+    {
+      "old": "ENV_balise_body_02",
+      "new": "FIT_BALISE_02_body_02"
+    },
+    {
+      "old": "ENV_balise_yellow_lid_02",
+      "new": "FIT_BALISE_02_yellow_lid_02"
+    },
+    {
+      "old": "ENV_balise_lid_screw.008",
+      "new": "FIT_BALISE_02_lid_screw.008"
+    },
+    {
+      "old": "ENV_balise_lid_screw.009",
+      "new": "FIT_BALISE_02_lid_screw.009"
+    },
+    {
+      "old": "ENV_balise_lid_screw.010",
+      "new": "FIT_BALISE_02_lid_screw.010"
+    },
+    {
+      "old": "ENV_balise_lid_screw.011",
+      "new": "FIT_BALISE_02_lid_screw.011"
+    },
+    {
+      "old": "DETAIL_BENCH_branch_chair_12_2",
+      "new": "FIT_BALISE_SOURCE_branch_chair_12_2"
+    },
+    {
+      "old": "DETAIL_BENCH_branch_fastener_12_2_1",
+      "new": "FIT_BALISE_SOURCE_branch_fastener_12_2_1"
+    },
+    {
+      "old": "DETAIL_BENCH_branch_fastener_12_2_-1",
+      "new": "FIT_BALISE_SOURCE_branch_fastener_12_2_-1"
+    },
+    {
+      "old": "ENV_balise_body_03",
+      "new": "FIT_BALISE_03_body_03"
+    },
+    {
+      "old": "ENV_balise_yellow_lid_03",
+      "new": "FIT_BALISE_03_yellow_lid_03"
+    },
+    {
+      "old": "ENV_balise_lid_screw.012",
+      "new": "FIT_BALISE_03_lid_screw.012"
+    },
+    {
+      "old": "ENV_balise_lid_screw.013",
+      "new": "FIT_BALISE_03_lid_screw.013"
+    },
+    {
+      "old": "ENV_balise_lid_screw.014",
+      "new": "FIT_BALISE_03_lid_screw.014"
+    },
+    {
+      "old": "ENV_balise_lid_screw.015",
+      "new": "FIT_BALISE_03_lid_screw.015"
+    },
+    {
+      "old": "DETAIL_BENCH_branch_chair_17_2",
+      "new": "FIT_BALISE_SOURCE_branch_chair_17_2"
+    },
+    {
+      "old": "DETAIL_BENCH_branch_fastener_17_2_1",
+      "new": "FIT_BALISE_SOURCE_branch_fastener_17_2_1"
+    },
+    {
+      "old": "DETAIL_BENCH_branch_fastener_17_2_-1",
+      "new": "FIT_BALISE_SOURCE_branch_fastener_17_2_-1"
+    }
+  ],
+  "group_moves_atomic": true,
+  "full_scene_gate_pass": true,
+  "as_built_confirmed": false,
+  "not_verified": [
+    "Exact balise 02/03 identity or unique station in photographs",
+    "90 degree mounting orientation",
+    "Manufacturer dimensions and tolerances",
+    "Brackets, mounting holes, cable access and service clearances",
+    "Electromagnetic placement and passing-vehicle dynamic envelope"
+  ]
+}

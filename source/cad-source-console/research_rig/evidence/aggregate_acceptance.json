@@ -1,0 +1,81 @@
+{
+  "completed_utc": "2026-10-13T15:44:43.641727+00:00",
+  "completed_beijing": "2026-10-13T23:44:43.641727+08:00",
+  "ok": true,
+  "checks": [
+    {
+      "name": "asset_unit",
+      "exit_code": 0,
+      "wall_s": 1.872
+    },
+    {
+      "name": "fit_unit",
+      "exit_code": 0,
+      "wall_s": 0.064
+    },
+    {
+      "name": "research_unit",
+      "exit_code": 0,
+      "wall_s": 12.176
+    },
+    {
+      "name": "research_node",
+      "exit_code": 0,
+      "wall_s": 0.216
+    },
+    {
+      "name": "doctor",
+      "exit_code": 0,
+      "wall_s": 13.151
+    },
+    {
+      "name": "node",
+      "exit_code": 0,
+      "wall_s": 4.196
+    },
+    {
+      "name": "source_http",
+      "exit_code": 0,
+      "wall_s": 10.066
+    },
+    {
+      "name": "rail_http",
+      "exit_code": 0,
+      "wall_s": 13.938
+    },
+    {
+      "name": "seat_http",
+      "exit_code": 0,
+      "wall_s": 14.085
+    },
+    {
+      "name": "candidate_http",
+      "exit_code": 0,
+      "wall_s": 7.316
+    }
+  ],
+  "browser_visual_acceptance": false,
+  "node_test_count": 67,
+  "research_node_test_count": 23,
+  "hardware_connected": false,
+  "python_test_counts": {
+    "asset_unit": 107,
+    "fit_unit": 5,
+    "research_unit": 41
+  },
+  "source_http": {
+    "ok": true,
+    "source_pages": 5,
+    "mechanical_fit_pages": 2,
+    "source_resources_byte_equal": 486,
+    "new_geometry_revision": "3e1d785643dc3eca93cf989b663af29311db3c6d1ce3197d97d7758a4e9fb93e",
+    "main_native_checkpoint_unchanged": true,
+    "main_steps": 0,
+    "run_lease_unchanged": true,
+    "pantograph_candidate_disabled": true,
+    "unknown_and_cross_origin_rejected": true,
+    "browser_visual_acceptance": false,
+    "browser_download_acceptance": false
+  },
+  "additional_photo_geometry_tests": 17
+}

@@ -1,0 +1,87 @@
+{
+  "schema": "gtsd-pantograph-circular-fit-review-v1",
+  "units": "mm",
+  "pin_diameter_mm": 7.9,
+  "pin_diameter_evidence": "EXPLICIT_REPLACEABLE_ENGINEERING_PARAMETER_NOT_MEASURED",
+  "minimum_radial_clearance_mm": 0.0,
+  "source_inputs_sha256": "85034cc3a2becdd62715be7cc255a4633003c990f41984b4bfc1eafc675dc1de",
+  "source_dxf_sha256": "73f9eeb145cfbda5f01d1302d3e6e09d2d81e707ff7776187d899100f654f143",
+  "interfaces": [
+    {
+      "interface": "C",
+      "native_center_offset_mm": 0.005876210293366559,
+      "outer_hole_diameter_mm": 8.2,
+      "tie_hole_diameter_mm": 8.0,
+      "pin_axis_choice": "NATIVE_TIE_HOLE_AXIS_RESEARCH_CHOICE",
+      "outer_radial_margin_mm": 0.14412378970663298,
+      "tie_radial_margin_mm": 0.04999999999999982,
+      "conservative_render_polygon_margin_mm": 0.04879527478481682,
+      "maximum_common_pin_diameter_mm": 8.0,
+      "outer_axis_comparison": {
+        "axis_choice": "NATIVE_OUTER_HOLE_AXIS",
+        "outer_radial_margin_mm": 0.14999999999999947,
+        "tie_radial_margin_mm": 0.04412378970663333,
+        "maximum_common_pin_diameter_mm": 7.988247579413267,
+        "nominal_circles_fit": true,
+        "mapping_note": "Existing H1 C hinge uses the outer plate axis, not the tie-axis study choice. H1 D is an equality closure. This comparison does not change either solver axis or the source meshes."
+      },
+      "nominal_circles_fit": true,
+      "polygonal_display_fit": true,
+      "source_handles": [
+        "2790",
+        "29EB"
+      ],
+      "source_paths": [
+        [
+          "2B30",
+          "2A35"
+        ],
+        [
+          "2B2E"
+        ]
+      ],
+      "source_geometry_moved_or_scaled": false,
+      "axial_stack_confirmed": false,
+      "hole_size_is_not_measured_pin_size": true
+    },
+    {
+      "interface": "D",
+      "native_center_offset_mm": 0.007678724238958496,
+      "outer_hole_diameter_mm": 8.2,
+      "tie_hole_diameter_mm": 8.0,
+      "pin_axis_choice": "NATIVE_TIE_HOLE_AXIS_RESEARCH_CHOICE",
+      "outer_radial_margin_mm": 0.1423212757610406,
+      "tie_radial_margin_mm": 0.04999999999999982,
+      "conservative_render_polygon_margin_mm": 0.04879527478481682,
+      "maximum_common_pin_diameter_mm": 8.0,
+      "outer_axis_comparison": {
+        "axis_choice": "NATIVE_OUTER_HOLE_AXIS",
+        "outer_radial_margin_mm": 0.14999999999999947,
+        "tie_radial_margin_mm": 0.04232127576104139,
+        "maximum_common_pin_diameter_mm": 7.984642551522083,
+        "nominal_circles_fit": true,
+        "mapping_note": "Existing H1 C hinge uses the outer plate axis, not the tie-axis study choice. H1 D is an equality closure. This comparison does not change either solver axis or the source meshes."
+      },
+      "nominal_circles_fit": true,
+      "polygonal_display_fit": true,
+      "source_handles": [
+        "2A06",
+        "29E2"
+      ],
+      "source_paths": [
+        [
+          "2B2F"
+        ],
+        [
+          "2B2E"
+        ]
+      ],
+      "source_geometry_moved_or_scaled": false,
+      "axial_stack_confirmed": false,
+      "hole_size_is_not_measured_pin_size": true
+    }
+  ],
+  "new_physics": false,
+  "as_built": false,
+  "conclusion": "Native C/D offsets alone are not proof of material interference. The 8.2 mm outer holes admit an 8 mm nominal pin on the 8 mm tie-hole axes in exact circle geometry; tie clearance, tolerances and axial stack remain unconfirmed."
+}

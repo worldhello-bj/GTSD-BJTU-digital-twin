@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "profile": "track_support",
+      "scene": "19_NATIVE_CLAMP_SOURCE_REVIEW",
+      "mesh_count": 1928,
+      "removed": 13,
+      "added": 9
+    },
+    {
+      "profile": "track_support",
+      "scene": "20_FRONT_ROUTE_NOMINAL_FIT",
+      "mesh_count": 1928,
+      "removed": 13,
+      "added": 9
+    },
+    {
+      "profile": "track_support",
+      "scene": "21_PLAN_ROUTE_NOMINAL_FIT",
+      "mesh_count": 1929,
+      "removed": 13,
+      "added": 9
+    },
+    {
+      "profile": "track_support",
+      "scene": "22_FRONT_ROUTE_HOLES_6P2",
+      "mesh_count": 1928,
+      "removed": 13,
+      "added": 9
+    },
+    {
+      "profile": "track_support",
+      "scene": "23_FRONT_ROUTE_UNCUT_SLOT_REVIEW",
+      "mesh_count": 1928,
+      "removed": 13,
+      "added": 9
+    },
+    {
+      "profile": "track_support_flat",
+      "scene": "19_NATIVE_CLAMP_SOURCE_REVIEW",
+      "mesh_count": 1928,
+      "removed": 13,
+      "added": 9
+    },
+    {
+      "profile": "track_support_flat",
+      "scene": "20_FRONT_ROUTE_NOMINAL_FIT",
+      "mesh_count": 1928,
+      "removed": 13,
+      "added": 9
+    },
+    {
+      "profile": "track_support_flat",
+      "scene": "21_PLAN_ROUTE_NOMINAL_FIT",
+      "mesh_count": 1929,
+      "removed": 13,
+      "added": 9
+    },
+    {
+      "profile": "track_support_flat",
+      "scene": "22_FRONT_ROUTE_HOLES_6P2",
+      "mesh_count": 1928,
+      "removed": 13,
+      "added": 9
+    },
+    {
+      "profile": "track_support_flat",
+      "scene": "23_FRONT_ROUTE_UNCUT_SLOT_REVIEW",
+      "mesh_count": 1928,
+      "removed": 13,
+      "added": 9
+    },
+    {
+      "profile": "balise",
+      "scene": "19_NATIVE_CLAMP_SOURCE_REVIEW",
+      "mesh_count": 1932,
+      "removed": 18,
+      "added": 18
+    },
+    {
+      "profile": "balise",
+      "scene": "20_FRONT_ROUTE_NOMINAL_FIT",
+      "mesh_count": 1932,
+      "removed": 18,
+      "added": 18
+    },
+    {
+      "profile": "balise",
+      "scene": "21_PLAN_ROUTE_NOMINAL_FIT",
+      "mesh_count": 1933,
+      "removed": 18,
+      "added": 18
+    },
+    {
+      "profile": "balise",
+      "scene": "22_FRONT_ROUTE_HOLES_6P2",
+      "mesh_count": 1932,
+      "removed": 18,
+      "added": 18
+    },
+    {
+      "profile": "balise",
+      "scene": "23_FRONT_ROUTE_UNCUT_SLOT_REVIEW",
+      "mesh_count": 1932,
+      "removed": 18,
+      "added": 18
+    },
+    {
+      "profile": "clamps",
+      "scene": "20_FRONT_ROUTE_NOMINAL_FIT",
+      "mesh_count": 1932,
+      "removed": 6,
+      "added": 6
+    },
+    {
+      "profile": "clamps_messenger",
+      "scene": "20_FRONT_ROUTE_NOMINAL_FIT",
+      "mesh_count": 1932,
+      "removed": 7,
+      "added": 7
+    },
+    {
+      "profile": "clamps_b535_review",
+      "scene": "20_FRONT_ROUTE_NOMINAL_FIT",
+      "mesh_count": 1932,
+      "removed": 4,
+      "added": 4
+    },
+    {
+      "profile": "combined",
+      "scene": "20_FRONT_ROUTE_NOMINAL_FIT",
+      "mesh_count": 1928,
+      "removed": 37,
+      "added": 33
+    }
+  ],
+  "solver_mapping_unchanged": true
+}

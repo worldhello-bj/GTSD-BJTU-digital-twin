@@ -1,0 +1,465 @@
+{
+  "curve_count": 57,
+  "records": [
+    {
+      "handle": "4ECE9",
+      "record_id": 201001,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECEA",
+      "record_id": 201002,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECEB",
+      "record_id": 201003,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECEC",
+      "record_id": 201004,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECED",
+      "record_id": 201005,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECEE",
+      "record_id": 201006,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECEF",
+      "record_id": 201007,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECF0",
+      "record_id": 201008,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECF1",
+      "record_id": 201009,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECF2",
+      "record_id": 201010,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECF3",
+      "record_id": 201011,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECF4",
+      "record_id": 201012,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECF5",
+      "record_id": 201013,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECF6",
+      "record_id": 201014,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECF7",
+      "record_id": 201015,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECF8",
+      "record_id": 201016,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECFA",
+      "record_id": 201018,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECFB",
+      "record_id": 201019,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECFC",
+      "record_id": 201020,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECFD",
+      "record_id": 201021,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECFE",
+      "record_id": 201022,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ECFF",
+      "record_id": 201023,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED00",
+      "record_id": 201024,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED01",
+      "record_id": 201025,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED02",
+      "record_id": 201026,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED11",
+      "record_id": 201041,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED12",
+      "record_id": 201042,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED13",
+      "record_id": 201043,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED14",
+      "record_id": 201044,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED15",
+      "record_id": 201045,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED16",
+      "record_id": 201046,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED17",
+      "record_id": 201047,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED18",
+      "record_id": 201048,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED20",
+      "record_id": 201056,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED21",
+      "record_id": 201057,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED22",
+      "record_id": 201058,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED23",
+      "record_id": 201059,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED24",
+      "record_id": 201060,
+      "section": "ENTITIES",
+      "entity_type": "ARC",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED25",
+      "record_id": 201061,
+      "section": "ENTITIES",
+      "entity_type": "ARC",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED26",
+      "record_id": 201062,
+      "section": "ENTITIES",
+      "entity_type": "ARC",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED27",
+      "record_id": 201063,
+      "section": "ENTITIES",
+      "entity_type": "ARC",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED28",
+      "record_id": 201064,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED29",
+      "record_id": 201065,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED2A",
+      "record_id": 201066,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED2B",
+      "record_id": 201067,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED2C",
+      "record_id": 201068,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED5C",
+      "record_id": 201116,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED5D",
+      "record_id": 201117,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED5E",
+      "record_id": 201118,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED5F",
+      "record_id": 201119,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED60",
+      "record_id": 201120,
+      "section": "ENTITIES",
+      "entity_type": "LWPOLYLINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED67",
+      "record_id": 201127,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4ED6F",
+      "record_id": 201135,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4EDB2",
+      "record_id": 201202,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4EDB3",
+      "record_id": 201203,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4EDFB",
+      "record_id": 201275,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    },
+    {
+      "handle": "4EDFC",
+      "record_id": 201276,
+      "section": "ENTITIES",
+      "entity_type": "LINE",
+      "definition_block": "*Model_Space",
+      "owner_handle": "1F"
+    }
+  ],
+  "exact_equal_or_reversed_curve_duplicates": [],
+  "all_are_distinct_direct_Model_entities": true,
+  "no_INSERT_projection_transform_in_this_set": true,
+  "does_not_determine_shared_material_or_operating_state": true
+}

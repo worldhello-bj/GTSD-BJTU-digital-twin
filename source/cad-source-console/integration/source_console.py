@@ -91,7 +91,7 @@ def make_server(port=8778,mode='source_rails'):
             return super()._send(code,data,content_type)
         def do_GET(self):
             path=urlsplit(self.path).path
-            if not(path=='/assembly'or path.startswith('/assembly/')or path.startswith('/api/assembly/')or path=='/source-dimensions'or path.startswith('/source-dimensions/')or path=='/api/source-dimensions/resource'or path=='/source-drive'or path.startswith('/source-drive/')or path=='/api/source-drive/resource'or path=='/source-fixture'or path.startswith('/source-fixture/')or path=='/api/source-fixture/resource'or path=='/source-library'or path.startswith('/source-library/')or path.startswith('/api/source-library/')or path=='/source-audit'or path.startswith('/source-audit/')or path=='/api/source-audit/index'):return super().do_GET()
+            if not(path.startswith('/mechanical-fit/')or path.startswith('/api/mechanical-fit/')or path=='/assembly'or path.startswith('/assembly/')or path.startswith('/api/assembly/')or path=='/source-dimensions'or path.startswith('/source-dimensions/')or path=='/api/source-dimensions/resource'or path=='/source-drive'or path.startswith('/source-drive/')or path=='/api/source-drive/resource'or path=='/source-fixture'or path.startswith('/source-fixture/')or path=='/api/source-fixture/resource'or path=='/source-library'or path.startswith('/source-library/')or path.startswith('/api/source-library/')or path=='/source-audit'or path.startswith('/source-audit/')or path=='/api/source-audit/index'):return super().do_GET()
             if not self._authorized():return
             dimroutes={'/source-dimensions':(ROOT/'dimensions_web/index.html','text/html; charset=utf-8'),'/source-dimensions/app.js':(ROOT/'dimensions_web/app.js','text/javascript; charset=utf-8'),'/source-dimensions/style.css':(ROOT/'dimensions_web/style.css','text/css; charset=utf-8'),'/api/source-dimensions/resource':(ROOT/'data/source_dimensions.json','application/json; charset=utf-8'),'/source-dimensions/native.blend':(PROJECT/'full_source_audit/bearing_envelopes/bearing_dimension_envelopes.blend','application/octet-stream'),'/source-dimensions/model.glb':(PROJECT/'full_source_audit/bearing_envelopes/bearing_envelopes.glb','model/gltf-binary')}
             dimroutes.update({'/source-drive':(ROOT/'drive_web/index.html','text/html; charset=utf-8'),'/source-drive/app.js':(ROOT/'drive_web/app.js','text/javascript; charset=utf-8'),'/api/source-drive/resource':(PROJECT/'full_source_audit/semantic_triage/drive_comparison_geometry.json','application/json; charset=utf-8')})
@@ -107,6 +107,18 @@ def make_server(port=8778,mode='source_rails'):
             if path in routes:
                 name,mime=routes[path];local=ROOT/'web'/name
                 return self.file(local if local.exists()else BASE/'app/web'/name,mime)
+            if path=='/assembly/mechanical-fit.js':return self.file(PROJECT/'mechanical_fit/static_profiles.js','text/javascript; charset=utf-8')
+            if path=='/api/mechanical-fit/profiles':return self.file(PROJECT/'mechanical_fit/profiles.json','application/json; charset=utf-8')
+            if path=='/api/mechanical-fit/photo-profiles':return self.file(PROJECT/'photo_turnout/photo_source_profiles.json','application/json; charset=utf-8')
+            if path=='/api/mechanical-fit/report':return self.file(PROJECT/'mechanical_fit/report.json','application/json; charset=utf-8')
+            if path=='/mechanical-fit/report':return self.file(PROJECT/'mechanical_fit/report.html','text/html; charset=utf-8')
+            if path=='/mechanical-fit/style.css':return self.file(PROJECT/'mechanical_fit/style.css','text/css; charset=utf-8')
+            fit_rail_routes={'/mechanical-fit/rail':('rail_web/index.html','text/html; charset=utf-8'),'/mechanical-fit/rail/app.js':('rail_web/app.js','text/javascript; charset=utf-8'),'/mechanical-fit/rail/style.css':('rail_web/style.css','text/css; charset=utf-8'),'/api/mechanical-fit/rail-source':('components/track_support/rail_body_review/native_track_curve_overlay.json','application/json; charset=utf-8')}
+            if path in fit_rail_routes:
+                name,mime=fit_rail_routes[path];return self.file(PROJECT/'mechanical_fit'/name,mime)
+            fit_images={'whole_candidate','track_support_before','track_support_after','balise_before','balise_after','lower_clamp_before','lower_clamp_after','upper_clamp_before','upper_clamp_after'}
+            for image_name in fit_images:
+                if path=='/mechanical-fit/renders/'+image_name+'.png':return self.file(PROJECT/'mechanical_fit/renders'/(image_name+'.png'),'image/png')
             if path=='/assembly/registration.js':return self.file(PROJECT/'frame_track/registration.js','text/javascript; charset=utf-8')
             if path=='/assembly/bogie-registration.js':return self.file(PROJECT/'frame_track/bogie_registration.js','text/javascript; charset=utf-8')
             if path=='/assembly/source-overlays.js':return self.file(ROOT/'web/source-overlays.js','text/javascript; charset=utf-8')

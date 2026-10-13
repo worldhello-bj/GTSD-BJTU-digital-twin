@@ -1,0 +1,97 @@
+{
+  "schema": "gtsd-track-source-boundary-public-addendum-v1",
+  "frozen": true,
+  "curves": 57,
+  "paired_plan_intervals": 5,
+  "direct_Model_entities_audited": 2738,
+  "new_rail_solids_or_deleted_material": 0,
+  "source_only_default": true,
+  "support_profiles_unchanged": true,
+  "public_files": [
+    {
+      "path": "README_ZH.md",
+      "bytes": 5561,
+      "sha256": "712be16ea73d3325dfff081c7753ad3453362e968374a3744d2e662bb76556d0"
+    },
+    {
+      "path": "rail_source_review.html",
+      "bytes": 31763,
+      "sha256": "3b3478013b39d5701bc53c09cb00fd93fdae8d76655ddd01531082ddfa05ad37"
+    },
+    {
+      "path": "native_track_curve_overlay.json",
+      "bytes": 68408,
+      "sha256": "d43f6bcb3aef578bfae543f4d086261b47058b58a42295d849401f64ef3c0a93"
+    },
+    {
+      "path": "native_edge_graph.json",
+      "bytes": 56681,
+      "sha256": "b467a648acc949e80eef1fa2638dbd9efaf80a97bbbcfb61f36c0bbbc73e167e"
+    },
+    {
+      "path": "complete_connection_review.json",
+      "bytes": 8926,
+      "sha256": "b786c97bf9e0f9677be1f463abe99e65ac6e67b66dff41bce5b6a92fed6e9c17"
+    },
+    {
+      "path": "model_identity_witness.json",
+      "bytes": 11310,
+      "sha256": "188c5c6ce934ab245266ce65e5f3ffe9d6d549a103cf628ad4e23bf9728d2588"
+    },
+    {
+      "path": "whole_model_connection_witness.json",
+      "bytes": 3816,
+      "sha256": "9d6d09c9cc358eb9b60033390510ba4efef4d6efc6091e1caa89b9a61f273bb6"
+    },
+    {
+      "path": "native_curve_interior_witness.json",
+      "bytes": 5022,
+      "sha256": "471bf3e34ab61907db429ca11b3597a987e0c8fd2d768005b222b2484f723093"
+    },
+    {
+      "path": "rail_layer_overlap.json",
+      "bytes": 8755,
+      "sha256": "1170c6b1d109deaac096c771bfb5523802593e460d604e2168a085cf649f3050"
+    },
+    {
+      "path": "rail_source_disposition.json",
+      "bytes": 12849,
+      "sha256": "843714d7ad2efe2bd484cd1f11123bc18be853714a183c9787ec7a053f17df12"
+    },
+    {
+      "path": "topology_candidate_fields.json",
+      "bytes": 4050,
+      "sha256": "126fac23aced7888d3017524e2fb4f61c9256d5299c6d3ebf86fd34e38a77afd"
+    },
+    {
+      "path": "native_edge_graph.png",
+      "bytes": 275290,
+      "sha256": "6b7f35d764954dca72b301c2913c2678436ba6a6c877c54a7a4e7444cc2d573a"
+    },
+    {
+      "path": "render_source_review.py",
+      "bytes": 5237,
+      "sha256": "9f81efe130c19984905f487bf0cf0adfe0e5dac37595b338fba7a630d73c276a"
+    },
+    {
+      "path": "analyze_connections.py",
+      "bytes": 4568,
+      "sha256": "33509b07333ef21f15bb2af23021118b2e6f964cc2df79b8acf73ec1f1353f57"
+    },
+    {
+      "path": "measure_rail_overlaps.py",
+      "bytes": 3940,
+      "sha256": "e6f4871e23bff61f039db2b9c44a81c1cee96b611314c79b5ad5351def3c6fa6"
+    },
+    {
+      "path": "test_source_review.py",
+      "bytes": 2935,
+      "sha256": "635bdf93a13f285857b655b8a0f856dabfcf1c30f1d3a1f6e8321080a67d6bbe"
+    },
+    {
+      "path": "source_review_tests.log",
+      "bytes": 998,
+      "sha256": "10884c58d4eef120e7af7d93f27853958b3b11c2f85a01850e245becdae056ab"
+    }
+  ]
+}

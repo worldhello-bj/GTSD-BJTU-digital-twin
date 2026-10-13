@@ -1,0 +1,58 @@
+{
+  "schema": "gtsd-pin-contact-gravity-v1",
+  "identity_sha256": "f38420323578c835048a8fa02447c7fc5bfeadeab678cf5ea7e24ccf357309c6",
+  "started_utc": "2026-10-13T15:19:12.243448+00:00",
+  "completed_utc": "2026-10-13T15:20:09.377578+00:00",
+  "completed_beijing": "2026-10-13T23:20:09.377578+08:00",
+  "parameters": {
+    "mode": "pin_core_contact",
+    "historical_profile": "combined",
+    "time_step_s": 5e-05,
+    "gravity_m_s2": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "rig_mass_kg": 100.0,
+    "rig_inertia_kg_m2": [
+      25.0,
+      900.0,
+      910.0
+    ],
+    "source_density_kg_m3": 7850.0,
+    "balise_total_mass_kg": 0.6,
+    "rig_stiffness": [
+      400000.0,
+      400000.0,
+      10000.0
+    ],
+    "mount_stiffness_N_m": 20000.0,
+    "clamp_stiffness_N_m": 10000.0,
+    "clamp_rotational_stiffness_Nm_rad": 1.0,
+    "damping_ratio": 0.3,
+    "rig_fixed": false,
+    "pin_geometry_variant": "research_d4p98"
+  },
+  "steps": 28952,
+  "time_s": 1.4476,
+  "wall_s": 56.616045333998045,
+  "settled_continuous_0_1s": true,
+  "criteria": {
+    "every_dof_velocity_limit": 0.0001,
+    "slide_velocity_unit": "m/s",
+    "rotational_velocity_unit": "rad/s",
+    "every_dof_force_balance_limit": 0.01,
+    "slide_force_unit": "N",
+    "rotational_force_unit": "N m",
+    "continuous_hold_s": 0.1,
+    "maximum_simulated_preparation_s": 2.0
+  },
+  "max_generalized_velocity": 2.117327081425378e-05,
+  "max_generalized_force_imbalance": 0.0016336801846748017,
+  "minimum_contact_gap_m": -6.53927120425347e-08,
+  "maximum_energy_residual_J": 0.0022546238412798625,
+  "exact_checkpoint_continuation": true,
+  "error": null,
+  "as_built": false,
+  "calibrated_mass_stiffness_or_friction": false
+}

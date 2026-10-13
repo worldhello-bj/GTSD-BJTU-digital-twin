@@ -1,0 +1,498 @@
+{
+  "mode": "BLENDER_FLOAT32_ROUNDTRIP",
+  "within_tolerance_boundary_pairs": [
+    {
+      "pair": [
+        "DETAIL_BENCH_turnout_inner_left_segment",
+        "FIT_TRACK_station03_common_support"
+      ],
+      "aabb_signed_overlap_mm": [
+        148.46420288085938,
+        182.24364519119263,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "ENV_main_rail_1",
+        "FIT_TRACK_station03_common_support"
+      ],
+      "aabb_signed_overlap_mm": [
+        341.96949005126953,
+        72.9999989271164,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_TRACK_station03_common_support"
+      ],
+      "aabb_signed_overlap_mm": [
+        96.49467468261719,
+        132.41499662399292,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_outer_branch_native_xy",
+        "FIT_TRACK_station03_common_support"
+      ],
+      "aabb_signed_overlap_mm": [
+        341.96949005126953,
+        165.5786782503128,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_long_sleeper_03_native_axis",
+        "FIT_TRACK_station03_common_support"
+      ],
+      "aabb_signed_overlap_mm": [
+        127.74467468261719,
+        280.0000160932541,
+        -7.450580596923828e-06
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_long_sleeper_04_native_axis",
+        "FIT_TRACK_station03_common_support"
+      ],
+      "aabb_signed_overlap_mm": [
+        174.17526245117188,
+        280.0000160932541,
+        -7.450580596923828e-06
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_long_sleeper_05_native_axis",
+        "FIT_TRACK_station03_common_support"
+      ],
+      "aabb_signed_overlap_mm": [
+        3.1194686889648438,
+        280.0000160932541,
+        -7.450580596923828e-06
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_TRACK_clip_03_1_-1",
+        "FIT_TRACK_station03_common_support"
+      ],
+      "aabb_signed_overlap_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_TRACK_clip_03_1_1",
+        "FIT_TRACK_station03_common_support"
+      ],
+      "aabb_signed_overlap_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "ENV_main_rail_-1",
+        "FIT_TRACK_station23_common_support"
+      ],
+      "aabb_signed_overlap_mm": [
+        76.99966430664062,
+        72.9999989271164,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_TRACK_station23_common_support"
+      ],
+      "aabb_signed_overlap_mm": [
+        76.99966430664062,
+        178.87580394744873,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_long_sleeper_23_native_axis",
+        "FIT_TRACK_station23_common_support"
+      ],
+      "aabb_signed_overlap_mm": [
+        76.99966430664062,
+        191.55755639076233,
+        -7.450580596923828e-06
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_TRACK_clip_23_2_-1",
+        "FIT_TRACK_station23_common_support"
+      ],
+      "aabb_signed_overlap_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_TRACK_clip_23_2_1",
+        "FIT_TRACK_station23_common_support"
+      ],
+      "aabb_signed_overlap_mm": [
+        10.000228881835938,
+        10.00000536441803,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "DETAIL_BENCH_guard_diverging",
+        "FIT_TRACK_station01_source_chair"
+      ],
+      "aabb_signed_overlap_mm": [
+        76.99966430664062,
+        20.708739757537842,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_outer_branch_native_xy",
+        "FIT_TRACK_station01_source_chair"
+      ],
+      "aabb_signed_overlap_mm": [
+        76.99966430664062,
+        97.70423173904419,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_long_sleeper_01_native_axis",
+        "FIT_TRACK_station01_source_chair"
+      ],
+      "aabb_signed_overlap_mm": [
+        76.99966430664062,
+        97.70423173904419,
+        -7.450580596923828e-06
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_TRACK_clip_01_0_-1",
+        "FIT_TRACK_station01_source_chair"
+      ],
+      "aabb_signed_overlap_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_TRACK_clip_01_0_1",
+        "FIT_TRACK_station01_source_chair"
+      ],
+      "aabb_signed_overlap_mm": [
+        10.000228881835938,
+        9.999990463256836,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "ENV_deck_equipment_footprint",
+        "FIT_BALISE_02_body_02"
+      ],
+      "aabb_signed_overlap_mm": [
+        115.99969863891602,
+        121.99973315000534,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_BALISE_02_body_02",
+        "FIT_BALISE_02_yellow_lid_02"
+      ],
+      "aabb_signed_overlap_mm": [
+        115.99969863891602,
+        121.99973315000534,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_BALISE_02_lid_screw.008",
+        "FIT_BALISE_02_yellow_lid_02"
+      ],
+      "aabb_signed_overlap_mm": [
+        6.000041961669922,
+        5.999565124511719,
+        -1.862645149230957e-06
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_BALISE_02_lid_screw.009",
+        "FIT_BALISE_02_yellow_lid_02"
+      ],
+      "aabb_signed_overlap_mm": [
+        6.000041961669922,
+        5.999565124511719,
+        -1.862645149230957e-06
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_BALISE_02_lid_screw.010",
+        "FIT_BALISE_02_yellow_lid_02"
+      ],
+      "aabb_signed_overlap_mm": [
+        6.000041961669922,
+        5.999565124511719,
+        -1.862645149230957e-06
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_BALISE_02_lid_screw.011",
+        "FIT_BALISE_02_yellow_lid_02"
+      ],
+      "aabb_signed_overlap_mm": [
+        6.000041961669922,
+        5.999565124511719,
+        -1.862645149230957e-06
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_SOURCE_branch_chair_12_2"
+      ],
+      "aabb_signed_overlap_mm": [
+        76.99966430664062,
+        97.0000009983778,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_long_sleeper_12_native_axis",
+        "FIT_BALISE_SOURCE_branch_chair_12_2"
+      ],
+      "aabb_signed_overlap_mm": [
+        76.99966430664062,
+        97.0000009983778,
+        -7.450580596923828e-06
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_BALISE_SOURCE_branch_chair_12_2",
+        "FIT_BALISE_SOURCE_branch_fastener_12_2_1"
+      ],
+      "aabb_signed_overlap_mm": [
+        10.000228881835938,
+        9.999997913837433,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_BALISE_SOURCE_branch_chair_12_2",
+        "FIT_BALISE_SOURCE_branch_fastener_12_2_-1"
+      ],
+      "aabb_signed_overlap_mm": [
+        10.000228881835938,
+        10.000001639127731,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "ENV_deck_equipment_footprint",
+        "FIT_BALISE_03_body_03"
+      ],
+      "aabb_signed_overlap_mm": [
+        115.99969863891602,
+        121.99974060058594,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_BALISE_03_body_03",
+        "FIT_BALISE_03_yellow_lid_03"
+      ],
+      "aabb_signed_overlap_mm": [
+        115.99969863891602,
+        121.99974060058594,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_BALISE_03_lid_screw.012",
+        "FIT_BALISE_03_yellow_lid_03"
+      ],
+      "aabb_signed_overlap_mm": [
+        6.000041961669922,
+        5.999565124511719,
+        -1.862645149230957e-06
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_BALISE_03_lid_screw.013",
+        "FIT_BALISE_03_yellow_lid_03"
+      ],
+      "aabb_signed_overlap_mm": [
+        6.000041961669922,
+        5.999565124511719,
+        -1.862645149230957e-06
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_BALISE_03_lid_screw.014",
+        "FIT_BALISE_03_yellow_lid_03"
+      ],
+      "aabb_signed_overlap_mm": [
+        6.000041961669922,
+        5.999565124511719,
+        -1.862645149230957e-06
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_BALISE_03_lid_screw.015",
+        "FIT_BALISE_03_yellow_lid_03"
+      ],
+      "aabb_signed_overlap_mm": [
+        6.000041961669922,
+        5.999565124511719,
+        -1.862645149230957e-06
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_SOURCE_branch_chair_17_2"
+      ],
+      "aabb_signed_overlap_mm": [
+        76.99966430664062,
+        97.00000286102295,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_long_sleeper_17_native_axis",
+        "FIT_BALISE_SOURCE_branch_chair_17_2"
+      ],
+      "aabb_signed_overlap_mm": [
+        76.99966430664062,
+        97.00000286102295,
+        -7.450580596923828e-06
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_BALISE_SOURCE_branch_chair_17_2",
+        "FIT_BALISE_SOURCE_branch_fastener_17_2_1"
+      ],
+      "aabb_signed_overlap_mm": [
+        10.000228881835938,
+        9.999997913837433,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "FIT_BALISE_SOURCE_branch_chair_17_2",
+        "FIT_BALISE_SOURCE_branch_fastener_17_2_-1"
+      ],
+      "aabb_signed_overlap_mm": [
+        10.000228881835938,
+        10.00000536441803,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "CAD_518DD_88AC_0",
+        "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE"
+      ],
+      "aabb_signed_overlap_mm": [
+        15.000104904174805,
+        3.9999932050704956,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    },
+    {
+      "pair": [
+        "CAD_518DF_7D8D_lower_tube",
+        "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE"
+      ],
+      "aabb_signed_overlap_mm": [
+        15.000104904174805,
+        3.9999932050704956,
+        0.0
+      ],
+      "status": "AABB_NUMERICAL_BOUNDARY_CONTACT_NOT_CERTIFIED_PHYSICAL_CONTACT"
+    }
+  ],
+  "strictly_positive_but_below_tolerance_pairs": []
+}

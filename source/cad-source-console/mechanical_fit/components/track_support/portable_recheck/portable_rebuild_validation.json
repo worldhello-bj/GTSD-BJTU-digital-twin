@@ -1,0 +1,296 @@
+{
+  "pass": true,
+  "inputs_sha256": "7e6eccc9f31f1b69aa3c6557de378f8b654f2c806f2cd7cda7304aa59bac7b96",
+  "profiles": [
+    {
+      "id": "track_support_conforming_hull",
+      "pass": true,
+      "base_glb_sha256": "fff3f9fffd83e380435eba3a0f9ba975b87557b794d671ee175ea842235bbfa9",
+      "source_replacements_sha256": "fe9e6c52f5a2381394e40372147c78946b6e50c019043d381730c7593df61a73",
+      "source_default_mesh_count": 1936,
+      "after_mesh_count": 1932,
+      "geometry_identity_checks": [
+        {
+          "name": "FIT_TRACK_station03_common_support",
+          "triangle_sha256": "424211425eb18d688118de35ee9ca630794537d50272b376a5ef2daee50446d3",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_station23_common_support",
+          "triangle_sha256": "109c02d0f471032344e8bee84d42250ab0e4161cb6ff09bae41f3b7b8c8b3ba4",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_station01_source_chair",
+          "triangle_sha256": "b4b3f21b47dd68b6ed32eff293271ca2f3eaa05cec01cdc2504ed0812fe81882",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_clip_01_0_-1",
+          "triangle_sha256": "642c48fca18478f9edfcb660c8eb3281d16653a3c2a38feb761a1dbdb6475a8e",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_clip_01_0_1",
+          "triangle_sha256": "bdd1843721ac28cad018019b7e3d195d84601e0e70e4f976bc1441ef19da65da",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_clip_03_1_-1",
+          "triangle_sha256": "02d50a8bd84e9ed8e535b6412c688894af1d82ee085281ebaf03b23cec09cd65",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_clip_03_1_1",
+          "triangle_sha256": "de3f88d014dd2f3a34f7c6aab0d3c8ef56dc21425dabe641de440ef5c99fea32",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_clip_23_2_-1",
+          "triangle_sha256": "303021d1bb372f1e19e526fe813116156646cd8e38792ffd569be022d960620f",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_clip_23_2_1",
+          "triangle_sha256": "7924d242c3b851de4b8efffc4277b24ffb81d026e1c6f9ab43a789cdc100dde0",
+          "frozen_geometry_identity_verified": true
+        }
+      ],
+      "full_scene_nontrivial_pairs": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_outer_branch_native_xy",
+            "FIT_TRACK_clip_01_0_-1"
+          ],
+          "status": "EXACT_TRIANGULATED_MESHES_SEPARATED",
+          "tested_triangle_pairs": 90,
+          "method": "Triangle AABB, six segment-triangle tests, coplanar 2D SAT, both unique-vertex containment directions",
+          "tolerance_m": 1e-09
+        },
+        {
+          "pair": [
+            "CAD_TRACK_REV_outer_branch_native_xy",
+            "FIT_TRACK_clip_01_0_1"
+          ],
+          "status": "EXACT_TRIANGULATED_MESHES_SEPARATED",
+          "tested_triangle_pairs": 90,
+          "method": "Triangle AABB, six segment-triangle tests, coplanar 2D SAT, both unique-vertex containment directions",
+          "tolerance_m": 1e-09
+        },
+        {
+          "pair": [
+            "DETAIL_BENCH_turnout_inner_left_segment",
+            "FIT_TRACK_clip_03_1_-1"
+          ],
+          "status": "SEPARATING_PLANE_PROOF",
+          "separated_or_coplanar": true,
+          "separating_axis": [
+            0.14141963422298431,
+            0.9899497628211975,
+            -0.0
+          ],
+          "minimum_projected_gap_mm": 0.5502301196449455
+        },
+        {
+          "pair": [
+            "DETAIL_BENCH_turnout_inner_left_segment",
+            "FIT_TRACK_clip_03_1_1"
+          ],
+          "status": "SEPARATING_PLANE_PROOF",
+          "separated_or_coplanar": true,
+          "separating_axis": [
+            0.14141963422298431,
+            0.9899497628211975,
+            -0.0
+          ],
+          "minimum_projected_gap_mm": 24.45798050551462
+        },
+        {
+          "pair": [
+            "CAD_TRACK_REV_outer_branch_native_xy",
+            "FIT_TRACK_clip_03_1_1"
+          ],
+          "status": "SEPARATING_PLANE_PROOF",
+          "separated_or_coplanar": true,
+          "separating_axis": [
+            -0.38270557148806983,
+            -0.9238703618755122,
+            0.0
+          ],
+          "minimum_projected_gap_mm": 232.96495023678833
+        },
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "FIT_TRACK_clip_23_2_-1"
+          ],
+          "status": "SEPARATING_PLANE_PROOF",
+          "separated_or_coplanar": true,
+          "separating_axis": [
+            -0.06585300322007975,
+            -0.9978293350903731,
+            -0.0
+          ],
+          "minimum_projected_gap_mm": 0.08812298295579613
+        },
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "FIT_TRACK_clip_23_2_1"
+          ],
+          "status": "EXACT_TRIANGULATED_MESHES_SEPARATED",
+          "tested_triangle_pairs": 42,
+          "method": "Triangle AABB, six segment-triangle tests, coplanar 2D SAT, both unique-vertex containment directions",
+          "tolerance_m": 1e-09
+        }
+      ],
+      "scope": "Only the nine regenerated candidate meshes against the complete actual source-default scene; global untouched pairs not certified."
+    },
+    {
+      "id": "track_support_flat_top_blank",
+      "pass": true,
+      "base_glb_sha256": "fff3f9fffd83e380435eba3a0f9ba975b87557b794d671ee175ea842235bbfa9",
+      "source_replacements_sha256": "fe9e6c52f5a2381394e40372147c78946b6e50c019043d381730c7593df61a73",
+      "source_default_mesh_count": 1936,
+      "after_mesh_count": 1932,
+      "geometry_identity_checks": [
+        {
+          "name": "FIT_TRACK_station03_common_support",
+          "triangle_sha256": "cd088eca73bcdd74a94f3b37aaba0fd30a1b066c7477c3b78dc837642831ed18",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_station23_common_support",
+          "triangle_sha256": "5327917ef0771b546d287aca9c8d42caac9cc66a695e55b2d76773f96d199512",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_station01_source_chair",
+          "triangle_sha256": "b4b3f21b47dd68b6ed32eff293271ca2f3eaa05cec01cdc2504ed0812fe81882",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_clip_01_0_-1",
+          "triangle_sha256": "642c48fca18478f9edfcb660c8eb3281d16653a3c2a38feb761a1dbdb6475a8e",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_clip_01_0_1",
+          "triangle_sha256": "bdd1843721ac28cad018019b7e3d195d84601e0e70e4f976bc1441ef19da65da",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_clip_03_1_-1",
+          "triangle_sha256": "02d50a8bd84e9ed8e535b6412c688894af1d82ee085281ebaf03b23cec09cd65",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_clip_03_1_1",
+          "triangle_sha256": "de3f88d014dd2f3a34f7c6aab0d3c8ef56dc21425dabe641de440ef5c99fea32",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_clip_23_2_-1",
+          "triangle_sha256": "303021d1bb372f1e19e526fe813116156646cd8e38792ffd569be022d960620f",
+          "frozen_geometry_identity_verified": true
+        },
+        {
+          "name": "FIT_TRACK_clip_23_2_1",
+          "triangle_sha256": "7924d242c3b851de4b8efffc4277b24ffb81d026e1c6f9ab43a789cdc100dde0",
+          "frozen_geometry_identity_verified": true
+        }
+      ],
+      "full_scene_nontrivial_pairs": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_outer_branch_native_xy",
+            "FIT_TRACK_clip_01_0_-1"
+          ],
+          "status": "EXACT_TRIANGULATED_MESHES_SEPARATED",
+          "tested_triangle_pairs": 90,
+          "method": "Triangle AABB, six segment-triangle tests, coplanar 2D SAT, both unique-vertex containment directions",
+          "tolerance_m": 1e-09
+        },
+        {
+          "pair": [
+            "CAD_TRACK_REV_outer_branch_native_xy",
+            "FIT_TRACK_clip_01_0_1"
+          ],
+          "status": "EXACT_TRIANGULATED_MESHES_SEPARATED",
+          "tested_triangle_pairs": 90,
+          "method": "Triangle AABB, six segment-triangle tests, coplanar 2D SAT, both unique-vertex containment directions",
+          "tolerance_m": 1e-09
+        },
+        {
+          "pair": [
+            "DETAIL_BENCH_turnout_inner_left_segment",
+            "FIT_TRACK_clip_03_1_-1"
+          ],
+          "status": "SEPARATING_PLANE_PROOF",
+          "separated_or_coplanar": true,
+          "separating_axis": [
+            0.14141963422298431,
+            0.9899497628211975,
+            -0.0
+          ],
+          "minimum_projected_gap_mm": 0.5502301196449455
+        },
+        {
+          "pair": [
+            "DETAIL_BENCH_turnout_inner_left_segment",
+            "FIT_TRACK_clip_03_1_1"
+          ],
+          "status": "SEPARATING_PLANE_PROOF",
+          "separated_or_coplanar": true,
+          "separating_axis": [
+            0.14141963422298431,
+            0.9899497628211975,
+            -0.0
+          ],
+          "minimum_projected_gap_mm": 24.45798050551462
+        },
+        {
+          "pair": [
+            "CAD_TRACK_REV_outer_branch_native_xy",
+            "FIT_TRACK_clip_03_1_1"
+          ],
+          "status": "SEPARATING_PLANE_PROOF",
+          "separated_or_coplanar": true,
+          "separating_axis": [
+            -0.38270557148806983,
+            -0.9238703618755122,
+            0.0
+          ],
+          "minimum_projected_gap_mm": 232.96495023678833
+        },
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "FIT_TRACK_clip_23_2_-1"
+          ],
+          "status": "SEPARATING_PLANE_PROOF",
+          "separated_or_coplanar": true,
+          "separating_axis": [
+            -0.06585300322007975,
+            -0.9978293350903731,
+            -0.0
+          ],
+          "minimum_projected_gap_mm": 0.08812298295579613
+        },
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "FIT_TRACK_clip_23_2_1"
+          ],
+          "status": "EXACT_TRIANGULATED_MESHES_SEPARATED",
+          "tested_triangle_pairs": 42,
+          "method": "Triangle AABB, six segment-triangle tests, coplanar 2D SAT, both unique-vertex containment directions",
+          "tolerance_m": 1e-09
+        }
+      ],
+      "scope": "Only the nine regenerated candidate meshes against the complete actual source-default scene; global untouched pairs not certified."
+    }
+  ],
+  "no_private_database_required": true,
+  "no_solver_or_hardware": true
+}

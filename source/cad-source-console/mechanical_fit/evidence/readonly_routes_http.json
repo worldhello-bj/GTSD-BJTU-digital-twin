@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "source_pages": 5,
+  "mechanical_fit_pages": 2,
+  "source_resources_byte_equal": 485,
+  "new_geometry_revision": "3e1d785643dc3eca93cf989b663af29311db3c6d1ce3197d97d7758a4e9fb93e",
+  "main_native_checkpoint_unchanged": true,
+  "main_steps": 0,
+  "run_lease_unchanged": true,
+  "pantograph_candidate_disabled": true,
+  "unknown_and_cross_origin_rejected": true,
+  "browser_visual_acceptance": false,
+  "browser_download_acceptance": false
+}

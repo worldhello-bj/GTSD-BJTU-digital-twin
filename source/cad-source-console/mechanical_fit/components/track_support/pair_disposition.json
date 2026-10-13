@@ -1,0 +1,145 @@
+{
+  "schema": "gtsd-track-support-pair-disposition-v1",
+  "original_new_overlap_pairs_handled": 4,
+  "original_pending_groups_handled": 5,
+  "original_pending_meshes_handled": 11,
+  "pair_dispositions": [
+    {
+      "pair": "DETAIL_BENCH_branch_chair_03_1|DETAIL_BENCH_crossing_support_plate",
+      "before_source_position_witness_world_m": [
+        -8.785998408250332,
+        0.1880267177745101,
+        -0.07149999737739562
+      ],
+      "before_shared_material_chords_mm": {
+        "X": 24.76146392691593,
+        "Y": 96.73149583056151,
+        "Z": 4.7326745562886305
+      },
+      "before_measurement_definition": "Chord through verified shared interior point, not a minimum translation distance. Actual conservative default retained old positions and did not activate these four source-position conflicts.",
+      "resolution": {
+        "kind": "REPLACE_INDEPENDENT_OVERLAPPING_PROXIES_WITH_ONE_CONTINUOUS_SUPPORT",
+        "new_object": "FIT_TRACK_station03_common_support",
+        "source_drawing_confirmation": false,
+        "independent_original_part_count_preserved": false,
+        "source_support_material_removed_mm3": 0
+      },
+      "after_profile": "track_support_conforming_hull",
+      "after_geometry_status": "PROFILE_OBJECTS_CLEAR_AGAINST_COMPLETE_ACTUAL_DEFAULT_SCENE",
+      "actual_default_validation": "conforming_hull/actual_default_validation.json",
+      "not_as_built_or_load_certified": true
+    },
+    {
+      "pair": "DETAIL_BENCH_branch_chair_23_2|ENV_rail_chair.046",
+      "before_source_position_witness_world_m": [
+        -4.932626361781862,
+        -0.2128102771837702,
+        -0.06849999725818634
+      ],
+      "before_shared_material_chords_mm": {
+        "X": 75.36488719988894,
+        "Y": 2.442461171045629,
+        "Z": 5.365143993940801
+      },
+      "before_measurement_definition": "Chord through verified shared interior point, not a minimum translation distance. Actual conservative default retained old positions and did not activate these four source-position conflicts.",
+      "resolution": {
+        "kind": "REPLACE_INDEPENDENT_OVERLAPPING_PROXIES_WITH_ONE_CONTINUOUS_SUPPORT",
+        "new_object": "FIT_TRACK_station23_common_support",
+        "source_drawing_confirmation": false,
+        "independent_original_part_count_preserved": false,
+        "source_support_material_removed_mm3": 0
+      },
+      "after_profile": "track_support_conforming_hull",
+      "after_geometry_status": "PROFILE_OBJECTS_CLEAR_AGAINST_COMPLETE_ACTUAL_DEFAULT_SCENE",
+      "actual_default_validation": "conforming_hull/actual_default_validation.json",
+      "not_as_built_or_load_certified": true
+    },
+    {
+      "pair": "DETAIL_BENCH_branch_fastener_01_0_-1|DETAIL_BENCH_guard_diverging",
+      "before_source_position_witness_world_m": [
+        -9.151713358050989,
+        0.7662402042439188,
+        -0.06467999756336212
+      ],
+      "before_shared_material_chords_mm": {
+        "X": 10.000228881835936,
+        "Y": 0.9654517844350212,
+        "Z": 16.00000262260437
+      },
+      "before_measurement_definition": "Chord through verified shared interior point, not a minimum translation distance. Actual conservative default retained old positions and did not activate these four source-position conflicts.",
+      "resolution": {
+        "kind": "FULL_GROUP_REDESIGN_WITH_TWO_EXTERNAL_HEADS_AND_ADDITIVE_MOUNTING_LAND",
+        "new_object": "FIT_TRACK_clip_01_0_-1",
+        "source_drawing_confirmation": false,
+        "full_three_mesh_group_included": true,
+        "head_shape_preserved": true,
+        "native_rail_and_sleeper_axes_unchanged": true,
+        "static_world_Y_AABB_guard_gap_mm": 65.99551206635978
+      },
+      "after_profile": "track_support_conforming_hull",
+      "after_geometry_status": "PROFILE_OBJECTS_CLEAR_AGAINST_COMPLETE_ACTUAL_DEFAULT_SCENE",
+      "actual_default_validation": "conforming_hull/actual_default_validation.json",
+      "not_as_built_or_load_certified": true
+    },
+    {
+      "pair": "DETAIL_BENCH_crossing_support_plate|ENV_rail_chair.007",
+      "before_source_position_witness_world_m": [
+        -8.785963827174669,
+        0.21235666529341685,
+        -0.07149999737739562
+      ],
+      "before_shared_material_chords_mm": {
+        "X": 26.490517710104587,
+        "Y": 96.73148098275487,
+        "Z": 4.751258162423281
+      },
+      "before_measurement_definition": "Chord through verified shared interior point, not a minimum translation distance. Actual conservative default retained old positions and did not activate these four source-position conflicts.",
+      "resolution": {
+        "kind": "REPLACE_INDEPENDENT_OVERLAPPING_PROXIES_WITH_ONE_CONTINUOUS_SUPPORT",
+        "new_object": "FIT_TRACK_station03_common_support",
+        "source_drawing_confirmation": false,
+        "independent_original_part_count_preserved": false,
+        "source_support_material_removed_mm3": 0
+      },
+      "after_profile": "track_support_conforming_hull",
+      "after_geometry_status": "PROFILE_OBJECTS_CLEAR_AGAINST_COMPLETE_ACTUAL_DEFAULT_SCENE",
+      "actual_default_validation": "conforming_hull/actual_default_validation.json",
+      "not_as_built_or_load_certified": true
+    }
+  ],
+  "additional_inherited_conflicts_resolved": [
+    "crossing_support_plate overlaps ENV_rail_chair.009, which is CAD_TRACK_REV_photo_chair_009_source_station in actual default",
+    "Station01 both generic heads overlap outer rail foot at old 41 mm layout",
+    "Station03 lower head overlaps branch rail foot; upper head overlaps branch and main rail",
+    "Station23 both generic heads overlap inner-right rail foot at old 41 mm layout"
+  ],
+  "actual_scene_scope": {
+    "main_commit": "c5dd336857fe7b573443bc6c1721e4883584acc5",
+    "before_meshes": 1936,
+    "remove_meshes": 13,
+    "add_meshes": 9,
+    "after_meshes": 1932,
+    "new_profile_mesh_vs_scene_pending_or_positive_pairs": 0,
+    "nontrivial_pairs_cleared": 7
+  },
+  "dimensions": {
+    "station23_native_rail_center_separation_mm": 94.55754168997734,
+    "independent_generic_chair_width_mm": 97.00000286102295,
+    "station23_combined_support_bbox_mm": [
+      76.99966430664062,
+      191.55754455100026,
+      6.999999284744263
+    ],
+    "station03_combined_support_bbox_mm": [
+      341.96982047560454,
+      280.0000160932541,
+      6.999999284744263
+    ],
+    "station01_outer_head_normal_offset_mm": 42.5,
+    "station01_longitudinal_pitch_mm": 16.0,
+    "station01_head_diameter_mm": 10.000228881835938,
+    "station01_head_height_mm": 16.00000262260437,
+    "station01_added_land_material_mm3": 215.1283877276585
+  },
+  "explicit_limit": "The common support is a new topology/assembly concept, not proof that original chairs were the same physical part. Removing duplicated independent identities requires choosing this engineering option. Exact CAD XY, source supports and rail Z contact datums stay; hole positions, complete clamps, material, tool space, service loads and wheel envelopes remain unverified. Global unchanged rail-body overlaps are separately reported."
+}

@@ -1,0 +1,85 @@
+{
+  "schema": "gtsd-photo-research-stage-v1",
+  "compiled_utc": "2026-10-13T15:41:04.268082+00:00",
+  "compiled_beijing": "2026-10-13T23:41:04.268082+08:00",
+  "source_base_commit": "ae463b951f831fb552bcd46f3528b4c10c1cf355",
+  "hardware_connected": false,
+  "as_built_or_calibrated": false,
+  "geometry": {
+    "freeze_utc": "2026-10-13T15:36:59.841360+00:00",
+    "freeze_beijing": "2026-10-13T23:36:59.841360+08:00",
+    "whole_scene_meshes": {
+      "source": 1932,
+      "pr5_combined": 1928,
+      "photo_frog_proxy_review": 1931,
+      "photo_frog_hold_down_research": 2006
+    },
+    "native_regional_scene_meshes": 205,
+    "new_hardware_assemblies": 12,
+    "source_mount_axes": 6,
+    "whole_machine_blend_replaced": false,
+    "historical_profiles_changed": false,
+    "material_checks": 235,
+    "remaining_material_pair_volume_mm3": 0.48824768531221413,
+    "photo_geometry_physics_binding": false
+  },
+  "mount": {
+    "completed_utc": "2026-10-13T15:27:30.409538+00:00",
+    "completed_beijing": "2026-10-13T23:27:30.409538+08:00",
+    "all_three_cases_passed": true,
+    "source_bindings": 33,
+    "velocity_dof": 50,
+    "contacts": false
+  },
+  "contact": {
+    "completed_utc": "2026-10-13T15:22:41.552544+00:00",
+    "completed_beijing": "2026-10-13T23:22:41.552544+08:00",
+    "mode": "two_pin_core_interfaces",
+    "source_bindings": 35,
+    "velocity_dof": 56,
+    "collision_geoms": 950,
+    "material_preserving_convex_cells": 948,
+    "variant": "research_d4p98",
+    "time_steps_s": [
+      0.0001,
+      5e-05
+    ],
+    "all_v2_cases_passed": true,
+    "maximum_position_difference_m": 4.7414406510110565e-08,
+    "maximum_raw_peak_relative_difference": 4.224235100298562e-05,
+    "maximum_impulse_relative_difference": 1.2755056272529351e-05,
+    "nominal_d5_transients_qualified": false
+  },
+  "gravity": {
+    "completed_utc": "2026-10-13T15:20:09.377578+00:00",
+    "completed_beijing": "2026-10-13T23:20:09.377578+08:00",
+    "identity_sha256": "f38420323578c835048a8fa02447c7fc5bfeadeab678cf5ea7e24ccf357309c6",
+    "time_s": 1.4476,
+    "wall_s": 56.616045333998045,
+    "settled_continuous_0_1s": true,
+    "minimum_contact_gap_m": -6.53927120425347e-08,
+    "maximum_energy_residual_J": 0.0022546238412798625,
+    "exact_checkpoint_continuation": true
+  },
+  "console": {
+    "python_tests": 41,
+    "node_tests": 23,
+    "same_process_http_native_modes": [
+      "mount_only",
+      "nominal_d5",
+      "research_d4p98"
+    ],
+    "generation_aware_restart": true,
+    "checkpoint_export_api": true,
+    "browser_download_verified": false,
+    "browser_webgl_visual_verified": false,
+    "browser_blocker": "Official cloud browser cannot access executor loopback; no network or sandbox change made."
+  },
+  "remaining_software_scope": [
+    "source-preserving contact admission for tube/ring/lower-jaw and rail/support interfaces",
+    "independent body/collision identity for photo-turnout candidate",
+    "actual browser acceptance on a supported same-network environment"
+  ],
+  "remaining_physical_fields_document": "research_rig/DATA_BOUNDARY.md",
+  "raw_records_originals_retained": true
+}

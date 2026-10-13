@@ -1,0 +1,280 @@
+{
+  "schema": "gtsd-photo-public-safe-delivery-v1",
+  "freeze_utc": "2026-10-13T15:36:59.841360+00:00",
+  "freeze_beijing": "2026-10-13T23:36:59.841360+08:00",
+  "actual_material_validation_completed_utc": "2026-10-13T15:33:56.036458+00:00",
+  "actual_material_validation_completed_beijing": "2026-10-13T23:33:56.036458+08:00",
+  "render_and_reopen_completed_utc": "2026-10-13T15:34:44.929759+00:00",
+  "render_and_reopen_completed_beijing": "2026-10-13T23:34:44.929759+08:00",
+  "validation": {
+    "base_tests": 13,
+    "hardware_tests": 4,
+    "portable_source_identity_and_topology": "PASS",
+    "render_viewed": true,
+    "regional_native_mesh_count": 205,
+    "actual_material_checks": 235,
+    "remaining_positive_pairs": 1,
+    "remaining_volume_mm3": 0.48824768531221413,
+    "original_photos_included": false,
+    "original_photo_names_included": false,
+    "producer_absolute_paths_in_text": false,
+    "solver_executed": false,
+    "frozen_source_root_modified": false,
+    "profile_file_rewrite_required": false
+  },
+  "files": [
+    {
+      "path": "INTEGRATION.md",
+      "bytes": 5203,
+      "sha256": "c65d6caa3b882832ae1f13f6b4adee5715ddf4871d26df7f6c7fed48076645b3"
+    },
+    {
+      "path": "README_ZH.md",
+      "bytes": 7002,
+      "sha256": "f98429c0eca04c84109d01c7f596f3065be5f89b0b87be6b0807603b2e5be1f7"
+    },
+    {
+      "path": "audit_candidate.py",
+      "bytes": 5358,
+      "sha256": "55a2508ace5964a3e9ff34556359b3669af7e155ba2cc6b4119dac0aceabed46"
+    },
+    {
+      "path": "blender_section_boolean.py",
+      "bytes": 2459,
+      "sha256": "a01d329170f0bc9989de9011a8e429402ab02c22af320c65e91e863c57d032bc"
+    },
+    {
+      "path": "build/GTSD_Photo_Turnout_Engineering_Candidate.blend",
+      "bytes": 1664217,
+      "sha256": "b0335ac500a69f5eb016daa09c84d49fc7cb146b5f814a5baaa6123b4169d1dc"
+    },
+    {
+      "path": "build/candidate_meshes.json.gz",
+      "bytes": 45884,
+      "sha256": "4a1aa7b8930518e72bd66ac935eb68dd5d3cf74c3e52757669e41eb7cf50dcab"
+    },
+    {
+      "path": "build/change_manifest.json",
+      "bytes": 10837,
+      "sha256": "3b33fa7379f7770e5e9c76181eecd949c99990046d7ad398fdeabbd993bd746b"
+    },
+    {
+      "path": "build/hardware_provenance.csv",
+      "bytes": 2505,
+      "sha256": "a7afae53711e16d855ec7b3164ca8eaf808771296a5cc9fe3615e884e14b89af"
+    },
+    {
+      "path": "build/hardware_provenance.json",
+      "bytes": 71566,
+      "sha256": "37af67f645d03faa6a1e816ac0bedce0a9148d558091624143a9bd1a4e21d73c"
+    },
+    {
+      "path": "build/inherited_section_evidence.json",
+      "bytes": 2802,
+      "sha256": "bc3dd5a6666bfe6ebba5cbac910f520304472f8dc8b823dd5e6a529f5ca0dfe6"
+    },
+    {
+      "path": "build/material_audit.json",
+      "bytes": 48762,
+      "sha256": "7270bf7d3db61c8dd1ed2a4d068a79246b4b62c57aec9c799ab488335d729051"
+    },
+    {
+      "path": "build/native_render_validation.json",
+      "bytes": 21187,
+      "sha256": "e83b2364b0d746e1c196481d5e41c5c7f61042742b3fbbaf41876ab8ca34c3b4"
+    },
+    {
+      "path": "build/photo_turnout_candidate.png",
+      "bytes": 1409701,
+      "sha256": "48ccdaa98c58c630c9475f0397ed52e00b2be69b81227e056a35da3f294919d7"
+    },
+    {
+      "path": "build/plan_geometry.json",
+      "bytes": 5513,
+      "sha256": "99c8b233b51266a10ec13dcca791aef863d6535c0ecb51d64d950f17dfe9878e"
+    },
+    {
+      "path": "build/retained_interferences.csv",
+      "bytes": 2940,
+      "sha256": "beff4f1de60c2700eed66c44846cae66134cd74c6fa759483b720e08054d671f"
+    },
+    {
+      "path": "build/source_dimension_overlay.png",
+      "bytes": 191730,
+      "sha256": "d8456e89a239d6691a4f4c5166e6e5d6237e0d4183408eec673b35810afc241e"
+    },
+    {
+      "path": "build/source_review.html",
+      "bytes": 27472,
+      "sha256": "b1769ad2d553c0da41206fe0a6c9e4d4083318ed4451787d9cb408eb75145a69"
+    },
+    {
+      "path": "build/tests.log",
+      "bytes": 6547,
+      "sha256": "f8bb50bd3d1030d8782635fd674670ef444b5ff2bba891c89ae928f67c42af6a"
+    },
+    {
+      "path": "build_candidate.py",
+      "bytes": 15486,
+      "sha256": "42841457f8e1ab503e50acac537da41a3ba539508112bc1219962b78cde00e90"
+    },
+    {
+      "path": "build_source_profiles.js",
+      "bytes": 3833,
+      "sha256": "61182c9b71cdd034efb1e2b3b32bffd4a1f038c581b32013fabf8a51b78926fa"
+    },
+    {
+      "path": "cap_geometry.py",
+      "bytes": 11265,
+      "sha256": "4c379bb59e28fa6f655da80e7f4ef922ab46674efcdb4f05cc90166936fb0ff6"
+    },
+    {
+      "path": "classify_hardware.py",
+      "bytes": 5753,
+      "sha256": "218eb3534e64e218e8bde39e603bff85cf8b1b33f90c2a5bdf3bc75f00b2be59"
+    },
+    {
+      "path": "complete_connection_review.json",
+      "bytes": 8923,
+      "sha256": "7b9bd4dd4010acf2326fdba87a186d55fe38db115ebf4010403d6f954201110a"
+    },
+    {
+      "path": "config.json",
+      "bytes": 1122,
+      "sha256": "9b94e8064e6f00a658432e81d59844cf97c59c705fec221a577c5291fd6c4808"
+    },
+    {
+      "path": "extract_scene.py",
+      "bytes": 2962,
+      "sha256": "3f2396dbc8bbd76b91681cbd37f11dfbf1fdcfcfde2ed9638cad5558c8682859"
+    },
+    {
+      "path": "geos_kernel.py",
+      "bytes": 2907,
+      "sha256": "ebfcc5a2a938fd4263b0f286b40f1be6ddcb39fbfea5e68915b41644b589115e"
+    },
+    {
+      "path": "hardware_revision/GTSD_Photo_Turnout_Engineering_Candidate.blend",
+      "bytes": 1718795,
+      "sha256": "34649ea5782a00b7651e6ae2a08a117d54676f9ef0b6e83defb639401eedcfc6"
+    },
+    {
+      "path": "hardware_revision/audit_hardware.py",
+      "bytes": 3526,
+      "sha256": "e46a7e1702059284174a9583f55fe92961d9967b9d03e405300767610100b4b0"
+    },
+    {
+      "path": "hardware_revision/build_hardware.py",
+      "bytes": 9067,
+      "sha256": "2bfe4f6d7da55b303cd66bf4476dfdc32a8d0ba49ba457634e90b9e721f85642"
+    },
+    {
+      "path": "hardware_revision/candidate_meshes.json.gz",
+      "bytes": 111294,
+      "sha256": "2edec055f582d9d52fd327d8c597da5908028a2071f5cf38c4fc6685eec307fc"
+    },
+    {
+      "path": "hardware_revision/change_manifest.json",
+      "bytes": 74969,
+      "sha256": "73f8c9b772781ee8b0db33d9bd561b1ad197dfa2fd242917faa0dbe02d2f2354"
+    },
+    {
+      "path": "hardware_revision/config.json",
+      "bytes": 1003,
+      "sha256": "3b0d70e3c682171c151084e88a66ccda0975e2438305184f17dc1028942d2866"
+    },
+    {
+      "path": "hardware_revision/material_audit.json",
+      "bytes": 88530,
+      "sha256": "39dbc5f18a4ee9cd046b62fe0f58925cdd6682ce3481dfc8df437a65be065936"
+    },
+    {
+      "path": "hardware_revision/native_render_validation.json",
+      "bytes": 33229,
+      "sha256": "a53cf78a467d375b24ae21f9deb867d867eb366fe56eee55c6b10e628753f894"
+    },
+    {
+      "path": "hardware_revision/photo_turnout_candidate.png",
+      "bytes": 1410930,
+      "sha256": "b6c55db1af26eb4e1cc624d607634d72ae232254a77af6b0a00030adc138fe81"
+    },
+    {
+      "path": "hardware_revision/read_targeted_source.py",
+      "bytes": 4273,
+      "sha256": "a9719ecd3454b5c69bc9f347f703474562fd9d760fd4005ee7aad5cb54a801b8"
+    },
+    {
+      "path": "hardware_revision/targeted_source_evidence.json",
+      "bytes": 154014,
+      "sha256": "12905ae8eaf416a5415cd221f02886432d74ce9d09ebde82a6d0419f3f2d621b"
+    },
+    {
+      "path": "hardware_revision/test_hardware.py",
+      "bytes": 1647,
+      "sha256": "fc96151d08b74fd82eeb611658a431d1bff4800996204af86f89dfde595181b3"
+    },
+    {
+      "path": "hardware_revision/tests.log",
+      "bytes": 409,
+      "sha256": "db0fa3488d4bbae19f1c3d8ad11b3aaa289e1842171e6de23c22c6e02c5ae2dd"
+    },
+    {
+      "path": "mesh_geometry.py",
+      "bytes": 5922,
+      "sha256": "fbc2288017519a5ecf40f4c007be4a02c6a2a09af872b27d18637d6560646b31"
+    },
+    {
+      "path": "native_edge_graph.json",
+      "bytes": 56681,
+      "sha256": "b467a648acc949e80eef1fa2638dbd9efaf80a97bbbcfb61f36c0bbbc73e167e"
+    },
+    {
+      "path": "photo_source_profiles.json",
+      "bytes": 1863737,
+      "sha256": "8da87fe60f7ec2408f30c57ccb973bd1560a20ee84b0a5b3bf0007dcb2f5704d"
+    },
+    {
+      "path": "profile_mapping.json",
+      "bytes": 33884,
+      "sha256": "958b6d3b42483ee3c317868b86f4db639fdf26cd812fa8e7656ff89f0bff50fe"
+    },
+    {
+      "path": "render_native.py",
+      "bytes": 5644,
+      "sha256": "52e99f9052feb87264183744a1bb335fa1237218548c0126de2148e3cf686e84"
+    },
+    {
+      "path": "render_overlay.py",
+      "bytes": 2854,
+      "sha256": "de068040798590b11553fb10194a3facbd3712c6a7d09c53190c93c01d377a48"
+    },
+    {
+      "path": "render_review.py",
+      "bytes": 4848,
+      "sha256": "eaad683d0f6bc4adc62aee33f130cfb8bbb7c035cad5b64d21621d345aeff485"
+    },
+    {
+      "path": "section_builder.py",
+      "bytes": 7221,
+      "sha256": "0711fda3e5cb9b2f9f2fc752e14fcb3e9cb13a5c7a8b1d6c7a58fa9bc527fbec"
+    },
+    {
+      "path": "source_seed.json.gz",
+      "bytes": 1519777,
+      "sha256": "b9780aa6addeb126314a1855c6a28e11e777659bd1bc005bc7fe4acfaa4dfe73"
+    },
+    {
+      "path": "test_candidate.py",
+      "bytes": 6972,
+      "sha256": "feda13d27d5d84c7f8be41d39c8a48eed9b9ba6daf654f0d6a98f2194819ebdf"
+    },
+    {
+      "path": "verify_portable.py",
+      "bytes": 1482,
+      "sha256": "bf13d26686ecceca273fe9b0a350619fa14a90db2caa700997165fa676cbe24c"
+    }
+  ],
+  "producer_delivery_manifest_sha256": "4c1157c5c3a48c37ac1b4437db9e341aa3ee9ee642c896cb8d3c10b8449fbfd3",
+  "public_log_path_sanitization": "Only producer absolute-prefix warnings were replaced with photo_turnout/; geometry, native/render and numerical artifacts unchanged.",
+  "post_freeze_documentation_note": "Clarified that portable verification regenerates derived photo-profile JSON while leaving original source geometry untouched. Numerical/model artifacts unchanged."
+}

@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "asset_unit",
+      "exit_code": 0,
+      "wall_s": 1.519
+    },
+    {
+      "name": "fit_unit",
+      "exit_code": 0,
+      "wall_s": 0.064
+    },
+    {
+      "name": "doctor",
+      "exit_code": 0,
+      "wall_s": 14.065
+    },
+    {
+      "name": "node",
+      "exit_code": 0,
+      "wall_s": 4.633
+    },
+    {
+      "name": "source_http",
+      "exit_code": 0,
+      "wall_s": 11.564
+    },
+    {
+      "name": "rail_http",
+      "exit_code": 0,
+      "wall_s": 13.645
+    },
+    {
+      "name": "seat_http",
+      "exit_code": 0,
+      "wall_s": 13.373
+    },
+    {
+      "name": "candidate_http",
+      "exit_code": 0,
+      "wall_s": 6.236
+    }
+  ],
+  "browser_visual_acceptance": false,
+  "node_test_count": 65,
+  "hardware_connected": false,
+  "python_asset_tests": 107,
+  "python_native_circle_tests": 5,
+  "restored_asset_count": 77,
+  "new_asset_count": 20,
+  "baseline_frozen_file_count": 289,
+  "component_tests": {
+    "track": 8,
+    "balise": 13,
+    "clamps": 9,
+    "rail_source": 7,
+    "independent_interference": 7
+  },
+  "actual_blender_views_reviewed": 9,
+  "geometry_solver_separation": true
+}

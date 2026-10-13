@@ -1,0 +1,262 @@
+{
+  "schema": "gtsd-inherited-rail-body-overlap-layers-v1",
+  "actual_source_default_mesh_count": 1936,
+  "source_replacements_sha256": "fe9e6c52f5a2381394e40372147c78946b6e50c019043d381730c7593df61a73",
+  "pairs": [
+    {
+      "pair": [
+        "DETAIL_BENCH_turnout_inner_left_segment",
+        "ENV_main_rail_1"
+      ],
+      "height_layer_results": [
+        {
+          "height_layer": "head",
+          "z_world_mm": -6.5,
+          "sampled_x_count": 2001,
+          "positive_overlap_found": true,
+          "absence_not_global_proof": false,
+          "witness_world_m": [
+            -8.968915939331055,
+            0.2589166760444641,
+            -0.0065
+          ],
+          "maximum_sampled_world_Y_overlap_chord_mm": 39.49999809265137,
+          "positive_x_sample_span_m": [
+            -9.247828483581543,
+            -8.692734718322754
+          ],
+          "positive_x_sample_count": 1424,
+          "actual_surface_exit_chords": {
+            "X": {
+              "negative_mm": 141.01935370033786,
+              "positive_mm": 138.29190058815263,
+              "shared_material_chord_mm": 279.3112542884905
+            },
+            "Y": {
+              "negative_mm": 19.749999046325684,
+              "positive_mm": 19.749999046325684,
+              "shared_material_chord_mm": 39.49999809265137
+            },
+            "Z": {
+              "negative_mm": 58.49999761581421,
+              "positive_mm": 6.499999999999999,
+              "shared_material_chord_mm": 64.99999761581421
+            }
+          }
+        },
+        {
+          "height_layer": "upper_transition",
+          "z_world_mm": -16.0,
+          "sampled_x_count": 2001,
+          "positive_overlap_found": true,
+          "absence_not_global_proof": false,
+          "witness_world_m": [
+            -8.969696044921875,
+            0.2589166760444641,
+            -0.016
+          ],
+          "maximum_sampled_world_Y_overlap_chord_mm": 25.749996304512024,
+          "positive_x_sample_span_m": [
+            -9.151086807250977,
+            -8.78947639465332
+          ],
+          "positive_x_sample_count": 928,
+          "actual_surface_exit_chords": {
+            "X": {
+              "negative_mm": 91.62499887865006,
+              "positive_mm": 90.45775694810548,
+              "shared_material_chord_mm": 182.08275582675554
+            },
+            "Y": {
+              "negative_mm": 12.87500521012924,
+              "positive_mm": 12.87500521012924,
+              "shared_material_chord_mm": 25.75001042025848
+            },
+            "Z": {
+              "negative_mm": 48.999997615814216,
+              "positive_mm": 16.0,
+              "shared_material_chord_mm": 64.99999761581421
+            }
+          }
+        },
+        {
+          "height_layer": "web",
+          "z_world_mm": -35.0,
+          "sampled_x_count": 2001,
+          "positive_overlap_found": true,
+          "absence_not_global_proof": false,
+          "witness_world_m": [
+            -8.970087051391602,
+            0.2589166760444641,
+            -0.035
+          ],
+          "maximum_sampled_world_Y_overlap_chord_mm": 12.000024318695068,
+          "positive_x_sample_span_m": [
+            -9.05434513092041,
+            -8.886218070983887
+          ],
+          "positive_x_sample_count": 432,
+          "actual_surface_exit_chords": {
+            "X": {
+              "negative_mm": 42.61974873185713,
+              "positive_mm": 42.23451974076569,
+              "shared_material_chord_mm": 84.8542684726228
+            },
+            "Y": {
+              "negative_mm": 6.000012159347534,
+              "positive_mm": 6.000012159347534,
+              "shared_material_chord_mm": 12.000024318695068
+            },
+            "Z": {
+              "negative_mm": 29.999997615814205,
+              "positive_mm": 35.0,
+              "shared_material_chord_mm": 64.99999761581421
+            }
+          }
+        },
+        {
+          "height_layer": "base_transition",
+          "z_world_mm": -55.0,
+          "sampled_x_count": 2001,
+          "positive_overlap_found": true,
+          "absence_not_global_proof": false,
+          "witness_world_m": [
+            -8.968915939331055,
+            0.2589166760444641,
+            -0.055
+          ],
+          "maximum_sampled_world_Y_overlap_chord_mm": 42.50001907348633,
+          "positive_x_sample_span_m": [
+            -9.269283294677734,
+            -8.692344665527344
+          ],
+          "positive_x_sample_count": 1480,
+          "actual_surface_exit_chords": {
+            "X": {
+              "negative_mm": 151.62609581717328,
+              "positive_mm": 148.89864270498822,
+              "shared_material_chord_mm": 300.52473852216156
+            },
+            "Y": {
+              "negative_mm": 21.25000360111365,
+              "positive_mm": 21.250011051694983,
+              "shared_material_chord_mm": 42.50001465280864
+            },
+            "Z": {
+              "negative_mm": 9.999997615814209,
+              "positive_mm": 55.0,
+              "shared_material_chord_mm": 64.99999761581421
+            }
+          }
+        },
+        {
+          "height_layer": "base",
+          "z_world_mm": -61.5,
+          "sampled_x_count": 2001,
+          "positive_overlap_found": true,
+          "absence_not_global_proof": false,
+          "witness_world_m": [
+            -8.967745780944824,
+            0.2589166760444641,
+            -0.0615
+          ],
+          "maximum_sampled_world_Y_overlap_chord_mm": 72.9999989271164,
+          "positive_x_sample_span_m": [
+            -9.47017765045166,
+            -8.690004348754883
+          ],
+          "positive_x_sample_count": 2001,
+          "actual_surface_exit_chords": {
+            "X": {
+              "negative_mm": 260.6314678032293,
+              "positive_mm": 255.5636979185832,
+              "shared_material_chord_mm": 516.1951657218125
+            },
+            "Y": {
+              "negative_mm": 36.4999920129776,
+              "positive_mm": 36.500006914138794,
+              "shared_material_chord_mm": 72.9999989271164
+            },
+            "Z": {
+              "negative_mm": 3.4999976158142094,
+              "positive_mm": 61.5,
+              "shared_material_chord_mm": 64.99999761581421
+            }
+          }
+        }
+      ]
+    },
+    {
+      "pair": [
+        "DETAIL_BENCH_guard_diverging",
+        "CAD_TRACK_REV_outer_branch_native_xy"
+      ],
+      "height_layer_results": [
+        {
+          "height_layer": "head",
+          "z_world_mm": -6.5,
+          "sampled_x_count": 2001,
+          "positive_overlap_found": false,
+          "absence_not_global_proof": true
+        },
+        {
+          "height_layer": "upper_transition",
+          "z_world_mm": -16.0,
+          "sampled_x_count": 2001,
+          "positive_overlap_found": false,
+          "absence_not_global_proof": true
+        },
+        {
+          "height_layer": "web",
+          "z_world_mm": -35.0,
+          "sampled_x_count": 2001,
+          "positive_overlap_found": false,
+          "absence_not_global_proof": true
+        },
+        {
+          "height_layer": "base_transition",
+          "z_world_mm": -55.0,
+          "sampled_x_count": 2001,
+          "positive_overlap_found": false,
+          "absence_not_global_proof": true
+        },
+        {
+          "height_layer": "base",
+          "z_world_mm": -61.5,
+          "sampled_x_count": 2001,
+          "positive_overlap_found": true,
+          "absence_not_global_proof": false,
+          "witness_world_m": [
+            -8.434191703796387,
+            0.6754981871931935,
+            -0.0615
+          ],
+          "maximum_sampled_world_Y_overlap_chord_mm": 13.889194232387215,
+          "positive_x_sample_span_m": [
+            -9.202865600585938,
+            -7.980403423309326
+          ],
+          "positive_x_sample_count": 1946,
+          "actual_surface_exit_chords": {
+            "X": {
+              "negative_mm": 48.6128001159118,
+              "positive_mm": 48.612429237344976,
+              "shared_material_chord_mm": 97.22522935325678
+            },
+            "Y": {
+              "negative_mm": 6.944597115832933,
+              "positive_mm": 6.944519906937281,
+              "shared_material_chord_mm": 13.889117022770217
+            },
+            "Z": {
+              "negative_mm": 3.49999761581421,
+              "positive_mm": 4.852410957988245,
+              "shared_material_chord_mm": 8.352408573802455
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "measurement_limit": "Actual triangle-slice intervals and actual ray exits; maxima and X spans are sampled lower-bound observations, not exact intersection volume or minimum separating translation. No source axes or support profiles changed."
+}

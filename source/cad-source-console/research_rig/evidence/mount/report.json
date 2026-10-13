@@ -1,0 +1,117 @@
+{
+  "schema": "gtsd-mount-only-acceptance-v1",
+  "scope": "FINITE_MOUNT_ONLY_NO_CONTACT_ADMISSION",
+  "started_utc": "2026-10-13T15:26:49.506906+00:00",
+  "contact_acceptance": false,
+  "as_built": false,
+  "cases": {
+    "track_support": {
+      "refinement": {
+        "maximum_body_position_difference_m": 7.226653984902587e-08,
+        "maximum_body_angle_difference_rad": 1.032382731180714e-07,
+        "maximum_generalized_velocity_difference": 4.831294545329487e-06,
+        "mixed_velocity_units": "m/s for slide, rad/s for rotational coordinates",
+        "coarse_max_energy_balance_residual_J": 2.1922575775368706e-07,
+        "half_max_energy_balance_residual_J": 1.1011112138649014e-07,
+        "half_to_coarse_energy_residual_ratio": 0.5022727370850574,
+        "position_gate_5um": true,
+        "angle_gate_0_05deg": true,
+        "velocity_gate_1e_4": true,
+        "energy_residual_gate_1e_5_J": true,
+        "energy_residual_refines": true
+      },
+      "cross_branch_coupling": {
+        "balise": {
+          "max_displacement_m": 5.832020795867957e-06,
+          "fixed_rig_max_displacement_m": 0.0,
+          "passes": true
+        },
+        "clamps": {
+          "max_displacement_m": 1.629517043912916e-05,
+          "fixed_rig_max_displacement_m": 0.0,
+          "passes": true
+        }
+      },
+      "checkpoint_exact_replay": true,
+      "performance": {
+        "coarse": 4.571617150019544,
+        "half": 9.780136569994891,
+        "fixed": 5.092193976646135
+      },
+      "passed": true
+    },
+    "balise": {
+      "refinement": {
+        "maximum_body_position_difference_m": 1.5507895918542053e-07,
+        "maximum_body_angle_difference_rad": 7.884953353001448e-08,
+        "maximum_generalized_velocity_difference": 2.0894855789938514e-05,
+        "mixed_velocity_units": "m/s for slide, rad/s for rotational coordinates",
+        "coarse_max_energy_balance_residual_J": 4.854507791056217e-07,
+        "half_max_energy_balance_residual_J": 2.416512524904663e-07,
+        "half_to_coarse_energy_residual_ratio": 0.49778734094458865,
+        "position_gate_5um": true,
+        "angle_gate_0_05deg": true,
+        "velocity_gate_1e_4": true,
+        "energy_residual_gate_1e_5_J": true,
+        "energy_residual_refines": true
+      },
+      "cross_branch_coupling": {
+        "track_support": {
+          "max_displacement_m": 5.816710539938956e-06,
+          "fixed_rig_max_displacement_m": 0.0,
+          "passes": true
+        },
+        "clamps": {
+          "max_displacement_m": 8.236653138351145e-06,
+          "fixed_rig_max_displacement_m": 0.0,
+          "passes": true
+        }
+      },
+      "checkpoint_exact_replay": true,
+      "performance": {
+        "coarse": 5.665181116686048,
+        "half": 10.228507643332705,
+        "fixed": 3.7171664366906043
+      },
+      "passed": true
+    },
+    "clamps": {
+      "refinement": {
+        "maximum_body_position_difference_m": 3.1757370946628016e-07,
+        "maximum_body_angle_difference_rad": 1.032382731180714e-07,
+        "maximum_generalized_velocity_difference": 1.47328235098199e-05,
+        "mixed_velocity_units": "m/s for slide, rad/s for rotational coordinates",
+        "coarse_max_energy_balance_residual_J": 9.8591025491928e-07,
+        "half_max_energy_balance_residual_J": 4.925881800478837e-07,
+        "half_to_coarse_energy_residual_ratio": 0.49962780850495725,
+        "position_gate_5um": true,
+        "angle_gate_0_05deg": true,
+        "velocity_gate_1e_4": true,
+        "energy_residual_gate_1e_5_J": true,
+        "energy_residual_refines": true
+      },
+      "cross_branch_coupling": {
+        "track_support": {
+          "max_displacement_m": 6.1986080525529645e-06,
+          "fixed_rig_max_displacement_m": 0.0,
+          "passes": true
+        },
+        "balise": {
+          "max_displacement_m": 4.428080499928788e-06,
+          "fixed_rig_max_displacement_m": 0.0,
+          "passes": true
+        }
+      },
+      "checkpoint_exact_replay": true,
+      "performance": {
+        "coarse": 5.87876737001352,
+        "half": 11.999522216647165,
+        "fixed": 3.9067471733142156
+      },
+      "passed": true
+    }
+  },
+  "all_passed": true,
+  "completed_utc": "2026-10-13T15:27:30.409538+00:00",
+  "completed_beijing": "2026-10-13T23:27:30.409538+08:00"
+}

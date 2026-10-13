@@ -1,0 +1,2405 @@
+{
+  "schema": "gtsd-independent-interface-refinement-v1",
+  "original_seven_targets": [
+    {
+      "target_id": "original_01",
+      "pair": [
+        "DETAIL_BENCH_branch_chair_03_1",
+        "DETAIL_BENCH_crossing_support_plate"
+      ],
+      "historical_source_candidate_sha256": "a1200e03fa36a6468ba7aaf657ebd45e0b244f1ea49976ebeccf39be995abfca",
+      "historical_source_candidate_before": {
+        "aabb_signed_overlap_mm": [
+          25.03075935837984,
+          97.00001776218414,
+          4.999995231628418
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -8.785998408250332,
+          0.1880267177745101,
+          -0.07149999737739562
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.3654914879501011,
+            "positive_mm": 24.39597243896583,
+            "shared_material_chord_mm": 24.76146392691593
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 1.8057394027710114,
+            "positive_mm": 94.9257564277905,
+            "shared_material_chord_mm": 96.73149583056151
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.36633918549295413,
+            "positive_mm": 4.366335370795677,
+            "shared_material_chord_mm": 4.7326745562886305
+          }
+        ],
+        "independent_winding_numbers": [
+          1.000000000000002,
+          0.9999999999983229
+        ],
+        "independent_surface_distances_mm": [
+          0.49999952316284735,
+          0.25874069520047477
+        ]
+      },
+      "actual_1932_default_before": {
+        "aabb_signed_overlap_mm": [
+          -1.3341903686523438,
+          97.00001776218414,
+          4.999995231628418
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false
+      },
+      "combined_after_pair": [
+        "FIT_TRACK_station03_common_support",
+        "FIT_TRACK_station03_common_support"
+      ],
+      "combined_after": {
+        "status": "MERGED_INTO_SINGLE_DESIGN_CANDIDATE",
+        "mesh": "FIT_TRACK_station03_common_support"
+      }
+    },
+    {
+      "target_id": "original_02",
+      "pair": [
+        "DETAIL_BENCH_branch_chair_17_2",
+        "ENV_balise_body_03"
+      ],
+      "historical_source_candidate_sha256": "4cb3d275e031fae9c2baa45cda997e6d0002277e647c21e6b3c656f95676a993",
+      "historical_source_candidate_before": {
+        "aabb_signed_overlap_mm": [
+          13.833160335328998,
+          30.80511109501616,
+          6.999999284744263
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.133889691861288,
+          -0.05738389610916962,
+          -0.07129999697208404
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.19644898134975852,
+            "positive_mm": 6.859530227127285,
+            "shared_material_chord_mm": 7.055979208477044
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.6161022219003248,
+            "positive_mm": 29.736870151839604,
+            "shared_material_chord_mm": 30.35297237373993
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.3424513992394802,
+            "positive_mm": 5.942450827034884,
+            "shared_material_chord_mm": 6.284902226274365
+          }
+        ],
+        "independent_winding_numbers": [
+          1.00000000000023,
+          1.0
+        ],
+        "independent_surface_distances_mm": [
+          0.18978217648725224,
+          0.6161022219003248
+        ]
+      },
+      "actual_1932_default_before": {
+        "aabb_signed_overlap_mm": [
+          -55.500030517578125,
+          30.536353588104248,
+          6.999999284744263
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false
+      },
+      "combined_after_pair": [
+        "FIT_BALISE_SOURCE_branch_chair_17_2",
+        "FIT_BALISE_03_body_03"
+      ],
+      "combined_after": {
+        "aabb_signed_overlap_mm": [
+          -3.500169515609386,
+          -65.0171036654893,
+          6.999999284744263
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false
+      }
+    },
+    {
+      "target_id": "original_03",
+      "pair": [
+        "DETAIL_BENCH_branch_chair_23_2",
+        "ENV_rail_chair.046"
+      ],
+      "historical_source_candidate_sha256": "79da0822c7baf2a15e28ef2ba7064958a494ddedb41e859ee554ff9f4af3f314",
+      "historical_source_candidate_before": {
+        "aabb_signed_overlap_mm": [
+          76.99966430664062,
+          2.442461171045629,
+          6.999999284744263
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -4.932626361781862,
+          -0.2128102771837702,
+          -0.06849999725818634
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.7226047327567894,
+            "positive_mm": 74.64228246713216,
+            "shared_material_chord_mm": 75.36488719988894
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.04884922342091035,
+            "positive_mm": 2.3936119476247186,
+            "shared_material_chord_mm": 2.442461171045629
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 2.6825719969704007,
+            "positive_mm": 2.6825719969704007,
+            "shared_material_chord_mm": 5.365143993940801
+          }
+        ],
+        "independent_winding_numbers": [
+          1.0000000000000002,
+          1.0000000000000002
+        ],
+        "independent_surface_distances_mm": [
+          0.04884922342091036,
+          1.5399932861326346
+        ]
+      },
+      "actual_1932_default_before": {
+        "aabb_signed_overlap_mm": [
+          76.99966430664062,
+          -0.2063065767288208,
+          6.999999284744263
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false
+      },
+      "combined_after_pair": [
+        "FIT_TRACK_station23_common_support",
+        "FIT_TRACK_station23_common_support"
+      ],
+      "combined_after": {
+        "status": "MERGED_INTO_SINGLE_DESIGN_CANDIDATE",
+        "mesh": "FIT_TRACK_station23_common_support"
+      }
+    },
+    {
+      "target_id": "original_04",
+      "pair": [
+        "DETAIL_BENCH_branch_fastener_01_0_-1",
+        "DETAIL_BENCH_guard_diverging"
+      ],
+      "historical_source_candidate_sha256": "3d5fe5e9a546e183f1fb0e9e5ea5f1a75a34a3fae7045091da0d92e130ffa67b",
+      "historical_source_candidate_before": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -9.151713358050989,
+          0.7662402042439188,
+          -0.06467999756336212
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.20000457763735824,
+            "positive_mm": 9.800224304198577,
+            "shared_material_chord_mm": 10.000228881835936
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.4827258922175106,
+            "positive_mm": 0.4827258922175106,
+            "shared_material_chord_mm": 0.9654517844350212
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.3200000524520851,
+            "positive_mm": 15.680002570152284,
+            "shared_material_chord_mm": 16.00000262260437
+          }
+        ],
+        "independent_winding_numbers": [
+          1.0,
+          1.0000000000000002
+        ],
+        "independent_surface_distances_mm": [
+          0.1847729669857399,
+          0.3200000524520852
+        ]
+      },
+      "actual_1932_default_before": {
+        "aabb_signed_overlap_mm": [
+          -17.210006713867188,
+          6.8631768226623535,
+          16.00000262260437
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false
+      },
+      "combined_after_pair": [
+        "FIT_TRACK_clip_01_0_-1",
+        "DETAIL_BENCH_guard_diverging"
+      ],
+      "combined_after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          -65.99551206635978,
+          16.00000262260437
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false
+      }
+    },
+    {
+      "target_id": "original_05",
+      "pair": [
+        "DETAIL_BENCH_branch_fastener_12_2_-1",
+        "ENV_balise_body_02"
+      ],
+      "historical_source_candidate_sha256": "6856f7ca46101ad53ba3e9ca0ec2e09a892c420bb9344f4c675ebcd1259fa78c",
+      "historical_source_candidate_before": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          10.000001639127731,
+          16.00000262260437
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -7.10046663277796,
+          -0.02068564759998065,
+          -0.06467999756336212
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.20000457763647006,
+            "positive_mm": 9.80022430419947,
+            "shared_material_chord_mm": 10.00022888183594
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.4828863879414084,
+            "positive_mm": 0.4828863879414084,
+            "shared_material_chord_mm": 0.9657727758828168
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.3200000524520852,
+            "positive_mm": 15.680002570152284,
+            "shared_material_chord_mm": 16.00000262260437
+          }
+        ],
+        "independent_winding_numbers": [
+          1.0,
+          1.0000000000000002
+        ],
+        "independent_surface_distances_mm": [
+          0.18478196386969367,
+          25.054926574230194
+        ]
+      },
+      "actual_1932_default_before": {
+        "aabb_signed_overlap_mm": [
+          -19.00005340576172,
+          10.000001639127731,
+          16.00000262260437
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false
+      },
+      "combined_after_pair": [
+        "FIT_BALISE_SOURCE_branch_fastener_12_2_-1",
+        "FIT_BALISE_02_body_02"
+      ],
+      "combined_after": {
+        "aabb_signed_overlap_mm": [
+          -36.99988722801173,
+          -104.92628169459473,
+          16.00000262260437
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false
+      }
+    },
+    {
+      "target_id": "original_06",
+      "pair": [
+        "DETAIL_BENCH_branch_fastener_12_2_1",
+        "ENV_balise_body_02"
+      ],
+      "historical_source_candidate_sha256": "d5bd7ee85f0e70c6d29da8acb87731846b799c54b2eb0174a792f2c5d26600db",
+      "historical_source_candidate_before": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          1.6856444856379604,
+          16.00000262260437
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -7.095666522914678,
+          0.056348066735144746,
+          -0.06467999756336212
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.08139516243169874,
+            "positive_mm": 0.08139516243169916,
+            "shared_material_chord_mm": 0.1627903248633979
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.03371288971276005,
+            "positive_mm": 1.6519315959252003,
+            "shared_material_chord_mm": 1.6856444856379604
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.3200000524520852,
+            "positive_mm": 15.680002570152284,
+            "shared_material_chord_mm": 16.00000262260437
+          }
+        ],
+        "independent_winding_numbers": [
+          1.000000000000001,
+          0.9999999999999993
+        ],
+        "independent_surface_distances_mm": [
+          0.03114693160461254,
+          1.6519315959252003
+        ]
+      },
+      "actual_1932_default_before": {
+        "aabb_signed_overlap_mm": [
+          -19.00005340576172,
+          6.12984225153923,
+          16.00000262260437
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false
+      },
+      "combined_after_pair": [
+        "FIT_BALISE_SOURCE_branch_fastener_12_2_1",
+        "FIT_BALISE_02_body_02"
+      ],
+      "combined_after": {
+        "aabb_signed_overlap_mm": [
+          -36.99988722801173,
+          -19.462636129787906,
+          16.00000262260437
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false
+      }
+    },
+    {
+      "target_id": "original_07",
+      "pair": [
+        "DETAIL_BENCH_crossing_support_plate",
+        "ENV_rail_chair.007"
+      ],
+      "historical_source_candidate_sha256": "a57ec82f4a23cd322ad3ea0b5438da422e9a64623411cf9e483712a7c7af8b61",
+      "historical_source_candidate_before": {
+        "aabb_signed_overlap_mm": [
+          26.7598131415685,
+          97.00000286102295,
+          4.999995231628418
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -8.785963827174669,
+          0.21235666529341685,
+          -0.07149999737739562
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.40007256361355453,
+            "positive_mm": 26.090445146491035,
+            "shared_material_chord_mm": 26.490517710104587
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 1.8057391047477664,
+            "positive_mm": 94.9257418780071,
+            "shared_material_chord_mm": 96.73148098275487
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.37563098856027916,
+            "positive_mm": 4.375627173863002,
+            "shared_material_chord_mm": 4.751258162423281
+          }
+        ],
+        "independent_winding_numbers": [
+          0.9999999999976328,
+          1.0
+        ],
+        "independent_surface_distances_mm": [
+          0.2832215158295006,
+          0.49999952316284735
+        ]
+      },
+      "actual_1932_default_before": {
+        "aabb_signed_overlap_mm": [
+          -1.3341903686523438,
+          97.00000286102295,
+          4.999995231628418
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false
+      },
+      "combined_after_pair": [
+        "FIT_TRACK_station03_common_support",
+        "FIT_TRACK_station03_common_support"
+      ],
+      "combined_after": {
+        "status": "MERGED_INTO_SINGLE_DESIGN_CANDIDATE",
+        "mesh": "FIT_TRACK_station03_common_support"
+      }
+    }
+  ],
+  "interface_refinement_by_coordinate_mode": {
+    "EXPORTED_JSON_DOUBLE": [
+      {
+        "pair": [
+          "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+          "CAD_50DF4_F643_profile_0"
+        ],
+        "before_pair": [
+          "CAD_50DF4_F643_profile_2",
+          "CAD_50DF4_F643_profile_0"
+        ],
+        "type": "NOMINAL_ZERO_MARGIN_PIN_CHANNEL",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 0.0,
+          "depth_mm": 4.000186920166016,
+          "volume_mm3": 0.0,
+          "cap_min_clearance_mm": 0.0
+        },
+        "after": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                0.21729469299316406,
+                0.2373812198638916
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.1867520805414763e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 0.22733795642852783,
+                  "cap_section_symmetric_difference_mm2": 3.1867520805414763e-09,
+                  "hausdorff_mm": 6.340547207858907e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031415542546469157,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -2.0745348930358887,
+                -2.0705347061157227
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 1.1857128109278486e-06,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -2.0725347995758057,
+                  "cap_section_symmetric_difference_mm2": 1.1857128109278486e-06,
+                  "hausdorff_mm": 5.167065192695793e-06,
+                  "perimeter_scaled_area_bound_mm2": 0.013651046063238621,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 0.0,
+            "breakpoint_count": 62
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+          "REPAIR_518DD_88AC_1_source-plan6.5"
+        ],
+        "before_pair": [
+          "REPAIR_50DF4_F643_profile_1_B535",
+          "REPAIR_518DD_88AC_1_source-plan6.5"
+        ],
+        "type": "NOMINAL_TONGUE_SLOT_CONTACT",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                0.24329467117786407,
+                0.24729466438293457
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 2.385914403842096e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 0.24529466778039932,
+                  "cap_section_symmetric_difference_mm2": 2.385914403842096e-08,
+                  "hausdorff_mm": 6.564485063704086e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.003136968101291106,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.6506580114364624,
+                1.6546579599380493
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 5.679866897849282e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.6526579856872559,
+                  "cap_section_symmetric_difference_mm2": 5.679866897849282e-08,
+                  "hausdorff_mm": 6.574328213163114e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0038967472310615764,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 0.0,
+            "breakpoint_count": 4
+          }
+        },
+        "after": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                0.24329467117786407,
+                0.24729466438293457
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 2.3427634534517387e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 0.24529466778039932,
+                  "cap_section_symmetric_difference_mm2": 2.3427634534517387e-08,
+                  "hausdorff_mm": 6.235271164567539e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.003136968101290384,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.6506580114364624,
+                1.6546579599380493
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 5.679866897849282e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.6526579856872559,
+                  "cap_section_symmetric_difference_mm2": 5.679866897849282e-08,
+                  "hausdorff_mm": 6.574328213163114e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0038967472310615764,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 0.0,
+            "breakpoint_count": 4
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+          "ENV_contact_wire"
+        ],
+        "before_pair": [
+          "CAD_518DF_4079_vertical_link",
+          "ENV_contact_wire"
+        ],
+        "type": "INHERITED_UNRESOLVED_END_FIXING",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -2.0750348567962646,
+                -2.0700347423553467
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 2.851202083892356e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -2.0725347995758057,
+                  "cap_section_symmetric_difference_mm2": 2.851202083892356e-09,
+                  "hausdorff_mm": 4.5898440603797925e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0003105955037650662,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.568912148475647,
+                1.5713112354278564
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.5122127559309374e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.5701116919517517,
+                  "cap_section_symmetric_difference_mm2": 3.5122127559309374e-09,
+                  "hausdorff_mm": 5.932389168757747e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031404618099379337,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 38.18368005972269,
+            "breakpoint_count": 40
+          }
+        },
+        "after": {
+          "uniform_slab_validation": [
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -2.0394349098205566,
+                -2.0344347953796387
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 2.600218121650823e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -2.0369348526000977,
+                  "cap_section_symmetric_difference_mm2": 2.600218121650823e-09,
+                  "hausdorff_mm": 4.5898440603797925e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0003105955037650662,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.568912148475647,
+                1.5713112354278564
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.5122127559309374e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.5701116919517517,
+                  "cap_section_symmetric_difference_mm2": 3.5122127559309374e-09,
+                  "hausdorff_mm": 5.932389168757747e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031404618099379337,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 38.18368005972269,
+            "breakpoint_count": 40
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+          "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE"
+        ],
+        "before_pair": [
+          "CAD_50DF4_F643_profile_2",
+          "REPAIR_50DF4_F643_profile_1_B535"
+        ],
+        "type": "TARGET_CLEARANCE_PIN_B535",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 2.3120473488656432,
+          "depth_mm": 3.9999932050704956,
+          "volume_mm3": 9.248173685263826,
+          "cap_min_clearance_mm": 0.0
+        },
+        "after": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 0.0,
+          "depth_mm": 3.9999932050704956,
+          "volume_mm3": 0.0,
+          "cap_min_clearance_mm": 0.49904008612357403
+        }
+      },
+      {
+        "pair": [
+          "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+          "CAD_SOURCE_518DF_C4D1_4AEC_ring_square_fit_candidate"
+        ],
+        "before_pair": [
+          "CAD_518DF_4079_vertical_link",
+          "CAD_SOURCE_518DF_C4D1_4AEC_ring_square_fit_candidate"
+        ],
+        "type": "TARGET_CLEARANCE_ROD_CLAMP",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                2.054048538208008,
+                2.091047525405884
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.740866742540169e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 2.072548031806946,
+                  "cap_section_symmetric_difference_mm2": 3.740866742540169e-09,
+                  "hausdorff_mm": 5.932389168757747e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031404618099379337,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                -0.0005005946150049567,
+                0.0024994052946567535
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 8.412923312382117e-05,
+              "uniform_within_cap_sampling_tolerance": false,
+              "checks": [
+                {
+                  "axis_pos_world_m": 0.0009994053398258984,
+                  "cap_section_symmetric_difference_mm2": 8.412923312382117e-05,
+                  "hausdorff_mm": 4.934215773467366e-05,
+                  "perimeter_scaled_area_bound_mm2": 0.005525953590898888,
+                  "equivalent_at_1e_minus5_mm": false
+                }
+              ]
+            }
+          ],
+          "status": "CAP_MODEL_NOT_VALID_ON_REQUIRED_INTERVAL"
+        },
+        "after": {
+          "section_integral": {
+            "method": "Exact separating world-space AABB",
+            "volume_mm3": 0.0
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+          "CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "before_pair": [
+          "CAD_518DF_4079_vertical_link",
+          "CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "type": "TARGET_CLEARANCE_ROD_CLAMP",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                2.091048002243042,
+                2.0944480895996094
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.1634127841980354e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 2.0927480459213257,
+                  "cap_section_symmetric_difference_mm2": 3.1634127841980354e-09,
+                  "hausdorff_mm": 5.932389168757747e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031404618099379337,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -2.0750348567962646,
+                -2.0700347423553467
+              ],
+              "number_of_piecewise_section_checks": 4,
+              "maximum_symmetric_difference_mm2": 39.999487864389884,
+              "uniform_within_cap_sampling_tolerance": false,
+              "checks": [
+                {
+                  "axis_pos_world_m": -2.074457883834839,
+                  "cap_section_symmetric_difference_mm2": 39.99948786388813,
+                  "hausdorff_mm": 0.9231677435869141,
+                  "perimeter_scaled_area_bound_mm2": 0.0018164859231462004,
+                  "equivalent_at_1e_minus5_mm": false
+                },
+                {
+                  "axis_pos_world_m": -2.0725347995758057,
+                  "cap_section_symmetric_difference_mm2": 39.99948786407161,
+                  "hausdorff_mm": 3.999757764586914,
+                  "perimeter_scaled_area_bound_mm2": 0.0018164859231462006,
+                  "equivalent_at_1e_minus5_mm": false
+                },
+                {
+                  "axis_pos_world_m": -2.070611834526062,
+                  "cap_section_symmetric_difference_mm2": 39.999487864389884,
+                  "hausdorff_mm": 3.999948501586914,
+                  "perimeter_scaled_area_bound_mm2": 0.0018164859231462013,
+                  "equivalent_at_1e_minus5_mm": false
+                },
+                {
+                  "axis_pos_world_m": -2.0700348615646362,
+                  "cap_section_symmetric_difference_mm2": 2.8561039411975113e-08,
+                  "hausdorff_mm": 6.545015702506575e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.001756487990126201,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "status": "CAP_MODEL_NOT_VALID_ON_REQUIRED_INTERVAL"
+        },
+        "after": {
+          "section_integral": {
+            "method": "Exact separating world-space AABB",
+            "volume_mm3": 0.0
+          }
+        }
+      },
+      {
+        "pair": [
+          "ENV_messenger_wire",
+          "CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "before_pair": [
+          "ENV_messenger_wire",
+          "CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "type": "UNCHANGED_PAIR_SUPPLEMENT_NOT_GLOBAL_SCAN",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 7.636182078122518e-06,
+          "depth_mm": 13.99993896484375,
+          "volume_mm3": 0.00010690608301814896,
+          "cap_min_clearance_mm": 0.0
+        },
+        "after": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 7.636182078122518e-06,
+          "depth_mm": 13.99993896484375,
+          "volume_mm3": 0.00010690608301814896,
+          "cap_min_clearance_mm": 0.0
+        }
+      },
+      {
+        "pair": [
+          "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+          "CAD_51409_F643_profile_0"
+        ],
+        "before_pair": [
+          "CAD_51409_F643_profile_2",
+          "CAD_51409_F643_profile_0"
+        ],
+        "type": "NOMINAL_ZERO_MARGIN_PIN_CHANNEL",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 0.0,
+          "depth_mm": 3.9997100830078125,
+          "volume_mm3": 0.0,
+          "cap_min_clearance_mm": 0.0
+        },
+        "after": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                -0.23738238215446472,
+                -0.21729585528373718
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.2108654894709862e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -0.22733911871910095,
+                  "cap_section_symmetric_difference_mm2": 3.2108654894709862e-09,
+                  "hausdorff_mm": 6.033853202425378e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031415393116610094,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -6.074534893035889,
+                -6.070535182952881
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 1.1857128736753444e-06,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -6.072535037994385,
+                  "cap_section_symmetric_difference_mm2": 1.1857128736753444e-06,
+                  "hausdorff_mm": 5.167065192695793e-06,
+                  "perimeter_scaled_area_bound_mm2": 0.013651046063238612,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 0.0,
+            "breakpoint_count": 62
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+          "REPAIR_518DE_88AC_1_source-plan6.5_FRONT_ROUTE_REFLECTED_CANDIDATE"
+        ],
+        "before_pair": [
+          "REPAIR_51409_F643_profile_1_B535",
+          "REPAIR_518DE_88AC_1_source-plan6.5_FRONT_ROUTE_REFLECTED_CANDIDATE"
+        ],
+        "type": "NOMINAL_TONGUE_SLOT_CONTACT",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                -0.24729585647583008,
+                -0.24329586327075958
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.3980597795664726e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -0.24529585987329483,
+                  "cap_section_symmetric_difference_mm2": 3.3980597795664726e-08,
+                  "hausdorff_mm": 6.828534992365102e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0031369603460843104,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.6506580114364624,
+                1.6546579599380493
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 6.26408143463651e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.6526579856872559,
+                  "cap_section_symmetric_difference_mm2": 6.26408143463651e-08,
+                  "hausdorff_mm": 6.328703371943461e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.003896744978258275,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 0.0,
+            "breakpoint_count": 4
+          }
+        },
+        "after": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                -0.24729585647583008,
+                -0.24329586327075958
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.3811302659193896e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -0.24529585987329483,
+                  "cap_section_symmetric_difference_mm2": 3.3811302659193896e-08,
+                  "hausdorff_mm": 6.241993695194998e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0031369603460835636,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.6506580114364624,
+                1.6546579599380493
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 6.26408143463651e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.6526579856872559,
+                  "cap_section_symmetric_difference_mm2": 6.26408143463651e-08,
+                  "hausdorff_mm": 6.328703371943461e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.003896744978258275,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 0.0,
+            "breakpoint_count": 4
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+          "ENV_contact_wire"
+        ],
+        "before_pair": [
+          "CAD_518E0_4079_vertical_link",
+          "ENV_contact_wire"
+        ],
+        "type": "INHERITED_UNRESOLVED_END_FIXING",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -6.075035095214844,
+                -6.070034980773926
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.244489169995808e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -6.072535037994385,
+                  "cap_section_symmetric_difference_mm2": 3.244489169995808e-09,
+                  "hausdorff_mm": 4.5898440603797925e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0003105955037650662,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.568912148475647,
+                1.5713112354278564
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.672462422718044e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.5701116919517517,
+                  "cap_section_symmetric_difference_mm2": 3.672462422718044e-09,
+                  "hausdorff_mm": 6.020699490924179e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031404359596557123,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 38.183423684221864,
+            "breakpoint_count": 40
+          }
+        },
+        "after": {
+          "uniform_slab_validation": [
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -6.039434909820557,
+                -6.034434795379639
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 2.7831130246916168e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -6.036934852600098,
+                  "cap_section_symmetric_difference_mm2": 2.7831130246916168e-09,
+                  "hausdorff_mm": 5.313665036057405e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031059550376506616,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.568912148475647,
+                1.5713112354278564
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.672462422718044e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.5701116919517517,
+                  "cap_section_symmetric_difference_mm2": 3.672462422718044e-09,
+                  "hausdorff_mm": 6.020699490924179e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031404359596557123,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 38.183423684221864,
+            "breakpoint_count": 40
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+          "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE"
+        ],
+        "before_pair": [
+          "CAD_51409_F643_profile_2",
+          "REPAIR_51409_F643_profile_1_B535"
+        ],
+        "type": "TARGET_CLEARANCE_PIN_B535",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 2.311529688654696,
+          "depth_mm": 3.9999932050704956,
+          "volume_mm3": 9.246103047937503,
+          "cap_min_clearance_mm": 0.0
+        },
+        "after": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 0.0,
+          "depth_mm": 3.9999932050704956,
+          "volume_mm3": 0.0,
+          "cap_min_clearance_mm": 0.4989249314069073
+        }
+      },
+      {
+        "pair": [
+          "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+          "CAD_SOURCE_518E0_C4D1_4AEC_ring_square_fit_candidate"
+        ],
+        "before_pair": [
+          "CAD_518E0_4079_vertical_link",
+          "CAD_SOURCE_518E0_C4D1_4AEC_ring_square_fit_candidate"
+        ],
+        "type": "TARGET_CLEARANCE_ROD_CLAMP",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                2.054048538208008,
+                2.091047525405884
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.692283459194595e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 2.072548031806946,
+                  "cap_section_symmetric_difference_mm2": 3.692283459194595e-09,
+                  "hausdorff_mm": 6.020697375678382e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0003140435959655712,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                -0.0005005946150049567,
+                0.0024994052946567535
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 9.170556256854928e-05,
+              "uniform_within_cap_sampling_tolerance": false,
+              "checks": [
+                {
+                  "axis_pos_world_m": 0.0009994053398258984,
+                  "cap_section_symmetric_difference_mm2": 9.170556256854928e-05,
+                  "hausdorff_mm": 5.719918968092494e-05,
+                  "perimeter_scaled_area_bound_mm2": 0.005525950788626387,
+                  "equivalent_at_1e_minus5_mm": false
+                }
+              ]
+            }
+          ],
+          "status": "CAP_MODEL_NOT_VALID_ON_REQUIRED_INTERVAL"
+        },
+        "after": {
+          "section_integral": {
+            "method": "Exact separating world-space AABB",
+            "volume_mm3": 0.0
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+          "CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "before_pair": [
+          "CAD_518E0_4079_vertical_link",
+          "CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "type": "TARGET_CLEARANCE_ROD_CLAMP",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                2.091048002243042,
+                2.0944480895996094
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.54821328496e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 2.0927480459213257,
+                  "cap_section_symmetric_difference_mm2": 3.54821328496e-09,
+                  "hausdorff_mm": 6.020699965698129e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0003140435959655712,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -6.075035095214844,
+                -6.070034980773926
+              ],
+              "number_of_piecewise_section_checks": 3,
+              "maximum_symmetric_difference_mm2": 39.99948786407161,
+              "uniform_within_cap_sampling_tolerance": false,
+              "checks": [
+                {
+                  "axis_pos_world_m": -6.074458122253418,
+                  "cap_section_symmetric_difference_mm2": 39.99948786388813,
+                  "hausdorff_mm": 0.9231237245869139,
+                  "perimeter_scaled_area_bound_mm2": 0.0018164859231462004,
+                  "equivalent_at_1e_minus5_mm": false
+                },
+                {
+                  "axis_pos_world_m": -6.072535037994385,
+                  "cap_section_symmetric_difference_mm2": 39.99948786407161,
+                  "hausdorff_mm": 3.999948501586914,
+                  "perimeter_scaled_area_bound_mm2": 0.0018164859231462006,
+                  "equivalent_at_1e_minus5_mm": false
+                },
+                {
+                  "axis_pos_world_m": -6.070611953735352,
+                  "cap_section_symmetric_difference_mm2": 39.999487863975666,
+                  "hausdorff_mm": 3.999948501586914,
+                  "perimeter_scaled_area_bound_mm2": 0.001816485923146201,
+                  "equivalent_at_1e_minus5_mm": false
+                }
+              ]
+            }
+          ],
+          "status": "CAP_MODEL_NOT_VALID_ON_REQUIRED_INTERVAL"
+        },
+        "after": {
+          "section_integral": {
+            "method": "Exact separating world-space AABB",
+            "volume_mm3": 0.0
+          }
+        }
+      },
+      {
+        "pair": [
+          "ENV_messenger_wire",
+          "CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "before_pair": [
+          "ENV_messenger_wire",
+          "CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "type": "UNCHANGED_PAIR_SUPPLEMENT_NOT_GLOBAL_SCAN",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 7.636182078122518e-06,
+          "depth_mm": 13.99993896484375,
+          "volume_mm3": 0.00010690608301814896,
+          "cap_min_clearance_mm": 0.0
+        },
+        "after": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 7.636182078122518e-06,
+          "depth_mm": 13.99993896484375,
+          "volume_mm3": 0.00010690608301814896,
+          "cap_min_clearance_mm": 0.0
+        }
+      },
+      {
+        "pair": [
+          "CAD_50DF4_F643_profile_3",
+          "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE"
+        ],
+        "before_pair": [
+          "CAD_50DF4_F643_profile_3",
+          "REPAIR_50DF4_F643_profile_1_B535"
+        ],
+        "type": "INHERITED_FLOAT32_BOUNDARY_MICRO_OVERLAP",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 16.00101853682645,
+          "depth_mm": 1.4901161193847656e-05,
+          "volume_mm3": 0.0002384337564829953,
+          "cap_min_clearance_mm": 0.0
+        },
+        "after": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 16.00101853682645,
+          "depth_mm": 1.4901161193847656e-05,
+          "volume_mm3": 0.0002384337564829953,
+          "cap_min_clearance_mm": 0.0
+        }
+      }
+    ],
+    "BLENDER_FLOAT32_ROUNDTRIP": [
+      {
+        "pair": [
+          "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+          "CAD_50DF4_F643_profile_0"
+        ],
+        "before_pair": [
+          "CAD_50DF4_F643_profile_2",
+          "CAD_50DF4_F643_profile_0"
+        ],
+        "type": "NOMINAL_ZERO_MARGIN_PIN_CHANNEL",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 0.0,
+          "depth_mm": 4.000186920166016,
+          "volume_mm3": 0.0,
+          "cap_min_clearance_mm": 0.0
+        },
+        "after": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                0.21729469299316406,
+                0.2373812198638916
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.1867520805414763e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 0.22733795642852783,
+                  "cap_section_symmetric_difference_mm2": 3.1867520805414763e-09,
+                  "hausdorff_mm": 6.340547207858907e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031415542546469157,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -2.0745348930358887,
+                -2.0705347061157227
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 1.1857128109278486e-06,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -2.0725347995758057,
+                  "cap_section_symmetric_difference_mm2": 1.1857128109278486e-06,
+                  "hausdorff_mm": 5.167065192695793e-06,
+                  "perimeter_scaled_area_bound_mm2": 0.013651046063238621,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 0.0,
+            "breakpoint_count": 62
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+          "REPAIR_518DD_88AC_1_source-plan6.5"
+        ],
+        "before_pair": [
+          "REPAIR_50DF4_F643_profile_1_B535",
+          "REPAIR_518DD_88AC_1_source-plan6.5"
+        ],
+        "type": "NOMINAL_TONGUE_SLOT_CONTACT",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                0.24329467117786407,
+                0.24729466438293457
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 2.385914403842096e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 0.24529466778039932,
+                  "cap_section_symmetric_difference_mm2": 2.385914403842096e-08,
+                  "hausdorff_mm": 6.564485063704086e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.003136968101291106,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.6506580114364624,
+                1.6546579599380493
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 5.679866897849282e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.6526579856872559,
+                  "cap_section_symmetric_difference_mm2": 5.679866897849282e-08,
+                  "hausdorff_mm": 6.574328213163114e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0038967472310615764,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 0.0,
+            "breakpoint_count": 4
+          }
+        },
+        "after": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                0.24329467117786407,
+                0.24729466438293457
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 2.3427634534517387e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 0.24529466778039932,
+                  "cap_section_symmetric_difference_mm2": 2.3427634534517387e-08,
+                  "hausdorff_mm": 6.235271164567539e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.003136968101290384,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.6506580114364624,
+                1.6546579599380493
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 5.679866897849282e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.6526579856872559,
+                  "cap_section_symmetric_difference_mm2": 5.679866897849282e-08,
+                  "hausdorff_mm": 6.574328213163114e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0038967472310615764,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 0.0,
+            "breakpoint_count": 4
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+          "ENV_contact_wire"
+        ],
+        "before_pair": [
+          "CAD_518DF_4079_vertical_link",
+          "ENV_contact_wire"
+        ],
+        "type": "INHERITED_UNRESOLVED_END_FIXING",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -2.0750348567962646,
+                -2.0700347423553467
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 2.851202083892356e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -2.0725347995758057,
+                  "cap_section_symmetric_difference_mm2": 2.851202083892356e-09,
+                  "hausdorff_mm": 4.5898440603797925e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0003105955037650662,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.568912148475647,
+                1.5713112354278564
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.5122127559309374e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.5701116919517517,
+                  "cap_section_symmetric_difference_mm2": 3.5122127559309374e-09,
+                  "hausdorff_mm": 5.932389168757747e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031404618099379337,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 38.18368005972269,
+            "breakpoint_count": 40
+          }
+        },
+        "after": {
+          "uniform_slab_validation": [
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -2.0394349098205566,
+                -2.0344347953796387
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 2.600218121650823e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -2.0369348526000977,
+                  "cap_section_symmetric_difference_mm2": 2.600218121650823e-09,
+                  "hausdorff_mm": 4.5898440603797925e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0003105955037650662,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.568912148475647,
+                1.5713112354278564
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.5122127559309374e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.5701116919517517,
+                  "cap_section_symmetric_difference_mm2": 3.5122127559309374e-09,
+                  "hausdorff_mm": 5.932389168757747e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031404618099379337,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 38.18368005972269,
+            "breakpoint_count": 40
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+          "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE"
+        ],
+        "before_pair": [
+          "CAD_50DF4_F643_profile_2",
+          "REPAIR_50DF4_F643_profile_1_B535"
+        ],
+        "type": "TARGET_CLEARANCE_PIN_B535",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 2.3120473488656432,
+          "depth_mm": 3.9999932050704956,
+          "volume_mm3": 9.248173685263826,
+          "cap_min_clearance_mm": 0.0
+        },
+        "after": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 0.0,
+          "depth_mm": 3.9999932050704956,
+          "volume_mm3": 0.0,
+          "cap_min_clearance_mm": 0.49904008612357403
+        }
+      },
+      {
+        "pair": [
+          "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+          "CAD_SOURCE_518DF_C4D1_4AEC_ring_square_fit_candidate"
+        ],
+        "before_pair": [
+          "CAD_518DF_4079_vertical_link",
+          "CAD_SOURCE_518DF_C4D1_4AEC_ring_square_fit_candidate"
+        ],
+        "type": "TARGET_CLEARANCE_ROD_CLAMP",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                2.054048538208008,
+                2.091047525405884
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.740866742540169e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 2.072548031806946,
+                  "cap_section_symmetric_difference_mm2": 3.740866742540169e-09,
+                  "hausdorff_mm": 5.932389168757747e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031404618099379337,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                -0.0005005946150049567,
+                0.0024994052946567535
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 8.412923312382117e-05,
+              "uniform_within_cap_sampling_tolerance": false,
+              "checks": [
+                {
+                  "axis_pos_world_m": 0.0009994053398258984,
+                  "cap_section_symmetric_difference_mm2": 8.412923312382117e-05,
+                  "hausdorff_mm": 4.934215773467366e-05,
+                  "perimeter_scaled_area_bound_mm2": 0.005525953590898888,
+                  "equivalent_at_1e_minus5_mm": false
+                }
+              ]
+            }
+          ],
+          "status": "CAP_MODEL_NOT_VALID_ON_REQUIRED_INTERVAL"
+        },
+        "after": {
+          "section_integral": {
+            "method": "Exact separating world-space AABB",
+            "volume_mm3": 0.0
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+          "CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "before_pair": [
+          "CAD_518DF_4079_vertical_link",
+          "CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "type": "TARGET_CLEARANCE_ROD_CLAMP",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                2.091048002243042,
+                2.0944480895996094
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.1634127841980354e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 2.0927480459213257,
+                  "cap_section_symmetric_difference_mm2": 3.1634127841980354e-09,
+                  "hausdorff_mm": 5.932389168757747e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031404618099379337,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -2.0750348567962646,
+                -2.0700347423553467
+              ],
+              "number_of_piecewise_section_checks": 4,
+              "maximum_symmetric_difference_mm2": 39.999487864389884,
+              "uniform_within_cap_sampling_tolerance": false,
+              "checks": [
+                {
+                  "axis_pos_world_m": -2.074457883834839,
+                  "cap_section_symmetric_difference_mm2": 39.99948786388813,
+                  "hausdorff_mm": 0.9231677435869141,
+                  "perimeter_scaled_area_bound_mm2": 0.0018164859231462004,
+                  "equivalent_at_1e_minus5_mm": false
+                },
+                {
+                  "axis_pos_world_m": -2.0725347995758057,
+                  "cap_section_symmetric_difference_mm2": 39.99948786407161,
+                  "hausdorff_mm": 3.999757764586914,
+                  "perimeter_scaled_area_bound_mm2": 0.0018164859231462006,
+                  "equivalent_at_1e_minus5_mm": false
+                },
+                {
+                  "axis_pos_world_m": -2.070611834526062,
+                  "cap_section_symmetric_difference_mm2": 39.999487864389884,
+                  "hausdorff_mm": 3.999948501586914,
+                  "perimeter_scaled_area_bound_mm2": 0.0018164859231462013,
+                  "equivalent_at_1e_minus5_mm": false
+                },
+                {
+                  "axis_pos_world_m": -2.0700348615646362,
+                  "cap_section_symmetric_difference_mm2": 2.8561039411975113e-08,
+                  "hausdorff_mm": 6.545015702506575e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.001756487990126201,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "status": "CAP_MODEL_NOT_VALID_ON_REQUIRED_INTERVAL"
+        },
+        "after": {
+          "section_integral": {
+            "method": "Exact separating world-space AABB",
+            "volume_mm3": 0.0
+          }
+        }
+      },
+      {
+        "pair": [
+          "ENV_messenger_wire",
+          "CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "before_pair": [
+          "ENV_messenger_wire",
+          "CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "type": "UNCHANGED_PAIR_SUPPLEMENT_NOT_GLOBAL_SCAN",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 7.636182078122518e-06,
+          "depth_mm": 13.99993896484375,
+          "volume_mm3": 0.00010690608301814896,
+          "cap_min_clearance_mm": 0.0
+        },
+        "after": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 7.636182078122518e-06,
+          "depth_mm": 13.99993896484375,
+          "volume_mm3": 0.00010690608301814896,
+          "cap_min_clearance_mm": 0.0
+        }
+      },
+      {
+        "pair": [
+          "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+          "CAD_51409_F643_profile_0"
+        ],
+        "before_pair": [
+          "CAD_51409_F643_profile_2",
+          "CAD_51409_F643_profile_0"
+        ],
+        "type": "NOMINAL_ZERO_MARGIN_PIN_CHANNEL",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 0.0,
+          "depth_mm": 3.9997100830078125,
+          "volume_mm3": 0.0,
+          "cap_min_clearance_mm": 0.0
+        },
+        "after": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                -0.23738238215446472,
+                -0.21729585528373718
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.2108654894709862e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -0.22733911871910095,
+                  "cap_section_symmetric_difference_mm2": 3.2108654894709862e-09,
+                  "hausdorff_mm": 6.033853202425378e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031415393116610094,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -6.074534893035889,
+                -6.070535182952881
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 1.1857128736753444e-06,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -6.072535037994385,
+                  "cap_section_symmetric_difference_mm2": 1.1857128736753444e-06,
+                  "hausdorff_mm": 5.167065192695793e-06,
+                  "perimeter_scaled_area_bound_mm2": 0.013651046063238612,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 0.0,
+            "breakpoint_count": 62
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+          "REPAIR_518DE_88AC_1_source-plan6.5_FRONT_ROUTE_REFLECTED_CANDIDATE"
+        ],
+        "before_pair": [
+          "REPAIR_51409_F643_profile_1_B535",
+          "REPAIR_518DE_88AC_1_source-plan6.5_FRONT_ROUTE_REFLECTED_CANDIDATE"
+        ],
+        "type": "NOMINAL_TONGUE_SLOT_CONTACT",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                -0.24729585647583008,
+                -0.24329586327075958
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.3980597795664726e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -0.24529585987329483,
+                  "cap_section_symmetric_difference_mm2": 3.3980597795664726e-08,
+                  "hausdorff_mm": 6.828534992365102e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0031369603460843104,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.6506580114364624,
+                1.6546579599380493
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 6.26408143463651e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.6526579856872559,
+                  "cap_section_symmetric_difference_mm2": 6.26408143463651e-08,
+                  "hausdorff_mm": 6.328703371943461e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.003896744978258275,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 0.0,
+            "breakpoint_count": 4
+          }
+        },
+        "after": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                -0.24729585647583008,
+                -0.24329586327075958
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.3811302659193896e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -0.24529585987329483,
+                  "cap_section_symmetric_difference_mm2": 3.3811302659193896e-08,
+                  "hausdorff_mm": 6.241993695194998e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0031369603460835636,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.6506580114364624,
+                1.6546579599380493
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 6.26408143463651e-08,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.6526579856872559,
+                  "cap_section_symmetric_difference_mm2": 6.26408143463651e-08,
+                  "hausdorff_mm": 6.328703371943461e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.003896744978258275,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 0.0,
+            "breakpoint_count": 4
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+          "ENV_contact_wire"
+        ],
+        "before_pair": [
+          "CAD_518E0_4079_vertical_link",
+          "ENV_contact_wire"
+        ],
+        "type": "INHERITED_UNRESOLVED_END_FIXING",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -6.075035095214844,
+                -6.070034980773926
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.244489169995808e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -6.072535037994385,
+                  "cap_section_symmetric_difference_mm2": 3.244489169995808e-09,
+                  "hausdorff_mm": 4.5898440603797925e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0003105955037650662,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.568912148475647,
+                1.5713112354278564
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.672462422718044e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.5701116919517517,
+                  "cap_section_symmetric_difference_mm2": 3.672462422718044e-09,
+                  "hausdorff_mm": 6.020699490924179e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031404359596557123,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 38.183423684221864,
+            "breakpoint_count": 40
+          }
+        },
+        "after": {
+          "uniform_slab_validation": [
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -6.039434909820557,
+                -6.034434795379639
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 2.7831130246916168e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": -6.036934852600098,
+                  "cap_section_symmetric_difference_mm2": 2.7831130246916168e-09,
+                  "hausdorff_mm": 5.313665036057405e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031059550376506616,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                1.568912148475647,
+                1.5713112354278564
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.672462422718044e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 1.5701116919517517,
+                  "cap_section_symmetric_difference_mm2": 3.672462422718044e-09,
+                  "hausdorff_mm": 6.020699490924179e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.00031404359596557123,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            }
+          ],
+          "section_integral": {
+            "method": "piecewise Gauss integration of actual triangle-cap cross sections",
+            "volume_mm3": 38.183423684221864,
+            "breakpoint_count": 40
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE",
+          "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE"
+        ],
+        "before_pair": [
+          "CAD_51409_F643_profile_2",
+          "REPAIR_51409_F643_profile_1_B535"
+        ],
+        "type": "TARGET_CLEARANCE_PIN_B535",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 2.311529688654696,
+          "depth_mm": 3.9999932050704956,
+          "volume_mm3": 9.246103047937503,
+          "cap_min_clearance_mm": 0.0
+        },
+        "after": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 0.0,
+          "depth_mm": 3.9999932050704956,
+          "volume_mm3": 0.0,
+          "cap_min_clearance_mm": 0.4989249314069073
+        }
+      },
+      {
+        "pair": [
+          "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+          "CAD_SOURCE_518E0_C4D1_4AEC_ring_square_fit_candidate"
+        ],
+        "before_pair": [
+          "CAD_518E0_4079_vertical_link",
+          "CAD_SOURCE_518E0_C4D1_4AEC_ring_square_fit_candidate"
+        ],
+        "type": "TARGET_CLEARANCE_ROD_CLAMP",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                2.054048538208008,
+                2.091047525405884
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.692283459194595e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 2.072548031806946,
+                  "cap_section_symmetric_difference_mm2": 3.692283459194595e-09,
+                  "hausdorff_mm": 6.020697375678382e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0003140435959655712,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "Y",
+              "clipped_interval_m": [
+                -0.0005005946150049567,
+                0.0024994052946567535
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 9.170556256854928e-05,
+              "uniform_within_cap_sampling_tolerance": false,
+              "checks": [
+                {
+                  "axis_pos_world_m": 0.0009994053398258984,
+                  "cap_section_symmetric_difference_mm2": 9.170556256854928e-05,
+                  "hausdorff_mm": 5.719918968092494e-05,
+                  "perimeter_scaled_area_bound_mm2": 0.005525950788626387,
+                  "equivalent_at_1e_minus5_mm": false
+                }
+              ]
+            }
+          ],
+          "status": "CAP_MODEL_NOT_VALID_ON_REQUIRED_INTERVAL"
+        },
+        "after": {
+          "section_integral": {
+            "method": "Exact separating world-space AABB",
+            "volume_mm3": 0.0
+          }
+        }
+      },
+      {
+        "pair": [
+          "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE",
+          "CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "before_pair": [
+          "CAD_518E0_4079_vertical_link",
+          "CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "type": "TARGET_CLEARANCE_ROD_CLAMP",
+        "before": {
+          "uniform_slab_validation": [
+            {
+              "axis": "Z",
+              "clipped_interval_m": [
+                2.091048002243042,
+                2.0944480895996094
+              ],
+              "number_of_piecewise_section_checks": 1,
+              "maximum_symmetric_difference_mm2": 3.54821328496e-09,
+              "uniform_within_cap_sampling_tolerance": true,
+              "checks": [
+                {
+                  "axis_pos_world_m": 2.0927480459213257,
+                  "cap_section_symmetric_difference_mm2": 3.54821328496e-09,
+                  "hausdorff_mm": 6.020699965698129e-10,
+                  "perimeter_scaled_area_bound_mm2": 0.0003140435959655712,
+                  "equivalent_at_1e_minus5_mm": true
+                }
+              ]
+            },
+            {
+              "axis": "X",
+              "clipped_interval_m": [
+                -6.075035095214844,
+                -6.070034980773926
+              ],
+              "number_of_piecewise_section_checks": 3,
+              "maximum_symmetric_difference_mm2": 39.99948786407161,
+              "uniform_within_cap_sampling_tolerance": false,
+              "checks": [
+                {
+                  "axis_pos_world_m": -6.074458122253418,
+                  "cap_section_symmetric_difference_mm2": 39.99948786388813,
+                  "hausdorff_mm": 0.9231237245869139,
+                  "perimeter_scaled_area_bound_mm2": 0.0018164859231462004,
+                  "equivalent_at_1e_minus5_mm": false
+                },
+                {
+                  "axis_pos_world_m": -6.072535037994385,
+                  "cap_section_symmetric_difference_mm2": 39.99948786407161,
+                  "hausdorff_mm": 3.999948501586914,
+                  "perimeter_scaled_area_bound_mm2": 0.0018164859231462006,
+                  "equivalent_at_1e_minus5_mm": false
+                },
+                {
+                  "axis_pos_world_m": -6.070611953735352,
+                  "cap_section_symmetric_difference_mm2": 39.999487863975666,
+                  "hausdorff_mm": 3.999948501586914,
+                  "perimeter_scaled_area_bound_mm2": 0.001816485923146201,
+                  "equivalent_at_1e_minus5_mm": false
+                }
+              ]
+            }
+          ],
+          "status": "CAP_MODEL_NOT_VALID_ON_REQUIRED_INTERVAL"
+        },
+        "after": {
+          "section_integral": {
+            "method": "Exact separating world-space AABB",
+            "volume_mm3": 0.0
+          }
+        }
+      },
+      {
+        "pair": [
+          "ENV_messenger_wire",
+          "CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "before_pair": [
+          "ENV_messenger_wire",
+          "CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate"
+        ],
+        "type": "UNCHANGED_PAIR_SUPPLEMENT_NOT_GLOBAL_SCAN",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 7.636182078122518e-06,
+          "depth_mm": 13.99993896484375,
+          "volume_mm3": 0.00010690608301814896,
+          "cap_min_clearance_mm": 0.0
+        },
+        "after": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 7.636182078122518e-06,
+          "depth_mm": 13.99993896484375,
+          "volume_mm3": 0.00010690608301814896,
+          "cap_min_clearance_mm": 0.0
+        }
+      },
+      {
+        "pair": [
+          "CAD_50DF4_F643_profile_3",
+          "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE"
+        ],
+        "before_pair": [
+          "CAD_50DF4_F643_profile_3",
+          "REPAIR_50DF4_F643_profile_1_B535"
+        ],
+        "type": "INHERITED_FLOAT32_BOUNDARY_MICRO_OVERLAP",
+        "before": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 16.00101853682645,
+          "depth_mm": 1.4901161193847656e-05,
+          "volume_mm3": 0.0002384337564829953,
+          "cap_min_clearance_mm": 0.0
+        },
+        "after": {
+          "method": "intersection of actual triangulated end caps times common extrusion depth",
+          "area_mm2": 16.00101853682645,
+          "depth_mm": 1.4901161193847656e-05,
+          "volume_mm3": 0.0002384337564829953,
+          "cap_min_clearance_mm": 0.0
+        }
+      }
+    ]
+  },
+  "method_limit": "Uniform-cap integrity is independently compared with solid-angle-selected actual triangle sections in each axial vertex interval inside the required overlap slab. Section equivalence uses 1e-5 mm Hausdorff tolerance with a perimeter-scaled area bound, equal to the primary 1e-8 m collision tolerance. Section areas use 1e-9 mm snapping; uncertainty at sub-grid boundaries remains numerical. Zero volume is not clearance, fastening confirmation or a manufacturing tolerance claim."
+}

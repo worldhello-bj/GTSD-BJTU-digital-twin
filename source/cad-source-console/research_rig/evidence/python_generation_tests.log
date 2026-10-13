@@ -1,0 +1,46 @@
+test_complete_geometry_variant_is_visible_and_identified (test_contact_rig.ContactRigTest.test_complete_geometry_variant_is_visible_and_identified) ... ok
+test_contact_work_and_complete_replay (test_contact_rig.ContactRigTest.test_contact_work_and_complete_replay) ... ok
+test_source_binding_mass_and_holes (test_contact_rig.ContactRigTest.test_source_binding_mass_and_holes) ... ok
+test_box_analytic (test_mass_properties.MassTest.test_box_analytic) ... ok
+test_density_and_explicit_mass_agree (test_mass_properties.MassTest.test_density_and_explicit_mass_agree) ... ok
+test_fail_closed (test_mass_properties.MassTest.test_fail_closed) ... ok
+test_parallel_axis (test_mass_properties.MassTest.test_parallel_axis) ... ok
+test_translation_rotation (test_mass_properties.MassTest.test_translation_rotation) ... ok
+test_identity_parameters_and_checkpoint (test_plant.PlantTest.test_identity_parameters_and_checkpoint) ... ok
+test_no_input_zero_gravity_preserves_rest (test_plant.PlantTest.test_no_input_zero_gravity_preserves_rest) ... ok
+test_nondividing_step_never_exceeds_five_second_horizon (test_plant.PlantTest.test_nondividing_step_never_exceeds_five_second_horizon) ... ok
+test_real_compile_mapping (test_plant.PlantTest.test_real_compile_mapping) ... ok
+test_reject_nonfinite_and_unimplemented_contact (test_plant.PlantTest.test_reject_nonfinite_and_unimplemented_contact) ... ok
+test_world_load_cross_branch_reaction (test_plant.PlantTest.test_world_load_cross_branch_reaction) ... ok
+test_real_three_mode_http_and_native_source_contract (test_server.NativeHTTPTests.test_real_three_mode_http_and_native_source_contract) ... ok
+test_control_export_and_stale_http (test_server.ServerTests.test_control_export_and_stale_http) ... ok
+test_duplicate_headers_rejected (test_server.ServerTests.test_duplicate_headers_rejected) ... ok
+test_exact_host_and_origin (test_server.ServerTests.test_exact_host_and_origin) ... ok
+test_fixed_allowlist_no_import_or_paths (test_server.ServerTests.test_fixed_allowlist_no_import_or_paths) ... ok
+test_fixed_reads_never_start_native_session (test_server.ServerTests.test_fixed_reads_never_start_native_session) ... ok
+test_generation_reads_and_stale_generation_rejection (test_server.ServerTests.test_generation_reads_and_stale_generation_rejection) ... ok
+test_json_rejection_never_changes_state (test_server.ServerTests.test_json_rejection_never_changes_state) ... ok
+test_actual_native_checkpoint_and_pose (test_session.NativeSessionTests.test_actual_native_checkpoint_and_pose) ... ok
+test_bounded_run_finishes_without_reads_driving_it (test_session.SessionTests.test_bounded_run_finishes_without_reads_driving_it) ... ok
+test_checkpoint_restore_export_and_detachment (test_session.SessionTests.test_checkpoint_restore_export_and_detachment) ... ok
+test_concurrent_repeated_click_integrates_once (test_session.SessionTests.test_concurrent_repeated_click_integrates_once) ... ok
+test_configuration_change_new_session_only_and_atomic_failure (test_session.SessionTests.test_configuration_change_new_session_only_and_atomic_failure) ... ok
+test_explicit_ack_mode_and_parameters (test_session.SessionTests.test_explicit_ack_mode_and_parameters) ... ok
+test_failed_short_step_rolls_back_everything (test_session.SessionTests.test_failed_short_step_rolls_back_everything) ... ok
+test_initialization_is_idempotent (test_session.SessionTests.test_initialization_is_idempotent) ... ok
+test_no_eviction_replays_and_no_extra_fields (test_session.SessionTests.test_no_eviction_replays_and_no_extra_fields) ... ok
+test_pause_at_boundary_and_busy_rejection (test_session.SessionTests.test_pause_at_boundary_and_busy_rejection) ... ok
+test_reads_are_disabled_and_native_import_free (test_session.SessionTests.test_reads_are_disabled_and_native_import_free) ... ok
+test_revision_and_request_identity (test_session.SessionTests.test_revision_and_request_identity) ... ok
+test_run_failure_rolls_back_whole_run (test_session.SessionTests.test_run_failure_rolls_back_whole_run) ... ok
+test_server_generation_changes_on_restart_and_binds_commands (test_session.SessionTests.test_server_generation_changes_on_restart_and_binds_commands) ... ok
+test_step_choices_and_force_bounds (test_session.SessionTests.test_step_choices_and_force_bounds) ... ok
+test_exact_match (test_validation_metrics.MetricsTest.test_exact_match) ... ok
+test_per_dof_velocity_gate (test_validation_metrics.MetricsTest.test_per_dof_velocity_gate) ... ok
+test_raw_spike_is_not_hidden_by_smoothing (test_validation_metrics.MetricsTest.test_raw_spike_is_not_hidden_by_smoothing) ... ok
+test_shifted_onset_and_failed_replay_fail (test_validation_metrics.MetricsTest.test_shifted_onset_and_failed_replay_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 11.718s
+
+OK

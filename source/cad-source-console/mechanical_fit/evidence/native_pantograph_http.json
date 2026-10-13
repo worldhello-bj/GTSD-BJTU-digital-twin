@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "old_main_checkpoint_unchanged": true,
+  "read_routes_do_not_initialize_candidate": true,
+  "main_read_lease_unchanged": true,
+  "independent_candidate_native_steps": 20,
+  "duplicate_request_no_extra_step": true,
+  "candidate_in_memory_restore_and_replay_exact": true,
+  "unknown_run_and_cross_origin_rejected": true,
+  "browser": false,
+  "hardware_connected": false
+}

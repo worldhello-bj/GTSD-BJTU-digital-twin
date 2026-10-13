@@ -1,0 +1,6040 @@
+{
+  "schema": "gtsd-independent-combined-triangle-audit-v1",
+  "input_hashes": {
+    "source": "751ff0ac4ecf5b2351ebdd6d576cfdf6f043e9bfe8b8eff88c51a9d328ed661e",
+    "combined": "37ea59040faf84aa975048e765fae8c28449d3c39e5ed562340ee5effeb1feb4",
+    "profiles": "06cbf71b9a38f0471f01695694a1b9adeb0a4ec599ecfd01dd8ebc0908a6da01",
+    "replacements": "fe9e6c52f5a2381394e40372147c78946b6e50c019043d381730c7593df61a73"
+  },
+  "scene": "20_FRONT_ROUTE_NOMINAL_FIT",
+  "coordinate_mode": "EXPORTED_JSON_DOUBLE",
+  "tolerance_m": 1e-08,
+  "counts": {
+    "before_meshes": 1932,
+    "removed": 37,
+    "added": 33,
+    "unchanged": 1895,
+    "after_meshes": 1928,
+    "after_changed_vs_all_unique_pairs": 63063,
+    "before_removed_vs_all_unique_pairs": 70781,
+    "after_positive_aabb_candidates": 34,
+    "before_positive_aabb_candidates": 54,
+    "cross_profile_changed_pairs": 324,
+    "cross_profile_positive_aabb_candidates": 0
+  },
+  "predecessors": {
+    "FIT_TRACK_station03_common_support": [
+      "DETAIL_BENCH_branch_chair_03_1",
+      "ENV_rail_chair.007",
+      "DETAIL_BENCH_crossing_support_plate",
+      "CAD_TRACK_REV_photo_chair_009_source_station"
+    ],
+    "FIT_TRACK_station23_common_support": [
+      "DETAIL_BENCH_branch_chair_23_2",
+      "ENV_rail_chair.046"
+    ],
+    "FIT_TRACK_station01_source_chair": [
+      "DETAIL_BENCH_branch_chair_01_0"
+    ],
+    "FIT_TRACK_clip_01_0_-1": [
+      "DETAIL_BENCH_branch_fastener_01_0_-1"
+    ],
+    "FIT_TRACK_clip_01_0_1": [
+      "DETAIL_BENCH_branch_fastener_01_0_1"
+    ],
+    "FIT_TRACK_clip_03_1_-1": [
+      "DETAIL_BENCH_branch_fastener_03_1_-1"
+    ],
+    "FIT_TRACK_clip_03_1_1": [
+      "DETAIL_BENCH_branch_fastener_03_1_1"
+    ],
+    "FIT_TRACK_clip_23_2_-1": [
+      "DETAIL_BENCH_branch_fastener_23_2_-1"
+    ],
+    "FIT_TRACK_clip_23_2_1": [
+      "DETAIL_BENCH_branch_fastener_23_2_1"
+    ],
+    "FIT_BALISE_02_body_02": [
+      "ENV_balise_body_02"
+    ],
+    "FIT_BALISE_02_yellow_lid_02": [
+      "ENV_balise_yellow_lid_02"
+    ],
+    "FIT_BALISE_02_lid_screw.008": [
+      "ENV_balise_lid_screw.008"
+    ],
+    "FIT_BALISE_02_lid_screw.009": [
+      "ENV_balise_lid_screw.009"
+    ],
+    "FIT_BALISE_02_lid_screw.010": [
+      "ENV_balise_lid_screw.010"
+    ],
+    "FIT_BALISE_02_lid_screw.011": [
+      "ENV_balise_lid_screw.011"
+    ],
+    "FIT_BALISE_SOURCE_branch_chair_12_2": [
+      "DETAIL_BENCH_branch_chair_12_2"
+    ],
+    "FIT_BALISE_SOURCE_branch_fastener_12_2_1": [
+      "DETAIL_BENCH_branch_fastener_12_2_1"
+    ],
+    "FIT_BALISE_SOURCE_branch_fastener_12_2_-1": [
+      "DETAIL_BENCH_branch_fastener_12_2_-1"
+    ],
+    "FIT_BALISE_03_body_03": [
+      "ENV_balise_body_03"
+    ],
+    "FIT_BALISE_03_yellow_lid_03": [
+      "ENV_balise_yellow_lid_03"
+    ],
+    "FIT_BALISE_03_lid_screw.012": [
+      "ENV_balise_lid_screw.012"
+    ],
+    "FIT_BALISE_03_lid_screw.013": [
+      "ENV_balise_lid_screw.013"
+    ],
+    "FIT_BALISE_03_lid_screw.014": [
+      "ENV_balise_lid_screw.014"
+    ],
+    "FIT_BALISE_03_lid_screw.015": [
+      "ENV_balise_lid_screw.015"
+    ],
+    "FIT_BALISE_SOURCE_branch_chair_17_2": [
+      "DETAIL_BENCH_branch_chair_17_2"
+    ],
+    "FIT_BALISE_SOURCE_branch_fastener_17_2_1": [
+      "DETAIL_BENCH_branch_fastener_17_2_1"
+    ],
+    "FIT_BALISE_SOURCE_branch_fastener_17_2_-1": [
+      "DETAIL_BENCH_branch_fastener_17_2_-1"
+    ],
+    "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE": [
+      "CAD_518DF_4079_vertical_link"
+    ],
+    "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE": [
+      "CAD_50DF4_F643_profile_2"
+    ],
+    "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE": [
+      "REPAIR_50DF4_F643_profile_1_B535"
+    ],
+    "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE": [
+      "CAD_518E0_4079_vertical_link"
+    ],
+    "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE": [
+      "CAD_51409_F643_profile_2"
+    ],
+    "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE": [
+      "REPAIR_51409_F643_profile_1_B535"
+    ]
+  },
+  "candidate_topology": {
+    "FIT_TRACK_station03_common_support": {
+      "welded_vertex_count": 384,
+      "triangles": 250,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_TRACK_station23_common_support": {
+      "welded_vertex_count": 192,
+      "triangles": 188,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_TRACK_station01_source_chair": {
+      "welded_vertex_count": 224,
+      "triangles": 196,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_TRACK_clip_01_0_-1": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_TRACK_clip_01_0_1": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_TRACK_clip_03_1_-1": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_TRACK_clip_03_1_1": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_TRACK_clip_23_2_-1": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_TRACK_clip_23_2_1": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_02_body_02": {
+      "welded_vertex_count": 96,
+      "triangles": 188,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_02_yellow_lid_02": {
+      "welded_vertex_count": 96,
+      "triangles": 188,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_02_lid_screw.008": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_02_lid_screw.009": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_02_lid_screw.010": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_02_lid_screw.011": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_SOURCE_branch_chair_12_2": {
+      "welded_vertex_count": 96,
+      "triangles": 188,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_SOURCE_branch_fastener_12_2_1": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_SOURCE_branch_fastener_12_2_-1": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_03_body_03": {
+      "welded_vertex_count": 96,
+      "triangles": 188,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_03_yellow_lid_03": {
+      "welded_vertex_count": 96,
+      "triangles": 188,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_03_lid_screw.012": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_03_lid_screw.013": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_03_lid_screw.014": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_03_lid_screw.015": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_SOURCE_branch_chair_17_2": {
+      "welded_vertex_count": 96,
+      "triangles": 188,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_SOURCE_branch_fastener_17_2_1": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_BALISE_SOURCE_branch_fastener_17_2_-1": {
+      "welded_vertex_count": 16,
+      "triangles": 28,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE": {
+      "welded_vertex_count": 128,
+      "triangles": 252,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE": {
+      "welded_vertex_count": 386,
+      "triangles": 768,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE": {
+      "welded_vertex_count": 272,
+      "triangles": 544,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE": {
+      "welded_vertex_count": 128,
+      "triangles": 252,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE": {
+      "welded_vertex_count": 386,
+      "triangles": 768,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    },
+    "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE": {
+      "welded_vertex_count": 272,
+      "triangles": 544,
+      "boundary_edge_count": 0,
+      "nonmanifold_edge_count": 0,
+      "closed_edge_two_incidence": true,
+      "consistent_directed_edges": true,
+      "degenerate_triangle_count": 0
+    }
+  },
+  "after_positive_aabb_pairs": [
+    {
+      "pair": [
+        "CAD_50DF4_F643_profile_0",
+        "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE"
+      ],
+      "group_pair": [
+        "unchanged",
+        "clamps"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_50DF4_F643_profile_0",
+            "CAD_50DF4_F643_profile_2"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              4.000186920166016,
+              20.08652687072754,
+              4.999995231628418
+            ],
+            "triangle_aabb_candidates_tested": 396,
+            "surface_crossing_count": 592,
+            "coplanar_touch_count": 91,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+            "aabb_overlap_volume_upper_bound_mm3": 401.74892716123867
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          4.000186920166016,
+          20.08652687072754,
+          4.999995231628418
+        ],
+        "triangle_aabb_candidates_tested": 1064,
+        "surface_crossing_count": 680,
+        "coplanar_touch_count": 289,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "aabb_overlap_volume_upper_bound_mm3": 401.74892716123867
+      },
+      "comparison": "INHERITED_UNRESOLVED_CONTACT_REQUIRES_REVIEW"
+    },
+    {
+      "pair": [
+        "CAD_50DF4_F643_profile_3",
+        "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE"
+      ],
+      "group_pair": [
+        "unchanged",
+        "clamps"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_50DF4_F643_profile_3",
+            "REPAIR_50DF4_F643_profile_1_B535"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              4.000186920166016,
+              1.4901161193847656e-05,
+              4.000067710876465
+            ],
+            "triangle_aabb_candidates_tested": 204,
+            "surface_crossing_count": 28,
+            "coplanar_touch_count": 2,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+            "unconfirmed_sample_evidence": {
+              "aabb_signed_overlap_mm": [
+                4.000186920166016,
+                1.4901161193847656e-05,
+                4.000067710876465
+              ],
+              "status": "POSITIVE_MATERIAL_OVERLAP",
+              "witness_world_m": [
+                -2.0744548892974852,
+                0.2432946714758873,
+                1.6007379412651062
+              ],
+              "shared_material_chords": [
+                {
+                  "axis": "X",
+                  "negative_mm": 0.08000373840344466,
+                  "positive_mm": 3.92018318176257,
+                  "shared_material_chord_mm": 4.000186920166015
+                },
+                {
+                  "axis": "Y",
+                  "negative_mm": 2.98023217215615e-07,
+                  "positive_mm": 1.460313797663204e-05,
+                  "shared_material_chord_mm": 1.4901161193847655e-05
+                },
+                {
+                  "axis": "Z",
+                  "negative_mm": 0.08000135421748489,
+                  "positive_mm": 3.92006635665898,
+                  "shared_material_chord_mm": 4.000067710876465
+                }
+              ],
+              "aabb_overlap_volume_upper_bound_mm3": 0.0002384337564829953,
+              "independent_witness_winding_numbers": [
+                1.0,
+                1.0000000000000002
+              ],
+              "independent_witness_surface_distances_mm": [
+                1.460313797663204e-05,
+                2.98023217215615e-07
+              ],
+              "independently_confirmed_strict_interior": false
+            },
+            "independent_witness_confirmation_failed": true
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          4.000186920166016,
+          1.4901161193847656e-05,
+          4.000067710876465
+        ],
+        "triangle_aabb_candidates_tested": 204,
+        "surface_crossing_count": 28,
+        "coplanar_touch_count": 2,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "unconfirmed_sample_evidence": {
+          "aabb_signed_overlap_mm": [
+            4.000186920166016,
+            1.4901161193847656e-05,
+            4.000067710876465
+          ],
+          "status": "POSITIVE_MATERIAL_OVERLAP",
+          "witness_world_m": [
+            -2.0744548892974852,
+            0.2432946714758873,
+            1.6007379412651062
+          ],
+          "shared_material_chords": [
+            {
+              "axis": "X",
+              "negative_mm": 0.08000373840344466,
+              "positive_mm": 3.92018318176257,
+              "shared_material_chord_mm": 4.000186920166015
+            },
+            {
+              "axis": "Y",
+              "negative_mm": 2.98023217215615e-07,
+              "positive_mm": 1.460313797663204e-05,
+              "shared_material_chord_mm": 1.4901161193847655e-05
+            },
+            {
+              "axis": "Z",
+              "negative_mm": 0.08000135421748489,
+              "positive_mm": 3.92006635665898,
+              "shared_material_chord_mm": 4.000067710876465
+            }
+          ],
+          "aabb_overlap_volume_upper_bound_mm3": 0.0002384337564829953,
+          "independent_witness_winding_numbers": [
+            1.0,
+            0.9999999999999963
+          ],
+          "independent_witness_surface_distances_mm": [
+            1.460313797663204e-05,
+            2.98023217215615e-07
+          ],
+          "independently_confirmed_strict_interior": false
+        },
+        "independent_witness_confirmation_failed": true
+      },
+      "comparison": "INHERITED_UNRESOLVED_CONTACT_REQUIRES_REVIEW"
+    },
+    {
+      "pair": [
+        "CAD_51409_F643_profile_0",
+        "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE"
+      ],
+      "group_pair": [
+        "unchanged",
+        "clamps"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_51409_F643_profile_0",
+            "CAD_51409_F643_profile_2"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              3.9997100830078125,
+              20.08652687072754,
+              4.999995231628418
+            ],
+            "triangle_aabb_candidates_tested": 396,
+            "surface_crossing_count": 592,
+            "coplanar_touch_count": 91,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+            "aabb_overlap_volume_upper_bound_mm3": 401.7010371949541
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          3.9997100830078125,
+          20.08652687072754,
+          4.999995231628418
+        ],
+        "triangle_aabb_candidates_tested": 1064,
+        "surface_crossing_count": 680,
+        "coplanar_touch_count": 289,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "aabb_overlap_volume_upper_bound_mm3": 401.7010371949541
+      },
+      "comparison": "INHERITED_UNRESOLVED_CONTACT_REQUIRES_REVIEW"
+    },
+    {
+      "pair": [
+        "CAD_518DF_diagonal_tube",
+        "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE"
+      ],
+      "group_pair": [
+        "unchanged",
+        "clamps"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_518DF_diagonal_tube",
+            "REPAIR_50DF4_F643_profile_1_B535"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              15.000104904174805,
+              3.9999932050704956,
+              54.000020027160645
+            ],
+            "triangle_aabb_candidates_tested": 14192,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED",
+            "aabb_overlap_volume_upper_bound_mm3": 3240.018357006368
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          15.000104904174805,
+          3.9999932050704956,
+          54.000020027160645
+        ],
+        "triangle_aabb_candidates_tested": 14248,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 3240.018357006368
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_518DF_diagonal_tube",
+        "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE"
+      ],
+      "group_pair": [
+        "unchanged",
+        "clamps"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_518DF_diagonal_tube",
+            "CAD_50DF4_F643_profile_2"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              4.000186920166016,
+              39.99999165534973,
+              4.999995231628418
+            ],
+            "triangle_aabb_candidates_tested": 288,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED",
+            "aabb_overlap_volume_upper_bound_mm3": 800.0364541574527
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          4.999876022338867,
+          39.99999165534973,
+          4.999995231628418
+        ],
+        "triangle_aabb_candidates_tested": 11296,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 999.9740422062189
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_02_body_02"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "ENV_balise_body_02"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              121.99974060058594,
+              115.99999666213989,
+              25.374929010868076
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -7.169893245697022,
+              0.0,
+              -0.06449250141978265
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.4399948120112924,
+                "positive_mm": 119.55974578857465,
+                "shared_material_chord_mm": 121.99974060058594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 8.468862807983609,
+                "positive_mm": 54.73198460098787,
+                "shared_material_chord_mm": 63.200847408971484
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5074985802173553,
+                "positive_mm": 8.149062437560033,
+                "shared_material_chord_mm": 8.656561017777388
+              }
+            ],
+            "aabb_overlap_volume_upper_bound_mm3": 359105.2214886362,
+            "independent_witness_winding_numbers": [
+              1.0000000000000002,
+              1.0
+            ],
+            "independent_witness_surface_distances_mm": [
+              0.5074985802173554,
+              2.4399948120112924
+            ],
+            "independently_confirmed_strict_interior": true,
+            "guaranteed_inscribed_overlap_ball_volume_mm3": 0.5475113216388013
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          115.99999666213989,
+          121.99974060058594,
+          25.374929010868076
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 359105.2214886362
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_02_lid_screw.008"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "ENV_balise_lid_screw.008"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED",
+            "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_02_lid_screw.009"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "ENV_balise_lid_screw.009"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED",
+            "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_02_lid_screw.010"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "ENV_balise_lid_screw.010"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED",
+            "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_02_lid_screw.011"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "ENV_balise_lid_screw.011"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED",
+            "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_02_yellow_lid_02"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "ENV_balise_yellow_lid_02"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              131.99996948242188,
+              126.00000202655792,
+              9.999997913837433
+            ],
+            "triangle_aabb_candidates_tested": 168,
+            "surface_crossing_count": 164,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+            "aabb_overlap_volume_upper_bound_mm3": 166319.92952585904
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          126.00000202655792,
+          131.99996948242188,
+          9.999997913837433
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 166319.92952585904
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_03_body_03"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "ENV_balise_body_03"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              121.99974060058594,
+              115.99999666213989,
+              25.374929010868076
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.239892940521241,
+              -0.04639999866485596,
+              -0.06449250141978265
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.4399948120112924,
+                "positive_mm": 119.55974578857465,
+                "shared_material_chord_mm": 121.99974060058594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 8.331985936131906,
+                "positive_mm": 19.949918158118344,
+                "shared_material_chord_mm": 28.28190409425025
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5074985802173554,
+                "positive_mm": 10.40150088441764,
+                "shared_material_chord_mm": 10.908999464634995
+              }
+            ],
+            "aabb_overlap_volume_upper_bound_mm3": 359105.2214886362,
+            "independent_witness_winding_numbers": [
+              1.0,
+              1.0
+            ],
+            "independent_witness_surface_distances_mm": [
+              0.5074985802173553,
+              2.4399948120112924
+            ],
+            "independently_confirmed_strict_interior": true,
+            "guaranteed_inscribed_overlap_ball_volume_mm3": 0.5475113216388009
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          115.99999666213989,
+          121.99974060058594,
+          25.374929010868076
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 359105.2214886362
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_03_lid_screw.012"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "ENV_balise_lid_screw.012"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED",
+            "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_03_lid_screw.013"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "ENV_balise_lid_screw.013"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED",
+            "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_03_lid_screw.014"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "ENV_balise_lid_screw.014"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED",
+            "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_03_lid_screw.015"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "ENV_balise_lid_screw.015"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              5.999565124511719,
+              5.99999725818634,
+              1.499999314546585
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED",
+            "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_03_yellow_lid_03"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "ENV_balise_yellow_lid_03"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              131.99996948242188,
+              126.00000202655792,
+              9.999997913837433
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.244693050384521,
+              -0.060480000972747805,
+              -0.03862507119774818
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 1.2690371610886297,
+                "positive_mm": 43.404452895610504,
+                "shared_material_chord_mm": 44.67349005669914
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 1.187052524139818,
+                "positive_mm": 3.837327763812444,
+                "shared_material_chord_mm": 5.024380287952262
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.5860655526972882,
+                "positive_mm": 8.586064018104858,
+                "shared_material_chord_mm": 9.172129570802147
+              }
+            ],
+            "aabb_overlap_volume_upper_bound_mm3": 166319.92952585904,
+            "independent_witness_winding_numbers": [
+              0.9999999999999997,
+              1.0000000000000002
+            ],
+            "independent_witness_surface_distances_mm": [
+              3.822098656300711,
+              0.5460767243005035
+            ],
+            "independently_confirmed_strict_interior": true,
+            "guaranteed_inscribed_overlap_ball_volume_mm3": 0.6821024455956985
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          126.00000202655792,
+          131.99996948242188,
+          9.999997913837433
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 166319.92952585904
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_SOURCE_branch_fastener_12_2_-1"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "DETAIL_BENCH_branch_fastener_12_2_-1"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.000001639127731,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -7.026333332061768,
+              -0.021129844710230827,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 2.414357517705738,
+                "positive_mm": 2.414357517705738,
+                "shared_material_chord_mm": 4.828715035411476
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 2.559927532632794,
+                "positive_mm": 1.0000001639127731,
+                "shared_material_chord_mm": 3.559927696545567
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 7.180865002729011,
+                "shared_material_chord_mm": 7.500865055181095
+              }
+            ],
+            "aabb_overlap_volume_upper_bound_mm3": 1600.0371456266723,
+            "independent_witness_winding_numbers": [
+              0.9999999999999991,
+              0.9999999999999999
+            ],
+            "independent_witness_surface_distances_mm": [
+              0.3200024366378784,
+              0.3200000524520851
+            ],
+            "independently_confirmed_strict_interior": true,
+            "guaranteed_inscribed_overlap_ball_volume_mm3": 0.13725834492560324
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          10.000001639127731,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 55,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0371456266723
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_SOURCE_branch_fastener_12_2_1"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "DETAIL_BENCH_branch_fastener_12_2_1"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED",
+            "aabb_overlap_volume_upper_bound_mm3": 1600.0365495664844
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.99999791383744,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0365495664855
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_SOURCE_branch_fastener_17_2_-1"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "DETAIL_BENCH_branch_fastener_17_2_-1"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.00000536441803,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.031133441925049,
+              -0.11696364730596542,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 0.20000457763647003,
+                "positive_mm": 9.80022430419947,
+                "shared_material_chord_mm": 10.00022888183594
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 0.48288613353962384,
+                "positive_mm": 0.4828861335396236,
+                "shared_material_chord_mm": 0.9657722670792475
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 6.849320906055118,
+                "shared_material_chord_mm": 7.169320958507203
+              }
+            ],
+            "aabb_overlap_volume_upper_bound_mm3": 1600.0377416868603,
+            "independent_witness_winding_numbers": [
+              0.9999999999999996,
+              1.0000000000000002
+            ],
+            "independent_witness_surface_distances_mm": [
+              0.3200024366378784,
+              0.18478194961478983
+            ],
+            "independently_confirmed_strict_interior": true,
+            "guaranteed_inscribed_overlap_ball_volume_mm3": 0.026428179281459956
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          10.00000536441803,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 55,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0377416868603
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_SOURCE_branch_fastener_17_2_1"
+      ],
+      "group_pair": [
+        "unchanged",
+        "balise"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "DETAIL_BENCH_branch_fastener_17_2_1"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999997913837433,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED",
+            "aabb_overlap_volume_upper_bound_mm3": 1600.0365495664844
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999997913837433,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 23,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0365495664844
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_TRACK_clip_23_2_-1"
+      ],
+      "group_pair": [
+        "unchanged",
+        "track_support"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "DETAIL_BENCH_branch_fastener_23_2_-1"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999990463256836,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -4.831133155822754,
+              -0.20271036028862,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 0.20000457763647006,
+                "positive_mm": 9.800224304199467,
+                "shared_material_chord_mm": 10.000228881835938
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 0.4828871511467634,
+                "positive_mm": 0.4828871511467631,
+                "shared_material_chord_mm": 0.9657743022935266
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 7.105698821011121,
+                "shared_material_chord_mm": 7.425698873463206
+              }
+            ],
+            "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087,
+            "independent_witness_winding_numbers": [
+              1.0000000000000002,
+              1.0000000000000002
+            ],
+            "independent_witness_surface_distances_mm": [
+              0.3200024366378784,
+              0.18478200663428979
+            ],
+            "independently_confirmed_strict_interior": true,
+            "guaranteed_inscribed_overlap_ball_volume_mm3": 0.02642820374686963
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 23,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_TRACK_clip_23_2_1"
+      ],
+      "group_pair": [
+        "unchanged",
+        "track_support"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_inner_right_native_xy",
+            "DETAIL_BENCH_branch_fastener_23_2_1"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              10.00000536441803,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED",
+            "aabb_overlap_volume_upper_bound_mm3": 1600.0377416868603
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          10.00000536441803,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 55,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0377416868603
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_outer_branch_native_xy",
+        "FIT_TRACK_clip_01_0_-1"
+      ],
+      "group_pair": [
+        "unchanged",
+        "track_support"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_outer_branch_native_xy",
+            "DETAIL_BENCH_branch_fastener_01_0_-1"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999990463256836,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -9.226333618164062,
+              0.7823857402801514,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 0.48279970236597186,
+                "positive_mm": 0.4827997023659726,
+                "shared_material_chord_mm": 0.9655994047319445
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 0.670463553773144,
+                "positive_mm": 0.19999980926510535,
+                "shared_material_chord_mm": 0.8704633630382493
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 6.8105655778819605,
+                "shared_material_chord_mm": 7.130565630334045
+              }
+            ],
+            "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087,
+            "independent_witness_winding_numbers": [
+              0.9999999999991525,
+              1.0000000000000002
+            ],
+            "independent_witness_surface_distances_mm": [
+              0.3200024366378784,
+              0.18477334542113016
+            ],
+            "independently_confirmed_strict_interior": true,
+            "guaranteed_inscribed_overlap_ball_volume_mm3": 0.02642448764515721
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 134,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_outer_branch_native_xy",
+        "FIT_TRACK_clip_01_0_1"
+      ],
+      "group_pair": [
+        "unchanged",
+        "track_support"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_outer_branch_native_xy",
+            "DETAIL_BENCH_branch_fastener_01_0_1"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999990463256836,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -9.226333618164062,
+              0.8547857666015625,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 0.4827997023659726,
+                "positive_mm": 0.48279970236597186,
+                "shared_material_chord_mm": 0.9655994047319445
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 0.19999980926510535,
+                "positive_mm": 0.6706270583260708,
+                "shared_material_chord_mm": 0.8706268675911762
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 6.8105983016408125,
+                "shared_material_chord_mm": 7.130598354092897
+              }
+            ],
+            "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087,
+            "independent_witness_winding_numbers": [
+              0.9999999999999887,
+              1.0000000000000002
+            ],
+            "independent_witness_surface_distances_mm": [
+              0.3200024366378784,
+              0.18477334542113016
+            ],
+            "independently_confirmed_strict_interior": true,
+            "guaranteed_inscribed_overlap_ball_volume_mm3": 0.02642448764515721
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 134,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_outer_branch_native_xy",
+        "FIT_TRACK_clip_03_1_1"
+      ],
+      "group_pair": [
+        "unchanged",
+        "track_support"
+      ],
+      "before": [
+        {
+          "pair": [
+            "CAD_TRACK_REV_outer_branch_native_xy",
+            "DETAIL_BENCH_branch_fastener_03_1_1"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999990463256836,
+              16.00000262260437
+            ],
+            "triangle_aabb_candidates_tested": 0,
+            "surface_crossing_count": 0,
+            "coplanar_touch_count": 0,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "TRIANGULATED_MESHES_SEPARATED",
+            "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "DETAIL_BENCH_turnout_inner_left_segment",
+        "FIT_TRACK_clip_03_1_-1"
+      ],
+      "group_pair": [
+        "unchanged",
+        "track_support"
+      ],
+      "before": [
+        {
+          "pair": [
+            "DETAIL_BENCH_turnout_inner_left_segment",
+            "DETAIL_BENCH_branch_fastener_03_1_-1"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999990463256836,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -8.826333045959473,
+              0.20215312004089356,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 0.48280952754974993,
+                "positive_mm": 0.4828095275497503,
+                "shared_material_chord_mm": 0.9656190550995003
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 0.6706141714073967,
+                "positive_mm": 0.1999998092651332,
+                "shared_material_chord_mm": 0.8706139806725298
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520851,
+                "positive_mm": 6.810597251652233,
+                "shared_material_chord_mm": 7.130597304104318
+              }
+            ],
+            "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087,
+            "independent_witness_winding_numbers": [
+              1.0000000000000002,
+              1.00000000000004
+            ],
+            "independent_witness_surface_distances_mm": [
+              0.18477389616081216,
+              0.3200000524520852
+            ],
+            "independently_confirmed_strict_interior": true,
+            "guaranteed_inscribed_overlap_ball_volume_mm3": 0.026424723930167905
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 98,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "DETAIL_BENCH_turnout_inner_left_segment",
+        "FIT_TRACK_clip_03_1_1"
+      ],
+      "group_pair": [
+        "unchanged",
+        "track_support"
+      ],
+      "before": [
+        {
+          "pair": [
+            "DETAIL_BENCH_turnout_inner_left_segment",
+            "DETAIL_BENCH_branch_fastener_03_1_1"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              10.000228881835938,
+              9.999990463256836,
+              16.00000262260437
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -8.826333045959473,
+              0.2745531165599823,
+              -0.06467999756336212
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 0.48280952754981743,
+                "positive_mm": 0.48280952754981715,
+                "shared_material_chord_mm": 0.9656190550996345
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 0.19999980926516103,
+                "positive_mm": 0.6706366299081455,
+                "shared_material_chord_mm": 0.8706364391733066
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.3200000524520852,
+                "positive_mm": 6.8106016253082675,
+                "shared_material_chord_mm": 7.130601677760352
+              }
+            ],
+            "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087,
+            "independent_witness_winding_numbers": [
+              1.0000000000000002,
+              1.0000000000001341
+            ],
+            "independent_witness_surface_distances_mm": [
+              0.18477389616083775,
+              0.3200000524520852
+            ],
+            "independently_confirmed_strict_interior": true,
+            "guaranteed_inscribed_overlap_ball_volume_mm3": 0.026424723930178882
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 218,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "ENV_contact_wire",
+        "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "group_pair": [
+        "unchanged",
+        "clamps"
+      ],
+      "before": [
+        {
+          "pair": [
+            "ENV_contact_wire",
+            "CAD_518DF_4079_vertical_link"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              5.000114440917969,
+              4.999405238777399,
+              2.3990869522094727
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -2.0749348545074464,
+              -2.973247319459915e-07,
+              1.5689601302146912
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 0.09998753517478641,
+                "positive_mm": 4.9000973984562854,
+                "shared_material_chord_mm": 5.000084933631072
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 0.6950137265766662,
+                "positive_mm": 0.6944190771127742,
+                "shared_material_chord_mm": 1.3894328036894403
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.04798173904418945,
+                "positive_mm": 2.351025535343605,
+                "shared_material_chord_mm": 2.3990072743877944
+              }
+            ],
+            "aabb_overlap_volume_upper_bound_mm3": 59.97141199106429,
+            "independent_witness_winding_numbers": [
+              1.0,
+              0.9999999998461295
+            ],
+            "independent_witness_surface_distances_mm": [
+              0.04798173904418946,
+              2.27089737854167
+            ],
+            "independently_confirmed_strict_interior": true,
+            "guaranteed_inscribed_overlap_ball_volume_mm3": 0.00046271817948779955
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          4.999405238777399,
+          2.3990869522094727
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -2.0393349075317384,
+          -2.973247319459915e-07,
+          1.5689601302146912
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.09998753517478641,
+            "positive_mm": 4.9000973984562854,
+            "shared_material_chord_mm": 5.000084933631072
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.6950137265766662,
+            "positive_mm": 0.6944190771127742,
+            "shared_material_chord_mm": 1.3894328036894403
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.04798173904418945,
+            "positive_mm": 2.351025535343605,
+            "shared_material_chord_mm": 2.3990072743877944
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 59.97141199106429,
+        "independent_witness_winding_numbers": [
+          1.000000000056988,
+          1.0
+        ],
+        "independent_witness_surface_distances_mm": [
+          2.27089737854167,
+          0.04798173904418946
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.00046271817948779955
+      },
+      "comparison": "INHERITED_POSITIVE_OVERLAP_OR_INTERFACE"
+    },
+    {
+      "pair": [
+        "ENV_contact_wire",
+        "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "group_pair": [
+        "unchanged",
+        "clamps"
+      ],
+      "before": [
+        {
+          "pair": [
+            "ENV_contact_wire",
+            "CAD_518E0_4079_vertical_link"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              5.000114440917969,
+              4.999405238777399,
+              2.3990869522094727
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.074935092926025,
+              -2.973247319459915e-07,
+              1.5689601302146912
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 0.09998782446235693,
+                "positive_mm": 4.900097687742967,
+                "shared_material_chord_mm": 5.000085512205325
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 0.6950137265784394,
+                "positive_mm": 0.6944190771145474,
+                "shared_material_chord_mm": 1.3894328036929868
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.04798173904418945,
+                "positive_mm": 2.351025535343605,
+                "shared_material_chord_mm": 2.3990072743877944
+              }
+            ],
+            "aabb_overlap_volume_upper_bound_mm3": 59.97141199106429,
+            "independent_witness_winding_numbers": [
+              1.000000000000001,
+              0.9999999998440942
+            ],
+            "independent_witness_surface_distances_mm": [
+              0.04798173904418945,
+              2.27089737854167
+            ],
+            "independently_confirmed_strict_interior": true,
+            "guaranteed_inscribed_overlap_ball_volume_mm3": 0.00046271817948779934
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          4.999405238777399,
+          2.3990869522094727
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.039334907531738,
+          -2.973247319459915e-07,
+          1.5689601302146912
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.09998782446235693,
+            "positive_mm": 4.900097687742967,
+            "shared_material_chord_mm": 5.000085512205325
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.6950137265784394,
+            "positive_mm": 0.6944190771145474,
+            "shared_material_chord_mm": 1.3894328036929868
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.04798173904418945,
+            "positive_mm": 2.351025535343605,
+            "shared_material_chord_mm": 2.3990072743877944
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 59.97141199106429,
+        "independent_witness_winding_numbers": [
+          1.000000000009776,
+          1.000000000000001
+        ],
+        "independent_witness_surface_distances_mm": [
+          2.27089737854167,
+          0.04798173904418945
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.00046271817948779934
+      },
+      "comparison": "INHERITED_POSITIVE_OVERLAP_OR_INTERFACE"
+    },
+    {
+      "pair": [
+        "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+        "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE"
+      ],
+      "group_pair": [
+        "clamps",
+        "clamps"
+      ],
+      "before": [
+        {
+          "pair": [
+            "REPAIR_50DF4_F643_profile_1_B535",
+            "CAD_50DF4_F643_profile_2"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              4.000186920166016,
+              3.9999932050704956,
+              4.999995231628418
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -2.0744548892974852,
+              0.24337467104196547,
+              1.6232579779624938
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 0.08000373840344466,
+                "positive_mm": 3.920183181762571,
+                "shared_material_chord_mm": 4.000186920166016
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 0.07999986410139881,
+                "positive_mm": 3.919993340969097,
+                "shared_material_chord_mm": 3.9999932050704956
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.0999999046324973,
+                "positive_mm": 0.9326772618344452,
+                "shared_material_chord_mm": 1.0326771664669425
+              }
+            ],
+            "aabb_overlap_volume_upper_bound_mm3": 80.00352620099875,
+            "independent_witness_winding_numbers": [
+              0.9999999999999805,
+              1.0000000000000024
+            ],
+            "independent_witness_surface_distances_mm": [
+              0.08000373840344467,
+              0.07999986410139881
+            ],
+            "independently_confirmed_strict_interior": true,
+            "guaranteed_inscribed_overlap_ball_volume_mm3": 0.002144649655255192
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          4.999876022338867,
+          3.9999932050704956,
+          4.999995231628418
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 99.99725521284688
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+        "REPAIR_518DD_88AC_1_source-plan6.5"
+      ],
+      "group_pair": [
+        "clamps",
+        "unchanged"
+      ],
+      "before": [
+        {
+          "pair": [
+            "REPAIR_50DF4_F643_profile_1_B535",
+            "REPAIR_518DD_88AC_1_source-plan6.5"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              15.000104904174805,
+              3.9999932050704956,
+              3.999948501586914
+            ],
+            "triangle_aabb_candidates_tested": 6472,
+            "surface_crossing_count": 7488,
+            "coplanar_touch_count": 450,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+            "aabb_overlap_volume_upper_bound_mm3": 239.99818084702954
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          15.000104904174805,
+          3.9999932050704956,
+          3.999948501586914
+        ],
+        "triangle_aabb_candidates_tested": 6472,
+        "surface_crossing_count": 7264,
+        "coplanar_touch_count": 447,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "aabb_overlap_volume_upper_bound_mm3": 239.99818084702954
+      },
+      "comparison": "INHERITED_UNRESOLVED_CONTACT_REQUIRES_REVIEW"
+    },
+    {
+      "pair": [
+        "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+        "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE"
+      ],
+      "group_pair": [
+        "clamps",
+        "clamps"
+      ],
+      "before": [
+        {
+          "pair": [
+            "REPAIR_51409_F643_profile_1_B535",
+            "CAD_51409_F643_profile_2"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              3.9997100830078125,
+              3.9999932050704956,
+              4.999995231628418
+            ],
+            "status": "POSITIVE_MATERIAL_OVERLAP",
+            "witness_world_m": [
+              -6.074454898834229,
+              -0.24721585661172868,
+              1.6232579779624938
+            ],
+            "shared_material_chords": [
+              {
+                "axis": "X",
+                "negative_mm": 0.07999420166004967,
+                "positive_mm": 3.919715881347763,
+                "shared_material_chord_mm": 3.9997100830078125
+              },
+              {
+                "axis": "Y",
+                "negative_mm": 0.07999986410139881,
+                "positive_mm": 3.919993340969097,
+                "shared_material_chord_mm": 3.9999932050704956
+              },
+              {
+                "axis": "Z",
+                "negative_mm": 0.09999990463249729,
+                "positive_mm": 0.9326544786112532,
+                "shared_material_chord_mm": 1.0326543832437503
+              }
+            ],
+            "aabb_overlap_volume_upper_bound_mm3": 79.99398948313,
+            "independent_witness_winding_numbers": [
+              1.0000000000000115,
+              1.0000000000000058
+            ],
+            "independent_witness_surface_distances_mm": [
+              0.07999420166004968,
+              0.07999986410139881
+            ],
+            "independently_confirmed_strict_interior": true,
+            "guaranteed_inscribed_overlap_ball_volume_mm3": 0.002144194288480988
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          3.9999932050704956,
+          4.999995231628418
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 100.00202357178125
+      },
+      "comparison": "CLEARED_OR_SEPARATED"
+    },
+    {
+      "pair": [
+        "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+        "REPAIR_518DE_88AC_1_source-plan6.5_FRONT_ROUTE_REFLECTED_CANDIDATE"
+      ],
+      "group_pair": [
+        "clamps",
+        "unchanged"
+      ],
+      "before": [
+        {
+          "pair": [
+            "REPAIR_51409_F643_profile_1_B535",
+            "REPAIR_518DE_88AC_1_source-plan6.5_FRONT_ROUTE_REFLECTED_CANDIDATE"
+          ],
+          "classification": {
+            "aabb_signed_overlap_mm": [
+              14.999866485595703,
+              3.9999932050704956,
+              3.999948501586914
+            ],
+            "triangle_aabb_candidates_tested": 6472,
+            "surface_crossing_count": 7504,
+            "coplanar_touch_count": 450,
+            "containment_witnesses": [],
+            "closed_edge_checks": [
+              true,
+              true
+            ],
+            "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+            "aabb_overlap_volume_upper_bound_mm3": 239.9943662053567
+          }
+        }
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          14.999866485595703,
+          3.9999932050704956,
+          3.999948501586914
+        ],
+        "triangle_aabb_candidates_tested": 6472,
+        "surface_crossing_count": 7008,
+        "coplanar_touch_count": 444,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "aabb_overlap_volume_upper_bound_mm3": 239.9943662053567
+      },
+      "comparison": "INHERITED_UNRESOLVED_CONTACT_REQUIRES_REVIEW"
+    }
+  ],
+  "before_positive_aabb_pairs": [
+    {
+      "pair": [
+        "CAD_50DF4_F643_profile_0",
+        "CAD_50DF4_F643_profile_2"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          4.000186920166016,
+          20.08652687072754,
+          4.999995231628418
+        ],
+        "triangle_aabb_candidates_tested": 396,
+        "surface_crossing_count": 592,
+        "coplanar_touch_count": 91,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "aabb_overlap_volume_upper_bound_mm3": 401.74892716123867
+      },
+      "after_pair": [
+        "CAD_50DF4_F643_profile_0",
+        "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          4.000186920166016,
+          20.08652687072754,
+          4.999995231628418
+        ],
+        "triangle_aabb_candidates_tested": 1064,
+        "surface_crossing_count": 680,
+        "coplanar_touch_count": 289,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "aabb_overlap_volume_upper_bound_mm3": 401.74892716123867
+      }
+    },
+    {
+      "pair": [
+        "CAD_50DF4_F643_profile_0",
+        "CAD_518DF_4079_vertical_link"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          4.000186920166016,
+          4.999999888241291,
+          64.24582004547119
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -2.0744548892974852,
+          -5.94649463891983e-07,
+          1.5753367304801942
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.08000373840344466,
+            "positive_mm": 3.920183181762571,
+            "shared_material_chord_mm": 4.000186920166016
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 1.599810358902574,
+            "positive_mm": 1.5998103411926194,
+            "shared_material_chord_mm": 3.1996207000951933
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 3.8247488959225886,
+            "positive_mm": 1.4752993168198114,
+            "shared_material_chord_mm": 5.3000482127424
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 1284.9764163847055,
+        "independent_witness_winding_numbers": [
+          0.9999999999999948,
+          0.999999999999996
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.08000373840344466,
+          0.5792547950266842
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.0021449612591451428
+      },
+      "after_pair": [
+        "CAD_50DF4_F643_profile_0",
+        "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -31.099796295166016,
+          4.999999888241291,
+          64.24582004547119
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_50DF4_F643_profile_2",
+        "CAD_518DF_diagonal_tube"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          4.000186920166016,
+          39.99999165534973,
+          4.999995231628418
+        ],
+        "triangle_aabb_candidates_tested": 288,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 800.0364541574527
+      },
+      "after_pair": [
+        "CAD_518DF_diagonal_tube",
+        "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          4.999876022338867,
+          39.99999165534973,
+          4.999995231628418
+        ],
+        "triangle_aabb_candidates_tested": 11296,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 999.9740422062189
+      }
+    },
+    {
+      "pair": [
+        "CAD_50DF4_F643_profile_2",
+        "REPAIR_50DF4_F643_profile_1_B535"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          4.000186920166016,
+          3.9999932050704956,
+          4.999995231628418
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -2.0744548892974852,
+          0.24337467104196547,
+          1.6232579779624938
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.08000373840344466,
+            "positive_mm": 3.920183181762571,
+            "shared_material_chord_mm": 4.000186920166016
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.07999986410139881,
+            "positive_mm": 3.919993340969097,
+            "shared_material_chord_mm": 3.9999932050704956
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.0999999046324973,
+            "positive_mm": 0.9326772618344452,
+            "shared_material_chord_mm": 1.0326771664669425
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 80.00352620099875,
+        "independent_witness_winding_numbers": [
+          0.9999999999999805,
+          1.0000000000000024
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.08000373840344467,
+          0.07999986410139881
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.002144649655255192
+      },
+      "after_pair": [
+        "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+        "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          4.999876022338867,
+          3.9999932050704956,
+          4.999995231628418
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 99.99725521284688
+      }
+    },
+    {
+      "pair": [
+        "CAD_50DF4_F643_profile_3",
+        "REPAIR_50DF4_F643_profile_1_B535"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          4.000186920166016,
+          1.4901161193847656e-05,
+          4.000067710876465
+        ],
+        "triangle_aabb_candidates_tested": 204,
+        "surface_crossing_count": 28,
+        "coplanar_touch_count": 2,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "unconfirmed_sample_evidence": {
+          "aabb_signed_overlap_mm": [
+            4.000186920166016,
+            1.4901161193847656e-05,
+            4.000067710876465
+          ],
+          "status": "POSITIVE_MATERIAL_OVERLAP",
+          "witness_world_m": [
+            -2.0744548892974852,
+            0.2432946714758873,
+            1.6007379412651062
+          ],
+          "shared_material_chords": [
+            {
+              "axis": "X",
+              "negative_mm": 0.08000373840344466,
+              "positive_mm": 3.92018318176257,
+              "shared_material_chord_mm": 4.000186920166015
+            },
+            {
+              "axis": "Y",
+              "negative_mm": 2.98023217215615e-07,
+              "positive_mm": 1.460313797663204e-05,
+              "shared_material_chord_mm": 1.4901161193847655e-05
+            },
+            {
+              "axis": "Z",
+              "negative_mm": 0.08000135421748489,
+              "positive_mm": 3.92006635665898,
+              "shared_material_chord_mm": 4.000067710876465
+            }
+          ],
+          "aabb_overlap_volume_upper_bound_mm3": 0.0002384337564829953,
+          "independent_witness_winding_numbers": [
+            1.0,
+            1.0000000000000002
+          ],
+          "independent_witness_surface_distances_mm": [
+            1.460313797663204e-05,
+            2.98023217215615e-07
+          ],
+          "independently_confirmed_strict_interior": false
+        },
+        "independent_witness_confirmation_failed": true
+      },
+      "after_pair": [
+        "CAD_50DF4_F643_profile_3",
+        "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          4.000186920166016,
+          1.4901161193847656e-05,
+          4.000067710876465
+        ],
+        "triangle_aabb_candidates_tested": 204,
+        "surface_crossing_count": 28,
+        "coplanar_touch_count": 2,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "unconfirmed_sample_evidence": {
+          "aabb_signed_overlap_mm": [
+            4.000186920166016,
+            1.4901161193847656e-05,
+            4.000067710876465
+          ],
+          "status": "POSITIVE_MATERIAL_OVERLAP",
+          "witness_world_m": [
+            -2.0744548892974852,
+            0.2432946714758873,
+            1.6007379412651062
+          ],
+          "shared_material_chords": [
+            {
+              "axis": "X",
+              "negative_mm": 0.08000373840344466,
+              "positive_mm": 3.92018318176257,
+              "shared_material_chord_mm": 4.000186920166015
+            },
+            {
+              "axis": "Y",
+              "negative_mm": 2.98023217215615e-07,
+              "positive_mm": 1.460313797663204e-05,
+              "shared_material_chord_mm": 1.4901161193847655e-05
+            },
+            {
+              "axis": "Z",
+              "negative_mm": 0.08000135421748489,
+              "positive_mm": 3.92006635665898,
+              "shared_material_chord_mm": 4.000067710876465
+            }
+          ],
+          "aabb_overlap_volume_upper_bound_mm3": 0.0002384337564829953,
+          "independent_witness_winding_numbers": [
+            1.0,
+            0.9999999999999963
+          ],
+          "independent_witness_surface_distances_mm": [
+            1.460313797663204e-05,
+            2.98023217215615e-07
+          ],
+          "independently_confirmed_strict_interior": false
+        },
+        "independent_witness_confirmation_failed": true
+      }
+    },
+    {
+      "pair": [
+        "CAD_50DF7_BA3A_tube",
+        "CAD_518DF_4079_vertical_link"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          4.999999888241291,
+          216.0654067993164
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -2.0725347995758057,
+          0.002399405296891928,
+          1.7302000284194947
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.6952150933162333,
+            "positive_mm": 0.6952150933162333,
+            "shared_material_chord_mm": 1.3904301866324666
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.14779971172265197,
+            "positive_mm": 0.09999999776482554,
+            "shared_material_chord_mm": 0.24779970948747748
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 3.033237912832236,
+            "positive_mm": 0.18645936006511105,
+            "shared_material_chord_mm": 3.219697272897347
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 5401.7586828616695,
+        "independent_witness_winding_numbers": [
+          0.9999999999990941,
+          1.0000000000059128
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.1158254807241391,
+          0.09987959201872111
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.004173677503124415
+      },
+      "after_pair": [
+        "CAD_50DF7_BA3A_tube",
+        "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -25.099992752075195,
+          4.999999888241291,
+          216.0654067993164
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_51409_F643_profile_0",
+        "CAD_51409_F643_profile_2"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          3.9997100830078125,
+          20.08652687072754,
+          4.999995231628418
+        ],
+        "triangle_aabb_candidates_tested": 396,
+        "surface_crossing_count": 592,
+        "coplanar_touch_count": 91,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "aabb_overlap_volume_upper_bound_mm3": 401.7010371949541
+      },
+      "after_pair": [
+        "CAD_51409_F643_profile_0",
+        "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          3.9997100830078125,
+          20.08652687072754,
+          4.999995231628418
+        ],
+        "triangle_aabb_candidates_tested": 1064,
+        "surface_crossing_count": 680,
+        "coplanar_touch_count": 289,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "aabb_overlap_volume_upper_bound_mm3": 401.7010371949541
+      }
+    },
+    {
+      "pair": [
+        "CAD_51409_F643_profile_0",
+        "CAD_518E0_4079_vertical_link"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          3.9997100830078125,
+          4.999999888241291,
+          64.24582004547119
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.074454898834229,
+          -5.94649463891983e-07,
+          1.5753367304801942
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.07999420166004967,
+            "positive_mm": 3.9197158813477637,
+            "shared_material_chord_mm": 3.9997100830078134
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 1.6000425632546604,
+            "positive_mm": 1.6000425452472964,
+            "shared_material_chord_mm": 3.200085108501957
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 3.8247467212188937,
+            "positive_mm": 1.475298449552185,
+            "shared_material_chord_mm": 5.300045170771078
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 1284.8232424168448,
+        "independent_witness_winding_numbers": [
+          1.0000000000000107,
+          0.9999999999999921
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.07999420166004967,
+          0.5795110326380318
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.002144194288480987
+      },
+      "after_pair": [
+        "CAD_51409_F643_profile_0",
+        "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -31.10027313232422,
+          4.999999888241291,
+          64.24582004547119
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_51409_F643_profile_2",
+        "REPAIR_51409_F643_profile_1_B535"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          3.9997100830078125,
+          3.9999932050704956,
+          4.999995231628418
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.074454898834229,
+          -0.24721585661172868,
+          1.6232579779624938
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.07999420166004967,
+            "positive_mm": 3.919715881347763,
+            "shared_material_chord_mm": 3.9997100830078125
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.07999986410139881,
+            "positive_mm": 3.919993340969097,
+            "shared_material_chord_mm": 3.9999932050704956
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.09999990463249729,
+            "positive_mm": 0.9326544786112532,
+            "shared_material_chord_mm": 1.0326543832437503
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 79.99398948313,
+        "independent_witness_winding_numbers": [
+          1.0000000000000115,
+          1.0000000000000058
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.07999420166004968,
+          0.07999986410139881
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.002144194288480988
+      },
+      "after_pair": [
+        "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+        "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          3.9999932050704956,
+          4.999995231628418
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 100.00202357178125
+      }
+    },
+    {
+      "pair": [
+        "CAD_5140C_BA3A_tube",
+        "CAD_518E0_4079_vertical_link"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          4.999999888241291,
+          216.0654067993164
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.072535037994385,
+          0.002399405296891928,
+          1.7302000284194947
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.6952150933162333,
+            "positive_mm": 0.6952150933162333,
+            "shared_material_chord_mm": 1.3904301866324666
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.147799711722652,
+            "positive_mm": 0.09999999776482554,
+            "shared_material_chord_mm": 0.24779970948747754
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 3.0332379128322318,
+            "positive_mm": 0.18645936006511107,
+            "shared_material_chord_mm": 3.219697272897343
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 5401.7586828616695,
+        "independent_witness_winding_numbers": [
+          0.9999999999990586,
+          1.0000000000060023
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.1158254807241391,
+          0.09987959201872111
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.004173677503124415
+      },
+      "after_pair": [
+        "CAD_5140C_BA3A_tube",
+        "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -25.100231170654297,
+          4.999999888241291,
+          216.0654067993164
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_518DF_4079_vertical_link",
+        "CAD_518DF_7D8D_lower_tube"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          4.999999888241291,
+          25.499939918518066
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -2.0749348545074464,
+          -5.94649463891983e-07,
+          1.6551679587364196
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.10000228881823503,
+            "positive_mm": 4.900112152099735,
+            "shared_material_chord_mm": 5.00011444091797
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.6947164018447202,
+            "positive_mm": 0.6947164018447202,
+            "shared_material_chord_mm": 1.3894328036894403
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.2779830418393105,
+            "positive_mm": 1.7724199131767038,
+            "shared_material_chord_mm": 2.0504029550160143
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 637.5130748960859,
+        "independent_witness_winding_numbers": [
+          0.9999999999998205,
+          0.9999999999979359
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.09987939916205077,
+          0.2749743882717573
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.004173653326413962
+      },
+      "after_pair": [
+        "CAD_518DF_7D8D_lower_tube",
+        "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -20.349979400634766,
+          4.999999888241291,
+          25.499939918518066
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_518DF_4079_vertical_link",
+        "CAD_518DF_9DC3_link"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          1.9998550415039062,
+          4.999999888241291,
+          47.03807830810547
+        ],
+        "triangle_aabb_candidates_tested": 672,
+        "surface_crossing_count": 672,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "aabb_overlap_volume_upper_bound_mm3": 470.3466797225335
+      },
+      "after_pair": [
+        "CAD_518DF_9DC3_link",
+        "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -32.09996223449707,
+          4.999999888241291,
+          47.03807830810547
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_518DF_4079_vertical_link",
+        "CAD_518DF_upper_tube"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          4.999999888241291,
+          30.099868774414062
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -2.0749348545074464,
+          -5.94649463891983e-07,
+          2.058050861358643
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.10000228881823503,
+            "positive_mm": 4.900112152099735,
+            "shared_material_chord_mm": 5.00011444091797
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.6947164018447202,
+            "positive_mm": 0.6947164018447202,
+            "shared_material_chord_mm": 1.3894328036894403
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.3760185720868615,
+            "positive_mm": 1.6433586664142956,
+            "shared_material_chord_mm": 2.0193772385011575
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 752.5139258234207,
+        "independent_witness_winding_numbers": [
+          1.0000000000028548,
+          1.0000000000009766
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.09987939916205077,
+          0.37194774409796855
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.004173653326413962
+      },
+      "after_pair": [
+        "CAD_518DF_upper_tube",
+        "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -18.09978485107422,
+          4.999999888241291,
+          30.099868774414062
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_518DF_4079_vertical_link",
+        "CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          4.999999888241291,
+          3.400087356567383
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -2.0749348545074464,
+          -5.94649463891983e-07,
+          2.0911160039901735
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.10000228881823503,
+            "positive_mm": 4.900112152099735,
+            "shared_material_chord_mm": 5.00011444091797
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.6947164018447202,
+            "positive_mm": 0.6947164018447202,
+            "shared_material_chord_mm": 1.3894328036894403
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.06800174713150753,
+            "positive_mm": 3.332085609435875,
+            "shared_material_chord_mm": 3.4000873565673824
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 85.00412755978552,
+        "independent_witness_winding_numbers": [
+          0.9999999999999927,
+          1.0
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.09987939916205077,
+          0.06800174713150753
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.001317191204671604
+      },
+      "after_pair": [
+        "CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate",
+        "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -26.09992027282715,
+          4.999999888241291,
+          3.400087356567383
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_518DF_4079_vertical_link",
+        "CAD_SOURCE_518DF_C4D1_4AEC_ring_square_fit_candidate"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          2.9999999096617103,
+          36.99898719787598
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -2.0749348545074464,
+          -0.0004405946168117225,
+          2.054788517951965
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.05892169359972369,
+            "positive_mm": 4.859031556881222,
+            "shared_material_chord_mm": 4.917953250480945
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.05999999819323421,
+            "positive_mm": 1.1347163691925508,
+            "shared_material_chord_mm": 1.1947163673857852
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.5838016246225566,
+            "positive_mm": 2.446761706460044,
+            "shared_material_chord_mm": 3.030563331082601
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 554.9974938498075,
+        "independent_witness_winding_numbers": [
+          0.9999999999933279,
+          0.9999999999999988
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.058283864535173945,
+          0.059999998193234205
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.0008293419426172279
+      },
+      "after_pair": [
+        "CAD_SOURCE_518DF_C4D1_4AEC_ring_square_fit_candidate",
+        "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -0.9999275207519531,
+          2.9999999096617103,
+          36.99898719787598
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_518DF_4079_vertical_link",
+        "ENV_contact_wire"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          4.999405238777399,
+          2.3990869522094727
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -2.0749348545074464,
+          -2.973247319459915e-07,
+          1.5689601302146912
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.09998753517478641,
+            "positive_mm": 4.9000973984562854,
+            "shared_material_chord_mm": 5.000084933631072
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.6950137265766662,
+            "positive_mm": 0.6944190771127742,
+            "shared_material_chord_mm": 1.3894328036894403
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.04798173904418945,
+            "positive_mm": 2.351025535343605,
+            "shared_material_chord_mm": 2.3990072743877944
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 59.97141199106429,
+        "independent_witness_winding_numbers": [
+          1.0,
+          0.9999999998461295
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.04798173904418946,
+          2.27089737854167
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.00046271817948779955
+      },
+      "after_pair": [
+        "ENV_contact_wire",
+        "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          4.999405238777399,
+          2.3990869522094727
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -2.0393349075317384,
+          -2.973247319459915e-07,
+          1.5689601302146912
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.09998753517478641,
+            "positive_mm": 4.9000973984562854,
+            "shared_material_chord_mm": 5.000084933631072
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.6950137265766662,
+            "positive_mm": 0.6944190771127742,
+            "shared_material_chord_mm": 1.3894328036894403
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.04798173904418945,
+            "positive_mm": 2.351025535343605,
+            "shared_material_chord_mm": 2.3990072743877944
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 59.97141199106429,
+        "independent_witness_winding_numbers": [
+          1.000000000056988,
+          1.0
+        ],
+        "independent_witness_surface_distances_mm": [
+          2.27089737854167,
+          0.04798173904418946
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.00046271817948779955
+      }
+    },
+    {
+      "pair": [
+        "CAD_518DF_diagonal_tube",
+        "REPAIR_50DF4_F643_profile_1_B535"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          15.000104904174805,
+          3.9999932050704956,
+          54.000020027160645
+        ],
+        "triangle_aabb_candidates_tested": 14192,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 3240.018357006368
+      },
+      "after_pair": [
+        "CAD_518DF_diagonal_tube",
+        "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          15.000104904174805,
+          3.9999932050704956,
+          54.000020027160645
+        ],
+        "triangle_aabb_candidates_tested": 14248,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 3240.018357006368
+      }
+    },
+    {
+      "pair": [
+        "CAD_518E0_4079_vertical_link",
+        "CAD_518E0_4734_link"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          1.9998550415039062,
+          4.999999888241291,
+          47.08123207092285
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.072535037994385,
+          -0.0024005945958197115,
+          1.6015083694458008
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.5594211073267735,
+            "positive_mm": 0.5594210105271518,
+            "shared_material_chord_mm": 1.1188421178539252
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.09999999776482597,
+            "positive_mm": 1.214111874084743,
+            "shared_material_chord_mm": 1.3141118718495688
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.17309902325144763,
+            "positive_mm": 1.8470945289190508,
+            "shared_material_chord_mm": 2.0201935521704986
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 470.77818606353964,
+        "independent_witness_winding_numbers": [
+          1.0000000000020406,
+          1.000000000000027
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.09987959201872154,
+          0.17116039927783613
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.004173677503124469
+      },
+      "after_pair": [
+        "CAD_518E0_4734_link",
+        "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -32.10020065307617,
+          4.999999888241291,
+          47.08123207092285
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_518E0_4079_vertical_link",
+        "CAD_518E0_7D8D_lower_tube"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          4.999999888241291,
+          25.499939918518066
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.074935092926025,
+          -5.94649463891983e-07,
+          1.6551679587364196
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.10000228881867912,
+            "positive_mm": 4.90011215209929,
+            "shared_material_chord_mm": 5.000114440917969
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.6947164018464934,
+            "positive_mm": 0.6947164018464934,
+            "shared_material_chord_mm": 1.3894328036929868
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.27795016650750504,
+            "positive_mm": 1.772437586699883,
+            "shared_material_chord_mm": 2.0503877532073878
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 637.5130748960859,
+        "independent_witness_winding_numbers": [
+          0.9999999999990584,
+          0.9999999999996927
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.09988416266581657,
+          0.2749407281375213
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.0041742505114702975
+      },
+      "after_pair": [
+        "CAD_518E0_7D8D_lower_tube",
+        "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -20.349979400634766,
+          4.999999888241291,
+          25.499939918518066
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_518E0_4079_vertical_link",
+        "CAD_518E0_upper_tube"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          4.999999888241291,
+          30.099868774414062
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.074935092926025,
+          -5.94649463891983e-07,
+          2.058050861358643
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.10000228881867912,
+            "positive_mm": 4.90011215209929,
+            "shared_material_chord_mm": 5.000114440917969
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.6947164018464934,
+            "positive_mm": 0.6947164018464934,
+            "shared_material_chord_mm": 1.3894328036929868
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.37600578916158034,
+            "positive_mm": 1.6433271226383295,
+            "shared_material_chord_mm": 2.0193329117999097
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 752.5139258234207,
+        "independent_witness_winding_numbers": [
+          1.000000000004677,
+          1.0000000000004927
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.09988416266581657,
+          0.37193641079787726
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.0041742505114702975
+      },
+      "after_pair": [
+        "CAD_518E0_upper_tube",
+        "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -18.100261688232422,
+          4.999999888241291,
+          30.099868774414062
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_518E0_4079_vertical_link",
+        "CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          4.999999888241291,
+          3.400087356567383
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.074935092926025,
+          -5.94649463891983e-07,
+          2.0911160039901735
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.10000228881867912,
+            "positive_mm": 4.90011215209929,
+            "shared_material_chord_mm": 5.000114440917969
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.6947164018464934,
+            "positive_mm": 0.6947164018464934,
+            "shared_material_chord_mm": 1.3894328036929868
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.06800174713150753,
+            "positive_mm": 3.3320856094358753,
+            "shared_material_chord_mm": 3.400087356567383
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 85.00412755978552,
+        "independent_witness_winding_numbers": [
+          0.9999999999999922,
+          1.0000000000000002
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.09988416266581657,
+          0.06800174713150753
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.001317191204671604
+      },
+      "after_pair": [
+        "CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate",
+        "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -26.10015869140625,
+          4.999999888241291,
+          3.400087356567383
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_518E0_4079_vertical_link",
+        "CAD_SOURCE_518E0_C4D1_4AEC_ring_square_fit_candidate"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          2.9999999096617103,
+          36.99898719787598
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.074935092926025,
+          -0.0004405946168117225,
+          2.054788517951965
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.058968580737651245,
+            "positive_mm": 4.859078444018262,
+            "shared_material_chord_mm": 4.918047024755913
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.05999999819323421,
+            "positive_mm": 1.1347163691943238,
+            "shared_material_chord_mm": 1.194716367387558
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.5837699200243308,
+            "positive_mm": 2.4468002059581546,
+            "shared_material_chord_mm": 3.0305701259824853
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 554.9974938498075,
+        "independent_witness_winding_numbers": [
+          1.0000000000002418,
+          0.999999999999999
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.0583219003660181,
+          0.059999998193234205
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.0008309666787528753
+      },
+      "after_pair": [
+        "CAD_SOURCE_518E0_C4D1_4AEC_ring_square_fit_candidate",
+        "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -0.9999275207519531,
+          2.9999999096617103,
+          36.99898719787598
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_518E0_4079_vertical_link",
+        "ENV_contact_wire"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          4.999405238777399,
+          2.3990869522094727
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.074935092926025,
+          -2.973247319459915e-07,
+          1.5689601302146912
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.09998782446235693,
+            "positive_mm": 4.900097687742967,
+            "shared_material_chord_mm": 5.000085512205325
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.6950137265784394,
+            "positive_mm": 0.6944190771145474,
+            "shared_material_chord_mm": 1.3894328036929868
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.04798173904418945,
+            "positive_mm": 2.351025535343605,
+            "shared_material_chord_mm": 2.3990072743877944
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 59.97141199106429,
+        "independent_witness_winding_numbers": [
+          1.000000000000001,
+          0.9999999998440942
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.04798173904418945,
+          2.27089737854167
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.00046271817948779934
+      },
+      "after_pair": [
+        "ENV_contact_wire",
+        "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.000114440917969,
+          4.999405238777399,
+          2.3990869522094727
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.039334907531738,
+          -2.973247319459915e-07,
+          1.5689601302146912
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.09998782446235693,
+            "positive_mm": 4.900097687742967,
+            "shared_material_chord_mm": 5.000085512205325
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.6950137265784394,
+            "positive_mm": 0.6944190771145474,
+            "shared_material_chord_mm": 1.3894328036929868
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.04798173904418945,
+            "positive_mm": 2.351025535343605,
+            "shared_material_chord_mm": 2.3990072743877944
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 59.97141199106429,
+        "independent_witness_winding_numbers": [
+          1.000000000009776,
+          1.000000000000001
+        ],
+        "independent_witness_surface_distances_mm": [
+          2.27089737854167,
+          0.04798173904418945
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.00046271817948779934
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "DETAIL_BENCH_branch_fastener_12_2_-1"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          10.000001639127731,
+          16.00000262260437
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -7.026333332061768,
+          -0.021129844710230827,
+          -0.06467999756336212
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 2.414357517705738,
+            "positive_mm": 2.414357517705738,
+            "shared_material_chord_mm": 4.828715035411476
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 2.559927532632794,
+            "positive_mm": 1.0000001639127731,
+            "shared_material_chord_mm": 3.559927696545567
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.3200000524520852,
+            "positive_mm": 7.180865002729011,
+            "shared_material_chord_mm": 7.500865055181095
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0371456266723,
+        "independent_witness_winding_numbers": [
+          0.9999999999999991,
+          0.9999999999999999
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.3200024366378784,
+          0.3200000524520851
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.13725834492560324
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_SOURCE_branch_fastener_12_2_-1"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          10.000001639127731,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 55,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0371456266723
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "DETAIL_BENCH_branch_fastener_12_2_1"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999997913837433,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0365495664844
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_SOURCE_branch_fastener_12_2_1"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.99999791383744,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0365495664855
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "DETAIL_BENCH_branch_fastener_17_2_-1"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          10.00000536441803,
+          16.00000262260437
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.031133441925049,
+          -0.11696364730596542,
+          -0.06467999756336212
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.20000457763647003,
+            "positive_mm": 9.80022430419947,
+            "shared_material_chord_mm": 10.00022888183594
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.48288613353962384,
+            "positive_mm": 0.4828861335396236,
+            "shared_material_chord_mm": 0.9657722670792475
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.3200000524520852,
+            "positive_mm": 6.849320906055118,
+            "shared_material_chord_mm": 7.169320958507203
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0377416868603,
+        "independent_witness_winding_numbers": [
+          0.9999999999999996,
+          1.0000000000000002
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.3200024366378784,
+          0.18478194961478983
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.026428179281459956
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_SOURCE_branch_fastener_17_2_-1"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          10.00000536441803,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 55,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0377416868603
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "DETAIL_BENCH_branch_fastener_17_2_1"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999997913837433,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0365495664844
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_SOURCE_branch_fastener_17_2_1"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999997913837433,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 23,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0365495664844
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "DETAIL_BENCH_branch_fastener_23_2_-1"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -4.831133155822754,
+          -0.20271036028862,
+          -0.06467999756336212
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.20000457763647006,
+            "positive_mm": 9.800224304199467,
+            "shared_material_chord_mm": 10.000228881835938
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.4828871511467634,
+            "positive_mm": 0.4828871511467631,
+            "shared_material_chord_mm": 0.9657743022935266
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.3200000524520852,
+            "positive_mm": 7.105698821011121,
+            "shared_material_chord_mm": 7.425698873463206
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087,
+        "independent_witness_winding_numbers": [
+          1.0000000000000002,
+          1.0000000000000002
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.3200024366378784,
+          0.18478200663428979
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.02642820374686963
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_TRACK_clip_23_2_-1"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 23,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "DETAIL_BENCH_branch_fastener_23_2_1"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          10.00000536441803,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0377416868603
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_TRACK_clip_23_2_1"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          10.00000536441803,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 55,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0377416868603
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "ENV_balise_body_02"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          121.99974060058594,
+          115.99999666213989,
+          25.374929010868076
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -7.169893245697022,
+          0.0,
+          -0.06449250141978265
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 2.4399948120112924,
+            "positive_mm": 119.55974578857465,
+            "shared_material_chord_mm": 121.99974060058594
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 8.468862807983609,
+            "positive_mm": 54.73198460098787,
+            "shared_material_chord_mm": 63.200847408971484
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.5074985802173553,
+            "positive_mm": 8.149062437560033,
+            "shared_material_chord_mm": 8.656561017777388
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 359105.2214886362,
+        "independent_witness_winding_numbers": [
+          1.0000000000000002,
+          1.0
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.5074985802173554,
+          2.4399948120112924
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.5475113216388013
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_02_body_02"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          115.99999666213989,
+          121.99974060058594,
+          25.374929010868076
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 359105.2214886362
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "ENV_balise_body_03"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          121.99974060058594,
+          115.99999666213989,
+          25.374929010868076
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.239892940521241,
+          -0.04639999866485596,
+          -0.06449250141978265
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 2.4399948120112924,
+            "positive_mm": 119.55974578857465,
+            "shared_material_chord_mm": 121.99974060058594
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 8.331985936131906,
+            "positive_mm": 19.949918158118344,
+            "shared_material_chord_mm": 28.28190409425025
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.5074985802173554,
+            "positive_mm": 10.40150088441764,
+            "shared_material_chord_mm": 10.908999464634995
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 359105.2214886362,
+        "independent_witness_winding_numbers": [
+          1.0,
+          1.0
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.5074985802173553,
+          2.4399948120112924
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.5475113216388009
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_03_body_03"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          115.99999666213989,
+          121.99974060058594,
+          25.374929010868076
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 359105.2214886362
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "ENV_balise_lid_screw.008"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.999565124511719,
+          5.99999725818634,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_02_lid_screw.008"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "ENV_balise_lid_screw.009"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.999565124511719,
+          5.99999725818634,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_02_lid_screw.009"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "ENV_balise_lid_screw.010"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.999565124511719,
+          5.99999725818634,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_02_lid_screw.010"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "ENV_balise_lid_screw.011"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.999565124511719,
+          5.99999725818634,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_02_lid_screw.011"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "ENV_balise_lid_screw.012"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.999565124511719,
+          5.99999725818634,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_03_lid_screw.012"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "ENV_balise_lid_screw.013"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.999565124511719,
+          5.99999725818634,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_03_lid_screw.013"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "ENV_balise_lid_screw.014"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.999565124511719,
+          5.99999725818634,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_03_lid_screw.014"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "ENV_balise_lid_screw.015"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          5.999565124511719,
+          5.99999725818634,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_03_lid_screw.015"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          5.99999725818634,
+          5.999565124511719,
+          1.499999314546585
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 53.996036771547914
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "ENV_balise_yellow_lid_02"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          131.99996948242188,
+          126.00000202655792,
+          9.999997913837433
+        ],
+        "triangle_aabb_candidates_tested": 168,
+        "surface_crossing_count": 164,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "aabb_overlap_volume_upper_bound_mm3": 166319.92952585904
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_02_yellow_lid_02"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          126.00000202655792,
+          131.99996948242188,
+          9.999997913837433
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 166319.92952585904
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "ENV_balise_yellow_lid_03"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          131.99996948242188,
+          126.00000202655792,
+          9.999997913837433
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.244693050384521,
+          -0.060480000972747805,
+          -0.03862507119774818
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 1.2690371610886297,
+            "positive_mm": 43.404452895610504,
+            "shared_material_chord_mm": 44.67349005669914
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 1.187052524139818,
+            "positive_mm": 3.837327763812444,
+            "shared_material_chord_mm": 5.024380287952262
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.5860655526972882,
+            "positive_mm": 8.586064018104858,
+            "shared_material_chord_mm": 9.172129570802147
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 166319.92952585904,
+        "independent_witness_winding_numbers": [
+          0.9999999999999997,
+          1.0000000000000002
+        ],
+        "independent_witness_surface_distances_mm": [
+          3.822098656300711,
+          0.5460767243005035
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.6821024455956985
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_inner_right_native_xy",
+        "FIT_BALISE_03_yellow_lid_03"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          126.00000202655792,
+          131.99996948242188,
+          9.999997913837433
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 166319.92952585904
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_long_sleeper_12_native_axis",
+        "ENV_balise_body_02"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          79.99992370605469,
+          115.99999666213989,
+          27.62506902217865
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -7.134066486293585,
+          -0.05567999839782715,
+          -0.0858125388622284
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 1.5999984741208453,
+            "positive_mm": 78.39992523193385,
+            "shared_material_chord_mm": 79.99992370605469
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 2.3199999332427987,
+            "positive_mm": 113.67999672889708,
+            "shared_material_chord_mm": 115.99999666213989
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 10.424258479154688,
+            "positive_mm": 13.812534511089323,
+            "shared_material_chord_mm": 24.236792990244012
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 256360.38866457704,
+        "independent_witness_winding_numbers": [
+          1.0000000000000242,
+          1.0
+        ],
+        "independent_witness_surface_distances_mm": [
+          1.599998474120845,
+          2.3199999332427987
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 17.157235591458655
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_long_sleeper_12_native_axis",
+        "FIT_BALISE_02_body_02"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -2.0000398159023547,
+          121.99974060058594,
+          27.62506902217865
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_long_sleeper_17_native_axis",
+        "ENV_balise_body_03"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          15.333290035036029,
+          115.99999666213989,
+          27.62506902217865
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -6.135359818967001,
+          -0.05567999839782715,
+          -0.0858125388622284
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.3066658007009337,
+            "positive_mm": 11.638618832614746,
+            "shared_material_chord_mm": 11.94528463331568
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 2.3199999332427987,
+            "positive_mm": 113.67999672889708,
+            "shared_material_chord_mm": 115.99999666213989
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 10.424258479154691,
+            "positive_mm": 13.484980052384278,
+            "shared_material_chord_mm": 23.909238531538968
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 49135.649270513255,
+        "independent_witness_winding_numbers": [
+          0.9999999999999957,
+          1.0000000000000004
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.3066658007009338,
+          2.3199999332427987
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.12080492723595068
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_long_sleeper_17_native_axis",
+        "FIT_BALISE_03_body_03"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -2.0000398159023547,
+          121.99974060058594,
+          27.62506902217865
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_outer_branch_native_xy",
+        "DETAIL_BENCH_branch_fastener_01_0_-1"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -9.226333618164062,
+          0.7823857402801514,
+          -0.06467999756336212
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.48279970236597186,
+            "positive_mm": 0.4827997023659726,
+            "shared_material_chord_mm": 0.9655994047319445
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.670463553773144,
+            "positive_mm": 0.19999980926510535,
+            "shared_material_chord_mm": 0.8704633630382493
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.3200000524520852,
+            "positive_mm": 6.8105655778819605,
+            "shared_material_chord_mm": 7.130565630334045
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087,
+        "independent_witness_winding_numbers": [
+          0.9999999999991525,
+          1.0000000000000002
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.3200024366378784,
+          0.18477334542113016
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.02642448764515721
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_outer_branch_native_xy",
+        "FIT_TRACK_clip_01_0_-1"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 134,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_outer_branch_native_xy",
+        "DETAIL_BENCH_branch_fastener_01_0_1"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -9.226333618164062,
+          0.8547857666015625,
+          -0.06467999756336212
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.4827997023659726,
+            "positive_mm": 0.48279970236597186,
+            "shared_material_chord_mm": 0.9655994047319445
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.19999980926510535,
+            "positive_mm": 0.6706270583260708,
+            "shared_material_chord_mm": 0.8706268675911762
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.3200000524520852,
+            "positive_mm": 6.8105983016408125,
+            "shared_material_chord_mm": 7.130598354092897
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087,
+        "independent_witness_winding_numbers": [
+          0.9999999999999887,
+          1.0000000000000002
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.3200024366378784,
+          0.18477334542113016
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.02642448764515721
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_outer_branch_native_xy",
+        "FIT_TRACK_clip_01_0_1"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 134,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_outer_branch_native_xy",
+        "DETAIL_BENCH_branch_fastener_03_1_1"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087
+      },
+      "after_pair": [
+        "CAD_TRACK_REV_outer_branch_native_xy",
+        "FIT_TRACK_clip_03_1_1"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 0,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087
+      }
+    },
+    {
+      "pair": [
+        "CAD_TRACK_REV_photo_chair_009_source_station",
+        "DETAIL_BENCH_crossing_support_plate"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          76.99966430664062,
+          97.00000286102295,
+          4.999995231628418
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -8.641377947257677,
+          0.21235666529341674,
+          -0.0718999969959259
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.9138845029202619,
+            "positive_mm": 74.83356223729385,
+            "shared_material_chord_mm": 75.7474467402141
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 1.3137637776077387,
+            "positive_mm": 94.433781425351,
+            "shared_material_chord_mm": 95.74754520295873
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.0999999046325667,
+            "positive_mm": 4.899995326995851,
+            "shared_material_chord_mm": 4.999995231628418
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 37344.80267539661,
+        "independent_witness_winding_numbers": [
+          1.0,
+          1.0
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.09999990463256671,
+          0.0999999046325667
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.004188778220572705
+      },
+      "after_pair": [
+        "FIT_TRACK_station03_common_support",
+        "FIT_TRACK_station03_common_support"
+      ],
+      "after": {
+        "status": "MERGED_INTO_SINGLE_DESIGN_CANDIDATE",
+        "mesh": "FIT_TRACK_station03_common_support"
+      }
+    },
+    {
+      "pair": [
+        "DETAIL_BENCH_branch_chair_03_1",
+        "ENV_rail_chair.007"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          76.99966430664062,
+          76.43646001815796,
+          6.999999284744263
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -8.86329288482666,
+          0.21194540381431579,
+          -0.07185999691486358
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 1.0457197147603086,
+            "positive_mm": 74.96539744913389,
+            "shared_material_chord_mm": 76.0111171638942
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 1.0344687104225092,
+            "positive_mm": 74.4134556866542,
+            "shared_material_chord_mm": 75.44792439707672
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.13999998569488858,
+            "positive_mm": 6.859999299049373,
+            "shared_material_chord_mm": 6.999999284744262
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 41199.06812560672,
+        "independent_witness_winding_numbers": [
+          1.0000000000000029,
+          1.0
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.1399999856948886,
+          0.13999998569488856
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.011494036798572907
+      },
+      "after_pair": [
+        "FIT_TRACK_station03_common_support",
+        "FIT_TRACK_station03_common_support"
+      ],
+      "after": {
+        "status": "MERGED_INTO_SINGLE_DESIGN_CANDIDATE",
+        "mesh": "FIT_TRACK_station03_common_support"
+      }
+    },
+    {
+      "pair": [
+        "DETAIL_BENCH_branch_chair_12_2",
+        "ENV_balise_body_02"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          14.499664306640625,
+          90.62984585762024,
+          6.999999284744263
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -7.064543170928955,
+          -0.030817250609397887,
+          -0.07129999697208404
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.20977906077581338,
+            "positive_mm": 14.209671020507743,
+            "shared_material_chord_mm": 14.419450081283557
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 1.3737694448609181,
+            "positive_mm": 88.81724894046783,
+            "shared_material_chord_mm": 90.19101838532875
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.35577769171115275,
+            "positive_mm": 5.955777119506556,
+            "shared_material_chord_mm": 6.311554811217709
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 9198.715447767307,
+        "independent_witness_winding_numbers": [
+          0.9999999999999996,
+          1.0
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.20265987872242222,
+          14.209671020507741
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.03486518263860362
+      },
+      "after_pair": [
+        "FIT_BALISE_02_body_02",
+        "FIT_BALISE_SOURCE_branch_chair_12_2"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          -3.500169515609386,
+          -18.694448728092507,
+          6.999999284744263
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "DETAIL_BENCH_branch_fastener_03_1_-1",
+        "DETAIL_BENCH_turnout_inner_left_segment"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -8.826333045959473,
+          0.20215312004089356,
+          -0.06467999756336212
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.48280952754974993,
+            "positive_mm": 0.4828095275497503,
+            "shared_material_chord_mm": 0.9656190550995003
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.6706141714073967,
+            "positive_mm": 0.1999998092651332,
+            "shared_material_chord_mm": 0.8706139806725298
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.3200000524520851,
+            "positive_mm": 6.810597251652233,
+            "shared_material_chord_mm": 7.130597304104318
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087,
+        "independent_witness_winding_numbers": [
+          1.0000000000000002,
+          1.00000000000004
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.18477389616081216,
+          0.3200000524520852
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.026424723930167905
+      },
+      "after_pair": [
+        "DETAIL_BENCH_turnout_inner_left_segment",
+        "FIT_TRACK_clip_03_1_-1"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 98,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087
+      }
+    },
+    {
+      "pair": [
+        "DETAIL_BENCH_branch_fastener_03_1_1",
+        "DETAIL_BENCH_turnout_inner_left_segment"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -8.826333045959473,
+          0.2745531165599823,
+          -0.06467999756336212
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.48280952754981743,
+            "positive_mm": 0.48280952754981715,
+            "shared_material_chord_mm": 0.9656190550996345
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.19999980926516103,
+            "positive_mm": 0.6706366299081455,
+            "shared_material_chord_mm": 0.8706364391733066
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.3200000524520852,
+            "positive_mm": 6.8106016253082675,
+            "shared_material_chord_mm": 7.130601677760352
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087,
+        "independent_witness_winding_numbers": [
+          1.0000000000000002,
+          1.0000000000001341
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.18477389616083775,
+          0.3200000524520852
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.026424723930178882
+      },
+      "after_pair": [
+        "DETAIL_BENCH_turnout_inner_left_segment",
+        "FIT_TRACK_clip_03_1_1"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "triangle_aabb_candidates_tested": 218,
+        "surface_crossing_count": 0,
+        "coplanar_touch_count": 0,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "TRIANGULATED_MESHES_SEPARATED",
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087
+      }
+    },
+    {
+      "pair": [
+        "DETAIL_BENCH_branch_fastener_03_1_1",
+        "ENV_main_rail_1"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          9.999990463256836,
+          16.00000262260437
+        ],
+        "status": "POSITIVE_MATERIAL_OVERLAP",
+        "witness_world_m": [
+          -8.831133155822753,
+          0.2793531119823456,
+          -0.06467999756336212
+        ],
+        "shared_material_chords": [
+          {
+            "axis": "X",
+            "negative_mm": 0.20000457763735807,
+            "positive_mm": 9.800224304198577,
+            "shared_material_chord_mm": 10.000228881835936
+          },
+          {
+            "axis": "Y",
+            "negative_mm": 0.48272996132105916,
+            "positive_mm": 0.4827299613210596,
+            "shared_material_chord_mm": 0.9654599226421188
+          },
+          {
+            "axis": "Z",
+            "negative_mm": 0.3200000524520852,
+            "positive_mm": 9.840045081122527,
+            "shared_material_chord_mm": 10.160045133574613
+          }
+        ],
+        "aabb_overlap_volume_upper_bound_mm3": 1600.0353574461087,
+        "independent_witness_winding_numbers": [
+          0.9999999999999999,
+          0.9999999999999701
+        ],
+        "independent_witness_surface_distances_mm": [
+          0.18477319518149998,
+          0.3200000524520852
+        ],
+        "independently_confirmed_strict_interior": true,
+        "guaranteed_inscribed_overlap_ball_volume_mm3": 0.026424423187775416
+      },
+      "after_pair": [
+        "ENV_main_rail_1",
+        "FIT_TRACK_clip_03_1_1"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          10.000228881835938,
+          -0.49998847647653166,
+          16.00000262260437
+        ],
+        "status": "NO_POSITIVE_VOLUME_AABB",
+        "numerical_tolerance_m": 1e-08,
+        "possible_contact_within_tolerance": false,
+        "aabb_overlap_volume_upper_bound_mm3": 0.0
+      }
+    },
+    {
+      "pair": [
+        "REPAIR_50DF4_F643_profile_1_B535",
+        "REPAIR_518DD_88AC_1_source-plan6.5"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          15.000104904174805,
+          3.9999932050704956,
+          3.999948501586914
+        ],
+        "triangle_aabb_candidates_tested": 6472,
+        "surface_crossing_count": 7488,
+        "coplanar_touch_count": 450,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "aabb_overlap_volume_upper_bound_mm3": 239.99818084702954
+      },
+      "after_pair": [
+        "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+        "REPAIR_518DD_88AC_1_source-plan6.5"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          15.000104904174805,
+          3.9999932050704956,
+          3.999948501586914
+        ],
+        "triangle_aabb_candidates_tested": 6472,
+        "surface_crossing_count": 7264,
+        "coplanar_touch_count": 447,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "aabb_overlap_volume_upper_bound_mm3": 239.99818084702954
+      }
+    },
+    {
+      "pair": [
+        "REPAIR_51409_F643_profile_1_B535",
+        "REPAIR_518DE_88AC_1_source-plan6.5_FRONT_ROUTE_REFLECTED_CANDIDATE"
+      ],
+      "before": {
+        "aabb_signed_overlap_mm": [
+          14.999866485595703,
+          3.9999932050704956,
+          3.999948501586914
+        ],
+        "triangle_aabb_candidates_tested": 6472,
+        "surface_crossing_count": 7504,
+        "coplanar_touch_count": 450,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "aabb_overlap_volume_upper_bound_mm3": 239.9943662053567
+      },
+      "after_pair": [
+        "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+        "REPAIR_518DE_88AC_1_source-plan6.5_FRONT_ROUTE_REFLECTED_CANDIDATE"
+      ],
+      "after": {
+        "aabb_signed_overlap_mm": [
+          14.999866485595703,
+          3.9999932050704956,
+          3.999948501586914
+        ],
+        "triangle_aabb_candidates_tested": 6472,
+        "surface_crossing_count": 7008,
+        "coplanar_touch_count": 444,
+        "containment_witnesses": [],
+        "closed_edge_checks": [
+          true,
+          true
+        ],
+        "status": "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW",
+        "aabb_overlap_volume_upper_bound_mm3": 239.9943662053567
+      }
+    }
+  ],
+  "after_status_counts": {
+    "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW": 5,
+    "TRIANGULATED_MESHES_SEPARATED": 27,
+    "POSITIVE_MATERIAL_OVERLAP": 2
+  },
+  "all_scene_collision_free": false,
+  "scope": "All changed meshes against every retained mesh plus all changed-versus-changed pairs. Unchanged-versus-unchanged pairs are outside this exhaustive pass. No dynamics, hardware, connectivity, fastening or as-built certification.",
+  "triangle_classifier_review": {
+    "broad_phase": "World-space AABB for complete selections, tolerance 1e-8 m",
+    "narrow_phase": "All triangle AABB pairs followed by both triangles edge/face tests and coplanar 2D SAT; containment testing; closed edge incidence required for separation claim.",
+    "positive_witness": "Original vertical ray sample independently checked with solid-angle winding number and exact point/triangle minimum surface distance, closed-edge topology; shared internal-ball volume is conservative, never an estimated complete intersection volume.",
+    "limits": "Floating-point polygonal meshes; sampled witnesses do not quantify complete volume. Surface coincidence and failed witness checks remain review items. Self-intersection and manufacturing tolerances are not globally certified.",
+    "merged_components": "37 predecessors become 33 meshes; internal overlaps of formerly distinct plates are classified as merged design, not falsely described as a separated two-body interface."
+  }
+}

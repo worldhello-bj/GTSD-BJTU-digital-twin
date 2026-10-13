@@ -1,0 +1,100 @@
+{
+  "schema": "gtsd-crossing-topology-research-boundary-v1",
+  "default_mode": "source_only",
+  "modes": [
+    "source_only",
+    "straight_research",
+    "branch_research"
+  ],
+  "mode_effect": "Source only or route-associated source-edge highlighting. No rail material is deleted or fabricated by choosing a route.",
+  "confirmed_plan_intervals_must_remain": [
+    {
+      "lower_head_handle": "4ECED",
+      "upper_head_handle": "4ED17",
+      "world_X_interval_mm": [
+        -9470.039418889508,
+        -8692.372752222807
+      ],
+      "plan_head_band_width_mm": 39.50000000001455,
+      "z_section_confirmed": false,
+      "existing_complete_main_head_rectangle_already_matches_this_local_plan_band": true
+    },
+    {
+      "lower_head_handle": "4ECEC",
+      "upper_head_handle": "4ED17",
+      "world_X_interval_mm": [
+        -8583.948356602406,
+        -8323.039418889508
+      ],
+      "plan_head_band_width_mm": 39.50000000001455,
+      "z_section_confirmed": false,
+      "existing_complete_main_head_rectangle_already_matches_this_local_plan_band": true
+    },
+    {
+      "lower_head_handle": "4ECEB",
+      "upper_head_handle": "4ED17",
+      "world_X_interval_mm": [
+        -8320.372752222836,
+        -5199.903446474054
+      ],
+      "plan_head_band_width_mm": 39.5,
+      "z_section_confirmed": false,
+      "existing_complete_main_head_rectangle_already_matches_this_local_plan_band": true
+    },
+    {
+      "lower_head_handle": "4ECEA",
+      "upper_head_handle": "4ED17",
+      "world_X_interval_mm": [
+        -5197.23677980739,
+        -4695.666522914675
+      ],
+      "plan_head_band_width_mm": 39.50000000001455,
+      "z_section_confirmed": false,
+      "existing_complete_main_head_rectangle_already_matches_this_local_plan_band": true
+    },
+    {
+      "lower_head_handle": "4ED15",
+      "upper_head_handle": "4ED17",
+      "world_X_interval_mm": [
+        -1594.3331895813535,
+        1419.984253761846
+      ],
+      "plan_head_band_width_mm": 39.50000000003638,
+      "z_section_confirmed": false,
+      "existing_complete_main_head_rectangle_already_matches_this_local_plan_band": true
+    }
+  ],
+  "ready_to_generate_solid": false,
+  "allow_automatic_material_cut": false,
+  "allow_axis_translation": false,
+  "fields_requiring_explicit_evidence_or_engineering_choice": {
+    "working_guide_faces_by_route": null,
+    "closed_crossing_perimeter_and_nose_limits_world_XY_mm": null,
+    "flangeway_width_mm": null,
+    "flangeway_depth_mm": null,
+    "flangeway_side_and_end_taper": null,
+    "crossing_common_material_vs_independent_rails": null,
+    "guard_common_base_vs_separate_fixing": null,
+    "switch_operating_state": null,
+    "wheel_flange_and_back_to_back_envelope": null,
+    "manufacturing_and_service_clearance_mm": null
+  },
+  "observations_not_parameter_defaults": {
+    "detail_trace_offset_4ECEE_to_4ECED_mm": 15.33333333333576,
+    "trace_offset_is_confirmed_flangeway_width": false,
+    "guard_outer_surface_overlap_z_range_mm": [
+      -64.99999761581421,
+      -55.295187399563595
+    ]
+  },
+  "minimal_candidate_assessment": {
+    "guard_outer_lower_base": "A common lower support with independent unchanged top guide faces is conceivable, because the existing material overlap is in the lower section. It still needs confirmation of fixed/shared versus adjustable separate construction and flange clearance. No solid emitted.",
+    "inner_left_main_head": "A base-only union is insufficient: verified overlap reaches the head. Choosing straight/branch implies working-face and nose/flangeway choices not uniquely assigned by the native graph. A solid would currently require too many unsourced decisions. No cut/delete patch emitted."
+  },
+  "preservation_rules": [
+    "Keep all 57 native finite curves as references",
+    "Keep five paired straight-head plan constraints visible",
+    "Never use the 108.424 mm or 3101.333 mm unknown horizontal spans as an instruction to remove material",
+    "Do not interpret generic curve intersections as same-part or installed hardware"
+  ]
+}

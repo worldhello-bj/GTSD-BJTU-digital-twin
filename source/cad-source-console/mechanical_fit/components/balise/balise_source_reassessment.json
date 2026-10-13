@@ -1,0 +1,579 @@
+{
+  "schema": "balise-native-photo-text-reassessment-v1",
+  "native_records_scanned": 205442,
+  "database_read_only": true,
+  "search_terms": [
+    "应答器",
+    "应答",
+    "balise",
+    "transponder",
+    "eurobalise",
+    "rfid",
+    "信标"
+  ],
+  "native_tag_keyword_hits": [],
+  "native_record_type_counts": {
+    "PREAMBLE": 1,
+    "SECTION": 6,
+    "ENDSEC": 6,
+    "CLASS": 23,
+    "TABLE": 9,
+    "VPORT": 1,
+    "ENDTAB": 9,
+    "LTYPE": 26,
+    "LAYER": 37,
+    "STYLE": 5,
+    "APPID": 21,
+    "DIMSTYLE": 8,
+    "BLOCK_RECORD": 1099,
+    "BLOCK": 1099,
+    "ENDBLK": 1099,
+    "LWPOLYLINE": 104906,
+    "CIRCLE": 1889,
+    "LINE": 15684,
+    "ARC": 3611,
+    "SPLINE": 29727,
+    "ELLIPSE": 60,
+    "HATCH": 893,
+    "INSERT": 1282,
+    "SOLID": 467,
+    "MTEXT": 264,
+    "POINT": 701,
+    "DIMENSION": 32,
+    "POLYLINE": 7180,
+    "VERTEX": 26387,
+    "SEQEND": 7180,
+    "OLE2FRAME": 1,
+    "MULTILEADER": 5,
+    "REGION": 8,
+    "TEXT": 1,
+    "VIEWPORT": 2,
+    "DICTIONARY": 848,
+    "ACDBDICTIONARYWDFLT": 1,
+    "ACDBPLACEHOLDER": 6,
+    "MLINESTYLE": 1,
+    "LAYOUT": 3,
+    "SCALE": 17,
+    "VISUALSTYLE": 24,
+    "XRECORD": 4,
+    "ACDBSECTIONVIEWSTYLE": 1,
+    "ACDBDETAILVIEWSTYLE": 1,
+    "SORTENTSTABLE": 776,
+    "ACDBASSOCNETWORK": 9,
+    "ACDB_DYNAMICBLOCKPURGEPREVENTER_VERSION": 5,
+    "DICTIONARYVAR": 15,
+    "CELLSTYLEMAP": 1,
+    "EOF": 1
+  },
+  "native_block_definition_count": 1099,
+  "native_dimension_records_scanned": 32,
+  "reviewed_annotation_text_count": 270,
+  "annotation_keyword_hits": [],
+  "actual_instance_record_counts": {
+    "instances.jsonl.gz": 208252,
+    "insert_instances.jsonl.gz": 1029,
+    "annotation_instances.jsonl.gz": 58
+  },
+  "native_dimension_records": [
+    {
+      "handle": "CF8",
+      "definition_block": "zw$F83C",
+      "measurement_42": [
+        37.36340809753221
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "3A0E",
+      "definition_block": "zw$F17C",
+      "measurement_42": [
+        37.36340809753221
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "16965",
+      "definition_block": "A$C1A4175F5",
+      "measurement_42": [
+        30.03092250530608
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "1696C",
+      "definition_block": "A$C1A4175F5",
+      "measurement_42": [
+        118.8478088378906
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "1696F",
+      "definition_block": "A$C1A4175F5",
+      "measurement_42": [
+        17.49820709228516
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "16972",
+      "definition_block": "A$C1A4175F5",
+      "measurement_42": [
+        29.95692443847656
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "16975",
+      "definition_block": "A$C1A4175F5",
+      "measurement_42": [
+        3.022363934593159
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "16978",
+      "definition_block": "A$C1A4175F5",
+      "measurement_42": [
+        20.85785675047373
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "16EFF",
+      "definition_block": "A$C08511F0A",
+      "measurement_42": [
+        122.0002876911603
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "17F90",
+      "definition_block": "zw$190D",
+      "measurement_42": [
+        301.6666666666785
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "32790",
+      "definition_block": "zw$AEA8",
+      "measurement_42": [
+        8520.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "32793",
+      "definition_block": "zw$AEA8",
+      "measurement_42": [
+        3685.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "32796",
+      "definition_block": "zw$AEA8",
+      "measurement_42": [
+        900.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "32799",
+      "definition_block": "zw$AEA8",
+      "measurement_42": [
+        1900.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "3279C",
+      "definition_block": "zw$AEA8",
+      "measurement_42": [
+        700.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "3279F",
+      "definition_block": "zw$AEA8",
+      "measurement_42": [
+        1335.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "327A0",
+      "definition_block": "zw$AEA8",
+      "measurement_42": [
+        11930.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "327A3",
+      "definition_block": "zw$AEA8",
+      "measurement_42": [
+        720.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "327A6",
+      "definition_block": "zw$AEA8",
+      "measurement_42": [
+        2340.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "327A9",
+      "definition_block": "zw$AEA8",
+      "measurement_42": [
+        1735.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "327AC",
+      "definition_block": "zw$AEA8",
+      "measurement_42": [
+        2340.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "327AF",
+      "definition_block": "zw$AEA8",
+      "measurement_42": [
+        1715.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "327B2",
+      "definition_block": "zw$AEA8",
+      "measurement_42": [
+        2340.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "327B5",
+      "definition_block": "zw$AEA8",
+      "measurement_42": [
+        740.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "39690",
+      "definition_block": "zw$A8D9",
+      "measurement_42": [
+        80.00132776842804
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "3B444",
+      "definition_block": "zw$600B",
+      "measurement_42": [
+        1250.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "4EE02",
+      "definition_block": "*Model_Space",
+      "measurement_42": [
+        11055.15492868316
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "4EE05",
+      "definition_block": "*Model_Space",
+      "measurement_42": [
+        1840.303863958048
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "4EE29",
+      "definition_block": "*Model_Space",
+      "measurement_42": [
+        610.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "518E1",
+      "definition_block": "*Model_Space",
+      "measurement_42": [
+        1000.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "51993",
+      "definition_block": "*Model_Space",
+      "measurement_42": [
+        2480.0
+      ],
+      "text_1": [
+        ""
+      ]
+    },
+    {
+      "handle": "51ACC",
+      "definition_block": "*Model_Space",
+      "measurement_42": [
+        700.0
+      ],
+      "text_1": [
+        "<>\\P(车体移动需限位点)"
+      ]
+    }
+  ],
+  "unlabelled_track_rectangles_rechecked": [
+    {
+      "handle": "4EDFE",
+      "native_record_id": 201278,
+      "source_bbox_world_XY_mm": [
+        [
+          583.6614498752533,
+          364.6118810512926
+        ],
+        [
+          805.0392119470998,
+          508.4149220198233
+        ]
+      ],
+      "native_closed": true,
+      "interpretation_evidence": "Three joined magenta rectangles supply exact closed XY contours. No current catalog cites these handles. Identity, view interpretation, Z/depth and installation ownership are not established; could be symbol/equipment outline, cannot call it a new rail part.",
+      "reason_not_bound_to_balise": "No label, insertion chain or photographic station correspondence connects this symbol to balise02/03. It is also at the opposite positive-X end of the track drawing."
+    },
+    {
+      "handle": "4EDFF",
+      "native_record_id": 201279,
+      "source_bbox_world_XY_mm": [
+        [
+          647.2045663282406,
+          535.5232348593418
+        ],
+        [
+          739.4453005248433,
+          570.3891653081519
+        ]
+      ],
+      "native_closed": true,
+      "interpretation_evidence": "Three joined magenta rectangles supply exact closed XY contours. No current catalog cites these handles. Identity, view interpretation, Z/depth and installation ownership are not established; could be symbol/equipment outline, cannot call it a new rail part.",
+      "reason_not_bound_to_balise": "No label, insertion chain or photographic station correspondence connects this symbol to balise02/03. It is also at the opposite positive-X end of the track drawing."
+    },
+    {
+      "handle": "4EE00",
+      "native_record_id": 201280,
+      "source_bbox_world_XY_mm": [
+        [
+          676.0297957646762,
+          508.4149220198233
+        ],
+        [
+          712.5417530508348,
+          535.5232348593418
+        ]
+      ],
+      "native_closed": true,
+      "interpretation_evidence": "Three joined magenta rectangles supply exact closed XY contours. No current catalog cites these handles. Identity, view interpretation, Z/depth and installation ownership are not established; could be symbol/equipment outline, cannot call it a new rail part.",
+      "reason_not_bound_to_balise": "No label, insertion chain or photographic station correspondence connects this symbol to balise02/03. It is also at the opposite positive-X end of the track drawing."
+    }
+  ],
+  "current_proxy_metadata": [
+    {
+      "name": "ENV_balise_body_02",
+      "id": "ENV_balise_body_02",
+      "group": "environment",
+      "registered_component_id": "DTB-C0016",
+      "source_metadata": {
+        "dimension_status": "",
+        "display_group": "signal",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "environment",
+        "id": "1263",
+        "registered_component_id": "DTB-C0016",
+        "registry_match_status": "",
+        "semantic_part_id": "",
+        "source_refs": "应答器.jpg, 图片15/17/18; spacing and dimensions inferred",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "ENV_balise_body_02",
+        "as_built_confirmed": false
+      },
+      "as_built": false,
+      "new_collision_enabled": false
+    },
+    {
+      "name": "ENV_balise_body_03",
+      "id": "ENV_balise_body_03",
+      "group": "environment",
+      "registered_component_id": "DTB-C0016",
+      "source_metadata": {
+        "dimension_status": "",
+        "display_group": "signal",
+        "geometry_assumptions": "",
+        "geometry_status": "PHOTO_INFERRED_GEOMETRY",
+        "group": "environment",
+        "id": "1264",
+        "registered_component_id": "DTB-C0016",
+        "registry_match_status": "",
+        "semantic_part_id": "",
+        "source_refs": "应答器.jpg, 图片15/17/18; spacing and dimensions inferred",
+        "assembly_layer": "RETAINED_PRIOR_SOURCE_OR_PHOTO_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "ENV_balise_body_03",
+        "as_built_confirmed": false
+      },
+      "as_built": false,
+      "new_collision_enabled": false
+    }
+  ],
+  "registered_text_source": {
+    "component_id": "DTB-C0016",
+    "label": "应答器",
+    "source_refs": [
+      {
+        "path": "inputs/workbook_all_cells.json",
+        "sheet": "Sheet1",
+        "cells": "A26:E26"
+      }
+    ],
+    "evidence_level": "REGISTERED_NAME_WITH_SEPARATE_GEOMETRY_EVIDENCE",
+    "physical_installation_verified": false,
+    "meaning": "Workbook row names the component; it does not establish exact dimensions, count, source handle or station."
+  },
+  "photo_review": [
+    {
+      "filename": "应答器.jpg",
+      "sha256": "a61dfdd5ad3aa8d33c648b841341c062e7237955ce637c64ce1000ff4f54b61a",
+      "git_blob_sha1": "f5c5a7a0ae54d826017b81f6946d42ded8ef71b6",
+      "bytes": 6610088,
+      "pixels_actually_reviewed": true,
+      "raw_photo_in_deliverable": false,
+      "source_repository": "worldhello-bj/GTSD-BJTU-digital-twin",
+      "source_path": "reference/试验台几何建模资料-1011/图片素材/应答器.jpg",
+      "source_commit": "d78e0e4616f9a491e46a5c03637755971a9ec92c",
+      "source_blob_url": "https://api.github.com/repos/worldhello-bj/GTSD-BJTU-digital-twin/git/blobs/f5c5a7a0ae54d826017b81f6946d42ded8ef71b6"
+    },
+    {
+      "filename": "图片15.png",
+      "sha256": "ed93d075bb59a11f455b8cca893a953f8c2e25b4957c7c9e9f8c12f8bc57031e",
+      "git_blob_sha1": "3ed9a748daa9fe14aaab167ac08da40c1dd1b6c5",
+      "bytes": 1056539,
+      "pixels_actually_reviewed": true,
+      "raw_photo_in_deliverable": false,
+      "source_repository": "worldhello-bj/GTSD-BJTU-digital-twin",
+      "source_path": "reference/试验台几何建模资料-1011/图片素材/图片15.png",
+      "source_commit": "d78e0e4616f9a491e46a5c03637755971a9ec92c",
+      "source_blob_url": "https://api.github.com/repos/worldhello-bj/GTSD-BJTU-digital-twin/git/blobs/3ed9a748daa9fe14aaab167ac08da40c1dd1b6c5"
+    },
+    {
+      "filename": "图片17.png",
+      "sha256": "dd71a8e4770354d62ec6a42f26682f9c40b46b7e7ca0bd7e61f60c4b9ea380e8",
+      "git_blob_sha1": "0cd41dc48b04a8cb67a5a5e400b8f6df617e9566",
+      "bytes": 282799,
+      "pixels_actually_reviewed": true,
+      "raw_photo_in_deliverable": false,
+      "source_repository": "worldhello-bj/GTSD-BJTU-digital-twin",
+      "source_path": "reference/试验台几何建模资料-1011/图片素材/图片17.png",
+      "source_commit": "d78e0e4616f9a491e46a5c03637755971a9ec92c",
+      "source_blob_url": "https://api.github.com/repos/worldhello-bj/GTSD-BJTU-digital-twin/git/blobs/0cd41dc48b04a8cb67a5a5e400b8f6df617e9566"
+    },
+    {
+      "filename": "图片18.png",
+      "sha256": "cae07920c1ab00635a251f5de09e52d610cf9a07c8aad4c7388c1cb5d87db060",
+      "git_blob_sha1": "592af6877b957a01e5c5a62202dec17cc1f4c38f",
+      "bytes": 2413396,
+      "pixels_actually_reviewed": true,
+      "raw_photo_in_deliverable": false,
+      "source_repository": "worldhello-bj/GTSD-BJTU-digital-twin",
+      "source_path": "reference/试验台几何建模资料-1011/图片素材/图片18.png",
+      "source_commit": "d78e0e4616f9a491e46a5c03637755971a9ec92c",
+      "source_blob_url": "https://api.github.com/repos/worldhello-bj/GTSD-BJTU-digital-twin/git/blobs/592af6877b957a01e5c5a62202dec17cc1f4c38f"
+    }
+  ],
+  "photo_observations": {
+    "应答器.jpg": "Visible grey box with yellow lid and four lid screws, occupying the bay between adjacent sleepers. The lower body descends beside the sleeper to the deck level; the image does not show the box seated on a sleeper. The yellow lid may overhang the body. Perspective and occlusion prevent calibrated millimetre measurement.",
+    "图片15.png": "Several yellow-lid devices are visible between track rails; no unique mapping to model names 02/03 or CAD station handles.",
+    "图片17.png": "Repeated grey/yellow boxes are visible in successive separated rail bays; no scale or unique station identifiers.",
+    "图片18.png": "Multiple boxes visible in the main-rail corridor; spacing, exact source station and handedness are not dimensioned."
+  },
+  "conclusion": "No unique CAD-to-balise02/03 body/installation mapping was established by this all-record textual search, full instance inventory, reviewed annotation/registry text and actual source photographs. This is not a proof that an unlabelled balise drawing is absent from the CAD. Source sleeper/rail geometries do supply checkable bay and corridor constraints.",
+  "candidate_basis": "Between-sleeper, deck-level mounting is photo-supported. Preserve the inherited 122x116x60 mm body and complete lid/screw assembly, offer 90-degree rigid yaw so the shorter 116-mm axis fits the approximately120-mm source bay, and place the full assembly inside the finite source rail corridor. Exact yaw, bay, lateral position and dimensions remain unconfirmed engineering choices.",
+  "as_built_confirmed": false
+}

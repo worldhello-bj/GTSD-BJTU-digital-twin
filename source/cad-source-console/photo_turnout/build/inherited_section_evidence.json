@@ -1,0 +1,137 @@
+{
+  "source_mesh": "ENV_main_rail_1",
+  "source_geometry_witness_sha256": "6f1b4aa295a5906ea3ce9c9124e4436bbf563bbb3df5f1c3cc40d04158a51552",
+  "source_section_YZ_world_mm": [
+    [
+      264.91668820381165,
+      -52.000001072883606
+    ],
+    [
+      295.4166829586029,
+      -57.999998331069946
+    ],
+    [
+      295.4166829586029,
+      -64.99999761581421
+    ],
+    [
+      222.4166840314865,
+      -64.99999761581421
+    ],
+    [
+      222.4166840314865,
+      -57.999998331069946
+    ],
+    [
+      252.91666388511658,
+      -52.000001072883606
+    ],
+    [
+      252.91666388511658,
+      -18.99999938905239
+    ],
+    [
+      239.16667699813843,
+      -13.000000268220901
+    ],
+    [
+      239.16667699813843,
+      0.0
+    ],
+    [
+      278.6666750907898,
+      0.0
+    ],
+    [
+      278.6666750907898,
+      -13.000000268220901
+    ],
+    [
+      264.91668820381165,
+      -18.99999938905239
+    ]
+  ],
+  "profile_offset_from_inner_head_edge_Z_mm": [
+    [
+      25.750011205673218,
+      -52.000001072883606
+    ],
+    [
+      56.25000596046448,
+      -57.999998331069946
+    ],
+    [
+      56.25000596046448,
+      -64.99999761581421
+    ],
+    [
+      -16.749992966651917,
+      -64.99999761581421
+    ],
+    [
+      -16.749992966651917,
+      -57.999998331069946
+    ],
+    [
+      13.74998688697815,
+      -52.000001072883606
+    ],
+    [
+      13.74998688697815,
+      -18.99999938905239
+    ],
+    [
+      0.0,
+      -13.000000268220901
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      39.49999809265137,
+      0.0
+    ],
+    [
+      39.49999809265137,
+      -13.000000268220901
+    ],
+    [
+      25.750011205673218,
+      -18.99999938905239
+    ]
+  ],
+  "Z_events_mm": [
+    -64.99999761581421,
+    -57.999998331069946,
+    -52.000001072883606,
+    -18.99999938905239,
+    -13.000000268220901,
+    0.0
+  ],
+  "head_width_mm": 39.49999809265137,
+  "web_width_mm": 12.000024318695068,
+  "foot_width_mm": 72.9999989271164,
+  "slot_depth_engineering_choice_mm": 65.0,
+  "source_section_status": "INHERITED_SOURCE_RENDER_I_SECTION_NOT_AS_BUILT_CONFIRMED",
+  "boolean_method": "native exact CSG in local millimetres; only explicit nose wedge and flangeway ownership cut",
+  "native_precision_note": "float32 local mm vertices; source boundary checked at 0.001 mm, 1e-4 mm numerical vertex weld; no collision-driven trim",
+  "blender_version": "4.3.2",
+  "numerical_t_junction_repairs": {
+    "PHOTO_FROG_source_finite_V": [
+      {
+        "triangle": 137,
+        "area_mm2": 0.0003000835813509184,
+        "long_edge_altitude_mm": 1.930756635886706e-05,
+        "edge_multiplicity_before": [
+          1,
+          3,
+          3
+        ]
+      }
+    ],
+    "PHOTO_WING_lower_source_chain": [],
+    "PHOTO_WING_upper_source_chain": []
+  },
+  "numerical_tolerance_mm": 0.0001
+}

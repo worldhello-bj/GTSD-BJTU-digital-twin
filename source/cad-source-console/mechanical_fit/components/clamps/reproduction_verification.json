@@ -1,0 +1,9 @@
+{
+  "all_byte_identical": true,
+  "profiles": {
+    "clamp_fit_profile.json": true,
+    "clamp_messenger_datum_profile.json": true,
+    "clamp_b535_review_profile.json": true
+  },
+  "external_modeler_required": false
+}

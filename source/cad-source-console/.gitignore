@@ -499,3 +499,57 @@ acceptance-output/
 /integration/data/source_library/shared_7f05_distal_eye_registered_source_comparison.json
 /integration/data/source_library/shared_7f05_distal_eye_source_regions.json
 /integration/data/source_library/shared_library73_model_alias_source_regions.json
+
+# Mechanical-fit candidate assets, restored automatically and byte-identically.
+/mechanical_fit/GTSD_Mechanical_Fit_Candidates.blend
+/mechanical_fit/components/balise/balise_fit_before_after.png
+/mechanical_fit/components/balise/balise_fit_profile.json
+/mechanical_fit/components/clamps/clamp_b535_review_profile.json
+/mechanical_fit/components/clamps/clamp_fit_profile.json
+/mechanical_fit/components/clamps/clamp_messenger_datum_profile.json
+/mechanical_fit/components/clamps/published_clamp_meshes.json
+/mechanical_fit/components/clamps/published_scene_bounds.json
+/mechanical_fit/components/track_support/rail_body_review/native_edge_graph.png
+/mechanical_fit/inputs/balise/balise_fit_profile.json
+/mechanical_fit/profiles.json
+/mechanical_fit/renders/balise_after.png
+/mechanical_fit/renders/balise_before.png
+/mechanical_fit/renders/lower_clamp_after.png
+/mechanical_fit/renders/lower_clamp_before.png
+/mechanical_fit/renders/track_support_after.png
+/mechanical_fit/renders/track_support_before.png
+/mechanical_fit/renders/upper_clamp_after.png
+/mechanical_fit/renders/upper_clamp_before.png
+/mechanical_fit/renders/whole_candidate.png
+
+# Historical local collision proof, superseded by core_partition.json.
+/research_rig/contact_assets/core_partition_initial.json
+
+# Photo/research release assets restored automatically with exact identity.
+/research_rig/contact_assets/core_partition.json
+/research_rig/contact_assets/pin_geometry_variants.json
+/research_rig/evidence/contact/50DF4_coarse.json.gz
+/research_rig/evidence/contact/50DF4_half.json.gz
+/research_rig/evidence/contact/51409_coarse.json.gz
+/research_rig/evidence/contact/51409_half.json.gz
+/research_rig/evidence/gravity/checkpoint_and_samples.json.gz
+/research_rig/evidence/mount/balise_coarse.json.gz
+/research_rig/evidence/mount/balise_fixed.json.gz
+/research_rig/evidence/mount/balise_half.json.gz
+/research_rig/evidence/mount/clamps_coarse.json.gz
+/research_rig/evidence/mount/clamps_fixed.json.gz
+/research_rig/evidence/mount/clamps_half.json.gz
+/research_rig/evidence/mount/track_support_coarse.json.gz
+/research_rig/evidence/mount/track_support_fixed.json.gz
+/research_rig/evidence/mount/track_support_half.json.gz
+
+# Photograph-led generated turnout candidates and native evidence.
+/photo_turnout/build/GTSD_Photo_Turnout_Engineering_Candidate.blend
+/photo_turnout/build/candidate_meshes.json.gz
+/photo_turnout/build/photo_turnout_candidate.png
+/photo_turnout/build/source_dimension_overlay.png
+/photo_turnout/hardware_revision/GTSD_Photo_Turnout_Engineering_Candidate.blend
+/photo_turnout/hardware_revision/candidate_meshes.json.gz
+/photo_turnout/hardware_revision/photo_turnout_candidate.png
+/photo_turnout/photo_source_profiles.json
+/photo_turnout/source_seed.json.gz

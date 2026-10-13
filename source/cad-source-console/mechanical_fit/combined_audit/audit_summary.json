@@ -1,0 +1,90 @@
+{
+  "schema": "gtsd-independent-combined-audit-summary-v1",
+  "counts": {
+    "before_meshes": 1932,
+    "removed": 37,
+    "added": 33,
+    "unchanged": 1895,
+    "after_meshes": 1928,
+    "after_changed_vs_all_unique_pairs": 63063,
+    "before_removed_vs_all_unique_pairs": 70781,
+    "after_positive_aabb_candidates": 34,
+    "before_positive_aabb_candidates": 54,
+    "cross_profile_changed_pairs": 324,
+    "cross_profile_positive_aabb_candidates": 0
+  },
+  "after_status_counts": {
+    "SURFACE_OR_CONTAINMENT_REQUIRES_REVIEW": 5,
+    "TRIANGULATED_MESHES_SEPARATED": 27,
+    "POSITIVE_MATERIAL_OVERLAP": 2
+  },
+  "coordinate_precision_classification_changes": [],
+  "numerical_boundary_pairs": 41,
+  "export_only_subtolerance_positive_AABB_pairs": 6,
+  "native_float32_subtolerance_positive_AABB_pairs": 0,
+  "new_positive_overlap_witness_pairs": [],
+  "worsened_geometric_overlap_proven": false,
+  "strict_whole_model_clearance_pass": false,
+  "retained_positive_interfaces": [
+    [
+      "ENV_contact_wire",
+      "FIT_518DF_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+    ],
+    [
+      "ENV_contact_wire",
+      "FIT_518E0_4079_DEPTH_UNRESOLVED_ROUND5_CANDIDATE"
+    ]
+  ],
+  "retained_boundary_review_interfaces": [
+    [
+      "CAD_50DF4_F643_profile_0",
+      "FIT_50DF4_F643_NOMINAL_PIN5_8A2C_CANDIDATE"
+    ],
+    [
+      "CAD_50DF4_F643_profile_3",
+      "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE"
+    ],
+    [
+      "CAD_51409_F643_profile_0",
+      "FIT_51409_F643_NOMINAL_PIN5_8A2C_CANDIDATE"
+    ],
+    [
+      "FIT_50DF4_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+      "REPAIR_518DD_88AC_1_source-plan6.5"
+    ],
+    [
+      "FIT_51409_B535_OUTLINE_8A2C_HOLE25_VERSION_CANDIDATE",
+      "REPAIR_518DE_88AC_1_source-plan6.5_FRONT_ROUTE_REFLECTED_CANDIDATE"
+    ]
+  ],
+  "original_seven_conflicts": {
+    "historical_source_position_candidate_positive_pairs": 7,
+    "actual_default_1932_positive_AABB_pairs_for_these_seven": 0,
+    "combined_distinct_pairs_separated": 4,
+    "combined_pairs_merged_into_single_design_body": 3
+  },
+  "six_clamp_targets": {
+    "all_targets_have_no_positive_volume_after": true,
+    "rod_ring_or_lower_jaw_pairs_aabb_separated": 4,
+    "pin_B535_pairs_triangle_separated": 2
+  },
+  "scope_exclusions": [
+    "1895 unchanged meshes versus one another, except two explicitly named messenger/lower-jaw checks",
+    "Source rail-body topology",
+    "Motion/dynamics/loading",
+    "Fixing method and installed connectivity",
+    "Manufacturing tolerance and as-built validation"
+  ],
+  "regression_tests": {
+    "count": 7,
+    "passed": 7
+  },
+  "input_hashes": {
+    "source": "751ff0ac4ecf5b2351ebdd6d576cfdf6f043e9bfe8b8eff88c51a9d328ed661e",
+    "combined": "37ea59040faf84aa975048e765fae8c28449d3c39e5ed562340ee5effeb1feb4",
+    "profiles": "06cbf71b9a38f0471f01695694a1b9adeb0a4ec599ecfd01dd8ebc0908a6da01",
+    "replacements": "fe9e6c52f5a2381394e40372147c78946b6e50c019043d381730c7593df61a73"
+  },
+  "blend_file_sha256": "ede3935c0b1d58be36dcf8a44a3a470b27fc6724400838e3485637dff7fcd24b",
+  "blend_method_note": "When a blend file was supplied, only its checksum was independently read; geometry was audited from source/combined exports and repeated after float32 quantization. This audit did not reopen Blender. Native reopened stream equality is a separate delivery verification."
+}

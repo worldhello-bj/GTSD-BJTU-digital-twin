@@ -1,0 +1,40 @@
+{
+  "schema": "gtsd-catenary-interface-config-v1",
+  "selected_source_scene": "20_FRONT_ROUTE_NOMINAL_FIT",
+  "long_link": {
+    "section_interpretation": "inherited_nominal_round5_unconfirmed",
+    "depth_policy": "positive_X_outside_actual_local_obstacle_envelope",
+    "minimum_geometric_gap_mm": 1.0,
+    "explicit_station_depth_offsets_mm": {},
+    "actual_depth_mm": null,
+    "upper_fixing_method": null,
+    "lower_fixing_method": null,
+    "source_front_YZ_projection_preserved": true
+  },
+  "lower_pin": {
+    "source_hole_location_choice": "8A2C_front_hidden_25mm",
+    "section_interpretation": "nominal_round_pin_engineering_candidate",
+    "diameter_mm": 5.0,
+    "circle_segments": 192,
+    "B535_circle_native_center_mm": 25.8372093023354,
+    "8A2C_hidden_native_center_mm": 25.0,
+    "confirmed_bolt_identity": null,
+    "axial_retention_method": null,
+    "thread_specification": null,
+    "manufacturing_tolerance_mm": null
+  },
+  "messenger": {
+    "datum_choice": "native_clamp_channel_candidate",
+    "diameter_changed": false,
+    "sag_tension_or_new_dropper_fixing_confirmed": false
+  },
+  "upper_tube": {
+    "datum_choice": "retain_native_offset",
+    "reason": "actual triangle envelope has positive clearance; centering is unnecessary"
+  },
+  "as_built_confirmed": false,
+  "engineering_clearances_are_not_standards": true,
+  "collision_enabled": false,
+  "added_mass_kg": 0,
+  "added_bodies": 0
+}

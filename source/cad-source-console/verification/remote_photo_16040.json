@@ -1,0 +1,148 @@
+{
+  "schema": "gtsd-photo-research-remote-acceptance-v1",
+  "verified_commit": "16040f7a075643025d4e62e1b7f031d32346b561",
+  "verified_tree": "295104292a0cbbf0d5ebcbffcb83a4a034ef28a7",
+  "completed_utc": "2026-10-13T16:02:03.935894+00:00",
+  "completed_beijing": "2026-10-14T00:02:03.935894+08:00",
+  "restoration": "All sources and payloads fetched from GitHub into a fresh sparse checkout; no producer runtime/model file copy. Existing pinned dependency environment reused.",
+  "asset_count": 102,
+  "source_review_json_files": 432,
+  "frozen_changed_paths_sha256_verified": 201,
+  "aggregate": {
+    "completed_utc": "2026-10-13T15:58:50.891215+00:00",
+    "completed_beijing": "2026-10-13T23:58:50.891215+08:00",
+    "ok": true,
+    "checks": [
+      {
+        "name": "asset_unit",
+        "exit_code": 0,
+        "wall_s": 1.899
+      },
+      {
+        "name": "fit_unit",
+        "exit_code": 0,
+        "wall_s": 0.115
+      },
+      {
+        "name": "research_unit",
+        "exit_code": 0,
+        "wall_s": 12.226
+      },
+      {
+        "name": "research_node",
+        "exit_code": 0,
+        "wall_s": 0.323
+      },
+      {
+        "name": "doctor",
+        "exit_code": 0,
+        "wall_s": 13.211
+      },
+      {
+        "name": "node",
+        "exit_code": 0,
+        "wall_s": 4.288
+      },
+      {
+        "name": "source_http",
+        "exit_code": 0,
+        "wall_s": 10.801
+      },
+      {
+        "name": "rail_http",
+        "exit_code": 0,
+        "wall_s": 12.557
+      },
+      {
+        "name": "seat_http",
+        "exit_code": 0,
+        "wall_s": 12.409
+      },
+      {
+        "name": "candidate_http",
+        "exit_code": 0,
+        "wall_s": 6.036
+      }
+    ],
+    "browser_visual_acceptance": false,
+    "node_test_count": 67,
+    "research_node_test_count": 23,
+    "hardware_connected": false
+  },
+  "python_tests": 153,
+  "node_tests": 90,
+  "source_http": {
+    "ok": true,
+    "source_pages": 5,
+    "mechanical_fit_pages": 2,
+    "source_resources_byte_equal": 486,
+    "new_geometry_revision": "3e1d785643dc3eca93cf989b663af29311db3c6d1ce3197d97d7758a4e9fb93e",
+    "main_native_checkpoint_unchanged": true,
+    "main_steps": 0,
+    "run_lease_unchanged": true,
+    "pantograph_candidate_disabled": true,
+    "unknown_and_cross_origin_rejected": true,
+    "browser_visual_acceptance": false,
+    "browser_download_acceptance": false
+  },
+  "native_blend_reopen": {
+    "completed_utc": "2026-10-13T15:59:22.080391+00:00",
+    "completed_beijing": "2026-10-13T23:59:22.080391+08:00",
+    "results": [
+      {
+        "folder": "build",
+        "native_sha256": "b0335ac500a69f5eb016daa09c84d49fc7cb146b5f814a5baaa6123b4169d1dc",
+        "mesh_count": 130,
+        "world_vertex_error_m": 1.430511474609375e-06,
+        "indices_equal": true,
+        "no_original_images_texts_external_libraries": true,
+        "file_unchanged": true
+      },
+      {
+        "folder": "hardware_revision",
+        "native_sha256": "34649ea5782a00b7651e6ae2a08a117d54676f9ef0b6e83defb639401eedcfc6",
+        "mesh_count": 205,
+        "world_vertex_error_m": 1.430511474609375e-06,
+        "indices_equal": true,
+        "no_original_images_texts_external_libraries": true,
+        "file_unchanged": true
+      }
+    ]
+  },
+  "published_checkpoint_continuation": [
+    {
+      "file": "gravity/checkpoint_and_samples.json.gz",
+      "identity_sha256": "f38420323578c835048a8fa02447c7fc5bfeadeab678cf5ea7e24ccf357309c6",
+      "checkpoint_and_continuation_exact": true
+    },
+    {
+      "file": "contact/50DF4_half.json.gz",
+      "identity_sha256": "19d7d7d9c23e5b602abddd5f416cec46dbe014a06bfdf78a47ae550965002bf4",
+      "checkpoint_and_continuation_exact": true
+    },
+    {
+      "file": "contact/51409_half.json.gz",
+      "identity_sha256": "19d7d7d9c23e5b602abddd5f416cec46dbe014a06bfdf78a47ae550965002bf4",
+      "checkpoint_and_continuation_exact": true
+    }
+  ],
+  "git_attributes": {
+    "initial_status": [
+      " M source/cad-source-console/photo_turnout/build/hardware_provenance.csv",
+      " M source/cad-source-console/photo_turnout/build/retained_interferences.csv"
+    ],
+    "csv_contents_byte_identical_to_remote_blobs": true,
+    "followup": "Precise -text rules added for two generated CRLF CSV files; final clean status requires follow-up checkout readback."
+  },
+  "browser_visual_acceptance": false,
+  "browser_download_completion": false,
+  "hardware_connected": false,
+  "full_machine_contact_acceptance": false,
+  "as_built_calibration": false,
+  "ci": {
+    "checks": 0,
+    "statuses": 0,
+    "workflow_runs": 0,
+    "ci_pass_claimed": false
+  }
+}

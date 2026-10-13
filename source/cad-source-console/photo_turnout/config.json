@@ -1,0 +1,19 @@
+{
+  "schema": "gtsd-photo-turnout-config-v1",
+  "candidate_id": "photo7_finite_frog_layered_support_v1",
+  "as_built_confirmed": false,
+  "physics_enabled": false,
+  "plan_association": "ED_FE_frog__EE_FA_lower_wing__ED02_EC_upper_wing",
+  "head_width_mode": "native_paired_bands_39p5mm",
+  "cross_section_mode": "inherited_source_I_section_with_explicit_nose_and_slot_cuts",
+  "rail_top_z_mm": 0.0,
+  "slot_depth_mm": 65.0,
+  "support_stack_bottom_z_mm": -72.0,
+  "long_plate_thickness_mm": 4.0,
+  "support_edge_margin_mm": 10.0,
+  "support_end_margin_mm": 15.0,
+  "wing_end_join": "normal_square_caps_at_native_finite_endpoints",
+  "frog_tail_join": "independent_native_band_end_caps",
+  "engineering_choice_note": "Photo 7 supports topology and web below head, not dimensions. Inherit the actual source-render I-section: 39.5/12/73 mm and Z 0,-13,-19,-52,-58,-65 mm including slopes, still an engineering choice. Explicit slot-depth/nose cuts alone alter local topology. No collision-driven thinning or deleted hardware. Manufacturing/fastening and as-built sections remain unconfirmed.",
+  "support_top_z_mm": -65.0
+}

@@ -574,5 +574,36 @@
       "assets_checked": 57,
       "original_source_resources_checked": 44
     }
+  },
+  "mechanical_fit_revision": {
+    "status": "passed_remote_fresh_checkout",
+    "verified_commit": "ae463b951f831fb552bcd46f3528b4c10c1cf355",
+    "asset_count": 77,
+    "python_tests": 112,
+    "node_tests": 65,
+    "http_byte_verified_paths": 485,
+    "browser_visual_verified": false,
+    "note": "Historical PR5 geometry revision; newer photo/research revision is separately recorded."
+  },
+  "photo_research_revision": {
+    "status": "passed_remote_fresh_checkout",
+    "summary": "research_rig/evidence/RELEASE_SUMMARY.json",
+    "source_base_commit": "ae463b951f831fb552bcd46f3528b4c10c1cf355",
+    "expected_total_assets": 102,
+    "browser_visual_verified": false,
+    "local_acceptance": "research_rig/evidence/aggregate_acceptance.json",
+    "completed_utc": "2026-10-13T16:02:03.935894+00:00",
+    "completed_beijing": "2026-10-14T00:02:03.935894+08:00",
+    "python_tests": 153,
+    "node_tests": 90,
+    "fresh_remote_validation": "passed",
+    "verified_commit": "16040f7a075643025d4e62e1b7f031d32346b561",
+    "verified_tree": "295104292a0cbbf0d5ebcbffcb83a4a034ef28a7",
+    "remote_evidence": "verification/remote_photo_16040.json",
+    "assets_restored": 102,
+    "source_review_files_restored": 432,
+    "remote_native_blends_reopened": 2,
+    "published_checkpoints_restored_and_replayed": 3,
+    "followup_git_attributes": "Two new generated CRLF CSVs get exact -text rules without changing model or CSV bytes."
   }
 }

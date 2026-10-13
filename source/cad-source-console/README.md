@@ -1,3 +1,22 @@
+## New photo-supported turnout variants
+
+The assembly viewer offers two additional explicit choices: a photo-supported
+frog/wing/flangeway/base-plate reconstruction retaining old bolt proxies for
+review, and a complete outside-foot hold-down research alternative. Both keep
+the historical source and PR5 profiles selectable. See [geometry and evidence](photo_turnout/INTEGRATION.md).
+The latter uses 12 complete assemblies at six source axes; its 235 modeled-material
+checks leave one 0.4882476853 mm³ finite rail-foot/end-joint issue. Attachment
+family, dimensional hypotheses and wheel passage are not physically certified.
+
+## New bounded research console
+
+`python launch.py --research-rig --port 8175` starts the independent finite-mount /
+two-pin-contact console after restoring its source assets. Open
+`http://127.0.0.1:8175/research-rig` on the same machine.
+See [research rig](research_rig/README.md), [controls](research_rig/CONSOLE.md) and
+[specific data boundaries](research_rig/DATA_BOUNDARY.md). Its source geometry,
+engineering hypotheses and checkpoint identity are separate from strict82/H1.
+
 # GTSD 来源整机与虚拟研究控制台
 
 ## 交付状态：资源已齐备，真实远端验收通过
@@ -114,3 +133,15 @@ python run_acceptance.py
 - 短步恢复验收与已保存的 20 ms 数值研究不证明长期收敛、载荷准确、实机安全或实时性能。原始长程结论不自动继承到新几何。
 
 发布范围和扫描结果见 `PUBLIC_PRIVACY_REPORT.json`；资产和原生身份见 `ASSET_MANIFEST.json`、`integration/source_assembly_native/NATIVE_MANIFEST.json`。
+
+## Mechanical fit candidates (2026-10-13)
+
+Open `/assembly` and select an explicit mechanical-fit alternative, or read
+[`mechanical_fit/README.md`](mechanical_fit/README.md). The original source
+display remains the default. Eight native Blend scenes and nine actual rendered
+views accompany quantified support, balise and clamp alternatives. Source
+version, pin-section, mounting and connection uncertainties remain explicit;
+these new display candidates add no solver mass or collision. `/mechanical-fit/rail`
+shows 57 finite rail-source curves and five confirmed plan intervals without
+silently cutting ambiguous crossing geometry. The exact verification scope and
+remaining inputs are in `mechanical_fit/report.json`.

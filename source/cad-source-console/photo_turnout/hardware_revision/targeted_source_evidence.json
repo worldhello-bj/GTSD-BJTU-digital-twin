@@ -1,0 +1,7826 @@
+{
+  "schema": "gtsd-bounded-station-fastener-source-review-v1",
+  "source_native_dxf_sha256": "73f9eeb145cfbda5f01d1302d3e6e09d2d81e707ff7776187d899100f654f143",
+  "native_database_opened_read_only": true,
+  "roi_world_mm": [
+    [
+      -9475,
+      100
+    ],
+    [
+      -8310,
+      450
+    ]
+  ],
+  "stations": [
+    {
+      "station": 0,
+      "source_sleeper": "CAD_TRACK_REV_long_sleeper_00_native_axis",
+      "source_handles": [
+        "4ED40"
+      ],
+      "axis_world_mm": [
+        [
+          -9427.713467373807,
+          -416.66666666665685
+        ],
+        [
+          -9328.470086592857,
+          979.8113143166337
+        ]
+      ]
+    },
+    {
+      "station": 1,
+      "source_sleeper": "CAD_TRACK_REV_long_sleeper_01_native_axis",
+      "source_handles": [
+        "4ED3F"
+      ],
+      "axis_world_mm": [
+        [
+          -9233.892533315058,
+          -416.66666666665685
+        ],
+        [
+          -9134.649152534108,
+          979.8113143166337
+        ]
+      ]
+    },
+    {
+      "station": 2,
+      "source_sleeper": "CAD_TRACK_REV_long_sleeper_02_native_axis",
+      "source_handles": [
+        "4ED3B",
+        "4ED3C",
+        "4ED3D",
+        "4ED3E"
+      ],
+      "axis_world_mm": [
+        [
+          -9040.071599256318,
+          -416.66666666665674
+        ],
+        [
+          -8945.554093750616,
+          913.3123628412436
+        ]
+      ]
+    },
+    {
+      "station": 3,
+      "source_sleeper": "CAD_TRACK_REV_long_sleeper_03_native_axis",
+      "source_handles": [
+        "4ED3A"
+      ],
+      "axis_world_mm": [
+        [
+          -8846.250665197567,
+          -416.66666666665697
+        ],
+        [
+          -8751.733159691856,
+          913.3123628412432
+        ]
+      ]
+    },
+    {
+      "station": 4,
+      "source_sleeper": "CAD_TRACK_REV_long_sleeper_04_native_axis",
+      "source_handles": [
+        "4ED32",
+        "4ED33"
+      ],
+      "axis_world_mm": [
+        [
+          -8652.429731138776,
+          -416.6666666666563
+        ],
+        [
+          -8560.275163270762,
+          880.0628871035373
+        ]
+      ]
+    },
+    {
+      "station": 5,
+      "source_sleeper": "CAD_TRACK_REV_long_sleeper_05_native_axis",
+      "source_handles": [
+        "4ED34",
+        "4ED35",
+        "4ED36",
+        "4ED37"
+      ],
+      "axis_world_mm": [
+        [
+          -8458.608797080044,
+          -416.66666666665515
+        ],
+        [
+          -8366.454229212002,
+          880.0628871035366
+        ]
+      ]
+    }
+  ],
+  "station_axis_records": [
+    {
+      "handle": "4ED32",
+      "record_id": 201074,
+      "type": "LINE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8141761,
+        8141784
+      ],
+      "metadata": {
+        "record_id": 201074,
+        "handle": "4ED32",
+        "section": "ENTITIES",
+        "entity_type": "LINE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8141761,
+        "source_end_line": 8141784,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "4ED32"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "30694.0217048387"
+        ],
+        [
+          "20",
+          "34587.37883410478"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "30646.28743360193"
+        ],
+        [
+          "21",
+          "33915.69818199578"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ],
+      "world_points_mm": [
+        [
+          -8560.275163270759,
+          880.0628871035369
+        ],
+        [
+          -8608.009434507527,
+          208.38223499454034
+        ]
+      ]
+    },
+    {
+      "handle": "4ED33",
+      "record_id": 201075,
+      "type": "LINE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8141785,
+        8141808
+      ],
+      "metadata": {
+        "record_id": 201075,
+        "handle": "4ED33",
+        "section": "ENTITIES",
+        "entity_type": "LINE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8141785,
+        "source_end_line": 8141808,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "4ED33"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "30636.71235093387"
+        ],
+        [
+          "20",
+          "33780.964842535"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "30601.86713697069"
+        ],
+        [
+          "21",
+          "33290.64928033458"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ],
+      "world_points_mm": [
+        [
+          -8617.584517175586,
+          73.6488955337627
+        ],
+        [
+          -8652.429731138767,
+          -416.66666666665697
+        ]
+      ]
+    },
+    {
+      "handle": "4ED34",
+      "record_id": 201076,
+      "type": "LINE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8141809,
+        8141832
+      ],
+      "metadata": {
+        "record_id": 201076,
+        "handle": "4ED34",
+        "section": "ENTITIES",
+        "entity_type": "LINE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8141809,
+        "source_end_line": 8141832,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "4ED34"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "30887.84263889745"
+        ],
+        [
+          "20",
+          "34587.37883410478"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "30871.26336431605"
+        ],
+        [
+          "21",
+          "34354.08779029502"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ],
+      "world_points_mm": [
+        [
+          -8366.454229212006,
+          880.0628871035369
+        ],
+        [
+          -8383.033503793406,
+          646.7718432937836
+        ]
+      ]
+    },
+    {
+      "handle": "4ED35",
+      "record_id": 201077,
+      "type": "LINE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8141833,
+        8141856
+      ],
+      "metadata": {
+        "record_id": 201077,
+        "handle": "4ED35",
+        "section": "ENTITIES",
+        "entity_type": "LINE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8141833,
+        "source_end_line": 8141856,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "4ED35"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "30859.96143416969"
+        ],
+        [
+          "20",
+          "34195.05555592484"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "30854.68408973466"
+        ],
+        [
+          "21",
+          "34120.79674648528"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ],
+      "world_points_mm": [
+        [
+          -8394.335433939767,
+          487.739608923599
+        ],
+        [
+          -8399.612778374798,
+          413.48079948403756
+        ]
+      ]
+    },
+    {
+      "handle": "4ED36",
+      "record_id": 201078,
+      "type": "LINE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8141857,
+        8141880
+      ],
+      "metadata": {
+        "record_id": 201078,
+        "handle": "4ED36",
+        "section": "ENTITIES",
+        "entity_type": "LINE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8141857,
+        "source_end_line": 8141880,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "4ED36"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "30844.29679558334"
+        ],
+        [
+          "20",
+          "33974.63457979821"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "30822.53819966259"
+        ],
+        [
+          "21",
+          "33668.46403359838"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ],
+      "world_points_mm": [
+        [
+          -8410.000072526116,
+          267.318632796967
+        ],
+        [
+          -8431.758668446866,
+          -38.8519134028611
+        ]
+      ]
+    },
+    {
+      "handle": "4ED37",
+      "record_id": 201079,
+      "type": "LINE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8141881,
+        8141904
+      ],
+      "metadata": {
+        "record_id": 201079,
+        "handle": "4ED37",
+        "section": "ENTITIES",
+        "entity_type": "LINE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8141881,
+        "source_end_line": 8141904,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "4ED37"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "30811.54726361492"
+        ],
+        [
+          "20",
+          "33513.80787355843"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "30795.68807102944"
+        ],
+        [
+          "21",
+          "33290.64928033458"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ],
+      "world_points_mm": [
+        [
+          -8442.749604494536,
+          -193.50807344281202
+        ],
+        [
+          -8458.608797080018,
+          -416.66666666665697
+        ]
+      ]
+    },
+    {
+      "handle": "4ED3A",
+      "record_id": 201082,
+      "type": "LINE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8141953,
+        8141976
+      ],
+      "metadata": {
+        "record_id": 201082,
+        "handle": "4ED3A",
+        "section": "ENTITIES",
+        "entity_type": "LINE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8141953,
+        "source_end_line": 8141976,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "4ED3A"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "30502.5637084176"
+        ],
+        [
+          "20",
+          "34620.62830984248"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "30408.04620291189"
+        ],
+        [
+          "21",
+          "33290.64928033458"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ],
+      "world_points_mm": [
+        [
+          -8751.733159691856,
+          913.3123628412432
+        ],
+        [
+          -8846.250665197567,
+          -416.66666666665697
+        ]
+      ]
+    },
+    {
+      "handle": "4ED3B",
+      "record_id": 201083,
+      "type": "LINE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8141977,
+        8142000
+      ],
+      "metadata": {
+        "record_id": 201083,
+        "handle": "4ED3B",
+        "section": "ENTITIES",
+        "entity_type": "LINE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8141977,
+        "source_end_line": 8142000,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "4ED3B"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "30308.74277435885"
+        ],
+        [
+          "20",
+          "34620.62830984248"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "30295.32631583183"
+        ],
+        [
+          "21",
+          "34431.84202738903"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ],
+      "world_points_mm": [
+        [
+          -8945.554093750608,
+          913.3123628412432
+        ],
+        [
+          -8958.970552277628,
+          724.52608038779
+        ]
+      ]
+    },
+    {
+      "handle": "4ED3C",
+      "record_id": 201084,
+      "type": "LINE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8142001,
+        8142024
+      ],
+      "metadata": {
+        "record_id": 201084,
+        "handle": "4ED3C",
+        "section": "ENTITIES",
+        "entity_type": "LINE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8142001,
+        "source_end_line": 8142024,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "4ED3C"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "30284.34500732037"
+        ],
+        [
+          "20",
+          "34277.32133877557"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "30251.13287276655"
+        ],
+        [
+          "21",
+          "33809.98523796064"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ],
+      "world_points_mm": [
+        [
+          -8969.951860789086,
+          570.005391774328
+        ],
+        [
+          -9003.163995342908,
+          102.6692909593985
+        ]
+      ]
+    },
+    {
+      "handle": "4ED3D",
+      "record_id": 201085,
+      "type": "LINE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8142025,
+        8142048
+      ],
+      "metadata": {
+        "record_id": 201085,
+        "handle": "4ED3D",
+        "section": "ENTITIES",
+        "entity_type": "LINE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8142025,
+        "source_end_line": 8142048,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "4ED3D"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "30240.8705854884"
+        ],
+        [
+          "20",
+          "33665.58207368176"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "30239.14628212884"
+        ],
+        [
+          "21",
+          "33641.31897769347"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ],
+      "world_points_mm": [
+        [
+          -9013.426282621058,
+          -41.733873319477425
+        ],
+        [
+          -9015.150585980617,
+          -65.99696930777282
+        ]
+      ]
+    },
+    {
+      "handle": "4ED3E",
+      "record_id": 201086,
+      "type": "LINE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8142049,
+        8142072
+      ],
+      "metadata": {
+        "record_id": 201086,
+        "handle": "4ED3E",
+        "section": "ENTITIES",
+        "entity_type": "LINE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8142049,
+        "source_end_line": 8142072,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "4ED3E"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "30230.13793730835"
+        ],
+        [
+          "20",
+          "33514.56034565213"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "30214.22526885314"
+        ],
+        [
+          "21",
+          "33290.64928033458"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ],
+      "world_points_mm": [
+        [
+          -9024.158930801106,
+          -192.7556013491121
+        ],
+        [
+          -9040.071599256316,
+          -416.66666666665697
+        ]
+      ]
+    },
+    {
+      "handle": "4ED3F",
+      "record_id": 201087,
+      "type": "LINE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8142073,
+        8142096
+      ],
+      "metadata": {
+        "record_id": 201087,
+        "handle": "4ED3F",
+        "section": "ENTITIES",
+        "entity_type": "LINE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8142073,
+        "source_end_line": 8142096,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "4ED3F"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "30119.64771557535"
+        ],
+        [
+          "20",
+          "34687.12726131787"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "30020.4043347944"
+        ],
+        [
+          "21",
+          "33290.64928033458"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ],
+      "world_points_mm": [
+        [
+          -9134.649152534108,
+          979.8113143166338
+        ],
+        [
+          -9233.892533315058,
+          -416.66666666665697
+        ]
+      ]
+    },
+    {
+      "handle": "4ED40",
+      "record_id": 201088,
+      "type": "LINE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8142097,
+        8142120
+      ],
+      "metadata": {
+        "record_id": 201088,
+        "handle": "4ED40",
+        "section": "ENTITIES",
+        "entity_type": "LINE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8142097,
+        "source_end_line": 8142120,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "4ED40"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "29925.8267815166"
+        ],
+        [
+          "20",
+          "34687.12726131787"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "29826.58340073565"
+        ],
+        [
+          "21",
+          "33290.64928033458"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ],
+      "world_points_mm": [
+        [
+          -9328.470086592857,
+          979.8113143166338
+        ],
+        [
+          -9427.713467373807,
+          -416.66666666665697
+        ]
+      ]
+    }
+  ],
+  "direct_model_circle_records_examined": 255,
+  "circle_hits": [
+    {
+      "handle": "4ED2D",
+      "record_id": 201069,
+      "type": "CIRCLE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8141661,
+        8141680
+      ],
+      "metadata": {
+        "record_id": 201069,
+        "handle": "4ED2D",
+        "section": "ENTITIES",
+        "entity_type": "CIRCLE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8141661,
+        "source_end_line": 8141680,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "CIRCLE"
+        ],
+        [
+          "5",
+          "4ED2D"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "30928.86548851409"
+        ],
+        [
+          "20",
+          "33894.0630864662"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "1.333333333333333"
+        ]
+      ],
+      "center_world_mm": [
+        -8325.431379595368,
+        186.74713946496195
+      ],
+      "radius_mm": 1.333333333333333
+    },
+    {
+      "handle": "4ED2E",
+      "record_id": 201070,
+      "type": "CIRCLE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8141681,
+        8141700
+      ],
+      "metadata": {
+        "record_id": 201070,
+        "handle": "4ED2E",
+        "section": "ENTITIES",
+        "entity_type": "CIRCLE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8141681,
+        "source_end_line": 8141700,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "CIRCLE"
+        ],
+        [
+          "5",
+          "4ED2E"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "30932.59078255328"
+        ],
+        [
+          "20",
+          "33946.48261366793"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "1.333333333333333"
+        ]
+      ],
+      "center_world_mm": [
+        -8321.706085556176,
+        239.16666666669335
+      ],
+      "radius_mm": 1.333333333333333
+    },
+    {
+      "handle": "4ED2F",
+      "record_id": 201071,
+      "type": "CIRCLE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8141701,
+        8141720
+      ],
+      "metadata": {
+        "record_id": 201071,
+        "handle": "4ED2F",
+        "section": "ENTITIES",
+        "entity_type": "CIRCLE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8141701,
+        "source_end_line": 8141720,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "CIRCLE"
+        ],
+        [
+          "5",
+          "4ED2F"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "29782.92411588662"
+        ],
+        [
+          "20",
+          "33946.48261366793"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "1.333333333333333"
+        ]
+      ],
+      "center_world_mm": [
+        -9471.372752222836,
+        239.16666666669335
+      ],
+      "radius_mm": 1.333333333333333
+    },
+    {
+      "handle": "4ED30",
+      "record_id": 201072,
+      "type": "CIRCLE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8141721,
+        8141740
+      ],
+      "metadata": {
+        "record_id": 201072,
+        "handle": "4ED30",
+        "section": "ENTITIES",
+        "entity_type": "CIRCLE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8141721,
+        "source_end_line": 8141740,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "CIRCLE"
+        ],
+        [
+          "5",
+          "4ED30"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "29782.92411588662"
+        ],
+        [
+          "20",
+          "33946.48261366793"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "1.333333333333333"
+        ]
+      ],
+      "center_world_mm": [
+        -9471.372752222836,
+        239.16666666669335
+      ],
+      "radius_mm": 1.333333333333333
+    },
+    {
+      "handle": "4ED31",
+      "record_id": 201073,
+      "type": "CIRCLE",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8141741,
+        8141760
+      ],
+      "metadata": {
+        "record_id": 201073,
+        "handle": "4ED31",
+        "section": "ENTITIES",
+        "entity_type": "CIRCLE",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8141741,
+        "source_end_line": 8141760,
+        "raw_layer": "英文",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "CIRCLE"
+        ],
+        [
+          "5",
+          "4ED31"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "英文"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "29790.75326352118"
+        ],
+        [
+          "20",
+          "34056.64847254424"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "1.333333333333333"
+        ]
+      ],
+      "center_world_mm": [
+        -9463.543604588278,
+        349.3325255430027
+      ],
+      "radius_mm": 1.333333333333333
+    }
+  ],
+  "known_fastener_block": "A$C6E4F4F8B",
+  "known_block_placement_records_examined": 56,
+  "known_block_placements_intersecting_target_roi": [],
+  "separate_reference_insert": [
+    {
+      "handle": "4EDF8",
+      "record_id": 201272,
+      "type": "INSERT",
+      "block": "*Model_Space",
+      "source_line_range": [
+        8146823,
+        8146844
+      ],
+      "metadata": {
+        "record_id": 201272,
+        "handle": "4EDF8",
+        "section": "ENTITIES",
+        "entity_type": "INSERT",
+        "definition_block": "*Model_Space",
+        "owner_handle": "1F",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 8146823,
+        "source_end_line": 8146844,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null,
+        "child_block": "A$C6E4F4F8B",
+        "row_count": 1,
+        "column_count": 1,
+        "row_spacing_mm": 0.0,
+        "column_spacing_mm": 0.0,
+        "native_insert_mm": [
+          30381.66302908405,
+          33546.99937236511,
+          0.0
+        ],
+        "scale_xyz": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_degrees": 270.0,
+        "extrusion": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "tags": [
+        [
+          "0",
+          "INSERT"
+        ],
+        [
+          "5",
+          "4EDF8"
+        ],
+        [
+          "330",
+          "1F"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbBlockReference"
+        ],
+        [
+          "2",
+          "A$C6E4F4F8B"
+        ],
+        [
+          "10",
+          "30381.66302908405"
+        ],
+        [
+          "20",
+          "33546.99937236511"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "50",
+          "270.0"
+        ]
+      ]
+    }
+  ],
+  "known_fastener_detail_records": [
+    {
+      "handle": "16980",
+      "record_id": 47193,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1182683,
+        1182706
+      ],
+      "metadata": {
+        "record_id": 47193,
+        "handle": "16980",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1182683,
+        "source_end_line": 1182706,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "16980"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "9.203051013173535E-05"
+        ],
+        [
+          "20",
+          "70.00003716804895"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "197.2000920305072"
+        ],
+        [
+          "21",
+          "70.00003716801984"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "16981",
+      "record_id": 47194,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1182707,
+        1182730
+      ],
+      "metadata": {
+        "record_id": 47194,
+        "handle": "16981",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1182707,
+        "source_end_line": 1182730,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "16981"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "9.203051013173535E-05"
+        ],
+        [
+          "20",
+          "3.716804894793313E-05"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "197.2000920305072"
+        ],
+        [
+          "21",
+          "3.716801984410267E-05"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "16982",
+      "record_id": 47195,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1182731,
+        1182754
+      ],
+      "metadata": {
+        "record_id": 47195,
+        "handle": "16982",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1182731,
+        "source_end_line": 1182754,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "16982"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "197.2000920305072"
+        ],
+        [
+          "20",
+          "70.00003716801984"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "197.2000920305072"
+        ],
+        [
+          "21",
+          "3.716801984410267E-05"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "16983",
+      "record_id": 47196,
+      "type": "CIRCLE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1182755,
+        1182774
+      ],
+      "metadata": {
+        "record_id": 47196,
+        "handle": "16983",
+        "section": "BLOCKS",
+        "entity_type": "CIRCLE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1182755,
+        "source_end_line": 1182774,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "CIRCLE"
+        ],
+        [
+          "5",
+          "16983"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "185.2000920305072"
+        ],
+        [
+          "20",
+          "34.88731103190912"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "3.25"
+        ]
+      ]
+    },
+    {
+      "handle": "16984",
+      "record_id": 47197,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1182775,
+        1182798
+      ],
+      "metadata": {
+        "record_id": 47197,
+        "handle": "16984",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1182775,
+        "source_end_line": 1182798,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "16984"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "9.203049557982013E-05"
+        ],
+        [
+          "20",
+          "70.00003716801984"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "9.203049557982013E-05"
+        ],
+        [
+          "21",
+          "3.716801984410267E-05"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "16985",
+      "record_id": 47198,
+      "type": "CIRCLE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1182799,
+        1182818
+      ],
+      "metadata": {
+        "record_id": 47198,
+        "handle": "16985",
+        "section": "BLOCKS",
+        "entity_type": "CIRCLE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1182799,
+        "source_end_line": 1182818,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "CIRCLE"
+        ],
+        [
+          "5",
+          "16985"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "12.00009203049558"
+        ],
+        [
+          "20",
+          "34.88731103190912"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "3.25"
+        ]
+      ]
+    },
+    {
+      "handle": "16986",
+      "record_id": 47199,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1182819,
+        1182842
+      ],
+      "metadata": {
+        "record_id": 47199,
+        "handle": "16986",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1182819,
+        "source_end_line": 1182842,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "16986"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "143.0832170305875"
+        ],
+        [
+          "20",
+          "39.50003716799074"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "157.0457170306836"
+        ],
+        [
+          "21",
+          "39.50003716799074"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "16987",
+      "record_id": 47200,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1182843,
+        1182866
+      ],
+      "metadata": {
+        "record_id": 47200,
+        "handle": "16987",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1182843,
+        "source_end_line": 1182866,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "16987"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "143.0832170304275"
+        ],
+        [
+          "20",
+          "45.50003716799074"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "157.0457170306836"
+        ],
+        [
+          "21",
+          "45.50003716799074"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "16988",
+      "record_id": 47201,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1182867,
+        1182892
+      ],
+      "metadata": {
+        "record_id": 47201,
+        "handle": "16988",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1182867,
+        "source_end_line": 1182892,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "16988"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "157.4052017298745"
+        ],
+        [
+          "20",
+          "51.65242410004248"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "12.15770280090998"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "268.305604366174"
+        ],
+        [
+          "51",
+          "91.69439563382603"
+        ]
+      ]
+    },
+    {
+      "handle": "16989",
+      "record_id": 47202,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1182893,
+        1182918
+      ],
+      "metadata": {
+        "record_id": 47202,
+        "handle": "16989",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1182893,
+        "source_end_line": 1182918,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "16989"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "157.4003077149027"
+        ],
+        [
+          "20",
+          "51.65242410004248"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "6.162596815873648"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "266.7014267639786"
+        ],
+        [
+          "51",
+          "93.29857323602144"
+        ]
+      ]
+    },
+    {
+      "handle": "1698A",
+      "record_id": 47203,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1182919,
+        1182942
+      ],
+      "metadata": {
+        "record_id": 47203,
+        "handle": "1698A",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1182919,
+        "source_end_line": 1182942,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "1698A"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "157.0457170307127"
+        ],
+        [
+          "20",
+          "63.80481103209422"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "139.6725920305835"
+        ],
+        [
+          "21",
+          "63.80481103209422"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "1698B",
+      "record_id": 47204,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1182943,
+        1182968
+      ],
+      "metadata": {
+        "record_id": 47204,
+        "handle": "1698B",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1182943,
+        "source_end_line": 1182968,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "1698B"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "139.6725920305835"
+        ],
+        [
+          "20",
+          "52.83231103203252"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "10.97250000006284"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "90.0"
+        ],
+        [
+          "51",
+          "180.0"
+        ]
+      ]
+    },
+    {
+      "handle": "1698C",
+      "record_id": 47205,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1182969,
+        1182994
+      ],
+      "metadata": {
+        "record_id": 47205,
+        "handle": "1698C",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1182969,
+        "source_end_line": 1182994,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "1698C"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "139.6725920305835"
+        ],
+        [
+          "20",
+          "52.83231103203252"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "4.972500000062837"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "90.0"
+        ],
+        [
+          "51",
+          "180.0"
+        ]
+      ]
+    },
+    {
+      "handle": "1698D",
+      "record_id": 47206,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1182995,
+        1183018
+      ],
+      "metadata": {
+        "record_id": 47206,
+        "handle": "1698D",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1182995,
+        "source_end_line": 1183018,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "1698D"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "128.7000920305218"
+        ],
+        [
+          "20",
+          "52.83231103203252"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "128.7000920305218"
+        ],
+        [
+          "21",
+          "49.63384857981691"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "1698E",
+      "record_id": 47207,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183019,
+        1183042
+      ],
+      "metadata": {
+        "record_id": 47207,
+        "handle": "1698E",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183019,
+        "source_end_line": 1183042,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "1698E"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "134.7000920305218"
+        ],
+        [
+          "20",
+          "52.83231103203252"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "134.7000920305218"
+        ],
+        [
+          "21",
+          "49.63384857981691"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "1698F",
+      "record_id": 47208,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183043,
+        1183066
+      ],
+      "metadata": {
+        "record_id": 47208,
+        "handle": "1698F",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183043,
+        "source_end_line": 1183066,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "1698F"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "128.7000920305218"
+        ],
+        [
+          "20",
+          "49.63384857981691"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "134.7000920305218"
+        ],
+        [
+          "21",
+          "49.63384857981691"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "16990",
+      "record_id": 47209,
+      "type": "CIRCLE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183067,
+        1183086
+      ],
+      "metadata": {
+        "record_id": 47209,
+        "handle": "16990",
+        "section": "BLOCKS",
+        "entity_type": "CIRCLE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183067,
+        "source_end_line": 1183086,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "CIRCLE"
+        ],
+        [
+          "5",
+          "16990"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "185.2000920305218"
+        ],
+        [
+          "20",
+          "34.88731103190912"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "3.25"
+        ]
+      ]
+    },
+    {
+      "handle": "16991",
+      "record_id": 47210,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183087,
+        1183112
+      ],
+      "metadata": {
+        "record_id": 47210,
+        "handle": "16991",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183087,
+        "source_end_line": 1183112,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "16991"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "133.2000920305218"
+        ],
+        [
+          "20",
+          "63.91753716820494"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "173.2000920305218"
+        ],
+        [
+          "21",
+          "63.91753716820494"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "16992",
+      "record_id": 47211,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183113,
+        1183136
+      ],
+      "metadata": {
+        "record_id": 47211,
+        "handle": "16992",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183113,
+        "source_end_line": 1183136,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "16992"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "139.6725920305835"
+        ],
+        [
+          "20",
+          "57.80481103209422"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "157.0457170306836"
+        ],
+        [
+          "21",
+          "57.80481103209422"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "16993",
+      "record_id": 47212,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183137,
+        1183162
+      ],
+      "metadata": {
+        "record_id": 47212,
+        "handle": "16993",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183137,
+        "source_end_line": 1183162,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "16993"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "173.2000920305218"
+        ],
+        [
+          "20",
+          "63.91753716820494"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "173.2000920305218"
+        ],
+        [
+          "21",
+          "6.082537167863848"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "16994",
+      "record_id": 47213,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183163,
+        1183188
+      ],
+      "metadata": {
+        "record_id": 47213,
+        "handle": "16994",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183163,
+        "source_end_line": 1183188,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "16994"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "133.2000920305218"
+        ],
+        [
+          "20",
+          "6.082537167834744"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "173.2000920305218"
+        ],
+        [
+          "21",
+          "6.082537167863848"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "16995",
+      "record_id": 47214,
+      "type": "CIRCLE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183189,
+        1183212
+      ],
+      "metadata": {
+        "record_id": 47214,
+        "handle": "16995",
+        "section": "BLOCKS",
+        "entity_type": "CIRCLE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183189,
+        "source_end_line": 1183212,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     6",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "CIRCLE"
+        ],
+        [
+          "5",
+          "16995"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "48",
+          "15.0"
+        ],
+        [
+          "62",
+          "     6"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "149.9184952510477"
+        ],
+        [
+          "20",
+          "35.00003716801984"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "4.1"
+        ]
+      ]
+    },
+    {
+      "handle": "16996",
+      "record_id": 47215,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183213,
+        1183236
+      ],
+      "metadata": {
+        "record_id": 47215,
+        "handle": "16996",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183213,
+        "source_end_line": 1183236,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "16996"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "143.0832170305875"
+        ],
+        [
+          "20",
+          "30.50003716804895"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "157.0457170306836"
+        ],
+        [
+          "21",
+          "30.50003716804895"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "16997",
+      "record_id": 47216,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183237,
+        1183260
+      ],
+      "metadata": {
+        "record_id": 47216,
+        "handle": "16997",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183237,
+        "source_end_line": 1183260,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "16997"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "143.0832170304275"
+        ],
+        [
+          "20",
+          "24.50003716804895"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "157.0457170306836"
+        ],
+        [
+          "21",
+          "24.50003716804895"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "16998",
+      "record_id": 47217,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183261,
+        1183286
+      ],
+      "metadata": {
+        "record_id": 47217,
+        "handle": "16998",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183261,
+        "source_end_line": 1183286,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "16998"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "157.4052017298745"
+        ],
+        [
+          "20",
+          "18.34765023599721"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "12.15770280090998"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "268.305604366174"
+        ],
+        [
+          "51",
+          "91.69439563382603"
+        ]
+      ]
+    },
+    {
+      "handle": "16999",
+      "record_id": 47218,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183287,
+        1183312
+      ],
+      "metadata": {
+        "record_id": 47218,
+        "handle": "16999",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183287,
+        "source_end_line": 1183312,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "16999"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "157.4003077149027"
+        ],
+        [
+          "20",
+          "18.34765023599721"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "6.162596815873648"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "266.7014267639786"
+        ],
+        [
+          "51",
+          "93.29857323602144"
+        ]
+      ]
+    },
+    {
+      "handle": "1699A",
+      "record_id": 47219,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183313,
+        1183336
+      ],
+      "metadata": {
+        "record_id": 47219,
+        "handle": "1699A",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183313,
+        "source_end_line": 1183336,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "1699A"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "157.0457170307127"
+        ],
+        [
+          "20",
+          "6.195263303945467"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "139.6725920305835"
+        ],
+        [
+          "21",
+          "6.195263303945467"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "1699B",
+      "record_id": 47220,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183337,
+        1183362
+      ],
+      "metadata": {
+        "record_id": 47220,
+        "handle": "1699B",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183337,
+        "source_end_line": 1183362,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "1699B"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "139.6725920305835"
+        ],
+        [
+          "20",
+          "17.16776330400717"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "10.97250000006284"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "180.0"
+        ],
+        [
+          "51",
+          "270.0"
+        ]
+      ]
+    },
+    {
+      "handle": "1699C",
+      "record_id": 47221,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183363,
+        1183388
+      ],
+      "metadata": {
+        "record_id": 47221,
+        "handle": "1699C",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183363,
+        "source_end_line": 1183388,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "1699C"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "139.6725920305835"
+        ],
+        [
+          "20",
+          "17.16776330400717"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "4.972500000062837"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "180.0"
+        ],
+        [
+          "51",
+          "270.0"
+        ]
+      ]
+    },
+    {
+      "handle": "1699D",
+      "record_id": 47222,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183389,
+        1183412
+      ],
+      "metadata": {
+        "record_id": 47222,
+        "handle": "1699D",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183389,
+        "source_end_line": 1183412,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "1699D"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "128.7000920305218"
+        ],
+        [
+          "20",
+          "17.16776330400717"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "128.7000920305218"
+        ],
+        [
+          "21",
+          "20.36622575622278"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "1699E",
+      "record_id": 47223,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183413,
+        1183436
+      ],
+      "metadata": {
+        "record_id": 47223,
+        "handle": "1699E",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183413,
+        "source_end_line": 1183436,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "1699E"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "134.7000920305218"
+        ],
+        [
+          "20",
+          "17.16776330400717"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "134.7000920305218"
+        ],
+        [
+          "21",
+          "20.36622575622278"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "1699F",
+      "record_id": 47224,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183437,
+        1183460
+      ],
+      "metadata": {
+        "record_id": 47224,
+        "handle": "1699F",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183437,
+        "source_end_line": 1183460,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "1699F"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "128.7000920305218"
+        ],
+        [
+          "20",
+          "20.36622575622278"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "134.7000920305218"
+        ],
+        [
+          "21",
+          "20.36622575622278"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169A0",
+      "record_id": 47225,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183461,
+        1183484
+      ],
+      "metadata": {
+        "record_id": 47225,
+        "handle": "169A0",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183461,
+        "source_end_line": 1183484,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169A0"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "139.6725920305835"
+        ],
+        [
+          "20",
+          "12.19526330394547"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "157.0457170306836"
+        ],
+        [
+          "21",
+          "12.19526330394547"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169A1",
+      "record_id": 47226,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183485,
+        1183510
+      ],
+      "metadata": {
+        "record_id": 47226,
+        "handle": "169A1",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183485,
+        "source_end_line": 1183510,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "169A1"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "143.0832170305875"
+        ],
+        [
+          "20",
+          "35.00003716801984"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "4.499999999970896"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "90.0"
+        ],
+        [
+          "51",
+          "270.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169A2",
+      "record_id": 47227,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183511,
+        1183538
+      ],
+      "metadata": {
+        "record_id": 47227,
+        "handle": "169A2",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183511,
+        "source_end_line": 1183538,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "169A2"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "48",
+          "15.0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "143.0832170304275"
+        ],
+        [
+          "20",
+          "35.00003716801984"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "10.4999999999709"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "90.0"
+        ],
+        [
+          "51",
+          "270.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169A3",
+      "record_id": 47228,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183539,
+        1183564
+      ],
+      "metadata": {
+        "record_id": 47228,
+        "handle": "169A3",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183539,
+        "source_end_line": 1183564,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169A3"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "123.2000920305218"
+        ],
+        [
+          "20",
+          "63.91753716820494"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "173.2000920305218"
+        ],
+        [
+          "21",
+          "63.91753716820494"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169A4",
+      "record_id": 47229,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183565,
+        1183590
+      ],
+      "metadata": {
+        "record_id": 47229,
+        "handle": "169A4",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183565,
+        "source_end_line": 1183590,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169A4"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "173.2000920305218"
+        ],
+        [
+          "20",
+          "63.91753716820494"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "173.2000920305218"
+        ],
+        [
+          "21",
+          "6.082537167863848"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169A5",
+      "record_id": 47230,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183591,
+        1183616
+      ],
+      "metadata": {
+        "record_id": 47230,
+        "handle": "169A5",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183591,
+        "source_end_line": 1183616,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169A5"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "123.2000920305218"
+        ],
+        [
+          "20",
+          "6.082537167834744"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "173.2000920305218"
+        ],
+        [
+          "21",
+          "6.082537167863848"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169A6",
+      "record_id": 47231,
+      "type": "CIRCLE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183617,
+        1183640
+      ],
+      "metadata": {
+        "record_id": 47231,
+        "handle": "169A6",
+        "section": "BLOCKS",
+        "entity_type": "CIRCLE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183617,
+        "source_end_line": 1183640,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     6",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "CIRCLE"
+        ],
+        [
+          "5",
+          "169A6"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "48",
+          "15.0"
+        ],
+        [
+          "62",
+          "     6"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "149.9184952510477"
+        ],
+        [
+          "20",
+          "35.00003716801984"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "4.1"
+        ]
+      ]
+    },
+    {
+      "handle": "169A7",
+      "record_id": 47232,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183641,
+        1183668
+      ],
+      "metadata": {
+        "record_id": 47232,
+        "handle": "169A7",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183641,
+        "source_end_line": 1183668,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     6",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169A7"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "48",
+          "15.0"
+        ],
+        [
+          "62",
+          "     6"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "123.2000920305218"
+        ],
+        [
+          "20",
+          "6.082537167834744"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "123.2000920305218"
+        ],
+        [
+          "21",
+          "63.91753716820494"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169A8",
+      "record_id": 47233,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183669,
+        1183692
+      ],
+      "metadata": {
+        "record_id": 47233,
+        "handle": "169A8",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183669,
+        "source_end_line": 1183692,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169A8"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "135.1000920305123"
+        ],
+        [
+          "20",
+          "63.91753716820494"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "135.1000920305551"
+        ],
+        [
+          "21",
+          "6.082537167836563"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169A9",
+      "record_id": 47234,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183693,
+        1183716
+      ],
+      "metadata": {
+        "record_id": 47234,
+        "handle": "169A9",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183693,
+        "source_end_line": 1183716,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169A9"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "54.11696703042981"
+        ],
+        [
+          "20",
+          "39.50003716799074"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "40.15446703033376"
+        ],
+        [
+          "21",
+          "39.50003716799074"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169AA",
+      "record_id": 47235,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183717,
+        1183740
+      ],
+      "metadata": {
+        "record_id": 47235,
+        "handle": "169AA",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183717,
+        "source_end_line": 1183740,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169AA"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "54.11696703058988"
+        ],
+        [
+          "20",
+          "45.50003716799074"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "40.15446703033376"
+        ],
+        [
+          "21",
+          "45.50003716799074"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169AB",
+      "record_id": 47236,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183741,
+        1183766
+      ],
+      "metadata": {
+        "record_id": 47236,
+        "handle": "169AB",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183741,
+        "source_end_line": 1183766,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "169AB"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "39.79498233114282"
+        ],
+        [
+          "20",
+          "51.65242410004248"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "12.15770280090998"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "88.30560436617395"
+        ],
+        [
+          "51",
+          "271.694395633826"
+        ]
+      ]
+    },
+    {
+      "handle": "169AC",
+      "record_id": 47237,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183767,
+        1183792
+      ],
+      "metadata": {
+        "record_id": 47237,
+        "handle": "169AC",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183767,
+        "source_end_line": 1183792,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "169AC"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "39.79987634611462"
+        ],
+        [
+          "20",
+          "51.65242410004248"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "6.162596815873648"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "86.70142676397857"
+        ],
+        [
+          "51",
+          "273.2985732360214"
+        ]
+      ]
+    },
+    {
+      "handle": "169AD",
+      "record_id": 47238,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183793,
+        1183816
+      ],
+      "metadata": {
+        "record_id": 47238,
+        "handle": "169AD",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183793,
+        "source_end_line": 1183816,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169AD"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "40.15446703030466"
+        ],
+        [
+          "20",
+          "63.80481103209422"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "57.52759203043388"
+        ],
+        [
+          "21",
+          "63.80481103209422"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169AE",
+      "record_id": 47239,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183817,
+        1183842
+      ],
+      "metadata": {
+        "record_id": 47239,
+        "handle": "169AE",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183817,
+        "source_end_line": 1183842,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "169AE"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "57.52759203043388"
+        ],
+        [
+          "20",
+          "52.83231103203252"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "10.97250000006284"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "0.0"
+        ],
+        [
+          "51",
+          "90.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169AF",
+      "record_id": 47240,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183843,
+        1183868
+      ],
+      "metadata": {
+        "record_id": 47240,
+        "handle": "169AF",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183843,
+        "source_end_line": 1183868,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "169AF"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "57.52759203043388"
+        ],
+        [
+          "20",
+          "52.83231103203252"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "4.972500000062837"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "0.0"
+        ],
+        [
+          "51",
+          "90.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169B0",
+      "record_id": 47241,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183869,
+        1183892
+      ],
+      "metadata": {
+        "record_id": 47241,
+        "handle": "169B0",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183869,
+        "source_end_line": 1183892,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169B0"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "68.50009203049558"
+        ],
+        [
+          "20",
+          "52.83231103203252"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "68.50009203049558"
+        ],
+        [
+          "21",
+          "49.63384857981691"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169B1",
+      "record_id": 47242,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183893,
+        1183916
+      ],
+      "metadata": {
+        "record_id": 47242,
+        "handle": "169B1",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183893,
+        "source_end_line": 1183916,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169B1"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "62.50009203049558"
+        ],
+        [
+          "20",
+          "52.83231103203252"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "62.50009203049558"
+        ],
+        [
+          "21",
+          "49.63384857981691"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169B2",
+      "record_id": 47243,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183917,
+        1183940
+      ],
+      "metadata": {
+        "record_id": 47243,
+        "handle": "169B2",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183917,
+        "source_end_line": 1183940,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169B2"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "68.50009203049558"
+        ],
+        [
+          "20",
+          "49.63384857981691"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "62.50009203049558"
+        ],
+        [
+          "21",
+          "49.63384857981691"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169B3",
+      "record_id": 47244,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183941,
+        1183966
+      ],
+      "metadata": {
+        "record_id": 47244,
+        "handle": "169B3",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183941,
+        "source_end_line": 1183966,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169B3"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "64.00009203049558"
+        ],
+        [
+          "20",
+          "63.91753716820494"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "24.00009203049558"
+        ],
+        [
+          "21",
+          "63.91753716820494"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169B4",
+      "record_id": 47245,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183967,
+        1183990
+      ],
+      "metadata": {
+        "record_id": 47245,
+        "handle": "169B4",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183967,
+        "source_end_line": 1183990,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169B4"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "57.52759203043388"
+        ],
+        [
+          "20",
+          "57.80481103209422"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "40.15446703033376"
+        ],
+        [
+          "21",
+          "57.80481103209422"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169B5",
+      "record_id": 47246,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1183991,
+        1184016
+      ],
+      "metadata": {
+        "record_id": 47246,
+        "handle": "169B5",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1183991,
+        "source_end_line": 1184016,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169B5"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "24.00009203049558"
+        ],
+        [
+          "20",
+          "63.91753716820494"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "24.00009203049558"
+        ],
+        [
+          "21",
+          "6.082537167863848"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169B6",
+      "record_id": 47247,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184017,
+        1184042
+      ],
+      "metadata": {
+        "record_id": 47247,
+        "handle": "169B6",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184017,
+        "source_end_line": 1184042,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169B6"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "64.00009203049558"
+        ],
+        [
+          "20",
+          "6.082537167834744"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "24.00009203049558"
+        ],
+        [
+          "21",
+          "6.082537167863848"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169B7",
+      "record_id": 47248,
+      "type": "CIRCLE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184043,
+        1184066
+      ],
+      "metadata": {
+        "record_id": 47248,
+        "handle": "169B7",
+        "section": "BLOCKS",
+        "entity_type": "CIRCLE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184043,
+        "source_end_line": 1184066,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     6",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "CIRCLE"
+        ],
+        [
+          "5",
+          "169B7"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "48",
+          "15.0"
+        ],
+        [
+          "62",
+          "     6"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "47.28168880996964"
+        ],
+        [
+          "20",
+          "35.00003716801984"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "4.1"
+        ]
+      ]
+    },
+    {
+      "handle": "169B8",
+      "record_id": 47249,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184067,
+        1184090
+      ],
+      "metadata": {
+        "record_id": 47249,
+        "handle": "169B8",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184067,
+        "source_end_line": 1184090,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169B8"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "54.11696703042981"
+        ],
+        [
+          "20",
+          "30.50003716804895"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "40.15446703033376"
+        ],
+        [
+          "21",
+          "30.50003716804895"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169B9",
+      "record_id": 47250,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184091,
+        1184114
+      ],
+      "metadata": {
+        "record_id": 47250,
+        "handle": "169B9",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184091,
+        "source_end_line": 1184114,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169B9"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "54.11696703058988"
+        ],
+        [
+          "20",
+          "24.50003716804895"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "40.15446703033376"
+        ],
+        [
+          "21",
+          "24.50003716804895"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169BA",
+      "record_id": 47251,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184115,
+        1184140
+      ],
+      "metadata": {
+        "record_id": 47251,
+        "handle": "169BA",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184115,
+        "source_end_line": 1184140,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "169BA"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "39.79498233114282"
+        ],
+        [
+          "20",
+          "18.34765023599721"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "12.15770280090998"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "88.30560436617395"
+        ],
+        [
+          "51",
+          "271.694395633826"
+        ]
+      ]
+    },
+    {
+      "handle": "169BB",
+      "record_id": 47252,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184141,
+        1184166
+      ],
+      "metadata": {
+        "record_id": 47252,
+        "handle": "169BB",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184141,
+        "source_end_line": 1184166,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "169BB"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "39.79987634611462"
+        ],
+        [
+          "20",
+          "18.34765023599721"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "6.162596815873648"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "86.70142676397857"
+        ],
+        [
+          "51",
+          "273.2985732360214"
+        ]
+      ]
+    },
+    {
+      "handle": "169BC",
+      "record_id": 47253,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184167,
+        1184190
+      ],
+      "metadata": {
+        "record_id": 47253,
+        "handle": "169BC",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184167,
+        "source_end_line": 1184190,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169BC"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "40.15446703030466"
+        ],
+        [
+          "20",
+          "6.195263303945467"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "57.52759203043388"
+        ],
+        [
+          "21",
+          "6.195263303945467"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169BD",
+      "record_id": 47254,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184191,
+        1184216
+      ],
+      "metadata": {
+        "record_id": 47254,
+        "handle": "169BD",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184191,
+        "source_end_line": 1184216,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "169BD"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "57.52759203043388"
+        ],
+        [
+          "20",
+          "17.16776330400717"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "10.97250000006284"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "270.0"
+        ],
+        [
+          "51",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169BE",
+      "record_id": 47255,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184217,
+        1184242
+      ],
+      "metadata": {
+        "record_id": 47255,
+        "handle": "169BE",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184217,
+        "source_end_line": 1184242,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "169BE"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "57.52759203043388"
+        ],
+        [
+          "20",
+          "17.16776330400717"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "4.972500000062837"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "270.0"
+        ],
+        [
+          "51",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169BF",
+      "record_id": 47256,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184243,
+        1184266
+      ],
+      "metadata": {
+        "record_id": 47256,
+        "handle": "169BF",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184243,
+        "source_end_line": 1184266,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169BF"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "68.50009203049558"
+        ],
+        [
+          "20",
+          "17.16776330400717"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "68.50009203049558"
+        ],
+        [
+          "21",
+          "20.36622575622278"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169C0",
+      "record_id": 47257,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184267,
+        1184290
+      ],
+      "metadata": {
+        "record_id": 47257,
+        "handle": "169C0",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184267,
+        "source_end_line": 1184290,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169C0"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "62.50009203049558"
+        ],
+        [
+          "20",
+          "17.16776330400717"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "62.50009203049558"
+        ],
+        [
+          "21",
+          "20.36622575622278"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169C1",
+      "record_id": 47258,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184291,
+        1184314
+      ],
+      "metadata": {
+        "record_id": 47258,
+        "handle": "169C1",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184291,
+        "source_end_line": 1184314,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169C1"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "68.50009203049558"
+        ],
+        [
+          "20",
+          "20.36622575622278"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "62.50009203049558"
+        ],
+        [
+          "21",
+          "20.36622575622278"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169C2",
+      "record_id": 47259,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184315,
+        1184338
+      ],
+      "metadata": {
+        "record_id": 47259,
+        "handle": "169C2",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184315,
+        "source_end_line": 1184338,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169C2"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "57.52759203043388"
+        ],
+        [
+          "20",
+          "12.19526330394547"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "40.15446703033376"
+        ],
+        [
+          "21",
+          "12.19526330394547"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169C3",
+      "record_id": 47260,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184339,
+        1184364
+      ],
+      "metadata": {
+        "record_id": 47260,
+        "handle": "169C3",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184339,
+        "source_end_line": 1184364,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "169C3"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "54.11696703042981"
+        ],
+        [
+          "20",
+          "35.00003716801984"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "4.499999999970896"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "270.0"
+        ],
+        [
+          "51",
+          "90.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169C4",
+      "record_id": 47261,
+      "type": "ARC",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184365,
+        1184392
+      ],
+      "metadata": {
+        "record_id": 47261,
+        "handle": "169C4",
+        "section": "BLOCKS",
+        "entity_type": "ARC",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184365,
+        "source_end_line": 1184392,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "ARC"
+        ],
+        [
+          "5",
+          "169C4"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "48",
+          "15.0"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "54.11696703058988"
+        ],
+        [
+          "20",
+          "35.00003716801984"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "10.4999999999709"
+        ],
+        [
+          "100",
+          "AcDbArc"
+        ],
+        [
+          "50",
+          "270.0"
+        ],
+        [
+          "51",
+          "90.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169C5",
+      "record_id": 47262,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184393,
+        1184418
+      ],
+      "metadata": {
+        "record_id": 47262,
+        "handle": "169C5",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184393,
+        "source_end_line": 1184418,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169C5"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "74.00009203049558"
+        ],
+        [
+          "20",
+          "63.91753716820494"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "24.00009203049558"
+        ],
+        [
+          "21",
+          "63.91753716820494"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169C6",
+      "record_id": 47263,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184419,
+        1184444
+      ],
+      "metadata": {
+        "record_id": 47263,
+        "handle": "169C6",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184419,
+        "source_end_line": 1184444,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169C6"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "24.00009203049558"
+        ],
+        [
+          "20",
+          "63.91753716820494"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "24.00009203049558"
+        ],
+        [
+          "21",
+          "6.082537167863848"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169C7",
+      "record_id": 47264,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184445,
+        1184470
+      ],
+      "metadata": {
+        "record_id": 47264,
+        "handle": "169C7",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184445,
+        "source_end_line": 1184470,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     1",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169C7"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "62",
+          "     1"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "74.00009203049558"
+        ],
+        [
+          "20",
+          "6.082537167834744"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "24.00009203049558"
+        ],
+        [
+          "21",
+          "6.082537167863848"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169C8",
+      "record_id": 47265,
+      "type": "CIRCLE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184471,
+        1184494
+      ],
+      "metadata": {
+        "record_id": 47265,
+        "handle": "169C8",
+        "section": "BLOCKS",
+        "entity_type": "CIRCLE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184471,
+        "source_end_line": 1184494,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     6",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "CIRCLE"
+        ],
+        [
+          "5",
+          "169C8"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "48",
+          "15.0"
+        ],
+        [
+          "62",
+          "     6"
+        ],
+        [
+          "100",
+          "AcDbCircle"
+        ],
+        [
+          "10",
+          "47.28168880996964"
+        ],
+        [
+          "20",
+          "35.00003716801984"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "40",
+          "4.1"
+        ]
+      ]
+    },
+    {
+      "handle": "169C9",
+      "record_id": 47266,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184495,
+        1184522
+      ],
+      "metadata": {
+        "record_id": 47266,
+        "handle": "169C9",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184495,
+        "source_end_line": 1184522,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": "     6",
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169C9"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "48",
+          "15.0"
+        ],
+        [
+          "62",
+          "     6"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "74.00009203049558"
+        ],
+        [
+          "20",
+          "6.082537167834744"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "74.00009203049558"
+        ],
+        [
+          "21",
+          "63.91753716820494"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "169CA",
+      "record_id": 47267,
+      "type": "LINE",
+      "block": "A$C6E4F4F8B",
+      "source_line_range": [
+        1184523,
+        1184546
+      ],
+      "metadata": {
+        "record_id": 47267,
+        "handle": "169CA",
+        "section": "BLOCKS",
+        "entity_type": "LINE",
+        "definition_block": "A$C6E4F4F8B",
+        "owner_handle": "1697C",
+        "structural_parent_handle": null,
+        "is_primary_graphical_record": true,
+        "is_graphical_record_including_sequence_children": true,
+        "source_start_line": 1184523,
+        "source_end_line": 1184546,
+        "raw_layer": "0",
+        "raw_linetype": null,
+        "raw_visibility_flag_60": 0,
+        "raw_color_62": null,
+        "raw_paperspace_67": null,
+        "raw_layout_410": null
+      },
+      "tags": [
+        [
+          "0",
+          "LINE"
+        ],
+        [
+          "5",
+          "169CA"
+        ],
+        [
+          "330",
+          "1697C"
+        ],
+        [
+          "100",
+          "AcDbEntity"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "100",
+          "AcDbLine"
+        ],
+        [
+          "10",
+          "62.10009203050504"
+        ],
+        [
+          "20",
+          "63.91753716820494"
+        ],
+        [
+          "30",
+          "0.0"
+        ],
+        [
+          "11",
+          "62.10009203046229"
+        ],
+        [
+          "21",
+          "6.082537167836563"
+        ],
+        [
+          "31",
+          "0.0"
+        ]
+      ]
+    }
+  ],
+  "scope_limit": "Circle bounds and known-block geometry bounds only; no assertion that every possible hidden hole or unknown block was found. Exact station axis records have no bolt diameter/Z/fastener section.",
+  "conclusion": "No verified through-foot or mounting-hole identity may be inferred from source axes or a proxy mesh."
+}

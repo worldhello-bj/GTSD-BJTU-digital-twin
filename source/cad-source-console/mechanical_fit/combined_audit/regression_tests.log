@@ -1,0 +1,12 @@
+test_closed_consistent_cube (test_audit.AuditTests.test_closed_consistent_cube) ... ok
+test_containment_detected (test_audit.AuditTests.test_containment_detected) ... ok
+test_disjoint_boxes (test_audit.AuditTests.test_disjoint_boxes) ... ok
+test_open_surface_not_called_closed (test_audit.AuditTests.test_open_surface_not_called_closed) ... ok
+test_touch_is_not_volume_overlap (test_audit.AuditTests.test_touch_is_not_volume_overlap) ... ok
+test_volume_witness_independent (test_audit.AuditTests.test_volume_witness_independent) ... ok
+test_winding_and_distance (test_audit.AuditTests.test_winding_and_distance) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.015s
+
+OK

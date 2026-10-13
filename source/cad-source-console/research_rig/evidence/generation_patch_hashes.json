@@ -1,0 +1,9 @@
+{
+  "session.py": "b3c2bddbc233eaa2dfeb87447cdced602e4bdbcb00c0dff22e299300b7bbedc1",
+  "web/core.js": "8957d558a93fb228dc162341e5b4ee362e2e009bcc0b4964be7b83b14b466724",
+  "web/app.js": "f6c271affa5ddd82501794b00981eaf8a670ee15641fa96e6316a70163233998",
+  "tests/test_session.py": "f8838e95c8e920fbcc543a0cda3246d5179398417042308d8983bbfbdb7a1efb",
+  "tests/test_server.py": "97f846b694d6696f2e30c3ab0881b40c0a6413e1c68dd4946901cef7fd69dd03",
+  "tests/test_ui_core.js": "3a5066a150ae9fb261b3e24dc92d744a2920f9460e8986fc696e33215117ee70",
+  "tests/test_ui_app.js": "8b1585bbeb8abf0121687466b3ce32df2d0c8786847acfdfa5783f1be7a9d66e"
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "gtsd-clamp-source-context-v1",
+  "source_commit": "c5dd336",
+  "default_source_scene": "20_FRONT_ROUTE_NOMINAL_FIT",
+  "published_total_mesh_count": 1932,
+  "unique_native_fix_available": false,
+  "native_dxf_sha256": "f45c517fa9a2e5059742f855b94f8eca842c97abd9b54c6b027a3ce8d18cb5e2",
+  "native_records_verified": 18,
+  "source_photographs_included": false,
+  "source_photographs_used_for_geometry_claims": false,
+  "4079": {
+    "source_supported": "Front Y/Z band and same-plane end circles; separate component, not the upper 5x5x30 stem.",
+    "unconfirmed": "World X depth, round cross section, both endpoint attachment methods.",
+    "engineering_choice": "Preserve every published Y/Z vertex; move only unmeasured depth outside actual local obstacle envelope with configurable nominal 1 mm review gap.",
+    "actual_depth_mm": null,
+    "fixings": null
+  },
+  "F643": {
+    "native_front_projection_mm": [
+      40,
+      5
+    ],
+    "old_unconfirmed_extrusion_depth_mm": 4,
+    "chosen_candidate": "Explicit nominal round pin Ø5, no thread/head/nut claims.",
+    "native_B535_circle_center_mm": 25.8372093023354,
+    "native_8A2C_hidden_center_mm": 25,
+    "chosen_hole_version": "8A2C; preserves F643_profile_0 and bar center, shifts B535 hole only by -0.8372093023354 mm.",
+    "B535_first_alternative": "Pin-hole clears, but causes about10.823 mm3 new interference with F643_profile_0, so is not admitted as a resolved fit."
+  },
+  "upper_tube": {
+    "axis_residual_mm": 0.08223910795113198,
+    "action": "No geometry change. Actual projected triangle envelope is already separated by at least0.4160443675558234 mm."
+  },
+  "messenger": {
+    "source_context_axis_residual_mm": 0.10097087877570285,
+    "main_action": "Keep unchanged; preserve lower-jaw micro-overlap about0.000106906083 mm3 per station.",
+    "optional_action": "Full-length wire datum translation to both native groove centers; same diameter/length, end-connection interfaces explicitly remain unresolved.",
+    "optional_profile": "clamp_messenger_datum_profile.json"
+  },
+  "unresolved_connection_intersections": "4079/contact wire, messenger/end shackles and messenger/dropper endpoints are labeled connection/fixing material interfaces, not silently treated as zero-clearance joints or welded connections."
+}
