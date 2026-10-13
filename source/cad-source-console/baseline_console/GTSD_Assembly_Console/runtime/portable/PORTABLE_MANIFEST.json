@@ -1,0 +1,1141 @@
+{
+  "schema": "gtsd-strict82-portable-file-manifest-v1",
+  "files": {
+    "GTSD_Phase6/geometry/body/MANIFEST.json": {
+      "sha256": "9af03117ca5b4653398ae84b982d23a21cc6c57bf972a11a315c743af4274e9b",
+      "bytes": 2925,
+      "source": "/workspace/shared/gtsd-body-cad-phase6-1012/MANIFEST.json"
+    },
+    "GTSD_Phase6/geometry/body/evidence/body_geometric_mass_properties.json": {
+      "sha256": "068df59deb4fbe938a1f56c11f64ddbc50001c84d642164b1098c440693f1cc2",
+      "bytes": 34742,
+      "source": "/workspace/shared/gtsd-body-cad-phase6-1012/evidence/body_geometric_mass_properties.json"
+    },
+    "GTSD_Phase6/geometry/body/evidence/body_geometry_validation.json": {
+      "sha256": "3d51c2963fafcd9c1b8c391d8d55d0f5616b2b3d078dc8f4b6788404102d08a8",
+      "bytes": 20896,
+      "source": "/workspace/shared/gtsd-body-cad-phase6-1012/evidence/body_geometry_validation.json"
+    },
+    "GTSD_Phase6/geometry/body/evidence/validation.json": {
+      "sha256": "0728cd0edeeeadf894294673978e8a50fea30dae39f7395119bf4169db56f5bf",
+      "bytes": 12553,
+      "source": "/workspace/shared/gtsd-body-cad-phase6-1012/evidence/validation.json"
+    },
+    "GTSD_Phase6/geometry/body/outputs/body_CAD_cutaway.png": {
+      "sha256": "ed293cdde26940ba13459c3cade2df011396594005758667bf80f49c8c6e4312",
+      "bytes": 1152383,
+      "source": "/workspace/shared/gtsd-body-cad-phase6-1012/outputs/body_CAD_cutaway.png"
+    },
+    "GTSD_Phase6/geometry/body/outputs/body_CAD_front.png": {
+      "sha256": "214d8a70962d2b7363cb9f408dacb225333bed082b17155392bd8a00b26ee59e",
+      "bytes": 956543,
+      "source": "/workspace/shared/gtsd-body-cad-phase6-1012/outputs/body_CAD_front.png"
+    },
+    "GTSD_Phase6/geometry/body/outputs/body_cad_candidate_meshes.json": {
+      "sha256": "46f7e9723e0e510e6b076e91dd764081386cf53ad66839debd850ce686be2a5a",
+      "bytes": 497689,
+      "source": "/workspace/shared/gtsd-body-cad-phase6-1012/outputs/body_cad_candidate_meshes.json"
+    },
+    "GTSD_Phase6/console_fan82/SOURCE_FREEZE_CONSOLE_FAN82.json": {
+      "sha256": "8d7768d39969d218976f392ad2e29164ecbd9281d74d8e40f5dad8e6502c5989",
+      "bytes": 2040,
+      "source": "/workspace/shared/gtsd-console-fan82-1012/SOURCE_FREEZE_CONSOLE_FAN82.json"
+    },
+    "GTSD_Phase6/console_fan82/accepted_dependencies.json": {
+      "sha256": "f6c23c89471e617c4f1d55a0ae76ac74517b28a01122af2b54d302fb564cd1ba",
+      "bytes": 537,
+      "source": "/workspace/shared/gtsd-console-fan82-1012/accepted_dependencies.json"
+    },
+    "GTSD_Phase6/console_fan82/console82_config.portable.json": {
+      "sha256": "56cbf8a64abbd4ee7c43277bdefa397d778a805a24fb7c6010062a691497b44c",
+      "bytes": 244,
+      "source": "/workspace/shared/gtsd-console-fan82-1012/console82_config.portable.json"
+    },
+    "GTSD_Phase6/console_fan82/console_config.portable.json": {
+      "sha256": "a0bd7104d25fa08e844c6b230301b7ae231d9a3ef91b78c31e1142fc4878e9d3",
+      "bytes": 241,
+      "source": "/workspace/shared/gtsd-console-fan82-1012/console_config.portable.json"
+    },
+    "GTSD_Phase6/console_fan82/console_config.schema.json": {
+      "sha256": "10f5b4eb0cb8fa53b9c466d09288e401a5b303aa29293a8b55e0cdc61b8592a6",
+      "bytes": 626,
+      "source": "/workspace/shared/gtsd-console-fan82-1012/console_config.schema.json"
+    },
+    "GTSD_Phase6/console_fan82/fan82_server.py": {
+      "sha256": "2e0959b00a0f1fe40ead620d82fcfd2ee86eb669083b55e8996a2f345bb9d69b",
+      "bytes": 16684,
+      "source": "/workspace/shared/gtsd-console-fan82-1012/fan82_server.py"
+    },
+    "GTSD_Phase6/console_fan82/fan82_view.py": {
+      "sha256": "1ece7d22e584708f0776393760323a1604001f2eb66329ff437beba2e4d82e31",
+      "bytes": 8499,
+      "source": "/workspace/shared/gtsd-console-fan82-1012/fan82_view.py"
+    },
+    "GTSD_Phase6/console_fan82/tests/check_default.py": {
+      "sha256": "a31cbecbb67a57e2a3757935d84d783ffd1be01fca7f98b238f73dd57163c6e3",
+      "bytes": 1187,
+      "source": "/workspace/shared/gtsd-console-fan82-1012/tests/check_default.py"
+    },
+    "GTSD_Phase6/console_fan82/tests/check_geometry_pick.js": {
+      "sha256": "47da14502b688448eea0a09018e6efec2f6b8076f68a96a5d44e17eb7e68279d",
+      "bytes": 4731,
+      "source": "/workspace/shared/gtsd-console-fan82-1012/tests/check_geometry_pick.js"
+    },
+    "GTSD_Phase6/console_fan82/tests/check_http.py": {
+      "sha256": "fa26f0f0b31cc35560d83fd939d9749595c13f659dbd7c8e1f2b6e816d337fa5",
+      "bytes": 8005,
+      "source": "/workspace/shared/gtsd-console-fan82-1012/tests/check_http.py"
+    },
+    "GTSD_Phase6/console_fan82/tests/emit_geometry.py": {
+      "sha256": "f202c894665962136bdec1974474feb3bf7eeaae4fb09adf71856a15f153c9f6",
+      "bytes": 313,
+      "source": "/workspace/shared/gtsd-console-fan82-1012/tests/emit_geometry.py"
+    },
+    "GTSD_Phase6/console_fan82/tests/test_fan82.py": {
+      "sha256": "1cd108abfd7a5ad7b0b4fa52005ece56b596e8d167960a9cfd654dbbe05725db",
+      "bytes": 4772,
+      "source": "/workspace/shared/gtsd-console-fan82-1012/tests/test_fan82.py"
+    },
+    "GTSD_Phase6/console_fan82/tests/test_fan82_dom.js": {
+      "sha256": "879594498c428cb286fb46411cbc6197d077a27c35bf7b6fa2822a30d7c25ee0",
+      "bytes": 5106,
+      "source": "/workspace/shared/gtsd-console-fan82-1012/tests/test_fan82_dom.js"
+    },
+    "GTSD_Phase6/console_fan82/web/fan82.css": {
+      "sha256": "4bc23c2312c7f815be8f8c75c6145674fab8799b5b411f4fd1c87686c905bd37",
+      "bytes": 449,
+      "source": "/workspace/shared/gtsd-console-fan82-1012/web/fan82.css"
+    },
+    "GTSD_Phase6/console_fan82/web/fan82.js": {
+      "sha256": "c51e5d09a659cfda997f46fef87991a288edd8c0a2b467a550a0ac0bd99397b7",
+      "bytes": 4211,
+      "source": "/workspace/shared/gtsd-console-fan82-1012/web/fan82.js"
+    },
+    "GTSD_Phase6/console_phase6/SOURCE_FREEZE_CONSOLE_PHASE6.json": {
+      "sha256": "c048bf545d27ff2bd25967c059714a689a243a452f1fffe249676f151d359688",
+      "bytes": 2968,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/SOURCE_FREEZE_CONSOLE_PHASE6.json"
+    },
+    "GTSD_Phase6/console_phase6/accepted_dependencies.json": {
+      "sha256": "bed73cedad4356c83fed030817d2d658f547b94bde55b34ab10b7848789d16f3",
+      "bytes": 2632,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/accepted_dependencies.json"
+    },
+    "GTSD_Phase6/console_phase6/candidate_review.py": {
+      "sha256": "38f0bf7dbce6dd1779f88669576c3e560281392d120f44415bcb360638bf1299",
+      "bytes": 15061,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/candidate_review.py"
+    },
+    "GTSD_Phase6/console_phase6/console_config.schema.json": {
+      "sha256": "4e16b7fd04bfcc15f92fd034bea5794a688749bd1d872fa1c578b9a3470b5266",
+      "bytes": 1357,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/console_config.schema.json"
+    },
+    "GTSD_Phase6/console_phase6/console_launcher.py": {
+      "sha256": "906e141f2e0ff785bf93bfb34f3bf150071d0a9e23ac386069cb7736b435b935",
+      "bytes": 19431,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/console_launcher.py"
+    },
+    "GTSD_Phase6/console_phase6/dependency_admission.py": {
+      "sha256": "68c5c1309dd6caba37d0d082299af9083496e9fc0cc894adbb9d8d1f1021dd75",
+      "bytes": 1474,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/dependency_admission.py"
+    },
+    "GTSD_Phase6/console_phase6/design_candidates.json": {
+      "sha256": "7c729afbe18384881c23f17888a11883cd92bb22e78bbbe85530367286a91086",
+      "bytes": 1978,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/design_candidates.json"
+    },
+    "GTSD_Phase6/console_phase6/mounted_display.py": {
+      "sha256": "c9912822d9350969a243a5575ccec47bd011e5a02591567dcf1dc8d95c3a943d",
+      "bytes": 6108,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/mounted_display.py"
+    },
+    "GTSD_Phase6/console_phase6/phase6_config.portable.json": {
+      "sha256": "a0491d3a4aeea7279156132b591ad476a65f38e3963fb412c2bb7ee8c722d2bf",
+      "bytes": 449,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/phase6_config.portable.json"
+    },
+    "GTSD_Phase6/console_phase6/phase6_config.schema.json": {
+      "sha256": "ecf96d1788f735f8d78037898bb900ff25c09f7a275374d5a07509900302d6ef",
+      "bytes": 1336,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/phase6_config.schema.json"
+    },
+    "GTSD_Phase6/console_phase6/phase6_server.py": {
+      "sha256": "ba5a5e3828d97c88424141cb57067d8ed424bb3acaab336f4a5b1f67df643ac6",
+      "bytes": 23279,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/phase6_server.py"
+    },
+    "GTSD_Phase6/console_phase6/phase6_web/truth-evidence-client.js": {
+      "sha256": "24667746e89ca03b393d7dd203896f8d8574b458b1b1cfa7f4f0cffe42af7dd0",
+      "bytes": 1682,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/phase6_web/truth-evidence-client.js"
+    },
+    "GTSD_Phase6/console_phase6/phase6_web/truth-evidence.css": {
+      "sha256": "c5b3c9fe45080b80a43fd50d969193e00e81e4e5ecec00901f15d99d35eebf7a",
+      "bytes": 1079,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/phase6_web/truth-evidence.css"
+    },
+    "GTSD_Phase6/console_phase6/phase6_web/truth-evidence.js": {
+      "sha256": "9d8e0c4fdbd95999ded9d221d4f075342a622020a08f72b7b79ca5f7b2e5e1ce",
+      "bytes": 11000,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/phase6_web/truth-evidence.js"
+    },
+    "GTSD_Phase6/console_phase6/tests/check_cad_body_http.py": {
+      "sha256": "ed18821f0888d90a6dcc23269ca5a9a6c6b484299618104ebe275edf8a1a68fb",
+      "bytes": 5707,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/tests/check_cad_body_http.py"
+    },
+    "GTSD_Phase6/console_phase6/tests/check_phase6_http.py": {
+      "sha256": "84e67e4dd160612ce0215c964c203a4a8e0cd0ae8f792c931d2f483d1feff5b6",
+      "bytes": 8158,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/tests/check_phase6_http.py"
+    },
+    "GTSD_Phase6/console_phase6/tests/check_phase6_readonly_http.py": {
+      "sha256": "7389c562cb5b222c16e76632c15eedb034321b2b16e5ca245669689064d5aab1",
+      "bytes": 4336,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/tests/check_phase6_readonly_http.py"
+    },
+    "GTSD_Phase6/console_phase6/tests/check_serving_process.py": {
+      "sha256": "43956491577ac50b635dd7e39bb265a19a6b2c4829f90dafba26bc4e43b0e6d7",
+      "bytes": 2736,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/tests/check_serving_process.py"
+    },
+    "GTSD_Phase6/console_phase6/tests/emit_cad_geometry.py": {
+      "sha256": "ae81c9438d563e5d730c8184f2ca42471dd5b90cfff6f80cda27927f11c8a858",
+      "bytes": 467,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/tests/emit_cad_geometry.py"
+    },
+    "GTSD_Phase6/console_phase6/tests/render_phase6_cpu.js": {
+      "sha256": "fc77dab7e31b546adac0f7a1d275af8c7670eb84b59f509b8c9384fc6ad9c492",
+      "bytes": 4250,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/tests/render_phase6_cpu.js"
+    },
+    "GTSD_Phase6/console_phase6/tests/test_console_launcher.py": {
+      "sha256": "3b206c2fef1e1b43d712dfe410a6e5a319514a6015025a2b5c9e7bc33986d2a0",
+      "bytes": 10150,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/tests/test_console_launcher.py"
+    },
+    "GTSD_Phase6/console_phase6/tests/test_truth_evidence.js": {
+      "sha256": "9e4bc635d22b9bb5b5359af31c993b5a027ad54d85bafe4f2446aa9f8f2f2009",
+      "bytes": 6069,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/tests/test_truth_evidence.js"
+    },
+    "GTSD_Phase6/console_phase6/tests/test_truth_overlay.py": {
+      "sha256": "7e01dc7e0943b03d858189bc236dc5e85c680dac34222eccf498a613efad3bf7",
+      "bytes": 14077,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/tests/test_truth_overlay.py"
+    },
+    "GTSD_Phase6/console_phase6/truth_overlay.py": {
+      "sha256": "c9d9ad85b50f108a7bd5779fd3257555f0de18fb506e9ce7348092cac8c60928",
+      "bytes": 13264,
+      "source": "/workspace/shared/gtsd-console-phase6-1012/truth_overlay.py"
+    },
+    "GTSD_Phase6/console_phase7/SOURCE_FREEZE_CONSOLE_PHASE7.json": {
+      "sha256": "0baae8ce9325423c444037823d7abdabc52beb93caaf3ff36409df26133a754e",
+      "bytes": 2652,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/SOURCE_FREEZE_CONSOLE_PHASE7.json"
+    },
+    "GTSD_Phase6/console_phase7/accepted_dependencies.json": {
+      "sha256": "e6f01889e18f106c7489e202938ed7c92b848859c3d6a09b450c73a99b99e21a",
+      "bytes": 610,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/accepted_dependencies.json"
+    },
+    "GTSD_Phase6/console_phase7/check_http_latency.py": {
+      "sha256": "3bbd11f263efeb076817327e2834479efe315b94a259252b4c9633d23070063f",
+      "bytes": 3291,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/check_http_latency.py"
+    },
+    "GTSD_Phase6/console_phase7/lineage_registry.py": {
+      "sha256": "86ac33beb5bc6fd91c501b71a3d02767b877025c12ff025aef29501fab4eaa10",
+      "bytes": 17978,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/lineage_registry.py"
+    },
+    "GTSD_Phase6/console_phase7/phase7_config.portable.json": {
+      "sha256": "9206e90b3c302064e1276dd5e7be82f1bba0fb6fa7feac0e9f26828dade5f1a9",
+      "bytes": 286,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/phase7_config.portable.json"
+    },
+    "GTSD_Phase6/console_phase7/phase7_config.schema.json": {
+      "sha256": "713ebbc09e805c0d4e40c8deb561803639ba2c0417797be8c6506bc720a4d267",
+      "bytes": 1438,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/phase7_config.schema.json"
+    },
+    "GTSD_Phase6/console_phase7/phase7_doors_config.portable.json": {
+      "sha256": "d5285a5f1efb356e04a86d542f3b6f213a31be03e6cc8913a2d1e7e54bd2cb13",
+      "bytes": 287,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/phase7_doors_config.portable.json"
+    },
+    "GTSD_Phase6/console_phase7/phase7_server.py": {
+      "sha256": "3671c3633940bc2fe0267885574f0ad133262cc5be607402ebfe1368ed2a9495",
+      "bytes": 18194,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/phase7_server.py"
+    },
+    "GTSD_Phase6/console_phase7/review/test_lineage_client_recovery.js": {
+      "sha256": "3c6129dc48ace1880eecd923fe02fa9b7c44ba68c89c5e59702d4f7ffe71a7e2",
+      "bytes": 4805,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/review/test_lineage_client_recovery.js"
+    },
+    "GTSD_Phase6/console_phase7/review/test_truth_link_guards.js": {
+      "sha256": "5926f3cdc6f5884a89e949c32b2c09191a1cccfde084910444b28f2588a8b1d9",
+      "bytes": 1896,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/review/test_truth_link_guards.js"
+    },
+    "GTSD_Phase6/console_phase7/tests/check_geometry_pick.js": {
+      "sha256": "7a0386da10de2f339eebf4f7bd6e550605ddadd2e093eba1267ee7af4d14f072",
+      "bytes": 4321,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/tests/check_geometry_pick.js"
+    },
+    "GTSD_Phase6/console_phase7/tests/check_lineage_http.py": {
+      "sha256": "00c677c81227c9a040e2b34d6ac8a0fec2e119b980ff6b7b0def60f5e970cabd",
+      "bytes": 5717,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/tests/check_lineage_http.py"
+    },
+    "GTSD_Phase6/console_phase7/tests/check_readonly_startup.py": {
+      "sha256": "eb777034ae45ebbb09d09c48d5afbf353be67ef749ac65ab1dd53d7f45fe9d2a",
+      "bytes": 1437,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/tests/check_readonly_startup.py"
+    },
+    "GTSD_Phase6/console_phase7/tests/emit_geometry.py": {
+      "sha256": "6312b1d6297aaff40b03bb746c1efe23eaedbd8f636a5c09244d202915bb4fbd",
+      "bytes": 382,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/tests/emit_geometry.py"
+    },
+    "GTSD_Phase6/console_phase7/tests/fixture.py": {
+      "sha256": "a086ab3b44891e2fceed472a92fda51fe05fcbbbf1bbe2fd27129a0eee6fb2ef",
+      "bytes": 1677,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/tests/fixture.py"
+    },
+    "GTSD_Phase6/console_phase7/tests/test_lineage_dom.js": {
+      "sha256": "6aa3a8647dbfe2366f72ddd9ea7b46b7e0b59474e0d17e3886a86b73de96209c",
+      "bytes": 6345,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/tests/test_lineage_dom.js"
+    },
+    "GTSD_Phase6/console_phase7/tests/test_lineage_registry.py": {
+      "sha256": "9cbf9422a3f07951fda0bf13e3b3ef8e6515d4757fb912fde66f575332d4b1a6",
+      "bytes": 5437,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/tests/test_lineage_registry.py"
+    },
+    "GTSD_Phase6/console_phase7/web/lineage-client.js": {
+      "sha256": "0dd8b246b228c481185d4a51ace07e7989b42fa4165583d3537d40bbe22b086a",
+      "bytes": 3283,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/web/lineage-client.js"
+    },
+    "GTSD_Phase6/console_phase7/web/lineage.css": {
+      "sha256": "54213042b0b3df8a73e1edfcb32c76a2e9bf370ac581780a20bf58376d7a07ea",
+      "bytes": 371,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/web/lineage.css"
+    },
+    "GTSD_Phase6/console_phase7/web/lineage.js": {
+      "sha256": "e1cf3abb5617bae85941c90136836d976af70a4a24910a75e9f37aa8ebad63e0",
+      "bytes": 9400,
+      "source": "/workspace/shared/gtsd-console-phase7-1012/web/lineage.js"
+    },
+    "GTSD_Phase6/console_strict82/SOURCE_FREEZE_CONSOLE_STRICT82.json": {
+      "sha256": "e64777b4352c982b99f57ed78b1d9c9c7fd381ac05f510e7ed219f0558e04ca5",
+      "bytes": 1286,
+      "source": "/workspace/shared/gtsd-console-strict82-1012/SOURCE_FREEZE_CONSOLE_STRICT82.json"
+    },
+    "GTSD_Phase6/console_strict82/accepted_dependencies.json": {
+      "sha256": "74739173a31664a8370c238e89626f2f9451a9f650de3d7c45fef83af1e7fee6",
+      "bytes": 344,
+      "source": "/workspace/shared/gtsd-console-strict82-1012/accepted_dependencies.json"
+    },
+    "GTSD_Phase6/console_strict82/console_config.portable.json": {
+      "sha256": "16f1e318b4832ebd482b8129f4816d1eaca0b57043dadbb07f6e54988c6f3284",
+      "bytes": 276,
+      "source": "/workspace/shared/gtsd-console-strict82-1012/console_config.portable.json"
+    },
+    "GTSD_Phase6/console_strict82/evidence/adapted_fan82.js": {
+      "sha256": "0ac1aaa702ca31009ed6445d21680ca66e3443fe7a2349456f4eefb6e089db54",
+      "bytes": 4243,
+      "source": "/workspace/shared/gtsd-console-strict82-1012/evidence/adapted_fan82.js"
+    },
+    "GTSD_Phase6/console_strict82/strict82_config.portable.json": {
+      "sha256": "c63e2aeb2de260f47fb6033dd39b235242ceb1a451f68e5a797e52c67dfe0336",
+      "bytes": 297,
+      "source": "/workspace/shared/gtsd-console-strict82-1012/strict82_config.portable.json"
+    },
+    "GTSD_Phase6/console_strict82/strict82_server.py": {
+      "sha256": "19582ffdef2e3dcd422b1641be3a72fb9a6912f0c831590e38504d5de93c3b3d",
+      "bytes": 16489,
+      "source": "/workspace/shared/gtsd-console-strict82-1012/strict82_server.py"
+    },
+    "GTSD_Phase6/console_strict82/tests/check_display_guards.py": {
+      "sha256": "f3978b2f857f0e4b903fbcfdc90e14c1a087bb4925d2ad2994b931fbcbe668b3",
+      "bytes": 1155,
+      "source": "/workspace/shared/gtsd-console-strict82-1012/tests/check_display_guards.py"
+    },
+    "GTSD_Phase6/console_strict82/tests/check_dom.js": {
+      "sha256": "66614f01e29de4b59dcffa45c6648d43848eac8f7822bb1e881d331cd46c0b69",
+      "bytes": 1721,
+      "source": "/workspace/shared/gtsd-console-strict82-1012/tests/check_dom.js"
+    },
+    "GTSD_Phase6/console_strict82/tests/check_minimal_http.py": {
+      "sha256": "16b2cb5f2a59fd5732ab644d54750863cb49cc9ca4b89863085cd4b9d4ff4171",
+      "bytes": 4364,
+      "source": "/workspace/shared/gtsd-console-strict82-1012/tests/check_minimal_http.py"
+    },
+    "GTSD_Phase6/console_strict82/tests/paired_native.py": {
+      "sha256": "6b2f3ed52d589518ad7e9cda4a22d53f63fbd43872e990e80af5bb7148187c02",
+      "bytes": 1592,
+      "source": "/workspace/shared/gtsd-console-strict82-1012/tests/paired_native.py"
+    },
+    "GTSD_Phase6/trusted_rollback/trusted_rollback.py": {
+      "sha256": "e368f4f19af2e645d1f746036cec40c83c66c1ba1c2a1bad9008124df0cb2c9f",
+      "bytes": 2349,
+      "source": "/workspace/shared/gtsd-coupling-performance-1012/trusted_rollback.py"
+    },
+    "GTSD_Phase6/geometry/doors/ASSEMBLY_CONTRACT.json": {
+      "sha256": "bfbb91d9129dd439a1e2202529f3750f9770522e515c4a6b1eabce267f1fa4c3",
+      "bytes": 100464,
+      "source": "/workspace/shared/gtsd-door-cad-phase7-1012/ASSEMBLY_CONTRACT.json"
+    },
+    "GTSD_Phase6/geometry/doors/END_OPENING_CONTRACT.json": {
+      "sha256": "40e9ec430e71db5cf11132776e49221fcee42d804ae537c83975136cc0e9331d",
+      "bytes": 4204,
+      "source": "/workspace/shared/gtsd-door-cad-phase7-1012/END_OPENING_CONTRACT.json"
+    },
+    "GTSD_Phase6/geometry/doors/FAN_COVERAGE_CONTRACT.json": {
+      "sha256": "e1f30dd98a603e15163c2499e397adc76c234539fec0912e5f0adb208a7542cb",
+      "bytes": 7812,
+      "source": "/workspace/shared/gtsd-door-cad-phase7-1012/FAN_COVERAGE_CONTRACT.json"
+    },
+    "GTSD_Phase6/geometry/doors/SOURCE_FREEZE.json": {
+      "sha256": "87facf1c69aca4cb178e6cb3cdcd1453ded46b70de8fd05c71c0e950843470fe",
+      "bytes": 1245,
+      "source": "/workspace/shared/gtsd-door-cad-phase7-1012/SOURCE_FREEZE.json"
+    },
+    "GTSD_Phase6/geometry/doors/evidence/door_geometric_mass_properties.json": {
+      "sha256": "aceb2e7e7696fd71e5a168f95dfa4199437f8206bba9933438eddfd8208b233d",
+      "bytes": 86484,
+      "source": "/workspace/shared/gtsd-door-cad-phase7-1012/evidence/door_geometric_mass_properties.json"
+    },
+    "GTSD_Phase6/geometry/doors/evidence/export_validation.json": {
+      "sha256": "c56360959eb038b6081d3b2bf9c5b2094862144c9fed8e0b7bf026a67544ffdb",
+      "bytes": 18830,
+      "source": "/workspace/shared/gtsd-door-cad-phase7-1012/evidence/export_validation.json"
+    },
+    "GTSD_Phase6/geometry/doors/evidence/validation.json": {
+      "sha256": "5e818e2359271897504b4161a4fee3e885532aa0cd8b4b1e8d2132e9d8755a82",
+      "bytes": 52359,
+      "source": "/workspace/shared/gtsd-door-cad-phase7-1012/evidence/validation.json"
+    },
+    "GTSD_Phase6/geometry/doors/outputs/door_cad_candidate_meshes.json": {
+      "sha256": "67dfd34c3e9a2f9776aa63b9acdff48051734ca4d733035660be0d49aba0cd9c",
+      "bytes": 1377134,
+      "source": "/workspace/shared/gtsd-door-cad-phase7-1012/outputs/door_cad_candidate_meshes.json"
+    },
+    "GTSD_Phase6/geometry/doors/replacement_manifest.json": {
+      "sha256": "24f35bb9b3c45e4df41f78e8d369cbd91aa1821e33035a362d4cb18fbe4e4d2e",
+      "bytes": 5349,
+      "source": "/workspace/shared/gtsd-door-cad-phase7-1012/replacement_manifest.json"
+    },
+    "GTSD_Phase6/strict82/SOURCE_FREEZE.json": {
+      "sha256": "8ca0b3c31aae608c08e80a9657d4da0b2cc8f9c74edd4cea2125cb8087ea4e82",
+      "bytes": 1083,
+      "source": "/workspace/shared/gtsd-four-fan-performance-1012/SOURCE_FREEZE.json"
+    },
+    "GTSD_Phase6/strict82/bootstrap.py": {
+      "sha256": "b272c017370b03814610726ec69ba0942c3c058ca4b2787e42b4a7366fa156a4",
+      "bytes": 1268,
+      "source": "/workspace/shared/gtsd-four-fan-performance-1012/bootstrap.py"
+    },
+    "GTSD_Phase6/strict82/optimized_four_fan.py": {
+      "sha256": "4e28fd9972881a1e70213626f88ec6dea543ca9b7fd34ca6bea5e80577a5862e",
+      "bytes": 1293,
+      "source": "/workspace/shared/gtsd-four-fan-performance-1012/optimized_four_fan.py"
+    },
+    "GTSD_Phase6/strict82/strict_four_fan.py": {
+      "sha256": "cead214288657c66cc801ed0bf4542f8ab3f14d9c94e639cd1902e6f24451a70",
+      "bytes": 3059,
+      "source": "/workspace/shared/gtsd-four-fan-performance-1012/strict_four_fan.py"
+    },
+    "GTSD_Phase6/geometry/encoder/DELIVERY.json": {
+      "sha256": "a7797ff7cf2ed9a2acf5aeec93e762fafe6861a2ae52ccac9ac415828599d018",
+      "bytes": 864,
+      "source": "/workspace/shared/gtsd-geometry-phase6-1012/DELIVERY.json"
+    },
+    "GTSD_Phase6/geometry/encoder/MANIFEST.sha256": {
+      "sha256": "f81c3bc06d9dcefaa7ba1633e9bbe50df11e40ec7ee5d953342e6734b0ace011",
+      "bytes": 2816,
+      "source": "/workspace/shared/gtsd-geometry-phase6-1012/MANIFEST.sha256"
+    },
+    "GTSD_Phase6/geometry/encoder/candidate_selection_contract.json": {
+      "sha256": "04392c4cc3a8f28e6f885de44d4e6cea3f607a83b432e5f1736854f7f234c6c1",
+      "bytes": 5056,
+      "source": "/workspace/shared/gtsd-geometry-phase6-1012/candidate_selection_contract.json"
+    },
+    "GTSD_Phase6/geometry/encoder/evidence/dimension_validation.json": {
+      "sha256": "f70f228babfac4f4c2f105ffadc6aec8b534a1209d1058af767ea34adffca2bc",
+      "bytes": 5873,
+      "source": "/workspace/shared/gtsd-geometry-phase6-1012/evidence/dimension_validation.json"
+    },
+    "GTSD_Phase6/geometry/encoder/evidence/exact_geometry_diff.json": {
+      "sha256": "f6ccaeb9886ddba879a506f5470dc18de2811731c50f6605a3e3e7169ec31c72",
+      "bytes": 3297,
+      "source": "/workspace/shared/gtsd-geometry-phase6-1012/evidence/exact_geometry_diff.json"
+    },
+    "GTSD_Phase6/geometry/encoder/outputs/encoder_candidate_assembly.json": {
+      "sha256": "6b0fc211d156c592e30212adc99b0bb08a9c95852ab8cea927ec0c8bd1c6f5cc",
+      "bytes": 234605,
+      "source": "/workspace/shared/gtsd-geometry-phase6-1012/outputs/encoder_candidate_assembly.json"
+    },
+    "GTSD_Phase6/geometry/encoder/outputs/render_blind_bore_section.png": {
+      "sha256": "0e9a5fc847c95d1b2ecc753a633c2551bdbc4f2c3b2c8ebb5fafe63e0e643cfe",
+      "bytes": 691760,
+      "source": "/workspace/shared/gtsd-geometry-phase6-1012/outputs/render_blind_bore_section.png"
+    },
+    "GTSD_Phase6/geometry/encoder/outputs/render_candidate_core.png": {
+      "sha256": "4b749ed1b7e6c28e32f37715f9e858bb4efc5d8ff6d254c9f7d688428daaa0d9",
+      "bytes": 645424,
+      "source": "/workspace/shared/gtsd-geometry-phase6-1012/outputs/render_candidate_core.png"
+    },
+    "GTSD_Phase6/geometry/encoder/outputs/render_candidate_front.png": {
+      "sha256": "0ff8a797b75a9e68798de254086c28958d4f4194d40ee345c8679af828635e02",
+      "bytes": 658179,
+      "source": "/workspace/shared/gtsd-geometry-phase6-1012/outputs/render_candidate_front.png"
+    },
+    "GTSD_Phase6/geometry/encoder/outputs/render_candidate_rear.png": {
+      "sha256": "6529092db5c931e58da8f1692378879808df9854b8d615932304ee66824bf758",
+      "bytes": 612255,
+      "source": "/workspace/shared/gtsd-geometry-phase6-1012/outputs/render_candidate_rear.png"
+    },
+    "GTSD_Phase6/geometry/encoder/outputs/render_comparison.png": {
+      "sha256": "e496d6fb54e4b91cf88c806a7694283c32460bf0e7979af3ee86af9c420f45a1",
+      "bytes": 620239,
+      "source": "/workspace/shared/gtsd-geometry-phase6-1012/outputs/render_comparison.png"
+    },
+    "GTSD_Phase6/geometry/pantograph/plan_candidate/MANIFEST.sha256": {
+      "sha256": "6db87b9cf320da7ee5b00a26314d415ecc8b6ad6bca93aad0841e76b9a2a4476",
+      "bytes": 3389,
+      "source": "/workspace/shared/gtsd-pantograph-cad-phase6-1012/plan_candidate/MANIFEST.sha256"
+    },
+    "GTSD_Phase6/geometry/pantograph/plan_candidate/candidate_selection_contract.json": {
+      "sha256": "8e89269d53eff393534acf785be4cde9c242fb2d2fd3e5ca3f8e139b11812828",
+      "bytes": 734,
+      "source": "/workspace/shared/gtsd-pantograph-cad-phase6-1012/plan_candidate/candidate_selection_contract.json"
+    },
+    "GTSD_Phase6/geometry/pantograph/plan_candidate/outputs/cad_plan_candidate_overlay.png": {
+      "sha256": "949f2dc1bd80cc9ac29b3d047381f9eb3d0aae91c8005449603db0fd528e8f40",
+      "bytes": 384999,
+      "source": "/workspace/shared/gtsd-pantograph-cad-phase6-1012/plan_candidate/outputs/cad_plan_candidate_overlay.png"
+    },
+    "GTSD_Phase6/geometry/pantograph/plan_candidate/outputs/pantograph_plan_candidate.json": {
+      "sha256": "69a16c8872b7cac00e932f247c71adc6883174019d4e3c8affe6043834d21afd",
+      "bytes": 7583,
+      "source": "/workspace/shared/gtsd-pantograph-cad-phase6-1012/plan_candidate/outputs/pantograph_plan_candidate.json"
+    },
+    "GTSD_Phase6/geometry/pantograph/plan_candidate/outputs/render_plan_relief_oblique.png": {
+      "sha256": "6e4a258f935e56a2b958751ffac6a70cfccad5b5010acb3815be4a824465f3a9",
+      "bytes": 1195834,
+      "source": "/workspace/shared/gtsd-pantograph-cad-phase6-1012/plan_candidate/outputs/render_plan_relief_oblique.png"
+    },
+    "GTSD_Phase6/geometry/pantograph/plan_candidate/outputs/side_top_alignment.json": {
+      "sha256": "4a58b566fada816605bbfdaf6db69b6027ce0dd107126013e6f9d0d264ea30c2",
+      "bytes": 13465,
+      "source": "/workspace/shared/gtsd-pantograph-cad-phase6-1012/plan_candidate/outputs/side_top_alignment.json"
+    },
+    "GTSD_Phase6/cad_body/READONLY_DEPENDENCIES.json": {
+      "sha256": "af3d1e6b1c8abd4154e1d9f8088209a3f82353037ca4d1ebef23256c1a733e4e",
+      "bytes": 1877,
+      "source": "/workspace/shared/gtsd-physics-cad-body-1012/READONLY_DEPENDENCIES.json"
+    },
+    "GTSD_Phase6/cad_body/SOURCE_FREEZE.json": {
+      "sha256": "ed33ccdb6282f7bf1418ce05eff677b665be14c5247b622468be401c7732a7da",
+      "bytes": 1333,
+      "source": "/workspace/shared/gtsd-physics-cad-body-1012/SOURCE_FREEZE.json"
+    },
+    "GTSD_Phase6/cad_body/cad_body/__init__.py": {
+      "sha256": "8fd2d60ee687a024a39678aa0d0ba612f92d00a2a5c998276621c503e2d1169a",
+      "bytes": 84,
+      "source": "/workspace/shared/gtsd-physics-cad-body-1012/cad_body/__init__.py"
+    },
+    "GTSD_Phase6/cad_body/cad_body/bootstrap.py": {
+      "sha256": "79319c5a301bc248c5b3c67acbc1201d5844272aaad2b4397be9b989c0183ac8",
+      "bytes": 1242,
+      "source": "/workspace/shared/gtsd-physics-cad-body-1012/cad_body/bootstrap.py"
+    },
+    "GTSD_Phase6/cad_body/cad_body/geometry.py": {
+      "sha256": "8d54f44fa58c85dcbf6065293905721e29319bf59716c7eac6044b16ee49348f",
+      "bytes": 4721,
+      "source": "/workspace/shared/gtsd-physics-cad-body-1012/cad_body/geometry.py"
+    },
+    "GTSD_Phase6/cad_body/cad_body/model.py": {
+      "sha256": "da81c5d8a0f3db1197d97fa2faad3fd11919fcf0e8219c5325f778d449b65e28",
+      "bytes": 7427,
+      "source": "/workspace/shared/gtsd-physics-cad-body-1012/cad_body/model.py"
+    },
+    "GTSD_Phase6/cad_body/cad_body/plant.py": {
+      "sha256": "0e76e4e50ab216ca85375369a2a7c3caa3817b81a271959cb0435f548196b45a",
+      "bytes": 3738,
+      "source": "/workspace/shared/gtsd-physics-cad-body-1012/cad_body/plant.py"
+    },
+    "GTSD_Phase6/cad_body/evidence/retained_mesh_identity.json": {
+      "sha256": "dd590bc3615d0980094d25c967f0c0d14cb38f552fc152aae1890fd2b700999a",
+      "bytes": 361924,
+      "source": "/workspace/shared/gtsd-physics-cad-body-1012/evidence/retained_mesh_identity.json"
+    },
+    "GTSD_Phase6/cad_body/replacement_manifest.json": {
+      "sha256": "2d1847f9ea3b6501d11cbd1d688bca4bccce9f68757dc6ae2fc23ca2977d08f4",
+      "bytes": 1251,
+      "source": "/workspace/shared/gtsd-physics-cad-body-1012/replacement_manifest.json"
+    },
+    "GTSD_Phase6/cad_doors/FAN82_INTERFACE_CONTRACT.json": {
+      "sha256": "b56b541f62e2b4dd94e42e42cf6cf3c1cd802327aad749cd5c24cf4692ab6115",
+      "bytes": 2896,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/FAN82_INTERFACE_CONTRACT.json"
+    },
+    "GTSD_Phase6/cad_doors/FAN82_SOURCE_FREEZE.json": {
+      "sha256": "b084492e62453f8bd8fdf8bec25c82efd547fc8cd28095aaa0ed1baf30811526",
+      "bytes": 1342,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/FAN82_SOURCE_FREEZE.json"
+    },
+    "GTSD_Phase6/cad_doors/PHYSICAL_INTERFACE_CONTRACT.json": {
+      "sha256": "1c2eacefb601016d029282c75833077569196cdd89dd4dffe1c17bf086dcc253",
+      "bytes": 5588,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/PHYSICAL_INTERFACE_CONTRACT.json"
+    },
+    "GTSD_Phase6/cad_doors/READONLY_DEPENDENCIES.json": {
+      "sha256": "faffb86dc8609e1f1380584d54a497b578c19e9c760a43ec5bd7defd2e0457a7",
+      "bytes": 2066,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/READONLY_DEPENDENCIES.json"
+    },
+    "GTSD_Phase6/cad_doors/SOURCE_FREEZE.json": {
+      "sha256": "4a9d61522b2bd05293be8436a79bce1aa62e2ba2070437e466d73d0c76e42046",
+      "bytes": 1585,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/SOURCE_FREEZE.json"
+    },
+    "GTSD_Phase6/cad_doors/cad_doors/__init__.py": {
+      "sha256": "cbb5e9c78b8237cf81dfe3873a178dd066618cbbe3e2142cd6035ded30848b2e",
+      "bytes": 87,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/cad_doors/__init__.py"
+    },
+    "GTSD_Phase6/cad_doors/cad_doors/bootstrap.py": {
+      "sha256": "870df3c0d4e142066c251a02a507e2fe6fd95f7f19ef68cee42ed32ef64c42b5",
+      "bytes": 916,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/cad_doors/bootstrap.py"
+    },
+    "GTSD_Phase6/cad_doors/cad_doors/geometry.py": {
+      "sha256": "c1c6bb23e257810e02c9e8bcff2babdb580e888d1897613ac983594650b2a602",
+      "bytes": 3573,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/cad_doors/geometry.py"
+    },
+    "GTSD_Phase6/cad_doors/cad_doors/model.py": {
+      "sha256": "8f52acff75035bedeca1990c60d5e79f089279255287c1bfd54bee5e5d780ef2",
+      "bytes": 14426,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/cad_doors/model.py"
+    },
+    "GTSD_Phase6/cad_doors/cad_doors/moments.py": {
+      "sha256": "c1959b25505889d122fa25da1af0b2a29ee8d8e3e6998540c596a93b18eb9893",
+      "bytes": 2151,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/cad_doors/moments.py"
+    },
+    "GTSD_Phase6/cad_doors/cad_doors/plant.py": {
+      "sha256": "4a30255fe0c5d7170900085236cb26e750bdcd0abd11871e8985da1e6d1b7713",
+      "bytes": 11210,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/cad_doors/plant.py"
+    },
+    "GTSD_Phase6/cad_doors/evidence/fan82/fan_spec.json": {
+      "sha256": "8356a9ce386ce64a1d860aea880fb9f0abb2f0c37e5dff2805326bb2e4719485",
+      "bytes": 29685,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/evidence/fan82/fan_spec.json"
+    },
+    "GTSD_Phase6/cad_doors/evidence/fan82/native_ports.json": {
+      "sha256": "9a28f35d7da6822e40b73d677626c44e6c4fe3d6e02c749f9079d88a33b1440f",
+      "bytes": 1244,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/evidence/fan82/native_ports.json"
+    },
+    "GTSD_Phase6/cad_doors/evidence/fan82/retained_mesh_identity.json": {
+      "sha256": "c1784dc94517c680bad4f5eb710d3fdb008f07a780a3248185bb07612c98320a",
+      "bytes": 513441,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/evidence/fan82/retained_mesh_identity.json"
+    },
+    "GTSD_Phase6/cad_doors/evidence/retained_mesh_identity.json": {
+      "sha256": "710458616c8662fca39db951b86f9e9d0dedfc3e4a70fd8825eb8f1c7d3eb677",
+      "bytes": 355774,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/evidence/retained_mesh_identity.json"
+    },
+    "GTSD_Phase6/cad_doors/fan82/__init__.py": {
+      "sha256": "f718f4da672d235c9d935b70360104b0bb03cdfaa34422c99a81f2e66556c27a",
+      "bytes": 80,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/fan82/__init__.py"
+    },
+    "GTSD_Phase6/cad_doors/fan82/bootstrap.py": {
+      "sha256": "745a9546dd333c302d239a5b7a39a0c66b01d2584cb3126ed1cf25f75d73907f",
+      "bytes": 576,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/fan82/bootstrap.py"
+    },
+    "GTSD_Phase6/cad_doors/fan82/geometry.py": {
+      "sha256": "2ef316af43ed12ba290bc4fd54b8be7693221d7b82f7e4a1f05f866ea57e4da3",
+      "bytes": 1019,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/fan82/geometry.py"
+    },
+    "GTSD_Phase6/cad_doors/fan82/model.py": {
+      "sha256": "56685007965717b1ccc701eedfad5a59741377d8413a3c2cf2d0236dafbac759",
+      "bytes": 4134,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/fan82/model.py"
+    },
+    "GTSD_Phase6/cad_doors/fan82/plant.py": {
+      "sha256": "b21a53fe2cced3ca8c621415474629aed2ab30a7ca0d0042e433a9df7843d41a",
+      "bytes": 35329,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/fan82/plant.py"
+    },
+    "GTSD_Phase6/cad_doors/fan82/runtime.py": {
+      "sha256": "7fbb4ee18e91566bae832a10c192beea663cc64f94369703ebacd0b7b77e37ff",
+      "bytes": 10063,
+      "source": "/workspace/shared/gtsd-physics-cad-doors-1012/fan82/runtime.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/assembly_contract.json": {
+      "sha256": "2fa2c4cef2b623a3ed2a2db0e479eaca434efc824b2494e8a1695017bab5993c",
+      "bytes": 3997,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/assembly_contract.json"
+    },
+    "GTSD_Phase5_Internal_Coupling/brake_contact_bench/__init__.py": {
+      "sha256": "bee873cc59390e026af62a2976cabdb9357d2d946e122e280e209bba94173baa",
+      "bytes": 98,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/brake_contact_bench/__init__.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/brake_contact_bench/kernels.py": {
+      "sha256": "573a94c7fd2f64c2640bb7628cfa0232c11d235a0a28d393604f675d1842ce43",
+      "bytes": 1198,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/brake_contact_bench/kernels.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/brake_contact_bench/model.py": {
+      "sha256": "f0883dedfe38e800a49c608f6cdf74f8a61f60f2b6b0f186fbad8c23cc9ff64c",
+      "bytes": 5822,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/brake_contact_bench/model.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/brake_contact_bench/runtime.py": {
+      "sha256": "2a0a88d4b4f33af902bf4ed763a4d506458389567da56abedb5f649dc845b9c0",
+      "bytes": 32396,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/brake_contact_bench/runtime.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/brake_contact_bench/vendor/b8/pneumatics.py": {
+      "sha256": "a96d81f70e347319ad055c0fea4aa06933f762e01910522377c81a16dc6a1915",
+      "bytes": 25685,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/brake_contact_bench/vendor/b8/pneumatics.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/brake_contact_bench/vendor/b9/valve_dynamics.py": {
+      "sha256": "acd3d855c74db93793022f4f39c6acec821c1a51f168b23d4c56f0f3b4908a50",
+      "bytes": 12040,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/brake_contact_bench/vendor/b9/valve_dynamics.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/brake_integrated/__init__.py": {
+      "sha256": "30a4c0361f5c978ed37e797069e9d067ee0915b9d7c07fa9b5f02fad6926e352",
+      "bytes": 75,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/brake_integrated/__init__.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/brake_integrated/model.py": {
+      "sha256": "8118949fe4ddaa64b44c5f2322788e9f3a9c1217162ac27619395aeac3e41e10",
+      "bytes": 4366,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/brake_integrated/model.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/brake_integrated/plant.py": {
+      "sha256": "d07ea2f43a8d1aca8d4f8f4866294f42b0c20fdce2f4cf027e751318576ac4d1",
+      "bytes": 46221,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/brake_integrated/plant.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/brake_integrated/pneumatics.py": {
+      "sha256": "cd8a441770263e9848f22a749bf3c3002bbf11d587c4978b7331b38a85bdc142",
+      "bytes": 32150,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/brake_integrated/pneumatics.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/cables/__init__.py": {
+      "sha256": "28a7e5dfa104ebf05ec8715a00d1fa6b88fd5327cb5457e082399e82c3a70698",
+      "bytes": 95,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/cables/__init__.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/cables/model.py": {
+      "sha256": "4643bdc4d3589a1084e21685ee681d31c29f3d19417acf77cef829164b602eac",
+      "bytes": 8571,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/cables/model.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/cables/runtime.py": {
+      "sha256": "2809aaef9650a9895e7fe4e4a01ebdafdaf7abf9f41b76a5a94c814c8671aa94",
+      "bytes": 6509,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/cables/runtime.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/cables/source_routes.json": {
+      "sha256": "4a50e1019bc334302375ee3858053f3a39c410f76de9e3fd519a21ce04dc96c3",
+      "bytes": 9009,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/cables/source_routes.json"
+    },
+    "GTSD_Phase5_Internal_Coupling/cables_support/__init__.py": {
+      "sha256": "fcfdbac232ee2989522721596ab1b100336c00b41255dec8eeb300ac2897c09c",
+      "bytes": 91,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/cables_support/__init__.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/cables_support/model.py": {
+      "sha256": "2c98b778879cebe7a182f983d108ddfd1d50aaa2c29aae0ccd9c5cfc85d5497c",
+      "bytes": 6313,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/cables_support/model.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/cables_support/runtime.py": {
+      "sha256": "c9abc4aae5041b486683ac0c0c96a5f4a020d35da05510e84f8d82baeae123d3",
+      "bytes": 26346,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/cables_support/runtime.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/components/pantograph_manifest.json": {
+      "sha256": "c16b760debceea86e7720ec9ff1dae70a2a7397151d7af903615de10c49c76d1",
+      "bytes": 16476,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/components/pantograph_manifest.json"
+    },
+    "GTSD_Phase5_Internal_Coupling/console/controller.py": {
+      "sha256": "f1b47cb2f05b457c50ec55d4efa20ce151f82199be6cfcd5e52ffa8ba5b1efaf",
+      "bytes": 18285,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/console/controller.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/console/extended_plant.py": {
+      "sha256": "78a195f29a71322aa4a7f407b7ef128aafb6dffc5ebd29a70e0ef76cca1b1d1e",
+      "bytes": 29786,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/console/extended_plant.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/console/live_plant.py": {
+      "sha256": "8aab7b1e2b7eeb9b7090d69f349170a668d9b25408919bccd650647458e7e5d9",
+      "bytes": 20507,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/console/live_plant.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/console/phase5_controller.py": {
+      "sha256": "922139cb7c604e200f5038494894956ba753dbb9c5f6ec9c4a12e55cf34fdf0b",
+      "bytes": 1190,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/console/phase5_controller.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/console/phase5_display.py": {
+      "sha256": "b21a6ebb9c89a04864c17b5a2f5f8a644e3bbd97c09445b2a3ddf69257d06dc2",
+      "bytes": 3016,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/console/phase5_display.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/console/server.py": {
+      "sha256": "ff6f4e99f3b45804dfb3c38f6f2cec6792408421ccc6221c6708a000280d89a1",
+      "bytes": 10265,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/console/server.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/console/web/app.js": {
+      "sha256": "544213e3d054e61ebfed5519e46af70c273177e136559d524ad5ec9cf5baa1f0",
+      "bytes": 17858,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/console/web/app.js"
+    },
+    "GTSD_Phase5_Internal_Coupling/console/web/contact-sections.js": {
+      "sha256": "481397bbdd285b9aa8b6f09c2524f80dfe5d874711211a5e764f257df926945e",
+      "bytes": 5599,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/console/web/contact-sections.js"
+    },
+    "GTSD_Phase5_Internal_Coupling/console/web/index.html": {
+      "sha256": "0e4373141a5922ceb6e1a332e78d45110c32ac6aa2d3de149e40514b3b75e0e5",
+      "bytes": 6524,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/console/web/index.html"
+    },
+    "GTSD_Phase5_Internal_Coupling/console/web/internal-systems.js": {
+      "sha256": "c18b86d3fef86318bcf35531dc240e737d1b530c3c348a7925605f1cd06b290b",
+      "bytes": 8202,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/console/web/internal-systems.js"
+    },
+    "GTSD_Phase5_Internal_Coupling/console/web/style.css": {
+      "sha256": "439883635c915a799260ad21e0959d5a9e9ff63ef9dd262f820f9aef7051d747",
+      "bytes": 3888,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/console/web/style.css"
+    },
+    "GTSD_Phase5_Internal_Coupling/console/web/ui-model.js": {
+      "sha256": "c9ca7cb5b8a98b72211ab756a2638017994ed44b66a02045723b093f745a7fdb",
+      "bytes": 7663,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/console/web/ui-model.js"
+    },
+    "GTSD_Phase5_Internal_Coupling/doors/__init__.py": {
+      "sha256": "50d3649cc6b7077297ea9e2aaa5a82744e1aea0c591559c6a49e3bb9d644c3a4",
+      "bytes": 112,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/doors/__init__.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/doors/doors.py": {
+      "sha256": "98200264478286238327bab1624a6396a3721cc614c5bb270fbb75206407940c",
+      "bytes": 30607,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/doors/doors.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/integrated/integrated_model.py": {
+      "sha256": "6390c8098c1b0fee0b5ef09cba8b0e694a1e9095d720c6a2364c98ec1d686210",
+      "bytes": 10022,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/integrated/integrated_model.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/integrated/run_integrated.py": {
+      "sha256": "fad99ce2b56b0498127543c90000a70892174aa956faee7fcfb97a9531b23b37",
+      "bytes": 19913,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/integrated/run_integrated.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/integrated/vendor/bogie/PARAMETER_PROVENANCE.csv": {
+      "sha256": "e5a748866743e655ac0bbfafa344aa495e80fed03bd5fa77a3e7ba28c3de48c8",
+      "bytes": 6811,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/integrated/vendor/bogie/PARAMETER_PROVENANCE.csv"
+    },
+    "GTSD_Phase5_Internal_Coupling/integrated/vendor/bogie/binding.json": {
+      "sha256": "a91e0af50e6680942504a5256fd6c94e553da3067f8fcc72d8da7df0ab003b80",
+      "bytes": 216382,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/integrated/vendor/bogie/binding.json"
+    },
+    "GTSD_Phase5_Internal_Coupling/integrated/vendor/bogie/model.py": {
+      "sha256": "1d33a8356b2b3503062715c1980819e93a05ff8b53d9048d5351f7171520dc48",
+      "bytes": 9795,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/integrated/vendor/bogie/model.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/integrated/vendor/bogie/parameters.json": {
+      "sha256": "504b2917b10deddb8357d20a58224b865cd39479e02ec99557b261896bb438ee",
+      "bytes": 17174,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/integrated/vendor/bogie/parameters.json"
+    },
+    "GTSD_Phase5_Internal_Coupling/integrated/vendor/bogie/run_suite.py": {
+      "sha256": "bc657b0ae9d3fbb4de5174ac2e6d6bde6a7e1ea46b505ca4aaab495968ef4585",
+      "bytes": 11756,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/integrated/vendor/bogie/run_suite.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/integrated/vendor/drive_brake/coupling.py": {
+      "sha256": "ed0fc9ae2bcf1c7ad08430e41e46bed1268db4e72f2f93d59a517aef0c9442fa",
+      "bytes": 10550,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/integrated/vendor/drive_brake/coupling.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/integrated/vendor/drive_brake/parameters.json": {
+      "sha256": "2bca2bf3ccd60a0e924515dc32c85f2971908e579eae91e3a7c628f273339ef7",
+      "bytes": 15764,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/integrated/vendor/drive_brake/parameters.json"
+    },
+    "GTSD_Phase5_Internal_Coupling/integrated/vendor/drive_brake/run_suite.py": {
+      "sha256": "0cc08bc06f3504f96eb657e402c593a8d2f98bdc7980ace4defc3bea06beac0d",
+      "bytes": 20166,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/integrated/vendor/drive_brake/run_suite.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/integrated/vendor/drive_brake/vendor/b8/pneumatics.py": {
+      "sha256": "a96d81f70e347319ad055c0fea4aa06933f762e01910522377c81a16dc6a1915",
+      "bytes": 25685,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/integrated/vendor/drive_brake/vendor/b8/pneumatics.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/integrated/vendor/drive_brake/vendor/b9/valve_dynamics.py": {
+      "sha256": "acd3d855c74db93793022f4f39c6acec821c1a51f168b23d4c56f0f3b4908a50",
+      "bytes": 12040,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/integrated/vendor/drive_brake/vendor/b9/valve_dynamics.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/integrated/vendor/pantograph/binding.json": {
+      "sha256": "ff044adf41f48e644fef563195dc2bb088fffaad54f5a8252e0cea32a31c069d",
+      "bytes": 52193,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/integrated/vendor/pantograph/binding.json"
+    },
+    "GTSD_Phase5_Internal_Coupling/integrated/vendor/pantograph/pantograph.py": {
+      "sha256": "de9008491150610442f2df441faf5b3f549679d1bb76622a2334bd2d1d33f0c3",
+      "bytes": 31860,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/integrated/vendor/pantograph/pantograph.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/integrated/vendor/pantograph/parameters.json": {
+      "sha256": "cdedcb1d71805a998dff703ac01060120ed00946e580e0758105f12becb9b137",
+      "bytes": 9873,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/integrated/vendor/pantograph/parameters.json"
+    },
+    "GTSD_Phase5_Internal_Coupling/internal_registry/__init__.py": {
+      "sha256": "31d9f4f8abaab5b2fc1b776d944bcb5f412b66969442224e3bf8bf4b75af9b24",
+      "bytes": 86,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/internal_registry/__init__.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/internal_registry/registry.json": {
+      "sha256": "472fa87a9ab5f590f1be2c2d6e49e46a01d3177067040e2528412ad098f92a8a",
+      "bytes": 6617605,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/internal_registry/registry.json"
+    },
+    "GTSD_Phase5_Internal_Coupling/internal_registry/registry.py": {
+      "sha256": "63286381026fb222c2896934f5a048d78820e2c7dc5e3d365187788fa80e61e2",
+      "bytes": 9343,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/internal_registry/registry.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/internal_registry/source_review.json": {
+      "sha256": "8185533148ceac6026d7a4f9e3ee2553003f1aa7c5006df10adefcfca388497b",
+      "bytes": 6009,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/internal_registry/source_review.json"
+    },
+    "GTSD_Phase5_Internal_Coupling/pneumatic_aux/__init__.py": {
+      "sha256": "963ba8e44410a3a80745568fb352350b0ba3bf9ca7427a75319db7590b15bfbf",
+      "bytes": 255,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/pneumatic_aux/__init__.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/pneumatic_aux/kernels.py": {
+      "sha256": "0f151bb40bbded6b0127f783eecec9a22fb7cd6a6f7323db3db57ae56f02e7a3",
+      "bytes": 1755,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/pneumatic_aux/kernels.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/pneumatic_aux/plant.py": {
+      "sha256": "aeacc95dca5db92c9cfe255576b48e0dac4b84ee26e3f1c5863d1d1eca0cee43",
+      "bytes": 28633,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/pneumatic_aux/plant.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/pneumatic_aux/vendor/b10/auxiliaries.py": {
+      "sha256": "03f55f0238a191fed0e8289183248547d51497d56b20c50b2905d143de1e65e4",
+      "bytes": 20826,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/pneumatic_aux/vendor/b10/auxiliaries.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/pneumatic_aux/vendor/b8/pneumatics.py": {
+      "sha256": "a96d81f70e347319ad055c0fea4aa06933f762e01910522377c81a16dc6a1915",
+      "bytes": 25685,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/pneumatic_aux/vendor/b8/pneumatics.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/pneumatic_aux/vendor/b9/valve_dynamics.py": {
+      "sha256": "acd3d855c74db93793022f4f39c6acec821c1a51f168b23d4c56f0f3b4908a50",
+      "bytes": 12040,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/pneumatic_aux/vendor/b9/valve_dynamics.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/requirements.txt": {
+      "sha256": "6ba8c8e8036eaf8e285b7f8daf34e65fa5c38a2e73cacc7c6d14592898bcc96f",
+      "bytes": 95,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/requirements.txt"
+    },
+    "GTSD_Phase5_Internal_Coupling/scripts/component_bogie.py": {
+      "sha256": "74d3c03b8dbc7da14ee27afa8e2c496ea58498b51c63da5917fc3ee58d66d6f6",
+      "bytes": 28679,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/scripts/component_bogie.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/scripts/component_pantograph.py": {
+      "sha256": "5c12a82d7a72f9e68fed934657208044ba27138d1a3db794ddb99048345c9e54",
+      "bytes": 22461,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/scripts/component_pantograph.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/sensors/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/sensors/__init__.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/sensors/observe.py": {
+      "sha256": "8c4ae7e22a29bafefa7cc9dc0061aeba837b2e82ff489914381caca04becbb27",
+      "bytes": 5263,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/sensors/observe.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/support_integrated/__init__.py": {
+      "sha256": "652ebb708efbb39084f2b7db9fb83323e3f4fca2842e8782d4e3170ec292a2ef",
+      "bytes": 86,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/support_integrated/__init__.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/support_integrated/combined.py": {
+      "sha256": "9e3ef25ca1e31cfe3ce14b7e40a506264c9090874b013d7963eb9e4e28503ec6",
+      "bytes": 5920,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/support_integrated/combined.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/support_integrated/model.py": {
+      "sha256": "d0ce6a334a5a7e8e231ba7402f4d95ddece4479bfbd1e79636c5672456566881",
+      "bytes": 6459,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/support_integrated/model.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/support_integrated/runtime.py": {
+      "sha256": "d4dddf628ed4b95ffc059e7e5e9afa0db7296b4a8da136a73d35e815ab64e74d",
+      "bytes": 20649,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/support_integrated/runtime.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/suspension_3d/__init__.py": {
+      "sha256": "d73fce816e24713ec6508336d18a13fa86b04dc68b8518faa188026e9dca44e5",
+      "bytes": 158,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/suspension_3d/__init__.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/suspension_3d/air_coupling.py": {
+      "sha256": "fd5205c05728cb4c84132d7420687011aec41db16d46ba9a29ece179ea023e15",
+      "bytes": 9052,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/suspension_3d/air_coupling.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/suspension_3d/model.py": {
+      "sha256": "cd5bd7fe450ee6b053f9a3e39cae03b52cde63f7ee5a1c5eded837486e789dfe",
+      "bytes": 21628,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/suspension_3d/model.py"
+    },
+    "GTSD_Phase5_Internal_Coupling/web/geometry.json": {
+      "sha256": "7d925267cbfb18d39e64041ea851fc13db2e3a13f6d403eab386235f741d8f43",
+      "bytes": 13162114,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/web/geometry.json"
+    },
+    "GTSD_Phase5_Internal_Coupling/web/physics-model.js": {
+      "sha256": "fb23369a8b29c2e4b16a839c51a93d98373dfe8a860f623b21b4cc2b02d37e5f",
+      "bytes": 4280,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/web/physics-model.js"
+    },
+    "GTSD_Phase5_Internal_Coupling/web/render-model.js": {
+      "sha256": "9be3744c00a1a55c64d0ec6ece1bfd15a9a0fb53c1c4c882e05dec3fe563cf3e",
+      "bytes": 26462,
+      "source": "/workspace/shared/gtsd-physics-phase5-1012/web/render-model.js"
+    },
+    "GTSD_Phase6/auxiliary/PHASE6_READONLY_BASELINE.json": {
+      "sha256": "d7312c027f7b09bd2d1416219354f2b675a8eef10dbe89610e591bc940a06cb0",
+      "bytes": 4389,
+      "source": "/workspace/shared/gtsd-physics-phase6-aux-1012/PHASE6_READONLY_BASELINE.json"
+    },
+    "GTSD_Phase6/auxiliary/PHASE6_SOURCE_FREEZE.json": {
+      "sha256": "fade0b2909463c0835cc7eafd6fc9213682ebb484d868f3572d7e91d77909134",
+      "bytes": 827,
+      "source": "/workspace/shared/gtsd-physics-phase6-aux-1012/PHASE6_SOURCE_FREEZE.json"
+    },
+    "GTSD_Phase6/auxiliary/aux_mount/__init__.py": {
+      "sha256": "66217be79bc31930c57f9877e284602993b37560f318581381cc745d62e95751",
+      "bytes": 70,
+      "source": "/workspace/shared/gtsd-physics-phase6-aux-1012/aux_mount/__init__.py"
+    },
+    "GTSD_Phase6/auxiliary/aux_mount/bootstrap.py": {
+      "sha256": "d8f194f6551ac83e22b3e52fe7cd04f6bb47128a6603051961a21155dca0af9e",
+      "bytes": 1887,
+      "source": "/workspace/shared/gtsd-physics-phase6-aux-1012/aux_mount/bootstrap.py"
+    },
+    "GTSD_Phase6/auxiliary/aux_mount/model.py": {
+      "sha256": "1611b5d0871d2fe37737d8b416dad6768bdf8387f56905bfd540ebc77cf310a5",
+      "bytes": 23572,
+      "source": "/workspace/shared/gtsd-physics-phase6-aux-1012/aux_mount/model.py"
+    },
+    "GTSD_Phase6/auxiliary/aux_mount/observations.py": {
+      "sha256": "ea8b308f58813889272e2b840e03db6adedc5cb819a0cf297559d600c613d0f8",
+      "bytes": 2062,
+      "source": "/workspace/shared/gtsd-physics-phase6-aux-1012/aux_mount/observations.py"
+    },
+    "GTSD_Phase6/auxiliary/aux_mount/plant.py": {
+      "sha256": "47b6dde8c54590c5713fbf995e74493595dab9d59b7cfba1fe24f311a527d8eb",
+      "bytes": 34199,
+      "source": "/workspace/shared/gtsd-physics-phase6-aux-1012/aux_mount/plant.py"
+    },
+    "GTSD_Phase6/auxiliary/aux_mount/pneumatics.py": {
+      "sha256": "0fc64be74b11ad4051cbf28de6ff814bfad6f67bf6e8603edd57b94d39136bc4",
+      "bytes": 24068,
+      "source": "/workspace/shared/gtsd-physics-phase6-aux-1012/aux_mount/pneumatics.py"
+    },
+    "GTSD_Phase6/auxiliary/aux_mount/runtime.py": {
+      "sha256": "aad8141fcc9ce9449eb67d238b084fa87e9ea7ac1b1ae5643d498255166865af",
+      "bytes": 17251,
+      "source": "/workspace/shared/gtsd-physics-phase6-aux-1012/aux_mount/runtime.py"
+    },
+    "GTSD_Phase6/truth/geometry_constraints.json": {
+      "sha256": "a5b13eca28931689a08b757b87da9bc17f51c091777bc2c0e653bf883e684819",
+      "bytes": 18056,
+      "source": "/workspace/shared/gtsd-real-truth-matrix-1012/geometry_constraints.json"
+    },
+    "GTSD_Phase6/truth/independent_findings.json": {
+      "sha256": "ac859a179a12b3df3bd55ec6f9dc5865726efdb853d1c2ddda79cb5fb4819f6a",
+      "bytes": 2261,
+      "source": "/workspace/shared/gtsd-real-truth-matrix-1012/independent_findings.json"
+    },
+    "GTSD_Phase6/truth/readonly_difference_proposals.json": {
+      "sha256": "f2fc5d1e8dd55f3563b8b559cd3bd36552926225aeefc01dc3ceb6bda13bcea4",
+      "bytes": 3224,
+      "source": "/workspace/shared/gtsd-real-truth-matrix-1012/readonly_difference_proposals.json"
+    },
+    "GTSD_Phase6/truth/truth_matrix_109.json": {
+      "sha256": "93961c20d6440af38eab1edc5a839e9358aa485a39776133f94cae01e2a0b01d",
+      "bytes": 333519,
+      "source": "/workspace/shared/gtsd-real-truth-matrix-1012/truth_matrix_109.json"
+    }
+  },
+  "total_bytes": 32517957,
+  "symlinks": false,
+  "frozen_bytes_modified": false,
+  "selection": "Observed startup/preflight/HTTP file opens plus complete frozen console admission file sets and explicitly allowlisted independent candidate review assets. No scientific evidence archives or system Python/NumPy/MuJoCo libraries copied.",
+  "source_root_map": {
+    "gtsd-console-strict82-1012": "GTSD_Phase6/console_strict82",
+    "gtsd-console-fan82-1012": "GTSD_Phase6/console_fan82",
+    "gtsd-console-phase7-1012": "GTSD_Phase6/console_phase7",
+    "gtsd-console-phase6-1012": "GTSD_Phase6/console_phase6",
+    "gtsd-physics-phase5-1012": "GTSD_Phase5_Internal_Coupling",
+    "gtsd-physics-phase6-aux-1012": "GTSD_Phase6/auxiliary",
+    "gtsd-physics-cad-body-1012": "GTSD_Phase6/cad_body",
+    "gtsd-physics-cad-doors-1012": "GTSD_Phase6/cad_doors",
+    "gtsd-real-truth-matrix-1012": "GTSD_Phase6/truth",
+    "gtsd-geometry-phase6-1012": "GTSD_Phase6/geometry/encoder",
+    "gtsd-body-cad-phase6-1012": "GTSD_Phase6/geometry/body",
+    "gtsd-door-cad-phase7-1012": "GTSD_Phase6/geometry/doors",
+    "gtsd-pantograph-cad-phase6-1012": "GTSD_Phase6/geometry/pantograph",
+    "gtsd-four-fan-performance-1012": "GTSD_Phase6/strict82",
+    "gtsd-coupling-performance-1012": "GTSD_Phase6/trusted_rollback"
+  }
+}

@@ -1,0 +1,2072 @@
+{
+  "schema": "gtsd-cad-end-door-validation-v1",
+  "passed": true,
+  "checked": 333,
+  "checks": [
+    {
+      "name": "geometry_hash_matches_contract",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "readonly_source_identity_END_OPENING_CONTRACT.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "readonly_source_identity_vectors_zw_1F51.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "readonly_source_identity_vectors_zw_3E1B.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "readonly_source_identity_geometry.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "readonly_source_identity_source_geometry_evidence.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "readonly_source_identity_body_cad_candidate_meshes.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "readonly_source_identity_cad_profiles.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_mesh_names",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "exactly_four_leaves",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "main_opening_height_is_450_not_453",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_end_frame_-1_2B75_2B77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_end_frame_-1_2B75_2B77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_end_frame_-1_2B75_2B77",
+      "passed": true,
+      "details": [
+        0.0005479485270945641,
+        0.0005479485270945648
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_end_frame_-1_2B75_2B77",
+      "passed": true,
+      "details": [
+        2.147525967760467e-05,
+        8.923395458226335e-05,
+        0.00011070839235824111
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_end_frame_+1_2B75_2B77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_end_frame_+1_2B75_2B77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_end_frame_+1_2B75_2B77",
+      "passed": true,
+      "details": [
+        0.0005479485270945641,
+        0.0005479485270945528
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_end_frame_+1_2B75_2B77",
+      "passed": true,
+      "details": [
+        2.147525967760467e-05,
+        8.923395458226335e-05,
+        0.00011070839235824111
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_door_leaf_end_neg_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_door_leaf_end_neg_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_door_leaf_end_neg_y_neg",
+      "passed": true,
+      "details": [
+        0.0002960018261946646,
+        0.0002960018261946714
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_door_leaf_end_neg_y_neg",
+      "passed": true,
+      "details": [
+        4.859921284686488e-06,
+        5.3000241056214475e-06,
+        1.0159834388070518e-05
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_fan_shroud_end_neg_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_fan_shroud_end_neg_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_fan_shroud_end_neg_y_neg",
+      "passed": true,
+      "details": [
+        6.594707721937435e-06,
+        6.594707721937369e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_fan_shroud_end_neg_y_neg",
+      "passed": true,
+      "details": [
+        9.114075145448756e-09,
+        9.114076419057883e-09,
+        1.8210565605970428e-08
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_door_handle_-1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_door_handle_-1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_door_handle_-1",
+      "passed": true,
+      "details": [
+        2.364871453137612e-05,
+        2.3648714531376044e-05
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_door_handle_-1",
+      "passed": true,
+      "details": [
+        8.914720178239327e-10,
+        2.1167369264848163e-08,
+        2.1380824678927587e-08
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_electrical_caution",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_-1_-1_0.019",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_-1_-1_0.03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_-1_-1_0.041",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_-1_-1_0.052",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_spoke",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_fan_spoke",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_fan_spoke",
+      "passed": true,
+      "details": [
+        8.501148882132107e-07,
+        8.501148882131913e-07
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_fan_spoke",
+      "passed": true,
+      "details": [
+        1.108488161820743e-12,
+        7.66791065570312e-10,
+        7.667910683900838e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_spoke.001",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_fan_spoke.001",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_fan_spoke.001",
+      "passed": true,
+      "details": [
+        8.501146772884622e-07,
+        8.501146772880602e-07
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_fan_spoke.001",
+      "passed": true,
+      "details": [
+        1.108487498556063e-12,
+        7.667910197071983e-10,
+        7.667910223522029e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_spoke.002",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_fan_spoke.002",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_fan_spoke.002",
+      "passed": true,
+      "details": [
+        8.501172901910813e-07,
+        8.501172901909923e-07
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_fan_spoke.002",
+      "passed": true,
+      "details": [
+        1.1084943543441986e-12,
+        7.667933386676012e-10,
+        7.667933425572496e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_hinge_-1_-1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_hinge_-1_-1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_hinge_-1_-1_0.454",
+      "passed": true,
+      "details": [
+        5.143256537778587e-06,
+        5.143256537778387e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_hinge_-1_-1_0.454",
+      "passed": true,
+      "details": [
+        9.152716898739456e-11,
+        9.526911893096544e-10,
+        9.526917132957553e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_hinge_-1_-1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_hinge_-1_-1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_hinge_-1_-1_0.744",
+      "passed": true,
+      "details": [
+        5.143256121254229e-06,
+        5.143256121254462e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_hinge_-1_-1_0.744",
+      "passed": true,
+      "details": [
+        9.152716157510715e-11,
+        9.52690965262092e-10,
+        9.526914892481503e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_emergency_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_emergency_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_emergency_stop",
+      "passed": true,
+      "details": [
+        1.971593347977885e-05,
+        1.9715933479779108e-05
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_emergency_stop",
+      "passed": true,
+      "details": [
+        2.814409999408279e-09,
+        2.81441165421398e-09,
+        5.1556326315764795e-09
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_emergency_stop.001",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_emergency_stop.001",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_emergency_stop.001",
+      "passed": true,
+      "details": [
+        8.385697230094068e-06,
+        8.385697230093968e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_emergency_stop.001",
+      "passed": true,
+      "details": [
+        5.669645884570841e-10,
+        5.669651233881401e-10,
+        9.326741619103887e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_door_leaf_end_neg_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_door_leaf_end_neg_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_door_leaf_end_neg_y_pos",
+      "passed": true,
+      "details": [
+        0.0002960018244027296,
+        0.0002960018244027581
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_door_leaf_end_neg_y_pos",
+      "passed": true,
+      "details": [
+        4.85992123451565e-06,
+        5.300024012389298e-06,
+        1.0159834244668201e-05
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_fan_shroud_end_neg_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_fan_shroud_end_neg_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_fan_shroud_end_neg_y_pos",
+      "passed": true,
+      "details": [
+        6.594708871677402e-06,
+        6.594708871677413e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_fan_shroud_end_neg_y_pos",
+      "passed": true,
+      "details": [
+        9.11407641642717e-09,
+        9.114078391316733e-09,
+        1.8210568846141708e-08
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_electrical_caution.001",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_-1_1_0.019",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_-1_1_0.03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_-1_1_0.041",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_-1_1_0.052",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_spoke.003",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_fan_spoke.003",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_fan_spoke.003",
+      "passed": true,
+      "details": [
+        8.501148248481897e-07,
+        8.501148248485988e-07
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_fan_spoke.003",
+      "passed": true,
+      "details": [
+        1.1084881010159506e-12,
+        7.667908941938456e-10,
+        7.667908970277819e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_spoke.004",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_fan_spoke.004",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_fan_spoke.004",
+      "passed": true,
+      "details": [
+        8.501147089695797e-07,
+        8.501147089691642e-07
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_fan_spoke.004",
+      "passed": true,
+      "details": [
+        1.1084875289769578e-12,
+        7.667911053505377e-10,
+        7.667911080494044e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_spoke.005",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_fan_spoke.005",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_fan_spoke.005",
+      "passed": true,
+      "details": [
+        8.501172585081846e-07,
+        8.501172585087311e-07
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_fan_spoke.005",
+      "passed": true,
+      "details": [
+        1.1084943239419541e-12,
+        7.667932529027112e-10,
+        7.667932569559586e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_hinge_-1_1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_hinge_-1_1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_hinge_-1_1_0.454",
+      "passed": true,
+      "details": [
+        5.143256537778587e-06,
+        5.143256537778351e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_hinge_-1_1_0.454",
+      "passed": true,
+      "details": [
+        9.152716898739456e-11,
+        9.526911893096544e-10,
+        9.526917132957553e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_hinge_-1_1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_hinge_-1_1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_hinge_-1_1_0.744",
+      "passed": true,
+      "details": [
+        5.143256121254229e-06,
+        5.143256121253957e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_hinge_-1_1_0.744",
+      "passed": true,
+      "details": [
+        9.152716157510715e-11,
+        9.52690965262092e-10,
+        9.526914892481503e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_round_blank_cap_-1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_round_blank_cap_-1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_round_blank_cap_-1",
+      "passed": true,
+      "details": [
+        2.2548451282977518e-06,
+        2.254845128297811e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_round_blank_cap_-1",
+      "passed": true,
+      "details": [
+        7.41987679986173e-11,
+        7.419904792761929e-11,
+        1.348685559216543e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_door_leaf_end_pos_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_door_leaf_end_pos_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_door_leaf_end_pos_y_neg",
+      "passed": true,
+      "details": [
+        0.0002960018261946646,
+        0.00029600182619470797
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_door_leaf_end_pos_y_neg",
+      "passed": true,
+      "details": [
+        4.859921284686488e-06,
+        5.3000241056214475e-06,
+        1.0159834388070518e-05
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_fan_shroud_end_pos_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_fan_shroud_end_pos_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_fan_shroud_end_pos_y_neg",
+      "passed": true,
+      "details": [
+        6.594707721937435e-06,
+        6.594707721937355e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_fan_shroud_end_pos_y_neg",
+      "passed": true,
+      "details": [
+        9.114075145448756e-09,
+        9.114076419057883e-09,
+        1.8210565605970428e-08
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_electrical_caution.002",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_1_-1_0.019",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_1_-1_0.03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_1_-1_0.041",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_1_-1_0.052",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_spoke.006",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_fan_spoke.006",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_fan_spoke.006",
+      "passed": true,
+      "details": [
+        8.501148882132107e-07,
+        8.501148882136262e-07
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_fan_spoke.006",
+      "passed": true,
+      "details": [
+        1.108488161820743e-12,
+        7.66791065570312e-10,
+        7.667910683900838e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_spoke.007",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_fan_spoke.007",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_fan_spoke.007",
+      "passed": true,
+      "details": [
+        8.501146772884622e-07,
+        8.501146772891605e-07
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_fan_spoke.007",
+      "passed": true,
+      "details": [
+        1.108487498556063e-12,
+        7.667910197071983e-10,
+        7.667910223522029e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_spoke.008",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_fan_spoke.008",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_fan_spoke.008",
+      "passed": true,
+      "details": [
+        8.501172901910813e-07,
+        8.501172901904719e-07
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_fan_spoke.008",
+      "passed": true,
+      "details": [
+        1.1084943543441986e-12,
+        7.667933386676012e-10,
+        7.667933425572496e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_hinge_1_-1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_hinge_1_-1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_hinge_1_-1_0.454",
+      "passed": true,
+      "details": [
+        5.143256537778587e-06,
+        5.143256537778318e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_hinge_1_-1_0.454",
+      "passed": true,
+      "details": [
+        9.152716898739456e-11,
+        9.526911893096544e-10,
+        9.526917132957553e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_hinge_1_-1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_hinge_1_-1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_hinge_1_-1_0.744",
+      "passed": true,
+      "details": [
+        5.143256121254229e-06,
+        5.1432561212543165e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_hinge_1_-1_0.744",
+      "passed": true,
+      "details": [
+        9.152716157510715e-11,
+        9.52690965262092e-10,
+        9.526914892481503e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_emergency_stop.002",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_emergency_stop.002",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_emergency_stop.002",
+      "passed": true,
+      "details": [
+        1.971593347977885e-05,
+        1.971593347977946e-05
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_emergency_stop.002",
+      "passed": true,
+      "details": [
+        2.814409999408279e-09,
+        2.81441165421398e-09,
+        5.1556326315764795e-09
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_emergency_stop.003",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_emergency_stop.003",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_emergency_stop.003",
+      "passed": true,
+      "details": [
+        8.385697230094068e-06,
+        8.385697230093981e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_emergency_stop.003",
+      "passed": true,
+      "details": [
+        5.669645884570841e-10,
+        5.669651233881401e-10,
+        9.326741619103887e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_door_leaf_end_pos_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_door_leaf_end_pos_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_door_leaf_end_pos_y_pos",
+      "passed": true,
+      "details": [
+        0.0002960018244027296,
+        0.00029600182440272447
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_door_leaf_end_pos_y_pos",
+      "passed": true,
+      "details": [
+        4.85992123451565e-06,
+        5.300024012389298e-06,
+        1.0159834244668201e-05
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_fan_shroud_end_pos_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_fan_shroud_end_pos_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_fan_shroud_end_pos_y_pos",
+      "passed": true,
+      "details": [
+        6.594708871677402e-06,
+        6.594708871677384e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_fan_shroud_end_pos_y_pos",
+      "passed": true,
+      "details": [
+        9.11407641642717e-09,
+        9.114078391316733e-09,
+        1.8210568846141708e-08
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_door_handle_1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_door_handle_1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_door_handle_1",
+      "passed": true,
+      "details": [
+        2.364871737832094e-05,
+        2.3648717378320872e-05
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_door_handle_1",
+      "passed": true,
+      "details": [
+        8.914722017679976e-10,
+        2.1167371845641864e-08,
+        2.1380827183956007e-08
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_electrical_caution.003",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_1_1_0.019",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_1_1_0.03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_1_1_0.041",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_grille_1_1_0.052",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_spoke.009",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_fan_spoke.009",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_fan_spoke.009",
+      "passed": true,
+      "details": [
+        8.501148248481897e-07,
+        8.501148248478563e-07
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_fan_spoke.009",
+      "passed": true,
+      "details": [
+        1.1084881010159506e-12,
+        7.667908941938456e-10,
+        7.667908970277819e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_spoke.010",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_fan_spoke.010",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_fan_spoke.010",
+      "passed": true,
+      "details": [
+        8.501147089695797e-07,
+        8.501147089692572e-07
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_fan_spoke.010",
+      "passed": true,
+      "details": [
+        1.1084875289769578e-12,
+        7.667911053505377e-10,
+        7.667911080494044e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_fan_spoke.011",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_fan_spoke.011",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_fan_spoke.011",
+      "passed": true,
+      "details": [
+        8.501172585081846e-07,
+        8.501172585084369e-07
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_fan_spoke.011",
+      "passed": true,
+      "details": [
+        1.1084943239419541e-12,
+        7.667932529027112e-10,
+        7.667932569559586e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_hinge_1_1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_hinge_1_1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_hinge_1_1_0.454",
+      "passed": true,
+      "details": [
+        5.143256537778587e-06,
+        5.1432565377783646e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_hinge_1_1_0.454",
+      "passed": true,
+      "details": [
+        9.152716898739456e-11,
+        9.526911893096544e-10,
+        9.526917132957553e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_hinge_1_1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_hinge_1_1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_hinge_1_1_0.744",
+      "passed": true,
+      "details": [
+        5.143256121254229e-06,
+        5.143256121253876e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_hinge_1_1_0.744",
+      "passed": true,
+      "details": [
+        9.152716157510715e-11,
+        9.52690965262092e-10,
+        9.526914892481503e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_round_blank_cap_1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_round_blank_cap_1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_round_blank_cap_1",
+      "passed": true,
+      "details": [
+        2.2548451282977518e-06,
+        2.254845128297899e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_round_blank_cap_1",
+      "passed": true,
+      "details": [
+        7.41987679986173e-11,
+        7.419904792761929e-11,
+        1.348685559216543e-10
+      ]
+    },
+    {
+      "name": "finite_mesh_CAD_mounted_SHELL_supply_indicator",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "closed_two_manifold_CAD_mounted_SHELL_supply_indicator",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_volume_CAD_mounted_SHELL_supply_indicator",
+      "passed": true,
+      "details": [
+        5.248843429594446e-06,
+        5.248843429594315e-06
+      ]
+    },
+    {
+      "name": "positive_tensor_CAD_mounted_SHELL_supply_indicator",
+      "passed": true,
+      "details": [
+        2.629849640327882e-10,
+        2.629851040052744e-10,
+        4.3848951106764816e-10
+      ]
+    },
+    {
+      "name": "frame_exact_profile_volume_CAD_end_frame_-1_2B75_2B77",
+      "passed": true,
+      "details": {
+        "actual": 0.0005479485270945641,
+        "CAD_double_precision_volume": 0.0005479555730371734,
+        "float32_thickness_adjusted_expected": 0.0005479485183265602
+      }
+    },
+    {
+      "name": "frame_thickness_float32_CAD_end_frame_-1_2B75_2B77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frame_main_opening_clear_CAD_end_frame_-1_2B75_2B77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frame_material_present_CAD_end_frame_-1_2B75_2B77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frame_exact_profile_volume_CAD_end_frame_+1_2B75_2B77",
+      "passed": true,
+      "details": {
+        "actual": 0.0005479485270945641,
+        "CAD_double_precision_volume": 0.0005479555730371734,
+        "float32_thickness_adjusted_expected": 0.0005479485183265602
+      }
+    },
+    {
+      "name": "frame_thickness_float32_CAD_end_frame_+1_2B75_2B77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frame_main_opening_clear_CAD_end_frame_+1_2B75_2B77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frame_material_present_CAD_end_frame_+1_2B75_2B77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "door_sheet_and_real_fan_bore_volume_end_neg_y_neg",
+      "passed": true,
+      "details": [
+        0.0002960018261946646,
+        0.00029600182826877784
+      ]
+    },
+    {
+      "name": "fan_bore_open_end_neg_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "leaf_width_458mm_end_neg_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "leaf_height_448mm_end_neg_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "float32_leaf_bounds_end_neg_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "hinge_at_outer_edge_end_neg_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "outward_sign_end_neg_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "door_sheet_and_real_fan_bore_volume_end_neg_y_pos",
+      "passed": true,
+      "details": [
+        0.0002960018244027296,
+        0.00029600182826877784
+      ]
+    },
+    {
+      "name": "fan_bore_open_end_neg_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "leaf_width_458mm_end_neg_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "leaf_height_448mm_end_neg_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "float32_leaf_bounds_end_neg_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "hinge_at_outer_edge_end_neg_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "outward_sign_end_neg_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "door_sheet_and_real_fan_bore_volume_end_pos_y_neg",
+      "passed": true,
+      "details": [
+        0.0002960018261946646,
+        0.00029600182826877784
+      ]
+    },
+    {
+      "name": "fan_bore_open_end_pos_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "leaf_width_458mm_end_pos_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "leaf_height_448mm_end_pos_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "float32_leaf_bounds_end_pos_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "hinge_at_outer_edge_end_pos_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "outward_sign_end_pos_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "door_sheet_and_real_fan_bore_volume_end_pos_y_pos",
+      "passed": true,
+      "details": [
+        0.0002960018244027296,
+        0.00029600182826877784
+      ]
+    },
+    {
+      "name": "fan_bore_open_end_pos_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "leaf_width_458mm_end_pos_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "leaf_height_448mm_end_pos_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "float32_leaf_bounds_end_pos_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "hinge_at_outer_edge_end_pos_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "outward_sign_end_pos_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_door_handle_-1",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 1.044407676908707e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_electrical_caution",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 3.921916070926318e-09
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_-1_-1_0.019",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.2432289800226854e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_-1_-1_0.03",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.2432289800226854e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_-1_-1_0.041",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.2432289800226854e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_-1_-1_0.052",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.2432289800226854e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_spoke",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.2432289800226854e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_spoke.001",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.2432289800226854e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_spoke.002",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.2432289800226854e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_hinge_-1_-1_0.454",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.01494792558917e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_hinge_-1_-1_0.744",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3221289317552995e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_emergency_stop",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 1.5086611871997546e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_emergency_stop.001",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 1.5086611871997546e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_electrical_caution.001",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 5.833093114545196e-09
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_-1_1_0.019",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3624592127045552e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_-1_1_0.03",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3624592127045552e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_-1_1_0.041",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3624592127045552e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_-1_1_0.052",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3624592127045552e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_spoke.003",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3624592127045552e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_spoke.004",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3624592127045552e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_spoke.005",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3624592127045552e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_hinge_-1_1_0.454",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.132636201455124e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_hinge_-1_1_0.744",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.4249545976400983e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_round_blank_cap_-1",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 1.722032329731293e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_electrical_caution.002",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 3.921916070926318e-09
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_1_-1_0.019",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.2432289800226854e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_1_-1_0.03",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.2432289800226854e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_1_-1_0.041",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.2432289800226854e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_1_-1_0.052",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.2432289800226854e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_spoke.006",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.2432289800226854e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_spoke.007",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.2432289800226854e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_spoke.008",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.2432289800226854e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_hinge_1_-1_0.454",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.01494792558917e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_hinge_1_-1_0.744",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3221289317552995e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_emergency_stop.002",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 1.5086611871997546e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_emergency_stop.003",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 1.5086611871997546e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_door_handle_1",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 1.0331501238394198e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_electrical_caution.003",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 5.833093114545196e-09
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_1_1_0.019",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3624592127045552e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_1_1_0.03",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3624592127045552e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_1_1_0.041",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3624592127045552e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_grille_1_1_0.052",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3624592127045552e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_spoke.009",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3624592127045552e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_spoke.010",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3624592127045552e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_fan_spoke.011",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.3624592127045552e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_hinge_1_1_0.454",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.132636201455124e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_hinge_1_1_0.744",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 2.4249545976400983e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_round_blank_cap_1",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 1.722032329731293e-08
+      }
+    },
+    {
+      "name": "rigid_attachment_preserves_shape_SHELL_supply_indicator",
+      "passed": true,
+      "details": {
+        "max_bidirectional_vertex_distance_m": 1.7057280438545222e-08
+      }
+    },
+    {
+      "name": "replacement_list_unique",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_old_objects_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ten_end_ribs_removed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_original_access_leaf_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_door_leaf_end_neg_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_fan_shroud_end_neg_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_door_handle_-1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_electrical_caution",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_-1_-1_0.019",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_-1_-1_0.03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_-1_-1_0.041",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_-1_-1_0.052",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_spoke",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_spoke.001",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_spoke.002",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_hinge_-1_-1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_hinge_-1_-1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_emergency_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_emergency_stop.001",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_door_leaf_end_neg_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_fan_shroud_end_neg_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_electrical_caution.001",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_-1_1_0.019",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_-1_1_0.03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_-1_1_0.041",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_-1_1_0.052",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_spoke.003",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_spoke.004",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_spoke.005",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_hinge_-1_1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_hinge_-1_1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_round_blank_cap_-1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_door_leaf_end_pos_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_fan_shroud_end_pos_y_neg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_electrical_caution.002",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_1_-1_0.019",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_1_-1_0.03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_1_-1_0.041",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_1_-1_0.052",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_spoke.006",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_spoke.007",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_spoke.008",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_hinge_1_-1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_hinge_1_-1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_emergency_stop.002",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_emergency_stop.003",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_door_leaf_end_pos_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_fan_shroud_end_pos_y_pos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_door_handle_1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_electrical_caution.003",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_1_1_0.019",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_1_1_0.03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_1_1_0.041",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_grille_1_1_0.052",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_spoke.009",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_spoke.010",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_fan_spoke.011",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_hinge_1_1_0.454",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_hinge_1_1_0.744",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_round_blank_cap_1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_door_ownership_CAD_mounted_SHELL_supply_indicator",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "mesh_count": 59,
+  "closed_solid_count": 39,
+  "massless_surface_count": 20,
+  "maximum_rigid_attachment_shape_error_m": 2.4249545976400983e-08,
+  "CAD_profile_chord_sag_mm": 0.001,
+  "fan_bore_chord_sag_mm": 0.015059065189787502,
+  "as_built_certified": false,
+  "physics_bound": false,
+  "collision_scope": "Volume, aperture, dimensions, coordinates and opening signs tested; full shell sweep/hinge contact not certified."
+}

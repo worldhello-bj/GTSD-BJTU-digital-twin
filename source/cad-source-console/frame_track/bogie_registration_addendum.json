@@ -1,0 +1,1447 @@
+{
+  "schema": "gtsd-bogie-cad-visual-registration-v1",
+  "baseline": {
+    "catalog_sha256": "06290655bd929b3e531f24a7adb0b829d3423c22da29fca8e96a10e7394e32eb",
+    "mapping_bundle_sha256": "4f55aa9e56d6b9c04936c5a1162993e6f5bf2d2eaf3fcf7cc30c4beae5bbdeea",
+    "glb_sha256": "fff3f9fffd83e380435eba3a0f9ba975b87557b794d671ee175ea842235bbfa9",
+    "native_sha256": "4c27733cca3d1296afa28fde4f496647e8f6c153a61645a639f515c9c0b0868c",
+    "accepted_solver_identity": {
+      "variant": "cad_doors_four_fans_scoped_rollback",
+      "model_identity_sha256": "9bd3b5a7f26a40c44f1b77f5c71b9ec53488e682170ddfda651a939aa96323db",
+      "source_geometry_sha256": "2b6314a577bc67c5781268d797c57be6674ef16d42eed9f47731238cfc299fed",
+      "nq": 94,
+      "nv": 82,
+      "time_s": 0.0,
+      "steps": 0,
+      "source_state_path": "/workspace/shared/gtsd-strict82-portable-acceptance-1012/evidence/relocated_initial_state.json",
+      "source_geometry_path": "/workspace/shared/gtsd-strict82-portable-acceptance-1012/evidence/relocated_initial_geometry.json",
+      "source_binding_path": "/workspace/shared/gtsd-strict82-portable-acceptance-1012/evidence/relocated_initial_binding.json"
+    },
+    "frame_reference_pose": {
+      "position": [
+        0.0,
+        0.0,
+        0.2301
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "source_profiles_sha256": "c6a40ce828a6438b615734f3343e19c98f324c95fa7ab80fc27d98e712870039",
+  "parameter_source_map_sha256": "0ec9093dc0bfbae54ffae2aff9fe68c35ba421c0efa7a34bda9beb883a2adae6",
+  "raw_dxf_sha256": "73f9eeb145cfbda5f01d1302d3e6e09d2d81e707ff7776187d899100f654f143",
+  "original_v2_mesh_json_sha256": "f310246cb65a9e94bc68762f637161dc258d96cbc75abfc20e70ae112b566976",
+  "original_v2_full_mesh_triangle_matches": 12,
+  "status": "SOURCE_SUPPORTED_VISUAL_CANDIDATES_WITH_EXPLICIT_UNRESOLVED_CONNECTIONS",
+  "rigid_rows": [
+    {
+      "name": "CAD_arm_web_negative_X",
+      "body_name": "arm_carrier_1",
+      "mode": "reviewed_visual_rigid_only",
+      "source_triangle_sha256": "3f2245d212242d03c20ca42bce37ac0afe04b648cfdc850e06f1378fdf6733bb",
+      "geometry_witness_sha256": "d1b2047e3f5e8555f54d083ab17c37311f6c0d5264df18b0d80e82534c6cc7ad",
+      "source_refs": "[\"C6B\", \"C6C\"]",
+      "source_metadata": {
+        "id": "CAD_arm_web_negative_X",
+        "group": "bogie",
+        "display_group": "CAD rebuilt interfaces",
+        "geometry_status": "CAD_XZ_EXACT_CANDIDATE_Y_DEPTH",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"C6B\", \"C6C\"]",
+        "properties": "{\"evidence_level\": \"CAD_XZ_EXACT_Y_DEPTH_CANDIDATE\", \"source_handles\": \"C6B,C6C\", \"physical_status\": \"INDEPENDENT_CANDIDATE_NOT_ACTIVE_PHYSICS\", \"registered_component_id\": \"DTB-C0069\", \"candidate_variant_id\": \"CAD-NATIVE-SUPPORT-STACK-V2-1012\", \"station\": \"negative_X\", \"role\": \"source closed arm web with candidate through-depth continuation\", \"mass_status\": \"UNKNOWN_REAL_MASS_UNIT_DENSITY_MOMENTS_ONLY\"}",
+        "candidate_variant_id": "CAD-NATIVE-SUPPORT-STACK-V2-1012",
+        "assembly_layer": "NEW_CAD_AXLEBOX_AND_SUPPORT_STACK",
+        "assembly_status": "SOURCE_XZ_REGISTERED_Y_DEPTH_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_arm_web_negative_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          -0.38983336091041565,
+          -0.3114166557788849,
+          0.12234994024038315
+        ],
+        [
+          -0.2266671061515808,
+          -0.27941668033599854,
+          0.18368308246135712
+        ]
+      ],
+      "assembly_role": "source_supported_carrier_visual_candidate",
+      "registration_justification": "CAD shared pivot/side-frame assembly provides a visual ownership candidate; not physical fastening certification.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": true,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No added mass. Carrier materials remain inside the existing 1 kg per-carrier equivalent; upper seats remain inside the existing 24 kg frame equivalent. Neither budget is physically measured.",
+      "original_v2_complete_triangles_preserved": true,
+      "pivot_evidence": {
+        "station": "negative_X",
+        "body_name": "arm_carrier_1",
+        "source_hole_handles": [
+          "C5B",
+          "C6C"
+        ],
+        "raw_dxf_blocks": [
+          "zw$32A1",
+          "zw$3320"
+        ],
+        "native_child_insert_handles": [
+          "3A0C",
+          "3A0B"
+        ],
+        "diameter_mm": 20.5,
+        "source_world_axis_point_m": [
+          -0.2566669628937525,
+          -0.31541666666665996,
+          0.15368333600040718
+        ],
+        "existing_carrier_reference_origin_m": [
+          -0.256666962893767,
+          0.0,
+          0.1536833359994504
+        ],
+        "source_minus_existing_origin_m": [
+          1.4488410471358293e-14,
+          -0.31541666666665996,
+          9.5679020262196e-13
+        ],
+        "transverse_axis_interpretation": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "xz_axis_offset_m": 9.568998933385653e-13,
+        "joint_position_change_required": false,
+        "note": "Different Y coordinate is a point on the same existing transverse hinge line, not a 315 mm joint offset. Source hole axis and Y depth remain candidate 3D interpretation.",
+        "never_bind_to_wheel_spin": true
+      }
+    },
+    {
+      "name": "CAD_axlebox_outer_interface_negative_X",
+      "body_name": "arm_carrier_1",
+      "mode": "reviewed_visual_rigid_only",
+      "source_triangle_sha256": "4d3f9333fcec131a4d110dd1b1291bd563fb904ff51acef3f4db757e6a26a85c",
+      "geometry_witness_sha256": "e64b63e0795e59915a494220531cb42c76f284da76fe853b3e46d2c7f679cddd",
+      "source_refs": "[\"C51\", \"C5A\", \"C52\", \"C59\", \"C53\", \"C54\", \"C55\", \"C56\", \"C57\", \"C58\", \"C5B\"]",
+      "source_metadata": {
+        "id": "CAD_axlebox_outer_interface_negative_X",
+        "group": "bogie",
+        "display_group": "CAD rebuilt interfaces",
+        "geometry_status": "CAD_XZ_EXACT_CANDIDATE_Y_DEPTH",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"C51\", \"C5A\", \"C52\", \"C59\", \"C53\", \"C54\", \"C55\", \"C56\", \"C57\", \"C58\", \"C5B\"]",
+        "properties": "{\"evidence_level\": \"CAD_XZ_EXACT_Y_DEPTH_CANDIDATE\", \"source_handles\": \"C51,C5A,C52,C59,C53,C54,C55,C56,C57,C58,C5B\", \"physical_status\": \"INDEPENDENT_CANDIDATE_NOT_ACTIVE_PHYSICS\", \"registered_component_id\": \"DTB-C0069\", \"candidate_variant_id\": \"CAD-NATIVE-SUPPORT-STACK-V2-1012\", \"station\": \"negative_X\", \"role\": \"perforated source outer-interface profile\", \"mass_status\": \"UNKNOWN_REAL_MASS_UNIT_DENSITY_MOMENTS_ONLY\"}",
+        "candidate_variant_id": "CAD-NATIVE-SUPPORT-STACK-V2-1012",
+        "assembly_layer": "NEW_CAD_AXLEBOX_AND_SUPPORT_STACK",
+        "assembly_status": "SOURCE_XZ_REGISTERED_Y_DEPTH_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_axlebox_outer_interface_negative_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          -0.4805774986743927,
+          -0.31941667199134827,
+          0.1061752662062645
+        ],
+        [
+          -0.2266671061515808,
+          -0.3114166557788849,
+          0.20068342983722687
+        ]
+      ],
+      "assembly_role": "source_supported_carrier_visual_candidate",
+      "registration_justification": "CAD shared pivot/side-frame assembly provides a visual ownership candidate; not physical fastening certification.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": true,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No added mass. Carrier materials remain inside the existing 1 kg per-carrier equivalent; upper seats remain inside the existing 24 kg frame equivalent. Neither budget is physically measured.",
+      "original_v2_complete_triangles_preserved": true,
+      "pivot_evidence": {
+        "station": "negative_X",
+        "body_name": "arm_carrier_1",
+        "source_hole_handles": [
+          "C5B",
+          "C6C"
+        ],
+        "raw_dxf_blocks": [
+          "zw$32A1",
+          "zw$3320"
+        ],
+        "native_child_insert_handles": [
+          "3A0C",
+          "3A0B"
+        ],
+        "diameter_mm": 20.5,
+        "source_world_axis_point_m": [
+          -0.2566669628937525,
+          -0.31541666666665996,
+          0.15368333600040718
+        ],
+        "existing_carrier_reference_origin_m": [
+          -0.256666962893767,
+          0.0,
+          0.1536833359994504
+        ],
+        "source_minus_existing_origin_m": [
+          1.4488410471358293e-14,
+          -0.31541666666665996,
+          9.5679020262196e-13
+        ],
+        "transverse_axis_interpretation": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "xz_axis_offset_m": 9.568998933385653e-13,
+        "joint_position_change_required": false,
+        "note": "Different Y coordinate is a point on the same existing transverse hinge line, not a 315 mm joint offset. Source hole axis and Y depth remain candidate 3D interpretation.",
+        "never_bind_to_wheel_spin": true
+      }
+    },
+    {
+      "name": "CAD_upper_seat_3A44_negative_X",
+      "body_name": "frame",
+      "mode": "reviewed_visual_rigid_only",
+      "source_triangle_sha256": "fda51f23631a803d795b6ba7acdc6b6597f4cee0c773c8f85d3af7c47c1d7730",
+      "geometry_witness_sha256": "e2c7f57e78d11fb4ddeb83878fe881cac47458941cdb6b41210aefbd750ae57c",
+      "source_refs": "[\"3A44\"]",
+      "source_metadata": {
+        "group": "bogie",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"3A44\"]",
+        "geometry_status": "NATIVE_XZ_PLATE_DEPTH100MM_CANDIDATE",
+        "assembly_layer": "NEW_CAD_SUSPENSION_STACK",
+        "source_instance_path": "[\"526A4\", \"4AF88\", \"4AF74\"]",
+        "negative_station_mirror_status": "NO_MIRROR_EACH_STATION_USES_ITS_OWN_NATIVE_SOURCE_PROFILE",
+        "bounds_native_XZ_mm": "[[-462.6666666709716, 305.20224447792293], [-370.6666666709716, 308.20224447792316]]",
+        "assumptions": "{\"transverse_depth_mm\": 100, \"physical_spring_mate_confirmed\": false}",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_upper_seat_3A44_negative_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          -0.46266666054725647,
+          -0.36541667580604553,
+          0.3052022457122803
+        ],
+        [
+          -0.37066665291786194,
+          -0.2654166519641876,
+          0.30820223689079285
+        ]
+      ],
+      "assembly_role": "source_side_frame_upper_seat_visual",
+      "registration_justification": "CAD shared pivot/side-frame assembly provides a visual ownership candidate; not physical fastening certification.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No added mass. Carrier materials remain inside the existing 1 kg per-carrier equivalent; upper seats remain inside the existing 24 kg frame equivalent. Neither budget is physically measured.",
+      "original_v2_complete_triangles_preserved": false
+    },
+    {
+      "name": "CAD_arm_web_positive_X",
+      "body_name": "arm_carrier_2",
+      "mode": "reviewed_visual_rigid_only",
+      "source_triangle_sha256": "a1ba7310d8ae00806b427ed09786e859bd62ca85fa2ad52c0e821efedc309b10",
+      "geometry_witness_sha256": "9fa1076dbe3cfbb32adef41dc384d0733b4cae9d19913acff875c527bfd67a1f",
+      "source_refs": "[\"C6B\", \"C6C\"]",
+      "source_metadata": {
+        "id": "CAD_arm_web_positive_X",
+        "group": "bogie",
+        "display_group": "CAD rebuilt interfaces",
+        "geometry_status": "CAD_XZ_EXACT_CANDIDATE_Y_DEPTH",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"C6B\", \"C6C\"]",
+        "properties": "{\"evidence_level\": \"CAD_XZ_EXACT_Y_DEPTH_CANDIDATE\", \"source_handles\": \"C6B,C6C\", \"physical_status\": \"INDEPENDENT_CANDIDATE_NOT_ACTIVE_PHYSICS\", \"registered_component_id\": \"DTB-C0069\", \"candidate_variant_id\": \"CAD-NATIVE-SUPPORT-STACK-V2-1012\", \"station\": \"positive_X\", \"role\": \"source closed arm web with candidate through-depth continuation\", \"mass_status\": \"UNKNOWN_REAL_MASS_UNIT_DENSITY_MOMENTS_ONLY\"}",
+        "candidate_variant_id": "CAD-NATIVE-SUPPORT-STACK-V2-1012",
+        "assembly_layer": "NEW_CAD_AXLEBOX_AND_SUPPORT_STACK",
+        "assembly_status": "SOURCE_XZ_REGISTERED_Y_DEPTH_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_arm_web_positive_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          0.2266671061515808,
+          -0.3114166557788849,
+          0.12234994024038315
+        ],
+        [
+          0.38983336091041565,
+          -0.27941668033599854,
+          0.18368308246135712
+        ]
+      ],
+      "assembly_role": "source_supported_carrier_visual_candidate",
+      "registration_justification": "CAD shared pivot/side-frame assembly provides a visual ownership candidate; not physical fastening certification.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": true,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No added mass. Carrier materials remain inside the existing 1 kg per-carrier equivalent; upper seats remain inside the existing 24 kg frame equivalent. Neither budget is physically measured.",
+      "original_v2_complete_triangles_preserved": true,
+      "pivot_evidence": {
+        "station": "positive_X",
+        "body_name": "arm_carrier_2",
+        "source_hole_handles": [
+          "C5B",
+          "C6C"
+        ],
+        "raw_dxf_blocks": [
+          "zw$32A1",
+          "zw$3320"
+        ],
+        "native_child_insert_handles": [
+          "3A0C",
+          "3A0B"
+        ],
+        "diameter_mm": 20.5,
+        "source_world_axis_point_m": [
+          0.2566669628850068,
+          -0.31541666666665996,
+          0.15368333600040718
+        ],
+        "existing_carrier_reference_origin_m": [
+          0.256666962893767,
+          0.0,
+          0.1536833359994504
+        ],
+        "source_minus_existing_origin_m": [
+          -8.760214775804798e-12,
+          -0.31541666666665996,
+          9.5679020262196e-13
+        ],
+        "transverse_axis_interpretation": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "xz_axis_offset_m": 8.812310163065192e-12,
+        "joint_position_change_required": false,
+        "note": "Different Y coordinate is a point on the same existing transverse hinge line, not a 315 mm joint offset. Source hole axis and Y depth remain candidate 3D interpretation.",
+        "never_bind_to_wheel_spin": true
+      }
+    },
+    {
+      "name": "CAD_axlebox_outer_interface_positive_X",
+      "body_name": "arm_carrier_2",
+      "mode": "reviewed_visual_rigid_only",
+      "source_triangle_sha256": "b10440bd6e0ff3dd6e9b528f547307086dc30eb255c4fe32ee6cde296cdaf033",
+      "geometry_witness_sha256": "74857674b961991cae4b932395a1b614c5bafba88128cb57283a5906430a7a2e",
+      "source_refs": "[\"C51\", \"C5A\", \"C52\", \"C59\", \"C53\", \"C54\", \"C55\", \"C56\", \"C57\", \"C58\", \"C5B\"]",
+      "source_metadata": {
+        "id": "CAD_axlebox_outer_interface_positive_X",
+        "group": "bogie",
+        "display_group": "CAD rebuilt interfaces",
+        "geometry_status": "CAD_XZ_EXACT_CANDIDATE_Y_DEPTH",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"C51\", \"C5A\", \"C52\", \"C59\", \"C53\", \"C54\", \"C55\", \"C56\", \"C57\", \"C58\", \"C5B\"]",
+        "properties": "{\"evidence_level\": \"CAD_XZ_EXACT_Y_DEPTH_CANDIDATE\", \"source_handles\": \"C51,C5A,C52,C59,C53,C54,C55,C56,C57,C58,C5B\", \"physical_status\": \"INDEPENDENT_CANDIDATE_NOT_ACTIVE_PHYSICS\", \"registered_component_id\": \"DTB-C0069\", \"candidate_variant_id\": \"CAD-NATIVE-SUPPORT-STACK-V2-1012\", \"station\": \"positive_X\", \"role\": \"perforated source outer-interface profile\", \"mass_status\": \"UNKNOWN_REAL_MASS_UNIT_DENSITY_MOMENTS_ONLY\"}",
+        "candidate_variant_id": "CAD-NATIVE-SUPPORT-STACK-V2-1012",
+        "assembly_layer": "NEW_CAD_AXLEBOX_AND_SUPPORT_STACK",
+        "assembly_status": "SOURCE_XZ_REGISTERED_Y_DEPTH_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_axlebox_outer_interface_positive_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          0.2266671061515808,
+          -0.31941667199134827,
+          0.1061752662062645
+        ],
+        [
+          0.4805774986743927,
+          -0.3114166557788849,
+          0.20068342983722687
+        ]
+      ],
+      "assembly_role": "source_supported_carrier_visual_candidate",
+      "registration_justification": "CAD shared pivot/side-frame assembly provides a visual ownership candidate; not physical fastening certification.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": true,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No added mass. Carrier materials remain inside the existing 1 kg per-carrier equivalent; upper seats remain inside the existing 24 kg frame equivalent. Neither budget is physically measured.",
+      "original_v2_complete_triangles_preserved": true,
+      "pivot_evidence": {
+        "station": "positive_X",
+        "body_name": "arm_carrier_2",
+        "source_hole_handles": [
+          "C5B",
+          "C6C"
+        ],
+        "raw_dxf_blocks": [
+          "zw$32A1",
+          "zw$3320"
+        ],
+        "native_child_insert_handles": [
+          "3A0C",
+          "3A0B"
+        ],
+        "diameter_mm": 20.5,
+        "source_world_axis_point_m": [
+          0.2566669628850068,
+          -0.31541666666665996,
+          0.15368333600040718
+        ],
+        "existing_carrier_reference_origin_m": [
+          0.256666962893767,
+          0.0,
+          0.1536833359994504
+        ],
+        "source_minus_existing_origin_m": [
+          -8.760214775804798e-12,
+          -0.31541666666665996,
+          9.5679020262196e-13
+        ],
+        "transverse_axis_interpretation": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "xz_axis_offset_m": 8.812310163065192e-12,
+        "joint_position_change_required": false,
+        "note": "Different Y coordinate is a point on the same existing transverse hinge line, not a 315 mm joint offset. Source hole axis and Y depth remain candidate 3D interpretation.",
+        "never_bind_to_wheel_spin": true
+      }
+    },
+    {
+      "name": "CAD_upper_seat_3A31_positive_X",
+      "body_name": "frame",
+      "mode": "reviewed_visual_rigid_only",
+      "source_triangle_sha256": "75296dc8a3e8574b63b1d25d7476e28d2d3489ebd338bbdb02aa4a9305559577",
+      "geometry_witness_sha256": "5afcc6036a4df22350cb7e1f7616906d3dfdb471f69f2790924bcfbb71a97f24",
+      "source_refs": "[\"3A31\"]",
+      "source_metadata": {
+        "group": "bogie",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"3A31\"]",
+        "geometry_status": "NATIVE_XZ_PLATE_DEPTH100MM_CANDIDATE",
+        "assembly_layer": "NEW_CAD_SUSPENSION_STACK",
+        "source_instance_path": "[\"526A4\", \"4AF88\", \"4AF74\"]",
+        "negative_station_mirror_status": "NO_MIRROR_EACH_STATION_USES_ITS_OWN_NATIVE_SOURCE_PROFILE",
+        "bounds_native_XZ_mm": "[[370.833333329203, 304.86891114426], [462.49999999586, 308.2022444776612]]",
+        "assumptions": "{\"transverse_depth_mm\": 100, \"physical_spring_mate_confirmed\": false}",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_upper_seat_3A31_positive_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          0.3708333373069763,
+          -0.36541667580604553,
+          0.3048689067363739
+        ],
+        [
+          0.4625000059604645,
+          -0.2654166519641876,
+          0.30820223689079285
+        ]
+      ],
+      "assembly_role": "source_side_frame_upper_seat_visual",
+      "registration_justification": "CAD shared pivot/side-frame assembly provides a visual ownership candidate; not physical fastening certification.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No added mass. Carrier materials remain inside the existing 1 kg per-carrier equivalent; upper seats remain inside the existing 24 kg frame equivalent. Neither budget is physically measured.",
+      "original_v2_complete_triangles_preserved": false
+    }
+  ],
+  "unresolved_rows": [
+    {
+      "name": "CAD_C99_support_seat_negative_X",
+      "body_name": null,
+      "mode": "unresolved_interface_static_review",
+      "source_triangle_sha256": "cfe8d0e16052954bff17a6598eaf118da398de2f3f97cf6828692fbca9caabaa",
+      "geometry_witness_sha256": "a2f09f863e46a205fc729c763e3bce753b8b853152c7fb0939ff85600a0375dc",
+      "source_refs": "[\"C99\", \"C9A\"]",
+      "source_metadata": {
+        "id": "CAD_C99_support_seat_negative_X",
+        "group": "bogie",
+        "display_group": "CAD rebuilt interfaces",
+        "geometry_status": "CAD_NATIVE_OUTER_XZ_CANDIDATE_SLOT_INTERPRETATION_AND_Y_DEPTH",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"C99\", \"C9A\"]",
+        "properties": "{\"evidence_level\": \"CAD_NATIVE_OUTER_XZ_CANDIDATE_SLOT_INTERPRETATION_AND_Y_DEPTH\", \"source_handles\": \"C99,C9A\", \"physical_status\": \"INDEPENDENT_CANDIDATE_NOT_ACTIVE_PHYSICS\", \"registered_component_id\": \"DTB-C0069\", \"candidate_variant_id\": \"CAD-NATIVE-SUPPORT-STACK-V2-1012\", \"station\": \"negative_X\", \"role\": \"sourceC99 support seat with candidate C9A through-slot\", \"mass_status\": \"UNKNOWN_REAL_MASS_UNIT_DENSITY_MOMENTS_ONLY\"}",
+        "candidate_variant_id": "CAD-NATIVE-SUPPORT-STACK-V2-1012",
+        "assembly_layer": "NEW_CAD_AXLEBOX_AND_SUPPORT_STACK",
+        "assembly_status": "SOURCE_XZ_REGISTERED_Y_DEPTH_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_C99_support_seat_negative_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          -0.4641672968864441,
+          -0.36541667580604553,
+          0.19801676273345947
+        ],
+        [
+          -0.3691672682762146,
+          -0.2654166519641876,
+          0.20202091336250305
+        ]
+      ],
+      "assembly_role": "unresolved_lower_stack_connection",
+      "registration_justification": "Contact-fit and slot clearances exist, but rigid fastening vs sliding/contact retention is not source-proven.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No mass allocation until connection and material role are resolved.",
+      "original_v2_complete_triangles_preserved": true
+    },
+    {
+      "name": "CAD_D39_slotted_guide_negative_X",
+      "body_name": null,
+      "mode": "unresolved_interface_static_review",
+      "source_triangle_sha256": "2cc3f789f3a9751dfa6a515663606f2cb717a02901e53e6574f1d97dc9a474df",
+      "geometry_witness_sha256": "2254b1162597cc0754b5c9137eff8a8d4423867ccd220420dd6752e9b9833826",
+      "source_refs": "[\"D39\", \"D3A\"]",
+      "source_metadata": {
+        "id": "CAD_D39_slotted_guide_negative_X",
+        "group": "bogie",
+        "display_group": "CAD rebuilt interfaces",
+        "geometry_status": "CAD_NATIVE_OUTER_XZ_CANDIDATE_SLOT_INTERPRETATION_AND_Y_DEPTH",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"D39\", \"D3A\"]",
+        "properties": "{\"evidence_level\": \"CAD_NATIVE_OUTER_XZ_CANDIDATE_SLOT_INTERPRETATION_AND_Y_DEPTH\", \"source_handles\": \"D39,D3A\", \"physical_status\": \"INDEPENDENT_CANDIDATE_NOT_ACTIVE_PHYSICS\", \"registered_component_id\": \"DTB-C0069\", \"candidate_variant_id\": \"CAD-NATIVE-SUPPORT-STACK-V2-1012\", \"station\": \"negative_X\", \"role\": \"sourceD39 guide and candidate D3A top-open notch\", \"mass_status\": \"UNKNOWN_REAL_MASS_UNIT_DENSITY_MOMENTS_ONLY\"}",
+        "candidate_variant_id": "CAD-NATIVE-SUPPORT-STACK-V2-1012",
+        "assembly_layer": "NEW_CAD_AXLEBOX_AND_SUPPORT_STACK",
+        "assembly_status": "SOURCE_XZ_REGISTERED_Y_DEPTH_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_D39_slotted_guide_negative_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          -0.43466895818710327,
+          -0.3074166774749756,
+          0.19801676273345947
+        ],
+        [
+          -0.3986656069755554,
+          -0.2954166531562805,
+          0.24202091991901398
+        ]
+      ],
+      "assembly_role": "unresolved_lower_stack_connection",
+      "registration_justification": "Contact-fit and slot clearances exist, but rigid fastening vs sliding/contact retention is not source-proven.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No mass allocation until connection and material role are resolved.",
+      "original_v2_complete_triangles_preserved": true
+    },
+    {
+      "name": "CAD_lower_stack_D40_negative_X",
+      "body_name": null,
+      "mode": "unresolved_interface_static_review",
+      "source_triangle_sha256": "519e396c29a8b603165dd0f1373dc0f1e9e96ce2ce82a76dd2324b6f1b533226",
+      "geometry_witness_sha256": "1ada0a0ad80053a9a16dce0ddd7c18df53db93473c3efd12cb0f4a0d5e9b092a",
+      "source_refs": "[\"D40\", \"3A19\"]",
+      "source_metadata": {
+        "group": "bogie",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"D40\", \"3A19\"]",
+        "geometry_status": "NATIVE_XZ_SANDWICH_PROJECTION_EXTRUDED_WITH_EXPLICIT_SLOT_CANDIDATE",
+        "source_instance_paths": "[[\"526A2\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A2\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"], [\"526A3\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A3\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"], [\"526A4\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A4\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"]]",
+        "assembly_layer": "NEW_CAD_SUSPENSION_STACK",
+        "assumptions": "{\"transverse_depth_mm\": 100, \"window_X_mm\": 36.5, \"window_Y_mm\": 14, \"slot_interpretation\": \"Central source D43/D44/D45 treated as a through-Z opening to clear the separate D39 guide; depth/through direction not source-certified.\", \"material_and_stiffness\": \"Unassigned. No density or spring law inferred.\"}",
+        "bounds_native_XZ_mm": "[[-463.33394954476535, 205.01758337939197], [-370.0006162114223, 208.0142500460562]]",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_lower_stack_D40_negative_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          -0.46333396434783936,
+          -0.36541667580604553,
+          0.2050175815820694
+        ],
+        [
+          -0.3700006306171417,
+          -0.2654166519641876,
+          0.20801424980163574
+        ]
+      ],
+      "assembly_role": "unresolved_lower_stack_connection",
+      "registration_justification": "Three-layer source sandwich. Material, compliance and rigid connection are unassigned; cannot infer a weld from one INSERT.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No mass allocation until connection and material role are resolved.",
+      "original_v2_complete_triangles_preserved": false
+    },
+    {
+      "name": "CAD_lower_stack_D41_negative_X",
+      "body_name": null,
+      "mode": "unresolved_interface_static_review",
+      "source_triangle_sha256": "33144557168b40aa1bc4587d39deb799a37a7386cba478c9e2cfb6d954af1918",
+      "geometry_witness_sha256": "e8689d8afd8301d40ca4d1d890fc187a346f11757f9e59144205ba34b28f1037",
+      "source_refs": "[\"D41\", \"3A19\"]",
+      "source_metadata": {
+        "group": "bogie",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"D41\", \"3A19\"]",
+        "geometry_status": "NATIVE_XZ_SANDWICH_PROJECTION_EXTRUDED_WITH_EXPLICIT_SLOT_CANDIDATE",
+        "source_instance_paths": "[[\"526A2\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A2\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"], [\"526A3\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A3\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"], [\"526A4\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A4\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"]]",
+        "assembly_layer": "NEW_CAD_SUSPENSION_STACK",
+        "assumptions": "{\"transverse_depth_mm\": 100, \"window_X_mm\": 36.5, \"window_Y_mm\": 14, \"slot_interpretation\": \"Central source D43/D44/D45 treated as a through-Z opening to clear the separate D39 guide; depth/through direction not source-certified.\", \"material_and_stiffness\": \"Unassigned. No density or spring law inferred.\"}",
+        "bounds_native_XZ_mm": "[[-463.33394954476535, 222.02091671272044], [-370.0006162114223, 225.01758337939197]]",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_lower_stack_D41_negative_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          -0.46333396434783936,
+          -0.36541667580604553,
+          0.2220209240913391
+        ],
+        [
+          -0.3700006306171417,
+          -0.2654166519641876,
+          0.22501757740974426
+        ]
+      ],
+      "assembly_role": "unresolved_lower_stack_connection",
+      "registration_justification": "Three-layer source sandwich. Material, compliance and rigid connection are unassigned; cannot infer a weld from one INSERT.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No mass allocation until connection and material role are resolved.",
+      "original_v2_complete_triangles_preserved": false
+    },
+    {
+      "name": "CAD_lower_stack_D42_negative_X",
+      "body_name": null,
+      "mode": "unresolved_interface_static_review",
+      "source_triangle_sha256": "e1d0d1f8d0c5872485ec76b30ec47b9fcbfa31fcfa0873540a367b0cc27054ad",
+      "geometry_witness_sha256": "6587a94193c294f00e734324d1ccf9a0c7ee400e4db9d8a3bd20edbd45cec8d8",
+      "source_refs": "[\"D42\", \"3A19\"]",
+      "source_metadata": {
+        "group": "bogie",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"D42\", \"3A19\"]",
+        "geometry_status": "NATIVE_XZ_SANDWICH_PROJECTION_EXTRUDED_WITH_EXPLICIT_SLOT_CANDIDATE",
+        "source_instance_paths": "[[\"526A2\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A2\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"], [\"526A3\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A3\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"], [\"526A4\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A4\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"]]",
+        "assembly_layer": "NEW_CAD_SUSPENSION_STACK",
+        "assumptions": "{\"transverse_depth_mm\": 100, \"window_X_mm\": 36.5, \"window_Y_mm\": 14, \"slot_interpretation\": \"Central source D43/D44/D45 treated as a through-Z opening to clear the separate D39 guide; depth/through direction not source-certified.\", \"material_and_stiffness\": \"Unassigned. No density or spring law inferred.\"}",
+        "bounds_native_XZ_mm": "[[-461.6672828781084, 208.0142500460562], [-371.6672828781084, 222.02091671272044]]",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_lower_stack_D42_negative_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          -0.4616672694683075,
+          -0.36541667580604553,
+          0.20801424980163574
+        ],
+        [
+          -0.3716672956943512,
+          -0.2654166519641876,
+          0.2220209240913391
+        ]
+      ],
+      "assembly_role": "unresolved_lower_stack_connection",
+      "registration_justification": "Three-layer source sandwich. Material, compliance and rigid connection are unassigned; cannot infer a weld from one INSERT.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No mass allocation until connection and material role are resolved.",
+      "original_v2_complete_triangles_preserved": false
+    },
+    {
+      "name": "CAD_round_cap_negative_X",
+      "body_name": null,
+      "mode": "unresolved_interface_static_review",
+      "source_triangle_sha256": "ce90553b94f4cdcb3d783ed9d66fc0f757c631ce385b13ce59b3ccee37742999",
+      "geometry_witness_sha256": "1ae797cbf89e4a17e0b37d3c170bb3a8b579fb3e75d01f12b3e851451b8bfa71",
+      "source_refs": "[\"C2B\"]",
+      "source_metadata": {
+        "id": "CAD_round_cap_negative_X",
+        "group": "bogie",
+        "display_group": "CAD rebuilt interfaces",
+        "geometry_status": "CAD_XZ_EXACT_CANDIDATE_Y_DEPTH",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"C2B\"]",
+        "properties": "{\"evidence_level\": \"CAD_XZ_EXACT_Y_DEPTH_CANDIDATE\", \"source_handles\": \"C2B\", \"physical_status\": \"INDEPENDENT_CANDIDATE_NOT_ACTIVE_PHYSICS\", \"registered_component_id\": \"DTB-C0069\", \"candidate_variant_id\": \"CAD-NATIVE-SUPPORT-STACK-V2-1012\", \"station\": \"negative_X\", \"role\": \"separate Ø80 circular cap candidate\", \"mass_status\": \"UNKNOWN_REAL_MASS_UNIT_DENSITY_MOMENTS_ONLY\"}",
+        "candidate_variant_id": "CAD-NATIVE-SUPPORT-STACK-V2-1012",
+        "assembly_layer": "NEW_CAD_AXLEBOX_AND_SUPPORT_STACK",
+        "assembly_status": "SOURCE_XZ_REGISTERED_Y_DEPTH_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_round_cap_negative_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          -0.4566672742366791,
+          -0.3294166624546051,
+          0.11235000193119049
+        ],
+        [
+          -0.3766672909259796,
+          -0.31941667199134827,
+          0.19235000014305115
+        ]
+      ],
+      "assembly_role": "unresolved_lower_stack_connection",
+      "registration_justification": "Separate circular cap: bearing cover vs rotating shaft end is not established; six outer-flange holes lie outside the Ø80 cap. Do not bind to wheel_spin.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No mass allocation until connection and material role are resolved.",
+      "original_v2_complete_triangles_preserved": true
+    },
+    {
+      "name": "CAD_spring_support_plate_negative_X",
+      "body_name": null,
+      "mode": "unresolved_interface_static_review",
+      "source_triangle_sha256": "00fb53bf8f366dd24d050216c55f189d4f0c2765952835b072b10b1ba6c97166",
+      "geometry_witness_sha256": "c91b238f87639b90e0d877d137cdb0ce3139ef50bbdf2fa2990a3991da89a0b9",
+      "source_refs": "[\"3A02\", \"3A14\"]",
+      "source_metadata": {
+        "id": "CAD_spring_support_plate_negative_X",
+        "group": "bogie",
+        "display_group": "CAD rebuilt interfaces",
+        "geometry_status": "CAD_NATIVE_OUTER_XZ_CANDIDATE_SLOT_INTERPRETATION_AND_Y_DEPTH",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"3A02\", \"3A14\"]",
+        "properties": "{\"evidence_level\": \"CAD_NATIVE_OUTER_XZ_CANDIDATE_SLOT_INTERPRETATION_AND_Y_DEPTH\", \"source_handles\": \"3A02,3A14\", \"physical_status\": \"INDEPENDENT_CANDIDATE_NOT_ACTIVE_PHYSICS\", \"registered_component_id\": \"DTB-C0069\", \"candidate_variant_id\": \"CAD-NATIVE-SUPPORT-STACK-V2-1012\", \"station\": \"negative_X\", \"role\": \"source3A02 support plate with declared3A14 window interpretation\", \"mass_status\": \"UNKNOWN_REAL_MASS_UNIT_DENSITY_MOMENTS_ONLY\"}",
+        "candidate_variant_id": "CAD-NATIVE-SUPPORT-STACK-V2-1012",
+        "assembly_layer": "NEW_CAD_AXLEBOX_AND_SUPPORT_STACK",
+        "assembly_status": "SOURCE_XZ_REGISTERED_Y_DEPTH_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_spring_support_plate_negative_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          -0.46250060200691223,
+          -0.36541667580604553,
+          0.20202091336250305
+        ],
+        [
+          -0.37083396315574646,
+          -0.2654166519641876,
+          0.2050175815820694
+        ]
+      ],
+      "assembly_role": "unresolved_lower_stack_connection",
+      "registration_justification": "Contact-fit and slot clearances exist, but rigid fastening vs sliding/contact retention is not source-proven.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No mass allocation until connection and material role are resolved.",
+      "original_v2_complete_triangles_preserved": true
+    },
+    {
+      "name": "CAD_C99_support_seat_positive_X",
+      "body_name": null,
+      "mode": "unresolved_interface_static_review",
+      "source_triangle_sha256": "9074f37c0c5baaeea281f0ede84a2d640564e46c99088e7b87da66c56defec7d",
+      "geometry_witness_sha256": "b486840901af81ad5629cebfceb1ec47d90617d092e3861977ba050e0253ca7e",
+      "source_refs": "[\"C99\", \"C9A\"]",
+      "source_metadata": {
+        "id": "CAD_C99_support_seat_positive_X",
+        "group": "bogie",
+        "display_group": "CAD rebuilt interfaces",
+        "geometry_status": "CAD_NATIVE_OUTER_XZ_CANDIDATE_SLOT_INTERPRETATION_AND_Y_DEPTH",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"C99\", \"C9A\"]",
+        "properties": "{\"evidence_level\": \"CAD_NATIVE_OUTER_XZ_CANDIDATE_SLOT_INTERPRETATION_AND_Y_DEPTH\", \"source_handles\": \"C99,C9A\", \"physical_status\": \"INDEPENDENT_CANDIDATE_NOT_ACTIVE_PHYSICS\", \"registered_component_id\": \"DTB-C0069\", \"candidate_variant_id\": \"CAD-NATIVE-SUPPORT-STACK-V2-1012\", \"station\": \"positive_X\", \"role\": \"sourceC99 support seat with candidate C9A through-slot\", \"mass_status\": \"UNKNOWN_REAL_MASS_UNIT_DENSITY_MOMENTS_ONLY\"}",
+        "candidate_variant_id": "CAD-NATIVE-SUPPORT-STACK-V2-1012",
+        "assembly_layer": "NEW_CAD_AXLEBOX_AND_SUPPORT_STACK",
+        "assembly_status": "SOURCE_XZ_REGISTERED_Y_DEPTH_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_C99_support_seat_positive_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          0.3691672682762146,
+          -0.36541667580604553,
+          0.19801676273345947
+        ],
+        [
+          0.4641672968864441,
+          -0.2654166519641876,
+          0.20202091336250305
+        ]
+      ],
+      "assembly_role": "unresolved_lower_stack_connection",
+      "registration_justification": "Contact-fit and slot clearances exist, but rigid fastening vs sliding/contact retention is not source-proven.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No mass allocation until connection and material role are resolved.",
+      "original_v2_complete_triangles_preserved": true
+    },
+    {
+      "name": "CAD_D39_slotted_guide_positive_X",
+      "body_name": null,
+      "mode": "unresolved_interface_static_review",
+      "source_triangle_sha256": "205129271d8691418715a6fd9891a4fb2caf16ec647340ea06a4ff6fb15ad661",
+      "geometry_witness_sha256": "7c22a98406d24df24e0101fd4a965a7f95ddf4df5e4b6b8d302ff38e29662681",
+      "source_refs": "[\"D39\", \"D3A\"]",
+      "source_metadata": {
+        "id": "CAD_D39_slotted_guide_positive_X",
+        "group": "bogie",
+        "display_group": "CAD rebuilt interfaces",
+        "geometry_status": "CAD_NATIVE_OUTER_XZ_CANDIDATE_SLOT_INTERPRETATION_AND_Y_DEPTH",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"D39\", \"D3A\"]",
+        "properties": "{\"evidence_level\": \"CAD_NATIVE_OUTER_XZ_CANDIDATE_SLOT_INTERPRETATION_AND_Y_DEPTH\", \"source_handles\": \"D39,D3A\", \"physical_status\": \"INDEPENDENT_CANDIDATE_NOT_ACTIVE_PHYSICS\", \"registered_component_id\": \"DTB-C0069\", \"candidate_variant_id\": \"CAD-NATIVE-SUPPORT-STACK-V2-1012\", \"station\": \"positive_X\", \"role\": \"sourceD39 guide and candidate D3A top-open notch\", \"mass_status\": \"UNKNOWN_REAL_MASS_UNIT_DENSITY_MOMENTS_ONLY\"}",
+        "candidate_variant_id": "CAD-NATIVE-SUPPORT-STACK-V2-1012",
+        "assembly_layer": "NEW_CAD_AXLEBOX_AND_SUPPORT_STACK",
+        "assembly_status": "SOURCE_XZ_REGISTERED_Y_DEPTH_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_D39_slotted_guide_positive_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          0.3986656069755554,
+          -0.3074166774749756,
+          0.19801676273345947
+        ],
+        [
+          0.43466895818710327,
+          -0.2954166531562805,
+          0.24202091991901398
+        ]
+      ],
+      "assembly_role": "unresolved_lower_stack_connection",
+      "registration_justification": "Contact-fit and slot clearances exist, but rigid fastening vs sliding/contact retention is not source-proven.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No mass allocation until connection and material role are resolved.",
+      "original_v2_complete_triangles_preserved": true
+    },
+    {
+      "name": "CAD_lower_stack_D40_positive_X",
+      "body_name": null,
+      "mode": "unresolved_interface_static_review",
+      "source_triangle_sha256": "eb4fb388b82849464b988e7eed5a75fe52ac65d4f6b2d84a1e593d13d746f19f",
+      "geometry_witness_sha256": "7ac0ce821b8809997891ab57055a0e057646567b89aba8ab3832a95226eca957",
+      "source_refs": "[\"D40\", \"3A19\"]",
+      "source_metadata": {
+        "group": "bogie",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"D40\", \"3A19\"]",
+        "geometry_status": "NATIVE_XZ_SANDWICH_PROJECTION_EXTRUDED_WITH_EXPLICIT_SLOT_CANDIDATE",
+        "source_instance_paths": "[[\"526A2\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A2\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"], [\"526A3\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A3\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"], [\"526A4\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A4\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"]]",
+        "assembly_layer": "NEW_CAD_SUSPENSION_STACK",
+        "assumptions": "{\"transverse_depth_mm\": 100, \"window_X_mm\": 36.5, \"window_Y_mm\": 14, \"slot_interpretation\": \"Central source D43/D44/D45 treated as a through-Z opening to clear the separate D39 guide; depth/through direction not source-certified.\", \"material_and_stiffness\": \"Unassigned. No density or spring law inferred.\"}",
+        "bounds_native_XZ_mm": "[[370.0006162026766, 205.01758337939197], [463.33394953601965, 208.0142500460562]]",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_lower_stack_D40_positive_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          0.3700006306171417,
+          -0.36541667580604553,
+          0.2050175815820694
+        ],
+        [
+          0.46333396434783936,
+          -0.2654166519641876,
+          0.20801424980163574
+        ]
+      ],
+      "assembly_role": "unresolved_lower_stack_connection",
+      "registration_justification": "Three-layer source sandwich. Material, compliance and rigid connection are unassigned; cannot infer a weld from one INSERT.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No mass allocation until connection and material role are resolved.",
+      "original_v2_complete_triangles_preserved": false
+    },
+    {
+      "name": "CAD_lower_stack_D41_positive_X",
+      "body_name": null,
+      "mode": "unresolved_interface_static_review",
+      "source_triangle_sha256": "2e9e67487c292873774e3aa33c111d2add4211d69c12b5771044424da6d8ad1f",
+      "geometry_witness_sha256": "b66906491d6fbc51ee4fcbcc99a4ebc08ca0957ef29761eb0670a0196d9e1e94",
+      "source_refs": "[\"D41\", \"3A19\"]",
+      "source_metadata": {
+        "group": "bogie",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"D41\", \"3A19\"]",
+        "geometry_status": "NATIVE_XZ_SANDWICH_PROJECTION_EXTRUDED_WITH_EXPLICIT_SLOT_CANDIDATE",
+        "source_instance_paths": "[[\"526A2\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A2\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"], [\"526A3\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A3\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"], [\"526A4\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A4\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"]]",
+        "assembly_layer": "NEW_CAD_SUSPENSION_STACK",
+        "assumptions": "{\"transverse_depth_mm\": 100, \"window_X_mm\": 36.5, \"window_Y_mm\": 14, \"slot_interpretation\": \"Central source D43/D44/D45 treated as a through-Z opening to clear the separate D39 guide; depth/through direction not source-certified.\", \"material_and_stiffness\": \"Unassigned. No density or spring law inferred.\"}",
+        "bounds_native_XZ_mm": "[[370.0006162026766, 222.02091671272044], [463.33394953601965, 225.01758337939197]]",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_lower_stack_D41_positive_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          0.3700006306171417,
+          -0.36541667580604553,
+          0.2220209240913391
+        ],
+        [
+          0.46333396434783936,
+          -0.2654166519641876,
+          0.22501757740974426
+        ]
+      ],
+      "assembly_role": "unresolved_lower_stack_connection",
+      "registration_justification": "Three-layer source sandwich. Material, compliance and rigid connection are unassigned; cannot infer a weld from one INSERT.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No mass allocation until connection and material role are resolved.",
+      "original_v2_complete_triangles_preserved": false
+    },
+    {
+      "name": "CAD_lower_stack_D42_positive_X",
+      "body_name": null,
+      "mode": "unresolved_interface_static_review",
+      "source_triangle_sha256": "f1639dab88f268299f766533a81fbbd1edf70e78ff6835387001be3f892e7ec9",
+      "geometry_witness_sha256": "c83c84b13de1d1561d25c4b344f77f493869405ac9f263212518fd64adb3df42",
+      "source_refs": "[\"D42\", \"3A19\"]",
+      "source_metadata": {
+        "group": "bogie",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"D42\", \"3A19\"]",
+        "geometry_status": "NATIVE_XZ_SANDWICH_PROJECTION_EXTRUDED_WITH_EXPLICIT_SLOT_CANDIDATE",
+        "source_instance_paths": "[[\"526A2\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A2\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"], [\"526A3\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A3\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"], [\"526A4\", \"4AF88\", \"4AF74\", \"3A46\", \"3A19\"], [\"526A4\", \"4AF88\", \"4AF74\", \"3A49\", \"3A19\"]]",
+        "assembly_layer": "NEW_CAD_SUSPENSION_STACK",
+        "assumptions": "{\"transverse_depth_mm\": 100, \"window_X_mm\": 36.5, \"window_Y_mm\": 14, \"slot_interpretation\": \"Central source D43/D44/D45 treated as a through-Z opening to clear the separate D39 guide; depth/through direction not source-certified.\", \"material_and_stiffness\": \"Unassigned. No density or spring law inferred.\"}",
+        "bounds_native_XZ_mm": "[[371.6672828693627, 208.0142500460562], [461.6672828693627, 222.02091671272044]]",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_lower_stack_D42_positive_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          0.3716672956943512,
+          -0.36541667580604553,
+          0.20801424980163574
+        ],
+        [
+          0.4616672694683075,
+          -0.2654166519641876,
+          0.2220209240913391
+        ]
+      ],
+      "assembly_role": "unresolved_lower_stack_connection",
+      "registration_justification": "Three-layer source sandwich. Material, compliance and rigid connection are unassigned; cannot infer a weld from one INSERT.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No mass allocation until connection and material role are resolved.",
+      "original_v2_complete_triangles_preserved": false
+    },
+    {
+      "name": "CAD_round_cap_positive_X",
+      "body_name": null,
+      "mode": "unresolved_interface_static_review",
+      "source_triangle_sha256": "cd4cadf708cb4077e23817c624cd322d8ae584be5ed8471965cf120487b500b6",
+      "geometry_witness_sha256": "c874e3042d5e7962cab95119787e085b466dc6b24dac46bc03e43bcaca5b1dbc",
+      "source_refs": "[\"C2B\"]",
+      "source_metadata": {
+        "id": "CAD_round_cap_positive_X",
+        "group": "bogie",
+        "display_group": "CAD rebuilt interfaces",
+        "geometry_status": "CAD_XZ_EXACT_CANDIDATE_Y_DEPTH",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"C2B\"]",
+        "properties": "{\"evidence_level\": \"CAD_XZ_EXACT_Y_DEPTH_CANDIDATE\", \"source_handles\": \"C2B\", \"physical_status\": \"INDEPENDENT_CANDIDATE_NOT_ACTIVE_PHYSICS\", \"registered_component_id\": \"DTB-C0069\", \"candidate_variant_id\": \"CAD-NATIVE-SUPPORT-STACK-V2-1012\", \"station\": \"positive_X\", \"role\": \"separate Ø80 circular cap candidate\", \"mass_status\": \"UNKNOWN_REAL_MASS_UNIT_DENSITY_MOMENTS_ONLY\"}",
+        "candidate_variant_id": "CAD-NATIVE-SUPPORT-STACK-V2-1012",
+        "assembly_layer": "NEW_CAD_AXLEBOX_AND_SUPPORT_STACK",
+        "assembly_status": "SOURCE_XZ_REGISTERED_Y_DEPTH_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_round_cap_positive_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          0.3766672909259796,
+          -0.3294166624546051,
+          0.11235000193119049
+        ],
+        [
+          0.4566672742366791,
+          -0.31941667199134827,
+          0.19235000014305115
+        ]
+      ],
+      "assembly_role": "unresolved_lower_stack_connection",
+      "registration_justification": "Separate circular cap: bearing cover vs rotating shaft end is not established; six outer-flange holes lie outside the Ø80 cap. Do not bind to wheel_spin.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No mass allocation until connection and material role are resolved.",
+      "original_v2_complete_triangles_preserved": true
+    },
+    {
+      "name": "CAD_spring_support_plate_positive_X",
+      "body_name": null,
+      "mode": "unresolved_interface_static_review",
+      "source_triangle_sha256": "75b4e9ca6f1a7dd4fcab69be8488cee7945b566b2842033ba34d35954edd6fe4",
+      "geometry_witness_sha256": "9380b63782adad76f725e944374bfe92a9e611a67d7cb8441942a439b4356c34",
+      "source_refs": "[\"3A02\", \"3A14\"]",
+      "source_metadata": {
+        "id": "CAD_spring_support_plate_positive_X",
+        "group": "bogie",
+        "display_group": "CAD rebuilt interfaces",
+        "geometry_status": "CAD_NATIVE_OUTER_XZ_CANDIDATE_SLOT_INTERPRETATION_AND_Y_DEPTH",
+        "registered_component_id": "DTB-C0069",
+        "source_refs": "[\"3A02\", \"3A14\"]",
+        "properties": "{\"evidence_level\": \"CAD_NATIVE_OUTER_XZ_CANDIDATE_SLOT_INTERPRETATION_AND_Y_DEPTH\", \"source_handles\": \"3A02,3A14\", \"physical_status\": \"INDEPENDENT_CANDIDATE_NOT_ACTIVE_PHYSICS\", \"registered_component_id\": \"DTB-C0069\", \"candidate_variant_id\": \"CAD-NATIVE-SUPPORT-STACK-V2-1012\", \"station\": \"positive_X\", \"role\": \"source3A02 support plate with declared3A14 window interpretation\", \"mass_status\": \"UNKNOWN_REAL_MASS_UNIT_DENSITY_MOMENTS_ONLY\"}",
+        "candidate_variant_id": "CAD-NATIVE-SUPPORT-STACK-V2-1012",
+        "assembly_layer": "NEW_CAD_AXLEBOX_AND_SUPPORT_STACK",
+        "assembly_status": "SOURCE_XZ_REGISTERED_Y_DEPTH_CANDIDATE",
+        "physics_status": "STATIC_GEOMETRY_ONLY_NO_CURRENT_SOLVER_BINDING",
+        "native_pose_bound_in_this_scene": false,
+        "current_scene_role": "STATIC_SOURCE_GEOMETRY_REVIEW",
+        "source_name": "CAD_spring_support_plate_positive_X",
+        "as_built_confirmed": false
+      },
+      "source_geometry_unchanged": true,
+      "reference_world_aabb_m": [
+        [
+          0.37083396315574646,
+          -0.36541667580604553,
+          0.20202091336250305
+        ],
+        [
+          0.46250060200691223,
+          -0.2654166519641876,
+          0.2050175815820694
+        ]
+      ],
+      "assembly_role": "unresolved_lower_stack_connection",
+      "registration_justification": "Contact-fit and slot clearances exist, but rigid fastening vs sliding/contact retention is not source-proven.",
+      "new_collision_allowed": false,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "as_built_confirmed": false,
+      "uncalibrated_visual_mount_opt_in_required": false,
+      "never_bind_to_wheel_spin": true,
+      "near_side_only": true,
+      "y_placement_and_depth_are_unmeasured_candidates": true,
+      "mass_policy": "No mass allocation until connection and material role are resolved.",
+      "original_v2_complete_triangles_preserved": true
+    }
+  ],
+  "joint_axis_audit": [
+    {
+      "station": "negative_X",
+      "body_name": "arm_carrier_1",
+      "source_hole_handles": [
+        "C5B",
+        "C6C"
+      ],
+      "raw_dxf_blocks": [
+        "zw$32A1",
+        "zw$3320"
+      ],
+      "native_child_insert_handles": [
+        "3A0C",
+        "3A0B"
+      ],
+      "diameter_mm": 20.5,
+      "source_world_axis_point_m": [
+        -0.2566669628937525,
+        -0.31541666666665996,
+        0.15368333600040718
+      ],
+      "existing_carrier_reference_origin_m": [
+        -0.256666962893767,
+        0.0,
+        0.1536833359994504
+      ],
+      "source_minus_existing_origin_m": [
+        1.4488410471358293e-14,
+        -0.31541666666665996,
+        9.5679020262196e-13
+      ],
+      "transverse_axis_interpretation": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "xz_axis_offset_m": 9.568998933385653e-13,
+      "joint_position_change_required": false,
+      "note": "Different Y coordinate is a point on the same existing transverse hinge line, not a 315 mm joint offset. Source hole axis and Y depth remain candidate 3D interpretation.",
+      "never_bind_to_wheel_spin": true
+    },
+    {
+      "station": "positive_X",
+      "body_name": "arm_carrier_2",
+      "source_hole_handles": [
+        "C5B",
+        "C6C"
+      ],
+      "raw_dxf_blocks": [
+        "zw$32A1",
+        "zw$3320"
+      ],
+      "native_child_insert_handles": [
+        "3A0C",
+        "3A0B"
+      ],
+      "diameter_mm": 20.5,
+      "source_world_axis_point_m": [
+        0.2566669628850068,
+        -0.31541666666665996,
+        0.15368333600040718
+      ],
+      "existing_carrier_reference_origin_m": [
+        0.256666962893767,
+        0.0,
+        0.1536833359994504
+      ],
+      "source_minus_existing_origin_m": [
+        -8.760214775804798e-12,
+        -0.31541666666665996,
+        9.5679020262196e-13
+      ],
+      "transverse_axis_interpretation": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "xz_axis_offset_m": 8.812310163065192e-12,
+      "joint_position_change_required": false,
+      "note": "Different Y coordinate is a point on the same existing transverse hinge line, not a 315 mm joint offset. Source hole axis and Y depth remain candidate 3D interpretation.",
+      "never_bind_to_wheel_spin": true
+    }
+  ],
+  "coil_rows": [
+    {
+      "station": "negative_X",
+      "mesh_name": "CADFIT_bogie_primary_helical_spring_1_-1",
+      "body_lower": "arm_carrier_1",
+      "body_upper": "frame",
+      "tendon_name": "primary_1_-1",
+      "site_lower": "primary_lower_1_-1",
+      "site_upper": "primary_upper_1_-1",
+      "lower_source_mesh": "CAD_lower_stack_D41_negative_X",
+      "upper_source_mesh": "CAD_upper_seat_3A44_negative_X",
+      "source_triangle_sha256": "0feb048100790d3032a4e8d39a7c35f991c7687dc4ec3b99a3fdd7f0809f6321",
+      "geometry_witness_sha256": "2f16fce376262c8b5f3d3ebd0b09af0f81eabd5237f9295d2c25b8483eae03a4",
+      "old_lower_world_m": [
+        -0.41666728288563204,
+        -0.30641666666666,
+        0.2126
+      ],
+      "old_upper_world_m": [
+        -0.41666728288563204,
+        -0.30641666666666,
+        0.2961
+      ],
+      "new_lower_world_m": [
+        -0.41666728288563204,
+        -0.30641666666666,
+        0.22501757740974426
+      ],
+      "new_upper_world_m": [
+        -0.41666728288563204,
+        -0.30641666666666,
+        0.3052022457122803
+      ],
+      "old_lower_local_m": [
+        -0.16000031999186504,
+        -0.30641666666666,
+        0.05891666400054962
+      ],
+      "old_upper_local_m": [
+        -0.41666728288563204,
+        -0.30641666666666,
+        0.06599999999999998
+      ],
+      "new_lower_local_m": [
+        -0.16000031999186504,
+        -0.30641666666666,
+        0.07133424141029387
+      ],
+      "new_upper_local_m": [
+        -0.41666728288563204,
+        -0.30641666666666,
+        0.07510224571228027
+      ],
+      "lower_position_delta_m": [
+        0.0,
+        0.0,
+        0.012417577409744252
+      ],
+      "upper_position_delta_m": [
+        0.0,
+        0.0,
+        0.009102245712280299
+      ],
+      "old_initial_length_m": 0.08349999999999996,
+      "new_initial_length_m": 0.08018466830253601,
+      "required_restlength_delta_m": -0.0033153316974639524,
+      "coil_source_z_bounds_m": [
+        0.22501757740974426,
+        0.3052022457122803
+      ],
+      "new_initial_coil_plane_residual_m": 0.0,
+      "mode": "two_native_site_endpoint_deformable_visual_only",
+      "rigid_body_binding_forbidden": true,
+      "uncalibrated_cad_seat_fit_opt_in_required": true,
+      "near_side_only": true,
+      "far_side_unchanged": true,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "new_collision_allowed": false,
+      "force_policy": "Translate both sites to reviewed source seat planes; shift explicit springlength by delta initial length to preserve initial axial preload. Existing stiffness/damping stay unchanged. Force direction and moment arms away from reference can change.",
+      "placement_policy": "X and Y force line retain existing spring axis. Source seat planes constrain Z only; Y=-0.306416... remains unmeasured research placement. No automatic far-side duplication."
+    },
+    {
+      "station": "positive_X",
+      "mesh_name": "CADFIT_bogie_primary_helical_spring_2_-1",
+      "body_lower": "arm_carrier_2",
+      "body_upper": "frame",
+      "tendon_name": "primary_2_-1",
+      "site_lower": "primary_lower_2_-1",
+      "site_upper": "primary_upper_2_-1",
+      "lower_source_mesh": "CAD_lower_stack_D41_positive_X",
+      "upper_source_mesh": "CAD_upper_seat_3A31_positive_X",
+      "source_triangle_sha256": "0ca3bfc28934ac8449725cf2c91082ef318f14a9a08f2d961fd1d28746d00886",
+      "geometry_witness_sha256": "e44c2fda0ec1b9d37e2ecf3aae1a113de980e6a60b03330aa44a56ec63eda9d9",
+      "old_lower_world_m": [
+        0.41666728288563204,
+        -0.30641666666666,
+        0.2126
+      ],
+      "old_upper_world_m": [
+        0.41666728288563204,
+        -0.30641666666666,
+        0.2961
+      ],
+      "new_lower_world_m": [
+        0.41666728288563204,
+        -0.30641666666666,
+        0.22501757740974426
+      ],
+      "new_upper_world_m": [
+        0.41666728288563204,
+        -0.30641666666666,
+        0.3048689067363739
+      ],
+      "old_lower_local_m": [
+        0.16000031999186504,
+        -0.30641666666666,
+        0.05891666400054962
+      ],
+      "old_upper_local_m": [
+        0.41666728288563204,
+        -0.30641666666666,
+        0.06599999999999998
+      ],
+      "new_lower_local_m": [
+        0.16000031999186504,
+        -0.30641666666666,
+        0.07133424141029387
+      ],
+      "new_upper_local_m": [
+        0.41666728288563204,
+        -0.30641666666666,
+        0.0747689067363739
+      ],
+      "lower_position_delta_m": [
+        0.0,
+        0.0,
+        0.012417577409744252
+      ],
+      "upper_position_delta_m": [
+        0.0,
+        0.0,
+        0.008768906736373927
+      ],
+      "old_initial_length_m": 0.08349999999999996,
+      "new_initial_length_m": 0.07985132932662964,
+      "required_restlength_delta_m": -0.0036486706733703245,
+      "coil_source_z_bounds_m": [
+        0.22501757740974426,
+        0.3048689067363739
+      ],
+      "new_initial_coil_plane_residual_m": 0.0,
+      "mode": "two_native_site_endpoint_deformable_visual_only",
+      "rigid_body_binding_forbidden": true,
+      "uncalibrated_cad_seat_fit_opt_in_required": true,
+      "near_side_only": true,
+      "far_side_unchanged": true,
+      "added_mass_kg": 0.0,
+      "added_dof": 0,
+      "new_collision_allowed": false,
+      "force_policy": "Translate both sites to reviewed source seat planes; shift explicit springlength by delta initial length to preserve initial axial preload. Existing stiffness/damping stay unchanged. Force direction and moment arms away from reference can change.",
+      "placement_policy": "X and Y force line retain existing spring axis. Source seat planes constrain Z only; Y=-0.306416... remains unmeasured research placement. No automatic far-side duplication."
+    }
+  ],
+  "counts": {
+    "unresolved_interface_static_review": 14,
+    "reviewed_visual_rigid_only": 6
+  },
+  "scope": "4 carrier material candidates + 2 frame upper seats may be registered; other 14 source pieces retain unresolved attachment. Two coils require current native site endpoints, not a rigid binding."
+}
