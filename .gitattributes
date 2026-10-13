@@ -17,3 +17,5 @@ source/cad-source-console/baseline_console/GTSD_Assembly_Console/runtime/portabl
 # Preserve exact frozen mechanical-audit CSV bytes (CRLF), no content rewrite.
 source/cad-source-console/mechanical_fit/combined_audit/before_pairs.csv -text
 source/cad-source-console/mechanical_fit/combined_audit/after_pairs.csv -text
+source/cad-source-console/photo_turnout/build/hardware_provenance.csv -text
+source/cad-source-console/photo_turnout/build/retained_interferences.csv -text

@@ -39,8 +39,8 @@
       "sha256": "b9b2398eaf46c1bef719cd2c09a34f1a261807011d9a814071cc112a42a562ce"
     },
     "TRANSFER_STATUS.json": {
-      "bytes": 21458,
-      "sha256": "1e91e65fa551f82daaec3e15bbb3e0acda1d3331dca3a38114b3e9952b6485b0"
+      "bytes": 21898,
+      "sha256": "f61c9a6b8ff01b34ba6c576f42f17cd324c2925ad742d27497ed08b450da375e"
     },
     "baseline_console/GTSD_Assembly_Console/BUNDLE_MANIFEST.json": {
       "bytes": 53188,
@@ -5687,12 +5687,12 @@
       "sha256": "eb70a482dfbb3db37219f5a80425ab2ea3467f4221f5b11427066fefbe7d0ae4"
     },
     "photo_turnout/DELIVERY_MANIFEST.json": {
-      "bytes": 9482,
-      "sha256": "fe2daffd5e689edec275f42565dfb7a19d1698081e70c6d62fe09720077f2f95"
+      "bytes": 9684,
+      "sha256": "250a70af6417e5d657a221810d9722fdb06c54a98ee05ee78399fb313bf44605"
     },
     "photo_turnout/INTEGRATION.md": {
-      "bytes": 5048,
-      "sha256": "938ee06e7912229c9ea1b4a49ff6adde1d6f28c3992b77dade131b547a4c610e"
+      "bytes": 5203,
+      "sha256": "c65d6caa3b882832ae1f13f6b4adee5715ddf4871d26df7f6c7fed48076645b3"
     },
     "photo_turnout/README_ZH.md": {
       "bytes": 7002,
@@ -6181,6 +6181,10 @@
     "verification/remote_native_94977d1.json": {
       "bytes": 846,
       "sha256": "23397957ff97069219bb503f8a132a94fb06d8f7c43aad398f91ca8e4cd9101e"
+    },
+    "verification/remote_photo_16040.json": {
+      "bytes": 4619,
+      "sha256": "4ff30e078572699955cd14e2f235ac96d5934d1d9d7ba7bc0a176c5ea1583666"
     }
   }
 }
