@@ -1,0 +1,134 @@
+[
+  {
+    "action": "four_door_fan",
+    "request_id": "d83de7e99d4a490ba1d05c30b31e61fa",
+    "result": {
+      "sequence": 1,
+      "request_id": "d83de7e99d4a490ba1d05c30b31e61fa",
+      "session_id": "f7e0d36683fd03662cdf4605c9632ce4",
+      "action": "four_door_fan",
+      "status": "applied",
+      "error": null
+    }
+  },
+  {
+    "action": "step",
+    "request_id": "8326d81407244a928950a4dcabc5a267",
+    "result": {
+      "sequence": 2,
+      "request_id": "8326d81407244a928950a4dcabc5a267",
+      "session_id": "f7e0d36683fd03662cdf4605c9632ce4",
+      "action": "step",
+      "status": "applied",
+      "error": null
+    }
+  },
+  {
+    "action": "restore_checkpoint",
+    "request_id": "5d46cf29b5e94e0f893407d9dc2b8aba",
+    "result": {
+      "sequence": 3,
+      "request_id": "5d46cf29b5e94e0f893407d9dc2b8aba",
+      "session_id": "f7e0d36683fd03662cdf4605c9632ce4",
+      "action": "restore_checkpoint",
+      "status": "rejected",
+      "error": "extended model identity mismatch"
+    }
+  },
+  {
+    "action": "restore_checkpoint",
+    "request_id": "c3fae4758d4f467fac45f540aa88c105",
+    "result": {
+      "sequence": 4,
+      "request_id": "c3fae4758d4f467fac45f540aa88c105",
+      "session_id": "f7e0d36683fd03662cdf4605c9632ce4",
+      "action": "restore_checkpoint",
+      "status": "rejected",
+      "error": "Strict82 air-speed/applied-drag mismatch: end_neg_y_pos"
+    }
+  },
+  {
+    "action": "restore_checkpoint",
+    "request_id": "679cd76b005b4d4e9ba56202b2230dbf",
+    "result": {
+      "sequence": 5,
+      "request_id": "679cd76b005b4d4e9ba56202b2230dbf",
+      "session_id": "f7e0d36683fd03662cdf4605c9632ce4",
+      "action": "restore_checkpoint",
+      "status": "rejected",
+      "error": "Strict82 relative-speed/applied-bearing mismatch: end_neg_y_pos"
+    }
+  },
+  {
+    "action": "step",
+    "request_id": "233f74eebd414956879cbca8d24596bf",
+    "result": {
+      "sequence": 6,
+      "request_id": "233f74eebd414956879cbca8d24596bf",
+      "session_id": "f7e0d36683fd03662cdf4605c9632ce4",
+      "action": "step",
+      "status": "applied",
+      "error": null
+    }
+  },
+  {
+    "action": "restore_checkpoint",
+    "request_id": "0959c57458274afbbd5d82ccd1abdbdf",
+    "result": {
+      "sequence": 7,
+      "request_id": "0959c57458274afbbd5d82ccd1abdbdf",
+      "session_id": "f7e0d36683fd03662cdf4605c9632ce4",
+      "action": "restore_checkpoint",
+      "status": "applied",
+      "error": null
+    }
+  },
+  {
+    "action": "step",
+    "request_id": "81459fded6c34fb7a49af78bc7b81544",
+    "result": {
+      "sequence": 8,
+      "request_id": "81459fded6c34fb7a49af78bc7b81544",
+      "session_id": "1aa6ea16c5a9a71e54816b3443870997",
+      "action": "step",
+      "status": "applied",
+      "error": null
+    }
+  },
+  {
+    "action": "run",
+    "request_id": "e6fa6d8f23314d519d3be9c654e17600",
+    "result": {
+      "sequence": 9,
+      "request_id": "e6fa6d8f23314d519d3be9c654e17600",
+      "session_id": "1aa6ea16c5a9a71e54816b3443870997",
+      "action": "run",
+      "status": "applied",
+      "error": null
+    }
+  },
+  {
+    "action": "pause",
+    "request_id": "2a6cb615207d460cbf795fd7e6a5db43",
+    "result": {
+      "sequence": 10,
+      "request_id": "2a6cb615207d460cbf795fd7e6a5db43",
+      "session_id": "1aa6ea16c5a9a71e54816b3443870997",
+      "action": "pause",
+      "status": "applied",
+      "error": null
+    }
+  },
+  {
+    "action": "run",
+    "request_id": "a32eb107751949038c52001fa7a787e7",
+    "result": {
+      "sequence": 11,
+      "request_id": "a32eb107751949038c52001fa7a787e7",
+      "session_id": "1aa6ea16c5a9a71e54816b3443870997",
+      "action": "run",
+      "status": "applied",
+      "error": null
+    }
+  }
+]
