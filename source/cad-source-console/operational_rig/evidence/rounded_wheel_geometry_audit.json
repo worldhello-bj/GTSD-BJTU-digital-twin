@@ -1,0 +1,123 @@
+{
+  "rounded_0mm_50us": {
+    "vertex_count": 770,
+    "triangle_count": 1536,
+    "every_edge_incidence_two": true,
+    "signed_volume_m3": 7.633729507653651e-05,
+    "bounds_relative_center_m": [
+      [
+        -0.04499999999999993,
+        -0.006000000000000005,
+        -0.04499999999999999
+      ],
+      [
+        0.04499999999999993,
+        0.006000000000000005,
+        0.045
+      ]
+    ],
+    "maximum_radial_distance_m": 0.04500000000000078,
+    "analytic_rounded_volume_m3": 7.634070148223197e-05,
+    "volume_relative_tessellation_deficit": 4.462109502944419e-05,
+    "analytic_unit_mass_inertia_diagonal_kg_m2": [
+      0.0005182499999999999,
+      0.0010125,
+      0.0005182499999999999
+    ],
+    "contract_integrated_inertia_diagonal": [
+      0.0005182274107722373,
+      0.0010124548215444714,
+      0.0005182274107722343
+    ],
+    "compiled_mass_kg": 1.0,
+    "compiled_vs_declared_inertia_max_error_kg_m2": 2.6020852139652106e-18,
+    "source_vs_compiled_max_nearest_vertex_error_m": 1.8620657864873523e-09,
+    "collision_geom_type": "mjtGeom.mjGEOM_MESH",
+    "stale_collider_record": {
+      "geom_name": "wheel_tread",
+      "source_mesh_name": "OP_guided_wheel",
+      "body_name": "wheel",
+      "interface_id": "wheel_rail",
+      "mass_kg": 0.0,
+      "collision_representation": "analytic cylinder",
+      "radius_m": 0.045,
+      "width_m": 0.012,
+      "maximum_display_radial_error_m": 6.023794069718869e-06
+    },
+    "wheel_representation": {
+      "physics": "complete closed source mesh with parameterized rim fillet",
+      "display": "same complete mesh",
+      "outer_radius_m": 0.045,
+      "total_width_m": 0.012,
+      "fillet_radius_m": 0.0,
+      "maximum_radial_tessellation_error_m": 1.5059737169509368e-06,
+      "maximum_fillet_tessellation_error_m": 0.0,
+      "analytic_fillet_vs_square_rim_hausdorff_m": 0.0,
+      "inertia": "complete source triangle integration at declared mass"
+    },
+    "contract_sha256": "5331bbd00d09125308fc3f71f43a7e4dd5848a9b4b38cd879fc7a969ef04a711",
+    "model_xml_sha256_matches": true
+  },
+  "rounded_05mm_50us": {
+    "vertex_count": 13058,
+    "triangle_count": 26112,
+    "every_edge_incidence_two": true,
+    "signed_volume_m3": 7.630685555610208e-05,
+    "bounds_relative_center_m": [
+      [
+        -0.04499999999999993,
+        -0.006000000000000005,
+        -0.04499999999999999
+      ],
+      [
+        0.04499999999999993,
+        0.006000000000000005,
+        0.045
+      ]
+    ],
+    "maximum_radial_distance_m": 0.04500000000000078,
+    "analytic_rounded_volume_m3": 7.631043815872154e-05,
+    "volume_relative_tessellation_deficit": 4.6947740124482876e-05,
+    "analytic_unit_mass_inertia_diagonal_kg_m2": [
+      0.0005180422215902344,
+      0.001012102431892807,
+      0.0005180422215902344
+    ],
+    "contract_integrated_inertia_diagonal": [
+      0.0005180184309097047,
+      0.001012054952343705,
+      0.0005180184309097045
+    ],
+    "compiled_mass_kg": 1.0,
+    "compiled_vs_declared_inertia_max_error_kg_m2": 2.6020852139652106e-18,
+    "source_vs_compiled_max_nearest_vertex_error_m": 2.6129618604938426e-09,
+    "collision_geom_type": "mjtGeom.mjGEOM_MESH",
+    "stale_collider_record": {
+      "geom_name": "wheel_tread",
+      "source_mesh_name": "OP_guided_wheel",
+      "body_name": "wheel",
+      "interface_id": "wheel_rail",
+      "mass_kg": 0.0,
+      "collision_representation": "analytic cylinder",
+      "radius_m": 0.045,
+      "width_m": 0.012,
+      "maximum_display_radial_error_m": 6.023794069718869e-06
+    },
+    "wheel_representation": {
+      "physics": "complete closed source mesh with parameterized rim fillet",
+      "display": "same complete mesh",
+      "outer_radius_m": 0.045,
+      "total_width_m": 0.012,
+      "fillet_radius_m": 0.0005,
+      "maximum_radial_tessellation_error_m": 1.5059737169509368e-06,
+      "maximum_fillet_tessellation_error_m": 6.022718974137975e-07,
+      "analytic_fillet_vs_square_rim_hausdorff_m": 0.00020710678118654758,
+      "inertia": "complete source triangle integration at declared mass"
+    },
+    "contract_sha256": "644c335671d1bee15b05f382df38549a653cf635750745fb2042ed6fe54e600f",
+    "model_xml_sha256_matches": true
+  },
+  "completed_utc": "2026-10-14T03:52:38.937727+00:00",
+  "completed_beijing": "2026-10-14T11:52:38.937751+08:00",
+  "scope": "Read-only prototype geometry and compiled metadata; kinematics only, no forward dynamics/time steps. This does not establish dynamic acceptance or that the main viewer consumes the prototype override."
+}

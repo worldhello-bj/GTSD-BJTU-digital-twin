@@ -1,0 +1,446 @@
+{
+  "completed_utc": "2026-10-14T03:13:43.025930+00:00",
+  "completed_beijing": "2026-10-14T11:13:43.025930+08:00",
+  "source_time_s": 1.4902250000000001,
+  "method": "Only mj_fwdPosition at independently initialized saved preintegration qpos; no forces or integration, original collision options and no custom callbacks. Positive carrier-Y offsets reduce pin-end separation.",
+  "sweep": [
+    {
+      "carrier_axis_offset_pm": -1000,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": 1.0850913223503511e-09,
+          "contacts": []
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": 1.0259341709506486e-09,
+          "contacts": []
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": -300,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": 3.8509133382103045e-10,
+          "contacts": []
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": 3.2593417895188104e-10,
+          "contacts": []
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": -100,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": 1.8509135543687272e-10,
+          "contacts": []
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": 1.259342075066172e-10,
+          "contacts": []
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": -85.09134,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": 1.7018267350898952e-10,
+          "contacts": []
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": 1.1102551863984012e-10,
+          "contacts": []
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": -50,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": 1.3509134783040722e-10,
+          "contacts": []
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": 7.593419643070476e-11,
+          "contacts": []
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": -25.93419,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": 1.1102554292596878e-10,
+          "contacts": []
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": 5.186839152626632e-11,
+          "contacts": [
+            {
+              "dist_m": -0.0016910620555070693,
+              "normal": [
+                0.8127169598339807,
+                -0.08270226838487515,
+                0.5767594628631662
+              ],
+              "point": [
+                -2.0719484850972627,
+                0.21950138001514266,
+                1.622992286918623
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": -10,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": 9.509134452079238e-11,
+          "contacts": []
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": 3.593418965164297e-11,
+          "contacts": []
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": -1,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": 8.609131810222159e-11,
+          "contacts": []
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": 2.6934166702519136e-11,
+          "contacts": []
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": 0,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": 8.509134022394171e-11,
+          "contacts": [
+            {
+              "dist_m": -0.00206243234387542,
+              "normal": [
+                0.9908089504380334,
+                -0.10106796897980433,
+                0.08990489073560054
+              ],
+              "point": [
+                -2.0715975182525206,
+                0.21819023385349903,
+                1.6225984584937991
+              ]
+            }
+          ]
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": 2.5934188824239257e-11,
+          "contacts": [
+            {
+              "dist_m": -0.001691062053356746,
+              "normal": [
+                0.8127169598341261,
+                -0.08270226838486033,
+                0.5767594628629634
+              ],
+              "point": [
+                -2.0719484850980594,
+                0.21950138003902142,
+                1.6229922869179947
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": 1,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": 8.40913068345106e-11,
+          "contacts": []
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": 2.4934155434808147e-11,
+          "contacts": []
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": 10,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": 7.5091339396538e-11,
+          "contacts": []
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": 1.59341914662825e-11,
+          "contacts": []
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": 25,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": 6.009133815543244e-11,
+          "contacts": []
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": 9.341867557299821e-13,
+          "contacts": []
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": 25.93419,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": 5.91571409913616e-11,
+          "contacts": []
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": -1.0408340855860843e-17,
+          "contacts": []
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": 50,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": 3.5091336086923164e-11,
+          "contacts": [
+            {
+              "dist_m": -0.002062432338820384,
+              "normal": [
+                0.9908089504380204,
+                -0.10106796897982928,
+                0.08990489073571446
+              ],
+              "point": [
+                -2.071597518254917,
+                0.2181902339027496,
+                1.622598458493553
+              ]
+            }
+          ]
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": -2.4065818782226245e-11,
+          "contacts": [
+            {
+              "dist_m": -2.4065813937857793e-11,
+              "normal": [
+                0.0,
+                0.9999999318964722,
+                -0.00036906239485396785
+              ],
+              "point": [
+                -2.0725361598841774,
+                0.21788373642970454,
+                1.6225047182482593
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": 85.09134,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": 1.3877787807814457e-17,
+          "contacts": []
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": -5.915713752191465e-11,
+          "contacts": [
+            {
+              "dist_m": -5.91571349599007e-11,
+              "normal": [
+                0.0,
+                0.9999999350799599,
+                -0.0003603332849173341
+              ],
+              "point": [
+                -2.072536159884182,
+                0.2178837364472502,
+                1.622504718248253
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": 100,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": -1.4908671519542338e-11,
+          "contacts": [
+            {
+              "dist_m": -1.4908668705554325e-11,
+              "normal": [
+                0.0,
+                0.999999936115454,
+                -0.0003574480215328325
+              ],
+              "point": [
+                -2.0725361548461136,
+                0.217883736425096,
+                1.6225047181658172
+              ]
+            }
+          ]
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": -7.406582638869175e-11,
+          "contacts": [
+            {
+              "dist_m": -7.406582130943584e-11,
+              "normal": [
+                0.0,
+                0.999999934206103,
+                -0.000362750313213746
+              ],
+              "point": [
+                -2.072536159884187,
+                0.21788373645470452,
+                1.62250471824825
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": 300,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": -2.1490864643425311e-10,
+          "contacts": [
+            {
+              "dist_m": -2.149086429224955e-10,
+              "normal": [
+                0.0,
+                0.9999999338655172,
+                -0.0003636879998147072
+              ],
+              "point": [
+                -2.072536154846113,
+                0.21788373652509607,
+                1.6225047181657817
+              ]
+            }
+          ]
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": -2.7406579783395557e-10,
+          "contacts": [
+            {
+              "dist_m": -2.74065795526377e-10,
+              "normal": [
+                0.0,
+                0.9999999341286072,
+                -0.00036296388427253573
+              ],
+              "point": [
+                -2.0725361598841863,
+                0.21788373655470455,
+                1.6225047182482144
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "carrier_axis_offset_pm": 1000,
+      "pairs": [
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+          "compiled_axis_gap_m": -9.149086419024677e-10,
+          "contacts": [
+            {
+              "dist_m": -9.149086359082149e-10,
+              "normal": [
+                0.0,
+                0.9999999341770398,
+                -0.0003628304237200525
+              ],
+              "point": [
+                -2.072536154846116,
+                0.217883736875096,
+                1.6225047181656542
+              ]
+            }
+          ]
+        },
+        {
+          "cell": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+          "compiled_axis_gap_m": -9.740657933021701e-10,
+          "contacts": [
+            {
+              "dist_m": -9.740657885120962e-10,
+              "normal": [
+                -4.5591295621115334e-07,
+                0.9999999340664999,
+                -0.0003631346696221836
+              ],
+              "point": [
+                -2.072536159884189,
+                0.21788373690470453,
+                1.622504718248087
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

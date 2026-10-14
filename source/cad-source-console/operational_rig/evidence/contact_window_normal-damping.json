@@ -1,0 +1,64 @@
+{
+  "scope": "common-state collision representation experiment; not full-passage qualification",
+  "source_seed_file_sha256": "48869e4e9b56b6d01f0cdabf281fd4a23fd5b78de7c4fdee17340812fd4a9563",
+  "source_seed_time_s": 1.1,
+  "script_sha256": "0bd086e8135652e5ea40347cabbafd55a9af4be92401636b9d85cfe859eed0a9",
+  "cases": [
+    {
+      "identity": "fdcd76d7bc4257ec8c4012b9b5d0ac3515465d2873753da2b1841924694936ef",
+      "assembly_identity": "78fa899314ef8d4ff58cf44aded5188d1b7c9c886adb0a8293603f7a91ab2d1e",
+      "variant": "normal_damped",
+      "dt_s": 5e-05,
+      "window_start_s": 1.1,
+      "window_end_s": 1.2,
+      "physical_seed_sha256": "836f6b76bc58f9a984de970e5c47dde76012bbda1486a6e0554fd7aa32b52432",
+      "initial_energy_reference_J": -82.1061281538907,
+      "maximum_penetration_m": 4.459409312221099e-05,
+      "max_energy_residual_J": 0.0002641502818281228,
+      "wall_s": 16.94017100300698,
+      "checkpoint_restore_used": false
+    },
+    {
+      "identity": "7b308b9977e1914cdc2cf40d7d171cc8387ed581a4b341a50794fe6e2246c6e0",
+      "assembly_identity": "c7dc4f8e9b5bc3ba33f1e4a3d86ecd68f68a28a18f8aa947f7f11533dca1f619",
+      "variant": "normal_damped",
+      "dt_s": 2.5e-05,
+      "window_start_s": 1.1,
+      "window_end_s": 1.2,
+      "physical_seed_sha256": "836f6b76bc58f9a984de970e5c47dde76012bbda1486a6e0554fd7aa32b52432",
+      "initial_energy_reference_J": -82.1061281538907,
+      "maximum_penetration_m": 4.338541038546923e-05,
+      "max_energy_residual_J": 0.00013089195741366693,
+      "wall_s": 31.621051256995997,
+      "checkpoint_restore_used": false
+    }
+  ],
+  "comparisons": {
+    "normal_damped": {
+      "max_wheel_position_error_m": 2.4538016955330533e-05,
+      "per_dof_qvel_max_error": [
+        3.715014096529816e-06,
+        1.2079645448651189e-05,
+        0.00010608395995276822,
+        8.528974922134774e-05,
+        2.9504869255901243e-06,
+        2.1409138252216368e-05,
+        2.9504857729219518e-06,
+        1.631926704111534e-05,
+        0.00019564581270726936,
+        3.1575833776299395e-05,
+        0.00024453184236760794,
+        0.0001956048814690252,
+        3.158874721403578e-05,
+        0.00020908515165149656,
+        0.00016054029461917178,
+        1.0496953833010738e-05,
+        0.00019665716365627311,
+        3.337571656582717e-05,
+        0.006047106652718015,
+        0.06581526577961752,
+        0.13183687101154007
+      ]
+    }
+  }
+}

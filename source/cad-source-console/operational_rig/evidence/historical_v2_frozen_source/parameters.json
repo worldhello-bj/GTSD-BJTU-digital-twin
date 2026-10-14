@@ -1,0 +1,48 @@
+{
+  "mode": "operational_assembly",
+  "time_step_s": 5e-05,
+  "gravity_m_s2": [
+    0.0,
+    0.0,
+    -9.81
+  ],
+  "rig_mass_kg": 100.0,
+  "rig_inertia_kg_m2": [
+    25.0,
+    900.0,
+    910.0
+  ],
+  "source_density_kg_m3": 7850.0,
+  "balise_total_mass_kg": 0.6,
+  "rig_stiffness": [
+    2000000.0,
+    20000000.0,
+    2000000.0
+  ],
+  "track_mount_stiffness_N_m": 5000000.0,
+  "balise_mount_stiffness_N_m": 20000.0,
+  "catenary_mount_stiffness_N_m": 200000.0,
+  "wire_mount_stiffness_N_m": 2000.0,
+  "pin_mount_stiffness_N_m": 200.0,
+  "damping_ratio": 0.5,
+  "friction_coefficient": 0.3,
+  "contact_time_constant_s": 0.003,
+  "pin_diameter_mm": 4.98,
+  "messenger_datum_shift_mm": 0.1,
+  "wheel_mass_kg": 1.0,
+  "wheel_radius_m": 0.045,
+  "wheel_width_m": 0.012,
+  "wheel_start_x_m": -9.62,
+  "wheel_route_y_m": 0.2589166666667,
+  "wheel_speed_m_s": 0.8,
+  "wheel_drive_gain_N_s_m": 80.0,
+  "wheel_initial_clearance_m": 5e-05,
+  "demo_duration_s": 1.85,
+  "demo_ramp_s": 0.1,
+  "demo_force_N": 1.0,
+  "concrete_density_kg_m3": 2400.0,
+  "polymer_density_kg_m3": 1200.0,
+  "elastomer_density_kg_m3": 1100.0,
+  "approach_extension_m": 0.3,
+  "wheel_contact_time_constant_s": 0.0012
+}

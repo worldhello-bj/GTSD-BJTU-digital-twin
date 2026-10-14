@@ -1,0 +1,1520 @@
+{
+  "step": 59609,
+  "time_s": 1.4902250000000001,
+  "qpos": [
+    -7.576302979058648e-10,
+    -0.00036886979217477393,
+    -0.000362954540918117,
+    -0.001257480104451882,
+    1.0675776923534905e-07,
+    -0.0002942998185182567,
+    1.0675776923525156e-07,
+    -0.0002942997939059795,
+    1.7624843976736216e-09,
+    -0.00020541514719549684,
+    -0.000215393597801521,
+    2.6138060131929493e-07,
+    -0.0002053734985514084,
+    -0.00021542134414770763,
+    2.73763719218929e-08,
+    -7.181625552953565e-05,
+    -1.821845370489329e-05,
+    -0.0003045477292055122,
+    1.1345283357991993,
+    -0.0013117338684934788,
+    24.88796597994366
+  ],
+  "qvel": [
+    -7.091799196515505e-07,
+    3.778697566676434e-07,
+    1.201899929832554e-05,
+    5.7490881400902525e-06,
+    -5.4891676927634566e-08,
+    -2.1984157072108527e-06,
+    -5.489167679922829e-08,
+    -1.6044682820070913e-06,
+    6.82520219838068e-05,
+    -1.0097005712710287e-05,
+    0.0015669875102019533,
+    3.3377651505763254e-05,
+    -2.6771561304172716e-07,
+    -1.8507830968735103e-05,
+    1.9258218489211482e-05,
+    -4.6909743252569976e-07,
+    3.456300236450591e-05,
+    -9.487525700522162e-07,
+    0.7990334925639752,
+    -0.004796785577778658,
+    17.75616006141591
+  ],
+  "body_poses": {
+    "rig": {
+      "position": [
+        0.0,
+        -7.576302979058648e-10,
+        -0.00036886979217477393
+      ],
+      "quaternion_wxyz": [
+        0.9999999835330002,
+        -0.0001814772694629298,
+        0.0,
+        0.0
+      ]
+    },
+    "track_assembly": {
+      "position": [
+        -5.432999355256419,
+        0.1117031358682866,
+        -0.04231567500076809
+      ],
+      "quaternion_wxyz": [
+        0.9999999835330002,
+        -0.0001814772694629298,
+        0.0,
+        0.0
+      ]
+    },
+    "fixed_foundation": {
+      "position": [
+        -4.048857688903809,
+        0.025379300117492676,
+        0.15237492322921753
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "balise_02": {
+      "position": [
+        -7.195666522914676,
+        0.14848549035736971,
+        -0.06455759495374042
+      ],
+      "quaternion_wxyz": [
+        0.9999999835330002,
+        -0.0001814772694629298,
+        0.0,
+        0.0
+      ]
+    },
+    "balise_03": {
+      "position": [
+        -6.195666522914674,
+        0.0987989081943128,
+        -0.06453956095771746
+      ],
+      "quaternion_wxyz": [
+        0.9999999835330002,
+        -0.0001814772694629298,
+        0.0,
+        0.0
+      ]
+    },
+    "catenary_50DF4": {
+      "position": [
+        -2.07170947906014,
+        0.30959862172558456,
+        1.8343555110604721
+      ],
+      "quaternion_wxyz": [
+        0.9999999835330002,
+        -0.0001814772694629298,
+        0.0,
+        0.0
+      ]
+    },
+    "pin_50DF4": {
+      "position": [
+        -2.072534918785095,
+        0.23788463418629532,
+        1.6249874780360973
+      ],
+      "quaternion_wxyz": [
+        0.9999999835330002,
+        -0.0001814772694629298,
+        0.0,
+        0.0
+      ]
+    },
+    "catenary_51409": {
+      "position": [
+        -6.071707918821597,
+        0.29500705421972034,
+        1.834719323464805
+      ],
+      "quaternion_wxyz": [
+        0.9999999835330002,
+        -0.0001814772694629298,
+        0.0,
+        0.0
+      ]
+    },
+    "pin_51409": {
+      "position": [
+        -6.072535037994385,
+        -0.2367058744956973,
+        1.6251597050775157
+      ],
+      "quaternion_wxyz": [
+        0.9999999835330002,
+        -0.0001814772694629298,
+        0.0,
+        0.0
+      ]
+    },
+    "contact_wire_support": {
+      "position": [
+        -4.072534561157227,
+        0.0005694076811759101,
+        1.5683703888200347
+      ],
+      "quaternion_wxyz": [
+        0.9999999835330002,
+        -0.0001814772694629298,
+        0.0,
+        0.0
+      ]
+    },
+    "messenger_wire": {
+      "position": [
+        -4.072534561157227,
+        0.000743710358012112,
+        2.0988734627658228
+      ],
+      "quaternion_wxyz": [
+        0.9999999835330002,
+        -0.0001814772694629298,
+        0.0,
+        0.0
+      ]
+    },
+    "wheel": {
+      "position": [
+        -8.4854716642008,
+        0.25893252385670285,
+        0.04327541848055695
+      ],
+      "quaternion_wxyz": [
+        0.9925199621203487,
+        -0.00018011981557908434,
+        -0.12208231591275764,
+        2.215516570638715e-05
+      ]
+    }
+  },
+  "input_world_force_N": {
+    "balise_02": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "balise_03": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "catenary_50DF4": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "catenary_51409": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pin_50DF4": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "pin_51409": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "messenger_wire": [
+      0.0,
+      0.0,
+      -0.0
+    ]
+  },
+  "drive_target_m_s": 0.8,
+  "used_contacts": [
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0014",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -2.1756699021247673e-10,
+      "point_world_m": [
+        -2.0745348930358882,
+        0.21788517844738833,
+        1.6264774462722904
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.9999999339968744,
+        -0.0003633266398589632
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        6.730170135575565,
+        -2.0217166540052403
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 6.730904234881945,
+      "tangential_force_N": 2.0192712704645834,
+      "normal_impulse_Ns": 0.00016827260587204862,
+      "tangential_impulse_Ns": 5.048178176161459e-05,
+      "work_J": -4.6898452430503224e-08
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0014",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -2.1756699021247673e-10,
+      "point_world_m": [
+        -2.0705347061157227,
+        0.2178851783307092,
+        1.6264771248021908
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.9999999339968744,
+        -0.0003633266398589632
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        6.730170135575565,
+        -2.0217166540052403
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 6.730904234881945,
+      "tangential_force_N": 2.0192712704645834,
+      "normal_impulse_Ns": 0.00016827260587204862,
+      "tangential_impulse_Ns": 5.048178176161459e-05,
+      "work_J": -4.6898452430503224e-08
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0014",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -2.1756699021247673e-10,
+      "point_world_m": [
+        -2.0725349187850948,
+        0.21788554403422736,
+        1.6274846978123965
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.9999999339968744,
+        -0.0003633266398589632
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        6.730170135575565,
+        -2.0217166540052403
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 6.730904234881945,
+      "tangential_force_N": 2.0192712704645834,
+      "normal_impulse_Ns": 0.00016827260587204862,
+      "tangential_impulse_Ns": 5.048178176161459e-05,
+      "work_J": -4.6898452430503224e-08
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0014",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -2.1756699021247673e-10,
+      "point_world_m": [
+        -2.0712200298439707,
+        0.2178838728037882,
+        1.6228801845915868
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.9999999339968744,
+        -0.0003633266398589632
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        6.730170135575565,
+        -2.0217166540052403
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 6.730904234881945,
+      "tangential_force_N": 2.0192712704645834,
+      "normal_impulse_Ns": 0.00016827260587204862,
+      "tangential_impulse_Ns": 5.048178176161459e-05,
+      "work_J": -4.6898452430503224e-08
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0016",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -2.0534555518548523e-08,
+      "point_world_m": [
+        -2.0725349187850948,
+        0.22288373126063588,
+        1.6225028934337071
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.0003629550922640637,
+        0.9999999341317984
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0,
+      "tangential_force_N": 0.0,
+      "normal_impulse_Ns": 0.0,
+      "tangential_impulse_Ns": 0.0,
+      "work_J": 0.0
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0039",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -6.336760858256693e-09,
+      "point_world_m": [
+        -2.072534918785095,
+        0.21788373942876998,
+        1.6225046989019014
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.9526853939312664,
+        0.30395812242811987
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.38300812203166945,
+        0.006660348232349298
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.3669107105600378,
+      "tangential_force_N": 0.11007321316801134,
+      "normal_impulse_Ns": 9.172767764000946e-06,
+      "tangential_impulse_Ns": 2.7518303292002838e-06,
+      "work_J": -2.5592236191792604e-10
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0092",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -6.787515021743153e-09,
+      "point_world_m": [
+        -2.0725349187850943,
+        0.21788373961319646,
+        1.6225046990609184
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.9437610822953431,
+        0.33062821952265775
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0,
+      "tangential_force_N": 0.0,
+      "normal_impulse_Ns": 0.0,
+      "tangential_impulse_Ns": 0.0,
+      "work_J": 0.0
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0098",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -2.0562828825270575e-08,
+      "point_world_m": [
+        -2.0725349187850948,
+        0.22288373141275453,
+        1.6225028934477885
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.0003629541078455812,
+        0.9999999341321558
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0,
+      "tangential_force_N": 0.0,
+      "normal_impulse_Ns": 0.0,
+      "tangential_impulse_Ns": 0.0,
+      "work_J": 0.0
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0106",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -2.0390865113501777e-08,
+      "point_world_m": [
+        -2.0725349187850943,
+        0.22288373137072093,
+        1.6225028933618222
+      ],
+      "normal_geom1_to_geom2": [
+        2.1778831101795078e-08,
+        0.000362953748550022,
+        0.9999999341322859
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0,
+      "tangential_force_N": 0.0,
+      "normal_impulse_Ns": 0.0,
+      "tangential_impulse_Ns": 0.0,
+      "work_J": 0.0
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0114",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -2.051968905841461e-08,
+      "point_world_m": [
+        -2.0725349187850943,
+        0.22288373135816147,
+        1.6225028934262387
+      ],
+      "normal_geom1_to_geom2": [
+        -2.164210251723094e-08,
+        0.0003629556434222581,
+        0.999999934131598
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0,
+      "tangential_force_N": 0.0,
+      "normal_impulse_Ns": 0.0,
+      "tangential_impulse_Ns": 0.0,
+      "work_J": 0.0
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0119",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -2.023618419924194e-08,
+      "point_world_m": [
+        -2.0725349187850948,
+        0.22288373138790685,
+        1.6225028932844756
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.0003629547454917684,
+        0.9999999341319242
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0,
+      "tangential_force_N": 0.0,
+      "normal_impulse_Ns": 0.0,
+      "tangential_impulse_Ns": 0.0,
+      "work_J": 0.0
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0126",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -2.0554814792090613e-08,
+      "point_world_m": [
+        -2.0725349187850948,
+        0.22288373134301476,
+        1.6225028934438073
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.0003629538428202849,
+        0.999999934132252
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0,
+      "tangential_force_N": 0.0,
+      "normal_impulse_Ns": 0.0,
+      "tangential_impulse_Ns": 0.0,
+      "work_J": 0.0
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -0.00206243234387542,
+      "point_world_m": [
+        -2.0715975182525206,
+        0.21819023385349903,
+        1.6225984584937991
+      ],
+      "normal_geom1_to_geom2": [
+        0.9908089504380334,
+        -0.10106796897980433,
+        0.08990489073560054
+      ],
+      "force_on_geom2_world_N": [
+        414.9978752923373,
+        -38.354044842886665,
+        -76.37333732091794
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 408.19363811989507,
+      "tangential_force_N": 113.60065891069168,
+      "normal_impulse_Ns": 0.010204840952997377,
+      "tangential_impulse_Ns": 0.0028400164727672922,
+      "work_J": -1.4752748197027533e-06
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0137",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -1.663405493187597e-10,
+      "point_world_m": [
+        -2.072536169098515,
+        0.21788373650089665,
+        1.6225047183990173
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.9999999340838116,
+        -0.0003630872793742174
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        6.730164107571998,
+        -2.0217130869140716
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 6.730897722249636,
+      "tangential_force_N": 2.0192693166748907,
+      "normal_impulse_Ns": 0.0001682724430562409,
+      "tangential_impulse_Ns": 5.048173291687227e-05,
+      "work_J": -4.6898375605772696e-08
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0144",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -2.0505356142117923e-08,
+      "point_world_m": [
+        -2.0725349187850948,
+        0.22288373134609957,
+        1.6225028934190768
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.0003629548722985574,
+        0.9999999341318782
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0,
+      "tangential_force_N": 0.0,
+      "normal_impulse_Ns": 0.0,
+      "tangential_impulse_Ns": 0.0,
+      "work_J": 0.0
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0150",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -1.5389782551110788e-10,
+      "point_world_m": [
+        -2.0725361680159455,
+        0.21788373649466886,
+        1.6225047183813044
+      ],
+      "normal_geom1_to_geom2": [
+        2.885610764333335e-06,
+        0.999999933898097,
+        -0.0003635869563060002
+      ],
+      "force_on_geom2_world_N": [
+        1.9217383231111442e-05,
+        6.730172595411417,
+        -2.021719303007718
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 6.730907221357541,
+      "tangential_force_N": 2.0192721664072626,
+      "normal_impulse_Ns": 0.00016827268053393855,
+      "tangential_impulse_Ns": 5.0481804160181566e-05,
+      "work_J": -4.689850743948323e-08
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0155",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -2.024398634781466e-08,
+      "point_world_m": [
+        -2.0725349187850948,
+        0.2228837313981561,
+        1.6225028932883727
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.00036295471103192374,
+        0.9999999341319369
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0,
+      "tangential_force_N": 0.0,
+      "normal_impulse_Ns": 0.0,
+      "tangential_impulse_Ns": 0.0,
+      "work_J": 0.0
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0159",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -4.841208004246244e-11,
+      "point_world_m": [
+        -2.0725361627879497,
+        0.2178837364418949,
+        1.6225047182957724
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.9999999343556865,
+        -0.0003623377197104244
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        6.730146688562932,
+        -2.0217023544541486
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 6.730878785788116,
+      "tangential_force_N": 2.0192636357364346,
+      "normal_impulse_Ns": 0.0001682719696447029,
+      "tangential_impulse_Ns": 5.048159089341087e-05,
+      "work_J": -4.6898145186910165e-08
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0164",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -2.0265830283827863e-08,
+      "point_world_m": [
+        -2.0725349187850948,
+        0.22288373139653006,
+        1.6225028932992953
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.0003629551967155038,
+        0.9999999341317605
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0,
+      "tangential_force_N": 0.0,
+      "normal_impulse_Ns": 0.0,
+      "tangential_impulse_Ns": 0.0,
+      "work_J": 0.0
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0171",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -7.07358922677031e-11,
+      "point_world_m": [
+        -2.072536163750395,
+        0.21788373645306253,
+        1.6225047183115175
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.9999999348421422,
+        -0.00036099267500877796
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        6.730123457376383,
+        -2.021685506753234
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 6.7308528325150645,
+      "tangential_force_N": 2.0192558497545194,
+      "normal_impulse_Ns": 0.00016827132081287662,
+      "tangential_impulse_Ns": 5.048139624386299e-05,
+      "work_J": -4.6897787644068774e-08
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -0.001691062053356746,
+      "point_world_m": [
+        -2.0719484850980594,
+        0.21950138003902142,
+        1.6229922869179947
+      ],
+      "normal_geom1_to_geom2": [
+        0.8127169598341261,
+        -0.08270226838486033,
+        0.5767594628629634
+      ],
+      "force_on_geom2_world_N": [
+        276.1073928012566,
+        -24.503488274215915,
+        92.94397428996861
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 280.029971616615,
+      "tangential_force_N": 84.0089914849845,
+      "normal_impulse_Ns": 0.0070007492904153755,
+      "tangential_impulse_Ns": 0.002100224787124613,
+      "work_J": 1.8674640590692124e-06
+    },
+    {
+      "interface_id": "pin_50DF4",
+      "station": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0181",
+      "geom2": "pin_50DF4",
+      "signed_gap_m": -2.049022406232204e-08,
+      "point_world_m": [
+        -2.072534918785095,
+        0.22288373133702769,
+        1.622502893411514
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.0003629533513831676,
+        0.9999999341324304
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0,
+      "tangential_force_N": 0.0,
+      "normal_impulse_Ns": 0.0,
+      "tangential_impulse_Ns": 0.0,
+      "work_J": 0.0
+    },
+    {
+      "interface_id": "messenger_jaw",
+      "station": "messenger_jaw",
+      "geom1": "jaw_CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate_738",
+      "geom2": "messenger_cylinder",
+      "signed_gap_m": -5.633196648486055e-07,
+      "point_world_m": [
+        -2.0795347688372536,
+        0.0007428028368228153,
+        2.0963736873842134
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.0003629548335025518,
+        0.9999999341318923
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.5565449469745002,
+        1.8527063266877126
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 1.8529082053320185,
+      "tangential_force_N": 0.5558724615996056,
+      "normal_impulse_Ns": 4.6322705133300465e-05,
+      "tangential_impulse_Ns": 1.389681153999014e-05,
+      "work_J": -4.0607739200125986e-11
+    },
+    {
+      "interface_id": "messenger_jaw",
+      "station": "messenger_jaw",
+      "geom1": "jaw_CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate_738",
+      "geom2": "messenger_cylinder",
+      "signed_gap_m": -5.633196648486055e-07,
+      "point_world_m": [
+        -2.070088491189871,
+        0.0007428028368228153,
+        2.0963736873842134
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.0003629548335025518,
+        0.9999999341318923
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.5565449469745002,
+        1.8527063266877126
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 1.8529082053320185,
+      "tangential_force_N": 0.5558724615996056,
+      "normal_impulse_Ns": 4.6322705133300465e-05,
+      "tangential_impulse_Ns": 1.389681153999014e-05,
+      "work_J": -4.0607739200125986e-11
+    },
+    {
+      "interface_id": "messenger_jaw",
+      "station": "messenger_jaw",
+      "geom1": "jaw_CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate_739",
+      "geom2": "messenger_cylinder",
+      "signed_gap_m": -5.63319664923687e-07,
+      "point_world_m": [
+        -2.070088491942759,
+        0.0007428028368228153,
+        2.096373687384214
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.00036295483340888544,
+        0.9999999341318925
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.5565449470387067,
+        1.8527063269020827
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 1.8529082055463595,
+      "tangential_force_N": 0.5558724616639078,
+      "normal_impulse_Ns": 4.632270513865899e-05,
+      "tangential_impulse_Ns": 1.3896811541597695e-05,
+      "work_J": -4.060773920474509e-11
+    },
+    {
+      "interface_id": "messenger_jaw",
+      "station": "messenger_jaw",
+      "geom1": "jaw_CAD_SOURCE_518DF_C4D1_4AEC_jaw_lower_square_fit_candidate_739",
+      "geom2": "messenger_cylinder",
+      "signed_gap_m": -5.63319664923687e-07,
+      "point_world_m": [
+        -2.0655348303143564,
+        0.0007428028368228153,
+        2.096373687384214
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.00036295483340888544,
+        0.9999999341318925
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.5565449470387067,
+        1.8527063269020827
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 1.8529082055463595,
+      "tangential_force_N": 0.5558724616639078,
+      "normal_impulse_Ns": 4.632270513865899e-05,
+      "tangential_impulse_Ns": 1.3896811541597695e-05,
+      "work_J": -4.060773920474509e-11
+    },
+    {
+      "interface_id": "pin_51409",
+      "station": "pin_51409",
+      "geom1": "OP_CAD_51409_F643_profile_0_cell_0106",
+      "geom2": "pin_51409",
+      "signed_gap_m": -4.992555598365574e-08,
+      "point_world_m": [
+        -6.072535037994384,
+        -0.22170651758563242,
+        1.6226642862105867
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.00036295494011911057,
+        0.9999999341318536
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0005621540163044435,
+        0.0018713785972525618
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0018715825105656478,
+      "tangential_force_N": 0.0005614747531696943,
+      "normal_impulse_Ns": 4.6789562764141195e-08,
+      "tangential_impulse_Ns": 1.4036868829242358e-08,
+      "work_J": -1.3332654288959506e-12
+    },
+    {
+      "interface_id": "pin_51409",
+      "station": "pin_51409",
+      "geom1": "OP_CAD_51409_F643_profile_0_cell_0106",
+      "geom2": "pin_51409",
+      "signed_gap_m": -4.992555598365574e-08,
+      "point_world_m": [
+        -6.072535037994384,
+        -0.21670678322756765,
+        1.622662471532716
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.00036295494011911057,
+        0.9999999341318536
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0005621540163044435,
+        0.0018713785972525618
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0018715825105656478,
+      "tangential_force_N": 0.0005614747531696943,
+      "normal_impulse_Ns": 4.6789562764141195e-08,
+      "tangential_impulse_Ns": 1.4036868829242358e-08,
+      "work_J": -1.3332654288959506e-12
+    },
+    {
+      "interface_id": "pin_51409",
+      "station": "pin_51409",
+      "geom1": "OP_CAD_51409_F643_profile_0_cell_0111",
+      "geom2": "pin_51409",
+      "signed_gap_m": -4.9872850882981566e-08,
+      "point_world_m": [
+        -6.072535037994383,
+        -0.2217065175838689,
+        1.6226642861842335
+      ],
+      "normal_geom1_to_geom2": [
+        1.7808856068341306e-08,
+        0.00036295561720783853,
+        0.9999999341316077
+      ],
+      "force_on_geom2_world_N": [
+        3.6289489630374344e-11,
+        0.0005616108855132077,
+        0.0018695705412902703
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.001869774257970247,
+      "tangential_force_N": 0.0005609322773910741,
+      "normal_impulse_Ns": 4.6744356449256176e-08,
+      "tangential_impulse_Ns": 1.4023306934776853e-08,
+      "work_J": -1.3319772785345807e-12
+    },
+    {
+      "interface_id": "pin_51409",
+      "station": "pin_51409",
+      "geom1": "OP_CAD_51409_F643_profile_0_cell_0118",
+      "geom2": "pin_51409",
+      "signed_gap_m": -4.9824695821596796e-08,
+      "point_world_m": [
+        -6.072535037994383,
+        -0.22170651758822257,
+        1.6226642861601577
+      ],
+      "normal_geom1_to_geom2": [
+        -1.782606797953411e-08,
+        0.00036295489893742094,
+        0.9999999341318684
+      ],
+      "force_on_geom2_world_N": [
+        -3.6292458506415147e-11,
+        0.0005611145237285223,
+        0.0018679181861459653
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.001868121722374937,
+      "tangential_force_N": 0.0005604365167124811,
+      "normal_impulse_Ns": 4.6703043059373425e-08,
+      "tangential_impulse_Ns": 1.4010912917812027e-08,
+      "work_J": -1.3308000557236728e-12
+    },
+    {
+      "interface_id": "pin_51409",
+      "station": "pin_51409",
+      "geom1": "OP_CAD_51409_F643_profile_0_cell_0124",
+      "geom2": "pin_51409",
+      "signed_gap_m": -4.990488110649778e-08,
+      "point_world_m": [
+        -6.072535037994384,
+        -0.2217065175800131,
+        1.6226642862002474
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.0003629551407835274,
+        0.9999999341317808
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0005619409540329158,
+        0.0018706693237632403
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.001870873159903666,
+      "tangential_force_N": 0.0005612619479710998,
+      "normal_impulse_Ns": 4.677182899759165e-08,
+      "tangential_impulse_Ns": 1.4031548699277495e-08,
+      "work_J": -1.3327601065726212e-12
+    },
+    {
+      "interface_id": "pin_51409",
+      "station": "pin_51409",
+      "geom1": "OP_CAD_51409_F643_profile_0_cell_0130",
+      "geom2": "pin_51409",
+      "signed_gap_m": -4.9738936707859206e-08,
+      "point_world_m": [
+        -6.072535037994384,
+        -0.22170651760456456,
+        1.622664286117284
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.00036295459655515333,
+        0.9999999341319783
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0005602306428066266,
+        0.0018649757991106323
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0018651790145553036,
+      "tangential_force_N": 0.0005595537043665911,
+      "normal_impulse_Ns": 4.662947536388259e-08,
+      "tangential_impulse_Ns": 1.3988842609164777e-08,
+      "work_J": -1.3287037489780409e-12
+    },
+    {
+      "interface_id": "pin_51409",
+      "station": "pin_51409",
+      "geom1": "OP_CAD_51409_F643_profile_0_cell_0138",
+      "geom2": "pin_51409",
+      "signed_gap_m": -4.9740801118594454e-08,
+      "point_world_m": [
+        -6.072535037994385,
+        -0.22170651760850468,
+        1.6226642861182177
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.00036295438672757436,
+        0.9999999341320545
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.000560249839104559,
+        0.0018650397039098939
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0018652429262003265,
+      "tangential_force_N": 0.0005595728778600979,
+      "normal_impulse_Ns": 4.6631073155008163e-08,
+      "tangential_impulse_Ns": 1.3989321946502448e-08,
+      "work_J": -1.3287492777655006e-12
+    },
+    {
+      "interface_id": "pin_51409",
+      "station": "pin_51409",
+      "geom1": "OP_CAD_51409_F643_profile_0_cell_0142",
+      "geom2": "pin_51409",
+      "signed_gap_m": -5.006160009017059e-08,
+      "point_world_m": [
+        -6.072535037994383,
+        -0.22170651748851905,
+        1.6226642862785736
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.0003629549245332226,
+        0.9999999341318594
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        0.0005635561179383622,
+        0.0018760461135780594
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.001876250535474646,
+      "tangential_force_N": 0.0005628751606423938,
+      "normal_impulse_Ns": 4.6906263386866156e-08,
+      "tangential_impulse_Ns": 1.4071879016059845e-08,
+      "work_J": -1.3365908052416421e-12
+    },
+    {
+      "interface_id": "pin_51409",
+      "station": "pin_51409",
+      "geom1": "OP_CAD_51409_F643_profile_0_cell_0147",
+      "geom2": "pin_51409",
+      "signed_gap_m": -4.982880804640186e-08,
+      "point_world_m": [
+        -6.072535037994383,
+        -0.22170651759506574,
+        1.622664286162216
+      ],
+      "normal_geom1_to_geom2": [
+        -1.7824596911210595e-08,
+        0.00036295446864183266,
+        0.9999999341320246
+      ],
+      "force_on_geom2_world_N": [
+        -3.6292202077499136e-11,
+        0.0005611568668183342,
+        0.0018680591467896959
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0018682626981368431,
+      "tangential_force_N": 0.0005604788094410529,
+      "normal_impulse_Ns": 4.670656745342108e-08,
+      "tangential_impulse_Ns": 1.4011970236026323e-08,
+      "work_J": -1.3309004827597385e-12
+    },
+    {
+      "interface_id": "pin_51409",
+      "station": "pin_51409",
+      "geom1": "OP_CAD_51409_F643_profile_0_cell_0152",
+      "geom2": "pin_51409",
+      "signed_gap_m": -5.006063248089214e-08,
+      "point_world_m": [
+        -6.072535037994385,
+        -0.22170651754340992,
+        1.6226642862781095
+      ],
+      "normal_geom1_to_geom2": [
+        -1.7742053494630195e-08,
+        0.00036295417829219527,
+        0.99999993413213
+      ],
+      "force_on_geom2_world_N": [
+        -3.627794168492955e-11,
+        0.0005635460787859209,
+        0.0018760126988941654
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 0.0018762171167291607,
+      "tangential_force_N": 0.0005628651350187482,
+      "normal_impulse_Ns": 4.690542791822902e-08,
+      "tangential_impulse_Ns": 1.4071628375468706e-08,
+      "work_J": -1.3365669980373396e-12
+    },
+    {
+      "interface_id": "messenger_jaw",
+      "station": "messenger_jaw",
+      "geom1": "jaw_CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate_738",
+      "geom2": "messenger_cylinder",
+      "signed_gap_m": -6.047225766245778e-07,
+      "point_world_m": [
+        -6.0700525737074456,
+        0.0007428028443365092,
+        2.096373708085668
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.00036295483515948803,
+        0.9999999341318917
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        -0.5473996786747973,
+        2.1481252090013205
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 2.1479263861482365,
+      "tangential_force_N": 0.5481793150497509,
+      "normal_impulse_Ns": 5.369815965370591e-05,
+      "tangential_impulse_Ns": 1.3704482876243774e-05,
+      "work_J": -4.381897753121532e-11
+    },
+    {
+      "interface_id": "messenger_jaw",
+      "station": "messenger_jaw",
+      "geom1": "jaw_CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate_739",
+      "geom2": "messenger_cylinder",
+      "signed_gap_m": -6.0472257625557e-07,
+      "point_world_m": [
+        -6.065535068732936,
+        0.0007428028443365087,
+        2.096373708085668
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.00036295483345384985,
+        0.9999999341318924
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        -0.5473996786783694,
+        2.1481252078337407
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 2.1479263849815906,
+      "tangential_force_N": 0.5481793150492356,
+      "normal_impulse_Ns": 5.369815962453977e-05,
+      "tangential_impulse_Ns": 1.370448287623089e-05,
+      "work_J": -4.381897751425799e-11
+    },
+    {
+      "interface_id": "messenger_jaw",
+      "station": "messenger_jaw",
+      "geom1": "jaw_CAD_SOURCE_518E0_C4D1_4AEC_jaw_lower_square_fit_candidate_739",
+      "geom2": "messenger_cylinder",
+      "signed_gap_m": -6.0472257625557e-07,
+      "point_world_m": [
+        -6.070052574460335,
+        0.0007428028443365087,
+        2.096373708085668
+      ],
+      "normal_geom1_to_geom2": [
+        0.0,
+        0.00036295483345384985,
+        0.9999999341318924
+      ],
+      "force_on_geom2_world_N": [
+        0.0,
+        -0.5473996786783694,
+        2.1481252078337407
+      ],
+      "torque_on_geom2_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_force_N": 2.1479263849815906,
+      "tangential_force_N": 0.5481793150492356,
+      "normal_impulse_Ns": 5.369815962453977e-05,
+      "tangential_impulse_Ns": 1.370448287623089e-05,
+      "work_J": -4.381897751425799e-11
+    }
+  ],
+  "energy": {
+    "potential_J": -82.58587481106329,
+    "kinetic_J": 0.47882141671414713,
+    "total_J": -82.10705339434915
+  },
+  "ledger": {
+    "input_work_J": 1.3906478741638018e-05,
+    "actuator_work_J": 0.6844060534354386,
+    "known_damping_J": 5.45548482827575,
+    "native_constraint_work_J": -0.20769962233589223,
+    "wheel_rail_normal_impulse_Ns": 15.610282736531984,
+    "wheel_rail_tangential_impulse_Ns": 0.9296837834207186,
+    "wheel_rail_contact_work_J": -0.20502499292934906,
+    "pin_50DF4_normal_impulse_Ns": 0.3933301685937293,
+    "pin_50DF4_tangential_impulse_Ns": 0.016833131963914474,
+    "pin_50DF4_contact_work_J": -0.0005259939222558044,
+    "pin_51409_normal_impulse_Ns": 0.32077322608755726,
+    "pin_51409_tangential_impulse_Ns": 0.009308072880592521,
+    "pin_51409_contact_work_J": -0.000686151101680376,
+    "messenger_jaw_normal_impulse_Ns": 20.70926126957875,
+    "messenger_jaw_tangential_impulse_Ns": 0.9344778642519624,
+    "messenger_jaw_contact_work_J": -0.0014624843826043113
+  },
+  "energy_balance_residual_J": -0.0006333489182663854
+}

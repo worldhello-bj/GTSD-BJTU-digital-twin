@@ -1,0 +1,143 @@
+{
+  "step": 59609,
+  "time_s": 1.4902250000000001,
+  "method": "Reconstruct preintegration qpos from stored scalar slide/hinge qpos-dt*qvel. MuJoCo kinematics only, no forward dynamics or steps. Transform exact source/cell vertices to that pose. Independent complete convex polyhedron SAT uses both face normals and all edge cross-products. Contact-point solid-angle winding uses original triangle geometry.",
+  "completed_utc": "2026-10-14T03:09:47.090087+00:00",
+  "completed_beijing": "2026-10-14T11:09:47.090087+08:00",
+  "findings": [
+    {
+      "cell": "cell_0133",
+      "cell_volume_mm3": 12.133908647399167,
+      "cell_bounds_extents_mm": [
+        4.000186920166016,
+        8.891135454177856,
+        8.510351181030273
+      ],
+      "minimum_triangle_area_mm2": 1.018555679348929,
+      "native_contact": {
+        "interface_id": "pin_50DF4",
+        "station": "pin_50DF4",
+        "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+        "geom2": "pin_50DF4",
+        "signed_gap_m": -0.00206243234387542,
+        "point_world_m": [
+          -2.0715975182525206,
+          0.21819023385349903,
+          1.6225984584937991
+        ],
+        "normal_geom1_to_geom2": [
+          0.9908089504380334,
+          -0.10106796897980433,
+          0.08990489073560054
+        ],
+        "force_on_geom2_world_N": [
+          414.9978752923373,
+          -38.354044842886665,
+          -76.37333732091794
+        ],
+        "torque_on_geom2_world_Nm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "normal_force_N": 408.19363811989507,
+        "tangential_force_N": 113.60065891069168,
+        "normal_impulse_Ns": 0.010204840952997377,
+        "tangential_impulse_Ns": 0.0028400164727672922,
+        "work_J": -1.4752748197027533e-06
+      },
+      "independent_convex_polyhedron_SAT": {
+        "candidate_axis_count": 2572,
+        "max_separating_gap_m": -5.618385531119818e-11,
+        "separating_or_minimum_translation_axis_world": [
+          0.0,
+          0.99999993413,
+          -0.00036295483
+        ],
+        "minimum_translation_depth_m": 5.618385531119818e-11,
+        "overlap": true
+      },
+      "compiled_geometry_SAT": {
+        "candidate_axis_count": 2522,
+        "max_separating_gap_m": 8.509134542811214e-11,
+        "separating_or_minimum_translation_axis_world": [
+          -0.0,
+          0.99999993413,
+          -0.00036295483
+        ],
+        "minimum_translation_depth_m": 0.0,
+        "overlap": false
+      },
+      "contact_point_winding_in_actual_source_plate": -1.4135798584282297e-16,
+      "contact_point_winding_in_actual_cell": 1.766974823035287e-17,
+      "contact_point_winding_in_actual_pin": -2.8271597168564594e-16
+    },
+    {
+      "cell": "cell_0175",
+      "cell_volume_mm3": 10.787046203928883,
+      "cell_bounds_extents_mm": [
+        4.000186920166016,
+        11.095970869064331,
+        7.192134857177734
+      ],
+      "minimum_triangle_area_mm2": 1.0025879374920388,
+      "native_contact": {
+        "interface_id": "pin_50DF4",
+        "station": "pin_50DF4",
+        "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0175",
+        "geom2": "pin_50DF4",
+        "signed_gap_m": -0.001691062053356746,
+        "point_world_m": [
+          -2.0719484850980594,
+          0.21950138003902142,
+          1.6229922869179947
+        ],
+        "normal_geom1_to_geom2": [
+          0.8127169598341261,
+          -0.08270226838486033,
+          0.5767594628629634
+        ],
+        "force_on_geom2_world_N": [
+          276.1073928012566,
+          -24.503488274215915,
+          92.94397428996861
+        ],
+        "torque_on_geom2_world_Nm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "normal_force_N": 280.029971616615,
+        "tangential_force_N": 84.0089914849845,
+        "normal_impulse_Ns": 0.0070007492904153755,
+        "tangential_impulse_Ns": 0.002100224787124613,
+        "work_J": 1.8674640590692124e-06
+      },
+      "independent_convex_polyhedron_SAT": {
+        "candidate_axis_count": 2565,
+        "max_separating_gap_m": -5.618385617855992e-11,
+        "separating_or_minimum_translation_axis_world": [
+          -0.0,
+          0.99999993413,
+          -0.00036295483
+        ],
+        "minimum_translation_depth_m": 5.618385617855992e-11,
+        "overlap": true
+      },
+      "compiled_geometry_SAT": {
+        "candidate_axis_count": 2519,
+        "max_separating_gap_m": 2.5934194028409685e-11,
+        "separating_or_minimum_translation_axis_world": [
+          -0.0,
+          0.99999993413,
+          -0.00036295483
+        ],
+        "minimum_translation_depth_m": 0.0,
+        "overlap": false
+      },
+      "contact_point_winding_in_actual_source_plate": -3.533949646070574e-17,
+      "contact_point_winding_in_actual_cell": 8.282694482977908e-19,
+      "contact_point_winding_in_actual_pin": 1.0000000000000004
+    }
+  ]
+}

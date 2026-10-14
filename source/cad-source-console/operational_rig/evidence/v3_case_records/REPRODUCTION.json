@@ -1,0 +1,143 @@
+{
+  "schema": "gtsd-operational-v3-public-evidence-v1",
+  "runtime_identity_sha256": "ed37eefb244cb98b21c62aa8f0111b08e3d040b7fe95ff917cadc1aed5d278e4",
+  "numerical_protocol": "../protocol_v3_failed.json",
+  "numerical_qualification_passed": false,
+  "checks_passed": 12,
+  "checks_total": 14,
+  "public_files": [
+    {
+      "path": "h25us/butt_gap_snapshot.json",
+      "bytes": 8947,
+      "sha256": "37e70b8cc6949dae7ae4e15a434265105a52af2d02caeed34a03a9f12db807b8"
+    },
+    {
+      "path": "h25us/checkpoint.json",
+      "bytes": 22814,
+      "sha256": "03486d9183a548f03382badb4675e0638bb411620af3bd1467c24c89a9e8cc05"
+    },
+    {
+      "path": "h25us/contract.json",
+      "bytes": 1174581,
+      "sha256": "352c9c1ae35ee102befaf8703859a9c62713bbd6f2f5340ddfac8862fa983ccd"
+    },
+    {
+      "path": "h25us/final_snapshot.json",
+      "bytes": 8963,
+      "sha256": "3e756f75e6b20b86755ab48f4748a1a083d1fa41cf99b399911eb92471d63b4b"
+    },
+    {
+      "path": "h25us/frog_nose_snapshot.json",
+      "bytes": 8968,
+      "sha256": "26c235ecaf7a5590a2a24d5e3d83d916137a696b95959e66a377b5aed4bde0de"
+    },
+    {
+      "path": "h25us/frog_wing_gap_midpoint_snapshot.json",
+      "bytes": 8959,
+      "sha256": "514759ac28713bd883abfc4632a4b9b87b237006928d2117884f149531608dc9"
+    },
+    {
+      "path": "h25us/initial_snapshot.json",
+      "bytes": 6424,
+      "sha256": "f80310ff83385f6e9dceb568cef16a1575eb03331a10b4511705d250cf0ceb36"
+    },
+    {
+      "path": "h25us/model.xml",
+      "bytes": 1597095,
+      "sha256": "f1fcac6b47fc3e127a2ffdf84d6bd0f77d9547442d900e2cb59f12c7b4c14bad"
+    },
+    {
+      "path": "h25us/steps.csv.gz",
+      "bytes": 7257549,
+      "sha256": "d7736c6b418ff2bcb8db62c492ce16aa83dad896d41f8cb76e6186a01882d157"
+    },
+    {
+      "path": "h25us/summary.json",
+      "bytes": 6196,
+      "sha256": "637690883dec49af7c1f518e456310ecb5bd744ea0d855c4f9e67df02640bd78"
+    },
+    {
+      "path": "h25us/wing_to_main_snapshot.json",
+      "bytes": 9009,
+      "sha256": "5d4566ea61e6f7a8131fd64940c95fb3132afb299ca658923af877bb02071d29"
+    },
+    {
+      "path": "h50us/butt_gap_snapshot.json",
+      "bytes": 8954,
+      "sha256": "f00afbed4333044a45b5b58cc399ae1a7a4b7b60811f5b7bc39203ddd8d8466c"
+    },
+    {
+      "path": "h50us/checkpoint.json",
+      "bytes": 32031,
+      "sha256": "307a90701f159e0e77fbe4f885c4cc3f308bbc938c11ee2a198cbef000b0b440"
+    },
+    {
+      "path": "h50us/contract.json",
+      "bytes": 1174579,
+      "sha256": "569573cbf8b91278757a50996694b2c37b2e3557cb8b6539174ec9b695f1fbd3"
+    },
+    {
+      "path": "h50us/final_snapshot.json",
+      "bytes": 8992,
+      "sha256": "797d33a40c9744c528da846bf8331dd8cb71c4b470eb4d0541a440798240563b"
+    },
+    {
+      "path": "h50us/frog_nose_snapshot.json",
+      "bytes": 8946,
+      "sha256": "526b165d62953d4b8bd77e1785470a03c59f0f1157b2ac5de61dd8397a87a119"
+    },
+    {
+      "path": "h50us/frog_wing_gap_midpoint_snapshot.json",
+      "bytes": 8966,
+      "sha256": "018a6f2156e5df68a90b5bd89e619ec43870e08c897047218c68dfdc037d29f1"
+    },
+    {
+      "path": "h50us/initial_snapshot.json",
+      "bytes": 6424,
+      "sha256": "a58befba9b465f597d20f59a4b165c249b767d6ffaabd6b8cbdeac08e578e752"
+    },
+    {
+      "path": "h50us/model.xml",
+      "bytes": 1597095,
+      "sha256": "2c612496274087317dd85df2d4ca3c677b2d53e7c270759a33e33d73d97188ae"
+    },
+    {
+      "path": "h50us/steps.csv.gz",
+      "bytes": 3682676,
+      "sha256": "b8813f5d4263e522ba709d34c1601580da8cb77770ce63d979cdaf79ddd1ecbc"
+    },
+    {
+      "path": "h50us/summary.json",
+      "bytes": 6149,
+      "sha256": "c33283b6562b870c126efea2cead9755aa35f5ecb2dee08b3941a61d4cf67e9a"
+    },
+    {
+      "path": "h50us/wing_to_main_snapshot.json",
+      "bytes": 8960,
+      "sha256": "dc7e6beff04033bf167604845ac6c52671ea38b5c8ffacf7dff82dc957c23171"
+    }
+  ],
+  "every_step_csv_scope": "All native steps: wheel position, normal force and energy/work ledgers. These CSV files are not full qpos/qvel or individual-contact trajectories.",
+  "complete_pose_archives": [
+    {
+      "case": "h25us",
+      "filename": "poses.jsonl.gz",
+      "bytes": 309338107,
+      "sha256": "f2c2f51ebc0b6e352c8dade809a16f3756580c677630351a923c060112595c23",
+      "delivery": "separate complete archive; no private location published"
+    },
+    {
+      "case": "h50us",
+      "filename": "poses.jsonl.gz",
+      "bytes": 157150127,
+      "sha256": "eb772fb91bb0163b1a5c32577aae05840428e91a784a8607755032606d642161",
+      "delivery": "separate complete archive; no private location published"
+    }
+  ],
+  "complete_archives_publicly_bundled": false,
+  "reproduce_from_console": "python operational_rig/validate_protocol.py --output /path/outside/console/protocol-v3",
+  "expected_command_exit_status": 1,
+  "expected_exit_reason": "The frozen V3 complete route finishes, while the body-position and per-DOF-velocity half-step gates fail. The validation command preserves that failing status.",
+  "archive_scope": "Original complete contact/body/native-state archives are preserved separately. No private storage identifiers or URLs are published.",
+  "prepared_utc": "2026-10-14T04:03:13.570089+00:00"
+}

@@ -1,0 +1,118 @@
+{
+  "scope": "common-state collision representation experiment; not full-passage qualification",
+  "source_seed_file_sha256": "48869e4e9b56b6d01f0cdabf281fd4a23fd5b78de7c4fdee17340812fd4a9563",
+  "source_seed_time_s": 1.1,
+  "script_sha256": "4a7768372c7d265cec250c4ae689bc1f6a2298414c20d121ecb0842f6aa3819b",
+  "cases": [
+    {
+      "identity": "76a9845e792d8912de192ebd65b3082e576ec1cfe63e92a79cda236ce84674e2",
+      "assembly_identity": "2dbc0e520c44357fee990c366738fae462168502c46491d9db4f84f8e5da4ef5",
+      "variant": "rounded_0mm",
+      "dt_s": 5e-05,
+      "window_start_s": 1.1,
+      "window_end_s": 1.2,
+      "physical_seed_sha256": "836f6b76bc58f9a984de970e5c47dde76012bbda1486a6e0554fd7aa32b52432",
+      "initial_energy_reference_J": -82.10613528879584,
+      "maximum_penetration_m": 8.066373190315729e-05,
+      "max_energy_residual_J": 0.00030148594347488875,
+      "wall_s": 15.043735414001276,
+      "checkpoint_restore_used": false
+    },
+    {
+      "identity": "39bbd11c4ff1e836b9d4f53f1d3e14bdcf32e3242422ab469eb9827973930426",
+      "assembly_identity": "6197eafdeff25aaa871be32965e7674a12be7cd3271cf047fb3ecd41adcf696a",
+      "variant": "rounded_0mm",
+      "dt_s": 2.5e-05,
+      "window_start_s": 1.1,
+      "window_end_s": 1.2,
+      "physical_seed_sha256": "836f6b76bc58f9a984de970e5c47dde76012bbda1486a6e0554fd7aa32b52432",
+      "initial_energy_reference_J": -82.10613528879584,
+      "maximum_penetration_m": 8.41582076440687e-05,
+      "max_energy_residual_J": 0.0001519715375728471,
+      "wall_s": 30.85751789699134,
+      "checkpoint_restore_used": false
+    },
+    {
+      "identity": "e4cac374459e1d4d9ea9ff2d7a1a4a246215a77a07705afd1f53becfe62cd275",
+      "assembly_identity": "b4d2d23c9480d9144c396982eda4c5065e59c4c197f5047a2d126d833124a7fe",
+      "variant": "rounded_05mm",
+      "dt_s": 5e-05,
+      "window_start_s": 1.1,
+      "window_end_s": 1.2,
+      "physical_seed_sha256": "836f6b76bc58f9a984de970e5c47dde76012bbda1486a6e0554fd7aa32b52432",
+      "initial_energy_reference_J": -82.10619843900751,
+      "maximum_penetration_m": 8.939103853584236e-05,
+      "max_energy_residual_J": 0.000378328686974963,
+      "wall_s": 15.302550763008185,
+      "checkpoint_restore_used": false
+    },
+    {
+      "identity": "1937c1dc5758e0bbb9b9f83e9f82abcd798789d039a40e2573ef16d1dd73e507",
+      "assembly_identity": "3d0963c8be0c657b0b979f987c9c794fd7415f8a57acb29cf2ea5ab7dc0f43b3",
+      "variant": "rounded_05mm",
+      "dt_s": 2.5e-05,
+      "window_start_s": 1.1,
+      "window_end_s": 1.2,
+      "physical_seed_sha256": "836f6b76bc58f9a984de970e5c47dde76012bbda1486a6e0554fd7aa32b52432",
+      "initial_energy_reference_J": -82.10619843900751,
+      "maximum_penetration_m": 9.155996930396536e-05,
+      "max_energy_residual_J": 0.0001899635048857928,
+      "wall_s": 30.50410158300656,
+      "checkpoint_restore_used": false
+    }
+  ],
+  "comparisons": {
+    "rounded_0mm": {
+      "max_wheel_position_error_m": 9.665556751000531e-05,
+      "per_dof_qvel_max_error": [
+        4.244118651783257e-06,
+        4.0673601016866167e-05,
+        0.0001726042577976419,
+        0.00014974046641522755,
+        6.334535915965413e-06,
+        4.962544134778696e-05,
+        6.334541156748977e-06,
+        4.412395937074173e-05,
+        0.00016623669501954314,
+        6.503129701738647e-05,
+        0.0002458157462394485,
+        0.0001512756240117957,
+        6.294609492364942e-05,
+        0.00025695687761779573,
+        0.0002464738325969502,
+        3.271122201422442e-05,
+        0.00016399301998279772,
+        6.325415492124562e-05,
+        0.007123034134766115,
+        0.12397854083493715,
+        0.30882338010134447
+      ]
+    },
+    "rounded_05mm": {
+      "max_wheel_position_error_m": 5.202630442271289e-05,
+      "per_dof_qvel_max_error": [
+        3.4484149346671224e-06,
+        2.104398338605629e-05,
+        0.00010811533836090375,
+        9.080253589093498e-05,
+        3.4131442325415792e-06,
+        2.664453110258177e-05,
+        3.4131480392743835e-06,
+        2.3577408998791657e-05,
+        0.00017089634408230255,
+        3.659623831648745e-05,
+        0.00029777869129077913,
+        0.0001686963626891448,
+        3.344592406099199e-05,
+        0.0001804190877385412,
+        0.00016194111112566564,
+        1.718493410625087e-05,
+        0.00017159592650095443,
+        3.423024430457669e-05,
+        0.0045614820957393665,
+        0.07132616251712862,
+        0.19822254073190848
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "completed_utc": "2026-10-14T03:09:47.091245+00:00",
+  "completed_beijing": "2026-10-14T11:09:47.091245+08:00",
+  "step": 59609,
+  "time_s": 1.4902250000000001,
+  "pose": "same reconstructed PRE-integration pose used in pin_event_geometry_audit; scalar qpos_previous = qpos_after - dt*qvel_after",
+  "axis_world_no_rounding": [
+    -0.0,
+    0.9999999341318923,
+    -0.0003629548334240499
+  ],
+  "axis_norm": 0.9999999999999999,
+  "reference_origin_world_m": [
+    -2.0725349187850948,
+    0.23788463467818508,
+    1.624987438780487
+  ],
+  "floating_error_method": "IEEE754 unit roundoff u=eps/2. Forward bounds gamma6 for vertex transform, conservative subtraction, gamma5 for dot, plus final subtraction and a 1fm kinematics/reconstruction allowance. This certifies the represented compiled collision polyhedra, NOT equality with pre-compile source coordinates.",
+  "findings": [
+    {
+      "cell": "cell_0133",
+      "compiled_pin_axis_gap_float64_m": 8.509134022394171e-11,
+      "compiled_pin_axis_gap_longdouble_m": 8.509135757117647e-11,
+      "conservative_gap_error_bound_m": 1.4541237666921756e-15,
+      "certified_lower_gap_m": 8.508988610017502e-11,
+      "one_picometre_gate_m": 1e-12,
+      "gate_is_above_roundoff_bound": true,
+      "certified_gap_is_above_gate": true,
+      "pin_projection": {
+        "min_float64": -0.01999999582767491,
+        "max_float64": 0.019999995827674925,
+        "min_longdouble": -0.019999995827674897,
+        "max_longdouble": 0.019999995827674897,
+        "max_abs_projection_roundoff_bound_m": 2.384555816059981e-16,
+        "max_float64_longdouble_difference_m": 2.996294347617362e-17
+      },
+      "cell_projection": {
+        "min_float64": -0.028891131303462648,
+        "max_float64": -0.01999999591276625,
+        "min_longdouble": -0.028891131303462655,
+        "max_longdouble": -0.019999995912766255,
+        "max_abs_projection_roundoff_bound_m": 2.1122729390467208e-16,
+        "max_float64_longdouble_difference_m": 1.3344157051044248e-17
+      }
+    },
+    {
+      "cell": "cell_0175",
+      "compiled_pin_axis_gap_float64_m": 2.5934188824239257e-11,
+      "compiled_pin_axis_gap_longdouble_m": 2.5934202702027065e-11,
+      "conservative_gap_error_bound_m": 1.4550976123631495e-15,
+      "certified_lower_gap_m": 2.5932733726626895e-11,
+      "one_picometre_gate_m": 1e-12,
+      "gate_is_above_roundoff_bound": true,
+      "certified_gap_is_above_gate": true,
+      "pin_projection": {
+        "min_float64": -0.01999999582767491,
+        "max_float64": 0.019999995827674925,
+        "min_longdouble": -0.019999995827674897,
+        "max_longdouble": 0.019999995827674897,
+        "max_abs_projection_roundoff_bound_m": 2.384555816059981e-16,
+        "max_float64_longdouble_difference_m": 2.996294347617362e-17
+      },
+      "cell_projection": {
+        "min_float64": -0.031095966556397247,
+        "max_float64": -0.0199999958536091,
+        "min_longdouble": -0.03109596655639725,
+        "max_longdouble": -0.0199999958536091,
+        "max_abs_projection_roundoff_bound_m": 2.1220113958221396e-16,
+        "max_float64_longdouble_difference_m": 1.4433441421213278e-17
+      }
+    }
+  ]
+}

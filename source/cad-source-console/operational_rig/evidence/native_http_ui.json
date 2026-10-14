@@ -1,0 +1,351 @@
+{
+  "schema": "gtsd-operational-native-ui-contract-check-v1",
+  "completed_at_utc": "2026-10-14T02:47:33.302Z",
+  "completed_at_beijing": "2026-10-14T10:47:33.302+08:00",
+  "result": "pass",
+  "scope": "Captured native HTTP responses verified in jsdom with renderer/transport doubles; browser graphics and downloads are not exercised.",
+  "checks": {
+    "source_hashes_and_all_native_bindings": true,
+    "all_transformed_vertices_finite": true,
+    "source_geometry_unchanged": true,
+    "actual_telemetry_display": true,
+    "four_view_shortcuts": true,
+    "parameter_default_source_and_unit_coverage": true,
+    "distinct_demo_manual_and_session_budgets": true,
+    "read_only_dom_verification": true
+  },
+  "http_evidence": {
+    "schema": "gtsd-operational-native-http-acceptance-v1",
+    "passed": true,
+    "passed_check_count": 9,
+    "completed_at_utc": "2026-10-14T02:45:07.625409+00:00",
+    "report_sha256": "cb3a6df178dea13e16f69625d169400f86e8eec548001a558ad2989b7a582b23"
+  },
+  "native_steps": 10,
+  "native_time_s": 0.001,
+  "identity_sha256": "dce7659c0df9f866bb8ef020821863bdd4f406f9609523e3727ea4a83ef9ebd5",
+  "bound_meshes": 268,
+  "total_meshes": 268,
+  "post_count": 0,
+  "telemetry": {
+    "displacement": 0.005395500325474353,
+    "contactForce": 0.22066034161082473,
+    "energy": -77.1322655225756
+  },
+  "display": {
+    "displacement_mm": "0.005",
+    "contact_force_N": "0.221",
+    "energy_J": "-77.1323"
+  },
+  "budgets": {
+    "step_choices": [
+      1,
+      10,
+      50
+    ],
+    "run_steps_max": 40000,
+    "demo_steps_max": 100000,
+    "total_steps_max": 50000,
+    "time_horizon_s_max": 5,
+    "checkpoint_count_max": 8,
+    "requests_max": 1024,
+    "force_norm_max_N": 20
+  },
+  "budget_display": "运行预算：完整时程最多 100,000 步；手动单次最多 40,000 步；会话上限 5.0 s / 50,000 步。",
+  "parameter_coverage": [
+    {
+      "key": "mode",
+      "unit": "枚举",
+      "source_level": "工程参数",
+      "editable": false
+    },
+    {
+      "key": "time_step_s",
+      "unit": "s",
+      "source_level": "数值设置",
+      "editable": true
+    },
+    {
+      "key": "gravity_m_s2",
+      "unit": "m/s²",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "rig_mass_kg",
+      "unit": "kg",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "rig_inertia_kg_m2",
+      "unit": "kg·m² [Ixx,Iyy,Izz]",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "source_density_kg_m3",
+      "unit": "kg/m³",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "balise_total_mass_kg",
+      "unit": "kg",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "rig_stiffness",
+      "unit": "[N/m,N/m,N·m/rad]",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "track_mount_stiffness_N_m",
+      "unit": "N/m",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "balise_mount_stiffness_N_m",
+      "unit": "N/m",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "catenary_mount_stiffness_N_m",
+      "unit": "N/m",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "wire_mount_stiffness_N_m",
+      "unit": "N/m",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "pin_mount_stiffness_N_m",
+      "unit": "N/m",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "damping_ratio",
+      "unit": "无量纲",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "friction_coefficient",
+      "unit": "无量纲",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "contact_time_constant_s",
+      "unit": "s",
+      "source_level": "数值设置",
+      "editable": true
+    },
+    {
+      "key": "pin_diameter_mm",
+      "unit": "mm",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "messenger_datum_shift_mm",
+      "unit": "mm",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "wheel_mass_kg",
+      "unit": "kg",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "wheel_radius_m",
+      "unit": "m",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "wheel_width_m",
+      "unit": "m",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "wheel_start_x_m",
+      "unit": "m",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "wheel_route_y_m",
+      "unit": "m",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "wheel_speed_m_s",
+      "unit": "m/s",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "wheel_drive_gain_N_s_m",
+      "unit": "N·s/m",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "wheel_initial_clearance_m",
+      "unit": "m",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "demo_duration_s",
+      "unit": "s",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "demo_ramp_s",
+      "unit": "s",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "demo_force_N",
+      "unit": "N",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "concrete_density_kg_m3",
+      "unit": "kg/m³",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "polymer_density_kg_m3",
+      "unit": "kg/m³",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "elastomer_density_kg_m3",
+      "unit": "kg/m³",
+      "source_level": "工程参数",
+      "editable": true
+    },
+    {
+      "key": "approach_extension_m",
+      "unit": "m",
+      "source_level": "工程参数",
+      "editable": true
+    }
+  ],
+  "views": {
+    "all": {
+      "mesh_count": 268,
+      "focus_bounds": null
+    },
+    "wheel_rail": {
+      "mesh_count": 214,
+      "focus_bounds": {
+        "min": [
+          -9.824999998723047,
+          0.0729166672321871,
+          -0.09995539560749375
+        ],
+        "max": [
+          -7.934999998723047,
+          0.4449166688445932,
+          0.19004460460749373
+        ],
+        "center": [
+          -8.879999998723047,
+          0.25891666803839014,
+          0.04504460449999999
+        ],
+        "size": [
+          1.8900000000000006,
+          0.3720000016124061,
+          0.2900000002149875
+        ]
+      }
+    },
+    "catenary": {
+      "mesh_count": 39,
+      "focus_bounds": {
+        "min": [
+          -2.1045347690582275,
+          -0.03500058798057624,
+          2.066042672345708
+        ],
+        "max": [
+          -2.040534830093384,
+          0.0509994115264387,
+          2.1330426327571925
+        ],
+        "center": [
+          -2.0725347995758057,
+          0.00799941177293123,
+          2.0995426525514502
+        ],
+        "size": [
+          0.06399993896484357,
+          0.08599999950701494,
+          0.0669999604114846
+        ]
+      }
+    },
+    "pin_50DF4": {
+      "mesh_count": 4,
+      "focus_bounds": {
+        "min": [
+          -2.087024918785095,
+          0.20529472263782275,
+          1.611162625823273
+        ],
+        "max": [
+          -2.0580449187850953,
+          0.2692947143823923,
+          1.6401426265398982
+        ],
+        "center": [
+          -2.072534918785095,
+          0.23729471851010753,
+          1.6256526261815856
+        ],
+        "size": [
+          0.028979999999999784,
+          0.06399999174456952,
+          0.02898000071662521
+        ]
+      }
+    }
+  },
+  "bundle_sha256": {
+    "metadata.json": "3ff9ec8d8cead5b80225f731e9d01b15f84329d8fed3313d4e0dcb837ad24f7b",
+    "geometry.json": "50f5b9189ba6de7f474879e181af25ad15db2f51abf73c747260c2cb42dedfb5",
+    "status.json": "6f301eb6a8965375c058ca48f96ccecd4e3a7bcb51a342328eeb452c3fd834eb"
+  },
+  "web_sha256": {
+    "web/index.html": "839f9078a013f0ed3c5483b2418a65f489456f18da044ec248e971db79efffc5",
+    "web/app.js": "83d7b452cf8dc9c1194297ba2e3a118498761174c62741895853460306f6879e",
+    "web/core.js": "df8cfd61909181d4ec69d3f40c3e9b605d1c5f6feb624c242d05ab4edd361d80",
+    "web/style.css": "1c7d8aa4d1ec3a6f3490b78b69cddbe9cea1c1ba92d3563d0163a86ab75f6694",
+    "web/parameters.html": "f1dcc3d13ea0870ea84e5f41e244cc74d3fe01101291f11269dbd9fa0dfd7d30",
+    "web/parameters.js": "10337d12274647c96e9b2702af14d5d11162855741eb9fed3a92a428954237df"
+  },
+  "browser_visual_tested": false,
+  "browser_download_completion_tested": false
+}

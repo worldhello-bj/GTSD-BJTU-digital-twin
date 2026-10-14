@@ -1,0 +1,94 @@
+{
+  "guard_sha256": "be427b1f8ca14ce3a264847bc9e0f8f60c66df84214daf6485a4eb13693aa838",
+  "guarded_first_deepest_target_contact_m": 0.0,
+  "guarded_second_deepest_target_contact_m": 0.0,
+  "unknown_model_pairs_before": [
+    [
+      0,
+      2,
+      -0.07500000000000001
+    ],
+    [
+      0,
+      2,
+      -0.07500000000000001
+    ],
+    [
+      0,
+      2,
+      -0.07500000000000001
+    ],
+    [
+      0,
+      2,
+      -0.07500000000000001
+    ],
+    [
+      1,
+      2,
+      -0.07500000000000001
+    ],
+    [
+      1,
+      2,
+      -0.07500000000000001
+    ],
+    [
+      1,
+      2,
+      -0.07500000000000001
+    ],
+    [
+      1,
+      2,
+      -0.07500000000000001
+    ]
+  ],
+  "unknown_model_pairs_after": [
+    [
+      0,
+      2,
+      -0.07500000000000001
+    ],
+    [
+      0,
+      2,
+      -0.07500000000000001
+    ],
+    [
+      0,
+      2,
+      -0.07500000000000001
+    ],
+    [
+      0,
+      2,
+      -0.07500000000000001
+    ],
+    [
+      1,
+      2,
+      -0.07500000000000001
+    ],
+    [
+      1,
+      2,
+      -0.07500000000000001
+    ],
+    [
+      1,
+      2,
+      -0.07500000000000001
+    ],
+    [
+      1,
+      2,
+      -0.07500000000000001
+    ]
+  ],
+  "unknown_model_defaults_preserved": true,
+  "after_first_guard_gc_first_contact_m": -0.00206243234387542,
+  "after_first_guard_gc_second_contact_m": 0.0,
+  "model_registry_isolation_pass": true,
+  "same_model_reinstall_survives_old_guard_gc": true
+}
