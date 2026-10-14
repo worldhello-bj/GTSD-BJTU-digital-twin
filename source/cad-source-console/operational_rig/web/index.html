@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GTSD 装配控制台</title>
+  <link rel="stylesheet" href="/operational-rig/style.css">
+  <script defer src="/operational-rig/model.js"></script>
+  <script defer src="/operational-rig/core.js"></script>
+  <script defer src="/operational-rig/app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <div><p class="eyebrow">GTSD / OPERATIONAL ASSEMBLY</p><h1>装配控制台</h1><p class="subtitle" id="assembly-name">轨道支座 · 应答器 · 夹持器 · 行走机构</p></div>
+    <div class="header-links"><a href="/operational-rig/parameters.html">参数与来源 ↗</a><span id="connection" class="pill" role="status">正在连接</span></div>
+  </header>
+  <main>
+    <section class="stage panel" aria-label="装配视图">
+      <div class="section-head"><div><p class="eyebrow">ASSEMBLY VIEW</p><h2>整机联动</h2></div><div class="toolbar compact"><label><span class="sr-only">组件视图</span><select id="branch"><option value="all">完整装配</option></select></label><button id="fit" class="quiet">适配视野</button><button id="focus" class="quiet">聚焦选中</button></div></div>
+      <div class="view-presets" aria-label="快捷视图"><button id="view-wheel" class="quiet">轮轨</button><button id="view-wire" class="quiet">夹线</button><button id="view-pin" class="quiet">销</button><button id="view-all" class="quiet">整机</button><span class="muted">仅调整视角，位移 1×</span></div>
+      <div id="canvas-wrap"><canvas id="view" aria-label="GTSD 来源网格与求解位姿"></canvas><div class="scene-caption"><span id="scene-state">准备载入装配</span><span>拖动旋转 · 滚轮缩放</span></div></div>
+      <div class="view-footer"><span id="render-status">正在读取装配几何…</span><span id="binding-status"></span></div>
+      <div class="metrics" aria-label="当前求解数据">
+        <div><span class="metric-label">最大位移</span><p><strong id="displacement">—</strong><span> mm</span></p><small>相对装配初始姿态</small></div>
+        <div><span class="metric-label">法向接触力</span><p><strong id="contact-force">—</strong><span> N</span></p><small id="contact-count">等待初始化</small></div>
+        <div><span class="metric-label">系统能量</span><p><strong id="energy">—</strong><span> J</span></p><small id="energy-detail">动能 + 势能</small></div>
+        <div><span class="metric-label">求解时间</span><p><strong id="simulation-time">0.0000</strong><span> s</span></p><small id="step-count">0 步</small></div>
+      </div>
+    </section>
+    <aside class="control-column">
+      <section class="panel operations">
+        <div class="section-head"><div><p class="eyebrow">CONTROL</p><h2>运行装配</h2></div><span id="phase" class="pill">未初始化</span></div>
+        <p id="operation" class="operation" aria-live="polite">连接后可按默认参数直接开始。</p>
+        <button id="start" class="primary full" disabled>开始运行</button>
+        <div class="button-grid"><button id="pause" disabled>暂停</button><button id="step" disabled>单步</button><button id="reset" disabled>重启</button><button id="refresh">刷新状态</button></div>
+        <div class="run-options"><label>继续步数 <input id="run-steps" type="number" min="1" max="500" value="100"></label><button id="run" disabled>继续运行</button></div>
+        <p id="config-status" class="muted">使用默认装配参数</p>
+        <p id="error" role="alert"></p>
+        <div class="progress-track"><div id="run-progress"></div></div><p id="run-detail" class="muted">等待开始</p>
+      </section>
+      <section class="panel">
+        <div class="section-head"><div><p class="eyebrow">STATE</p><h2>保存与恢复</h2></div><button id="checkpoint" class="quiet" disabled>保存当前</button></div>
+        <label>会话检查点<select id="checkpoints"><option value="">暂无保存状态</option></select></label>
+        <div class="button-grid"><button id="restore" disabled>恢复所选</button><button id="export" disabled>导出所选</button></div><p id="checkpoint-note" class="muted">暂停后保存当前状态。</p>
+      </section>
+      <section class="panel source-panel">
+        <div class="section-head"><div><p class="eyebrow">COMPONENT</p><h2>选中零件</h2></div></div>
+        <label><span class="sr-only">零件</span><select id="parts"></select></label><dl id="part-facts"></dl><details><summary>来源与刚体信息</summary><pre id="detail">读取中…</pre></details>
+      </section>
+    </aside>
+    <section class="panel response-panel">
+      <div class="section-head"><div><p class="eyebrow">RESPONSE</p><h2>组件响应</h2></div><span class="muted">求解器当前状态 · 位移倍率 1×</span></div>
+      <div id="branch-response" class="response-grid"><p class="muted">开始运行后显示各组件位移与受力。</p></div>
+      <details><summary>完整状态与能量账</summary><pre id="diagnostics">尚无运行状态。</pre></details>
+    </section>
+  </main>
+  <footer><span>GTSD 虚拟装配</span><span>工程参数版本 · <a href="/operational-rig/parameters.html">查看参数与来源</a></span></footer>
+</body>
+</html>

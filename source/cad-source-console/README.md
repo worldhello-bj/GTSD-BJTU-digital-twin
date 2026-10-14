@@ -1,27 +1,26 @@
-## New photo-supported turnout variants
+# GTSD 来源整机与虚拟控制台
 
-The assembly viewer offers two additional explicit choices: a photo-supported
-frog/wing/flangeway/base-plate reconstruction retaining old bolt proxies for
-review, and a complete outside-foot hold-down research alternative. Both keep
-the historical source and PR5 profiles selectable. See [geometry and evidence](photo_turnout/INTEGRATION.md).
-The latter uses 12 complete assemblies at six source axes; its 235 modeled-material
-checks leave one 0.4882476853 mm³ finite rail-foot/end-joint issue. Attachment
-family, dimensional hypotheses and wheel passage are not physically certified.
+## 默认装配：道岔、支承、传感器与接触网
 
-## New bounded research console
+```sh
+python launch.py --operational-rig --port 8176
+```
 
-`python launch.py --research-rig --port 8175` starts the independent finite-mount /
-two-pin-contact console after restoring its source assets. Open
-`http://127.0.0.1:8175/research-rig` on the same machine.
-See [research rig](research_rig/README.md), [controls](research_rig/CONSOLE.md) and
-[specific data boundaries](research_rig/DATA_BOUNDARY.md). Its source geometry,
-engineering hypotheses and checkpoint identity are separate from strict82/H1.
+在同一台电脑打开 http://127.0.0.1:8176/operational-rig 。点击“开始”加载默认装配并运行完整时程，随后可暂停、单步、保存、恢复和导出检查点。需要调整质量、刚度、摩擦或驱动时，打开“参数”页，保存后重新开始。
 
-# GTSD 来源整机与虚拟研究控制台
+[操作说明与验收](operational_rig/README.md) · [默认参数](operational_rig/parameters.json) · [参数来源](operational_rig/parameter_sources.json) · [端接几何修订](photo_turnout/operational_revision/ASSUMPTIONS.md)
+
+## 保留的来源和研究入口
+
+- `python launch.py --port 8778`：完整来源整机与 strict82 控制台。
+- `python launch.py --research-rig --port 8175`：上一阶段有限安装／两销接触试验台。
+- 来源整机的装配选择器保留照片道岔及完整扣件两种历史配置，新默认配置使用独立模型和检查点身份。
+
+以下记录来源控制台的恢复方式和已完成历史验收。新默认装配的运行结果集中在上面的独立操作页。
 
 ## 交付状态：资源已齐备，真实远端验收通过
 
-当前公开分支已具备完整恢复和软件运行所需资源：原有 57 项运行资产、432 份新增来源 JSON 均可从仓库分块校验恢复，来源目录共 476 条审阅状态。真实远端 fresh checkout 已通过运行验收，证据见 [remote_fresh_f8043df.json](verification/remote_fresh_f8043df.json)，分项状态见 [TRANSFER_STATUS.json](TRANSFER_STATUS.json)。下列启动命令可用于复现；浏览器 WebGL 视觉验收和实物校准仍保留独立边界。
+上一阶段 main 已完成完整恢复和软件运行所需资源发布：截至上一阶段的 102 项运行资产和 432 份新增来源 JSON 均可从仓库分块校验恢复，来源目录共 476 条审阅状态。真实远端 fresh checkout 已通过运行验收，证据见 [remote_fresh_f8043df.json](verification/remote_fresh_f8043df.json)，分项状态见 [TRANSFER_STATUS.json](TRANSFER_STATUS.json)。下列启动命令可用于复现；浏览器 WebGL 视觉验收和实物校准仍保留独立边界。
 
 本目录保存公共源码与生成模型快照（2026-10-13），包含完整装配视图、strict82 来源轨道/近侧弹簧座两个物理变体、独立受电弓 H1 候选、476 个公共来源审阅状态（保留原 44 项身份，新增 432 项），以及完整 1,932 网格原生 Blender 整机。476 是来源审阅状态数，不代表独立实物数。只监听回环地址，不接真实硬件。
 

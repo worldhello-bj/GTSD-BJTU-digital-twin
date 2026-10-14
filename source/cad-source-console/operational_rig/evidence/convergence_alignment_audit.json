@@ -1,0 +1,103 @@
+{
+  "v3_implicitfast_50_25_window": {
+    "aligned_pair_count": 2004,
+    "unmatched_coarse_rows": 0,
+    "maximum_paired_time_difference_s": 0.0,
+    "sample_dt_s": 5.0000000000105516e-05,
+    "max_wheel_position_component_error_m": 0.00014312698318001,
+    "position_max_time_s": 1.17065,
+    "position_over_50um": {
+      "total_sample_duration_s": 0.029250000000061727,
+      "longest_span": {
+        "start_s": 1.14235,
+        "end_s": 1.17155,
+        "sample_count": 585,
+        "sample_duration_s": 0.029250000000061727
+      },
+      "span_count": 1
+    },
+    "wheel_z_velocity_max_difference_m_s": 0.15218144567629777,
+    "velocity_max_time_s": 1.1713500000000001,
+    "velocity_at_max_coarse_fine_m_s": [
+      -0.0395985682293664,
+      -0.19178001390566415
+    ],
+    "original_wheel_z_velocity_tolerance_m_s": 0.024388899408530337,
+    "full_fine_peak_velocity_tolerance_m_s": 0.024391014375294447,
+    "velocity_over_original_tolerance": {
+      "total_sample_duration_s": 0.0018000000000037986,
+      "longest_span": {
+        "start_s": 1.17075,
+        "end_s": 1.1725,
+        "sample_count": 36,
+        "sample_duration_s": 0.0018000000000037986
+      },
+      "span_count": 1
+    },
+    "velocity_over_full_fine_scale_tolerance": {
+      "total_sample_duration_s": 0.0018000000000037986,
+      "longest_span": {
+        "start_s": 1.17075,
+        "end_s": 1.1725,
+        "sample_count": 36,
+        "sample_duration_s": 0.0018000000000037986
+      },
+      "span_count": 1
+    },
+    "position_error_rms_m": 5.584548511476256e-05,
+    "z_velocity_error_rms_m_s": 0.012716333294046167,
+    "aligned_velocity_peak_scale_full_fine_max_relative_difference": 8.671089818441319e-05
+  },
+  "rk4_50_25_common_state_window": {
+    "aligned_pair_count": 2000,
+    "unmatched_coarse_rows": 0,
+    "maximum_paired_time_difference_s": 0.0,
+    "sample_dt_s": 5.0000000000105516e-05,
+    "max_wheel_position_component_error_m": 5.0187645563117e-05,
+    "position_max_time_s": 1.1711500000000001,
+    "position_over_50um": {
+      "total_sample_duration_s": 0.00020000000000042206,
+      "longest_span": {
+        "start_s": 1.171,
+        "end_s": 1.1711500000000001,
+        "sample_count": 4,
+        "sample_duration_s": 0.00020000000000042206
+      },
+      "span_count": 1
+    },
+    "wheel_z_velocity_max_difference_m_s": 0.07169725408379349,
+    "velocity_max_time_s": 1.1714,
+    "velocity_at_max_coarse_fine_m_s": [
+      -0.12053821768642306,
+      -0.19223547177021655
+    ],
+    "original_wheel_z_velocity_tolerance_m_s": 0.024388660726790128,
+    "full_fine_peak_velocity_tolerance_m_s": 0.02438974036619358,
+    "velocity_over_original_tolerance": {
+      "total_sample_duration_s": 0.0009500000000020048,
+      "longest_span": {
+        "start_s": 1.1712500000000001,
+        "end_s": 1.17215,
+        "sample_count": 19,
+        "sample_duration_s": 0.0009500000000020048
+      },
+      "span_count": 1
+    },
+    "velocity_over_full_fine_scale_tolerance": {
+      "total_sample_duration_s": 0.0009500000000020048,
+      "longest_span": {
+        "start_s": 1.1712500000000001,
+        "end_s": 1.17215,
+        "sample_count": 19,
+        "sample_duration_s": 0.0009500000000020048
+      },
+      "span_count": 1
+    },
+    "position_error_rms_m": 1.9644780115080492e-05,
+    "z_velocity_error_rms_m_s": 0.005005647681166861,
+    "aligned_velocity_peak_scale_full_fine_max_relative_difference": 4.42661294151313e-05
+  },
+  "completed_utc": "2026-10-14T03:56:59.685490+00:00",
+  "completed_beijing": "2026-10-14T11:56:59.685524+08:00",
+  "scope": "Independent timestamp join of postintegration states; no rephasing, shifting, smoothing, or new simulation. Duration describes number of native coarse sample bins exceeding original criteria, not new acceptance criteria."
+}

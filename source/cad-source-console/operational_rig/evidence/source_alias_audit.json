@@ -1,0 +1,81 @@
+{
+  "schema": "gtsd-independent-source-overlay-audit-v1",
+  "completed_utc": "2026-10-14T02:39:51.861670+00:00",
+  "completed_beijing": "2026-10-14T10:39:51.861670+08:00",
+  "source_geometry_sha256": "1a28c7ea22fabacdd476ba6d83fad5c4a8a286ffd438d6e4621836cfb10e1862",
+  "method": "Evaluate actual oriented triangle solid-angle sum at a strict shared interior point; winding approximately 1 in both closed source solids proves positive-volume material overlap. This witness does not claim an integrated overlap volume. Report hypothetical standalone overlay mass to identify the mass previously added, not as a measured intersection mass.",
+  "witnesses": [
+    {
+      "material_mesh": "PHOTO_RETAIN_left_ENV_main_rail_1",
+      "overlay_mesh": "PHOTO_RETAIN_left_ENV_main_rail_top_1",
+      "witness_point_world_m": [
+        -9.470810984469168,
+        0.2589166760444641,
+        -0.001500000013038516
+      ],
+      "oriented_solid_angle_winding_numbers": [
+        1.0000000000000007,
+        0.9999999999999805
+      ],
+      "material_mesh_mass_at_steel_density_kg": 0.01499880679683228,
+      "overlay_mass_if_erroneously_counted_at_steel_density_kg": 0.0007505803563586202,
+      "overlay_current_geometry_role": "visual_overlay",
+      "material_geometry_sha256": "8040f7cbf4ae476cb11d21d56a38081c3e8cb9890b7082307cd0197b311208fc",
+      "overlay_geometry_sha256": "1e6f890819481e0f460c5a42110bf252dc5a36fc44e0a2d8b651a750665cde1d"
+    },
+    {
+      "material_mesh": "PHOTO_RETAIN_right_ENV_main_rail_1",
+      "overlay_mesh": "PHOTO_RETAIN_right_ENV_main_rail_top_1",
+      "witness_point_world_m": [
+        -3.4515275391108915,
+        0.2589166760444641,
+        -0.001500000013038516
+      ],
+      "oriented_solid_angle_winding_numbers": [
+        1.0000000000002838,
+        0.9999999998365406
+      ],
+      "material_mesh_mass_at_steel_density_kg": 139.96346320773887,
+      "overlay_mass_if_erroneously_counted_at_steel_density_kg": 8.412949918892258,
+      "overlay_current_geometry_role": "visual_overlay",
+      "material_geometry_sha256": "38eb2031a38455661508241d72763e9ed2779a4da32c14b6cf381db706eefe07",
+      "overlay_geometry_sha256": "9fcbf8deeb15b9f012470a1664e694684b01b57a01835dccb439b5f9010ba16c"
+    },
+    {
+      "material_mesh": "ENV_main_rail_-1",
+      "overlay_mesh": "ENV_main_rail_top_-1",
+      "witness_point_world_m": [
+        -4.025674104690552,
+        -0.2589166760444641,
+        -0.001500000013038516
+      ],
+      "oriented_solid_angle_winding_numbers": [
+        0.9999999999713207,
+        0.9999999999783705
+      ],
+      "material_mesh_mass_at_steel_density_kg": 156.45928861338646,
+      "overlay_mass_if_erroneously_counted_at_steel_density_kg": 9.404350903853851,
+      "overlay_current_geometry_role": "visual_overlay",
+      "material_geometry_sha256": "b3d31c12efc460c673cf5720ba35d0f31ea4d2fd73f9aa5d3c4de10c69da59d5",
+      "overlay_geometry_sha256": "e731a2ef8c3f7303c8792b75cfe4ab3b2f34e67892a5f2fe98fb5ceb183d7e0c"
+    },
+    {
+      "material_mesh": "OP_approach_PHOTO_RETAIN_left_ENV_main_rail_1",
+      "overlay_mesh": "OP_approach_PHOTO_RETAIN_left_ENV_main_rail_top_1",
+      "witness_point_world_m": [
+        -9.621332550048828,
+        0.2589166760444641,
+        -0.001500000013038516
+      ],
+      "oriented_solid_angle_winding_numbers": [
+        0.9999999999999546,
+        1.0
+      ],
+      "material_mesh_mass_at_steel_density_kg": 4.309651758252559,
+      "overlay_mass_if_erroneously_counted_at_steel_density_kg": 0.21586365712072794,
+      "overlay_current_geometry_role": "visual_overlay",
+      "material_geometry_sha256": "be7bee742ddf209f85f371fae3667c51a151fa9700f6fea22d66825b92327d61",
+      "overlay_geometry_sha256": "cdd287a6658b915bc8ffba3eab58db2ac4e711e0545e1e1da0be729179316e62"
+    }
+  ]
+}

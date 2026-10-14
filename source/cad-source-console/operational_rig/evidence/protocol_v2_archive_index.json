@@ -1,0 +1,168 @@
+{
+  "schema": "gtsd-operational-compact-evidence-v1",
+  "cases": [
+    {
+      "case": "h25us",
+      "native_steps": 74000,
+      "time_step_s": 2.5e-05,
+      "duration_s": 1.85,
+      "identity_sha256": "bae2010cdcec733d25feae58939c2d47b8b7b0f83b368c93a69079cf38a03d6a",
+      "files": [
+        {
+          "path": "h25us/butt_gap_snapshot.json",
+          "bytes": 8928,
+          "sha256": "d3c6b75497e613c7f516b9c43820a83a176f974ce04dbb350c9c72999f0f7da1"
+        },
+        {
+          "path": "h25us/checkpoint.json",
+          "bytes": 30742,
+          "sha256": "ecfacceda9b7324554ac6885e5de1a080f3ae20bab07393aa7b42ea323112d1c"
+        },
+        {
+          "path": "h25us/contract.json",
+          "bytes": 1173247,
+          "sha256": "93884a24de6719b3abeccb3fe1ed97345e691d2589ff25ee1bc10e112e9b5bd7"
+        },
+        {
+          "path": "h25us/final_snapshot.json",
+          "bytes": 8947,
+          "sha256": "f40875a7e60f96e216328ef91cc6496a96b02ffc2cc2f283732e6a2b3cc109a1"
+        },
+        {
+          "path": "h25us/frog_nose_snapshot.json",
+          "bytes": 8991,
+          "sha256": "2a897f3d9c9227ec22cd170bbb360d8f18cff70d2e2a78d75717c905eba8186b"
+        },
+        {
+          "path": "h25us/frog_wing_gap_midpoint_snapshot.json",
+          "bytes": 8937,
+          "sha256": "42ef50be30bf765bdd9b46150e3f3f16ba2a4889c5ace3ca04448ec013f6eaf6"
+        },
+        {
+          "path": "h25us/initial_snapshot.json",
+          "bytes": 6424,
+          "sha256": "20e539005e374e2980672a636f31e28ad013625a66cd0c1c1e27030aed240662"
+        },
+        {
+          "path": "h25us/model.xml",
+          "bytes": 1631036,
+          "sha256": "5b44f2ae2431cd285a78421ca22a23988b05e594806023a7323a74b2c4dc53e6"
+        },
+        {
+          "path": "h25us/native_states.jsonl.gz",
+          "bytes": 28120115,
+          "sha256": "d6ecede47d6b39a20cbe73b11122dcc99ab27424fcc152c8c3597b8c88ba262f"
+        },
+        {
+          "path": "h25us/steps.csv.gz",
+          "bytes": 7403164,
+          "sha256": "3166832a5eb3416764a44f362dbe160a6af33c885daf22a08a94db617abf4714"
+        },
+        {
+          "path": "h25us/summary.json",
+          "bytes": 6137,
+          "sha256": "ddea2b7c9f0f46ab6ba8fc28802b7483b2434c03861739140af930196f77b496"
+        },
+        {
+          "path": "h25us/wing_to_main_snapshot.json",
+          "bytes": 9000,
+          "sha256": "9d84e68ccab680df769b3468a8aa5a59882bb2f31e6181da7dfcabe933fe0f1c"
+        }
+      ]
+    },
+    {
+      "case": "h50us",
+      "native_steps": 37000,
+      "time_step_s": 5e-05,
+      "duration_s": 1.85,
+      "identity_sha256": "3a7647fa12993daf9d5113ff81e3cbf5ec49e4791afc66597b25e21127227c02",
+      "files": [
+        {
+          "path": "h50us/butt_gap_snapshot.json",
+          "bytes": 8933,
+          "sha256": "70a989c5a504d0fe8e496fb091e42900ebc0c956ea4eadde9fec3ff2fbd853c9"
+        },
+        {
+          "path": "h50us/checkpoint.json",
+          "bytes": 28694,
+          "sha256": "3d135dc31d19beae3f492d8169862e4e88ee5eacb8c9ca5c6a05f8a426a51397"
+        },
+        {
+          "path": "h50us/contract.json",
+          "bytes": 1173245,
+          "sha256": "930a17687b8581f49306c896a360554bfcde3a081799ea25403da0210ccac696"
+        },
+        {
+          "path": "h50us/final_snapshot.json",
+          "bytes": 8950,
+          "sha256": "95dbd296c49bf30dac198d06128a5e7a4f21adee1b2c716feef8b0b50b8c8054"
+        },
+        {
+          "path": "h50us/frog_nose_snapshot.json",
+          "bytes": 8979,
+          "sha256": "98635cce43a0e41c18c2ba75ab7301f0fd12dc80456f3728514a90a9d1bf34b8"
+        },
+        {
+          "path": "h50us/frog_wing_gap_midpoint_snapshot.json",
+          "bytes": 8946,
+          "sha256": "5ce969c6e30a21acf29e63e3274f8f0bb0a648639c99dd0bef60274ec459e9f5"
+        },
+        {
+          "path": "h50us/initial_snapshot.json",
+          "bytes": 6424,
+          "sha256": "58db481b1d4a84c4a7e49b7f85f385ec4fd8effb8166893729be3cc407d37f87"
+        },
+        {
+          "path": "h50us/model.xml",
+          "bytes": 1631036,
+          "sha256": "5a5ec7a14cab2874c1281b8a96ce8feacea197740d21b5ad4d61c392cf759603"
+        },
+        {
+          "path": "h50us/native_states.jsonl.gz",
+          "bytes": 14182747,
+          "sha256": "95ac53542faac3b26b3c06b45ec1633678a5b2481f0c280f0b9f6476266509d1"
+        },
+        {
+          "path": "h50us/steps.csv.gz",
+          "bytes": 3733495,
+          "sha256": "3ddb4fa17ad9981371da5ff33c850b4f9466a20fa2f331a884f15edfe48fa247"
+        },
+        {
+          "path": "h50us/summary.json",
+          "bytes": 6123,
+          "sha256": "c06d4cfa9eea1fe4d98df754b50c4240667452ddf832e407f662c5d0534028d8"
+        },
+        {
+          "path": "h50us/wing_to_main_snapshot.json",
+          "bytes": 8977,
+          "sha256": "b5b4a50ba8c931417fe021e21aa962ccf3d2106ae9cb0c2d3193ca1d350663aa"
+        }
+      ]
+    }
+  ],
+  "full_archives": [
+    {
+      "case": "h25us",
+      "archive_name": "h25us_full_native_contact_poses.jsonl.gz",
+      "original_name": "h25us/poses.jsonl.gz",
+      "bytes": 286772393,
+      "sha256": "b17c37415703b701f782abaea01167cc6d692f59001a5b085852f2eaabaee398",
+      "contents": "Every native step: complete body poses, qpos/qvel, actual external/actuator inputs, individual contact points/forces/impulses and energy ledgers",
+      "retained_unchanged": true
+    },
+    {
+      "case": "h50us",
+      "archive_name": "h50us_full_native_contact_poses.jsonl.gz",
+      "original_name": "h50us/poses.jsonl.gz",
+      "bytes": 143087190,
+      "sha256": "7b8968ed355b9945fa2e449fd23d75c5c750ce19b4a7b95efceedbc449216a92",
+      "contents": "Every native step: complete body poses, qpos/qvel, actual external/actuator inputs, individual contact points/forces/impulses and energy ledgers",
+      "retained_unchanged": true
+    }
+  ],
+  "finished_utc": "2026-10-14T03:05:26.160020+00:00",
+  "finished_beijing": "2026-10-14T11:05:26.160020+08:00",
+  "protocol_passed": false,
+  "state_sampling": "every native step, no decimation",
+  "large_archive_delivery": "separate full trace archive; identifiers supplied by delivery owner"
+}

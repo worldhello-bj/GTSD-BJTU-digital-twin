@@ -1,0 +1,54 @@
+{
+  "schema": "gtsd-operational-release-status-v1",
+  "stage": "operational_demo_ready",
+  "runtime_identity_sha256": "ed37eefb244cb98b21c62aa8f0111b08e3d040b7fe95ff917cadc1aed5d278e4",
+  "assembly_identity_sha256": "349f8fc9c1787ffe21d53583b5af588c24c13b6c43ee39485a597d4b5d31340c",
+  "complete_http_demonstration": {
+    "passed": true,
+    "report": "native_http_v3.json",
+    "sha256": "6f705c7d510a01f437e94031913ebf0b0dc5a62457b29a0c2134c4f362b0f5d3",
+    "scope": "1.85 s native route, HTTP command lifecycle and exact terminal export/advance/restore"
+  },
+  "captured_native_dom": {
+    "passed": true,
+    "report": "native_http_ui_v3.json",
+    "sha256": "882babd760e4415a8521ba4a40771d46e7098fe3ea6d897dcf4870c572ea4c02"
+  },
+  "regressions": {
+    "python_tests_passed": 46,
+    "ui_dom_tests_passed": 26,
+    "python_terminal_observed_utc": "2026-10-14T03:57:51Z",
+    "ui_finished_utc": "2026-10-14T03:57:41Z"
+  },
+  "full_time_step_qualification": {
+    "passed": false,
+    "checks_passed": 12,
+    "checks_total": 14,
+    "failed_checks": [
+      "h2_body_positions_50um",
+      "h2_per_dof_velocity"
+    ],
+    "report": "protocol_v3_failed.json"
+  },
+  "visual_evidence": {
+    "whole_static_assembly": "../../photo_turnout/operational_revision/whole_operational_assembly.png",
+    "video": "../../photo_turnout/operational_revision/animation_v2/operational_motion_v2.mp4",
+    "video_solver_version": "V2",
+    "video_runtime_identity_sha256": "3a7647fa12993daf9d5113ff81e3cbf5ec49e4791afc66597b25e21127227c02",
+    "v3_native_pose_render_verified": false,
+    "webgl_browser_visual_tested": false,
+    "browser_download_completion_tested": false
+  },
+  "frozen_runtime_source_sha256": {
+    "collision_guard.py": "0dde8b3d040917799566936c0e49ca67521a663a43162ba85f36b1e398a7c127",
+    "contact_adapter.py": "b1b6df9357ef472314c97eff38488ce065bd1d9515792e83d5b8b282fcf1b42f",
+    "parameters.json": "9d04783df0dfa0cacec007b00180e146a948dfeedcdcab46d4174597de075a77",
+    "build_rig.py": "9b2c3ab550ceccc8fe96ae391368c518c8d7f81447c30c087814be581f9cf00b",
+    "parameter_sources.json": "f9bc645e309ed84216302fb15f3c4267d3c044b68977553b8df413db9bdc8cce",
+    "plant.py": "7c4aeb72ba62690a84a10e1338d06c66c7c23df17933058a3fd66b3bad5be91f",
+    "validate_protocol.py": "a5e0bb4dac043aeb85f9aac794a8c379a367e110b2b0b807fcfb039e5d674556",
+    "mass_properties.py": "e4c99fac7b363f6342321c710c41b886697c4bdff28392c77abfea4b1eabc913"
+  },
+  "created_utc": "2026-10-14T04:01:31.774317+00:00",
+  "created_beijing": "2026-10-14T12:01:31.774317+08:00"
+}

@@ -1,0 +1,241 @@
+{
+  "h50us": {
+    "rows": 2004,
+    "maximum_contact_count": 5,
+    "maximum_simultaneous_geoms": 1,
+    "maximum_duplicate_pairs_1um": 0,
+    "duplicate_event_count": 0,
+    "duplicate_examples": [],
+    "first_collision_start": {
+      "step": 22503,
+      "time_s": 1.12515,
+      "force_N": 748.6207572611975,
+      "contact_count": 1,
+      "geom_count": 1,
+      "geoms": [
+        "rail_PHOTO_WING_upper_source_chain_111"
+      ],
+      "duplicate_pairs_within_1um": [],
+      "wheel_qvel_z": -0.13609620886204918,
+      "wheel_z_m": 0.041905004903597255
+    },
+    "last_collision_end": {
+      "step": 22541,
+      "time_s": 1.12705,
+      "force_N": 9.060654990804855,
+      "contact_count": 1,
+      "geom_count": 1,
+      "geoms": [
+        "rail_PHOTO_WING_upper_source_chain_111"
+      ],
+      "duplicate_pairs_within_1um": [],
+      "wheel_qvel_z": 0.23996837165876123,
+      "wheel_z_m": 0.04216266227775667
+    },
+    "peak_first_collision": {
+      "step": 22511,
+      "time_s": 1.12555,
+      "force_N": 1341.390593966042,
+      "contact_count": 1,
+      "geom_count": 1,
+      "geoms": [
+        "rail_PHOTO_WING_upper_source_chain_111"
+      ],
+      "duplicate_pairs_within_1um": [],
+      "wheel_qvel_z": 0.026261231264007312,
+      "wheel_z_m": 0.041890186035705906
+    },
+    "max_geom_examples": [
+      {
+        "step": 21998,
+        "time_s": 1.0999,
+        "force_N": 11.825922972132048,
+        "contact_count": 5,
+        "geom_count": 1,
+        "geoms": [
+          "rail_PHOTO_FROG_source_finite_V_115"
+        ],
+        "duplicate_pairs_within_1um": [],
+        "wheel_qvel_z": 0.0002552248473384762,
+        "wheel_z_m": 0.043279644482808036
+      },
+      {
+        "step": 21999,
+        "time_s": 1.09995,
+        "force_N": 11.65348957032018,
+        "contact_count": 5,
+        "geom_count": 1,
+        "geoms": [
+          "rail_PHOTO_FROG_source_finite_V_115"
+        ],
+        "duplicate_pairs_within_1um": [],
+        "wheel_qvel_z": 0.000347447907571017,
+        "wheel_z_m": 0.04327966184747017
+      },
+      {
+        "step": 22000,
+        "time_s": 1.1,
+        "force_N": 11.492087954635462,
+        "contact_count": 5,
+        "geom_count": 1,
+        "geoms": [
+          "rail_PHOTO_FROG_source_finite_V_115"
+        ],
+        "duplicate_pairs_within_1um": [],
+        "wheel_qvel_z": 0.0004315996895089749,
+        "wheel_z_m": 0.04327968341731095
+      },
+      {
+        "step": 22003,
+        "time_s": 1.10015,
+        "force_N": 12.955797644273158,
+        "contact_count": 5,
+        "geom_count": 1,
+        "geoms": [
+          "rail_PHOTO_FROG_source_finite_V_115"
+        ],
+        "duplicate_pairs_within_1um": [],
+        "wheel_qvel_z": -0.00039248402647090643,
+        "wheel_z_m": 0.04327963336630188
+      },
+      {
+        "step": 22004,
+        "time_s": 1.1002,
+        "force_N": 12.712531392155297,
+        "contact_count": 5,
+        "geom_count": 1,
+        "geoms": [
+          "rail_PHOTO_FROG_source_finite_V_115"
+        ],
+        "duplicate_pairs_within_1um": [],
+        "wheel_qvel_z": -0.00024730706934086833,
+        "wheel_z_m": 0.04327962100688037
+      }
+    ],
+    "force_active_geom_sets_histogram": {
+      "rail_PHOTO_FROG_source_finite_V_115": 139,
+      "rail_PHOTO_WING_upper_source_chain_111": 538
+    }
+  },
+  "h25us": {
+    "rows": 4007,
+    "maximum_contact_count": 5,
+    "maximum_simultaneous_geoms": 1,
+    "maximum_duplicate_pairs_1um": 0,
+    "duplicate_event_count": 0,
+    "duplicate_examples": [],
+    "first_collision_start": {
+      "step": 45004,
+      "time_s": 1.1251,
+      "force_N": 751.5288094260534,
+      "contact_count": 1,
+      "geom_count": 1,
+      "geoms": [
+        "rail_PHOTO_WING_upper_source_chain_111"
+      ],
+      "duplicate_pairs_within_1um": [],
+      "wheel_qvel_z": -0.15021832175400207,
+      "wheel_z_m": 0.04190341432143757
+    },
+    "last_collision_end": {
+      "step": 45081,
+      "time_s": 1.127025,
+      "force_N": 0.6969277704270688,
+      "contact_count": 1,
+      "geom_count": 1,
+      "geoms": [
+        "rail_PHOTO_WING_upper_source_chain_111"
+      ],
+      "duplicate_pairs_within_1um": [],
+      "wheel_qvel_z": 0.24338310098365912,
+      "wheel_z_m": 0.0421563698663804
+    },
+    "peak_first_collision": {
+      "step": 45019,
+      "time_s": 1.125475,
+      "force_N": 1403.4852054815733,
+      "contact_count": 1,
+      "geom_count": 1,
+      "geoms": [
+        "rail_PHOTO_WING_upper_source_chain_111"
+      ],
+      "duplicate_pairs_within_1um": [],
+      "wheel_qvel_z": 0.008666893939485255,
+      "wheel_z_m": 0.04188151578588724
+    },
+    "max_geom_examples": [
+      {
+        "step": 43996,
+        "time_s": 1.0999,
+        "force_N": 12.100446573255612,
+        "contact_count": 5,
+        "geom_count": 1,
+        "geoms": [
+          "rail_PHOTO_FROG_source_finite_V_115"
+        ],
+        "duplicate_pairs_within_1um": [],
+        "wheel_qvel_z": 4.016181039359292e-05,
+        "wheel_z_m": 0.043279639107298554
+      },
+      {
+        "step": 43997,
+        "time_s": 1.099925,
+        "force_N": 12.006559016150385,
+        "contact_count": 5,
+        "geom_count": 1,
+        "geoms": [
+          "rail_PHOTO_FROG_source_finite_V_115"
+        ],
+        "duplicate_pairs_within_1um": [],
+        "wheel_qvel_z": 9.509981078659969e-05,
+        "wheel_z_m": 0.0432796414838971
+      },
+      {
+        "step": 43998,
+        "time_s": 1.09995,
+        "force_N": 11.915608194172938,
+        "contact_count": 5,
+        "geom_count": 1,
+        "geoms": [
+          "rail_PHOTO_FROG_source_finite_V_115"
+        ],
+        "duplicate_pairs_within_1um": [],
+        "wheel_qvel_z": 0.00014776371602579378,
+        "wheel_z_m": 0.04327964517648994
+      },
+      {
+        "step": 43999,
+        "time_s": 1.0999750000000001,
+        "force_N": 11.827488704489985,
+        "contact_count": 5,
+        "geom_count": 1,
+        "geoms": [
+          "rail_PHOTO_FROG_source_finite_V_115"
+        ],
+        "duplicate_pairs_within_1um": [],
+        "wheel_qvel_z": 0.00019822475349332854,
+        "wheel_z_m": 0.04327965013000246
+      },
+      {
+        "step": 44000,
+        "time_s": 1.1,
+        "force_N": 11.742141040115692,
+        "contact_count": 5,
+        "geom_count": 1,
+        "geoms": [
+          "rail_PHOTO_FROG_source_finite_V_115"
+        ],
+        "duplicate_pairs_within_1um": [],
+        "wheel_qvel_z": 0.00024655178241507627,
+        "wheel_z_m": 0.04327965629109251
+      }
+    ],
+    "force_active_geom_sets_histogram": {
+      "rail_PHOTO_FROG_source_finite_V_115": 276,
+      "rail_PHOTO_WING_upper_source_chain_111": 1055
+    }
+  },
+  "completed_utc": "2026-10-14T03:37:53.932734+00:00",
+  "completed_beijing": "2026-10-14T11:37:53.932753+08:00",
+  "method": "Read saved native contacts, no dynamics. Different-geom pairs within 1 micrometre and normal dot >1-1e-8 are recorded as coincident; these are diagnostic and not automatically redundant."
+}

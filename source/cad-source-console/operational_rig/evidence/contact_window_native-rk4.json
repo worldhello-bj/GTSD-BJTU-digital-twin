@@ -1,0 +1,64 @@
+{
+  "scope": "common-state collision representation experiment; not full-passage qualification",
+  "source_seed_file_sha256": "48869e4e9b56b6d01f0cdabf281fd4a23fd5b78de7c4fdee17340812fd4a9563",
+  "source_seed_time_s": 1.1,
+  "script_sha256": "ee186feb1821f6a21b87c668f3a4633dcb1e6216d51756ae8ef29a30afc20a8e",
+  "cases": [
+    {
+      "identity": "2a67a25bfa7333a985e6e2a3619dbe5fbbb12070243d398267ebd77501546152",
+      "assembly_identity": "988d6be4189a07ff5e9bbf560bb597aca26751096bcbf5ff10bc8fcaefb780ff",
+      "variant": "rk4",
+      "dt_s": 5e-05,
+      "window_start_s": 1.1,
+      "window_end_s": 1.2,
+      "physical_seed_sha256": "836f6b76bc58f9a984de970e5c47dde76012bbda1486a6e0554fd7aa32b52432",
+      "initial_energy_reference_J": -82.1061281538907,
+      "maximum_penetration_m": 8.421495581954405e-05,
+      "max_energy_residual_J": 0.00246097487949477,
+      "wall_s": 26.371462554001482,
+      "checkpoint_restore_used": false
+    },
+    {
+      "identity": "5018d4dd82bb7e9c47b581c4d1f0c052c9d5f94d3bb6f5ca47dd1a3f6c972a52",
+      "assembly_identity": "0548827d475f532b373475f5054f6de716ad975947fde957bbdeb797223bfb10",
+      "variant": "rk4",
+      "dt_s": 2.5e-05,
+      "window_start_s": 1.1,
+      "window_end_s": 1.2,
+      "physical_seed_sha256": "836f6b76bc58f9a984de970e5c47dde76012bbda1486a6e0554fd7aa32b52432",
+      "initial_energy_reference_J": -82.1061281538907,
+      "maximum_penetration_m": 8.484658352178758e-05,
+      "max_energy_residual_J": 0.0007309648657976968,
+      "wall_s": 52.08722920398577,
+      "checkpoint_restore_used": false
+    }
+  ],
+  "comparisons": {
+    "rk4": {
+      "max_wheel_position_error_m": 5.0187645563117e-05,
+      "per_dof_qvel_max_error": [
+        3.4863641726435335e-06,
+        2.0867697540211348e-05,
+        0.00010973289337081884,
+        9.37567862903641e-05,
+        3.4300194426009023e-06,
+        2.620322853125307e-05,
+        3.4300226846281773e-06,
+        2.3226562912403025e-05,
+        0.0001723992932328496,
+        3.3444960123304734e-05,
+        0.00010968439291305631,
+        0.00017016098206989677,
+        3.437510832264284e-05,
+        0.0002220337580913271,
+        0.00016635102768160302,
+        1.7115536375259042e-05,
+        0.00017165930900222548,
+        3.566574116266535e-05,
+        0.00417954669593068,
+        0.07169725408379349,
+        0.18578674492412972
+      ]
+    }
+  }
+}

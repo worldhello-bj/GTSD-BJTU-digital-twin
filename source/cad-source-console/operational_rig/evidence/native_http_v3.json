@@ -1,0 +1,5658 @@
+{
+  "schema": "gtsd-operational-native-http-acceptance-v1",
+  "checks": {
+    "read_only_startup_and_seven_ui_resources": true,
+    "native_initialization_and_every_source_binding": true,
+    "repeated_http_step_advances_once": true,
+    "real_checkpoint_download_response": true,
+    "http_restore_native_complete_state_and_continuation_exact": true,
+    "stale_revision_changes_no_native_state": true,
+    "demo_pause_at_native_boundary": true,
+    "reset_and_bounded_run": true,
+    "complete_http_demo_and_terminal_checkpoint_restore": true,
+    "actual_http_bundle_saved": true
+  },
+  "passed": true,
+  "identity_sha256": "ed37eefb244cb98b21c62aa8f0111b08e3d040b7fe95ff917cadc1aed5d278e4",
+  "mesh_bindings": 268,
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 460,
+      "sha256": "477a3a2a156942e977527e08f5bfdbde647bfc1d3d2d44dab15797a47504e3a3",
+      "elapsed_wall_s": 0.001176143006887287
+    },
+    {
+      "method": "GET",
+      "path": "/operational-rig",
+      "status": 200,
+      "bytes": 5361,
+      "sha256": "839f9078a013f0ed3c5483b2418a65f489456f18da044ec248e971db79efffc5",
+      "elapsed_wall_s": 0.001094035993446596
+    },
+    {
+      "method": "GET",
+      "path": "/operational-rig/app.js",
+      "status": 200,
+      "bytes": 17140,
+      "sha256": "1c81432158d4b4444f2a1fc50da6fdb9917f3dad1361ac1b101a70f242468a8c",
+      "elapsed_wall_s": 0.000756049994379282
+    },
+    {
+      "method": "GET",
+      "path": "/operational-rig/core.js",
+      "status": 200,
+      "bytes": 9052,
+      "sha256": "df8cfd61909181d4ec69d3f40c3e9b605d1c5f6feb624c242d05ab4edd361d80",
+      "elapsed_wall_s": 0.0007706369942752644
+    },
+    {
+      "method": "GET",
+      "path": "/operational-rig/style.css",
+      "status": 200,
+      "bytes": 8768,
+      "sha256": "273dd1930c9ac8960e25b8ddbb430b738e46ef77d747755abb42dba1b4f1661d",
+      "elapsed_wall_s": 0.000724233002983965
+    },
+    {
+      "method": "GET",
+      "path": "/operational-rig/model.js",
+      "status": 200,
+      "bytes": 26516,
+      "sha256": "d7d0660f8ba795085bbed97a6a590dc8adf8104a508a7d4b55da9ad22e3bed44",
+      "elapsed_wall_s": 0.0011183620081283152
+    },
+    {
+      "method": "GET",
+      "path": "/operational-rig/parameters",
+      "status": 200,
+      "bytes": 2028,
+      "sha256": "f1dcc3d13ea0870ea84e5f41e244cc74d3fe01101291f11269dbd9fa0dfd7d30",
+      "elapsed_wall_s": 0.0006713030015816912
+    },
+    {
+      "method": "GET",
+      "path": "/operational-rig/parameters.js",
+      "status": 200,
+      "bytes": 7806,
+      "sha256": "10337d12274647c96e9b2702af14d5d11162855741eb9fed3a92a428954237df",
+      "elapsed_wall_s": 0.0007251539936987683
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/metadata",
+      "status": 200,
+      "bytes": 12231,
+      "sha256": "508567f41cdd92099cfaee1226eb886df300646a56526477a9fdecc156103efe",
+      "elapsed_wall_s": 0.0010686080058803782
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/geometry",
+      "status": 200,
+      "bytes": 18763704,
+      "sha256": "9f24de79b56156e166420037a6aaced140663ff25a1e5ff4eea78c7ed7c0fcf3",
+      "elapsed_wall_s": 1.5500774950050982
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 460,
+      "sha256": "477a3a2a156942e977527e08f5bfdbde647bfc1d3d2d44dab15797a47504e3a3",
+      "elapsed_wall_s": 0.0033343550021527335
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/initialize",
+      "status": 200,
+      "bytes": 8557,
+      "sha256": "85c3bc7c297ec436b1bb49f3f2d028a1923eafaac74b68a2975637edbab6adeb",
+      "elapsed_wall_s": 2.2149210709903855
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/metadata",
+      "status": 200,
+      "bytes": 927394,
+      "sha256": "a5b3523af53b2dcc88103b6509cae79f3a63809cd6d60c96aee22004ecb72f73",
+      "elapsed_wall_s": 0.021464461999130435
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/geometry",
+      "status": 200,
+      "bytes": 18763796,
+      "sha256": "df2a5ae5df156df53e97916004e6dcb79c6e29be8450b1c37885f73b1917e83e",
+      "elapsed_wall_s": 1.4195344589970773
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 200,
+      "bytes": 14016,
+      "sha256": "58efc65463a8da967d6fe5a8be7c867bf34df0b24014d88060386eace89e4ef7",
+      "elapsed_wall_s": 0.050656656007049605
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 200,
+      "bytes": 14016,
+      "sha256": "58efc65463a8da967d6fe5a8be7c867bf34df0b24014d88060386eace89e4ef7",
+      "elapsed_wall_s": 0.0015139730094233528
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 14016,
+      "sha256": "58efc65463a8da967d6fe5a8be7c867bf34df0b24014d88060386eace89e4ef7",
+      "elapsed_wall_s": 0.0016634769999654964
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 14016,
+      "sha256": "58efc65463a8da967d6fe5a8be7c867bf34df0b24014d88060386eace89e4ef7",
+      "elapsed_wall_s": 0.002545766008552164
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 200,
+      "bytes": 14227,
+      "sha256": "294546b3ce07b68b0d28061781919a6d37be525352f076743b5b83e8fb441690",
+      "elapsed_wall_s": 0.0030737250053789467
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/checkpoint-export",
+      "status": 200,
+      "bytes": 921023,
+      "sha256": "d24b268c8df769dfb4f6bd2f7ea90ee3930f867bb364c01e6f2201bf4d19f7d1",
+      "elapsed_wall_s": 0.018922720992122777
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 14166,
+      "sha256": "7c947303944d6ade35c9762f1507b5fbf7ba4fa59ed8af7566aecec1d14e2dd2",
+      "elapsed_wall_s": 0.002562551002483815
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 200,
+      "bytes": 14505,
+      "sha256": "f42fb03f34e913e002251533123d00513874eb7544b5fa94f4065f43121e43f0",
+      "elapsed_wall_s": 0.2291892880020896
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 14505,
+      "sha256": "f42fb03f34e913e002251533123d00513874eb7544b5fa94f4065f43121e43f0",
+      "elapsed_wall_s": 0.0030113520042505115
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 200,
+      "bytes": 11101,
+      "sha256": "a74b2caf93894c322903d4d9ceb54bf91a639a8a4d639172e09ee95c41b2bb7f",
+      "elapsed_wall_s": 0.006433768998249434
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 11101,
+      "sha256": "a74b2caf93894c322903d4d9ceb54bf91a639a8a4d639172e09ee95c41b2bb7f",
+      "elapsed_wall_s": 0.002145747988834046
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 200,
+      "bytes": 14604,
+      "sha256": "a35bded0839929e607e037665f4f9967a9d28be016a8ff13a3e6095eed014303",
+      "elapsed_wall_s": 0.2432594749989221
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 409,
+      "bytes": 68,
+      "sha256": "03f191a065755bb2aed546a8abc04310c4b25520d88611f054c2c0cea9ec08b5",
+      "elapsed_wall_s": 0.0012561780022224411
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 14604,
+      "sha256": "a35bded0839929e607e037665f4f9967a9d28be016a8ff13a3e6095eed014303",
+      "elapsed_wall_s": 0.0038826849922770634
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 200,
+      "bytes": 14753,
+      "sha256": "bb3940301f07d2f12f5fa9bf20b9f4932118e3053d74017857d3dc20bd8b49a5",
+      "elapsed_wall_s": 0.0034610449947649613
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 15007,
+      "sha256": "bbc6ca563e980e1c765dce7d89d7b5f36e25d07e250deb3a2e723909088a7d98",
+      "elapsed_wall_s": 0.2103685389884049
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 200,
+      "bytes": 21773,
+      "sha256": "da45254c063dccf89dfee39555fe23dbc951cdab6ebd1b7ed2db5f61b4ed6808",
+      "elapsed_wall_s": 0.3054261789948214
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 21827,
+      "sha256": "df52372e711fb9d800ccbdf72c69c531c1e5c1929698dfcf7f0f99d3f999868d",
+      "elapsed_wall_s": 0.002243675000499934
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 21827,
+      "sha256": "df52372e711fb9d800ccbdf72c69c531c1e5c1929698dfcf7f0f99d3f999868d",
+      "elapsed_wall_s": 0.00263422800344415
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 200,
+      "bytes": 9218,
+      "sha256": "1d90fd8384ab72eceb58570432a729787bc29a6eac8109ce83b8bf9b10cf1d70",
+      "elapsed_wall_s": 0.0063342500070575625
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 9218,
+      "sha256": "1d90fd8384ab72eceb58570432a729787bc29a6eac8109ce83b8bf9b10cf1d70",
+      "elapsed_wall_s": 0.0016991410084301606
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 9218,
+      "sha256": "1d90fd8384ab72eceb58570432a729787bc29a6eac8109ce83b8bf9b10cf1d70",
+      "elapsed_wall_s": 0.001781733997631818
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 200,
+      "bytes": 9334,
+      "sha256": "7be5eae32900ed302d7da4cefc228e334d363dfc2f5251e76a884cf8ad5db5fc",
+      "elapsed_wall_s": 0.002992132998770103
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 14825,
+      "sha256": "7a6645654311b952c1ced0ccbd922a0858558ed293a5a2a10dcb5b4c35d6ab32",
+      "elapsed_wall_s": 0.044724696999765
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 14825,
+      "sha256": "7a6645654311b952c1ced0ccbd922a0858558ed293a5a2a10dcb5b4c35d6ab32",
+      "elapsed_wall_s": 0.0026894410111708567
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 200,
+      "bytes": 9379,
+      "sha256": "11fe47ea0f30ef6195054ef9bd336ce1384914a9403a0eb678d37faa664e94f2",
+      "elapsed_wall_s": 0.008043585999985225
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 9379,
+      "sha256": "11fe47ea0f30ef6195054ef9bd336ce1384914a9403a0eb678d37faa664e94f2",
+      "elapsed_wall_s": 0.002010855998378247
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 200,
+      "bytes": 9528,
+      "sha256": "6022b4f6d889c62c0f3cde983dfa9f8e09f6851a5cd144451c1c658a739ee82e",
+      "elapsed_wall_s": 0.003359462003572844
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 15200,
+      "sha256": "d3eeaeb7f6eed4f54c054939a722c6d8c7ddbab44e9f9abf6e6e083888fc772e",
+      "elapsed_wall_s": 0.056383494011242874
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 15340,
+      "sha256": "96b2174087aeb41a80b2311cedc153b895f4d2fa67438784a271538f9156745f",
+      "elapsed_wall_s": 0.31635641600587405
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 69396,
+      "sha256": "5fefc7a217738eba83cbc993528ae79fe43cd528da05b36a49ae7e2e64278fd0",
+      "elapsed_wall_s": 0.2427742540021427
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 70867,
+      "sha256": "89e7e682e1aeb0aae6bb8fee5e48ae6397dc1ee49dcd6d9a4d03e0ca0c2863b6",
+      "elapsed_wall_s": 0.31997170600516256
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 51837,
+      "sha256": "635f2782d560ac9f31854d490b1311ba8ea81027e1cc8a0e02b2f15ccc24a388",
+      "elapsed_wall_s": 0.542204181998386
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 43142,
+      "sha256": "777634f7271e10f6dc46016364ef34dd4174a3d65d93f01f3e584d583f673791",
+      "elapsed_wall_s": 0.46628891600994393
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40650,
+      "sha256": "c810e0751f5345d1c195530516072760136f5ffd3d857c58ad4fa4440b09cee6",
+      "elapsed_wall_s": 0.04334657298750244
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34573,
+      "sha256": "d076f528a1043bc2427351d0636c42fd5071e7cbbdc08a4a6a27bf7c9729b31f",
+      "elapsed_wall_s": 0.939940223004669
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 38692,
+      "sha256": "1c9a2b93c394c6e8bb5d995ca87bb6bcfb2395fc16a3706400453ffad068b5d5",
+      "elapsed_wall_s": 0.14863034700101707
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37762,
+      "sha256": "300adaca20d85dd5a0d3baa1c8453d1715863a4f5e9912fefffac1dfd25e96ad",
+      "elapsed_wall_s": 0.1512823419907363
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32442,
+      "sha256": "8cae58be89b5815136ad50329bdb138989a91343b0962f33f73536611d9cedd8",
+      "elapsed_wall_s": 0.3216982169979019
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35971,
+      "sha256": "982acb1edb0dd23d8f74ae87ba18cd80d2a8bb0241180add925bb015170f63aa",
+      "elapsed_wall_s": 0.9109548319975147
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 20380,
+      "sha256": "55f43eca57fd6fb8eb17924157f531c6ae8c3e2f8ed3624e88fc591224f3fa2f",
+      "elapsed_wall_s": 0.5571740079903975
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 26437,
+      "sha256": "97dc91d1fd939b06c70ec26363afd75de3aed887416ec3bffb6c97a09dc5dbe3",
+      "elapsed_wall_s": 0.011033488000975922
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 27765,
+      "sha256": "77d9e4a5920c8cf73ef8685cbf1fd32dc062edde70e86e911ea6c62e3b948a9c",
+      "elapsed_wall_s": 0.8737447329913266
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 20393,
+      "sha256": "672a8442d8ecfafed8b145fec08202e4783775a9df272a2e4aeba76a51b404eb",
+      "elapsed_wall_s": 0.31571089298813604
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34997,
+      "sha256": "255b155ccf1c5adc92de09c5303ffd4ae5ccca328da3c879b3aae12821669122",
+      "elapsed_wall_s": 0.016377453997847624
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 25144,
+      "sha256": "4dbba468e76da628379667ecd4ac24cac69b629718cc68b5e9d5a4c841ceb604",
+      "elapsed_wall_s": 0.19107154400262516
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 27836,
+      "sha256": "4e46baab2364a1ef3300b29e428c53a3e0feba95aeda94119519d0b0216a070a",
+      "elapsed_wall_s": 0.9841788220073795
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 26339,
+      "sha256": "f3e89d166cfe64fa5c34d9b8377a3226dd63c72671ce760ee15a5752ae27269e",
+      "elapsed_wall_s": 0.37350766199233476
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 26420,
+      "sha256": "d8d210c9dbbe92652fae01b4d470bf9bac2a2f61ded9671915089104f86f9f76",
+      "elapsed_wall_s": 0.16275704999861773
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 27070,
+      "sha256": "728e588efb1d2c976c48a076927e9608a2459b537cce2e0e03d9a5acf8d147fc",
+      "elapsed_wall_s": 0.06477410600928124
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 27785,
+      "sha256": "8c32817ed6a71dc46ed5ab581b4ebdd0c4e461856c989f6b49042657baaa2f9b",
+      "elapsed_wall_s": 0.7530250549898483
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 38608,
+      "sha256": "cd0fe1a3aaea50cdb5728682a94df35f2f5d595122f8f49f45218d9e382d0124",
+      "elapsed_wall_s": 0.3817719070066232
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 24468,
+      "sha256": "e5a644b9556a1c5c1e8419e4f062c7bff3376560f4f28bad1c87c2a5fafc3d8a",
+      "elapsed_wall_s": 0.028158417000668123
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 29692,
+      "sha256": "3e96e7bd5bf133f074696e6d6f9ef6901cb685ce9375959ca5f646ed4832cb76",
+      "elapsed_wall_s": 0.39424348299507983
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 30277,
+      "sha256": "6e803080b860b1a2f85cde568dbc94c6c03d7438b38a3391cb2b981b7e266503",
+      "elapsed_wall_s": 0.299688213999616
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37129,
+      "sha256": "8e414c30a2d3f6fb06b05b59ac8f4a73e2873384e47482b05e56b23b28f8b8d1",
+      "elapsed_wall_s": 0.8233334749966161
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37090,
+      "sha256": "818b80e64a65485f0cd343372ec71866f1be55cd2cd09cb41ac285398253bec0",
+      "elapsed_wall_s": 0.6059088370093377
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37072,
+      "sha256": "e63b9774c043429e670fc7bb8589c8d72c68ca5a4f48f4d2e5c505c132831ab6",
+      "elapsed_wall_s": 0.21685650499421172
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36510,
+      "sha256": "5b2bb7d9d1dc0e00dcba50ad054b6b3ad0ca316df11f773a19ae74554ff1d1c5",
+      "elapsed_wall_s": 0.2573261490033474
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 30448,
+      "sha256": "35fefb94d601cee5a34c7cf4d1122acecb6799684127196783f9f928128cb59d",
+      "elapsed_wall_s": 0.8468746770086
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31141,
+      "sha256": "d8d389654bfa79bde0415bf9edf396b9658afc58a1e6a6ff2d888e35e0332159",
+      "elapsed_wall_s": 0.3147638590016868
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35899,
+      "sha256": "26fadef2a2048636f69fa322fd23df7a374751281c08660d53078aa64dad2256",
+      "elapsed_wall_s": 0.628577638999559
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35957,
+      "sha256": "e8e09b179a511baad6b8ad3e83dc53e5b141caba8f8bb334dc60ff99711690a5",
+      "elapsed_wall_s": 0.10125444200821221
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35833,
+      "sha256": "afba7062b8cbc0719c4ec513c0a09fafc205e04ade04d1d1d0cfbcf5c77855da",
+      "elapsed_wall_s": 0.10542019900458399
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36399,
+      "sha256": "b87b8ace6b1ce2b37144b8ec638ba65b9cf91d782c42870efba108ed28f9a4e5",
+      "elapsed_wall_s": 0.26939412600768264
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33402,
+      "sha256": "8f189f879faf15c80f61eab781269ad2fd9cf909544d5ab170668db64bb318e8",
+      "elapsed_wall_s": 0.9216779920097906
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33475,
+      "sha256": "cc29f22a29b96ac4bd8e3c9fe84ac48e65826cc4cfe03f1e9ae7bb0e58e637b8",
+      "elapsed_wall_s": 0.5107851109933108
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34096,
+      "sha256": "387b45b1e18e8a6fea8f75ef63862448451ef1177f5b3cc33c9020ea7fbe9c30",
+      "elapsed_wall_s": 0.046707542991498485
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34206,
+      "sha256": "8c76e3aa0318b84e255e9b1ce0690bb80004767d87b85e64ce5c0ceac2d129b9",
+      "elapsed_wall_s": 0.7719768570095766
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34258,
+      "sha256": "dfb4bf08bce8202598e929a9fb6b4ff41adf1b2502f807851f402fbc1bda355a",
+      "elapsed_wall_s": 0.32054991798941046
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34117,
+      "sha256": "f467774fd1c53b29e3d6853218cb94d99f575ee27f92c50c2695ad024916a926",
+      "elapsed_wall_s": 0.15293351501168218
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35008,
+      "sha256": "da7fe1d8f7a3bef5ea22df6d80d11bf8499c8c52861c28286ee4c7e278863381",
+      "elapsed_wall_s": 0.019233402999816462
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34262,
+      "sha256": "4ab3df4b3c41d16a13eb5447111c3599f350df5afc3cbd474869d46cc46df0d1",
+      "elapsed_wall_s": 0.4132277649914613
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34753,
+      "sha256": "d3431ae3032e1790cf776227907551c010a3a8c8af608498c9a4c925fa87daef",
+      "elapsed_wall_s": 0.1513254000019515
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33471,
+      "sha256": "b1e073ca9845160b7be5c11864e4155c181dca2c7c28f20bd144db73c1ca80df",
+      "elapsed_wall_s": 0.37347396499535535
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33558,
+      "sha256": "69a138fa2c50d57acf0f00c3a028e98bd3e3420ee4af704097eceb02da662ebd",
+      "elapsed_wall_s": 1.1730029410100542
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34158,
+      "sha256": "a994b46455089c9b8e4d3a156c2e2d728c75a177f68ffb489f3478fece3a24b4",
+      "elapsed_wall_s": 0.14191377599490806
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34806,
+      "sha256": "98541efbd7c8598f7c20110686bbf16079792a297e9ef14506e3d68eea0b2d08",
+      "elapsed_wall_s": 0.041735070990398526
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33535,
+      "sha256": "33e6be2ce96171bb70e881df16164e0adb317d86b17f83fdf30be1cd7255a4a6",
+      "elapsed_wall_s": 0.02670494200719986
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33464,
+      "sha256": "2646664cfcf11eaae540e98223a2f81b1712de741030e76db8103f81e0f85126",
+      "elapsed_wall_s": 0.09714869900199119
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34904,
+      "sha256": "75564c55b001628f363ffebbe675b704f60e82839a7be350298c5d17bba0f760",
+      "elapsed_wall_s": 0.14574915399134625
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34944,
+      "sha256": "f8e18cd1b947a9c7a1ff873af526e9c6bb28e14b7b92ccf339e0b96701351a00",
+      "elapsed_wall_s": 0.2599996700009797
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34726,
+      "sha256": "db8a95a4130553050c9f95eca1eee7ec87e92f3c6be78bbc8d679c51da23cfbb",
+      "elapsed_wall_s": 0.17126440699212253
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33643,
+      "sha256": "96a9dfec2074ca61d8cc27fdf13dc8de4b7fbaf900c5d98f333bffa8c6b9cc0f",
+      "elapsed_wall_s": 0.17882248600653838
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33515,
+      "sha256": "2b22957980b34661cb4e68d3d20ea64e5dc3a722698510aaeb6a927668d51202",
+      "elapsed_wall_s": 0.2039301389886532
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33382,
+      "sha256": "c1606b264731430b07b2c68926a24130761ba5b87fd5c424a4ad8bd0fd9cc200",
+      "elapsed_wall_s": 0.35301575700577814
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34327,
+      "sha256": "956a02ac2d65f288c289c2b520989951cdbf92adcb66f1098312743ffbb552f9",
+      "elapsed_wall_s": 0.39299063000362366
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34791,
+      "sha256": "70a38ac11371fd6c5e8197db0d3f53bcb4c7cb6fcded91e7535c8e0588e151fe",
+      "elapsed_wall_s": 0.16492292899056338
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33983,
+      "sha256": "9c3136a4370a927cc06ba2b1183b5ee3cbc5e1a4bba17d196f3af3be913ede12",
+      "elapsed_wall_s": 1.4244255800003884
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34880,
+      "sha256": "7125fd9e9e5ef1004932c2a97bc830df8ccd07dcac09c92afab8491eaa8a54af",
+      "elapsed_wall_s": 0.6008118020108668
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34992,
+      "sha256": "1a8ef1e5128db3b57b296f1c4490154f2708913f0f20728f676570644f1f79c2",
+      "elapsed_wall_s": 0.4602967910032021
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31292,
+      "sha256": "a8744c67b17e4bb70cb0e5e71862686c4b8bcd79596d3c8cd7f9f369b59c7eb9",
+      "elapsed_wall_s": 0.17745421499421354
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34749,
+      "sha256": "62bd952d3271defef50dd0eba66392c47474d680f1b3e1bf322a3f2f151b537f",
+      "elapsed_wall_s": 0.4690243490040302
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33360,
+      "sha256": "a28d42bf3ded26123cd9d01cc2bcfd92ea1bd4b02a04d9e5bf1a662e8eaabbcf",
+      "elapsed_wall_s": 0.823697738989722
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33358,
+      "sha256": "bdc07afa7c2b0a955aac1e8a3b28b3f3bbbd50bc49f66fb3f7082358560cfcfd",
+      "elapsed_wall_s": 0.96927918100846
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34096,
+      "sha256": "de2a5ae0cac543da2483e9179ce54374abe0d7becf92c1c2f9894e032b7a08aa",
+      "elapsed_wall_s": 0.042434635004610755
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31074,
+      "sha256": "538c5e4f254a1f2c7531761a46d12f4561fb7c5fc58b6d536034a64aaa547538",
+      "elapsed_wall_s": 0.8024397789995419
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33491,
+      "sha256": "a0b5c5d5ea4a876106108908b36091cbf9b8a8ee61584db84275f8d3cf28d151",
+      "elapsed_wall_s": 0.1629646499932278
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39062,
+      "sha256": "c7ef65f0d2f5005ba80f256508e113ba0dced8df77c50a188e6149e5ecf71eff",
+      "elapsed_wall_s": 0.10447585099609569
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37749,
+      "sha256": "dadde284919ba436405214039b22cc5a6c50ef1f95676c3c11a527c183ddbf84",
+      "elapsed_wall_s": 0.15142873999138828
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32810,
+      "sha256": "e45de76b8ab35a6e024800ce8833752c1ba04671a41a033b5fd995590b62fba4",
+      "elapsed_wall_s": 0.7261194180027815
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 38333,
+      "sha256": "ee67cc3642fbc0e025e3507a387a5a3ba809d9539b6b55a5de6eacbbdc9c09d4",
+      "elapsed_wall_s": 0.1700212589930743
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 38228,
+      "sha256": "d8abe8430178f3952ebacddc17e168348a13af9c9aaa838816b1eea839bd2c4a",
+      "elapsed_wall_s": 0.036089529006858356
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37666,
+      "sha256": "46816d109fdc5c57dea65cf3290cbc25f17a732372d22d94332360f4ba5d3180",
+      "elapsed_wall_s": 0.4650564409967046
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40319,
+      "sha256": "eb0c8717ff15310042fc4d3dcd65823ca2bfd3d9fb10c0028e508fe2992bcc1e",
+      "elapsed_wall_s": 0.04136288301378954
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 38409,
+      "sha256": "b7eacfebce92d879edb0c6cb01f3c29d82b63ffef4c480454f4050616230506d",
+      "elapsed_wall_s": 0.37343230200349353
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 38995,
+      "sha256": "81e30d3b820de31b8f3f5a30c754e8b93e6b3f34704603c042513664e1b17bfd",
+      "elapsed_wall_s": 0.03393624100135639
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39018,
+      "sha256": "5d1020d73a696903be9299ec3d16e0df9030de6e74e1d58a7214c256345d73c2",
+      "elapsed_wall_s": 0.2121159109956352
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31466,
+      "sha256": "30b8e4739d7c5f89373fff0f7a225ac5dbf8132f56a12f3587ff68cfab8ac849",
+      "elapsed_wall_s": 1.2275542590068653
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 46071,
+      "sha256": "dec9d19cd2a674410da241161f77f577abccbd347f37cd548051a517a8827c07",
+      "elapsed_wall_s": 0.794122895997134
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35584,
+      "sha256": "9aafa8da7801a1b16068c2cc37c04a1c926be7b3da9e58b1c8dd37cae3e44e2b",
+      "elapsed_wall_s": 1.4049790869903518
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33907,
+      "sha256": "babaa71b27189f749401f4fce5ee8cac975379b3dda7a30bef45bc885cfd3aaf",
+      "elapsed_wall_s": 0.49497965100454167
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36823,
+      "sha256": "c7220b48f84878748f66138be8f5022706f265bcc838f78cb0facca7975a0fa9",
+      "elapsed_wall_s": 0.1567106610018527
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 38900,
+      "sha256": "8fe99a3fd660cde97ef38c54a58f13ae705d431ff34d7047a7a7e46e7de04b94",
+      "elapsed_wall_s": 0.19187794098979793
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36006,
+      "sha256": "f07686d9a0615ffa7651bf7a20035e8ac34c2d817b3fcca803d2744bc8d9684a",
+      "elapsed_wall_s": 0.8062535659992136
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31115,
+      "sha256": "f8c65a88e9099a8d30a43d7ee0394067822e6d847981233ae5cbd9ec1a6909e7",
+      "elapsed_wall_s": 0.011038661003112793
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31733,
+      "sha256": "6813ce162d06507b344102a37dd2ca328c462f8b5f7e2ebc8e913e996d9cdecd",
+      "elapsed_wall_s": 0.18799275300989393
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36884,
+      "sha256": "c79f4259b78c49ee1af116db8ac30c35507e63aef74219b15c5f880beb9d4e26",
+      "elapsed_wall_s": 0.7200359439884778
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37373,
+      "sha256": "db33bbc8e081f4627a1625f1395d15ef64793a628dae5eeaab0e4f439b194c16",
+      "elapsed_wall_s": 0.05539234000025317
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41373,
+      "sha256": "d77994ea0c9365481e220a987d6c74ac8f04f0a0d3853539ba5690378b0cd6ed",
+      "elapsed_wall_s": 1.0580302169983042
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42042,
+      "sha256": "1d8fe454d73343f791a1ca8f0424f22ba7bfd57936638318c7f24bf0eec7dc09",
+      "elapsed_wall_s": 0.4248928849992808
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42774,
+      "sha256": "21ad3f59ed955dfbfd689efc8f6dc650ef6c7d0173863d625e18db4b4fc43515",
+      "elapsed_wall_s": 0.2955177070107311
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42126,
+      "sha256": "fb77e4555e0884057227d3890ce97ec08fd0d0107b9646950d6aecc811054e76",
+      "elapsed_wall_s": 0.24966688400309067
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35545,
+      "sha256": "b769444c6892a4a8658bc3eed2c95743fa4bff0d515c9c31223e4fc242ced2cb",
+      "elapsed_wall_s": 1.1120811699947808
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39521,
+      "sha256": "72fa3cdf1f4bca6622c9c2eaf16f9db726cb7682717b4296eead679c34a2703c",
+      "elapsed_wall_s": 0.008699754005647264
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 38265,
+      "sha256": "44e644e2a4c038939b788161c166831e60100180ca1ab4c69c81736faff52407",
+      "elapsed_wall_s": 0.16860110599373002
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 30718,
+      "sha256": "e422084b2cd711c5bc46b4984198111ad5189d7d2c525f8caefb678c1ab8a602",
+      "elapsed_wall_s": 0.5438408030022401
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35563,
+      "sha256": "0e03306303b85909fb19b0bf9e998e1f7813a303e889a55eae801e466a154569",
+      "elapsed_wall_s": 0.10521633499593008
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35398,
+      "sha256": "4c6b4e626d9183d6964718edacff53f73155e3834a4227b2334e22b0b5200979",
+      "elapsed_wall_s": 0.07437986999866553
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32059,
+      "sha256": "fbc9b5bea5390a89ef89419cd712034d353f4b5e41fa48518d0d08856f440eb8",
+      "elapsed_wall_s": 0.08572607299720403
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31908,
+      "sha256": "b54e161be41129267603820c55c82328b2a8b5b5ff90dd29a11e4150263ae543",
+      "elapsed_wall_s": 0.18324401800055057
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35386,
+      "sha256": "592bbb71aa6126bbd4a92854d108cc11baafc1ae630ff997c619b01c120ecd34",
+      "elapsed_wall_s": 0.085273999007768
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34190,
+      "sha256": "551d6f2a4d59073968bcfe8319da25c71a5f31ddf0ca3848f2844e2a277b5b11",
+      "elapsed_wall_s": 0.19245411800511647
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32155,
+      "sha256": "1906cec4616231af48325a68f514c48e3f971eb6472118cb30d04cac4048dde2",
+      "elapsed_wall_s": 1.8244117620051838
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32236,
+      "sha256": "1160aebe8818ba2771ab7ccbe140f2d613d13b3984f173c2865cd7558b9b9e68",
+      "elapsed_wall_s": 0.9433550209942041
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 27961,
+      "sha256": "3bb7c129f5b0d03a3ac55edfa47998a7390030c78fcd38cef4a9108095db5dc8",
+      "elapsed_wall_s": 0.02525510599662084
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36269,
+      "sha256": "b533e7961ebb658cc77b726b2702a51371f4e12e6b055c7e8491fa2ff3c94a07",
+      "elapsed_wall_s": 0.6831389169965405
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41866,
+      "sha256": "ce0d605b669f94940e98145bc1e13b6c1aeeb2a4902582121925add36d24324d",
+      "elapsed_wall_s": 0.043852600996615365
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36311,
+      "sha256": "2441c53a9dbbf62d0052feb7acd322235093032cc03df90385a2bf3ad9d7c4c2",
+      "elapsed_wall_s": 0.1855149319890188
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35577,
+      "sha256": "f3580a21219cf27abf96ae2ddcc501a6cfd1518f89a0281964351de30d55b5db",
+      "elapsed_wall_s": 0.5838875269982964
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35056,
+      "sha256": "710a44da269c8a6485151d76f5ecbe6fff45632eeca9e645c32fe271400f7a49",
+      "elapsed_wall_s": 0.2767349780042423
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37638,
+      "sha256": "b249f5a92bc892015e512f562c85111094b155515ab1a15004cf904bee01cc12",
+      "elapsed_wall_s": 0.4307808879966615
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34746,
+      "sha256": "64f211498a6a46a5f0b602b745f9370b51111c8c76523aae0505cfed3a5ec5b9",
+      "elapsed_wall_s": 0.13406812799803447
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35593,
+      "sha256": "a1f32ac0af186e98bf43fee5387be8800a1cc405a48db7518e44131a9a2601f6",
+      "elapsed_wall_s": 0.9296090309944702
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37200,
+      "sha256": "ad0e997200b9595f07af2d7d5e7ec9df463521c314fada7b9b218e6e3bd74297",
+      "elapsed_wall_s": 0.2562187629955588
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36435,
+      "sha256": "25a7d5d64ccdf5bdf68d4daf646d4814da62739e228dd2b5e4bb628feb33055d",
+      "elapsed_wall_s": 0.07783265999751166
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36480,
+      "sha256": "7dd70a9381c3867b3f4f6654fcc396fd0fda499d551efc3d2bf343cfb7f6f208",
+      "elapsed_wall_s": 0.03784369499771856
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36411,
+      "sha256": "b96cdd6822a00b0147b757cc1ca7771322990c617e9d24ad81d4598a95ee0209",
+      "elapsed_wall_s": 0.3740345289988909
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31199,
+      "sha256": "03ca4c33522300c097ae78c4bfadb50d44a2c980e700c3e489095e393339ceab",
+      "elapsed_wall_s": 0.09172801300883293
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36441,
+      "sha256": "62e9dd60c69cef63be3edfeb5b754380bb9bc10c88fd4fe9be80b2ddcef9ed0a",
+      "elapsed_wall_s": 0.8725145229982445
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37096,
+      "sha256": "d317638f0bd580b61480a26537c6d43acbf9a58a1e95b5c3363d1d6359e642d6",
+      "elapsed_wall_s": 0.2587605669978075
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31070,
+      "sha256": "19059528c750419f7a5d9af32eeeb2b653dd483100832ebf2c287b3db3a0a11b",
+      "elapsed_wall_s": 0.4356845400034217
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37066,
+      "sha256": "2a03acdaeeaf22b8828b2bf806a7059fa4fa7344a5a02a75cdf4141abacd5bb1",
+      "elapsed_wall_s": 0.0711844619945623
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 38596,
+      "sha256": "43ee32dbceef73a32d3c8e39139d0d9a23df95629ec963101d076a9c94c83266",
+      "elapsed_wall_s": 0.20667637400038075
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37848,
+      "sha256": "116edea3790b77019bea63715023c59f4190b222cf71dadcc4978f6b2772697f",
+      "elapsed_wall_s": 0.19235373500850983
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 38416,
+      "sha256": "64fe3b6ed26380d064df2e0683fb7fd6ac3159083f6ff2a566e2b76c90b6db0d",
+      "elapsed_wall_s": 0.5372339030000148
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37170,
+      "sha256": "fa4a2b16f51a1d6b8ee9bd2905a91b3edcea1f16cf861a9818216795732fc906",
+      "elapsed_wall_s": 0.0065733510127756745
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36979,
+      "sha256": "8b7809a0a309a8109027bd387db28587504bdf1e2f8111b13c489a5dd70f1bb6",
+      "elapsed_wall_s": 0.30237056499754544
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39270,
+      "sha256": "f13ea24edf77d9e27f4312e165fb8adfaa42cb71988e2fdc9efac28961ec7582",
+      "elapsed_wall_s": 0.8254930120019708
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39257,
+      "sha256": "139d445eb441d7a5609f22ed18c9eadb772d992872beb0527da9d21896d629c3",
+      "elapsed_wall_s": 0.25671309599420056
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33346,
+      "sha256": "449ced79b7e3d81d2355b1374820c352001d1f47ed34099ef2ebdb7bbe951651",
+      "elapsed_wall_s": 0.7947521509922808
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 30510,
+      "sha256": "574a8123c40b7161290c1f9d9caf4da7e098ecd5b184d1b9acb3bd3b50a4915c",
+      "elapsed_wall_s": 0.6889429739967454
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 30479,
+      "sha256": "b4082fd62412890038e913a0f58b08e9a34ba64b2904b19eacc6d428951cb2a6",
+      "elapsed_wall_s": 1.166741782988538
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32029,
+      "sha256": "63c7926601ddebd7bc94ebab6ac9188411aa9ccbedf171056c224960a07aed9c",
+      "elapsed_wall_s": 0.4316393250046531
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41519,
+      "sha256": "93cc1fdd4a7850c6cd4bc13ddeaad65fa681d5141b4729f22a4dcc2566a45376",
+      "elapsed_wall_s": 0.14092102699214593
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40059,
+      "sha256": "fa0294709cfa7a6a857c31d644cd0fb03443f2002aebee60e85c6e6189d3c59d",
+      "elapsed_wall_s": 0.29645969400007743
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39449,
+      "sha256": "b391faaacfdff91d56fe5e8b279f49522f05c1d240548ecf41f47ac4620bb9ab",
+      "elapsed_wall_s": 0.16844886500621215
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39436,
+      "sha256": "7ded65fd5f87edb092b522af7ea3a59369ca36e195dfa9def9812bda60055294",
+      "elapsed_wall_s": 0.18399471799784806
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39212,
+      "sha256": "79e53f1978f47b93ba284fe51167b2abd16fa7f83d917ec85bcd194dea62b323",
+      "elapsed_wall_s": 0.30031372800294776
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39526,
+      "sha256": "c117a211c78e10df73a53cce2e16f73aee03e09132b8b2f965c946effab86cc0",
+      "elapsed_wall_s": 0.4631346690002829
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40787,
+      "sha256": "036e90ffffed8a0ef049fd3b859dbe98661aa28d95be26a6703292b66afffbc9",
+      "elapsed_wall_s": 0.13105598400579765
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39201,
+      "sha256": "4ec3491e8da547d515b6bca8e1235b730f0cf0645dd8c93e7edb1c54a93bc03a",
+      "elapsed_wall_s": 1.112681127997348
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39252,
+      "sha256": "2654a8b58e55ff5e7f49957c581f8fc2083758e00dae8b992a83e671a77ad58e",
+      "elapsed_wall_s": 0.589679058000911
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40282,
+      "sha256": "e2a24ec3899bdf1a3b682a4da78cf5c1e00e285e7b703eab9d20f226f536218a",
+      "elapsed_wall_s": 0.513746879005339
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32479,
+      "sha256": "a42af445591ec6af23e4557e4cc9a29fb553691dbb28fb6d594d1a73c2e51e8b",
+      "elapsed_wall_s": 2.738432862999616
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36275,
+      "sha256": "bcf25ea05386ba18f141dc7787ae61f9208e979ede25068aab4eb6ca06677a8d",
+      "elapsed_wall_s": 0.7668481540022185
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37826,
+      "sha256": "1a4966200fdd88dc79ba17dabdf7a51220cbe7b5db82f58e1f3e0cf3cc002cf6",
+      "elapsed_wall_s": 0.07975920400349423
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32507,
+      "sha256": "22e47e58c9cced2e56b64d40783d2eba2034edc89ce901bfd36df60c692b7ffc",
+      "elapsed_wall_s": 0.15489411100861616
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37079,
+      "sha256": "1e933e29cd99b75be6378698a576bf572d35c46d826979aedb206a54bc4be0ff",
+      "elapsed_wall_s": 0.19672470999648795
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31809,
+      "sha256": "87f20c5fcf0108e69789d4a2d1183ccc6914f73902d8ffe79e92fb9fe8ff3c73",
+      "elapsed_wall_s": 0.21190591499907896
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31201,
+      "sha256": "8dd33ff4885dcdf648af39d1e1d4ac773099653958f2e03ab9ada05b5bcdbd6e",
+      "elapsed_wall_s": 0.8665129220025847
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37110,
+      "sha256": "70ce43d106300f8d760a45200c5e3bfa35e7af58e64d665992f4d80fef0cdb0c",
+      "elapsed_wall_s": 0.46647818900237326
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35629,
+      "sha256": "1c2c13fe9e0a86e5723b48f06cdd937b0656a4eb790006d37bd72acbf7db549f",
+      "elapsed_wall_s": 0.6271502270101337
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31272,
+      "sha256": "8bd41a336629c548ec0f7a7830dd00e9f307707e58e8e7f722e9003793726a26",
+      "elapsed_wall_s": 0.10336102999281138
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40069,
+      "sha256": "a02f64f182fbb462fd223a9e445decc74c8fe3b57733655912a56d00ae15a09e",
+      "elapsed_wall_s": 0.00630538999394048
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39986,
+      "sha256": "5648ba7d2234740c7e62e75c24ddb5c537dd88512528a7a55f31b457b7841e10",
+      "elapsed_wall_s": 0.16614450799534097
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40800,
+      "sha256": "31e284f244f9f92c3bc997f819d54871b5271171eaf7b86996c617cc397ef8a7",
+      "elapsed_wall_s": 0.23871470999438316
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32665,
+      "sha256": "162c7e1d29a464e2c3b163ebe2bbd7c2dea6d6dc203073877d445936a72cca9f",
+      "elapsed_wall_s": 0.3858346600027289
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41414,
+      "sha256": "8502b43fe20948cf0d4d9a4749a2b7e3930d9e5a46b49a628a455b9556ac5d18",
+      "elapsed_wall_s": 0.10136981499090325
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 47410,
+      "sha256": "16661ef0fb2d6954a503c34b1068fdc097189fac120342e29f2049f11102a05f",
+      "elapsed_wall_s": 1.362523403004161
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31250,
+      "sha256": "7f64c3d67c8faa9c4b840c63abd1a7553c8e2b24f8c1af3aa25a0244d9a57dea",
+      "elapsed_wall_s": 0.3962183690018719
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 44615,
+      "sha256": "8d04a649ac44beed1d6578eeb799db0639a9d4af7a97178a955addb86c434aa2",
+      "elapsed_wall_s": 0.16430910599592607
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31924,
+      "sha256": "da56d334e0b050f776fa317cbbe39a70a6ebe15de562295f9069a35f4ec0abee",
+      "elapsed_wall_s": 0.17254812199098524
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 43666,
+      "sha256": "bc40dd0b0fc4593ca24f5bbae728ba2d3c6a3e5bff30ead84a08097fd1f7b4a7",
+      "elapsed_wall_s": 0.4374183309992077
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31946,
+      "sha256": "19dbdbac825c28cf0396f2cada968ee473f9444eae3c7496c026dcb825183d16",
+      "elapsed_wall_s": 0.29925518900563475
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40596,
+      "sha256": "ae4ddf67881e77573d3a3c6571485344f3fb0cc8c7853f133bd5218a18134da8",
+      "elapsed_wall_s": 1.1154030689940555
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39884,
+      "sha256": "9e646464473f289ba5d1c74049cc448cae99a54ed7daf55b799c6ca3b9992352",
+      "elapsed_wall_s": 0.5931973560072947
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39304,
+      "sha256": "e4eef41442cc3df89b8ee64a0a620a91fc1bf3dddd01cc03f7ec8ab297430726",
+      "elapsed_wall_s": 0.4536277409933973
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40136,
+      "sha256": "a47abd382e486d3dc48e48cee5d4b6e93299fea63082e6d3e0d0a5969dc80f4e",
+      "elapsed_wall_s": 0.21610686599160545
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40620,
+      "sha256": "4d08a3afffed64700cca8f83fedfd4304a050e402ed3006d661a1e7c98d86820",
+      "elapsed_wall_s": 0.22847546500270255
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36384,
+      "sha256": "59c52b12a2c750d11758e8638b626944e6b2c4f6c1e9ab6c03b5a61970fc766f",
+      "elapsed_wall_s": 0.5189419469970744
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34210,
+      "sha256": "17e5a3274aa0f5311e57797bcedc925e9dd60f9aeb7be8be2ecec9f3e17fd893",
+      "elapsed_wall_s": 1.1182716559997061
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34117,
+      "sha256": "f7c37d11091ee8013733c4a88e9bdd44e4a7b9b42931e757069d1ab053a5852d",
+      "elapsed_wall_s": 0.12083384800644126
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36136,
+      "sha256": "b1693ea32bf85fe5f07b873262106b295a8ea828e2571d628f3fda024847bd4f",
+      "elapsed_wall_s": 0.7546092230040813
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33457,
+      "sha256": "1d3da35eeffb2a2c35f142da800e36ccb91f006b346fe71819af6a7df9dc70e8",
+      "elapsed_wall_s": 0.12887045099341776
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33310,
+      "sha256": "b14ebf312a89e2fcf3c5e7dfec22ea670fcca56544b71792b11590fc817667db",
+      "elapsed_wall_s": 0.043893149006180465
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34900,
+      "sha256": "ef67733ffa2f80cf0e2750aaefeaad4588ecc3097ea66ea2fc701eb36ebc0324",
+      "elapsed_wall_s": 0.011079125994001515
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31384,
+      "sha256": "198e8da27955ee77f9aca1374fec239944518cafbb10501b0b2788848988b996",
+      "elapsed_wall_s": 0.19861709100950975
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35596,
+      "sha256": "043dad12330361e4b4be7bec8df17033a067b73b6a2f50c7ac13a7f034693b48",
+      "elapsed_wall_s": 0.030452110993792303
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31769,
+      "sha256": "8ebf61dfe098cd4642457debc4c9804b1b5f315360833ad2138b5e53819b7dba",
+      "elapsed_wall_s": 0.06135323300259188
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36209,
+      "sha256": "bea611c350b5cace4837b17cbe8fad0948863cab9cc623222a08214000adca5d",
+      "elapsed_wall_s": 0.104103783989558
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34168,
+      "sha256": "d9b332b8e1454c00e50d162fd5d7f65cc30dab17f17f50fb7c0b0ee249a4ca63",
+      "elapsed_wall_s": 0.12884796800790355
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31922,
+      "sha256": "e39e2d147aaffb31c56b380e379fe850bfa766b5dbde91d395806b359f361cfb",
+      "elapsed_wall_s": 0.18965072299761232
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34872,
+      "sha256": "7b76d806f4652361f66c32835ced82b1d5b1f6fdd736b682ac9aad138702ed76",
+      "elapsed_wall_s": 0.19052247199579142
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34847,
+      "sha256": "d92dcb72ecc0612816dccc28593c76cfcadb64342e51ea4b0318784b69c1b66c",
+      "elapsed_wall_s": 0.8865497540100478
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31238,
+      "sha256": "604db4646046d31190d9c3a650750c8f3ce44f7bfee21d6ab2b4cc96b2ff87da",
+      "elapsed_wall_s": 0.48794366800575517
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34716,
+      "sha256": "d3c9ad56e8a6aacfc01443e4e970cb2bb3771d89f99f8960bf48dee2a9bea5be",
+      "elapsed_wall_s": 0.3135982969979523
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33288,
+      "sha256": "ebb0835759d3948a1be924311f3fd0903cf42a4b0f20890936500dc467e8b297",
+      "elapsed_wall_s": 0.04664727600174956
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34198,
+      "sha256": "010c6aaee48cbd2f473e9c64771b151de8a83bc2227650575eedbf6467df7cbc",
+      "elapsed_wall_s": 0.21339660200465005
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34719,
+      "sha256": "b2a6e5f0a11c10d1d844c605be079a284c1b7ab7a753c0924514195485ef18d8",
+      "elapsed_wall_s": 1.432700642006239
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34713,
+      "sha256": "e095eb06dfb29391f4a7d3d470713ba00507eda63a6290b509b21b282469619f",
+      "elapsed_wall_s": 0.03913244299474172
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31189,
+      "sha256": "bb9dfd1800a20f1fa203ab0b905bdaff608ca80af5ecc9814664b368aa92344e",
+      "elapsed_wall_s": 0.06811746799212415
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36357,
+      "sha256": "b3a8488853f53058a353724b8fb0ce2dcb57bb97cdce11aaa4ff9904c4a2d2c0",
+      "elapsed_wall_s": 0.03441733900399413
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36593,
+      "sha256": "83682c982b37c854d77c4525457edfcd454e07f40d7220c224aff414e886ce8a",
+      "elapsed_wall_s": 0.3855294450040674
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37054,
+      "sha256": "63a5f5fd9728fd17917fbb022a66a66ba1e67db532e3304c24c112c0e666028d",
+      "elapsed_wall_s": 0.06750514300074428
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37149,
+      "sha256": "de497a4bbf2b4dc571058021a5ae504d975cb10c82e913c75ed49af73b35ab40",
+      "elapsed_wall_s": 0.05704289001005236
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36387,
+      "sha256": "aee463459b72c6b96cc7d0c3ee6f1210832c1b143cc57da9a11d35ce458d36cb",
+      "elapsed_wall_s": 0.29746591301227454
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34793,
+      "sha256": "15b91a2fb3d434e748cff17efc6ce1651a81d7338e2ad1ad2ba4787ed622d3e5",
+      "elapsed_wall_s": 0.2923600659996737
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34081,
+      "sha256": "573250a7dac144f25890b4f43386d44a0c6706604e207f57ee5c2a192646fd18",
+      "elapsed_wall_s": 0.2321483740088297
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34767,
+      "sha256": "55c57ff82c8a88a1439865e968b85326f0b4bd4008a52f843c2422c217b5360c",
+      "elapsed_wall_s": 0.5389830649946816
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34179,
+      "sha256": "a1eba3cd0d6834d432332ae01f09afe811a9eefe133ae01a8bdc1681b2db85a2",
+      "elapsed_wall_s": 0.1864123959967401
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34671,
+      "sha256": "7d9f9024ffd125762a5623a2dd2cc02d1572770b86ee52d897df1f42846953bb",
+      "elapsed_wall_s": 0.31934969399299007
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34219,
+      "sha256": "75465b0c773b0054e855a5fd7e1f85db0647284d295ce980a29cb42893aba338",
+      "elapsed_wall_s": 0.11671435998869129
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34839,
+      "sha256": "bbd5a34d6a85f1f36974fa40fb383086c1d901fc2fb6ae331e7c6e92e01c8489",
+      "elapsed_wall_s": 0.007277677999809384
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34256,
+      "sha256": "1c2239ea8eb7cbf5dad5a96adc837df63918972f42a7f7ee08cf5d75de96f1f9",
+      "elapsed_wall_s": 0.22449450599378906
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35808,
+      "sha256": "fee3a2464e49fd272402f1cea100d5945702c39d1ccfdfcde2dd728530a0fca1",
+      "elapsed_wall_s": 0.110166312995716
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33636,
+      "sha256": "8b8756f30c132591df5e90198107726a40285155c8dd3c374bd97b119882113a",
+      "elapsed_wall_s": 0.530283831001725
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33493,
+      "sha256": "86215ad5581681dd9631d0c8c341096906ba9332714b4c416dd4cc4c6737f64a",
+      "elapsed_wall_s": 0.05492060899268836
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34026,
+      "sha256": "f49308c9b6af0c762019c1d5dc62c5fabbbe00132bd2ce1bd5781dfe7763fb6a",
+      "elapsed_wall_s": 1.2652489920001244
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34033,
+      "sha256": "7ccf882ed663b21e50e3e6277d3ee1b0d1492d22c704d65c821edacba56ccbde",
+      "elapsed_wall_s": 0.4935126900090836
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35469,
+      "sha256": "e9454fd967be3ab50c0d427180eb93f071f0d74b30ef727759e9589bb9ee4e7e",
+      "elapsed_wall_s": 0.6532917880103923
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33995,
+      "sha256": "b3302a74bcd05e3739c6fdbbfd06a53cebfc273bfe466d45129cfd210891f0b9",
+      "elapsed_wall_s": 0.6404150000016671
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35700,
+      "sha256": "5842323e652d2b1d98e1df53206189c835bb487f96d2e9e14415b508d822818d",
+      "elapsed_wall_s": 0.1049272100062808
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 30501,
+      "sha256": "9e11abd11fd0d94a8f822cc14782da8e746fc14c6475a0e363c41cd07e8b0da9",
+      "elapsed_wall_s": 0.540994260009029
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35587,
+      "sha256": "3b38e8032b70ba387ff13d5d97d7e9ad9c6223f508328fff6f0c992f423ea26b",
+      "elapsed_wall_s": 0.8053238370048348
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31107,
+      "sha256": "a75e2a8c304e31dca4483ff91770f27834c894cb05145b8c60e510d59474ef2b",
+      "elapsed_wall_s": 0.029623097987496294
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34190,
+      "sha256": "869f4b4438484161fa7bcffbf85e17b995b9e941301b8225eabcd561c400edbf",
+      "elapsed_wall_s": 0.22850860899779946
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35564,
+      "sha256": "424c8d8daacb2621664883da0fa00e51754e89a0bb54af23aa68a57672d8bbf5",
+      "elapsed_wall_s": 0.06091651400492992
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33499,
+      "sha256": "772bedead6a7335de0046e827ecde511989cc8c51f048309ab73a79bd7f4ff06",
+      "elapsed_wall_s": 0.199708295011078
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34685,
+      "sha256": "1322c4e892238e050d628ce4e5c92b740ade70651117bded45a802d36fede02d",
+      "elapsed_wall_s": 0.4617670330044348
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32531,
+      "sha256": "9210df915af5e3a2cf13ffe18d61a77b02cd54e3a35da71b2b1703146ed00cf7",
+      "elapsed_wall_s": 0.1323865489976015
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40549,
+      "sha256": "e741aa008cf94c80e53c41dc35a8b95240d6f3d791257892882bf35fe39b7df0",
+      "elapsed_wall_s": 0.3084793360030744
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41330,
+      "sha256": "a57e47186a86e02cc05142ee660ff83ddf33f3f34bbd24ae05d49615be72dbd4",
+      "elapsed_wall_s": 0.2695679669996025
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40223,
+      "sha256": "e65b3c7d45bbc1d073193ece33805c843e921f03e817de6d28eb67436c871088",
+      "elapsed_wall_s": 0.1443785699957516
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 37656,
+      "sha256": "dff9ebe02e1b523ca9fb84a3bcf51eb276cab1eef635ab38bda20d59d8d307bd",
+      "elapsed_wall_s": 0.08100929200008977
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 38685,
+      "sha256": "341c2674c674ec37e5bf5d7cd8c09e13f64e687d26c9caf0093331b2e8a6ec75",
+      "elapsed_wall_s": 0.715059777998249
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 27317,
+      "sha256": "ac8aa51a98e64d35df6a699f9103ecc8e19e7f0407c55044b4a27b179cd02e19",
+      "elapsed_wall_s": 0.03111236599215772
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40546,
+      "sha256": "b1d5a8399d77ac176a54f87c9d156ea9a85b9966d7309b6e5aa186dcdd12a1ed",
+      "elapsed_wall_s": 0.4617933900008211
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 38332,
+      "sha256": "59a8b6595068fa891552d5120b49a871444fd65609a44ac23b5f22d1fe7bd42e",
+      "elapsed_wall_s": 0.3663387520064134
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40657,
+      "sha256": "0e7b6e99fbbef5abab82fc606449915a624d24dc3be527b5eccb29bac4cc6719",
+      "elapsed_wall_s": 0.31881568300013896
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31982,
+      "sha256": "26708dd8b1834df8898a6185d745d4655dff110c12e1208984eadccf22d07bb8",
+      "elapsed_wall_s": 1.1690772910078522
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39084,
+      "sha256": "2e92c7b9d6127758e85c8aea766f79eedc268b2dd8a283abae406cec6d1111ec",
+      "elapsed_wall_s": 1.0114539999922272
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 30743,
+      "sha256": "78b6a95dbaf98074b5f4e7d4c3372a9a590d627f4ce04dfb791751f49ef65c82",
+      "elapsed_wall_s": 0.1945845099980943
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41799,
+      "sha256": "378323c65d21a84e7d18a0aef17f628284aa703ddf34fd9adf90ea804818923f",
+      "elapsed_wall_s": 0.24285092699574307
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39340,
+      "sha256": "eae4dd418d8cbd8438a765ee12c2348bff5bd0bfb42ef46e09649714f071ba94",
+      "elapsed_wall_s": 0.0658144059998449
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42323,
+      "sha256": "c04187e6e35e57c25db879e91fa38be6c86df65fe82aec762c1adc416624d508",
+      "elapsed_wall_s": 0.018768449008348398
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34322,
+      "sha256": "ea9fc2460820752276f709cc25b6ba43507b7bb51aeb2be16e498304bcadb431",
+      "elapsed_wall_s": 0.11330037000880111
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 27909,
+      "sha256": "9726ec7e17bc33046a1aee1b1df8b1f5e01df988597a892436df0e40a7ffee55",
+      "elapsed_wall_s": 0.39239311100391205
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42750,
+      "sha256": "bdb9bb9f0b87880aa07108024202486e7ac3dc70fe739718f5bc060b9fbfc8cf",
+      "elapsed_wall_s": 0.006788557002437301
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42708,
+      "sha256": "770f9c8296d4a2e0c4ff080cf44dd2d96e9d95d403c043f64707a75c90c7d797",
+      "elapsed_wall_s": 0.10252075300377328
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42666,
+      "sha256": "23efc24670e8a1f1b757f2ff7ad8ff15c14ad842a1dcc1ddd938b42d3ce70e93",
+      "elapsed_wall_s": 0.40213870600564405
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42667,
+      "sha256": "f9bb3026fbcfcb3a1dadcb91c6f2f0b9a76c36e43768e6d7f2ae64d36f6d0c29",
+      "elapsed_wall_s": 0.43275172100402415
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 43594,
+      "sha256": "2120ef872473b742d6ff8c820c9f06c45f47090b15fb73fe351449369a9849a9",
+      "elapsed_wall_s": 0.23396811800193973
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34069,
+      "sha256": "fdb3763bf2c6099952199da87e34b0614787c1693410fcd02964574464682df0",
+      "elapsed_wall_s": 1.6592826310079545
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32459,
+      "sha256": "ff324618926f925eafad3e04c7ea0affd15764c85b8f279b0462f143c36bb61b",
+      "elapsed_wall_s": 0.7897063139971578
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33958,
+      "sha256": "e623e5b140b75b8d4d046a6c5c6e95584f27aa6092d21faf93b65bb8574853b2",
+      "elapsed_wall_s": 0.05439866200322285
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36262,
+      "sha256": "197ddc5b6e99e0663587e443cdcdc05735d8cfb0ab069a3c06ded6d347458665",
+      "elapsed_wall_s": 0.0653953519940842
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31170,
+      "sha256": "df9dfc0bb193175075c9b77e8a507ab26b18551f348dde637a594c4d8fe5f772",
+      "elapsed_wall_s": 0.054889699997147545
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31123,
+      "sha256": "2ac207ebc165b6f97307e57843702c7409539ead326fe13ab0ac93323769e212",
+      "elapsed_wall_s": 0.6016187450004509
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34874,
+      "sha256": "2edf66231ed8f656dabdc4496b2f4abecc0e52a156a69ab599cdc65f6f19ae92",
+      "elapsed_wall_s": 0.38946383399888873
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42207,
+      "sha256": "910ad5b106b7716f2bc822012f017e680d131f04046e6c25cca14c793d3901a3",
+      "elapsed_wall_s": 0.37269025000568945
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39853,
+      "sha256": "dbc1f08b378bdfddf8a151b5b85bca1eb1f6527e7a6d6f03cd9f243ccd99118d",
+      "elapsed_wall_s": 0.28826093800307717
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41183,
+      "sha256": "25e82759ec6bd3d307cb7ffce919db222bf93d5d802e41a38ad342c84702830d",
+      "elapsed_wall_s": 0.220539675996406
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33975,
+      "sha256": "05c165f8a0d01a0193f1d80f8ec7b6f898b776826db296b04a97af9ccc4bdf76",
+      "elapsed_wall_s": 0.02308452500437852
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34756,
+      "sha256": "129bca95f9d3aa5f4344b924522e21670c780b43668512fd71e7aa6af78656fb",
+      "elapsed_wall_s": 0.1506308919924777
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33472,
+      "sha256": "263db863adcb347ebaddd90745b0607ee61ee5d63e948d10237ddee4904c0a96",
+      "elapsed_wall_s": 0.8298585320007987
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35046,
+      "sha256": "3c361c5b3dd6dee1960017b69815a9a1676a1e09c56ef702a4521f3a74e55ba3",
+      "elapsed_wall_s": 0.21353941300185397
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34233,
+      "sha256": "5ef032343f7aeb1bed79cc3a32261ad918735080996f0fd4912a132aefa45152",
+      "elapsed_wall_s": 0.08227906400861684
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34093,
+      "sha256": "2f3d873fa9f1fd235971970ab0080ad73a8a38ae73d057eed36c0811a2e74c13",
+      "elapsed_wall_s": 0.30441634899761993
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35495,
+      "sha256": "f4c2057aaf354cdf40d270d0f1ce5402c9b9d602453ef60c3191d8751e350c39",
+      "elapsed_wall_s": 0.10306803899584338
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35382,
+      "sha256": "70bf0abb54193a820c9816e98e1e7e8c6b077c9c53ea4ff095c022ff9b22ab4a",
+      "elapsed_wall_s": 0.578572942991741
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34081,
+      "sha256": "461f66b0d87e772278923f22b655f0bb1117410ee8132029ed83e81e80dee365",
+      "elapsed_wall_s": 0.12706632001209073
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34302,
+      "sha256": "94f99829a9188c4cb281b723df946a058effa132a82f0624e1768e1983081d7b",
+      "elapsed_wall_s": 0.13217120000626892
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34090,
+      "sha256": "6a314eac39d9a26976b1f16598b419718d4b43f7d913abc5a32bcc3513f29be2",
+      "elapsed_wall_s": 0.44139258199720643
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35540,
+      "sha256": "98d080d34809e4977045d6c156924d9e54d83a0bfb5e1c67386bb7a5f1e098ba",
+      "elapsed_wall_s": 0.018860911994124763
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34092,
+      "sha256": "7691b2919da22747b9ee61fa33e203b1a120da2aba390acd0e2d287ae9e87105",
+      "elapsed_wall_s": 0.282768010001746
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32809,
+      "sha256": "c634ed2f7bd852365a065134b60aeb9f8716c1883334a36241c46d3006bfa009",
+      "elapsed_wall_s": 0.23483700200449675
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35740,
+      "sha256": "7bc4c57af841ac3fa02df5ec56ae145e9d65d42231d02197fcf30b8f0a2cdf9c",
+      "elapsed_wall_s": 0.004513255989877507
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31234,
+      "sha256": "2e3930eb494f04c6ee093989b0d4b85c0df1bcd8dd302d2d05c9a2797e46d6ba",
+      "elapsed_wall_s": 0.6880961110000499
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34180,
+      "sha256": "851d6bffb783c96bb9e20e8fc4b655767e77e3a8834ea53048ad17fd08ff0294",
+      "elapsed_wall_s": 0.027338228013832122
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35522,
+      "sha256": "43577f64814501e8647846a28df7d81dea9448f52b0bf3e6d3c49e4028ae5e1d",
+      "elapsed_wall_s": 0.46438313099497464
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34083,
+      "sha256": "8cee68e31c740155c318e86aec3461a880a0e108fca9a25508422504c5481105",
+      "elapsed_wall_s": 0.02524270099820569
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34405,
+      "sha256": "b2ba71056f79d2026c12f064fb8c780380d5bef3b4feac88d82880720612e735",
+      "elapsed_wall_s": 0.2127516370092053
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31251,
+      "sha256": "2f5a7e3e2dab7975733a743f0b166edd5d6c23c2d3d94e5d88ba17b72c96c93c",
+      "elapsed_wall_s": 0.28231969400076196
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34722,
+      "sha256": "a28cac23531ceadfc569469f18062e02024b0bf2ce3700843cd6e732537f4a14",
+      "elapsed_wall_s": 0.10921167199558113
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34652,
+      "sha256": "63a51ffe0947bef77f8c5dbafed5d34480ffce1190294163137061408cadab2a",
+      "elapsed_wall_s": 0.06874552600493189
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35268,
+      "sha256": "64db6bd00eafc409405105ddc3c604867884ef27a75c3c49c2f59ca69cf169be",
+      "elapsed_wall_s": 0.5913338619866408
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36475,
+      "sha256": "6ae75afb5a2d688612f542a510724b50518aee161b1406c9b29c39a802d3098d",
+      "elapsed_wall_s": 0.1325227960041957
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39202,
+      "sha256": "8f5316daf87759274da4fd0fced85c9f6e6ae764e5c3de9d2d7c380897910e09",
+      "elapsed_wall_s": 0.7235891160089523
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32129,
+      "sha256": "14b12d2741cf20651a36e701f5beac2ae6de4772495ff2ff13db8a6eb135e2a6",
+      "elapsed_wall_s": 0.20817856201028917
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34728,
+      "sha256": "235e585cd608fc45223cf0c658e958497f6b1090690437ebaf4b615d57b67b74",
+      "elapsed_wall_s": 0.4134157570078969
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32731,
+      "sha256": "5b8a9ea36c40b9362a46ab270f5472fd6d63af50f6a2196bbe97e3228cfdf03a",
+      "elapsed_wall_s": 0.47616263800591696
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 34539,
+      "sha256": "c3b4737961f574457355a2aab1fef4e7583b762aee73a76d245ca7a73ad3754c",
+      "elapsed_wall_s": 0.18246280899620615
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35816,
+      "sha256": "62da78607d344a2bb3ccfe84797a53fbd03bded76243297fd72a84b1296d3764",
+      "elapsed_wall_s": 0.3386580849910388
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35258,
+      "sha256": "ce6b2b79dbb48a76e276ba77d7457a7eaaaae592bf6d6b80c33e81f70164dffa",
+      "elapsed_wall_s": 0.07530328599386849
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35119,
+      "sha256": "c8199f3cda475bda08262919509420ab0aaf5e97f86083a44e4f38d4375bccb5",
+      "elapsed_wall_s": 1.0258396429999266
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 38265,
+      "sha256": "09ce60285f87f64afcd6e648c29dfd872cbb847e43904a43a98a41ff730957af",
+      "elapsed_wall_s": 0.7233620899933157
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39870,
+      "sha256": "c05c440bf3982aba3bb781f2665b3bcb57be455fcaed1046555473a5827f6452",
+      "elapsed_wall_s": 0.05796746000123676
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41177,
+      "sha256": "532c39ff90644f3cf84d073729a5f7ef0c63312db75ab733ce8c16b4d7b8267b",
+      "elapsed_wall_s": 1.3643594049935928
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40462,
+      "sha256": "75af723582f3c3e57dd8c2277328f71a71850cc6064c8073a1e08419555f8cf5",
+      "elapsed_wall_s": 0.8649977939930977
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 36476,
+      "sha256": "c3712f3e4830139e0d2c8536b19a65e245730b1ee736289926c1863d77133d83",
+      "elapsed_wall_s": 0.46156354300910607
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39160,
+      "sha256": "9b3247c3d99c4c57e78151b8b731e57bce398d7c022fa7a4226660038f8494a6",
+      "elapsed_wall_s": 0.9062602159974631
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40083,
+      "sha256": "6da7884e50bcbc6f4a66808dda2c94318f17e730af2ebf37f38b2bee4f0fcbdc",
+      "elapsed_wall_s": 0.12778445000003558
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39876,
+      "sha256": "dad715c503f680c4481bc331be794d3ffa6a8c3de0a9eac90926cd69dd471c33",
+      "elapsed_wall_s": 1.8273997659998713
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39921,
+      "sha256": "c7ec969dcdc38e36ea20900772b31389c60d0eeb9c7d1aab1afa7d343ca507af",
+      "elapsed_wall_s": 0.3496406409976771
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42039,
+      "sha256": "3136dfac7fd621b6e73068af63a3155592ee7b19eb29ddc256eca94090dc1421",
+      "elapsed_wall_s": 2.325518337995163
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42888,
+      "sha256": "bea8fdfc140db9fc86b0f5bc915c4136d4ce788c49b6bf182e706eb90d41fe19",
+      "elapsed_wall_s": 0.29090266999264713
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 44023,
+      "sha256": "b3db74e43bb6429c0d99e7f7f3085481997065b03e5befc0dafcbd12578377d8",
+      "elapsed_wall_s": 1.0595581859961385
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39840,
+      "sha256": "fe4090ff32a1fbbe8a09d0a29b37fd012da20d3413b26bc17c9f2e281ecf7811",
+      "elapsed_wall_s": 0.7143390600103885
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39031,
+      "sha256": "9219efeae7d43cef1f2ec96b20559180e5ab9dc83a092099f805a614d9e1cf13",
+      "elapsed_wall_s": 0.4752819669956807
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 44235,
+      "sha256": "f21590dbf2aa882096579f0767d2fe49527e14e3322ee8062a1e0fc9a5d03b4c",
+      "elapsed_wall_s": 0.11177064200455789
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 45031,
+      "sha256": "8d7661148488c79f67060fa5e032fdde64402299828c4f5a9928c4123b20ed59",
+      "elapsed_wall_s": 0.25642992700159084
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 44177,
+      "sha256": "561c799c50aefbbcc425a2335c37c62853fb8a02020f5fa1dfa99241f10f5d8b",
+      "elapsed_wall_s": 0.2998619659920223
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 43524,
+      "sha256": "28878fd182721f349bc1e7bbf8357e7096f1ad4be575d5e59710427715c76be6",
+      "elapsed_wall_s": 0.03249978199892212
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 44942,
+      "sha256": "af223e6f08fe18b73ff801b4a4e5ad65a4d7c5c30797844ea0819cd8ccb1305b",
+      "elapsed_wall_s": 0.3357161599997198
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 43444,
+      "sha256": "acf44e07a3d98dbefe827b9481cda31b1a794807339ea9ece47bee8b3ebee1ac",
+      "elapsed_wall_s": 0.006748606014298275
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 43249,
+      "sha256": "f834787338c984cb0dadf4b4646b1a39e8c8027f205e20a88cea6f1b3c6df827",
+      "elapsed_wall_s": 0.04631899899686687
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40496,
+      "sha256": "525d51a57cb7d890b18ee7137a15e27d0e2a182e971afd9bb84df8bb54b6c66f",
+      "elapsed_wall_s": 0.21712653699796647
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39136,
+      "sha256": "5e7fc5f8ee514c05fe99f651e12d7285a8eca2f95524be8aac2b5ad9558e2ac5",
+      "elapsed_wall_s": 0.43364977299643215
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40447,
+      "sha256": "c300c553b2b7e09eddf3e2add797f7a3956e6b275d1d44fc8fd4a8ecfc840daf",
+      "elapsed_wall_s": 0.6986197829974117
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 43643,
+      "sha256": "430bc182e5285e1baddd24c9157b878882cc14b666ae43d6eab3e0c7092e918b",
+      "elapsed_wall_s": 0.3280517829989549
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 44525,
+      "sha256": "af1afcd45ace4f37de9b194baa5c178a6a3824585170328940eb82233e14fa2b",
+      "elapsed_wall_s": 0.9690845110017108
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 43615,
+      "sha256": "0bba212d72d0144331879c5be1923515bfa6db249612eb01058c7664be5ebab2",
+      "elapsed_wall_s": 0.21340112600591965
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 43741,
+      "sha256": "70799eac84a584a25065606f44f7f92d6df51dc2b2a40440f0bcaa6825f5586b",
+      "elapsed_wall_s": 0.3805213500017999
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 43938,
+      "sha256": "63fa4c3af19d78bc21914278f55aef866bd3f95188332d4f395b2d8144961371",
+      "elapsed_wall_s": 0.02709331399819348
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42865,
+      "sha256": "e99f48841f2d0742259216160961f9df430da18c6f6a07105f6e12ea440f902d",
+      "elapsed_wall_s": 1.0656804419995751
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 45899,
+      "sha256": "649cf67097b1f6ba202e0060414fb502a5be7eec8444c976b128d090e8445d71",
+      "elapsed_wall_s": 0.11188380500243511
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 43675,
+      "sha256": "eedb6df9ef42157e09a27676dc7348285e7a1c413740ebc7b1e6a054b2d27c95",
+      "elapsed_wall_s": 0.4030900420038961
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42837,
+      "sha256": "4c8a82e282b4621725b16e7eb27002f0d2766300e579614c6dd1cd5afcb2eee2",
+      "elapsed_wall_s": 0.8436843389936257
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40155,
+      "sha256": "242751aeb2cda87eecbe5a80452da6e9eb9d4407a5847b142fc0e1568c55a097",
+      "elapsed_wall_s": 0.13140986899088603
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42245,
+      "sha256": "6c58e17d7a7b42665118a287daa4b9ed69430e4c149c69b372e81643d3545a44",
+      "elapsed_wall_s": 0.4234576640010346
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42912,
+      "sha256": "6001432d609ec7c80f95e433ce2fe4b35fdf2ac46a88a3ed7bbc6fe4b029aec7",
+      "elapsed_wall_s": 1.0450583289930364
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42002,
+      "sha256": "87219b853f1e828b03594f4a8ad9fcda3a794595add4fa14b98fce06404eaee9",
+      "elapsed_wall_s": 1.2006024860020261
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41519,
+      "sha256": "10a19f32141bbc4c73d9babebd2af03755c2d899442e272ca47e4e33e565b95d",
+      "elapsed_wall_s": 0.13759990900871344
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42250,
+      "sha256": "dbdcb4b95075060a8982dc810bdf51541a576f36e4d372a540e7dac4bf98abd2",
+      "elapsed_wall_s": 1.208265171997482
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41515,
+      "sha256": "873ead76365464fb6cce4723879c088ffe0cb660b607c7d21e0bec3e4c9b5cc9",
+      "elapsed_wall_s": 0.07063534299959429
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 43002,
+      "sha256": "582b56b5f638952358cc7529d9d1c2d22982eeb1d84b9b509797f4c43e05c879",
+      "elapsed_wall_s": 0.12624492500617635
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42132,
+      "sha256": "4743a9ede15dd169da97a892b1fde67a239a4551e440a4e0026ab0a3e09d4af5",
+      "elapsed_wall_s": 0.5825352889951319
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 43567,
+      "sha256": "59267a721ae8e655a8b609f21bb1d6415dbc74d0ad96c68e0da85c58fb8be44f",
+      "elapsed_wall_s": 0.42333751599653624
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41334,
+      "sha256": "43078c539b45cb80d5128012663572f4a07f2a4dcdc10781b997809fdb1bec25",
+      "elapsed_wall_s": 0.35648687099455856
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 44884,
+      "sha256": "19ec90ed9f4b36b627593837b21888b85debca4c74fe20893f33425b84acbe27",
+      "elapsed_wall_s": 0.01014680699154269
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 44183,
+      "sha256": "234acfe2ae53e78a67072bd0a8d081f600288b883611b86873d680c48d978fcf",
+      "elapsed_wall_s": 0.1243151809903793
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41355,
+      "sha256": "aa26d6bd84a3e3f0697130f2425b569a7f0f1155e1417ef92e0a9eb0b914432f",
+      "elapsed_wall_s": 0.5394328709953697
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42827,
+      "sha256": "bcd253d22626a86e19907ca7782e2c9a6b1cdd54d39c7f9511b6c13fd194b273",
+      "elapsed_wall_s": 0.3098493790021166
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39962,
+      "sha256": "0a1e5fd860f95b60ae0c01ade97dd731a957a584da7f60e8ab8586245f335526",
+      "elapsed_wall_s": 0.17811975500080734
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41928,
+      "sha256": "1cde49e605bc8bfa1550bbbb3b975ebd29ab8c39dccea38a34cf87ac336cf56d",
+      "elapsed_wall_s": 0.5747121569875162
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40576,
+      "sha256": "f9dd59038e47b55f23de7a85ee66a8339019db21ba7a3654c4aed178a8fd2d26",
+      "elapsed_wall_s": 0.2389650430122856
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42733,
+      "sha256": "d7f950ad4ada22b69c32c84fd4c4c892495043c074d3fc6b11ee8ba046ea2ab9",
+      "elapsed_wall_s": 0.22856302000582218
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42392,
+      "sha256": "17ea51f677d19d088b4afd10de3d5132f1fdcf08e6e132e4f18ba30f8535bf12",
+      "elapsed_wall_s": 0.9424183450028067
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 44435,
+      "sha256": "ae7fbde1e19cff45713fe118a53eb0c1a304b5b7a182e6642ae1986c35100b46",
+      "elapsed_wall_s": 0.8045603189966641
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41495,
+      "sha256": "6c36167060008edbef317748c482b176eecdb45e5ab7f54e1d16495533b56d09",
+      "elapsed_wall_s": 0.12917175200709607
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39631,
+      "sha256": "83eb28069443bad2fadd2687b1ea7c36101af290726fd90b130079b3173eadc0",
+      "elapsed_wall_s": 0.36613119499816094
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42815,
+      "sha256": "1bb641e8c8224657c05386ce156800d5bfd078f28c6b53476862675352478baf",
+      "elapsed_wall_s": 0.6342471389943967
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 44983,
+      "sha256": "a124c254194f12e7d7d03a382a926d95051f5dceff1449e74c2b397f965d5e5b",
+      "elapsed_wall_s": 0.819690881005954
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42969,
+      "sha256": "c940065f7ff035775fa0d7f939ba475c6b0d5ed77e676a1a57cfcdc2b6ee4e3a",
+      "elapsed_wall_s": 0.08429088999400847
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42871,
+      "sha256": "341419509706a9e4941a59e21aeb4fe300a30f9123af649b7c479842e610a87d",
+      "elapsed_wall_s": 0.5564018430013675
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42948,
+      "sha256": "94b717d95fa63d34243b90a00b5c029ddab4a40726524c0aeaa779d7790b57b4",
+      "elapsed_wall_s": 1.1826717899966752
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42073,
+      "sha256": "ae41658780acbd340ebe324eab01603b8b43cb04b85de1133f5316ac95c2295e",
+      "elapsed_wall_s": 0.3327943090116605
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42109,
+      "sha256": "26f604b82122b96c21999b218061935b3da0e0786b7ec6a92e82f05e86c9e06d",
+      "elapsed_wall_s": 0.44526889799453784
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 38488,
+      "sha256": "0edec9ad8a12771971ca09cf9fc284faa234413ee98bc391bd2396feac1fa3f1",
+      "elapsed_wall_s": 1.3122267819999252
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42876,
+      "sha256": "2896f723c02eef696ad75365f3c6a71d9ffe481d0587bbee7951c54020f2e607",
+      "elapsed_wall_s": 0.640447858007974
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42848,
+      "sha256": "af70c84c0dc7eb7cfe16a3d1dd694f3c01f82219b8d8739933fa2ef653fae653",
+      "elapsed_wall_s": 1.2734567869920284
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40567,
+      "sha256": "4007c8410fda6d5bda8161d88707fba11b0bdd1f3c960a0cf41efcb3fca093a4",
+      "elapsed_wall_s": 0.485144460995798
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42336,
+      "sha256": "71a08fd02e28d2c4e0972893b362986f352c1da9757b417445e4d93f4652b740",
+      "elapsed_wall_s": 0.3031216259987559
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42227,
+      "sha256": "3784623fdf22cef41b0a1fd1895a1576e692df0be8e55dd88470d2e0a2be5f01",
+      "elapsed_wall_s": 0.08451536799839232
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 43005,
+      "sha256": "f14570bbe0b1bad62b009a6e81bc9e7d5bd2c8088d37d81817d69eb3cf5b01b3",
+      "elapsed_wall_s": 0.007292859008884989
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 42130,
+      "sha256": "4de5c875307c6f4dd8ffca6430942f9a002b937f215b6d9fa383ac09aae625ee",
+      "elapsed_wall_s": 0.5930497119989013
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40067,
+      "sha256": "abf1f630dd44864d9f0a98bcc93ec5cceb53a367709a224a4d3f3dadec94fb25",
+      "elapsed_wall_s": 0.11146042500331532
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39018,
+      "sha256": "50a35f45df85269c97c578997bb31d52836b93b367fffcddd815d24b4c65000c",
+      "elapsed_wall_s": 0.5652516359987203
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40499,
+      "sha256": "339b2767047a403b8ca9e440864b5aef0489d370489012bfb22a33bf992ac7c9",
+      "elapsed_wall_s": 1.5631626120011788
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41647,
+      "sha256": "577e176e909902ec84914249197dd152270544ecf5f0f70c0c15973252aa771e",
+      "elapsed_wall_s": 0.4315394239965826
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 35948,
+      "sha256": "a08062b78e275f74b64036adff15e524b70570b3783602af70bd3622bbe2840f",
+      "elapsed_wall_s": 0.36839997800416313
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 40487,
+      "sha256": "8f25d993c0b70432789947af8edad91765b0cbe8f74049d98b7ce5733d310659",
+      "elapsed_wall_s": 0.014290908991824836
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 33418,
+      "sha256": "bb12f3b97df4ffcc6eaa1e00112b29f7f0a28c717e22332debfb0a2722a3905e",
+      "elapsed_wall_s": 0.5361815399955958
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39892,
+      "sha256": "78543743e9ef76b55b29a0b4acee5f1093ceba59f73669898bfda53037e213c3",
+      "elapsed_wall_s": 0.44745147301000543
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 31709,
+      "sha256": "40a7c50dd07a8e5cc2f7cbf386153ae7f46ecfc54580b6090f8c76f5d30247e5",
+      "elapsed_wall_s": 0.20555389700166415
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 39082,
+      "sha256": "c5cdc48f78a2f1309abac70ea829038bc230bc90c507b5495e79224c29d03dcd",
+      "elapsed_wall_s": 0.4727382709970698
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32538,
+      "sha256": "a56af46c42ab3d70f466c144d9a3be341dd9f6b7cd48f950da64c645b5714942",
+      "elapsed_wall_s": 0.2408813590009231
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 32003,
+      "sha256": "8f48c0ac7317d56b1c1ca4fa29c3af9727c82be6b30a223ffe58d37f03999644",
+      "elapsed_wall_s": 0.20954617900133599
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41797,
+      "sha256": "ceab81c2b09cd3e2ec4c91f682e9db1df2b63ca7d4e41a9721c541d815f7b69e",
+      "elapsed_wall_s": 0.18090622799354605
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41797,
+      "sha256": "ceab81c2b09cd3e2ec4c91f682e9db1df2b63ca7d4e41a9721c541d815f7b69e",
+      "elapsed_wall_s": 0.002943689003586769
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 200,
+      "bytes": 42016,
+      "sha256": "12ae293f05194644123dbd856e20e50d008955d1f9b184f979d433eb55cc6f46",
+      "elapsed_wall_s": 0.005345429002773017
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/checkpoint-export",
+      "status": 200,
+      "bytes": 947549,
+      "sha256": "a25bccb111e80fa7a20235f4f5f0c7ca6691e021642a89b728d79bda312f56fb",
+      "elapsed_wall_s": 0.021751647000201046
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 41955,
+      "sha256": "c343c625ccf1a56d6ecaa071c102b08df499de097f7352eea85046574ac54e77",
+      "elapsed_wall_s": 0.003778786995098926
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 200,
+      "bytes": 43153,
+      "sha256": "5593ff6149cf9124dc0d7fd5af955a1b896e744fa87f24a95f4f9ea83f2db07c",
+      "elapsed_wall_s": 0.012777354990248568
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 43153,
+      "sha256": "5593ff6149cf9124dc0d7fd5af955a1b896e744fa87f24a95f4f9ea83f2db07c",
+      "elapsed_wall_s": 0.004306176007958129
+    },
+    {
+      "method": "POST",
+      "path": "/api/operational-rig/command",
+      "status": 200,
+      "bytes": 12345,
+      "sha256": "cb6ade87c73a2a0530ab624efc8c25118b27e210088eb4b144da92ac574a9fca",
+      "elapsed_wall_s": 0.0074104139930568635
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/status",
+      "status": 200,
+      "bytes": 12345,
+      "sha256": "cb6ade87c73a2a0530ab624efc8c25118b27e210088eb4b144da92ac574a9fca",
+      "elapsed_wall_s": 0.0017686930077616125
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/metadata",
+      "status": 200,
+      "bytes": 927394,
+      "sha256": "a5b3523af53b2dcc88103b6509cae79f3a63809cd6d60c96aee22004ecb72f73",
+      "elapsed_wall_s": 0.021321154010365717
+    },
+    {
+      "method": "GET",
+      "path": "/api/operational-rig/geometry",
+      "status": 200,
+      "bytes": 18763796,
+      "sha256": "df2a5ae5df156df53e97916004e6dcb79c6e29be8450b1c37885f73b1917e83e",
+      "elapsed_wall_s": 1.262565391996759
+    }
+  ],
+  "wall_s": 252.56165241599956,
+  "finished_utc": "2026-10-14T03:31:07.792452+00:00",
+  "finished_beijing": "2026-10-14T11:31:07.792452+08:00",
+  "browser_visual_tested": false,
+  "checkpoint_response_bytes_verified": true,
+  "browser_download_completion_tested": false,
+  "complete_demo": {
+    "duration_s": 1.85,
+    "steps": 37000,
+    "complete_checkpoint_matches_producer": true,
+    "native_checkpoint_sha256": "222ce23f8653eac9d57ebbd2d7924dc60713d79f4642beb1d75516fd2ffcfb02",
+    "status_samples": [
+      {
+        "steps": 12,
+        "time_s": 0.0006000000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 131,
+        "time_s": 0.00655,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 205,
+        "time_s": 0.01025,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 258,
+        "time_s": 0.0129,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 349,
+        "time_s": 0.01745,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 441,
+        "time_s": 0.02205,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 488,
+        "time_s": 0.0244,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 679,
+        "time_s": 0.03395,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 738,
+        "time_s": 0.0369,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 798,
+        "time_s": 0.039900000000000005,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 883,
+        "time_s": 0.04415,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 1070,
+        "time_s": 0.053500000000000006,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 1197,
+        "time_s": 0.05985,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 1242,
+        "time_s": 0.0621,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 1439,
+        "time_s": 0.07195,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 1529,
+        "time_s": 0.07645,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 1569,
+        "time_s": 0.07845,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 1634,
+        "time_s": 0.08170000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 1842,
+        "time_s": 0.0921,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 1949,
+        "time_s": 0.09745000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 2023,
+        "time_s": 0.10115,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 2079,
+        "time_s": 0.10395,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 2251,
+        "time_s": 0.11255000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 2341,
+        "time_s": 0.11705,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 2380,
+        "time_s": 0.11900000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 2481,
+        "time_s": 0.12405000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 2569,
+        "time_s": 0.12845,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 2733,
+        "time_s": 0.13665,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 2881,
+        "time_s": 0.14405,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 2952,
+        "time_s": 0.1476,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 3024,
+        "time_s": 0.1512,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 3196,
+        "time_s": 0.1598,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 3283,
+        "time_s": 0.16415000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 3419,
+        "time_s": 0.17095000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 3466,
+        "time_s": 0.1733,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 3520,
+        "time_s": 0.17600000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 3597,
+        "time_s": 0.17985,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 3781,
+        "time_s": 0.18905,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 3907,
+        "time_s": 0.19535,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 3957,
+        "time_s": 0.19785,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 4120,
+        "time_s": 0.20600000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 4215,
+        "time_s": 0.21075000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 4277,
+        "time_s": 0.21385,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 4317,
+        "time_s": 0.21585000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 4431,
+        "time_s": 0.22155,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 4500,
+        "time_s": 0.225,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 4603,
+        "time_s": 0.23015000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 4819,
+        "time_s": 0.24095000000000003,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 4885,
+        "time_s": 0.24425000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 4933,
+        "time_s": 0.24665,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 4979,
+        "time_s": 0.24895,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 5037,
+        "time_s": 0.25185,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 5101,
+        "time_s": 0.25505,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 5184,
+        "time_s": 0.2592,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 5242,
+        "time_s": 0.2621,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 5301,
+        "time_s": 0.26505,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 5380,
+        "time_s": 0.269,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 5485,
+        "time_s": 0.27425,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 5589,
+        "time_s": 0.27945000000000003,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 5647,
+        "time_s": 0.28235,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 5913,
+        "time_s": 0.29565,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 6056,
+        "time_s": 0.3028,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 6177,
+        "time_s": 0.30885,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 6244,
+        "time_s": 0.31220000000000003,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 6359,
+        "time_s": 0.31795,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 6530,
+        "time_s": 0.3265,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 6733,
+        "time_s": 0.33665,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 6779,
+        "time_s": 0.33895000000000003,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 6947,
+        "time_s": 0.34735,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 7013,
+        "time_s": 0.35065,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 7071,
+        "time_s": 0.35355000000000003,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 7125,
+        "time_s": 0.35625,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 7269,
+        "time_s": 0.36345,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 7332,
+        "time_s": 0.36660000000000004,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 7370,
+        "time_s": 0.3685,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 7476,
+        "time_s": 0.3738,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 7521,
+        "time_s": 0.37605,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 7615,
+        "time_s": 0.38075000000000003,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 7658,
+        "time_s": 0.3829,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 7733,
+        "time_s": 0.38665,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 7972,
+        "time_s": 0.3986,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 8133,
+        "time_s": 0.40665,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 8381,
+        "time_s": 0.41905000000000003,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 8496,
+        "time_s": 0.4248,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 8558,
+        "time_s": 0.4279,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 8626,
+        "time_s": 0.4313,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 8796,
+        "time_s": 0.4398,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 8839,
+        "time_s": 0.44195,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 8911,
+        "time_s": 0.44555,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 9072,
+        "time_s": 0.4536,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 9119,
+        "time_s": 0.45595,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 9325,
+        "time_s": 0.46625,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 9429,
+        "time_s": 0.47145000000000004,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 9513,
+        "time_s": 0.47565,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 9590,
+        "time_s": 0.47950000000000004,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 9794,
+        "time_s": 0.4897,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 9832,
+        "time_s": 0.49160000000000004,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 9900,
+        "time_s": 0.49500000000000005,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 10031,
+        "time_s": 0.50155,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 10090,
+        "time_s": 0.5045000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 10144,
+        "time_s": 0.5072,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 10200,
+        "time_s": 0.51,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 10269,
+        "time_s": 0.5134500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 10322,
+        "time_s": 0.5161,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 10392,
+        "time_s": 0.5196000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 10756,
+        "time_s": 0.5378000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 10955,
+        "time_s": 0.5477500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 11002,
+        "time_s": 0.5501,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 11158,
+        "time_s": 0.5579000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 11204,
+        "time_s": 0.5602,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 11272,
+        "time_s": 0.5636,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 11415,
+        "time_s": 0.57075,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 11503,
+        "time_s": 0.57515,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 11619,
+        "time_s": 0.5809500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 11678,
+        "time_s": 0.5839,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 11870,
+        "time_s": 0.5935,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 11939,
+        "time_s": 0.59695,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 11989,
+        "time_s": 0.59945,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 12033,
+        "time_s": 0.60165,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 12117,
+        "time_s": 0.60585,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 12171,
+        "time_s": 0.60855,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 12345,
+        "time_s": 0.6172500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 12417,
+        "time_s": 0.62085,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 12520,
+        "time_s": 0.626,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 12566,
+        "time_s": 0.6283000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 12635,
+        "time_s": 0.63175,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 12705,
+        "time_s": 0.63525,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 12832,
+        "time_s": 0.6416000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 12870,
+        "time_s": 0.6435000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 12947,
+        "time_s": 0.64735,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 13098,
+        "time_s": 0.6549,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 13162,
+        "time_s": 0.6581,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 13317,
+        "time_s": 0.66585,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 13449,
+        "time_s": 0.67245,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 13675,
+        "time_s": 0.6837500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 13785,
+        "time_s": 0.68925,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 13847,
+        "time_s": 0.69235,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 13932,
+        "time_s": 0.6966,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 13991,
+        "time_s": 0.69955,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 14053,
+        "time_s": 0.70265,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 14135,
+        "time_s": 0.70675,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 14234,
+        "time_s": 0.7117,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 14293,
+        "time_s": 0.71465,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 14502,
+        "time_s": 0.7251000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 14627,
+        "time_s": 0.7313500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 14747,
+        "time_s": 0.7373500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 15225,
+        "time_s": 0.76125,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 15389,
+        "time_s": 0.7694500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 15442,
+        "time_s": 0.7721,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 15507,
+        "time_s": 0.77535,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 15578,
+        "time_s": 0.7789,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 15652,
+        "time_s": 0.7826000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 15813,
+        "time_s": 0.7906500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 15925,
+        "time_s": 0.79625,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 16064,
+        "time_s": 0.8032,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 16114,
+        "time_s": 0.8057000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 16147,
+        "time_s": 0.80735,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 16211,
+        "time_s": 0.81055,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 16287,
+        "time_s": 0.81435,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 16385,
+        "time_s": 0.81925,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 16436,
+        "time_s": 0.8218000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 16663,
+        "time_s": 0.8331500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 16748,
+        "time_s": 0.8374,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 16809,
+        "time_s": 0.84045,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 16867,
+        "time_s": 0.84335,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 16971,
+        "time_s": 0.84855,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 17058,
+        "time_s": 0.8529,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 17271,
+        "time_s": 0.86355,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 17396,
+        "time_s": 0.8698,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 17491,
+        "time_s": 0.87455,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 17562,
+        "time_s": 0.8781,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 17635,
+        "time_s": 0.88175,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 17751,
+        "time_s": 0.8875500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 17972,
+        "time_s": 0.8986000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 18033,
+        "time_s": 0.9016500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 18200,
+        "time_s": 0.91,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 18256,
+        "time_s": 0.9128000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 18304,
+        "time_s": 0.9152,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 18344,
+        "time_s": 0.9172,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 18412,
+        "time_s": 0.9206000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 18457,
+        "time_s": 0.9228500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 18506,
+        "time_s": 0.9253,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 18560,
+        "time_s": 0.928,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 18618,
+        "time_s": 0.9309000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 18693,
+        "time_s": 0.9346500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 18765,
+        "time_s": 0.93825,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 18944,
+        "time_s": 0.9472,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 19052,
+        "time_s": 0.9526,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 19140,
+        "time_s": 0.9570000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 19186,
+        "time_s": 0.9593,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 19265,
+        "time_s": 0.96325,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 19504,
+        "time_s": 0.9752000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 19546,
+        "time_s": 0.9773000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 19594,
+        "time_s": 0.9797,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 19637,
+        "time_s": 0.98185,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 19734,
+        "time_s": 0.9867,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 19780,
+        "time_s": 0.9890000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 19825,
+        "time_s": 0.9912500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 19906,
+        "time_s": 0.9953000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 19989,
+        "time_s": 0.9994500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 20065,
+        "time_s": 1.00325,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 20189,
+        "time_s": 1.00945,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 20259,
+        "time_s": 1.01295,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 20348,
+        "time_s": 1.0174,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 20409,
+        "time_s": 1.02045,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 20452,
+        "time_s": 1.0226,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 20533,
+        "time_s": 1.02665,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 20594,
+        "time_s": 1.0297,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 20712,
+        "time_s": 1.0356,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 20760,
+        "time_s": 1.038,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 21015,
+        "time_s": 1.05075,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 21132,
+        "time_s": 1.0566,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 21269,
+        "time_s": 1.06345,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 21412,
+        "time_s": 1.0706,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 21470,
+        "time_s": 1.0735000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 21602,
+        "time_s": 1.0801,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 21777,
+        "time_s": 1.08885,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 21822,
+        "time_s": 1.0911,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 21895,
+        "time_s": 1.0947500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 21945,
+        "time_s": 1.09725,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 22017,
+        "time_s": 1.10085,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 22133,
+        "time_s": 1.1066500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 22195,
+        "time_s": 1.10975,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 22286,
+        "time_s": 1.1143,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 22355,
+        "time_s": 1.11775,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 22410,
+        "time_s": 1.1205,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 22460,
+        "time_s": 1.123,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 22604,
+        "time_s": 1.1302,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 22649,
+        "time_s": 1.13245,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 22764,
+        "time_s": 1.1382,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 22861,
+        "time_s": 1.1430500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 22948,
+        "time_s": 1.1474,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 23168,
+        "time_s": 1.1584,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 23372,
+        "time_s": 1.1686,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 23438,
+        "time_s": 1.1719000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 23522,
+        "time_s": 1.1761000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 23568,
+        "time_s": 1.1784000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 23609,
+        "time_s": 1.18045,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 23658,
+        "time_s": 1.1829,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 23759,
+        "time_s": 1.18795,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 23796,
+        "time_s": 1.1898,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 23845,
+        "time_s": 1.19225,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 23929,
+        "time_s": 1.19645,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 24017,
+        "time_s": 1.20085,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 24083,
+        "time_s": 1.20415,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 24355,
+        "time_s": 1.21775,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 24533,
+        "time_s": 1.22665,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 24583,
+        "time_s": 1.22915,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 24634,
+        "time_s": 1.2317,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 24674,
+        "time_s": 1.2337,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 24806,
+        "time_s": 1.2403,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 24916,
+        "time_s": 1.2458,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 25007,
+        "time_s": 1.25035,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 25076,
+        "time_s": 1.2538,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 25132,
+        "time_s": 1.2566000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 25161,
+        "time_s": 1.2580500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 25223,
+        "time_s": 1.26115,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 25394,
+        "time_s": 1.2697,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 25470,
+        "time_s": 1.2735,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 25524,
+        "time_s": 1.2762,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 25604,
+        "time_s": 1.2802,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 25657,
+        "time_s": 1.28285,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 25774,
+        "time_s": 1.2887,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 25830,
+        "time_s": 1.2915,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 25882,
+        "time_s": 1.2941,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 26000,
+        "time_s": 1.3,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 26046,
+        "time_s": 1.3023,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 26134,
+        "time_s": 1.3067,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 26214,
+        "time_s": 1.3107,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 26255,
+        "time_s": 1.31275,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 26412,
+        "time_s": 1.3206,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 26458,
+        "time_s": 1.3229,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 26576,
+        "time_s": 1.3288,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 26621,
+        "time_s": 1.33105,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 26695,
+        "time_s": 1.33475,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 26782,
+        "time_s": 1.3391,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 26837,
+        "time_s": 1.34185,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 26887,
+        "time_s": 1.3443500000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 27021,
+        "time_s": 1.35105,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 27078,
+        "time_s": 1.3539,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 27221,
+        "time_s": 1.36105,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 27287,
+        "time_s": 1.3643500000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 27390,
+        "time_s": 1.3695000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 27491,
+        "time_s": 1.3745500000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 27558,
+        "time_s": 1.3779000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 27642,
+        "time_s": 1.3821,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 27692,
+        "time_s": 1.3846,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 27882,
+        "time_s": 1.3941000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 28031,
+        "time_s": 1.40155,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 28078,
+        "time_s": 1.4039000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 28326,
+        "time_s": 1.4163000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 28493,
+        "time_s": 1.42465,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 28583,
+        "time_s": 1.4291500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 28717,
+        "time_s": 1.43585,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 28765,
+        "time_s": 1.43825,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 29073,
+        "time_s": 1.45365,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 29160,
+        "time_s": 1.458,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 29536,
+        "time_s": 1.4768000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 29615,
+        "time_s": 1.48075,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 29795,
+        "time_s": 1.4897500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 29930,
+        "time_s": 1.4965000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 30031,
+        "time_s": 1.5015500000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 30081,
+        "time_s": 1.50405,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 30145,
+        "time_s": 1.50725,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 30224,
+        "time_s": 1.5112,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 30258,
+        "time_s": 1.5129000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 30325,
+        "time_s": 1.51625,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 30361,
+        "time_s": 1.5180500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 30400,
+        "time_s": 1.52,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 30462,
+        "time_s": 1.5231000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 30555,
+        "time_s": 1.5277500000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 30690,
+        "time_s": 1.5345,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 30774,
+        "time_s": 1.5387000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 30950,
+        "time_s": 1.5475,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 31013,
+        "time_s": 1.55065,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 31102,
+        "time_s": 1.5551000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 31141,
+        "time_s": 1.55705,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 31333,
+        "time_s": 1.56665,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 31381,
+        "time_s": 1.56905,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 31467,
+        "time_s": 1.57335,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 31622,
+        "time_s": 1.5811000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 31676,
+        "time_s": 1.5838,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 31776,
+        "time_s": 1.5888,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 31958,
+        "time_s": 1.5979,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 32162,
+        "time_s": 1.6081,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 32219,
+        "time_s": 1.61095,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 32428,
+        "time_s": 1.6214000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 32476,
+        "time_s": 1.6238000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 32533,
+        "time_s": 1.6266500000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 32659,
+        "time_s": 1.6329500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 32760,
+        "time_s": 1.6380000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 32850,
+        "time_s": 1.6425,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 32882,
+        "time_s": 1.6441000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 32931,
+        "time_s": 1.6465500000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 33046,
+        "time_s": 1.6523,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 33118,
+        "time_s": 1.6559000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 33173,
+        "time_s": 1.6586500000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 33289,
+        "time_s": 1.66445,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 33361,
+        "time_s": 1.66805,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 33430,
+        "time_s": 1.6715,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 33613,
+        "time_s": 1.68065,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 33774,
+        "time_s": 1.6887,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 33826,
+        "time_s": 1.6913,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 33912,
+        "time_s": 1.6956,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 34046,
+        "time_s": 1.7023000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 34202,
+        "time_s": 1.7101000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 34246,
+        "time_s": 1.7123000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 34359,
+        "time_s": 1.71795,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 34557,
+        "time_s": 1.72785,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 34644,
+        "time_s": 1.7322000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 34749,
+        "time_s": 1.7374500000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 34981,
+        "time_s": 1.74905,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 35110,
+        "time_s": 1.7555,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 35312,
+        "time_s": 1.7656,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 35420,
+        "time_s": 1.7710000000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 35501,
+        "time_s": 1.77505,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 35550,
+        "time_s": 1.7775,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 35586,
+        "time_s": 1.7793,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 35694,
+        "time_s": 1.7847000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 35736,
+        "time_s": 1.7868000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 35849,
+        "time_s": 1.79245,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 36130,
+        "time_s": 1.8065,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 36243,
+        "time_s": 1.8121500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 36336,
+        "time_s": 1.8168000000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 36375,
+        "time_s": 1.81875,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 36494,
+        "time_s": 1.8247,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 36601,
+        "time_s": 1.8300500000000002,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 36671,
+        "time_s": 1.83355,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 36776,
+        "time_s": 1.8388,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 36857,
+        "time_s": 1.84285,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 36933,
+        "time_s": 1.8466500000000001,
+        "phase": "running",
+        "revision": 14
+      },
+      {
+        "steps": 37000,
+        "time_s": 1.85,
+        "phase": "paused",
+        "revision": 15
+      }
+    ]
+  }
+}

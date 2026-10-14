@@ -1,0 +1,380 @@
+{
+  "schema": "gtsd-bounded-continuation-observation-v1",
+  "scope": "one 0.4 s continuation per case; observation only, no tuning and no change to passage acceptance",
+  "cases": [
+    {
+      "case": "h50us",
+      "identity_sha256": "3a7647fa12993daf9d5113ff81e3cbf5ec49e4791afc66597b25e21127227c02",
+      "start_time_s": 1.85,
+      "end_time_s": 2.25,
+      "duration_s": 0.4,
+      "native_steps": 8000,
+      "wall_s": 36.31246968600317,
+      "input": "No external body loads; unchanged native drive law returns zero after passage duration",
+      "source_checkpoint_sha256": "3d135dc31d19beae3f492d8169862e4e88ee5eacb8c9ca5c6a05f8a426a51397",
+      "last_100ms_peak_per_dof_velocity": [
+        1.782930195661913e-09,
+        3.117390832582447e-08,
+        4.37402385778265e-08,
+        2.8983315812310757e-08,
+        1.5934751189154615e-09,
+        2.51795950665685e-08,
+        1.5934751187281237e-09,
+        2.6045012746046073e-08,
+        7.066149765808899e-08,
+        9.040434438936788e-06,
+        9.04538693797063e-06,
+        1.3116978974648723e-07,
+        8.036992517022403e-06,
+        8.036954976173542e-06,
+        6.230467477851043e-08,
+        2.584516817630628e-08,
+        2.866048167441938e-07,
+        7.959091732410221e-06,
+        0.001163832385790828,
+        1.1593259007016823e-05,
+        0.025886732926538196
+      ],
+      "velocity_observation_limits": [
+        {
+          "joint": "rig_y",
+          "unit": "m/s",
+          "dof": 0,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "rig_z",
+          "unit": "m/s",
+          "dof": 1,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "rig_roll",
+          "unit": "rad/s",
+          "dof": 2,
+          "speed_limit": 0.01
+        },
+        {
+          "joint": "track_assembly_translation_0",
+          "unit": "m/s",
+          "dof": 3,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "balise_02_translation_0",
+          "unit": "m/s",
+          "dof": 4,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "balise_02_translation_1",
+          "unit": "m/s",
+          "dof": 5,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "balise_03_translation_0",
+          "unit": "m/s",
+          "dof": 6,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "balise_03_translation_1",
+          "unit": "m/s",
+          "dof": 7,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "catenary_50DF4_translation_0",
+          "unit": "m/s",
+          "dof": 8,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "catenary_50DF4_translation_1",
+          "unit": "m/s",
+          "dof": 9,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "pin_50DF4_translation_0",
+          "unit": "m/s",
+          "dof": 10,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "catenary_51409_translation_0",
+          "unit": "m/s",
+          "dof": 11,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "catenary_51409_translation_1",
+          "unit": "m/s",
+          "dof": 12,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "pin_51409_translation_0",
+          "unit": "m/s",
+          "dof": 13,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "contact_wire_support_translation_0",
+          "unit": "m/s",
+          "dof": 14,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "contact_wire_support_translation_1",
+          "unit": "m/s",
+          "dof": 15,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "messenger_wire_translation_0",
+          "unit": "m/s",
+          "dof": 16,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "messenger_wire_translation_1",
+          "unit": "m/s",
+          "dof": 17,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "wheel_x",
+          "unit": "m/s",
+          "dof": 18,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "wheel_z",
+          "unit": "m/s",
+          "dof": 19,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "wheel_spin",
+          "unit": "rad/s",
+          "dof": 20,
+          "speed_limit": 0.01
+        }
+      ],
+      "last_100ms_wheel_contact_fraction": 1.0,
+      "last_100ms_mean_wheel_normal_force_N": 9.809952249495128,
+      "final_wheel_qvel": [
+        0.001163832385790828,
+        -1.1593259007016823e-05,
+        0.025886732926538196
+      ],
+      "final_wheel_normal_force_N": 9.809932928133842,
+      "final_energy_residual_J": 2.2730046674190874e-05,
+      "maximum_energy_residual_J": 2.2738486416429282e-05,
+      "max_contact_work_closure_error_J": 2.168404344971009e-19,
+      "naturally_settled_under_stated_observation_thresholds": false,
+      "original_passage_endpoint_unchanged": true,
+      "velocities_forced_to_zero": false,
+      "warning_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "case": "h25us",
+      "identity_sha256": "bae2010cdcec733d25feae58939c2d47b8b7b0f83b368c93a69079cf38a03d6a",
+      "start_time_s": 1.85,
+      "end_time_s": 2.25,
+      "duration_s": 0.4,
+      "native_steps": 16000,
+      "wall_s": 72.74707551699248,
+      "input": "No external body loads; unchanged native drive law returns zero after passage duration",
+      "source_checkpoint_sha256": "ecfacceda9b7324554ac6885e5de1a080f3ae20bab07393aa7b42ea323112d1c",
+      "last_100ms_peak_per_dof_velocity": [
+        3.137439038407279e-09,
+        3.0605775236072345e-08,
+        4.377658765918601e-08,
+        2.9252506088981362e-08,
+        1.8134449078868665e-09,
+        2.30875028242337e-08,
+        1.813444907696348e-09,
+        2.3997962330008297e-08,
+        5.965870730425042e-08,
+        7.1177384148077e-06,
+        7.119264674909352e-06,
+        1.0579947461826301e-07,
+        7.499358386089819e-06,
+        7.496519415217309e-06,
+        4.7900023301823134e-08,
+        2.1167723637193868e-08,
+        3.0681714217664385e-07,
+        1.1190414843982953e-05,
+        0.00035767490858795806,
+        1.1018237131762603e-06,
+        0.007955262031855558
+      ],
+      "velocity_observation_limits": [
+        {
+          "joint": "rig_y",
+          "unit": "m/s",
+          "dof": 0,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "rig_z",
+          "unit": "m/s",
+          "dof": 1,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "rig_roll",
+          "unit": "rad/s",
+          "dof": 2,
+          "speed_limit": 0.01
+        },
+        {
+          "joint": "track_assembly_translation_0",
+          "unit": "m/s",
+          "dof": 3,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "balise_02_translation_0",
+          "unit": "m/s",
+          "dof": 4,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "balise_02_translation_1",
+          "unit": "m/s",
+          "dof": 5,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "balise_03_translation_0",
+          "unit": "m/s",
+          "dof": 6,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "balise_03_translation_1",
+          "unit": "m/s",
+          "dof": 7,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "catenary_50DF4_translation_0",
+          "unit": "m/s",
+          "dof": 8,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "catenary_50DF4_translation_1",
+          "unit": "m/s",
+          "dof": 9,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "pin_50DF4_translation_0",
+          "unit": "m/s",
+          "dof": 10,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "catenary_51409_translation_0",
+          "unit": "m/s",
+          "dof": 11,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "catenary_51409_translation_1",
+          "unit": "m/s",
+          "dof": 12,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "pin_51409_translation_0",
+          "unit": "m/s",
+          "dof": 13,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "contact_wire_support_translation_0",
+          "unit": "m/s",
+          "dof": 14,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "contact_wire_support_translation_1",
+          "unit": "m/s",
+          "dof": 15,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "messenger_wire_translation_0",
+          "unit": "m/s",
+          "dof": 16,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "messenger_wire_translation_1",
+          "unit": "m/s",
+          "dof": 17,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "wheel_x",
+          "unit": "m/s",
+          "dof": 18,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "wheel_z",
+          "unit": "m/s",
+          "dof": 19,
+          "speed_limit": 0.001
+        },
+        {
+          "joint": "wheel_spin",
+          "unit": "rad/s",
+          "dof": 20,
+          "speed_limit": 0.01
+        }
+      ],
+      "last_100ms_wheel_contact_fraction": 1.0,
+      "last_100ms_mean_wheel_normal_force_N": 9.809994835526913,
+      "final_wheel_qvel": [
+        0.00035767490858795806,
+        -1.1018237131762603e-06,
+        0.007955262031855558
+      ],
+      "final_wheel_normal_force_N": 9.809995770022992,
+      "final_energy_residual_J": 5.695599472943513e-06,
+      "maximum_energy_residual_J": 5.697496004763991e-06,
+      "max_contact_work_closure_error_J": 1.0842021724855044e-19,
+      "naturally_settled_under_stated_observation_thresholds": true,
+      "original_passage_endpoint_unchanged": true,
+      "velocities_forced_to_zero": false,
+      "warning_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-14T03:02:19.019341+00:00",
+  "finished_beijing": "2026-10-14T11:02:19.019341+08:00"
+}

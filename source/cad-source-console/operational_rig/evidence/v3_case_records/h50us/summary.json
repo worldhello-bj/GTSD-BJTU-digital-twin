@@ -1,0 +1,183 @@
+{
+  "identity_sha256": "ed37eefb244cb98b21c62aa8f0111b08e3d040b7fe95ff917cadc1aed5d278e4",
+  "assembly_identity_sha256": "349f8fc9c1787ffe21d53583b5af588c24c13b6c43ee39485a597d4b5d31340c",
+  "time_step_s": 5e-05,
+  "duration_s": 1.85,
+  "steps": 37000,
+  "nq": 21,
+  "nv": 21,
+  "body_count": 12,
+  "mass_accounting": {
+    "bound_source_meshes": 268,
+    "dynamic_source_solids": 261,
+    "visual_overlay_meshes": 4,
+    "fixed_context_meshes": 3,
+    "unique_source_solids": 268,
+    "source_mass_kg": 652.0278180525276,
+    "rig_mass_kg": 100.0,
+    "collision_mass_kg": 0.0
+  },
+  "maximum_wheel_vertical_drop_m": 0.0014429294679702623,
+  "route_events": {
+    "butt_gap": {
+      "time_s": 0.25630000000000003,
+      "wheel_position_world_m": [
+        -9.470034154737448,
+        0.25893421923640686,
+        0.043280479506110754
+      ],
+      "wheel_vertical_drop_m": 5.03845625326807e-05,
+      "wheel_normal_force_N": 0.0
+    },
+    "frog_wing_gap_midpoint": {
+      "time_s": 1.1236000000000002,
+      "wheel_position_world_m": [
+        -8.776409479943766,
+        0.2589320646804467,
+        0.04214649950648236
+      ],
+      "wheel_vertical_drop_m": 0.0011845749399248748,
+      "wheel_normal_force_N": 0.0
+    },
+    "frog_nose": {
+      "time_s": 1.2303,
+      "wheel_position_world_m": [
+        -8.692362574236368,
+        0.25893249677383395,
+        0.04327987035945173
+      ],
+      "wheel_vertical_drop_m": 4.998191713200678e-05,
+      "wheel_normal_force_N": 0.0
+    },
+    "wing_to_main": {
+      "time_s": 1.69215,
+      "wheel_position_world_m": [
+        -8.323010982943952,
+        0.25893252636141756,
+        0.043279690283620775
+      ],
+      "wheel_vertical_drop_m": 4.998091753152106e-05,
+      "wheel_normal_force_N": 0.0
+    }
+  },
+  "native_run_wall_s": 292.4573247380031,
+  "sim_seconds_per_wall_second": 0.0063257092352100135,
+  "build_wall_s": 2.266596314002527,
+  "total_wall_s": 295.309843392999,
+  "interfaces_with_force": [
+    "messenger_jaw",
+    "pin_50DF4",
+    "pin_51409",
+    "wheel_rail"
+  ],
+  "normal_impulse_Ns": {
+    "wheel_rail": 19.030125322850427,
+    "pin_50DF4": 0.38659211525888776,
+    "pin_51409": 0.32747359614340366,
+    "messenger_jaw": 25.65843442975866
+  },
+  "raw_force_peak_N": {
+    "wheel_rail": 1341.390593966042,
+    "pin_50DF4": 19.04279513155843,
+    "pin_51409": 14.913285088531318,
+    "messenger_jaw": 42.33227740853286
+  },
+  "maximum_energy_residual_J": 0.010497514461429214,
+  "maximum_energy_residual_fraction": 0.0016851577399017873,
+  "maximum_energy_residual_event": {
+    "time_s": 0.0111,
+    "wheel_x_m": -9.619985406660938,
+    "residual_J": -0.010497514461429214
+  },
+  "energy_scale_J": 6.229395749053747,
+  "maximum_penetration_event": {
+    "time_s": 1.1718,
+    "interface_id": "wheel_rail",
+    "geom1": "wheel_tread",
+    "geom2": "rail_PHOTO_WING_upper_source_chain_111",
+    "penetration_m": 8.112649588728703e-05
+  },
+  "maximum_penetration_m": 8.112649588728703e-05,
+  "max_contact_generalized_work_closure_error_J": 1.734723475976807e-18,
+  "energy_residual_J": 5.7333542189397235e-06,
+  "energy_residual_fraction": 9.829781577046501e-07,
+  "ledger": {
+    "input_work_J": 1.3909063648026354e-05,
+    "actuator_work_J": 0.2026474474372697,
+    "known_damping_J": 5.455517794562543,
+    "native_constraint_work_J": -0.17445728546496084,
+    "wheel_rail_normal_impulse_Ns": 19.030125322850427,
+    "wheel_rail_tangential_impulse_Ns": 1.0387800938117138,
+    "wheel_rail_contact_work_J": -0.1717917442115479,
+    "pin_50DF4_normal_impulse_Ns": 0.38659211525888776,
+    "pin_50DF4_tangential_impulse_Ns": 0.012930908126834824,
+    "pin_50DF4_contact_work_J": -0.0005256729781980394,
+    "pin_51409_normal_impulse_Ns": 0.32747359614340366,
+    "pin_51409_tangential_impulse_Ns": 0.012181660016856818,
+    "pin_51409_contact_work_J": -0.0006846462530068635,
+    "messenger_jaw_normal_impulse_Ns": 25.65843442975866,
+    "messenger_jaw_tangential_impulse_Ns": 0.9542800972459745,
+    "messenger_jaw_contact_work_J": -0.001455222022209233
+  },
+  "max_body_displacement_m": {
+    "rig": 0.000507919484583541,
+    "track_assembly": 0.002167951688834106,
+    "fixed_foundation": 0.0,
+    "balise_02": 0.0009478469255595112,
+    "balise_03": 0.000915542518077195,
+    "catenary_50DF4": 0.0016019770739156359,
+    "pin_50DF4": 0.0014222607519484922,
+    "catenary_51409": 0.00162458832005954,
+    "pin_51409": 0.0012390424179310148,
+    "contact_wire_support": 0.001232404376577321,
+    "messenger_wire": 0.0017357949136506253,
+    "wheel": 1.3950858508573973
+  },
+  "final_wheel_position_m": [
+    -8.224915273023296,
+    0.25893252506238884,
+    0.043279246669889145
+  ],
+  "wheel_travel_m": 1.3950847269767035,
+  "wheel_contact_geoms_seen": [
+    "rail_OP_approach_PHOTO_RETAIN_left_ENV_main_rail_1_24",
+    "rail_OP_approach_PHOTO_RETAIN_left_ENV_main_rail_1_25",
+    "rail_OP_approach_PHOTO_RETAIN_left_ENV_main_rail_1_26",
+    "rail_PHOTO_FROG_source_finite_V_111",
+    "rail_PHOTO_FROG_source_finite_V_112",
+    "rail_PHOTO_FROG_source_finite_V_113",
+    "rail_PHOTO_FROG_source_finite_V_114",
+    "rail_PHOTO_FROG_source_finite_V_115",
+    "rail_PHOTO_FROG_source_finite_V_116",
+    "rail_PHOTO_FROG_source_finite_V_117",
+    "rail_PHOTO_FROG_source_finite_V_27",
+    "rail_PHOTO_FROG_source_finite_V_28",
+    "rail_PHOTO_FROG_source_finite_V_30",
+    "rail_PHOTO_FROG_source_finite_V_31",
+    "rail_PHOTO_FROG_source_finite_V_33",
+    "rail_PHOTO_FROG_source_finite_V_35",
+    "rail_PHOTO_FROG_source_finite_V_36",
+    "rail_PHOTO_RETAIN_left_ENV_main_rail_1_24",
+    "rail_PHOTO_RETAIN_left_ENV_main_rail_1_25",
+    "rail_PHOTO_RETAIN_left_ENV_main_rail_1_26",
+    "rail_PHOTO_RETAIN_right_ENV_main_rail_1_18",
+    "rail_PHOTO_WING_upper_source_chain_111",
+    "rail_PHOTO_WING_upper_source_chain_120",
+    "rail_PHOTO_WING_upper_source_chain_41",
+    "rail_PHOTO_WING_upper_source_chain_64",
+    "rail_PHOTO_WING_upper_source_chain_65"
+  ],
+  "checkpoint_continuation_max_error": 0.0,
+  "checkpoint_ledger_max_error_J": 0.0,
+  "complete_checkpoint_exact": true,
+  "warning_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

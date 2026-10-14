@@ -1,0 +1,9 @@
+{
+  "guard_sha256": "be427b1f8ca14ce3a264847bc9e0f8f60c66df84214daf6485a4eb13693aa838",
+  "sweep_positions": 18,
+  "pair_evaluations": 36,
+  "false_contacts_removed": 4,
+  "overlap_contacts_exactly_preserved": 8,
+  "max_cached_certificate_vs_direct_vertex_gap_error_m": 4.163336342344337e-17,
+  "pass": true
+}

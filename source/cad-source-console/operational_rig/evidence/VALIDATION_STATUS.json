@@ -1,0 +1,46 @@
+{
+  "schema": "gtsd-operational-validation-status-v1",
+  "stage": "operational passage implemented; numerical convergence qualification remains open",
+  "default_time_step_s": 5e-05,
+  "default_passage_completed": true,
+  "native_unit_tests_passed": 14,
+  "full_protocol_passed": false,
+  "failed_checks": [
+    "h2_body_positions_50um",
+    "h2_per_dof_velocity"
+  ],
+  "passed_checks": [
+    "real_contact_on_all_route_parts",
+    "wheel_relative_drop_under_2mm",
+    "all_four_contact_interfaces",
+    "wheel_passes_complete_route",
+    "all_branch_motion",
+    "bounded_penetration_100um",
+    "contact_work_closure_1e_8J",
+    "maximum_energy_fraction_under_2percent",
+    "h2_normal_impulses_5percent",
+    "h2_five_ms_force_10percent",
+    "checkpoint_exact",
+    "no_native_warnings"
+  ],
+  "report": "protocol_v3_failed.json",
+  "builder_contact_flag_semantics": "Construction-time admission of the four named contact interfaces; not a substitute for protocol.passed",
+  "finished_utc": "2026-10-14T03:35:11.204149+00:00",
+  "finished_beijing": "2026-10-14T11:35:11.204149+08:00",
+  "bounded_rk4_state_screen": {
+    "passed": true,
+    "time_steps_s": [
+      2.5e-05,
+      1.25e-05
+    ],
+    "window_s": [
+      1.1,
+      1.2
+    ],
+    "report": "contact_window_native-rk4-refined.json",
+    "production_adopted": false,
+    "full_stage_energy_force_impulse_qualified": false
+  },
+  "full_unit_tests_passed": 46,
+  "real_dom_tests_passed": 26
+}

@@ -1,0 +1,477 @@
+{
+  "schema": "gtsd-operational-protocol-v2",
+  "protocol_source_sha256": "4bfbed2d5581f4ed74fbc96c0985cac9baa7448aee3243c445d72b65f6d4640f",
+  "checks": {
+    "real_contact_on_all_route_parts": true,
+    "wheel_relative_drop_under_2mm": true,
+    "all_four_contact_interfaces": true,
+    "wheel_passes_complete_route": true,
+    "all_branch_motion": true,
+    "bounded_penetration_100um": false,
+    "contact_work_closure_1e_8J": true,
+    "maximum_energy_fraction_under_2percent": true,
+    "h2_body_positions_50um": false,
+    "h2_per_dof_velocity": false,
+    "h2_normal_impulses_5percent": false,
+    "h2_five_ms_force_10percent": false,
+    "checkpoint_exact": true,
+    "no_native_warnings": true
+  },
+  "passed": false,
+  "coarse": {
+    "identity_sha256": "3a7647fa12993daf9d5113ff81e3cbf5ec49e4791afc66597b25e21127227c02",
+    "assembly_identity_sha256": "2cffbb33e83ac84a331f93cf9d1f128ceb077c6e28269632e6544278ca697d4c",
+    "time_step_s": 5e-05,
+    "duration_s": 1.85,
+    "steps": 37000,
+    "nq": 21,
+    "nv": 21,
+    "body_count": 12,
+    "mass_accounting": {
+      "bound_source_meshes": 268,
+      "dynamic_source_solids": 261,
+      "visual_overlay_meshes": 4,
+      "fixed_context_meshes": 3,
+      "unique_source_solids": 268,
+      "source_mass_kg": 652.0278180525276,
+      "rig_mass_kg": 100.0,
+      "collision_mass_kg": 0.0
+    },
+    "maximum_wheel_vertical_drop_m": 0.0014397648911401509,
+    "route_events": {
+      "butt_gap": {
+        "time_s": 0.2564,
+        "wheel_position_world_m": [
+          -9.47002058508943,
+          0.2589342173300326,
+          0.043277200164053224
+        ],
+        "wheel_vertical_drop_m": 5.365457404236246e-05,
+        "wheel_normal_force_N": 0.0
+      },
+      "frog_wing_gap_midpoint": {
+        "time_s": 1.1245500000000002,
+        "wheel_position_world_m": [
+          -8.776380357457533,
+          0.2589320683033285,
+          0.042156169880679654
+        ],
+        "wheel_vertical_drop_m": 0.0011748918477844164,
+        "wheel_normal_force_N": 0.0
+      },
+      "frog_nose": {
+        "time_s": 1.2313,
+        "wheel_position_world_m": [
+          -8.692342176794421,
+          0.2589324904134403,
+          0.04327612362524508
+        ],
+        "wheel_vertical_drop_m": 5.370201193951457e-05,
+        "wheel_normal_force_N": 5.834274289905522
+      },
+      "wing_to_main": {
+        "time_s": 1.69355,
+        "wheel_position_world_m": [
+          -8.323024157345674,
+          0.2589325238095298,
+          0.043273777813479304
+        ],
+        "wheel_vertical_drop_m": 5.589722019620075e-05,
+        "wheel_normal_force_N": 16.8878595081904
+      }
+    },
+    "native_run_wall_s": 210.58416229501017,
+    "sim_seconds_per_wall_second": 0.008785086113970482,
+    "build_wall_s": 2.10779088299023,
+    "total_wall_s": 213.28910317199188,
+    "interfaces_with_force": [
+      "messenger_jaw",
+      "pin_50DF4",
+      "pin_51409",
+      "wheel_rail"
+    ],
+    "normal_impulse_Ns": {
+      "wheel_rail": 19.187154862338694,
+      "pin_50DF4": 0.38671151923899777,
+      "pin_51409": 0.32738027696109484,
+      "messenger_jaw": 25.65699601755898
+    },
+    "raw_force_peak_N": {
+      "wheel_rail": 1589.4597104749353,
+      "pin_50DF4": 19.38582962949908,
+      "pin_51409": 14.91573954720167,
+      "messenger_jaw": 42.35510070280491
+    },
+    "maximum_energy_residual_J": 0.010497515346965303,
+    "maximum_energy_residual_fraction": 0.001644908221064942,
+    "maximum_energy_residual_event": {
+      "time_s": 0.0111,
+      "wheel_x_m": -9.619985400296033,
+      "residual_J": -0.010497515346965303
+    },
+    "energy_scale_J": 6.381824355020264,
+    "maximum_penetration_event": {
+      "time_s": 1.1749500000000002,
+      "interface_id": "wheel_rail",
+      "geom1": "rail_PHOTO_WING_upper_source_chain_111",
+      "geom2": "wheel_tread",
+      "penetration_m": 8.655850536278284e-05
+    },
+    "maximum_penetration_m": 8.655850536278284e-05,
+    "max_contact_generalized_work_closure_error_J": 3.469446951953614e-18,
+    "energy_residual_J": 3.99844034149055e-06,
+    "energy_residual_fraction": 6.675496116144617e-07,
+    "ledger": {
+      "input_work_J": 1.386800665122337e-05,
+      "actuator_work_J": 0.2816717806536552,
+      "known_damping_J": 5.4555132762896825,
+      "native_constraint_work_J": -0.25252868768446995,
+      "wheel_rail_normal_impulse_Ns": 19.187154862338694,
+      "wheel_rail_tangential_impulse_Ns": 1.193581989395544,
+      "wheel_rail_contact_work_J": -0.24985919246657978,
+      "pin_50DF4_normal_impulse_Ns": 0.38671151923899777,
+      "pin_50DF4_tangential_impulse_Ns": 0.015213362495743768,
+      "pin_50DF4_contact_work_J": -0.0005228039988222189,
+      "pin_51409_normal_impulse_Ns": 0.32738027696109484,
+      "pin_51409_tangential_impulse_Ns": 0.011336250511750249,
+      "pin_51409_contact_work_J": -0.0006866138853137803,
+      "messenger_jaw_normal_impulse_Ns": 25.65699601755898,
+      "messenger_jaw_tangential_impulse_Ns": 0.9706635392096677,
+      "messenger_jaw_contact_work_J": -0.0014600773337505855
+    },
+    "max_body_displacement_m": {
+      "rig": 0.0005079170793675239,
+      "track_assembly": 0.002167955283754822,
+      "fixed_foundation": 0.0,
+      "balise_02": 0.000947844974721563,
+      "balise_03": 0.0009155411439801347,
+      "catenary_50DF4": 0.0016017202311414825,
+      "pin_50DF4": 0.0014222701980547623,
+      "catenary_51409": 0.0016250803586356556,
+      "pin_51409": 0.001238950609225267,
+      "contact_wire_support": 0.0012324032792478477,
+      "messenger_wire": 0.001735172425846104,
+      "wheel": 1.393856757474331
+    },
+    "final_wheel_position_m": [
+      -8.226144365343387,
+      0.25893252524211047,
+      0.043280864229246145
+    ],
+    "wheel_travel_m": 1.393855634656612,
+    "wheel_contact_geoms_seen": [
+      "rail_OP_approach_PHOTO_RETAIN_left_ENV_main_rail_1_24",
+      "rail_OP_approach_PHOTO_RETAIN_left_ENV_main_rail_1_25",
+      "rail_OP_approach_PHOTO_RETAIN_left_ENV_main_rail_1_26",
+      "rail_PHOTO_FROG_source_finite_V_111",
+      "rail_PHOTO_FROG_source_finite_V_112",
+      "rail_PHOTO_FROG_source_finite_V_113",
+      "rail_PHOTO_FROG_source_finite_V_114",
+      "rail_PHOTO_FROG_source_finite_V_115",
+      "rail_PHOTO_FROG_source_finite_V_116",
+      "rail_PHOTO_FROG_source_finite_V_117",
+      "rail_PHOTO_FROG_source_finite_V_27",
+      "rail_PHOTO_FROG_source_finite_V_28",
+      "rail_PHOTO_FROG_source_finite_V_30",
+      "rail_PHOTO_FROG_source_finite_V_31",
+      "rail_PHOTO_FROG_source_finite_V_33",
+      "rail_PHOTO_FROG_source_finite_V_35",
+      "rail_PHOTO_FROG_source_finite_V_36",
+      "rail_PHOTO_RETAIN_left_ENV_main_rail_1_25",
+      "rail_PHOTO_RETAIN_left_ENV_main_rail_1_26",
+      "rail_PHOTO_RETAIN_right_ENV_main_rail_1_18",
+      "rail_PHOTO_WING_upper_source_chain_111",
+      "rail_PHOTO_WING_upper_source_chain_120",
+      "rail_PHOTO_WING_upper_source_chain_41",
+      "rail_PHOTO_WING_upper_source_chain_64",
+      "rail_PHOTO_WING_upper_source_chain_65"
+    ],
+    "checkpoint_continuation_max_error": 0.0,
+    "checkpoint_ledger_max_error_J": 0.0,
+    "complete_checkpoint_exact": true,
+    "warning_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "fine": {
+    "identity_sha256": "bae2010cdcec733d25feae58939c2d47b8b7b0f83b368c93a69079cf38a03d6a",
+    "assembly_identity_sha256": "26cf83ae029cf4b9c29b18f15ca4ae49b8354514f1e02fa247064138c1049c0f",
+    "time_step_s": 2.5e-05,
+    "duration_s": 1.85,
+    "steps": 74000,
+    "nq": 21,
+    "nv": 21,
+    "body_count": 12,
+    "mass_accounting": {
+      "bound_source_meshes": 268,
+      "dynamic_source_solids": 261,
+      "visual_overlay_meshes": 4,
+      "fixed_context_meshes": 3,
+      "unique_source_solids": 268,
+      "source_mass_kg": 652.0278180525276,
+      "rig_mass_kg": 100.0,
+      "collision_mass_kg": 0.0
+    },
+    "maximum_wheel_vertical_drop_m": 0.0014285411458758099,
+    "route_events": {
+      "butt_gap": {
+        "time_s": 0.256375,
+        "wheel_position_world_m": [
+          -9.470037031912579,
+          0.25893421742753064,
+          0.04327736551222226
+        ],
+        "wheel_vertical_drop_m": 5.3483778421160866e-05,
+        "wheel_normal_force_N": 0.0
+      },
+      "frog_wing_gap_midpoint": {
+        "time_s": 1.1245,
+        "wheel_position_world_m": [
+          -8.776408282917869,
+          0.25893207723401906,
+          0.04217961592229922
+        ],
+        "wheel_vertical_drop_m": 0.0011514241423873292,
+        "wheel_normal_force_N": 0.0
+      },
+      "frog_nose": {
+        "time_s": 1.2312750000000001,
+        "wheel_position_world_m": [
+          -8.692358790146125,
+          0.2589324923254424,
+          0.04327611535543975
+        ],
+        "wheel_vertical_drop_m": 5.3724962784586217e-05,
+        "wheel_normal_force_N": 6.375965666754191
+      },
+      "wing_to_main": {
+        "time_s": 1.6935250000000002,
+        "wheel_position_world_m": [
+          -8.323036910183117,
+          0.25893252332525263,
+          0.04327287828140072
+        ],
+        "wheel_vertical_drop_m": 5.679866829270269e-05,
+        "wheel_normal_force_N": 17.74457185163455
+      }
+    },
+    "native_run_wall_s": 408.76109712800826,
+    "sim_seconds_per_wall_second": 0.004525871011204991,
+    "build_wall_s": 2.1124570469983155,
+    "total_wall_s": 411.3148121659906,
+    "interfaces_with_force": [
+      "messenger_jaw",
+      "pin_50DF4",
+      "pin_51409",
+      "wheel_rail"
+    ],
+    "normal_impulse_Ns": {
+      "wheel_rail": 19.126462375603865,
+      "pin_50DF4": 0.4082212122349569,
+      "pin_51409": 0.32685627190551564,
+      "messenger_jaw": 25.65766921028083
+    },
+    "raw_force_peak_N": {
+      "wheel_rail": 1533.0948087411161,
+      "pin_50DF4": 742.4376739485082,
+      "pin_51409": 14.91071779404506,
+      "messenger_jaw": 41.8877055456937
+    },
+    "maximum_energy_residual_J": 0.005257602582269372,
+    "maximum_energy_residual_fraction": 0.000823859351264885,
+    "maximum_energy_residual_event": {
+      "time_s": 0.0111,
+      "wheel_x_m": -9.619985362865862,
+      "residual_J": -0.005257602582269372
+    },
+    "energy_scale_J": 6.381674947546916,
+    "maximum_penetration_event": {
+      "time_s": 1.4902250000000001,
+      "interface_id": "pin_50DF4",
+      "geom1": "OP_CAD_50DF4_F643_profile_0_cell_0133",
+      "geom2": "pin_50DF4",
+      "penetration_m": 0.00206243234387542
+    },
+    "maximum_penetration_m": 0.00206243234387542,
+    "max_contact_generalized_work_closure_error_J": 1.734723475976807e-18,
+    "energy_residual_J": -3.7558435241891175e-06,
+    "energy_residual_fraction": 6.269943336009157e-07,
+    "ledger": {
+      "input_work_J": 1.3906478741638018e-05,
+      "actuator_work_J": 0.2818905872284504,
+      "known_damping_J": 5.45548560742551,
+      "native_constraint_work_J": -0.25284509384710785,
+      "wheel_rail_normal_impulse_Ns": 19.126462375603865,
+      "wheel_rail_tangential_impulse_Ns": 1.178276373058196,
+      "wheel_rail_contact_work_J": -0.2501703864764013,
+      "pin_50DF4_normal_impulse_Ns": 0.4082212122349569,
+      "pin_50DF4_tangential_impulse_Ns": 0.020195162982943264,
+      "pin_50DF4_contact_work_J": -0.0005260463216237549,
+      "pin_51409_normal_impulse_Ns": 0.32685627190551564,
+      "pin_51409_tangential_impulse_Ns": 0.011094799700952835,
+      "pin_51409_contact_work_J": -0.0006861553672205135,
+      "messenger_jaw_normal_impulse_Ns": 25.65766921028083,
+      "messenger_jaw_tangential_impulse_Ns": 0.9503411194214201,
+      "messenger_jaw_contact_work_J": -0.0014625056818605927
+    },
+    "max_body_displacement_m": {
+      "rig": 0.0005079738338241321,
+      "track_assembly": 0.0021678361279717936,
+      "fixed_foundation": 0.0,
+      "balise_02": 0.0009478833575047984,
+      "balise_03": 0.0009155535773762805,
+      "catenary_50DF4": 0.0016022887522295286,
+      "pin_50DF4": 0.0014226315963581666,
+      "catenary_51409": 0.0016247702494779353,
+      "pin_51409": 0.0012390167020260132,
+      "contact_wire_support": 0.0012325846438297908,
+      "messenger_wire": 0.0017361260696415924,
+      "wheel": 1.3938563374069173
+    },
+    "final_wheel_position_m": [
+      -8.226144785845888,
+      0.2589325251063436,
+      0.04328052173463677
+    ],
+    "wheel_travel_m": 1.3938552141541116,
+    "wheel_contact_geoms_seen": [
+      "rail_OP_approach_PHOTO_RETAIN_left_ENV_main_rail_1_24",
+      "rail_OP_approach_PHOTO_RETAIN_left_ENV_main_rail_1_25",
+      "rail_OP_approach_PHOTO_RETAIN_left_ENV_main_rail_1_26",
+      "rail_PHOTO_FROG_source_finite_V_111",
+      "rail_PHOTO_FROG_source_finite_V_112",
+      "rail_PHOTO_FROG_source_finite_V_113",
+      "rail_PHOTO_FROG_source_finite_V_114",
+      "rail_PHOTO_FROG_source_finite_V_115",
+      "rail_PHOTO_FROG_source_finite_V_116",
+      "rail_PHOTO_FROG_source_finite_V_117",
+      "rail_PHOTO_FROG_source_finite_V_27",
+      "rail_PHOTO_FROG_source_finite_V_28",
+      "rail_PHOTO_FROG_source_finite_V_30",
+      "rail_PHOTO_FROG_source_finite_V_31",
+      "rail_PHOTO_FROG_source_finite_V_33",
+      "rail_PHOTO_FROG_source_finite_V_35",
+      "rail_PHOTO_FROG_source_finite_V_36",
+      "rail_PHOTO_RETAIN_left_ENV_main_rail_1_25",
+      "rail_PHOTO_RETAIN_left_ENV_main_rail_1_26",
+      "rail_PHOTO_RETAIN_right_ENV_main_rail_1_18",
+      "rail_PHOTO_WING_upper_source_chain_111",
+      "rail_PHOTO_WING_upper_source_chain_120",
+      "rail_PHOTO_WING_upper_source_chain_41",
+      "rail_PHOTO_WING_upper_source_chain_64",
+      "rail_PHOTO_WING_upper_source_chain_65"
+    ],
+    "checkpoint_continuation_max_error": 0.0,
+    "checkpoint_ledger_max_error_J": 0.0,
+    "complete_checkpoint_exact": true,
+    "warning_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "convergence": {
+    "per_dof_qvel_tolerance": [
+      0.002,
+      0.002465511265715312,
+      0.0031377121441501545,
+      0.0062109640609421535,
+      0.002,
+      0.0025689997855784866,
+      0.002,
+      0.0025964601971688083,
+      0.002,
+      0.0021084546004610507,
+      0.002210582179299933,
+      0.002,
+      0.0021876711746626116,
+      0.00218926149707958,
+      0.002,
+      0.002,
+      0.002,
+      0.005210219215811076,
+      0.07997317578298661,
+      0.024654374209246967,
+      1.7756856585346892
+    ],
+    "maximum_body_position_error_m": 0.00015673314556580165,
+    "per_dof_qpos_max_error": [
+      6.792794844236159e-09,
+      3.512736088569224e-07,
+      3.2420688160053374e-07,
+      4.54913484176098e-07,
+      7.123812392736578e-09,
+      1.935421564818753e-07,
+      7.123822916530724e-09,
+      1.9092213394164385e-07,
+      3.569427500226177e-07,
+      5.758633583551585e-07,
+      2.2806085446987754e-06,
+      6.752884655467404e-07,
+      4.868331041937943e-07,
+      6.301948704117983e-07,
+      2.6310852462120287e-07,
+      9.667618054517058e-08,
+      6.022822155868834e-07,
+      1.2519396039224642e-06,
+      2.6433553130367216e-05,
+      0.0001567237057645964,
+      0.0019746831105353913
+    ],
+    "per_dof_qvel_max_error": [
+      7.5258390086198605e-06,
+      6.507224838117879e-05,
+      0.00025680191836900364,
+      0.00019090038716819971,
+      8.11582368536026e-06,
+      8.257452211547736e-05,
+      8.115832027809156e-06,
+      7.223266757258054e-05,
+      0.0003624949995549718,
+      0.0006572758965113254,
+      0.0020560166774423088,
+      0.00035771997417398925,
+      0.0006561919815804022,
+      0.0008744931194909517,
+      0.0003345273766127641,
+      5.145609714886163e-05,
+      0.00040537238427312827,
+      0.0012428217872956762,
+      0.009847708361759744,
+      0.17487307765597218,
+      0.4430124238266018
+    ],
+    "normal_impulse_relative_error": {
+      "wheel_rail": 0.0031732207212685636,
+      "pin_50DF4": 0.05269126726216996,
+      "pin_51409": 0.0016031665922282689,
+      "messenger_jaw": 2.6237485421257142e-05
+    },
+    "five_ms_force_max_error_N": [
+      12.745119668627922,
+      3.7266985299832247,
+      0.03306104748504507,
+      0.3963758434122191
+    ],
+    "five_ms_force_relative_error": [
+      0.044830051015153694,
+      0.20551415823216382,
+      0.002395764179358283,
+      0.014958487229779794
+    ]
+  },
+  "finished_utc": "2026-10-14T02:58:11.514407+00:00",
+  "finished_beijing": "2026-10-14T10:58:11.514407+08:00"
+}
