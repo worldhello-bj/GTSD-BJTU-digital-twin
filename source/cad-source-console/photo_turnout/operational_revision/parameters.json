@@ -1,0 +1,63 @@
+{
+  "schema": "gtsd-operational-parameters-v1",
+  "length_unit": "mm",
+  "geometry_coordinate_unit": "m",
+  "joint": {
+    "gap_mm": 0.5,
+    "endjoin": "common_transverse_miter",
+    "miter_normal_world": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reference_point_mm": [
+      -9470.039418889508,
+      239.16666666669335,
+      0.0
+    ],
+    "source_file": "../native_edge_graph.json",
+    "source_handle": "4ECED",
+    "source_endpoint_index": 1,
+    "reason": "A finite common end plane and 0.5 mm assembly allowance give positive clearance through the complete inherited rail section.",
+    "tail_trim_mm": 0.25,
+    "frog_trim_mm": 0.25,
+    "tail_trim_max_mm": 0.25,
+    "gap_allocation": "symmetric up to 0.5 mm; left-tail trim capped at 0.25 mm to preserve its finite top segment; remaining gap assigned to frog"
+  },
+  "hardware": {
+    "mounting_mode": "two outer-envelope hold-down assemblies per native sleeper axis",
+    "bolt_center_outward_from_foot_edge_mm": 12.0,
+    "toe_overlap_mm": 3.0,
+    "clamp_width_along_rail_mm": 20.0,
+    "clamp_thickness_mm": 4.0,
+    "bolt_shank_diameter_mm": 6.0,
+    "clearance_bore_diameter_mm": 7.0,
+    "washer_outer_diameter_mm": 12.0,
+    "washer_thickness_mm": 1.5,
+    "hex_head_across_flats_mm": 10.0,
+    "head_height_mm": 4.0,
+    "carrier_width_mm": 20.0,
+    "carrier_depth_mm": 18.0,
+    "nut_height_mm": 4.0,
+    "nut_bore_diameter_mm": 6.4,
+    "nut_pocket_square_mm": 12.0,
+    "plate_thickness_mm": 4.0,
+    "pad_thickness_mm": 3.0,
+    "plate_edge_margin_mm": 5.0
+  },
+  "materials": {
+    "steel": {
+      "density_kg_m3": 7850
+    },
+    "elastomer": {
+      "density_kg_m3": 1100
+    },
+    "concrete": {
+      "density_kg_m3": 2400
+    },
+    "polymer": {
+      "density_kg_m3": 1200
+    }
+  },
+  "assumptions_page": "ASSUMPTIONS.md"
+}

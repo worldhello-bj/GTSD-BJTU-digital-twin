@@ -1,0 +1,312 @@
+{
+  "local_only_exclusions": [
+    "**/*.log",
+    "animation_v2/keyframes/**",
+    "raw frame PNG cache outside this directory"
+  ],
+  "reproducible_exports": [
+    {
+      "path": "full_scene_meshes.json.gz",
+      "kind": "optional_generated",
+      "required_for_runtime": false,
+      "included_as_transfer_asset": false,
+      "bytes": 24196237,
+      "sha256": "fbf0e12c8171803c52de7ce5787a914089f6dcf70f6be7ec589d7414b2114c36",
+      "source_scene_sha256": "751ff0ac4ecf5b2351ebdd6d576cfdf6f043e9bfe8b8eff88c51a9d328ed661e",
+      "reproduction_contract": "REPRODUCIBLE_EXPORT.json",
+      "command_from_console": "python photo_turnout/operational_revision/export_operational_scene.py --output /path/outside/console/export"
+    }
+  ],
+  "schema": "gtsd-operational-turnout-delivery-v1",
+  "freeze_utc": "2026-10-14T03:44:58.671539+00:00",
+  "freeze_beijing": "2026-10-14T11:44:58.671539+08:00",
+  "base_commit": "7d0e9c0440e8226a2fa67ae1b9bbf1a4b52167d4",
+  "profile_id": "operational_assembly_v1",
+  "source_add_count": 141,
+  "source_remove_count": 67,
+  "full_mesh_count": 2006,
+  "regional_mesh_count": 205,
+  "validation": {
+    "geometry_audit_pass": true,
+    "original_joint_overlap_mm3": 0.48824768531221413,
+    "revised_joint_overlap_mm3": 0.0,
+    "joint_gap_mm": {
+      "PHOTO_RETAIN_left_ENV_main_rail_1": 0.4999999999988347,
+      "PHOTO_RETAIN_left_ENV_main_rail_top_1": 0.4999999999988347
+    },
+    "actual_material_pair_checks": 233,
+    "positive_material_pairs": 0,
+    "closed_candidate_meshes": 111,
+    "full_scene_closed_meshes": 1962,
+    "full_scene_surface_context_meshes": 44,
+    "hold_down_assemblies": 12,
+    "pad_count": 6,
+    "plate_count": 1,
+    "test_groups": 6,
+    "native_reopened": true,
+    "native_roundtrip_maximum_error_mm": 0.001430511474609375,
+    "static_render_images_viewed": [
+      "operational_turnout.png",
+      "finite_joint_detail.png"
+    ],
+    "native_dynamic_render_complete": true,
+    "native_dynamic_render_protocol": "gtsd-operational-protocol-1014-v2",
+    "native_dynamic_runtime_identity": "3a7647fa12993daf9d5113ff81e3cbf5ec49e4791afc66597b25e21127227c02",
+    "numerical_acceptance_inferred_from_render": false,
+    "source_photographs_included": false,
+    "geometry_audit_completed_utc": "2026-10-14T02:29:42.361091+00:00",
+    "native_validation_completed_utc": "2026-10-14T02:33:01.912156+00:00"
+  },
+  "files": [
+    {
+      "path": "ASSUMPTIONS.md",
+      "bytes": 3126,
+      "sha256": "538843586bdb98ba1d230ee3f2583b2c2daf848cce5bb25a5f0d00ab6db59f5e"
+    },
+    {
+      "path": "GTSD_Native_Solver_State.blend",
+      "bytes": 2572793,
+      "sha256": "164d1e3a861213f6c62e8c7c25d3ba32b5172711bbf06c96de619093c3ee1718"
+    },
+    {
+      "path": "GTSD_Operational_Turnout.blend",
+      "bytes": 1727382,
+      "sha256": "8697ed5a9d6322ca08ccee632926cc0c905ccdf382fe0f1eeccb184b49e4352a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7289,
+      "sha256": "cb3b448757171eeb79554fa61945a3546fa444ffb46193c01eaca07e7d46c0af"
+    },
+    {
+      "path": "REPRODUCIBLE_EXPORT.json",
+      "bytes": 1074,
+      "sha256": "c0d3a119ffa207464fc2528fa5b9333b76250fa27e9e5ecf8d95cdbf1466c711"
+    },
+    {
+      "path": "animation_v2/VIDEO_MANIFEST.json",
+      "bytes": 2361,
+      "sha256": "4a2251cdb4e46a64a1b52c6fefd188f9acfc4e1299dbc459df75ac356908eafd"
+    },
+    {
+      "path": "animation_v2/ffprobe.json",
+      "bytes": 2227,
+      "sha256": "7f1fb73d8d684ce2b42ed4d1e8eee15e8c3eb75eb68b306443741bfe2bfe7d53"
+    },
+    {
+      "path": "animation_v2/frame_render_0000.json",
+      "bytes": 1291,
+      "sha256": "8d1ec7d8c5e73752b52034d658c7739afdd23cf125acfbe153f8bece98d635ec"
+    },
+    {
+      "path": "animation_v2/frame_render_0001.json",
+      "bytes": 35227,
+      "sha256": "2aa845ee3bae49afa10a72f8773319b95c2aba09339e6310f8386be70e33b5dc"
+    },
+    {
+      "path": "animation_v2/frame_samples.json",
+      "bytes": 21163,
+      "sha256": "19079c8c3fcc75d26ae9769622dc894d91d5e45812870bb91025f71e6f059752"
+    },
+    {
+      "path": "animation_v2/motion_inputs.json.gz",
+      "bytes": 1994330,
+      "sha256": "0220c500330fb791ff99758c3cb94092498e8878cbe64ebb4f78e8a9bcbdec24"
+    },
+    {
+      "path": "animation_v2/native_time_labels.ass",
+      "bytes": 15032,
+      "sha256": "9b2aa5881d0f6ac9c13e52f602aae0d5b338c49d2ae6c63c596a90e671cee38e"
+    },
+    {
+      "path": "animation_v2/operational_motion_v2.mp4",
+      "bytes": 1258470,
+      "sha256": "fc4db9b35eea2f1558f3b5bdf43cd7fd350adc4f8abad0f46689f40a1861d7ee"
+    },
+    {
+      "path": "animation_v2/visual_validation.json",
+      "bytes": 1657,
+      "sha256": "4a08d0ca4ed8e77b08c918376092dff7f83de8b8f80a63e8942fb14078e26073"
+    },
+    {
+      "path": "audit_native_images.py",
+      "bytes": 1428,
+      "sha256": "cb4ddcae4943b619aa251eb897f2e8e5f491248de85072c0211c8a0be1f3f5fb"
+    },
+    {
+      "path": "audit_operational.py",
+      "bytes": 5930,
+      "sha256": "855652dd4318c27df430fadb80ce04d605ad0ea9b77ab51c507a4e1104bee3ba"
+    },
+    {
+      "path": "build_environment.json",
+      "bytes": 745,
+      "sha256": "c4b071b09816f2fb619f54ccd663eed0c4a8b566a45d1c577232fe3f4c337aa3"
+    },
+    {
+      "path": "build_operational.py",
+      "bytes": 11380,
+      "sha256": "12ce6d1c83a8db20dc800c21a6003eb670b2944aebdff30bc01aef4cccedc81a"
+    },
+    {
+      "path": "candidate_meshes.json.gz",
+      "bytes": 119059,
+      "sha256": "bb37b12a057dfbbbe604b1e4538e3ee5967585c7658a3bdb0303de7cadb63b7e"
+    },
+    {
+      "path": "change_manifest.json",
+      "bytes": 43154,
+      "sha256": "cb830d9e0e282d96cc31849089a804b4b1a74e36587ff8a42d11fd9364347f08"
+    },
+    {
+      "path": "check_wheel_route.py",
+      "bytes": 3552,
+      "sha256": "4ab1ab0bfba97fb7aa9504674002800e5c12660b3d7a14f655b223fc680a93b1"
+    },
+    {
+      "path": "encode_motion_video.py",
+      "bytes": 4554,
+      "sha256": "660b0d58aadd971989e33357d37ff045cfb11a8b360692414b8fa29e7129bbf6"
+    },
+    {
+      "path": "export_operational_scene.py",
+      "bytes": 6538,
+      "sha256": "0ed17b4f86043cfca45d35254beac2e8c0fb72a8dbfb88c1841fd60e444475ec"
+    },
+    {
+      "path": "finalize_delivery.py",
+      "bytes": 3676,
+      "sha256": "7d25068d86ea65bf3a8379c1d195a27292b674335399a540035c35bf2d2d56c3"
+    },
+    {
+      "path": "finite_joint_detail.png",
+      "bytes": 1515172,
+      "sha256": "0030c7e4e36fa939a60da494e385b1246607c053186ecfe9ef093cc3a0b6f348"
+    },
+    {
+      "path": "geometry_audit.json",
+      "bytes": 121961,
+      "sha256": "9e2086bedf7946975c122792de2a8eb7d2be4db6adb88aab8224ba2a47373b16"
+    },
+    {
+      "path": "joint_reference_meshes.json.gz",
+      "bytes": 5971,
+      "sha256": "bd46fcf3daf959c1fdb81b6cd157768222ce8ce6c5b4b0770d6d7a86a415086e"
+    },
+    {
+      "path": "mesh_interface.json",
+      "bytes": 2417241,
+      "sha256": "e4386135764cdb052a97d8b28d22407748ca86d2827e48f20e63b47674962f7f"
+    },
+    {
+      "path": "native_image_inventory.json",
+      "bytes": 618,
+      "sha256": "9e524186a4dc6ad310a97eada7d1532f38c3d0b52d24c201dd802e08ebcc0245"
+    },
+    {
+      "path": "native_render_validation.json",
+      "bytes": 34867,
+      "sha256": "e2c7a7fec421989c83d30d4ed9de883c372dfc92dc6d369762fbe04b0cbdeb08"
+    },
+    {
+      "path": "native_solver_state.png",
+      "bytes": 2114361,
+      "sha256": "05e0c1d7fdf564a9b496acb2f1687b9e33baab92fc048c654ea565189bb3cb3f"
+    },
+    {
+      "path": "native_state_image_inventory.json",
+      "bytes": 730,
+      "sha256": "d1a8506543afc1e55a32c1980eb83aaaf373e8e5e8bc128e332444dd5cbb2f58"
+    },
+    {
+      "path": "native_state_render_validation.json",
+      "bytes": 13609,
+      "sha256": "bfac21bd3ddca7870611e202a189ef7ae13a2e989b2aa09805d09991f9a2ad78"
+    },
+    {
+      "path": "operational_source_profile.json",
+      "bytes": 3163480,
+      "sha256": "76f8a5d128e8f139f7a3b46a1d0dc9c713ca2a727617d1c04dd95550bca81d33"
+    },
+    {
+      "path": "operational_turnout.png",
+      "bytes": 1487098,
+      "sha256": "bfdd5af25d8dad252603a8ce1ea9c38147c784e453d274ae8916621abd5ff33e"
+    },
+    {
+      "path": "parameters.json",
+      "bytes": 1813,
+      "sha256": "8707ab9eb56b922280da5e5105afe906ebfffa0c90e186776c6ee4798663f0fd"
+    },
+    {
+      "path": "prepare_motion_video.py",
+      "bytes": 2850,
+      "sha256": "194cedce37fa93ee6bb88d717de70bc78e1135e0de2643c3c957f3bf67d06c15"
+    },
+    {
+      "path": "regional_meshes.json.gz",
+      "bytes": 1419124,
+      "sha256": "11b785fd102b3b2dbeb6f78307e6a95afe2f7e62627fd4779af6adf619404087"
+    },
+    {
+      "path": "render_motion_video.py",
+      "bytes": 5385,
+      "sha256": "ba7611e33f533d0a58daa0f8e59fb88dc3092f6c60b802422c30d55d025a251c"
+    },
+    {
+      "path": "render_native_state.py",
+      "bytes": 7612,
+      "sha256": "c5194c54098ab48900585701dffb2779c451794ccd02be6352ded48b640ee1d2"
+    },
+    {
+      "path": "render_operational.py",
+      "bytes": 4765,
+      "sha256": "dc05f5d4ae53db1c2decf158c9b8b6a12b98ca7f6e45de202d00c1b4a73ca0cc"
+    },
+    {
+      "path": "render_whole_operational.py",
+      "bytes": 4005,
+      "sha256": "1da4585101696a1026c2ae71ee001b6375d9e351dc2b469d75751cc461af0ec6"
+    },
+    {
+      "path": "requirements-geometry.txt",
+      "bytes": 676,
+      "sha256": "fa282f67f4ff9998d8047f5dc5d7d4da7297cd0ed2eb5a4d067a68f4c29a9fd3"
+    },
+    {
+      "path": "test_operational.py",
+      "bytes": 3815,
+      "sha256": "e626f140745c82912aac852938a3781f98461e1deab76c572055df8c7219dfda"
+    },
+    {
+      "path": "test_validation.json",
+      "bytes": 328,
+      "sha256": "b85d6f44e0168cd3440dd7d6bb2401305a70402f3aaff01e8c4c78f83849104c"
+    },
+    {
+      "path": "verify_native.py",
+      "bytes": 1728,
+      "sha256": "d7b1a991510b45a48b5c0d49f58fba6de84e5f6ac8f01e059321c0057ede8c80"
+    },
+    {
+      "path": "wheel_route_geometry.json",
+      "bytes": 4121,
+      "sha256": "6d0c47fc8783b80bd12434b959c3476c0aab9fc874ab629fe81e3d6727db41b3"
+    },
+    {
+      "path": "wheel_route_samples.csv",
+      "bytes": 72694,
+      "sha256": "90df82bd4ef4a5221bf92ad455f35e5c0fe3b75b148c32e0ef478cef1b879e1b"
+    },
+    {
+      "path": "whole_operational_assembly.png",
+      "bytes": 1428239,
+      "sha256": "72fdd5b60f223db3ec42445c2f1ff98fb371751beeedabb0fd1814dbca4cffce"
+    },
+    {
+      "path": "whole_operational_render_validation.json",
+      "bytes": 218729,
+      "sha256": "aa27f5b27df068f82a7d763bf1c77768c5cd3a0d72072fd295b1878aa1a5dcb5"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+"""Read back Blender image datablocks, paths and packed-image status."""
+import argparse,bpy,datetime,hashlib,json,sys
+from pathlib import Path
+ap=argparse.ArgumentParser();ap.add_argument('directory',type=Path);ap.add_argument('--blend',default='GTSD_Operational_Turnout.blend');ap.add_argument('--output',default='native_image_inventory.json');args=ap.parse_args(sys.argv[sys.argv.index('--')+1:]);H=args.directory;blend=H/args.blend;bpy.ops.wm.open_mainfile(filepath=str(blend));rows=[]
+for im in bpy.data.images:
+ rows.append({'name':im.name,'type':im.type,'source':im.source,'filepath':im.filepath,'packed_file_exists':im.packed_file is not None,'packed_files_count':len(im.packed_files),'has_data':im.has_data,'size':list(im.size),'users':im.users})
+now=datetime.datetime.now(datetime.timezone.utc);r={'schema':'gtsd-native-image-inventory-v1','verified_utc':now.isoformat(),'verified_beijing':now.astimezone(datetime.timezone(datetime.timedelta(hours=8))).isoformat(),'blend':blend.name,'blend_bytes':blend.stat().st_size,'blend_sha256':hashlib.sha256(blend.read_bytes()).hexdigest(),'image_datablocks_count':len(rows),'packed_image_count':sum(x['packed_file_exists']or x['packed_files_count']>0 for x in rows),'file_backed_image_count':sum(x['source']=='FILE'for x in rows),'images':rows,'external_libraries':len(bpy.data.libraries)};(H/args.output).write_text(json.dumps(r,indent=2)+'\n');print(json.dumps(r,indent=2))

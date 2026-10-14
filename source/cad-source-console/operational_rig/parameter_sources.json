@@ -1,0 +1,274 @@
+[
+  {
+    "key": "mode",
+    "label": "装配模式",
+    "unit": "枚举",
+    "level": "工程参数",
+    "source": "新照片道岔、传感器和接触网的独立求解身份",
+    "description": "新照片道岔、传感器和接触网的独立求解身份"
+  },
+  {
+    "key": "time_step_s",
+    "label": "积分步长",
+    "unit": "s",
+    "level": "数值设置",
+    "source": "50 µs默认，与25 µs完整同程比较；缩小轮轨斜口着陆事件的积分相位误差",
+    "description": "50 µs默认，与25 µs完整同程比较；缩小轮轨斜口着陆事件的积分相位误差"
+  },
+  {
+    "key": "gravity_m_s2",
+    "label": "世界重力",
+    "unit": "m/s²",
+    "level": "工程参数",
+    "source": "采用标准重力9.81向-Z",
+    "description": "采用标准重力9.81向-Z"
+  },
+  {
+    "key": "rig_mass_kg",
+    "label": "公共支承等效质量",
+    "unit": "kg",
+    "level": "工程参数",
+    "source": "100 kg公共运动平台工程假设，源件质量另计",
+    "description": "100 kg公共运动平台工程假设，源件质量另计"
+  },
+  {
+    "key": "rig_inertia_kg_m2",
+    "label": "公共支承转动惯量",
+    "unit": "kg·m² [Ixx,Iyy,Izz]",
+    "level": "工程参数",
+    "source": "显式对角惯量，与源三角积分惯量分开",
+    "description": "显式对角惯量，与源三角积分惯量分开"
+  },
+  {
+    "key": "source_density_kg_m3",
+    "label": "金属源实体密度",
+    "unit": "kg/m³",
+    "level": "工程参数",
+    "source": "7850 kg/m³钢材料工程默认；每完整闭合实体积分一次",
+    "description": "7850 kg/m³钢材料工程默认；每完整闭合实体积分一次"
+  },
+  {
+    "key": "balise_total_mass_kg",
+    "label": "单个应答器总质量",
+    "unit": "kg",
+    "level": "工程参数",
+    "source": "每组壳体、盖板及螺钉共同缩放至0.6 kg，保持源几何惯量比例",
+    "description": "每组壳体、盖板及螺钉共同缩放至0.6 kg，保持源几何惯量比例"
+  },
+  {
+    "key": "rig_stiffness",
+    "label": "公共支承刚度",
+    "unit": "[N/m,N/m,N·m/rad]",
+    "level": "工程参数",
+    "source": "依次为Y、Z和X滚转；共同支承传递三分支载荷",
+    "description": "依次为Y、Z和X滚转；共同支承传递三分支载荷"
+  },
+  {
+    "key": "track_mount_stiffness_N_m",
+    "label": "轨道安装刚度",
+    "unit": "N/m",
+    "level": "工程参数",
+    "source": "轨/扣件/底板刚接组对公共支承的Z向有限安装",
+    "description": "轨/扣件/底板刚接组对公共支承的Z向有限安装"
+  },
+  {
+    "key": "balise_mount_stiffness_N_m",
+    "label": "应答器安装刚度",
+    "unit": "N/m",
+    "level": "工程参数",
+    "source": "壳体组对公共支承的Y/Z有限安装",
+    "description": "壳体组对公共支承的Y/Z有限安装"
+  },
+  {
+    "key": "catenary_mount_stiffness_N_m",
+    "label": "接触网安装刚度",
+    "unit": "N/m",
+    "level": "工程参数",
+    "source": "每站管/环/夹具刚接组对公共支承的Y/Z有限安装",
+    "description": "每站管/环/夹具刚接组对公共支承的Y/Z有限安装"
+  },
+  {
+    "key": "wire_mount_stiffness_N_m",
+    "label": "承力索端部等效刚度",
+    "unit": "N/m",
+    "level": "工程参数",
+    "source": "整条刚性源索的Y/Z端部有限约束；夹线槽另用原生接触",
+    "description": "整条刚性源索的Y/Z端部有限约束；夹线槽另用原生接触"
+  },
+  {
+    "key": "pin_mount_stiffness_N_m",
+    "label": "销轴保持刚度",
+    "unit": "N/m",
+    "level": "工程参数",
+    "source": "销轴Z向200 N/m弱保持弹簧；孔槽承载另用实际接触",
+    "description": "销轴Z向200 N/m弱保持弹簧；孔槽承载另用实际接触"
+  },
+  {
+    "key": "damping_ratio",
+    "label": "安装阻尼比",
+    "unit": "无量纲",
+    "level": "工程参数",
+    "source": "各自由度采用c=2ζ√(km)；滚转使用对应惯量",
+    "description": "各自由度采用c=2ζ√(km)；滚转使用对应惯量"
+  },
+  {
+    "key": "friction_coefficient",
+    "label": "接触滑动摩擦系数",
+    "unit": "无量纲",
+    "level": "工程参数",
+    "source": "所有已映射接触采用统一0.3工程默认",
+    "description": "所有已映射接触采用统一0.3工程默认"
+  },
+  {
+    "key": "contact_time_constant_s",
+    "label": "接触正则化时间常数",
+    "unit": "s",
+    "level": "数值设置",
+    "source": "两销/孔槽和承力索/夹线槽的MuJoCo solref正则化时间常数3 ms，单位阻尼比",
+    "description": "两销/孔槽和承力索/夹线槽的MuJoCo solref正则化时间常数3 ms，单位阻尼比"
+  },
+  {
+    "key": "pin_diameter_mm",
+    "label": "完整销轴直径",
+    "unit": "mm",
+    "level": "工程参数",
+    "source": "原5 mm名义销采用4.98 mm完整几何变体；显示、惯量、碰撞共用顶点",
+    "description": "原5 mm名义销采用4.98 mm完整几何变体；显示、惯量、碰撞共用顶点"
+  },
+  {
+    "key": "messenger_datum_shift_mm",
+    "label": "承力索基准上移",
+    "unit": "mm",
+    "level": "工程参数",
+    "source": "完整源线网格上移0.1 mm，清除初始微交叠并保留槽口间隙",
+    "description": "完整源线网格上移0.1 mm，清除初始微交叠并保留槽口间隙"
+  },
+  {
+    "key": "wheel_mass_kg",
+    "label": "演示轮质量",
+    "unit": "kg",
+    "level": "工程参数",
+    "source": "1 kg解析圆柱轮；惯量由同一质量、半径与宽度的圆柱闭式公式计算",
+    "description": "1 kg解析圆柱轮；惯量由同一质量、半径与宽度的圆柱闭式公式计算"
+  },
+  {
+    "key": "wheel_radius_m",
+    "label": "演示轮半径",
+    "unit": "m",
+    "level": "工程参数",
+    "source": "45 mm解析圆柱碰撞；同参数192面显示网格最大径向差6.024 µm，解析惯量由同一质量/尺寸计算",
+    "description": "45 mm解析圆柱碰撞；同参数192面显示网格最大径向差6.024 µm，解析惯量由同一质量/尺寸计算"
+  },
+  {
+    "key": "wheel_width_m",
+    "label": "演示轮宽度",
+    "unit": "m",
+    "level": "工程参数",
+    "source": "12 mm圆柱沿Y轴，位于轨头中央的导向通行",
+    "description": "12 mm圆柱沿Y轴，位于轨头中央的导向通行"
+  },
+  {
+    "key": "wheel_start_x_m",
+    "label": "轮初始X",
+    "unit": "m",
+    "level": "工程参数",
+    "source": "-9.62 m，从完整工程接近轨进入原照片端接头；接近轨沿原源截面向-X延长",
+    "description": "-9.62 m，从完整工程接近轨进入原照片端接头；接近轨沿原源截面向-X延长"
+  },
+  {
+    "key": "wheel_route_y_m",
+    "label": "轮导向Y",
+    "unit": "m",
+    "level": "工程参数",
+    "source": "0.2589167 m，实际左主轨及辙叉直线路径中心",
+    "description": "0.2589167 m，实际左主轨及辙叉直线路径中心"
+  },
+  {
+    "key": "wheel_speed_m_s",
+    "label": "轮驱动目标速度",
+    "unit": "m/s",
+    "level": "工程参数",
+    "source": "0.8 m/s工程演示速度，原生速度执行器柔和起停",
+    "description": "0.8 m/s工程演示速度，原生速度执行器柔和起停"
+  },
+  {
+    "key": "wheel_drive_gain_N_s_m",
+    "label": "轮速度驱动增益",
+    "unit": "N·s/m",
+    "level": "工程参数",
+    "source": "原生velocity actuator；执行器功单独入能量账",
+    "description": "原生velocity actuator；执行器功单独入能量账"
+  },
+  {
+    "key": "wheel_initial_clearance_m",
+    "label": "轮初始垂向间隙",
+    "unit": "m",
+    "level": "工程参数",
+    "source": "50 µm，靠原生重力落轨并建立实际接触",
+    "description": "50 µm，靠原生重力落轨并建立实际接触"
+  },
+  {
+    "key": "demo_duration_s",
+    "label": "完整演示时长",
+    "unit": "s",
+    "level": "工程参数",
+    "source": "1.85 s完整通行含起停，从接近轨跨原0.5 mm端缝、辙叉/翼轨切换并接入右主轨",
+    "description": "1.85 s完整通行含起停，从接近轨跨原0.5 mm端缝、辙叉/翼轨切换并接入右主轨"
+  },
+  {
+    "key": "demo_ramp_s",
+    "label": "驱动起停过渡",
+    "unit": "s",
+    "level": "工程参数",
+    "source": "100 ms余弦速度过渡，减少不连续输入",
+    "description": "100 ms余弦速度过渡，减少不连续输入"
+  },
+  {
+    "key": "demo_force_N",
+    "label": "三分支测试力幅值",
+    "unit": "N",
+    "level": "工程参数",
+    "source": "应答器、接触网和索的1 N平滑脉冲；销轴为其0.02倍",
+    "description": "应答器、接触网和索的1 N平滑脉冲；销轴为其0.02倍"
+  },
+  {
+    "key": "concrete_density_kg_m3",
+    "label": "混凝土轨枕密度",
+    "unit": "kg/m³",
+    "level": "工程参数",
+    "source": "照片装配统一材料表，显式可调密度；完整源三角实体质量积分",
+    "description": "照片装配统一材料表，显式可调密度；完整源三角实体质量积分"
+  },
+  {
+    "key": "polymer_density_kg_m3",
+    "label": "聚合物密度",
+    "unit": "kg/m³",
+    "level": "工程参数",
+    "source": "照片装配统一材料表，显式可调密度；完整源三角实体质量积分",
+    "description": "照片装配统一材料表，显式可调密度；完整源三角实体质量积分"
+  },
+  {
+    "key": "elastomer_density_kg_m3",
+    "label": "弹性垫层密度",
+    "unit": "kg/m³",
+    "level": "工程参数",
+    "source": "照片装配统一材料表，显式可调密度；完整源三角实体质量积分",
+    "description": "照片装配统一材料表，显式可调密度；完整源三角实体质量积分"
+  },
+  {
+    "key": "approach_extension_m",
+    "label": "源截面接近轨延长",
+    "unit": "m",
+    "level": "工程参数",
+    "source": "沿原PHOTO_RETAIN_left轨头/轨身截面向-X建立完整0.3 m接近轨，原照片实体保留；显示、质量与碰撞共同使用新实体",
+    "description": "让导向轮从有真实轨面支承的起点进入原照片端接头"
+  },
+  {
+    "key": "wheel_contact_time_constant_s",
+    "label": "轮轨接触响应时间",
+    "unit": "s",
+    "level": "数值设置",
+    "source": "輪轨单独采用1.2 ms solref及单位阻尼比；缩短斜口着陆的接触正则响应，控制数值穿透至100 µm门限内",
+    "description": "仅轮轨改变；完整轨/轮接触边界与源几何不变，两销与夹线保留3 ms设置"
+  }
+]

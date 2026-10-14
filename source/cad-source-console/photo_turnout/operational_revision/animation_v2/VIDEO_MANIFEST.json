@@ -1,0 +1,72 @@
+{
+  "schema": "gtsd-native-motion-video-v1",
+  "completed_utc": "2026-10-14T03:41:18.692509+00:00",
+  "completed_beijing": "2026-10-14T11:41:18.692509+08:00",
+  "file": "operational_motion_v2.mp4",
+  "bytes": 1258470,
+  "sha256": "fc4db9b35eea2f1558f3b5bdf43cd7fd350adc4f8abad0f46689f40a1861d7ee",
+  "source_protocol": "gtsd-operational-protocol-1014-v2",
+  "source_case": "h50us",
+  "runtime_identity_sha256": "3a7647fa12993daf9d5113ff81e3cbf5ec49e4791afc66597b25e21127227c02",
+  "assembly_identity_sha256": "2cffbb33e83ac84a331f93cf9d1f128ceb077c6e28269632e6544278ca697d4c",
+  "source_pose_stream_sha256": "7b8968ed355b9945fa2e449fd23d75c5c750ce19b4a7b95efceedbc449216a92",
+  "native_duration_s": 1.85,
+  "native_steps_total": 37000,
+  "display_duration_s": 7.5,
+  "fps": 12,
+  "frame_count": 90,
+  "slow_playback_factor": 4.0540540540540535,
+  "resolution": [
+    720,
+    450
+  ],
+  "codec": "H.264 / yuv420p",
+  "mesh_count": 268,
+  "pose_interpolation": false,
+  "image_postprocess": {
+    "filter": "ffmpeg nlmeans=s=12:p=7:r=15",
+    "scope": "independent spatial denoise within each frame",
+    "temporal_blending": false,
+    "raw_frame_hash_records": [
+      "frame_render_0000.json",
+      "frame_render_0001.json"
+    ]
+  },
+  "geometry_reduced": false,
+  "solver_rerun": false,
+  "displacement_scale": 1.0,
+  "numeric_status": "V2 recorded motion; corrected numerical acceptance tracked separately",
+  "keyframes": [
+    {
+      "frame": 0,
+      "native_step": 0,
+      "simulation_time_s": 0.0,
+      "sha256": "2563fe83c38365b05fef9d6757248177448f87610574f6ade8b7a4607efb3914"
+    },
+    {
+      "frame": 12,
+      "native_step": 4989,
+      "simulation_time_s": 0.24945,
+      "sha256": "1f046010756d80905ff4f97fe7157dc927ca64ca06d03c28df92dc6445a31753"
+    },
+    {
+      "frame": 54,
+      "native_step": 22449,
+      "simulation_time_s": 1.12245,
+      "sha256": "fea0107662853b0eca12a7105a0fa43edda2ceff58210c271b087359e92fb2eb"
+    },
+    {
+      "frame": 83,
+      "native_step": 34506,
+      "simulation_time_s": 1.7253,
+      "sha256": "6c4c545eb6fda60b35aaf3155f223cc47d6ffdaa4e33b26b633248328752f18e"
+    },
+    {
+      "frame": 89,
+      "native_step": 37000,
+      "simulation_time_s": 1.85,
+      "sha256": "5439c48cfba46ae91e0b2ef3b4aaf700f558f3fd966b3dad3b7fba192b53cd04"
+    }
+  ],
+  "keyframe_review_files_local_only": true
+}

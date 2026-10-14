@@ -1,0 +1,172 @@
+{
+  "schema": "gtsd-source-top-route-coverage-v1",
+  "completed_utc": "2026-10-14T02:37:03.097294+00:00",
+  "completed_beijing": "2026-10-14T10:37:03.097294+08:00",
+  "route_y_m": 0.2589166666667,
+  "wheel_width_m": 0.012,
+  "wheel_radius_m": 0.045,
+  "x_range_m": [
+    -9.62,
+    -8.4
+  ],
+  "sample_pitch_mm": 1,
+  "sample_count": 1221,
+  "centerline_supported_samples": 963,
+  "tread_width_projected_supported_samples": 1047,
+  "centerline_intervals_m": [
+    [
+      -9.471333503723145,
+      -9.470289418889507
+    ],
+    [
+      -9.469789418889508,
+      -8.830624514252438
+    ],
+    [
+      -8.722200130531249,
+      1.419984221458435
+    ]
+  ],
+  "tread_width_intervals_m": [
+    [
+      -9.471333503723145,
+      -9.470289418889507
+    ],
+    [
+      -9.469789418889508,
+      -8.78862397895232
+    ],
+    [
+      -8.76420066870294,
+      1.419984221458435
+    ]
+  ],
+  "centerline_interior_gaps": [
+    {
+      "start_x_m": -9.470289418889507,
+      "end_x_m": -9.469789418889508,
+      "gap_mm": 0.4999999999988347
+    },
+    {
+      "start_x_m": -8.830624514252438,
+      "end_x_m": -8.722200130531249,
+      "gap_mm": 108.42438372118934
+    }
+  ],
+  "tread_width_interior_gaps": [
+    {
+      "start_x_m": -9.470289418889507,
+      "end_x_m": -9.469789418889508,
+      "gap_mm": 0.4999999999988347
+    },
+    {
+      "start_x_m": -8.78862397895232,
+      "end_x_m": -8.76420066870294,
+      "gap_mm": 24.423310249378716
+    }
+  ],
+  "source_meshes": [
+    {
+      "name": "PHOTO_FROG_source_finite_V",
+      "centerline_top_x_intervals_m": [
+        [
+          -9.469789418889508,
+          -8.830624514252438
+        ]
+      ],
+      "tread_width_top_x_intervals_m": [
+        [
+          -9.469789418889508,
+          -8.78862397895232
+        ]
+      ]
+    },
+    {
+      "name": "PHOTO_WING_lower_source_chain",
+      "centerline_top_x_intervals_m": [],
+      "tread_width_top_x_intervals_m": []
+    },
+    {
+      "name": "PHOTO_WING_upper_source_chain",
+      "centerline_top_x_intervals_m": [
+        [
+          -8.722200130531249,
+          -8.323039418889508
+        ]
+      ],
+      "tread_width_top_x_intervals_m": [
+        [
+          -8.76420066870294,
+          -8.323039418889508
+        ]
+      ]
+    },
+    {
+      "name": "PHOTO_RETAIN_right_ENV_main_rail_1",
+      "centerline_top_x_intervals_m": [
+        [
+          -8.323039418889508,
+          1.419984221458435
+        ]
+      ],
+      "tread_width_top_x_intervals_m": [
+        [
+          -8.323039418889508,
+          1.419984221458435
+        ]
+      ]
+    },
+    {
+      "name": "PHOTO_RETAIN_right_ENV_main_rail_top_1",
+      "centerline_top_x_intervals_m": [
+        [
+          -8.323039418889508,
+          1.4189844131469727
+        ]
+      ],
+      "tread_width_top_x_intervals_m": [
+        [
+          -8.323039418889508,
+          1.4189844131469727
+        ]
+      ]
+    },
+    {
+      "name": "PHOTO_RETAIN_right_CAD_TRACK_REV_inner_right_native_xy",
+      "centerline_top_x_intervals_m": [],
+      "tread_width_top_x_intervals_m": []
+    },
+    {
+      "name": "PHOTO_RETAIN_left_ENV_main_rail_1",
+      "centerline_top_x_intervals_m": [
+        [
+          -9.471333503723145,
+          -9.470289418889507
+        ]
+      ],
+      "tread_width_top_x_intervals_m": [
+        [
+          -9.471333503723145,
+          -9.470289418889507
+        ]
+      ]
+    },
+    {
+      "name": "PHOTO_RETAIN_left_ENV_main_rail_top_1",
+      "centerline_top_x_intervals_m": [
+        [
+          -9.470333099365234,
+          -9.470289418889507
+        ]
+      ],
+      "tread_width_top_x_intervals_m": [
+        [
+          -9.470333099365234,
+          -9.470289418889507
+        ]
+      ]
+    }
+  ],
+  "coverage_method": "Exact world XY top triangle / horizontal line or wheel-width strip intersection; sample occupancy evaluated from merged exact intervals.",
+  "interpretation": "Wheel-width projection gives potential support at any lateral point. Actual wheel Z/contact response is determined by the native solver. Generated approach meshes belong to the solver contract and are not part of this source-only check."
+}
