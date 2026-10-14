@@ -1,0 +1,1251 @@
+{
+  "schema": "gtsd-operational-native-validation-v1",
+  "completed_utc": "2026-10-14T02:33:01.912156+00:00",
+  "completed_beijing": "2026-10-14T10:33:01.912156+08:00",
+  "native_reopened": true,
+  "mesh_membership_and_triangle_indices_verified": true,
+  "mesh_count": 205,
+  "maximum_world_vertex_error_mm": 0.001430511474609375,
+  "tolerance_mm": 0.0015,
+  "render_engine": "CYCLES",
+  "threads": 1,
+  "samples": 20,
+  "rendered_files": [
+    "operational_turnout.png",
+    "finite_joint_detail.png"
+  ],
+  "external_libraries": 0,
+  "embedded_images": 1,
+  "records": [
+    {
+      "name": "CAD_track_fastener_4EDF5_baseplate_197p2x70_candidate",
+      "vertices": 2085,
+      "triangles": 1044,
+      "world_coordinate_error_mm": 5.9604644775390625e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDF5_left_flat_projection_candidate",
+      "vertices": 11615,
+      "triangles": 5900,
+      "world_coordinate_error_mm": 4.470348358154297e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDF5_right_flat_projection_candidate",
+      "vertices": 11722,
+      "triangles": 5900,
+      "world_coordinate_error_mm": 5.9604644775390625e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDF6_baseplate_197p2x70_candidate",
+      "vertices": 2085,
+      "triangles": 1044,
+      "world_coordinate_error_mm": 5.9604644775390625e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDF6_left_flat_projection_candidate",
+      "vertices": 11560,
+      "triangles": 5900,
+      "world_coordinate_error_mm": 4.470348358154297e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDF6_right_flat_projection_candidate",
+      "vertices": 11669,
+      "triangles": 5900,
+      "world_coordinate_error_mm": 5.9604644775390625e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDF7_baseplate_197p2x70_candidate",
+      "vertices": 2077,
+      "triangles": 1044,
+      "world_coordinate_error_mm": 5.9604644775390625e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDF7_left_flat_projection_candidate",
+      "vertices": 11622,
+      "triangles": 5900,
+      "world_coordinate_error_mm": 4.470348358154297e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDF7_right_flat_projection_candidate",
+      "vertices": 11725,
+      "triangles": 5900,
+      "world_coordinate_error_mm": 5.9604644775390625e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDF8_baseplate_197p2x70_candidate",
+      "vertices": 2061,
+      "triangles": 1044,
+      "world_coordinate_error_mm": 5.9604644775390625e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDF8_left_flat_projection_candidate",
+      "vertices": 11541,
+      "triangles": 5900,
+      "world_coordinate_error_mm": 4.470348358154297e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDF8_right_flat_projection_candidate",
+      "vertices": 11648,
+      "triangles": 5900,
+      "world_coordinate_error_mm": 5.9604644775390625e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDF9_baseplate_197p2x70_candidate",
+      "vertices": 1949,
+      "triangles": 1044,
+      "world_coordinate_error_mm": 5.9604644775390625e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDF9_left_flat_projection_candidate",
+      "vertices": 11670,
+      "triangles": 5900,
+      "world_coordinate_error_mm": 4.470348358154297e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDF9_right_flat_projection_candidate",
+      "vertices": 11777,
+      "triangles": 5900,
+      "world_coordinate_error_mm": 5.9604644775390625e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDFA_baseplate_197p2x70_candidate",
+      "vertices": 1965,
+      "triangles": 1044,
+      "world_coordinate_error_mm": 5.9604644775390625e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDFA_left_flat_projection_candidate",
+      "vertices": 11575,
+      "triangles": 5900,
+      "world_coordinate_error_mm": 4.470348358154297e-05
+    },
+    {
+      "name": "CAD_track_fastener_4EDFA_right_flat_projection_candidate",
+      "vertices": 11685,
+      "triangles": 5900,
+      "world_coordinate_error_mm": 5.9604644775390625e-05
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_01_3",
+      "vertices": 516,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.0002931352778290375
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_02_0",
+      "vertices": 532,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.0002856618142033085
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_02_3",
+      "vertices": 520,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.00020419135005056432
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_02_4",
+      "vertices": 536,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.00017081710446120724
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_03_0",
+      "vertices": 532,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.00010209599921040535
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_03_3",
+      "vertices": 516,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.00025042384166340526
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_03_4",
+      "vertices": 532,
+      "triangles": 188,
+      "world_coordinate_error_mm": 8.464933998197921e-05
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_04_0",
+      "vertices": 536,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.00046382051976934235
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_04_3",
+      "vertices": 520,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.00023111347857707187
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_04_4",
+      "vertices": 536,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.0004812671701159843
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_05_0",
+      "vertices": 536,
+      "triangles": 188,
+      "world_coordinate_error_mm": 7.606270813198535e-05
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_05_3",
+      "vertices": 532,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.0002118030710818175
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_05_4",
+      "vertices": 536,
+      "triangles": 188,
+      "world_coordinate_error_mm": 9.350935137319993e-05
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_06_0",
+      "vertices": 532,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.00018155019887444723
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_06_2",
+      "vertices": 520,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.00021031824104511543
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_06_3",
+      "vertices": 522,
+      "triangles": 188,
+      "world_coordinate_error_mm": 7.360031517578136e-05
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_06_4",
+      "vertices": 536,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.0005405334384533944
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_01_3_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.0002931352778290375
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_01_3_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.0002931352778290375
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_0_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.0002856618142033085
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_0_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.0002856618142033085
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_3_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00020419135005056432
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_3_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00020419135005056432
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_4_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00017081710446120724
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_4_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00017081710446120724
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_03_0_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00010209599921040535
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_03_0_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00010209599921040535
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_03_3_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00025042384166340526
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_03_3_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00025042384166340526
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_03_4_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 8.464933998197921e-05
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_03_4_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 8.464933998197921e-05
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_04_0_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00046382051976934235
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_04_0_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00046382051976934235
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_04_3_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00023111347857707187
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_04_3_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00023111347857707187
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_04_4_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.0004812671701159843
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_04_4_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.0004812671701159843
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_0_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 7.606270813198535e-05
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_0_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 7.606270813198535e-05
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_3_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.0002118030710818175
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_3_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.0002118030710818175
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_4_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 9.350935137319993e-05
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_4_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 9.350935137319993e-05
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_06_2_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00021031824104511543
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_06_2_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00021031824104511543
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_06_3_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 7.360031517578136e-05
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_06_3_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 7.360031517578136e-05
+    },
+    {
+      "name": "CAD_TRACK_REV_long_sleeper_00_native_axis",
+      "vertices": 510,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.0004787784373405657
+    },
+    {
+      "name": "CAD_TRACK_REV_long_sleeper_01_native_axis",
+      "vertices": 510,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.0005006167942411821
+    },
+    {
+      "name": "CAD_TRACK_REV_long_sleeper_02_native_axis",
+      "vertices": 520,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.0004776610360579525
+    },
+    {
+      "name": "CAD_TRACK_REV_long_sleeper_03_native_axis",
+      "vertices": 516,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.0004710350403058783
+    },
+    {
+      "name": "CAD_TRACK_REV_long_sleeper_04_native_axis",
+      "vertices": 520,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.0004316285906469375
+    },
+    {
+      "name": "CAD_TRACK_REV_long_sleeper_05_native_axis",
+      "vertices": 528,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.00047891094112628707
+    },
+    {
+      "name": "CAD_TRACK_REV_long_sleeper_06_native_axis",
+      "vertices": 522,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.000560587448461547
+    },
+    {
+      "name": "CAD_TRACK_REV_outer_branch_native_xy",
+      "vertices": 1044,
+      "triangles": 2076,
+      "world_coordinate_error_mm": 0.0006800035408094374
+    },
+    {
+      "name": "CAD_TRACK_REV_photo_chair_013_source_station",
+      "vertices": 524,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.0003461079227662367
+    },
+    {
+      "name": "DETAIL_BENCH_guard_diverging",
+      "vertices": 133,
+      "triangles": 68,
+      "world_coordinate_error_mm": 5.9604644775390625e-05
+    },
+    {
+      "name": "DETAIL_BENCH_guard_straight",
+      "vertices": 134,
+      "triangles": 68,
+      "world_coordinate_error_mm": 4.470348358154297e-05
+    },
+    {
+      "name": "ENV_balise_body_00",
+      "vertices": 500,
+      "triangles": 188,
+      "world_coordinate_error_mm": 3.3527612686157227e-05
+    },
+    {
+      "name": "ENV_balise_lid_screw",
+      "vertices": 48,
+      "triangles": 28,
+      "world_coordinate_error_mm": 3.3527612686157227e-05
+    },
+    {
+      "name": "ENV_balise_lid_screw.001",
+      "vertices": 48,
+      "triangles": 28,
+      "world_coordinate_error_mm": 1.862645149230957e-05
+    },
+    {
+      "name": "ENV_balise_lid_screw.002",
+      "vertices": 52,
+      "triangles": 28,
+      "world_coordinate_error_mm": 3.3527612686157227e-05
+    },
+    {
+      "name": "ENV_balise_lid_screw.003",
+      "vertices": 52,
+      "triangles": 28,
+      "world_coordinate_error_mm": 1.862645149230957e-05
+    },
+    {
+      "name": "ENV_balise_yellow_lid_00",
+      "vertices": 508,
+      "triangles": 188,
+      "world_coordinate_error_mm": 2.60770320892334e-05
+    },
+    {
+      "name": "ENV_deck_equipment_footprint",
+      "vertices": 504,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.001430511474609375
+    },
+    {
+      "name": "ENV_fastener.022",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 3.725290298461914e-06
+    },
+    {
+      "name": "ENV_fastener.023",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 3.725290298461914e-06
+    },
+    {
+      "name": "ENV_fastener.026",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 3.725290298461914e-06
+    },
+    {
+      "name": "ENV_fastener.027",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 3.725290298461914e-06
+    },
+    {
+      "name": "ENV_main_rail_-1",
+      "vertices": 75,
+      "triangles": 44,
+      "world_coordinate_error_mm": 0.00035762786865234375
+    },
+    {
+      "name": "ENV_main_rail_top_-1",
+      "vertices": 508,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.00095367431640625
+    },
+    {
+      "name": "ENV_substation_base",
+      "vertices": 508,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.00011920928955078125
+    },
+    {
+      "name": "ENV_substation_rack_upright.001",
+      "vertices": 516,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.00011920928955078125
+    },
+    {
+      "name": "FIT_TRACK_clip_01_0_-1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00027074615793765133
+    },
+    {
+      "name": "FIT_TRACK_clip_01_0_1",
+      "vertices": 60,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00011003428035394336
+    },
+    {
+      "name": "FIT_TRACK_station01_source_chair",
+      "vertices": 224,
+      "triangles": 196,
+      "world_coordinate_error_mm": 0.0004392821253418333
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_bolt_head",
+      "vertices": 12,
+      "triangles": 20,
+      "world_coordinate_error_mm": 4.8413387077062e-05
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_bolt_shank",
+      "vertices": 64,
+      "triangles": 124,
+      "world_coordinate_error_mm": 0.00040996857109121265
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_captive_nut",
+      "vertices": 76,
+      "triangles": 152,
+      "world_coordinate_error_mm": 0.0004294622168998785
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_seat_base",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00048585141065871085
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_seat_pocket",
+      "vertices": 16,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.0004416692487296814
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_seat_upper",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00048585141065871085
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_toe_clamp",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00048585141065871085
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_washer",
+      "vertices": 128,
+      "triangles": 256,
+      "world_coordinate_error_mm": 0.00048585141065871085
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_bolt_head",
+      "vertices": 12,
+      "triangles": 20,
+      "world_coordinate_error_mm": 0.0003698253774331306
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_bolt_shank",
+      "vertices": 64,
+      "triangles": 124,
+      "world_coordinate_error_mm": 0.0004518887095628088
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_captive_nut",
+      "vertices": 76,
+      "triangles": 152,
+      "world_coordinate_error_mm": 0.0004496486845084746
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_seat_base",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00041708882747570897
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_seat_pocket",
+      "vertices": 16,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00046135624209853177
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_seat_upper",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00041708882747570897
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_toe_clamp",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00041708882747570897
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_washer",
+      "vertices": 128,
+      "triangles": 256,
+      "world_coordinate_error_mm": 0.0004781438729395404
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_bolt_head",
+      "vertices": 12,
+      "triangles": 20,
+      "world_coordinate_error_mm": 0.0003621175839185753
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_bolt_shank",
+      "vertices": 64,
+      "triangles": 124,
+      "world_coordinate_error_mm": 0.00045959650130100727
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_captive_nut",
+      "vertices": 76,
+      "triangles": 152,
+      "world_coordinate_error_mm": 0.0004573564780230299
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_seat_base",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00040938103396115366
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_seat_pocket",
+      "vertices": 16,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.0004042945231930162
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_seat_upper",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00040938103396115366
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_toe_clamp",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00040938103396115366
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_washer",
+      "vertices": 128,
+      "triangles": 256,
+      "world_coordinate_error_mm": 0.0004858516664540957
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_bolt_head",
+      "vertices": 12,
+      "triangles": 20,
+      "world_coordinate_error_mm": 0.00040920529720267496
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_bolt_shank",
+      "vertices": 64,
+      "triangles": 124,
+      "world_coordinate_error_mm": 0.00041250878979326444
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_captive_nut",
+      "vertices": 76,
+      "triangles": 152,
+      "world_coordinate_error_mm": 0.00043674697103313065
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_seat_base",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004564687472452533
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_seat_pocket",
+      "vertices": 16,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.0004053586639685136
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_seat_upper",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004564687472452533
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_toe_clamp",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004564687472452533
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_washer",
+      "vertices": 128,
+      "triangles": 256,
+      "world_coordinate_error_mm": 0.0004564687472452533
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_bolt_head",
+      "vertices": 12,
+      "triangles": 20,
+      "world_coordinate_error_mm": 0.00038142796832119075
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_bolt_shank",
+      "vertices": 64,
+      "triangles": 124,
+      "world_coordinate_error_mm": 0.0004402861168983918
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_captive_nut",
+      "vertices": 76,
+      "triangles": 152,
+      "world_coordinate_error_mm": 0.00043804609362041447
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_seat_base",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004286914183637691
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_seat_pocket",
+      "vertices": 16,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.0003849841387904007
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_seat_upper",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004286914183637691
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_toe_clamp",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004286914183637691
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_washer",
+      "vertices": 128,
+      "triangles": 256,
+      "world_coordinate_error_mm": 0.00046654128205148027
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_bolt_head",
+      "vertices": 12,
+      "triangles": 20,
+      "world_coordinate_error_mm": 0.00023996873643739036
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_bolt_shank",
+      "vertices": 64,
+      "triangles": 124,
+      "world_coordinate_error_mm": 0.0004702609821549686
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_captive_nut",
+      "vertices": 76,
+      "triangles": 152,
+      "world_coordinate_error_mm": 0.0004278721714712219
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_seat_base",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00042408206368804713
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_seat_pocket",
+      "vertices": 16,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00041505601977576134
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_seat_upper",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00042408206368804713
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_toe_clamp",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00042408206368804713
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_washer",
+      "vertices": 128,
+      "triangles": 256,
+      "world_coordinate_error_mm": 0.00045469568021871964
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_bolt_head",
+      "vertices": 12,
+      "triangles": 20,
+      "world_coordinate_error_mm": 0.00040073835450016304
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_bolt_shank",
+      "vertices": 64,
+      "triangles": 124,
+      "world_coordinate_error_mm": 0.00042097573249577636
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_captive_nut",
+      "vertices": 76,
+      "triangles": 152,
+      "world_coordinate_error_mm": 0.00042828002833061873
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_seat_base",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004480018045427414
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_seat_pocket",
+      "vertices": 16,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00036567375438778527
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_seat_upper",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004480018045427414
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_toe_clamp",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004480018045427414
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_washer",
+      "vertices": 128,
+      "triangles": 256,
+      "world_coordinate_error_mm": 0.0004480018045427414
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_bolt_head",
+      "vertices": 12,
+      "triangles": 20,
+      "world_coordinate_error_mm": 0.00023101007151637987
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_bolt_shank",
+      "vertices": 64,
+      "triangles": 124,
+      "world_coordinate_error_mm": 0.0004744546693302709
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_captive_nut",
+      "vertices": 76,
+      "triangles": 152,
+      "world_coordinate_error_mm": 0.0004368308363922324
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_seat_base",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004330407286090576
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_seat_pocket",
+      "vertices": 16,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.0004060973939346013
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_seat_upper",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004330407286090576
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_toe_clamp",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00046285127908163304
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_washer",
+      "vertices": 128,
+      "triangles": 256,
+      "world_coordinate_error_mm": 0.00044573701529770915
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_bolt_head",
+      "vertices": 12,
+      "triangles": 20,
+      "world_coordinate_error_mm": 0.0004200487300209943
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_bolt_shank",
+      "vertices": 64,
+      "triangles": 124,
+      "world_coordinate_error_mm": 0.0004016653569749451
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_captive_nut",
+      "vertices": 76,
+      "triangles": 152,
+      "world_coordinate_error_mm": 0.00044759040385145
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_seat_base",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00048636213634267733
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_seat_pocket",
+      "vertices": 16,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.000346363378866954
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_seat_upper",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00048636213634267733
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_toe_clamp",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00048636213634267733
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_washer",
+      "vertices": 128,
+      "triangles": 256,
+      "world_coordinate_error_mm": 0.00048636213634267733
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_bolt_head",
+      "vertices": 12,
+      "triangles": 20,
+      "world_coordinate_error_mm": 0.00041816401186167695
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_bolt_shank",
+      "vertices": 64,
+      "triangles": 124,
+      "world_coordinate_error_mm": 0.0004035500733579056
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_captive_nut",
+      "vertices": 76,
+      "triangles": 152,
+      "world_coordinate_error_mm": 0.0004457056874684895
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_seat_base",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00048824685272563784
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_seat_pocket",
+      "vertices": 16,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.0004130534314583656
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_seat_upper",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00048824685272563784
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_toe_clamp",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.00048824685272563784
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_washer",
+      "vertices": 128,
+      "triangles": 256,
+      "world_coordinate_error_mm": 0.00048824685272563784
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_bolt_head",
+      "vertices": 12,
+      "triangles": 20,
+      "world_coordinate_error_mm": 8.941720075483772e-05
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_bolt_shank",
+      "vertices": 64,
+      "triangles": 124,
+      "world_coordinate_error_mm": 0.0004509723847689884
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_captive_nut",
+      "vertices": 76,
+      "triangles": 152,
+      "world_coordinate_error_mm": 0.00048320828582859576
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_seat_base",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004726036983981885
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_seat_pocket",
+      "vertices": 16,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00041952814555656914
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_seat_upper",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004726036983981885
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_toe_clamp",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004726036983981885
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_washer",
+      "vertices": 128,
+      "triangles": 256,
+      "world_coordinate_error_mm": 0.0004933526192019144
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_bolt_head",
+      "vertices": 12,
+      "triangles": 20,
+      "world_coordinate_error_mm": 0.0004196493037511573
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_bolt_shank",
+      "vertices": 64,
+      "triangles": 124,
+      "world_coordinate_error_mm": 0.0004020647814684253
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_captive_nut",
+      "vertices": 76,
+      "triangles": 152,
+      "world_coordinate_error_mm": 0.0004471909793579698
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_seat_base",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004669127555700925
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_seat_pocket",
+      "vertices": 16,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.0003467628033604342
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_seat_upper",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004669127555700925
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_toe_clamp",
+      "vertices": 72,
+      "triangles": 144,
+      "world_coordinate_error_mm": 0.0004669127555700925
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_washer",
+      "vertices": 128,
+      "triangles": 256,
+      "world_coordinate_error_mm": 0.0004669127555700925
+    },
+    {
+      "name": "PHOTO_FROG_source_finite_V",
+      "vertices": 126,
+      "triangles": 248,
+      "world_coordinate_error_mm": 0.0004759166554180183
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_long_plate",
+      "vertices": 88,
+      "triangles": 172,
+      "world_coordinate_error_mm": 0.0004895485012923473
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_00",
+      "vertices": 20,
+      "triangles": 36,
+      "world_coordinate_error_mm": 0.0004673241242869608
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_01",
+      "vertices": 16,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.000480456330720358
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_02",
+      "vertices": 8,
+      "triangles": 12,
+      "world_coordinate_error_mm": 0.00043868350374509646
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_03",
+      "vertices": 8,
+      "triangles": 12,
+      "world_coordinate_error_mm": 0.00045133190518242827
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_04",
+      "vertices": 8,
+      "triangles": 12,
+      "world_coordinate_error_mm": 0.00037659983043170087
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_05",
+      "vertices": 16,
+      "triangles": 28,
+      "world_coordinate_error_mm": 0.00033329061466247367
+    },
+    {
+      "name": "PHOTO_RETAIN_left_ENV_main_rail_1",
+      "vertices": 48,
+      "triangles": 92,
+      "world_coordinate_error_mm": 0.00018854282757274632
+    },
+    {
+      "name": "PHOTO_RETAIN_left_ENV_main_rail_top_1",
+      "vertices": 96,
+      "triangles": 188,
+      "world_coordinate_error_mm": 0.00018854282757274632
+    },
+    {
+      "name": "PHOTO_RETAIN_right_CAD_TRACK_REV_inner_right_native_xy",
+      "vertices": 1092,
+      "triangles": 2172,
+      "world_coordinate_error_mm": 0.0007060804159131351
+    },
+    {
+      "name": "PHOTO_RETAIN_right_ENV_main_rail_1",
+      "vertices": 36,
+      "triangles": 68,
+      "world_coordinate_error_mm": 0.00036401890213255683
+    },
+    {
+      "name": "PHOTO_RETAIN_right_ENV_main_rail_top_1",
+      "vertices": 80,
+      "triangles": 156,
+      "world_coordinate_error_mm": 0.00095367431640625
+    },
+    {
+      "name": "PHOTO_WING_lower_source_chain",
+      "vertices": 84,
+      "triangles": 164,
+      "world_coordinate_error_mm": 0.000479665009933683
+    },
+    {
+      "name": "PHOTO_WING_upper_source_chain",
+      "vertices": 79,
+      "triangles": 154,
+      "world_coordinate_error_mm": 0.0004701282669827833
+    }
+  ]
+}

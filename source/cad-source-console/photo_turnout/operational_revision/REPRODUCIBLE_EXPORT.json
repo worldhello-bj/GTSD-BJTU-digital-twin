@@ -1,0 +1,21 @@
+{
+  "schema": "gtsd-operational-reproducible-export-v1",
+  "profile_id": "operational_assembly_v1",
+  "kind": "reproducible_optional_export",
+  "required_for_runtime": false,
+  "included_as_transfer_asset": false,
+  "source_scene_sha256": "751ff0ac4ecf5b2351ebdd6d576cfdf6f043e9bfe8b8eff88c51a9d328ed661e",
+  "joint_gap_mm": 0.5,
+  "mesh_count": 2006,
+  "output": {
+    "filename": "full_scene_meshes.json.gz",
+    "bytes": 24196237,
+    "sha256": "fbf0e12c8171803c52de7ce5787a914089f6dcf70f6be7ec589d7414b2114c36"
+  },
+  "entrypoint": "export_operational_scene.py",
+  "command_from_console": "python photo_turnout/operational_revision/export_operational_scene.py --output /path/outside/console/export",
+  "builders": ["mechanical_fit/export_scene.js", "photo_turnout/operational_revision/build_operational.py"],
+  "public_source_assets": "Restore the repository assets with prepare_assets.py before exporting.",
+  "output_policy": "Build in a new or empty directory outside the console; never replace frozen runtime files.",
+  "dependencies": "requirements-geometry.txt"
+}

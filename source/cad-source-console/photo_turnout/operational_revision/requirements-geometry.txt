@@ -1,0 +1,10 @@
+# Optional full-scene reproduction environment, separate from the runtime venv.
+# The console runtime continues to use source/cad-source-console/requirements.txt.
+# Tested: Linux x86_64 / Python 3.12.14 / Node.js 24.19.0.
+# System requirement: libgeos_c.so.1, tested GEOS 3.13.1-CAPI-1.19.2.
+# Windows: use WSL. The existing public geometry kernel loads this Linux library.
+# Blender and SciPy are not needed for export_operational_scene.py.
+# Tested compression: Python zlib 1.3.2; Node zlib 1.3.2.1-motley-3246f1b.
+# Other versions may work; the export command always verifies exact SHA-256.
+# Install this file only in an optional geometry-export environment.
+numpy==2.3.5

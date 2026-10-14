@@ -1,0 +1,41 @@
+{
+  "schema": "gtsd-native-motion-frame-render-v1",
+  "completed_utc": "2026-10-14T03:33:49.370827+00:00",
+  "completed_beijing": "2026-10-14T11:33:49.370827+08:00",
+  "input_sha256": "0220c500330fb791ff99758c3cb94092498e8878cbe64ebb4f78e8a9bcbdec24",
+  "source_protocol": "gtsd-operational-protocol-1014-v2",
+  "source_case": "h50us",
+  "runtime_identity_sha256": "3a7647fa12993daf9d5113ff81e3cbf5ec49e4791afc66597b25e21127227c02",
+  "assembly_identity_sha256": "2cffbb33e83ac84a331f93cf9d1f128ceb077c6e28269632e6544278ca697d4c",
+  "mesh_count": 268,
+  "triangles": 140534,
+  "full_bound_geometry_retained": true,
+  "pose_interpolation": false,
+  "solver_advanced": false,
+  "displacement_scale": 1.0,
+  "render_engine": "CYCLES",
+  "samples": 2,
+  "denoising": false,
+  "threads": 1,
+  "resolution": [
+    720,
+    450
+  ],
+  "camera": "tracks actual wheel center, ortho scale 0.44 m",
+  "render_wall_s": 1.3597551169950748,
+  "frames": [
+    {
+      "frame": 0,
+      "native_step": 0,
+      "simulation_time_s": 0.0,
+      "wheel_position_world_m": [
+        -9.62,
+        0.2589166666667,
+        0.04505
+      ],
+      "file": "frame_0000.png",
+      "render_seconds": 1.3571899730013683,
+      "sha256": "16b0395ef2af5a7699973ba1ddf3321cef7809f5bc9f7b07975730fb780c8b64"
+    }
+  ]
+}

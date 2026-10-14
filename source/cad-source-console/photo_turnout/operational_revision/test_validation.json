@@ -1,0 +1,14 @@
+{
+  "schema": "gtsd-operational-geometry-tests-v1",
+  "captured_utc": "2026-10-14T03:44:58.619987+00:00",
+  "source_log_sha256": "246a2c46d645a8e72561126403928588507411315ded67c49fb937f9ccac380d",
+  "test_groups": 6,
+  "pass": true,
+  "gap_variants_mm": [
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "raw_log_local_only": true
+}
