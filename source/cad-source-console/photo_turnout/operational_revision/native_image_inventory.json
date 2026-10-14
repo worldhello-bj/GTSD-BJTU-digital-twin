@@ -1,0 +1,26 @@
+{
+  "schema": "gtsd-native-image-inventory-v1",
+  "verified_utc": "2026-10-14T02:53:26.724424+00:00",
+  "verified_beijing": "2026-10-14T10:53:26.724424+08:00",
+  "blend": "GTSD_Operational_Turnout.blend",
+  "image_datablocks_count": 1,
+  "packed_image_count": 0,
+  "file_backed_image_count": 0,
+  "images": [
+    {
+      "name": "Render Result",
+      "type": "RENDER_RESULT",
+      "source": "VIEWER",
+      "filepath": "",
+      "packed_file_exists": false,
+      "packed_files_count": 0,
+      "has_data": false,
+      "size": [
+        0,
+        0
+      ],
+      "users": 1
+    }
+  ],
+  "external_libraries": 0
+}

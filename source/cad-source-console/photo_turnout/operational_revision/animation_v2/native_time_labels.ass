@@ -1,0 +1,99 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 450
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Native,DejaVu Sans,16,&H00FFFFFF,&H00FFFFFF,&H90000000,&H90000000,0,0,0,0,100,100,0,0,3,1,0,7,14,14,10,1
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.08,Native,,0,0,0,,V2 recorded native poses | t=0.00000s | step 0 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:00.08,0:00:00.16,Native,,0,0,0,,V2 recorded native poses | t=0.02080s | step 416 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:00.16,0:00:00.25,Native,,0,0,0,,V2 recorded native poses | t=0.04155s | step 831 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:00.25,0:00:00.33,Native,,0,0,0,,V2 recorded native poses | t=0.06235s | step 1247 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:00.33,0:00:00.41,Native,,0,0,0,,V2 recorded native poses | t=0.08315s | step 1663 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:00.41,0:00:00.50,Native,,0,0,0,,V2 recorded native poses | t=0.10395s | step 2079 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:00.50,0:00:00.58,Native,,0,0,0,,V2 recorded native poses | t=0.12470s | step 2494 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:00.58,0:00:00.66,Native,,0,0,0,,V2 recorded native poses | t=0.14550s | step 2910 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:00.66,0:00:00.75,Native,,0,0,0,,V2 recorded native poses | t=0.16630s | step 3326 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:00.75,0:00:00.83,Native,,0,0,0,,V2 recorded native poses | t=0.18710s | step 3742 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:00.83,0:00:00.91,Native,,0,0,0,,V2 recorded native poses | t=0.20785s | step 4157 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:00.91,0:00:01.00,Native,,0,0,0,,V2 recorded native poses | t=0.22865s | step 4573 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:01.00,0:00:01.08,Native,,0,0,0,,V2 recorded native poses | t=0.24945s | step 4989 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:01.08,0:00:01.16,Native,,0,0,0,,V2 recorded native poses | t=0.27020s | step 5404 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:01.16,0:00:01.25,Native,,0,0,0,,V2 recorded native poses | t=0.29100s | step 5820 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:01.25,0:00:01.33,Native,,0,0,0,,V2 recorded native poses | t=0.31180s | step 6236 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:01.33,0:00:01.41,Native,,0,0,0,,V2 recorded native poses | t=0.33260s | step 6652 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:01.41,0:00:01.50,Native,,0,0,0,,V2 recorded native poses | t=0.35335s | step 7067 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:01.50,0:00:01.58,Native,,0,0,0,,V2 recorded native poses | t=0.37415s | step 7483 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:01.58,0:00:01.66,Native,,0,0,0,,V2 recorded native poses | t=0.39495s | step 7899 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:01.66,0:00:01.75,Native,,0,0,0,,V2 recorded native poses | t=0.41575s | step 8315 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:01.75,0:00:01.83,Native,,0,0,0,,V2 recorded native poses | t=0.43650s | step 8730 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:01.83,0:00:01.91,Native,,0,0,0,,V2 recorded native poses | t=0.45730s | step 9146 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:01.91,0:00:02.00,Native,,0,0,0,,V2 recorded native poses | t=0.47810s | step 9562 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:02.00,0:00:02.08,Native,,0,0,0,,V2 recorded native poses | t=0.49890s | step 9978 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:02.08,0:00:02.16,Native,,0,0,0,,V2 recorded native poses | t=0.51965s | step 10393 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:02.16,0:00:02.25,Native,,0,0,0,,V2 recorded native poses | t=0.54045s | step 10809 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:02.25,0:00:02.33,Native,,0,0,0,,V2 recorded native poses | t=0.56125s | step 11225 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:02.33,0:00:02.41,Native,,0,0,0,,V2 recorded native poses | t=0.58200s | step 11640 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:02.41,0:00:02.50,Native,,0,0,0,,V2 recorded native poses | t=0.60280s | step 12056 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:02.50,0:00:02.58,Native,,0,0,0,,V2 recorded native poses | t=0.62360s | step 12472 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:02.58,0:00:02.66,Native,,0,0,0,,V2 recorded native poses | t=0.64440s | step 12888 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:02.66,0:00:02.75,Native,,0,0,0,,V2 recorded native poses | t=0.66515s | step 13303 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:02.75,0:00:02.83,Native,,0,0,0,,V2 recorded native poses | t=0.68595s | step 13719 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:02.83,0:00:02.91,Native,,0,0,0,,V2 recorded native poses | t=0.70675s | step 14135 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:02.91,0:00:03.00,Native,,0,0,0,,V2 recorded native poses | t=0.72755s | step 14551 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:03.00,0:00:03.08,Native,,0,0,0,,V2 recorded native poses | t=0.74830s | step 14966 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:03.08,0:00:03.16,Native,,0,0,0,,V2 recorded native poses | t=0.76910s | step 15382 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:03.16,0:00:03.25,Native,,0,0,0,,V2 recorded native poses | t=0.78990s | step 15798 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:03.25,0:00:03.33,Native,,0,0,0,,V2 recorded native poses | t=0.81065s | step 16213 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:03.33,0:00:03.41,Native,,0,0,0,,V2 recorded native poses | t=0.83145s | step 16629 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:03.41,0:00:03.50,Native,,0,0,0,,V2 recorded native poses | t=0.85225s | step 17045 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:03.50,0:00:03.58,Native,,0,0,0,,V2 recorded native poses | t=0.87305s | step 17461 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:03.58,0:00:03.66,Native,,0,0,0,,V2 recorded native poses | t=0.89380s | step 17876 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:03.66,0:00:03.75,Native,,0,0,0,,V2 recorded native poses | t=0.91460s | step 18292 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:03.75,0:00:03.83,Native,,0,0,0,,V2 recorded native poses | t=0.93540s | step 18708 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:03.83,0:00:03.91,Native,,0,0,0,,V2 recorded native poses | t=0.95620s | step 19124 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:03.91,0:00:04.00,Native,,0,0,0,,V2 recorded native poses | t=0.97695s | step 19539 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:04.00,0:00:04.08,Native,,0,0,0,,V2 recorded native poses | t=0.99775s | step 19955 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:04.08,0:00:04.16,Native,,0,0,0,,V2 recorded native poses | t=1.01855s | step 20371 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:04.16,0:00:04.25,Native,,0,0,0,,V2 recorded native poses | t=1.03935s | step 20787 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:04.25,0:00:04.33,Native,,0,0,0,,V2 recorded native poses | t=1.06010s | step 21202 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:04.33,0:00:04.41,Native,,0,0,0,,V2 recorded native poses | t=1.08090s | step 21618 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:04.41,0:00:04.50,Native,,0,0,0,,V2 recorded native poses | t=1.10170s | step 22034 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:04.50,0:00:04.58,Native,,0,0,0,,V2 recorded native poses | t=1.12245s | step 22449 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:04.58,0:00:04.66,Native,,0,0,0,,V2 recorded native poses | t=1.14325s | step 22865 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:04.66,0:00:04.75,Native,,0,0,0,,V2 recorded native poses | t=1.16405s | step 23281 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:04.75,0:00:04.83,Native,,0,0,0,,V2 recorded native poses | t=1.18485s | step 23697 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:04.83,0:00:04.91,Native,,0,0,0,,V2 recorded native poses | t=1.20560s | step 24112 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:04.91,0:00:05.00,Native,,0,0,0,,V2 recorded native poses | t=1.22640s | step 24528 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:05.00,0:00:05.08,Native,,0,0,0,,V2 recorded native poses | t=1.24720s | step 24944 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:05.08,0:00:05.16,Native,,0,0,0,,V2 recorded native poses | t=1.26800s | step 25360 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:05.16,0:00:05.25,Native,,0,0,0,,V2 recorded native poses | t=1.28875s | step 25775 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:05.25,0:00:05.33,Native,,0,0,0,,V2 recorded native poses | t=1.30955s | step 26191 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:05.33,0:00:05.41,Native,,0,0,0,,V2 recorded native poses | t=1.33035s | step 26607 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:05.41,0:00:05.50,Native,,0,0,0,,V2 recorded native poses | t=1.35110s | step 27022 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:05.50,0:00:05.58,Native,,0,0,0,,V2 recorded native poses | t=1.37190s | step 27438 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:05.58,0:00:05.66,Native,,0,0,0,,V2 recorded native poses | t=1.39270s | step 27854 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:05.66,0:00:05.75,Native,,0,0,0,,V2 recorded native poses | t=1.41350s | step 28270 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:05.75,0:00:05.83,Native,,0,0,0,,V2 recorded native poses | t=1.43425s | step 28685 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:05.83,0:00:05.91,Native,,0,0,0,,V2 recorded native poses | t=1.45505s | step 29101 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:05.91,0:00:06.00,Native,,0,0,0,,V2 recorded native poses | t=1.47585s | step 29517 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:06.00,0:00:06.08,Native,,0,0,0,,V2 recorded native poses | t=1.49665s | step 29933 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:06.08,0:00:06.16,Native,,0,0,0,,V2 recorded native poses | t=1.51740s | step 30348 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:06.16,0:00:06.25,Native,,0,0,0,,V2 recorded native poses | t=1.53820s | step 30764 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:06.25,0:00:06.33,Native,,0,0,0,,V2 recorded native poses | t=1.55900s | step 31180 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:06.33,0:00:06.41,Native,,0,0,0,,V2 recorded native poses | t=1.57980s | step 31596 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:06.41,0:00:06.50,Native,,0,0,0,,V2 recorded native poses | t=1.60055s | step 32011 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:06.50,0:00:06.58,Native,,0,0,0,,V2 recorded native poses | t=1.62135s | step 32427 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:06.58,0:00:06.66,Native,,0,0,0,,V2 recorded native poses | t=1.64215s | step 32843 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:06.66,0:00:06.75,Native,,0,0,0,,V2 recorded native poses | t=1.66290s | step 33258 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:06.75,0:00:06.83,Native,,0,0,0,,V2 recorded native poses | t=1.68370s | step 33674 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:06.83,0:00:06.91,Native,,0,0,0,,V2 recorded native poses | t=1.70450s | step 34090 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:06.91,0:00:07.00,Native,,0,0,0,,V2 recorded native poses | t=1.72530s | step 34506 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:07.00,0:00:07.08,Native,,0,0,0,,V2 recorded native poses | t=1.74605s | step 34921 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:07.08,0:00:07.16,Native,,0,0,0,,V2 recorded native poses | t=1.76685s | step 35337 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:07.16,0:00:07.25,Native,,0,0,0,,V2 recorded native poses | t=1.78765s | step 35753 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:07.25,0:00:07.33,Native,,0,0,0,,V2 recorded native poses | t=1.80845s | step 36169 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:07.33,0:00:07.41,Native,,0,0,0,,V2 recorded native poses | t=1.82920s | step 36584 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299
+Dialogue: 0,0:00:07.41,0:00:07.50,Native,,0,0,0,,V2 recorded native poses | t=1.85000s | step 37000 / 37000\N4.05x slow playback | scale 1 | runtime 3a7647fa1299

@@ -1,0 +1,1280 @@
+{
+  "schema": "gtsd-operational-change-manifest-v1",
+  "candidate_id": "operational_assembly_v1",
+  "base_commit": "7d0e9c0440e8226a2fa67ae1b9bbf1a4b52167d4",
+  "remove": [
+    {
+      "name": "DETAIL_BENCH_turnout_inner_left_segment",
+      "expected_geometry_witness_sha256": "2d3970c6ac3aa9d3b47f211b224ad20978a2e738ec40ce3b1ade65ad74b76831"
+    },
+    {
+      "name": "ENV_main_rail_1",
+      "expected_geometry_witness_sha256": "6f1b4aa295a5906ea3ce9c9124e4436bbf563bbb3df5f1c3cc40d04158a51552"
+    },
+    {
+      "name": "ENV_main_rail_top_1",
+      "expected_geometry_witness_sha256": "fe68b567629734dfe39e80ffdc499fdba6d67fd36544f527bf32391a51ddef46"
+    },
+    {
+      "name": "CAD_TRACK_REV_inner_right_native_xy",
+      "expected_geometry_witness_sha256": "25ddc2d414adb9d294487b2de85979745023862ef6c84de4e8833b2b436afbbc"
+    },
+    {
+      "name": "CAD_TRACK_REV_photo_chair_003_source_station",
+      "expected_geometry_witness_sha256": "09e8113e99dca8ffbefb70c3d07e577dbdfae3d9c59e68358fe19f0a6228609c"
+    },
+    {
+      "name": "CAD_TRACK_REV_photo_chair_005_source_station",
+      "expected_geometry_witness_sha256": "e5ca56a2f4cb1ebd9eb8065500067c5bc4201c80b085d9fa58470e98132a9607"
+    },
+    {
+      "name": "CAD_TRACK_REV_photo_chair_011_source_station",
+      "expected_geometry_witness_sha256": "fbf1d62601c99251aa14404729f61604a8588b64be8944dcf8ff8f7380ec3c09"
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_01_1",
+      "expected_geometry_witness_sha256": "986f7416f76916ac80bc1482485803b2f522f5ce0b3cd4c26ce29c2e38e47eac"
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_02_1",
+      "expected_geometry_witness_sha256": "445bdc82245224da36d5d3f0a15a9cf878039636e7426a4e7163cac92b56b68f"
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_05_2",
+      "expected_geometry_witness_sha256": "e34978cca126ebd036dc32acb6abcfe67429df0e435a70fd209b10e05de1970e"
+    },
+    {
+      "name": "FIT_TRACK_station03_common_support",
+      "expected_geometry_witness_sha256": "c599c935095294f86866c3ad408d3738ec511388bb23e0bbd2a666e9dfaba2a3"
+    },
+    {
+      "name": "ENV_fastener.002",
+      "expected_geometry_witness_sha256": "d33bc3443df5677e0cce3c57d32e527817909e1cde50ac85aed3fe752d8b6936"
+    },
+    {
+      "name": "ENV_fastener.003",
+      "expected_geometry_witness_sha256": "50c98aa560b1d331e91bf3a12229a1c94d7e25ea50f733009169d32f9236fe82"
+    },
+    {
+      "name": "ENV_fastener.006",
+      "expected_geometry_witness_sha256": "daee7b99f8fc49e5634ef5deeb037fbb9a6175c947318aa460578a1eea0779ba"
+    },
+    {
+      "name": "ENV_fastener.007",
+      "expected_geometry_witness_sha256": "3ca73756552c525f4c2904f4179d578cda8a6894fd12b330a2f4f72ee5c919e5"
+    },
+    {
+      "name": "ENV_fastener.010",
+      "expected_geometry_witness_sha256": "5045ba65e820a3672b64915e51209fe02757eb4672fcb51419b1219d414513d1"
+    },
+    {
+      "name": "ENV_fastener.011",
+      "expected_geometry_witness_sha256": "f61d99168e3aca0325fc273c2abd0236997c369e5ef33c734bec13beb200f13f"
+    },
+    {
+      "name": "ENV_fastener.014",
+      "expected_geometry_witness_sha256": "f77d4385019fab2beda62fe6555326e8aacfd4ec37c018980737b52e5692ea7d"
+    },
+    {
+      "name": "ENV_fastener.015",
+      "expected_geometry_witness_sha256": "be96890986c02d10b97c7e49c4fd7a3e9553e44ba8eff1d873f7dce23104eec2"
+    },
+    {
+      "name": "ENV_fastener.018",
+      "expected_geometry_witness_sha256": "593c259dc974d1b506e968abc62b7fdc516c47ec0a01f6ebacd88792e961d07e"
+    },
+    {
+      "name": "ENV_fastener.019",
+      "expected_geometry_witness_sha256": "d0c73abf5a70f54fdcf27508ee83a6e64ad2202bf44025a46658e49cd8d2c6b5"
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_00_1_-1",
+      "expected_geometry_witness_sha256": "8c683a45e8ddbcee4c4a1cff65e9c6c42db503e6e2334d7d9df80d12416badf8"
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_00_1_1",
+      "expected_geometry_witness_sha256": "200e2adf84a119f57458481e0bfa5f96b96996e9810427460d6798da057e5741"
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_01_1_-1",
+      "expected_geometry_witness_sha256": "cdc1d04fd67962b75bc2223499555410d317ae8556f15c4654eb6d61dbaa6832"
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_01_1_1",
+      "expected_geometry_witness_sha256": "53ec34fd393f97dd47096f51f10645589ffc2b217c8e5d45eb1888011afe6753"
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_1_-1",
+      "expected_geometry_witness_sha256": "63d2618233d84419010c685a287c6884336ca4ee4e35e8ee5ec42585fbf76053"
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_02_1_1",
+      "expected_geometry_witness_sha256": "93a84847fa362dc6793b44fa42032224ebe36af5a05c813903aaddc467407e6b"
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_2_-1",
+      "expected_geometry_witness_sha256": "b050513b475b311083493069ee7a3c6617230107103323b268eecb66303bbf89"
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_clip_05_2_1",
+      "expected_geometry_witness_sha256": "a647be5a7a801857c3d6a387bd4aacd469a1f82d1d76e2d7fb923487c593ffbf"
+    },
+    {
+      "name": "FIT_TRACK_clip_03_1_-1",
+      "expected_geometry_witness_sha256": "775a10d1e9d9327361154aec109bf497313186f35121d8afd408bf2958def804"
+    },
+    {
+      "name": "FIT_TRACK_clip_03_1_1",
+      "expected_geometry_witness_sha256": "3690880558cbf089dd0f93673c534d6f68bd3f02f1add3d78a7229bbc7da646c"
+    },
+    {
+      "name": "CAD_TRACK_REV_photo_chair_001_source_station",
+      "expected_geometry_witness_sha256": "4a0fc6faa7782335d78aa4d41341325b653d374102c9df1f9e35cb6344593f93"
+    },
+    {
+      "name": "CAD_TRACK_REV_branch_chair_00_1",
+      "expected_geometry_witness_sha256": "4230d04f390be0775eafee2b2c03641c96cea9ae0688b9331ed2888015a3929f"
+    }
+  ],
+  "add": [
+    {
+      "name": "PHOTO_FROG_source_finite_V",
+      "geometry_content_sha256": "b2e9b86b3edd87bf7b328aa0d4dafa52aeb55c752968bf0a8683735b8941005b"
+    },
+    {
+      "name": "PHOTO_WING_lower_source_chain",
+      "geometry_content_sha256": "8d61d07ce323f3f3b37b99fe22d98c60495ad71f36f1a01506f77dc7e853020d"
+    },
+    {
+      "name": "PHOTO_WING_upper_source_chain",
+      "geometry_content_sha256": "78f0e25de1f48fb333a6047890de0f8bcc6cf1f27cfb37df2bca3713d7f8e956"
+    },
+    {
+      "name": "PHOTO_RETAIN_right_ENV_main_rail_1",
+      "geometry_content_sha256": "ddc5092bca54e5c000ba7df8934d5083841616865efd0eafabf6e650a13569c0"
+    },
+    {
+      "name": "PHOTO_RETAIN_right_ENV_main_rail_top_1",
+      "geometry_content_sha256": "11c0ea9448482263440e666534e304f938a091dd775542a7378a8ff263b508ae"
+    },
+    {
+      "name": "PHOTO_RETAIN_right_CAD_TRACK_REV_inner_right_native_xy",
+      "geometry_content_sha256": "88d5f2b3a8a9762a826319fde12e53edba6e96e4101bf9881e3fb686079f83d6"
+    },
+    {
+      "name": "PHOTO_RETAIN_left_ENV_main_rail_1",
+      "geometry_content_sha256": "11a3f4ca4dc588cb9fd49c68563271911fae2030b7919ea4fba370030d3f1e9f"
+    },
+    {
+      "name": "PHOTO_RETAIN_left_ENV_main_rail_top_1",
+      "geometry_content_sha256": "fbb21aacbe55f9c2f14f751498bd6fd21f1cf4ccf7f40a738ab231a328893f38"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_seat_base",
+      "geometry_content_sha256": "ad55188ecbfac67dae21df498cd88486a10783ed9685e4beda4a619962d27833"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_seat_pocket",
+      "geometry_content_sha256": "94d70aa5c418d1872fd82a795bc8fe9a3d50811e704fbd7db58f017d5f1a9224"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_seat_upper",
+      "geometry_content_sha256": "5d5c80bab52ea55e41cb2485e95b015655bc0b304c8225ac825cb25618170483"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_toe_clamp",
+      "geometry_content_sha256": "f1e4cb295069c7c9dc6fcd8b083d1055221312cf3112025f89163716f1892318"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_captive_nut",
+      "geometry_content_sha256": "90f2beab8d38b8fc5df1fe8a4ece1de0a72ca1cfc771c3c06e18f4fc27ff4fa4"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_bolt_shank",
+      "geometry_content_sha256": "c699634cf899e14b0a3dee162d74d71857d623e3dfd89cb044fe05977a3c462a"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_washer",
+      "geometry_content_sha256": "d9278f46e55f1bf2969834886e2887d6ae44abd255b66d36e8a06d92c6bc3afc"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_lower_bolt_head",
+      "geometry_content_sha256": "e8fcbffa72e60ff45bc53633b90316201ea06ff4b97f3673e0eab4ad892f9134"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_seat_base",
+      "geometry_content_sha256": "bb6d7464190dcff87ab6bd54d70bd258e897d0344b8e30cdffdfd123289518f4"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_seat_pocket",
+      "geometry_content_sha256": "703fad963116554c73abc8c7bd5cae962e99764ede2781eae1bfa904384fd7f9"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_seat_upper",
+      "geometry_content_sha256": "7912bfe2a50525d03d8b394867747433fa578ec00b4586271db0ac217398b3e4"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_toe_clamp",
+      "geometry_content_sha256": "800c99ddf9ff121cb4202fd08e76af88dc89891b4905086bd58786b350ef2a06"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_captive_nut",
+      "geometry_content_sha256": "426ca15061b3c5d0fa494a14f8ef25eb771b37d67e0cc414eabbb4fe3b43f18d"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_bolt_shank",
+      "geometry_content_sha256": "8712681235bc3e96d1035a3535fd24be782e602db3b3bffa3987d932ee4bf50f"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_washer",
+      "geometry_content_sha256": "09c7791f60a4df8e1f1dbc473497eab4f5ea9bd599290ccb514773ec1d28ee78"
+    },
+    {
+      "name": "PHOTO_CLAMP_00_upper_bolt_head",
+      "geometry_content_sha256": "6da65c91c20fa630d688be66cc18df5520b3d4c8b94e968e589e72d4b858e926"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_seat_base",
+      "geometry_content_sha256": "65d6e06960b6e46df4d4b2f5c6eca5432a4781ed55893f5e876ffedf1cd0e9e7"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_seat_pocket",
+      "geometry_content_sha256": "b4f120275e641b63904144fd462dfe0ea4047bbf5de5bb950e2b6c79c76166e1"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_seat_upper",
+      "geometry_content_sha256": "3748388192b43031559b336cba438eaa230fb954c0beb820506ae143edbb58a0"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_toe_clamp",
+      "geometry_content_sha256": "43b747699ab0a19be1c0265ffcd4a07aa9494181bcc51b45acef379afc5aa066"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_captive_nut",
+      "geometry_content_sha256": "ee304ac50d63f64c3d5bf5dd6093464770595547054fac3455b35f0f39469e71"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_bolt_shank",
+      "geometry_content_sha256": "973bf66872de7b5dfb1ff3d800331c3e66271c7531fc0aab9d115c90f0a2b7d1"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_washer",
+      "geometry_content_sha256": "1e93c422f62eb33fac3bda5a591aef16b37cbbcce74ac16b3bd3b39039590abc"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_lower_bolt_head",
+      "geometry_content_sha256": "b64b0670a6a455308eec87aec2f3092e09021e489840ff8f8b88a388e6cf9851"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_seat_base",
+      "geometry_content_sha256": "5facc02182edd4e751b53289d1134b100a2cc80a9926faf59c239aa61c5133ca"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_seat_pocket",
+      "geometry_content_sha256": "e8e6c4cf6c893ba32544eee768d2bc6a73ee9d555e1f2e7cde4646ebd7d8aac1"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_seat_upper",
+      "geometry_content_sha256": "b1cb4b5d5826c18facb1dee5b728d296e3a35fc1b05030537ba1a226a886b5c2"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_toe_clamp",
+      "geometry_content_sha256": "7ca2685094d842e1cacfc42634b5094087ac2e4cecc403771050f5e5f86dd61f"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_captive_nut",
+      "geometry_content_sha256": "565c890d8ec74257d1577a67900b28b1ee9b0621594e765d832041ff6e28f2b6"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_bolt_shank",
+      "geometry_content_sha256": "9a01bbafb42b59cbcf22d33ac9a3f6dd777f403785f360dc278e05cb4b160dd0"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_washer",
+      "geometry_content_sha256": "d68f22ccded01efb790b632b7ce626c194ac6207fb6ba616405d99831f221bb2"
+    },
+    {
+      "name": "PHOTO_CLAMP_01_upper_bolt_head",
+      "geometry_content_sha256": "6a0b6a6d7c70bf7c0f3ddd4e65101b2824d0b85ed8f6cd92db27f1c88deca5cd"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_seat_base",
+      "geometry_content_sha256": "44bc8c8be4eda933fc419168f90ee5212e606c54e349af9c581b139711efd93a"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_seat_pocket",
+      "geometry_content_sha256": "739f56bb5a1d726043a5880fbd1abcf8edbe5f98c73ca78d79a69744ce27d383"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_seat_upper",
+      "geometry_content_sha256": "51d52d6edf8596f63a0499d124736dc32cc89f52ca50ec42133475ecfe440b63"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_toe_clamp",
+      "geometry_content_sha256": "81c1fe25609934ddb8521a0071143d30bed165e552248717debe98342306f084"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_captive_nut",
+      "geometry_content_sha256": "00d70f62feda426e5b18de7999444e1d13b2b51fcb5b8e0bda64f58edb80e1e5"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_bolt_shank",
+      "geometry_content_sha256": "890a3268a5868728bdf5ce93c4019af00330003a6d1d9b68d3c97a80702b2771"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_washer",
+      "geometry_content_sha256": "847bc53e7fd04a65dc8dbd7d00ff9f0b2126060cec2e4d4af74a7ef483a64df7"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_lower_bolt_head",
+      "geometry_content_sha256": "0f5f17cfdf3f38f11416104b636a0b0d684650f3c629ac876c09ad5351f4ba2a"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_seat_base",
+      "geometry_content_sha256": "41e32ca13168c9583418ea35f101bca41a411bffeddbb598f1d33cb42fe7f0d4"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_seat_pocket",
+      "geometry_content_sha256": "88ecdca906510cd364fc5e5a9ff1afb0084ba83acc0187fb42fc815bfb316032"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_seat_upper",
+      "geometry_content_sha256": "a05d286e19ee3ed584437f5c9e1d30a51877d984070c09349994b2ca9d914105"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_toe_clamp",
+      "geometry_content_sha256": "5cd8a184098f354a7967e8442f20c3dbd9d652f6f99d7ecbfb47178ab9d49d60"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_captive_nut",
+      "geometry_content_sha256": "5345cfc063b97a24153276725dfd6f4c37c4db9a7593e66c05307ed00c856b72"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_bolt_shank",
+      "geometry_content_sha256": "b83b09f3757e47f9de99024d81f42bc280d7a864c044fcbfdef780c85ee8000d"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_washer",
+      "geometry_content_sha256": "266d403533c445e0f551978d450e2d0384bf94318c1e093c799b3a6a39ed8b9a"
+    },
+    {
+      "name": "PHOTO_CLAMP_02_upper_bolt_head",
+      "geometry_content_sha256": "c7524c64b8f0d63ee3309ccdc33295cbc8a60711b691d3c161e1444ccbcde853"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_seat_base",
+      "geometry_content_sha256": "34fe74df2d37b612cea3c435b1fb79cbb940491b4848707f8ab4de6f343a34c2"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_seat_pocket",
+      "geometry_content_sha256": "4675e0cf7ce36409aadbcc506413cae7056db69be179cc823633f4f95d130098"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_seat_upper",
+      "geometry_content_sha256": "209a5cfff16733a4d0b4d6f75721150a168372170706beaea96bb0a2a13159b9"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_toe_clamp",
+      "geometry_content_sha256": "ce87d9808ba9e32e66b73b3300b17a968b301533aee3146fe5a75cab6648a1d6"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_captive_nut",
+      "geometry_content_sha256": "a6fcd33432afdd820221da81f699fb11bd81660f1f478dc451364457b46f85cd"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_bolt_shank",
+      "geometry_content_sha256": "e5c6fbceca0d37b900a3765b209af8cdf2d39465d8826e7a086efda0371e64ce"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_washer",
+      "geometry_content_sha256": "038b4c6a3dd8a1b6234523a290428c6de52c837d0e8319e0f9f68870eaf8960f"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_lower_bolt_head",
+      "geometry_content_sha256": "6382b5b720a94e9d551d38a54e3305969ef072a11d087a043478a2d6b51e418c"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_seat_base",
+      "geometry_content_sha256": "6bc5d37784b537ac323f72e371b460026eec6f6ef863c419e7bc01ee7f25603b"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_seat_pocket",
+      "geometry_content_sha256": "81962548f4b81e1bc2847ea6a3fbb6f83766fc489042a3295607ffdec3232c20"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_seat_upper",
+      "geometry_content_sha256": "6511cb6af07e32803fbbdeecf435b621018722dfde4fb768d99d4056245fdb2c"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_toe_clamp",
+      "geometry_content_sha256": "a72cceb2b7d53313221c3eb5c738496b6247083bfa3b819adf282883b0b0daf0"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_captive_nut",
+      "geometry_content_sha256": "a288fa3c4d388b7c4cff939c1897940a7b898a68072f2396e472d46fce12402b"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_bolt_shank",
+      "geometry_content_sha256": "367dfbe28cd02c5c25c6faca1164665b41551ff4bc93404b9d070ea27ae4b9e4"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_washer",
+      "geometry_content_sha256": "86eded7773f1e35be6ae61ca8a02c722cd07196d3a7c343fcc5ec9ff626e75a4"
+    },
+    {
+      "name": "PHOTO_CLAMP_03_upper_bolt_head",
+      "geometry_content_sha256": "c8b73d246c6d33ec5fa6e3182bdde4a3db38695f8185b9817f4112a2f5c9ada4"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_seat_base",
+      "geometry_content_sha256": "d95a641ab6fe95077fcd0abee5d6287d6eb26cfff0b98103fac670637e1b0c16"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_seat_pocket",
+      "geometry_content_sha256": "f820c885d95099c41ade5723f5071673adee26d50f52b1aab0579a6af108dc8e"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_seat_upper",
+      "geometry_content_sha256": "ad807f347fbf465ae90c2eea646a7c3953904bd087fd79ed24b1ded660546cbe"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_toe_clamp",
+      "geometry_content_sha256": "4aae65d86af144a9d1b69a8ed3d77bf0cc892169e4425555a3e9f3024df2d1ff"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_captive_nut",
+      "geometry_content_sha256": "e384463666cd9ef61c16b667aabc8d33324e7f614f8f6a6d7bc7290fa2d5b20b"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_bolt_shank",
+      "geometry_content_sha256": "74dc5772c406636176d1db1334b9d38a5f26ecc212ae56030d69900a9b57144f"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_washer",
+      "geometry_content_sha256": "b1851e4d23ab5f90c450534b3d8b69259c52af3c5aac5f65620f634e96d337e0"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_lower_bolt_head",
+      "geometry_content_sha256": "731865bc8da70280c2daf7d953155451b73bd4e4e8375e8231f25ff0644cdcd6"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_seat_base",
+      "geometry_content_sha256": "8636e1930a14037ab9a24ab0bacb6e876b2acc90257ed0bb5e35f0c73705fdcf"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_seat_pocket",
+      "geometry_content_sha256": "e4c6eb7a36522b415b73d880fa80defe63dd220a86a1d10ceff33922a0241bd7"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_seat_upper",
+      "geometry_content_sha256": "a72af4ed45250a7d2a797c7dddf38383677999eb2466fce9d89d7a24376d6fd6"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_toe_clamp",
+      "geometry_content_sha256": "e3c73748c852da535b343118fb28cffd79dc04fb157b582d1bb3097a5d84b95b"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_captive_nut",
+      "geometry_content_sha256": "47c877caf7a3900bd5a8b1189ce8e5e060e06e1c7c3104ae8b4bfb99d2d84a69"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_bolt_shank",
+      "geometry_content_sha256": "3c70d5eefc6c6d3b6445388c05b1dd8f404b706427261d60cfd1733cd4e98d5a"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_washer",
+      "geometry_content_sha256": "6725ce08862f9beaffe5f2cd171fe4aa41ce018f20cd68a2174f633a33469dbb"
+    },
+    {
+      "name": "PHOTO_CLAMP_04_upper_bolt_head",
+      "geometry_content_sha256": "4231fdd0a7e4aea70de82c95ec15827d6ef983b8ae0e9234316325bb42923d4e"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_seat_base",
+      "geometry_content_sha256": "aa540aa7d43abcdfcecb7f7fadcbd310fe915868a1adef11cf05d7eda01a8b0d"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_seat_pocket",
+      "geometry_content_sha256": "d6dc5b9dfc0b7a191ec54918f44a827baec3e1b7c3c2f1da0241dfb794780430"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_seat_upper",
+      "geometry_content_sha256": "28fce48bba219a417377c06644f6d8e8e2e9e6f754049d075be4ddf15967ea37"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_toe_clamp",
+      "geometry_content_sha256": "e09fb5c7921280b92db41e15de67bc72e31ff35ba9434fa9585fb9eb4a243176"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_captive_nut",
+      "geometry_content_sha256": "39204d22cde38e2988db59d3f735165977fd995c5dca06c74eeb49a56d75824d"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_bolt_shank",
+      "geometry_content_sha256": "be2a28c2ef4299f189495d3cc8e94ac3ccc911004ead990f4156376302a3973c"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_washer",
+      "geometry_content_sha256": "a616e487933b8e39178d6c76609716088eab41f8d94da2f3c6449d50c5844fea"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_lower_bolt_head",
+      "geometry_content_sha256": "0ed8c84edbfb8dc0e6d022c417100b8b6edac65d4482c837d41bdcab3736b618"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_seat_base",
+      "geometry_content_sha256": "f26008d5f09afb44affe612b6c0b5ee27b983b6675782bc476eaed7a1100af5b"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_seat_pocket",
+      "geometry_content_sha256": "7d38d4ac1a7f46d8538b2979e51562a7a5c69ae0fd40749d82a83d855a761b94"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_seat_upper",
+      "geometry_content_sha256": "c2220a7e8f0f75da7948683669635d2150a066f6b5da6d72854cdcd0f623bee1"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_toe_clamp",
+      "geometry_content_sha256": "a35298257afd71de8fc857863c484d3ad151b18fc552e63dc8b706ba865443ba"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_captive_nut",
+      "geometry_content_sha256": "7cc1908d383712d4fa9e5b3d1ac86975ebeb46f205a5dc58883736bd94b20573"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_bolt_shank",
+      "geometry_content_sha256": "7830d2eb97a8be6fb873f2be2b00d314c5e0218b8075094151d5aa8f1c3d3dc5"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_washer",
+      "geometry_content_sha256": "532e0fc602c1448823cbf8dd15a111776ba13ef4bc63e77a53f8868d2669f55b"
+    },
+    {
+      "name": "PHOTO_CLAMP_05_upper_bolt_head",
+      "geometry_content_sha256": "519f9b94de7696f826138d70b84f395a084f38a3d8147714c2a07accee5655a7"
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_long_plate",
+      "geometry_content_sha256": "dd16459cd8ed2130ca592c391c9a10585ddcde1d092895d9fe794b7dbbb795e7"
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_00",
+      "geometry_content_sha256": "1d7c548b38f8f83c4cc45bbdc6d529d4f4b6c3ec7c4adfa9fa634d5637027322"
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_01",
+      "geometry_content_sha256": "a7114b92125c998a32277321bade08488e6ef791117394f146399c416ccfe8e6"
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_02",
+      "geometry_content_sha256": "e900b3443bd9f85d1c327198292576dcb0e16675382ddc80c5f2e0f03b772295"
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_03",
+      "geometry_content_sha256": "b7dd2f767b9e34977efe59d6ff9555eb1c833d10469f2cd1ffdd3e3d13562dc9"
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_04",
+      "geometry_content_sha256": "80a3bbcc08103c6b57b20800e0de7a803a56914529488d8d08fa722bf7a3b036"
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_05",
+      "geometry_content_sha256": "6ddf942b72be9caa5d84f847e0e6616843c11d1aa5a693f5f6e6129f61de1ee9"
+    }
+  ],
+  "result_mesh_count": 2006,
+  "source_profile_remove_count": 67,
+  "source_profile_add_count": 141,
+  "source_inputs": {
+    "source_scene_sha256": "751ff0ac4ecf5b2351ebdd6d576cfdf6f043e9bfe8b8eff88c51a9d328ed661e",
+    "photo_profile_sha256": "8da87fe60f7ec2408f30c57ccb973bd1560a20ee84b0a5b3bf0007dcb2f5704d",
+    "photo_seed_sha256": "b9780aa6addeb126314a1855c6a28e11e777659bd1bc005bc7fe4acfaa4dfe73",
+    "hardware_meshes_sha256": "2edec055f582d9d52fd327d8c597da5908028a2071f5cf38c4fc6685eec307fc",
+    "native_edge_graph_sha256": "b467a648acc949e80eef1fa2638dbd9efaf80a97bbbcfb61f36c0bbbc73e167e"
+  },
+  "geometry_changes": [
+    {
+      "name": "PHOTO_FROG_source_finite_V",
+      "before_geometry_witness_sha256": "89b354d25b0f73f3c9d44fac8bfc2c3a87212d5717af6572434267d53a260c65",
+      "after_geometry_witness_sha256": "30fdb1038d8419665aba51cd5430b884a81e5887df21bbd3dc492c5c6aaea22c",
+      "before_volume_mm3": 1666882.2636141127,
+      "after_volume_mm3": 1666460.1440665221,
+      "removed_volume_mm3": 422.1195475904993,
+      "cut_plane_point_m": [
+        -9.469789418889508,
+        0.23916666666669334,
+        0.0
+      ],
+      "cut_plane_normal_world": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "keep_positive": true
+    },
+    {
+      "name": "PHOTO_RETAIN_left_ENV_main_rail_1",
+      "before_geometry_witness_sha256": "8bf52d3b29a89b583ecd6e514ed875a173bd0412f2b401d0b74250aca842d25c",
+      "after_geometry_witness_sha256": "56065fc9b4ea66f3574863454c6af301a8da188a2e0c822fc617b25ce6cecd07",
+      "before_volume_mm3": 2368.1762117241246,
+      "after_volume_mm3": 1910.6760250741768,
+      "removed_volume_mm3": 457.50018664994775,
+      "cut_plane_point_m": [
+        -9.470289418889507,
+        0.23916666666669334,
+        0.0
+      ],
+      "cut_plane_normal_world": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "keep_positive": false
+    },
+    {
+      "name": "PHOTO_RETAIN_left_ENV_main_rail_top_1",
+      "before_geometry_witness_sha256": "cba4390459df63f3f0984060b0519cf68f1b227620a3debc4de82e96e5292dc3",
+      "after_geometry_witness_sha256": "06a6f0e10abb746e2ff67f92ab0856869a8fb48df06f31e5c387e756e6d67b42",
+      "before_volume_mm3": 123.11532907670394,
+      "after_volume_mm3": 95.61533202020642,
+      "removed_volume_mm3": 27.499997056497524,
+      "cut_plane_point_m": [
+        -9.470289418889507,
+        0.23916666666669334,
+        0.0
+      ],
+      "cut_plane_normal_world": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "keep_positive": false
+    }
+  ],
+  "mounting_datums": [
+    {
+      "assembly": "PHOTO_CLAMP_00_lower",
+      "source_station": 0,
+      "source_handles": [
+        "4ED40"
+      ],
+      "source_sleeper_axis_world_mm": [
+        [
+          -9427.713467373807,
+          -416.66666666665685
+        ],
+        [
+          -9328.470086592857,
+          979.8113143166337
+        ]
+      ],
+      "rail_foot_envelope_section_z_mm": -62.0,
+      "exact_axis_foot_intersection_world_mm": [
+        -9381.105416179873,
+        239.16666666699996
+      ],
+      "outward_normal_xy": [
+        -0.0,
+        -1.0
+      ],
+      "rail_tangent_xy": [
+        1.0,
+        -0.0
+      ],
+      "bolt_center_world_xy_mm": [
+        -9381.105416179873,
+        227.16666666699996
+      ],
+      "toe_contact_top_of_foot_z_mm": -54.11475366154286,
+      "toe_contact_samples_z_mm": [
+        -54.11475366154286,
+        -54.50819649228404,
+        -54.70491790765463,
+        -54.11475366154286,
+        -54.50819649228404,
+        -54.70491790765463,
+        -54.11475366154286,
+        -54.50819649228404,
+        -54.70491790765463
+      ],
+      "attachment_version": "outside_foot_captive_seat_research",
+      "unresolved": "source station association exact; assembly type, offset, seat weld and dimensions unconfirmed"
+    },
+    {
+      "assembly": "PHOTO_CLAMP_00_upper",
+      "source_station": 0,
+      "source_handles": [
+        "4ED40"
+      ],
+      "source_sleeper_axis_world_mm": [
+        [
+          -9427.713467373807,
+          -416.66666666665685
+        ],
+        [
+          -9328.470086592857,
+          979.8113143166337
+        ]
+      ],
+      "rail_foot_envelope_section_z_mm": -62.0,
+      "exact_axis_foot_intersection_world_mm": [
+        -9374.183477724011,
+        336.56696241737404
+      ],
+      "outward_normal_xy": [
+        0.14141958469234706,
+        0.989949746737401
+      ],
+      "rail_tangent_xy": [
+        0.989949746737401,
+        -0.14141958469234706
+      ],
+      "bolt_center_world_xy_mm": [
+        -9372.486442707703,
+        348.44635937822284
+      ],
+      "toe_contact_top_of_foot_z_mm": -54.11475390374066,
+      "toe_contact_samples_z_mm": [
+        -54.11475390374066,
+        -54.50819657637519,
+        -54.70491791269244,
+        -54.11475393028671,
+        -54.50819660292124,
+        -54.704917939238484,
+        -54.11475395683276,
+        -54.50819662946729,
+        -54.70491796578453
+      ],
+      "attachment_version": "outside_foot_captive_seat_research",
+      "unresolved": "source station association exact; assembly type, offset, seat weld and dimensions unconfirmed"
+    },
+    {
+      "assembly": "PHOTO_CLAMP_01_lower",
+      "source_station": 1,
+      "source_handles": [
+        "4ED3F"
+      ],
+      "source_sleeper_axis_world_mm": [
+        [
+          -9233.892533315058,
+          -416.66666666665685
+        ],
+        [
+          -9134.649152534108,
+          979.8113143166337
+        ]
+      ],
+      "rail_foot_envelope_section_z_mm": -62.0,
+      "exact_axis_foot_intersection_world_mm": [
+        -9192.37168890616,
+        167.58333079
+      ],
+      "outward_normal_xy": [
+        -0.0,
+        -1.0
+      ],
+      "rail_tangent_xy": [
+        1.0,
+        -0.0
+      ],
+      "bolt_center_world_xy_mm": [
+        -9192.37168890616,
+        155.58333079
+      ],
+      "toe_contact_top_of_foot_z_mm": -57.40983451874927,
+      "toe_contact_samples_z_mm": [
+        -57.40983451874928,
+        -57.80327706032635,
+        -57.999998331114895,
+        -57.40983451874927,
+        -57.80327706032635,
+        -57.9999983311149,
+        -57.40983451874928,
+        -57.80327706032635,
+        -57.9999983311149
+      ],
+      "attachment_version": "outside_foot_captive_seat_research",
+      "unresolved": "source station association exact; assembly type, offset, seat weld and dimensions unconfirmed"
+    },
+    {
+      "assembly": "PHOTO_CLAMP_01_upper",
+      "source_station": 1,
+      "source_handles": [
+        "4ED3F"
+      ],
+      "source_sleeper_axis_world_mm": [
+        [
+          -9233.892533315058,
+          -416.66666666665685
+        ],
+        [
+          -9134.649152534108,
+          979.8113143166337
+        ]
+      ],
+      "rail_foot_envelope_section_z_mm": -62.0,
+      "exact_axis_foot_intersection_world_mm": [
+        -9177.223286440907,
+        380.7402216912782
+      ],
+      "outward_normal_xy": [
+        0.1414195890881551,
+        0.9899497461094363
+      ],
+      "rail_tangent_xy": [
+        0.9899497461094363,
+        -0.1414195890881551
+      ],
+      "bolt_center_world_xy_mm": [
+        -9175.52625137185,
+        392.6196186445914
+      ],
+      "toe_contact_top_of_foot_z_mm": -57.40983464104525,
+      "toe_contact_samples_z_mm": [
+        -57.40983464104525,
+        -57.80327710104939,
+        -57.99999833105146,
+        -57.40983464104868,
+        -57.80327710105282,
+        -57.9999983310549,
+        -57.40983464105212,
+        -57.80327710105626,
+        -57.999998331058336
+      ],
+      "attachment_version": "outside_foot_captive_seat_research",
+      "unresolved": "source station association exact; assembly type, offset, seat weld and dimensions unconfirmed"
+    },
+    {
+      "assembly": "PHOTO_CLAMP_02_lower",
+      "source_station": 2,
+      "source_handles": [
+        "4ED3B",
+        "4ED3C",
+        "4ED3D",
+        "4ED3E"
+      ],
+      "source_sleeper_axis_world_mm": [
+        [
+          -9040.071599256318,
+          -416.66666666665674
+        ],
+        [
+          -8945.554093750616,
+          913.3123628412436
+        ]
+      ],
+      "rail_foot_envelope_section_z_mm": -62.0,
+      "exact_axis_foot_intersection_world_mm": [
+        -8998.550754847403,
+        167.58333079
+      ],
+      "outward_normal_xy": [
+        -0.0,
+        -1.0
+      ],
+      "rail_tangent_xy": [
+        1.0,
+        -0.0
+      ],
+      "bolt_center_world_xy_mm": [
+        -8998.550754847403,
+        155.58333079
+      ],
+      "toe_contact_top_of_foot_z_mm": -57.40983451874927,
+      "toe_contact_samples_z_mm": [
+        -57.40983451874927,
+        -57.80327706032636,
+        -57.9999983311149,
+        -57.40983451874927,
+        -57.80327706032636,
+        -57.9999983311149,
+        -57.40983451874927,
+        -57.80327706032636,
+        -57.9999983311149
+      ],
+      "attachment_version": "outside_foot_captive_seat_research",
+      "unresolved": "source station association exact; assembly type, offset, seat weld and dimensions unconfirmed"
+    },
+    {
+      "assembly": "PHOTO_CLAMP_02_upper",
+      "source_station": 2,
+      "source_handles": [
+        "4ED3B",
+        "4ED3C",
+        "4ED3D",
+        "4ED3E"
+      ],
+      "source_sleeper_axis_world_mm": [
+        [
+          -9040.071599256318,
+          -416.66666666665674
+        ],
+        [
+          -8945.554093750616,
+          913.3123628412436
+        ]
+      ],
+      "rail_foot_envelope_section_z_mm": -62.0,
+      "exact_axis_foot_intersection_world_mm": [
+        -8985.350301960647,
+        353.3301448374207
+      ],
+      "outward_normal_xy": [
+        0.1414195890881551,
+        0.9899497461094363
+      ],
+      "rail_tangent_xy": [
+        0.9899497461094363,
+        -0.1414195890881551
+      ],
+      "bolt_center_world_xy_mm": [
+        -8983.65326689159,
+        365.2095417907339
+      ],
+      "toe_contact_top_of_foot_z_mm": -57.409834641112,
+      "toe_contact_samples_z_mm": [
+        -57.409834641112,
+        -57.80327710111614,
+        -57.99999833111821,
+        -57.40983464111544,
+        -57.803277101119576,
+        -57.999998331121645,
+        -57.40983464111887,
+        -57.80327710112301,
+        -57.999998331125084
+      ],
+      "attachment_version": "outside_foot_captive_seat_research",
+      "unresolved": "source station association exact; assembly type, offset, seat weld and dimensions unconfirmed"
+    },
+    {
+      "assembly": "PHOTO_CLAMP_03_lower",
+      "source_station": 3,
+      "source_handles": [
+        "4ED3A"
+      ],
+      "source_sleeper_axis_world_mm": [
+        [
+          -8846.250665197567,
+          -416.66666666665697
+        ],
+        [
+          -8751.733159691856,
+          913.3123628412432
+        ]
+      ],
+      "rail_foot_envelope_section_z_mm": -62.0,
+      "exact_axis_foot_intersection_world_mm": [
+        -8804.729820788649,
+        167.58333079
+      ],
+      "outward_normal_xy": [
+        -0.0,
+        -1.0
+      ],
+      "rail_tangent_xy": [
+        1.0,
+        -0.0
+      ],
+      "bolt_center_world_xy_mm": [
+        -8804.729820788649,
+        155.58333079
+      ],
+      "toe_contact_top_of_foot_z_mm": -57.40983451874927,
+      "toe_contact_samples_z_mm": [
+        -57.40983451874927,
+        -57.80327706032636,
+        -57.9999983311149,
+        -57.40983451874927,
+        -57.80327706032636,
+        -57.999998331114895,
+        -57.40983451874927,
+        -57.80327706032636,
+        -57.999998331114895
+      ],
+      "attachment_version": "outside_foot_captive_seat_research",
+      "unresolved": "source station association exact; assembly type, offset, seat weld and dimensions unconfirmed"
+    },
+    {
+      "assembly": "PHOTO_CLAMP_03_upper",
+      "source_station": 3,
+      "source_handles": [
+        "4ED3A"
+      ],
+      "source_sleeper_axis_world_mm": [
+        [
+          -8846.250665197567,
+          -416.66666666665697
+        ],
+        [
+          -8751.733159691856,
+          913.3123628412432
+        ]
+      ],
+      "rail_foot_envelope_section_z_mm": -62.0,
+      "exact_axis_foot_intersection_world_mm": [
+        -8793.477317480414,
+        325.920067983266
+      ],
+      "outward_normal_xy": [
+        0.14141958909179086,
+        0.9899497461089168
+      ],
+      "rail_tangent_xy": [
+        0.9899497461089168,
+        -0.14141958909179086
+      ],
+      "bolt_center_world_xy_mm": [
+        -8791.780282411313,
+        337.799464936573
+      ],
+      "toe_contact_top_of_foot_z_mm": -57.40983464111977,
+      "toe_contact_samples_z_mm": [
+        -57.40983464112735,
+        -57.80327710113149,
+        -57.999998331133554,
+        -57.40983464112356,
+        -57.803277101127705,
+        -57.99999833112977,
+        -57.40983464111977,
+        -57.80327710112391,
+        -57.99999833112598
+      ],
+      "attachment_version": "outside_foot_captive_seat_research",
+      "unresolved": "source station association exact; assembly type, offset, seat weld and dimensions unconfirmed"
+    },
+    {
+      "assembly": "PHOTO_CLAMP_04_lower",
+      "source_station": 4,
+      "source_handles": [
+        "4ED32",
+        "4ED33"
+      ],
+      "source_sleeper_axis_world_mm": [
+        [
+          -8652.429731138776,
+          -416.6666666666563
+        ],
+        [
+          -8560.275163270762,
+          880.0628871035373
+        ]
+      ],
+      "rail_foot_envelope_section_z_mm": -62.0,
+      "exact_axis_foot_intersection_world_mm": [
+        -8610.908886729883,
+        167.58333079
+      ],
+      "outward_normal_xy": [
+        -0.0,
+        -1.0
+      ],
+      "rail_tangent_xy": [
+        1.0,
+        -0.0
+      ],
+      "bolt_center_world_xy_mm": [
+        -8610.908886729883,
+        155.58333079
+      ],
+      "toe_contact_top_of_foot_z_mm": -57.40983451874927,
+      "toe_contact_samples_z_mm": [
+        -57.40983451874927,
+        -57.80327706032636,
+        -57.999998331114895,
+        -57.40983451874927,
+        -57.80327706032636,
+        -57.999998331114895,
+        -57.40983451874927,
+        -57.80327706032636,
+        -57.999998331114895
+      ],
+      "attachment_version": "outside_foot_captive_seat_research",
+      "unresolved": "source station association exact; assembly type, offset, seat weld and dimensions unconfirmed"
+    },
+    {
+      "assembly": "PHOTO_CLAMP_04_upper",
+      "source_station": 4,
+      "source_handles": [
+        "4ED32",
+        "4ED33"
+      ],
+      "source_sleeper_axis_world_mm": [
+        [
+          -8652.429731138776,
+          -416.6666666666563
+        ],
+        [
+          -8560.275163270762,
+          880.0628871035373
+        ]
+      ],
+      "rail_foot_envelope_section_z_mm": -62.0,
+      "exact_axis_foot_intersection_world_mm": [
+        -8601.604333000205,
+        298.5099911286968
+      ],
+      "outward_normal_xy": [
+        0.14141958909179086,
+        0.9899497461089168
+      ],
+      "rail_tangent_xy": [
+        0.9899497461089168,
+        -0.14141958909179086
+      ],
+      "bolt_center_world_xy_mm": [
+        -8599.907297931104,
+        310.3893880820038
+      ],
+      "toe_contact_top_of_foot_z_mm": -57.40983460311869,
+      "toe_contact_samples_z_mm": [
+        -57.40983461674341,
+        -57.80327710105823,
+        -57.99999833106029,
+        -57.40983460993105,
+        -57.80327710060976,
+        -57.9999983310565,
+        -57.40983460311869,
+        -57.803277093797405,
+        -57.999998331052716
+      ],
+      "attachment_version": "outside_foot_captive_seat_research",
+      "unresolved": "source station association exact; assembly type, offset, seat weld and dimensions unconfirmed"
+    },
+    {
+      "assembly": "PHOTO_CLAMP_05_lower",
+      "source_station": 5,
+      "source_handles": [
+        "4ED34",
+        "4ED35",
+        "4ED36",
+        "4ED37"
+      ],
+      "source_sleeper_axis_world_mm": [
+        [
+          -8458.608797080044,
+          -416.66666666665515
+        ],
+        [
+          -8366.454229212002,
+          880.0628871035366
+        ]
+      ],
+      "rail_foot_envelope_section_z_mm": -62.0,
+      "exact_axis_foot_intersection_world_mm": [
+        -8418.816070007533,
+        143.26656739638463
+      ],
+      "outward_normal_xy": [
+        -0.14141960592206415,
+        -0.9899497437046226
+      ],
+      "rail_tangent_xy": [
+        0.9899497437046226,
+        -0.14141960592206415
+      ],
+      "bolt_center_world_xy_mm": [
+        -8420.513105278598,
+        131.38717047192915
+      ],
+      "toe_contact_top_of_foot_z_mm": -57.409834521038235,
+      "toe_contact_samples_z_mm": [
+        -57.409834521038235,
+        -57.803277061003186,
+        -57.999998330985626,
+        -57.40983452104265,
+        -57.80327706100759,
+        -57.99999833099004,
+        -57.40983452104706,
+        -57.803277061012004,
+        -57.99999833099445
+      ],
+      "attachment_version": "outside_foot_captive_seat_research",
+      "unresolved": "source station association exact; assembly type, offset, seat weld and dimensions unconfirmed"
+    },
+    {
+      "assembly": "PHOTO_CLAMP_05_upper",
+      "source_station": 5,
+      "source_handles": [
+        "4ED34",
+        "4ED35",
+        "4ED36",
+        "4ED37"
+      ],
+      "source_sleeper_axis_world_mm": [
+        [
+          -8458.608797080044,
+          -416.66666666665515
+        ],
+        [
+          -8366.454229212002,
+          880.0628871035366
+        ]
+      ],
+      "rail_foot_envelope_section_z_mm": -62.0,
+      "exact_axis_foot_intersection_world_mm": [
+        -8408.003231423232,
+        295.416674296
+      ],
+      "outward_normal_xy": [
+        -0.0,
+        1.0
+      ],
+      "rail_tangent_xy": [
+        1.0,
+        0.0
+      ],
+      "bolt_center_world_xy_mm": [
+        -8408.003231423232,
+        307.416674296
+      ],
+      "toe_contact_top_of_foot_z_mm": -57.40983459250003,
+      "toe_contact_samples_z_mm": [
+        -57.40983459250003,
+        -57.80327708486845,
+        -57.99999833105266,
+        -57.40983459250003,
+        -57.80327708486845,
+        -57.99999833105266,
+        -57.40983459250003,
+        -57.80327708486845,
+        -57.99999833105266
+      ],
+      "attachment_version": "outside_foot_captive_seat_research",
+      "unresolved": "source station association exact; assembly type, offset, seat weld and dimensions unconfirmed"
+    }
+  ],
+  "support_contacts": [
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_00",
+      "retained_sleeper": "CAD_TRACK_REV_long_sleeper_00_native_axis",
+      "actual_contact_area_mm2": 9568.945457236041
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_01",
+      "retained_sleeper": "CAD_TRACK_REV_long_sleeper_01_native_axis",
+      "actual_contact_area_mm2": 20678.266640539325
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_02",
+      "retained_sleeper": "CAD_TRACK_REV_long_sleeper_02_native_axis",
+      "actual_contact_area_mm2": 19608.62998064141
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_03",
+      "retained_sleeper": "CAD_TRACK_REV_long_sleeper_03_native_axis",
+      "actual_contact_area_mm2": 18441.623241184858
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_04",
+      "retained_sleeper": "CAD_TRACK_REV_long_sleeper_04_native_axis",
+      "actual_contact_area_mm2": 17274.616501728226
+    },
+    {
+      "name": "PHOTO_HARDWARE_SUPPORT_pad_05",
+      "retained_sleeper": "CAD_TRACK_REV_long_sleeper_05_native_axis",
+      "actual_contact_area_mm2": 16075.687311427098
+    }
+  ],
+  "build_utc": "2026-10-14T02:26:11.831469+00:00",
+  "build_beijing": "2026-10-14T10:26:11.831469+08:00"
+}

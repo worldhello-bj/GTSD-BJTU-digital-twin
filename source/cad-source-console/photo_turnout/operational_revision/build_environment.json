@@ -1,0 +1,32 @@
+{
+  "schema": "gtsd-operational-build-environment-v1",
+  "platform": "Debian GNU/Linux 13 (trixie)",
+  "python": {
+    "version": "3.12.14",
+    "entry": "python"
+  },
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "GEOS": "3.13.1-CAPI-1.19.2",
+  "geos_c_soname": "libgeos_c.so.1",
+  "Blender": {
+    "version": "4.3.2",
+    "entry": "blender"
+  },
+  "single_thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "geometry_entrypoints": [
+    "build_operational.py",
+    "audit_operational.py",
+    "test_operational.py"
+  ],
+  "native_entrypoints": [
+    "render_operational.py",
+    "verify_native.py",
+    "audit_native_images.py",
+    "render_native_state.py"
+  ],
+  "package_installation_performed": false
+}
